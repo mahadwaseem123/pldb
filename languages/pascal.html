@@ -1,0 +1,1271 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>Pascal - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="Pascal"></meta>
+  <meta property="og:description" content="Pascal is a pl created in 1970 by Niklaus Wirth."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="pascal.html">Pascal</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="pascal.html">Pascal</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">Pascal is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1970">1970</a> by <a href="../lists/creators.html#Niklaus_Wirth">Niklaus Wirth</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#27<span><span title="TotalRank: 89 Jobs: 62 Users: 172 Facts: 19 Links: 8">on PLDB</span></span></td>
+<td>52<span>Years Old</span></td>
+<td>5.9k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>145<span><span title="Books about or leveraging Pascal">Books</span></span></td>
+<td>21<span><span title="Academic publications about or leveraging Pascal">Papers</span></span></td>
+<td>49k<span><span title="Pascal repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/pascal">Riju</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `unit output;\n\ninterface\n\nfunction Square(const num: Integer): Integer;\n\nimplementation\n\n// Type your code here, or load an example.\n\nfunction Square(const num: Integer): Integer;\nbegin\n    Square := num * num;\nend;\n\nend.\n`,
+        language: 'pascal',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Pascal is an imperative and procedural programming language, which Niklaus Wirth designed in 1968–69 and published in 1970, as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named in honor of the French mathematician, philosopher and physicist Blaise Pascal. Pascal was developed on the pattern of the ALGOL 60 language. <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)">Pascal Wikipedia page</a></li>
+<li>There are at least 49,346 Pascal repos on <a href="https://github.com/search?q=language:Pascal">GitHub</a></li>
+<li>Pascal first developed in <a href="../lists/originCommunities.html#ETH_Zürich">ETH Zürich</a></li>
+<li>file extensions for Pascal include pp, pas, inc, dfm, dpr, lpr and pascal</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 8k users using Pascal in 10k repos on <a href="https://api.github.com/search/repositories?q=language:Pascal">GitHub</a></li>
+<li>There are 710 <a href="https://projecteuler.net/language=Pascal">Project Euler</a> users using Pascal</li>
+<li>Explore Pascal snippets on <a href="http://www.rosettacode.org/wiki/Category:Pascal">Rosetta Code</a></li>
+<li>Pascal is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a></li>
+<li>Pascal is listed on <a href="https://hopl.info/showlanguage.prx?exp=520">HOPL</a></li>
+<li>Pascal appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/fp-compiler">Ubuntu package</a> for Pascal</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/pascal">grammar</a> for Pascal</li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/pascal">package</a> for syntax highlighting Pascal</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/pascal">package</a> for syntax highlighting Pascal</li>
+<li>GitHub supports <a href="https://github.com/textmate/pascal.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Pascal</li>
+<li>Pascal appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>See also: <a href="delphi.html">Delphi</a>, <a href="free-pascal.html">Free Pascal</a>, <a href="turbo-pascal.html">Turbo Pascal</a>, <a href="ucsd-pascal.html">UCSD Pascal</a>, <a href="algol-w.html">ALGOL W</a>, <a href="ada.html">Ada</a>, <a href="go.html">Go</a>, <a href="java.html">Java</a>, <a href="modula.html">Modula</a>, <a href="modula-2.html">Modula-2</a>, <a href="modula-3.html">Modula-3</a>, <a href="oberon.html">Oberon</a>, <a href="object-pascal.html">Object Pascal</a>, <a href="oxygene.html">Oxygene</a>, <a href="seed7.html">Seed7</a>, <a href="algol-60.html">ALGOL 60</a>, <a href="euler.html">Euler</a>, <a href="lisp.html">Lisp</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="assembly-language.html">Assembly language</a>, <a href="tex.html">Tex</a>, <a href="simula.html">Simula</a>, <a href="fortran.html">Fortran</a>, <a href="watcom.html">Watcom</a>, <a href="c.html">C</a>, <a href="x86-isa.html">X86</a>, <a href="ip-pascal.html">IP Pascal</a>, <a href="csharp.html">C#</a>, <a href="algol.html">Algol</a>, <a href="pl-i.html">PL/I</a>, <a href="ios.html">iOS</a>, <a href="android.html">Android</a>, <a href="unicode.html">Unicode</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/pascal">Improve our Pascal file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:</div>
+<code class="scrollCodeBlockComponent">unit output;
+
+interface
+
+function Square(const num: Integer): Integer;
+
+implementation
+
+// Type your code here, or load an example.
+
+function Square(const num: Integer): Integer;
+begin
+    Square := num * num;
+end;
+
+end.
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/pascal'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">program Main;
+begin
+   writeln(&#39;Hello, world!&#39;);
+end.
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/p/Pascal.p'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">program HelloWorld(output);
+begin
+        writeln(&#39;Hello World&#39;);
+end.
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Pascal'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">{Hello World in Pascal}
+
+program HelloWorld(output);
+begin
+  WriteLn(&#39;Hello World!&#39;);
+end.
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/textmate/pascal.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">uses
+  uw27294;
+
+var
+  p : procedure;
+
+procedure test;
+
+begin
+  p:=@test;
+  writeln(&#39;OK&#39;);
+end;
+
+procedure global;
+begin
+  p:=nil;
+  test;
+  p();
+end;
+
+begin
+  global;
+  uw27294.global;
+end.
+
+
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/Pascal_(programming_language)'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">program Printing;
+
+var i : integer;
+
+procedure Print(j : integer);
+begin
+  ...
+end;
+
+begin { main program }
+  ...
+  Print(i);
+end.</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=pascal">Keywords</a> in Pascal</h4>
+<p class="scrollParagraphComponent">* + - / := < <= <> = > >= and begin boolean break byte continue div do double else end false if integer longint mod not or repeat shl shortint shr single then true until while word xor</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/booleans-feature.html">Booleans</a></td>
+<td>✓</td>
+<td></td>
+<td>true false</td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td></td>
+<td>'</td>
+</tr>
+<tr><td><a href="../languages/assignment-feature.html">Assignment</a></td>
+<td>✓</td>
+<td></td>
+<td>:=</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td></td>
+<td>writeln</td>
+</tr>
+<tr><td><a href="../languages/function-overloading-feature.html">Function Overloading</a></td>
+<td>✓</td>
+<td><pre>program Adhoc;
+
+function Add(x, y : Integer) : Integer;
+begin
+    Add := x + y
+end;
+
+function Add(s, t : String) : String;
+begin
+    Add := Concat(s, t)
+end;
+
+begin
+    Writeln(Add(1, 2));                   (* Prints "3"             *)
+    Writeln(Add('Hello, ', 'World!'));    (* Prints "Hello, World!" *)
+end.</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>(* A comment
+*)</pre></td>
+<td>{ }</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre>{ This is a single line comment in pascal. But needs to be closed. }</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/polymorphism-feature.html">Polymorphism</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/case-sensitivity-feature.html">Case Sensitivity</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/operator-overloading-feature.html">Operator Overloading</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Pascal from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780256126662">Structures and Abstractions: An Introduction to Computer Science With Pascal</a></td>
+<td>Salmon, William I.</td>
+<td>1993</td>
+<td>Richard d Irwin</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780669072396">Pascal Plus Data Structures, Algorithms, and Advanced Programming</a></td>
+<td>Dale, Nell B. and Lilly, Susan C.</td>
+<td>1985</td>
+<td>D C Heath & Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201103427">Software Tools in Pascal</a></td>
+<td>Kernighan, Brian W.</td>
+<td>1981</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780340645888">Pascal for Students (including Turbo Pascal)</a></td>
+<td>Kemp, Ray and Hahn, Brian</td>
+<td>1995</td>
+<td>Butterworth-Heinemann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780675207706">Introduction To Structured Programming Using Turbo Pascal Version 5.0 On The Ibm Pc</a></td>
+<td>Kenneth J. Morgan</td>
+<td>1990</td>
+<td>Merrill Pub Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780691081045">The Computer from Pascal to von Neumann</a></td>
+<td>Goldstine, Herman H.</td>
+<td>1972</td>
+<td>Princeton University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078812835">Advanced Turbo Pascal: Now Includes Borland's Turbo Pascal Database Toolbox and Turbo Pascal Graphix Toolbox (Programming Series)</a></td>
+<td>Schildt, Herbert</td>
+<td>1987</td>
+<td>Lewis Osborne Book Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471502616">Pascal and Beyond...: Data Abstraction and Data Structures Using Turbo Pascal</a></td>
+<td>Fisher, Steve and Reges, Stuart</td>
+<td>1992</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201565430">Programming in Oberon: Steps Beyond Pascal and Modula</a></td>
+<td>Reiser, Martin and Wirth, Niklaus</td>
+<td>1992</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780226075075">Pascal Programming for Music Research</a></td>
+<td>Brinkman, Alexander R.</td>
+<td>1990</td>
+<td>University of Chicago Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201120707">Programming in Pascal</a></td>
+<td>Grogono, Peter</td>
+<td>1984</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471025429">An Introduction to Programming and Problem Solving with Pascal</a></td>
+<td>Schneider, G. Michael</td>
+<td>1978</td>
+<td>John Wiley & Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137304585">Programming With Data Structures, Pascal Version</a></td>
+<td></td>
+<td></td>
+<td>London : Prentice-hall International, C1989.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763706081">Turbo Pascal (Computer Science Series))</a></td>
+<td>Dale, Nell</td>
+<td>1997</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782111514">Programming in Borland Pascal</a></td>
+<td>Palmer, Scott D.</td>
+<td>1993</td>
+<td>Sybex Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780064602013">Programming in PASCAL</a></td>
+<td>Zwass and Vladimir</td>
+<td>1985</td>
+<td>New York : Barnes & Noble, c1985.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780835954365">Pascal Programming For The Ibm Pc And Xt</a></td>
+<td>William M. Fuori</td>
+<td>1985</td>
+<td>Reston Pub Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780835954556">Pascal Programming For The Apple</a></td>
+<td>T. G Lewis</td>
+<td>1981</td>
+<td>Reston Pub. Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780153591105">Computer Programming In The Pascal Language</a></td>
+<td>Neal Golden</td>
+<td>1988</td>
+<td>Harcourt Brace Jovanovich</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780673463340">Object-oriented Programming With Turbo Pascal</a></td>
+<td>Keith Weiskamp and Bryan Flamig and Loren Heiny</td>
+<td>1991</td>
+<td>Addison Wesley School</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780486453538">Discrete Optimization Algorithms: with Pascal Programs (Dover Books on Computer Science)</a></td>
+<td>Syslo, Maciej M. and Deo, Narsingh and Kowalik, Janusz S.</td>
+<td>2006</td>
+<td>Dover Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780826454294">Pascal Programming</a></td>
+<td>Holmes</td>
+<td>2000</td>
+<td>Thomson Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137292387">Programming With Data Structures: Pascal Version/Book and Disk</a></td>
+<td>Kruse, Robert L.</td>
+<td>1989</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558282476">Borland Pascal with Objects 7.0</a></td>
+<td>Jose DeJesus</td>
+<td>1993</td>
+<td>MIS Press,U.S.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780931717413">A Guide To Programming In Turbo Pascal</a></td>
+<td>Bruce Presley and Tim Corica</td>
+<td>1986</td>
+<td>Lawrenceville Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201117363">Problem solving and structured programming in Pascal</a></td>
+<td>Koffman, Elliot B</td>
+<td>1985</td>
+<td>Addison-Wesley Pub. Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780830699346">Pascal</a></td>
+<td>Heiserman, David L.</td>
+<td>1980</td>
+<td>Tab Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521269346">Recursion via Pascal (Cambridge Computer Science Texts, Series Number 19)</a></td>
+<td>Rohl</td>
+<td>1984</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558511071">Fractal Programming In Turbo Pascal</a></td>
+<td>Roger T. Stevens</td>
+<td>1992</td>
+<td>M & T Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781870941655">Pascal Programming (complete Course Texts)</a></td>
+<td>B.j. Holmes</td>
+<td>1990</td>
+<td>Thomson Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780333322949">Mastering Pascal Programming (Macmillan Master)</a></td>
+<td>Huggins, Eric</td>
+<td>1983</td>
+<td>Palgrave</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471293743">Mastering C++: An Introduction To C++ And Object-oriented Programming For C And Pascal Programmers Second Edition And Engineering Fluid Mechanics, Sixth Edition</a></td>
+<td>Horstmann and Cay S. Horstmann and John A. Roberson and Clayton T. Crowe</td>
+<td>1997</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780812027990">Computer Programming in Pascal the Easy Way</a></td>
+<td>Downing, Douglas and Yoshimi, Mark</td>
+<td>1984</td>
+<td>Barrons Educational Series Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201043983">Introduction to Computer Science With Applications in Pascal</a></td>
+<td>Garland, Stephen</td>
+<td>1986</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780835954631">Pascal programming structures: An introduction to systematic programming</a></td>
+<td>Cherry, George William</td>
+<td>1980</td>
+<td>Reston Pub. Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201074000">Programming Primer: A Graphic Introduction To Computer Programming With Basic And Pascal</a></td>
+<td>Robert P Taylor</td>
+<td>1982</td>
+<td>Addison-wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780314872548">Understanding Pascal</a></td>
+<td>Steven Mandell</td>
+<td></td>
+<td>West Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781556227066">Learn Pascal</a></td>
+<td>Abolrous, Sam</td>
+<td>2000</td>
+<td>Wordware Publishing, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780817637606">Scientific Pascal</a></td>
+<td>Flanders, Harley</td>
+<td>1995</td>
+<td>Birkhäuser</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780023412059">Programming In Pascal</a></td>
+<td>C. William Gear</td>
+<td>1983</td>
+<td>Sra</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780314445322">Programming Process With Pascal</a></td>
+<td>Judith L. Gersting</td>
+<td>1989</td>
+<td>West Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780895880918">Doing business with Pascal</a></td>
+<td>Hergert, Richard</td>
+<td>1983</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130225443">Structured Programming Turbo Pascal</a></td>
+<td>Horn</td>
+<td>1999</td>
+<td>Pearson Us Imports & Phipes</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780030972409">Abstractions & Programming in Turbo Pascal Flexlabs</a></td>
+<td>Shaffer and Dale and Platt and David C.</td>
+<td>1994</td>
+<td>Oxford University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780892180967">Challenging Mathematical Problems with Pascal Solutions</a></td>
+<td>Donald D. Spencer</td>
+<td>1988</td>
+<td>Camelot Publishing Company</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471277743">PASCAL Programming (Wiley Series in Computing)</a></td>
+<td>Atkinson, Laurence</td>
+<td>1980</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201165883">Pascal On The Macintosh: A Graphical Approach</a></td>
+<td>David A. Niguidula</td>
+<td>1987</td>
+<td>Addison-wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780153591129">Solution Key For Pascal Computer Programming 88</a></td>
+<td>Golden</td>
+<td>1988</td>
+<td>Henry Holt & Company</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781557551245">Turbo Pascal System Programming/book And Disk</a></td>
+<td>Michael Tischer</td>
+<td>1991</td>
+<td>Abacus Software Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780830617685">Programming your own adventure games in Pascal</a></td>
+<td>Richard C. Vile and Jr</td>
+<td>1984</td>
+<td>Blue Ridge Summit, Pa. : Tab Books, c1984.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201150094">Programming the IBM User Interface: Using Turbo Pascal</a></td>
+<td>Ezzell, Ben</td>
+<td>1989</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781871962321">The Windows Pascal Laboratory: Experiments In Windows Programming (programmers Library)</a></td>
+<td>Don Asumu Pdd</td>
+<td>1995</td>
+<td>I/o Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783527278305">Turbo Pascal For Chemists: A Problem Solving And Practical Approach</a></td>
+<td>Gordon-filby-m-klusmann</td>
+<td>1991</td>
+<td>Wiley-vch</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780830652051">Turbo Pascal Programming With Applications: Ibm Pc/book And 256k Disk</a></td>
+<td>Leon A. Wortman</td>
+<td>1986</td>
+<td>Tab Books Software</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078529085">Programming With Turbo Pascal (mcgraw-hill's Best--basic Engineering Series And Tools)</a></td>
+<td>Carroll, David W. (david William)</td>
+<td>1985</td>
+<td>1985</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781913132095">The Little Book Of Delphi Programming: Learn To Program with Object Pascal</a></td>
+<td>Collingbourne, Huw</td>
+<td>2020-02-24T00:00:01Z</td>
+<td>Dark Neon</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781556228056">Learn Pascal in Three Days</a></td>
+<td>Abolrous, Sam</td>
+<td>2001</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471082163">Introduction to Programming and Problem Solving with PASCAL</a></td>
+<td>Schneider, G. Michael and Weingart, Steven W. and Pearlman, David M.</td>
+<td>1982</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798554519963">Object Pascal Handbook Delphi 10.4 Sydney Edition: The Complete Guide to the Object Pascal programming language for Delphi 10.4 Sydney</a></td>
+<td>Cantu, Marco</td>
+<td>2021</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781507632529">Getting Started with Lazarus and Free Pascal: A beginners and intermediate guide to Free Pascal using Lazarus IDE</a></td>
+<td>Abiola-Ellison, Menkaura</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780080928708">Pascal for Students (including Turbo Pascal)</a></td>
+<td>Kemp, Ray and Hahn, Brian</td>
+<td>1995</td>
+<td>Butterworth-Heinemann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521375160">Numerical Recipes in Pascal (First Edition): The Art of Scientific Computing</a></td>
+<td>Press, William H. and Flannery, Brian P. and Teukolsky, Saul A. and Vetterling, William T.</td>
+<td>1989</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783945899311">Professional Programming From the Beginning: With Free Pascal And the Free Development Environment Lazarus</a></td>
+<td>Koch, Wilfried</td>
+<td>2020</td>
+<td>Oberkochener Medienverlag</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201175394">Intro Programming W/Macintosh Pascal</a></td>
+<td>PRITCHARD</td>
+<td>1988-01-11T00:00:01Z</td>
+<td>Pearson International</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780023887314">Pascal Programming and Problem Solving (4th Edition)</a></td>
+<td>Leestma, Sanford and Nyhoff, Larry</td>
+<td>1993</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780070239241">Schaum's Outline of Programming with Pascal</a></td>
+<td>Gottfried, Byron S.</td>
+<td>1994-01-01T00:00:01Z</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780805304183">Turbo Pascal 7.0 (4th Edition)</a></td>
+<td>Savitch, Walter J.</td>
+<td>1993</td>
+<td>Benjamin-Cummings Pub Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201027754">Programming in PASCAL</a></td>
+<td>Grogono, Peter</td>
+<td>1980</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471837442">Advanced Programming and Problem Solving with PASCAL</a></td>
+<td>Schneider, Michael and Bruell, Steven</td>
+<td>1987</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781556227196">Learn Object Pascal with Delphi</a></td>
+<td>Rachele, Warren</td>
+<td>2000</td>
+<td>Wordware Publishing, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201512397">Turbo Pascal</a></td>
+<td>Koffman, Elliot B.</td>
+<td>1994</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201570847">Macintosh Pascal Programming Primer: Inside the Toolbox Using Think Pascal</a></td>
+<td>Mark, Dave and Reed, Cartwright</td>
+<td>1991</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484261118">Delphi Quick Syntax Reference: A Pocket Guide to the Delphi and Object Pascal Language</a></td>
+<td>Kouraklis, John</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521336956">Illustrating Pascal</a></td>
+<td>Alcock, Donald G.</td>
+<td>1987</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780805331585">C++ for Pascal Programmers (2nd Edition)</a></td>
+<td>Pohl, Ira</td>
+<td>1995</td>
+<td>Benjamin-Cummings Pub Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780534943981">Using Turbo Pascal 6.0 - 7.0</a></td>
+<td>Hennefeld, Julien</td>
+<td>1994</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471078760">Advanced Programming and Problem Solving with Pascal</a></td>
+<td>Schneider, G. Michael</td>
+<td>1981</td>
+<td>John Wiley & Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131965010">Data Structures Using Pascal</a></td>
+<td>Augenstein, Moshe J.; Tenenbaum, Aaron M.</td>
+<td>1981</td>
+<td>Prentice-Hall Canada, Incorporated</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780387947303">Migrating from Pascal to C++ (Undergraduate Texts in Computer Science)</a></td>
+<td>Merritt, Susan N. and Stix, Allen</td>
+<td>1996</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780830607686">Programming your own adventure games in Pascal</a></td>
+<td>Vile, Richard C</td>
+<td>1984T</td>
+<td>Tab Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780387960487">Pascal User Manual and Report: Revised for the ISO Pascal Standard</a></td>
+<td>Jensen, Kathleen and Wirth, Niklaus</td>
+<td>1984</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780070238497">Schaum's Outline of Theory and Problems of Programming With Pascal (Schaum's Outline Series in Computers)</a></td>
+<td>Gottfried, Byron S.</td>
+<td>1985</td>
+<td>Mcgraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201350869">Turbo Pascal Update</a></td>
+<td>Koffman, Elliot B.</td>
+<td>1997</td>
+<td>Addison Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780810451247">PASCAL with style: Programming proverbs (Hayden computer programming series)</a></td>
+<td>Ledgard, Henry F</td>
+<td>1979</td>
+<td>Hayden Book Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780023694653">Data Structures and Program Design in Pascal</a></td>
+<td>Nyhoff, Larry R. and Leestma, Sanford</td>
+<td>1991</td>
+<td>Macmillan Coll Div</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201038934">Problem solving and structured programming in PASCAL (Addison-Wesley series in computer science and information processing)</a></td>
+<td>Koffman, Elliot B</td>
+<td>1981</td>
+<td>Addison-Wesley Pub. Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201416923">Pascal Precisely for Engineers and Scientists</a></td>
+<td>Bishop, Judy and Bishop, Nigel</td>
+<td>1990</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780914894735">Pascal an Introduction to Methodical Programming Edition</a></td>
+<td>Findlay, William</td>
+<td>1983</td>
+<td>Computer Science Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780713135459">Statistical Computing in Pascal</a></td>
+<td>Cooke, D. and Craven, A. H. and Clarke, G. M.</td>
+<td>1985-07-01T00:00:01Z</td>
+<td>Hodder Arnold</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780669069624">Introduction to Pascal and Structured Design</a></td>
+<td>Dale, Nell B.</td>
+<td>1983</td>
+<td>Houghton Mifflin College Div</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780070352247">Programming With Pascal</a></td>
+<td>Konvalina, John and Wileman, Stanley</td>
+<td>1987</td>
+<td>McGraw-Hill College</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780393962499">Oh! PASCAL!: Turbo PASCAL 6.0</a></td>
+<td>Cooper, Doug</td>
+<td>1992</td>
+<td>W. W. Norton & Company</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780387912165">Introduction to Numerical Computation in Pascal</a></td>
+<td>DEW/JAMES</td>
+<td>1983-06-30T00:00:01Z</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780531047484">Pascal for Beginners (Computer Literacy Skills Book)</a></td>
+<td>Lampton, Christopher</td>
+<td>1984</td>
+<td>Franklin Watts</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078814969">Using Turbo Pascal Version 5 (Programming Series)</a></td>
+<td>Wood, Steve</td>
+<td>1989-04-01T00:00:01Z</td>
+<td>Computing McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780340337288">Teach Yourself Computer Programming in Pascal (Teach Yourself)</a></td>
+<td>Lightfoot, D.</td>
+<td>1992</td>
+<td>Hodder & Stoughton Educational Division</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780534046026">From Pascal to C: An introduction to the C programming language</a></td>
+<td>Brown, Douglas L</td>
+<td>1985</td>
+<td>Wadsworth Pub. Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558511064">Fractal Programming in Turbo Pascal</a></td>
+<td>Stevens, Roger T.</td>
+<td>1990</td>
+<td>M & T Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471104278">Mastering C++: An Introduction to C++ and Object-Oriented Programming for C and Pascal Programmers</a></td>
+<td>Horstmann, Cay S.</td>
+<td>1995</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780205078233">A First Course in Programming With Pascal</a></td>
+<td>Mendelson, Bert</td>
+<td>1982</td>
+<td>William C Brown Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780314346292">Turbo Pascal Programming High School EDI</a></td>
+<td>Mandell, Steven L.</td>
+<td>1997</td>
+<td>West Publishing Company, College & School Div</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780534066789">Algorithms, Programming, Pascal</a></td>
+<td>Li Santi, Barbara</td>
+<td>1987</td>
+<td>Wadsworth Pub Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780905435817">PASCAL Programming</a></td>
+<td>Holmes, B.J.</td>
+<td>1987-06T</td>
+<td>Letts Educational</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780881341058">Advanced Pascal programming techniques</a></td>
+<td>Sand, Paul A</td>
+<td>1984T</td>
+<td>Osborne/McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780023998157">Programming in Pascal</a></td>
+<td>Riddle, Douglas F.</td>
+<td>1991</td>
+<td>Dellen Pub Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201156249">Software Design and Data Structures in Turbo Pascal</a></td>
+<td>Elliot B. Koffman and Bruce R. Maxim</td>
+<td>1994</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201055313">Advanced Programming: Design and Structure Using Pascal</a></td>
+<td>Miller, Lawrence H.</td>
+<td>1986-01-01T00:00:01Z</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780313252594">Pascal Programming for Libraries: Illustrative Examples for Information Specialists (Contributions in Librarianship and Information Science)</a></td>
+<td>Davis, Charles H. and Lundeen, Gerald and Shaw, Debora</td>
+<td>1988</td>
+<td>Praeger</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780914894452">Paradigms and programming with PASCAL</a></td>
+<td>Wood, Derick</td>
+<td>1984</td>
+<td>Computer Science Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471277736">PASCAL Programming (Computing Series)</a></td>
+<td>Atkinson, Laurence</td>
+<td>1980</td>
+<td>John Wiley & Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780314778062">Fundamental Programming With Pascal</a></td>
+<td>Starkey, J. Denbigh and Ross, Rockford J.</td>
+<td>1984</td>
+<td>West Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201117370">Problem Solving & Structured Programming in Pascal</a></td>
+<td>Koffman, Elliot B.</td>
+<td>1985</td>
+<td>Addison Wesley Publishing Company</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471889441">IEEE Standard Pascal Computer Programming Language</a></td>
+<td>American National Standards Institute and Institute of Electrical and Electronics Engineers</td>
+<td>1983T</td>
+<td>Distributed in cooperation with Wiley-Interscience</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521337144">Pascal Programming: A Beginner's Guide to Computers and Programming</a></td>
+<td>Hawksley, Chris</td>
+<td>1986</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780669248302">Pascal Plus data structures, algorithms, and advanced programming</a></td>
+<td>Dale, Nell B</td>
+<td>1991T</td>
+<td>D.C. Heath and Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788177641936">PASCAL Programming Fundamentals</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780256126679">Structures and Abstractions: An Introduction to Computer Science With Turbo Pascal (5.X, 6.X, 7.0)</a></td>
+<td>Salmon, William I.</td>
+<td>1996</td>
+<td>Richard d Irwin</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071133371">Programming with Pascal</a></td>
+<td>Sos Gottfried</td>
+<td>1994</td>
+<td>McGraw-Hill Education - Europe</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780314667823">Turbo Pascal With Turtle Graphics</a></td>
+<td>Slack, James M.</td>
+<td>1990</td>
+<td>PWS Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130938732">Programming with MacIntosh and THINK Pascal</a></td>
+<td>Rink, Richard A. and Wisenbaker, Vance B. and Vance, Richard G.</td>
+<td>1995</td>
+<td>Pearson College Div</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780273016496">Pocket Guide to Pascal (Pitman Programming Pocket Guides)</a></td>
+<td>Watt, David A</td>
+<td>1982T</td>
+<td>Pearson Higher Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137305407">Programming with Macintosh Pascal</a></td>
+<td>Rink, Richard A</td>
+<td>1989</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780697111739">Data Structures, Using Pascal</a></td>
+<td>Rhoads, Samuel E. and Gearen, Michael V.</td>
+<td>1992</td>
+<td>William C Brown Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780412233807">Pascal at Work and Play: An Introduction to Computer Programming in Pascal</a></td>
+<td>Forsyth, Richard</td>
+<td>1982</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780907679479">An Introduction to Pascal</a></td>
+<td>Morton, James K.</td>
+<td>1993</td>
+<td>Gardners Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521356619">Programming via Pascal (Cambridge Computer Science Texts, Series Number 12)</a></td>
+<td>Rohl, J. S. and Barrett, H. J.</td>
+<td>1990</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201142181">Handbook of Algorithms and Data Structures: Coded in Pascal and C (International Computer Science Series)</a></td>
+<td>Gonnet, Gaston H.</td>
+<td>1984-09-01T00:00:01Z</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780256103526">The Structures and Abstractions Labs: Experiments in Pascal and Turbo Pascal/Includes Disk</a></td>
+<td>Salmon</td>
+<td>1992</td>
+<td>CRC Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780314042064">Introduction to Computer Programming Using Turbo Pascal</a></td>
+<td>Johnson, Richard and Keil, David M.</td>
+<td>1994</td>
+<td>West Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471522577">Mastering C++: An Introduction to C++ and Object-Oriented Programming for C and Pascal Programmers</a></td>
+<td>Horstmann, Cay S.</td>
+<td>1991</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471875895">Introduction to Programming and Problem Solving with PASCAL</a></td>
+<td>Schneider, G. Michael</td>
+<td>1984</td>
+<td>John Wiley and Sons Ltd</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078529092">Programming with Turbo Pascal (A Byte book)</a></td>
+<td>David W Carroll</td>
+<td>1985</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780070335080">A First Course in Computer Programming Using Pascal (MCGRAW HILL COMPUTER SCIENCE SERIES)</a></td>
+<td>Keller, Arthur M.</td>
+<td>1982</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078815751">Turbo Pascal Disktutor/Book and 2 Disk (Borland-Osborne/McGraw-Hill Programming Series)</a></td>
+<td>Feibel, Werner</td>
+<td>1989-10-01T00:00:01Z</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470269398">Foundations of Programming with Pascal (New Patterns of Learning)</a></td>
+<td>Moore, Lawrie</td>
+<td>1980</td>
+<td>Ellis Horwood, Ltd.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201024739">Programming in Pascal (Addison-Wesley Series in Clinical and Professional Psycholog)</a></td>
+<td>Grogono, Peter</td>
+<td>1978</td>
+<td>Addison Wesley Publishing Company</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780669269604">Pascal Plus Data Structures, Algorithms and Advanced Programming/Book and 3 1/2' Disk</a></td>
+<td>Dale and LILLY</td>
+<td>1991</td>
+<td>D C Heath & Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780805304107">Turbo Pascal 4.0/5.0: An introduction to the art and science of programming (The Benjamin/Cummings series in structured programming)</a></td>
+<td>Savitch, Walter J</td>
+<td>1989T</td>
+<td>Benjamin/Cummings Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780314339355">Pascal Programming Today</a></td>
+<td>Mandell, Steven L.</td>
+<td>1987-06-01T00:00:01Z</td>
+<td>West Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780273017042">Simple Pascal Pb</a></td>
+<td>Mcgregor J</td>
+<td>1981</td>
+<td>Univ Coll Londo</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071005364">Programming with Pascal</a></td>
+<td>Konvalina, John; Wileman, Stanley</td>
+<td>1987T</td>
+<td>McGraw Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780024217912">Pascal Programming Problem Sol</a></td>
+<td>Turk</td>
+<td>1993-05-02T00:00:01Z</td>
+<td>Gale</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787302020042">PASCAL Programming (Second Edition)</a></td>
+<td>郑启华</td>
+<td>2003</td>
+<td>清华大学出版社</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780442213688">Programming microcomputers with PASCAL</a></td>
+<td>Beer, M. D</td>
+<td>1982</td>
+<td>Van Nostrand Reinhold Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780246116192">Programming Microcomputers with PASCAL</a></td>
+<td>Beer, Martin</td>
+<td>1982</td>
+<td>Van Nostrand,, New York:</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about Pascal from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/93442ec9b4403619bb1658bdee2c08026bf442ba">The programming language Concurrent Pascal</a></td>
+<td>P. B. Hansen</td>
+<td>1975</td>
+<td>532</td>
+<td>15</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ba75552c3468389d01220c149f24064bb10338e7">The programming language PASCAL</a></td>
+<td>J. Wakerly</td>
+<td>1979</td>
+<td>327</td>
+<td>39</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/19e6eccb0fae5321045d4491f3800c814945d629">An axiomatic definition of the programming language PASCAL</a></td>
+<td>C. Hoare and N. Wirth</td>
+<td>1972</td>
+<td>263</td>
+<td>14</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f93f7a8f3dccdde22d7e3947b93ea922c4e0e568">The programming language Concurrent Pascal</a></td>
+<td>P. Brinch-hansen</td>
+<td>1975</td>
+<td>153</td>
+<td>6</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d6ec6efe5a31898c8c8619b06a8982cec92fdf38">The programming language pascal</a></td>
+<td>N. Wirth</td>
+<td>1971</td>
+<td>57</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f64eed893989cdde76f61dc8a86174cb4f89a318">The programming language Pascal (Revised Report)</a></td>
+<td>N. Wirth</td>
+<td>1973</td>
+<td>55</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3b37c309943c908759e32c06af6274c7529ecb15">An assessment of the programming language pascal</a></td>
+<td>N. Wirth</td>
+<td>1975</td>
+<td>46</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/005103a0ada5d2c98e59ab4ba5c89b8c75e15258">Does programming language affect the type of conceptual bugs in beginners' programs? A comparison of FPL and Pascal</a></td>
+<td>N. Cunniff and R. Taylor and J. B. Black</td>
+<td>1986</td>
+<td>36</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/620fdc00e3920c0a71332a5d156024fbf4422cfb">Assessing the utility of an interactive electronic book for learning the Pascal programming language</a></td>
+<td>I. Aedo and P. Díaz and Camino Fernández and Guadalupe Muñoz and A. Berlanga</td>
+<td>2000</td>
+<td>36</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ae82d9933cd4cb9af02187792883e00cc0ecefa1">Structured programming, programming teaching and the language Pascal</a></td>
+<td>O. Lecarme</td>
+<td>1974</td>
+<td>19</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/bb490427ea1355bbdba234d4f7b93e1fdf0c679b">The Programming Language Pascal (Reprint)</a></td>
+<td>N. Wirth</td>
+<td>2002</td>
+<td>13</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/932a44b1054838f0bbec3ddf1600a45f65844210">Critical comments on the programming language Pascal</a></td>
+<td>A. Habermann</td>
+<td>1973</td>
+<td>13</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/29789bf619f319b34a2ae33bf312d4b5cbfd4190">Reply to a paper by A. N. Habermann on the programming language Pascal</a></td>
+<td>O. Lecarme and Pierre Desjardins</td>
+<td>1974</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2c3444137ac303d39e97e31326b7eba4b346ba4d">A heap‐based implementation of the programming language Pascal</a></td>
+<td>C. Marlin</td>
+<td>1979</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3d2ceb5b95bf3e844413b562758d65d583d9b9c7">PasOnto: Ontology for Learning Pascal Programming Language</a></td>
+<td>Baboucar Diatta and Adrien Basse and S. Ouya</td>
+<td>2019</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/47c3921931d60684bdb5d75b1ff27d6ab55d4736">More comments on the programming language Pascal</a></td>
+<td>O. Lecarme and Pierre Desjardins</td>
+<td>1975</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a368ad1295eca04ce8138f3335130df90a5357dd">Structured programming, programming teaching and the language Pascal</a></td>
+<td>O. Lecarme</td>
+<td>1974</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8906e39d1597cee47097d77930d6631933705475">Fast and robust approach for data security in communication channel using pascal matrix</a></td>
+<td>Oday Kamil Hamid and Riyadh Bassil Abduljabbar and N. Alhyani</td>
+<td>2020</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3d2dde6cb2987b66ceb9f9e632211056f8748d12">POLROB—a manipulator-level programming language based on Pascal</a></td>
+<td>K. Kozlowski</td>
+<td>1990</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8789b2adfc57dd99097e2ce58ac233a36d696f24">USING THE FREE PASCAL PROGRAMMING LANGUAGE AND THE RUBIROBOTLIB SOFTWARE LIBRARY TO CONTROL ROBOTS ON THE LEGO MINDSTORMS EV3 PLATFORM</a></td>
+<td>D. A. Slinkin</td>
+<td>2018</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c141b8a6ffe6c15fecb71433748031d59ba730f7">Implementation of the Programming Language Pascal</a></td>
+<td>R. Schild</td>
+<td>1972</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="lisp.html">lisp.html</a> · pascal.html · <a href="ada.html">ada.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/pascal.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,877 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>CSS - Stylesheet language</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="CSS"></meta>
+  <meta property="og:description" content="CSS, aka Cascading Style Sheets, is a stylesheet language created in 1996 by Håkon Wium Lie."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="css.html">CSS</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="css.html">CSS</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">CSS, aka Cascading Style Sheets, is a <a href="../lists/languages.html?filter=stylesheetLanguage">stylesheet language</a> created in <a href="../lists/languages.html?filter=1996">1996</a> by <a href="../lists/creators.html#Håkon_Wium_Lie">Håkon Wium Lie</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#22<span><span title="TotalRank: 63 Jobs: 7 Users: 6 Facts: 50 Links: 55">on PLDB</span></span></td>
+<td>26<span>Years Old</span></td>
+<td>2.9m<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>102<span><span title="Books about or leveraging CSS">Books</span></span></td>
+<td>2<span><span title="Academic publications about or leveraging CSS">Papers</span></span></td>
+<td>4m<span><span title="CSS repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://playcode.io/css/">Web</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `body::before {\n    content: "Hello World";\n}\n`,
+        language: 'css',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications. <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS Wikipedia page</a></li>
+<li>There are at least 4,446,834 CSS repos on <a href="https://github.com/search?q=language:CSS">GitHub</a></li>
+<li>CSS first developed in <a href="../lists/originCommunities.html#Conseil_Européen_pour_la_Recherche_Nucléaire">Conseil Européen pour la Recherche Nucléaire</a></li>
+<li>PLDB estimates there are currently 46k job openings for CSS programmers.</li>
+<li>file extensions for CSS include css</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 506k users using CSS in 809k repos on <a href="https://api.github.com/search/repositories?q=language:CSS">GitHub</a></li>
+<li>Check out the 963 <a href="https://www.meetup.com/topics/css/">CSS meetup groups</a> on Meetup.com.</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/css3">grammar</a> for CSS</li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/css">package</a> for syntax highlighting CSS</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/css">package</a> for syntax highlighting CSS</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/css.py">syntax highlighting</a> for CSS</li>
+<li>GitHub supports <a href="https://github.com/atom/language-css" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for CSS</li>
+<li>Indeed.com has 16,898 matches for <a href="https://www.indeed.com/jobs?q=css developer">"css developer"</a>.</li>
+<li>See also: <a href="html.html">HTML</a>, <a href="javascript.html">JavaScript</a>, <a href="webgl.html">WebGL</a>, <a href="xml.html">XML</a>, <a href="svg.html">SVG</a>, <a href="xpath.html">XPath</a></li>
+<li>Read more about CSS on the web: <a href="https://examples.p6c.dev/categories/parsers/CSSGrammar.html">1</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/css">Improve our CSS file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/CSS.css'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">body::before {
+    content: &quot;Hello World&quot;;
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Cascading'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">/* Hello World in CSS */
+body:before {
+    content: &quot;Hello World&quot;;
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/atom/language-css'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">/*!
+ * Bootstrap v2.3.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:&quot;&quot;;line-height:0;}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+a:hover,a:active{outline:0;}
+sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{max-width:100%;width:auto\9;height:auto;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+#map_canvas img,.google-maps img{max-width:none;}
+button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle;}
+button,input{*overflow:visible;line-height:normal;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0;}
+button,html input[type=&quot;button&quot;],input[type=&quot;reset&quot;],input[type=&quot;submit&quot;]{-webkit-appearance:button;cursor:pointer;}
+label,select,button,input[type=&quot;button&quot;],input[type=&quot;reset&quot;],input[type=&quot;submit&quot;],input[type=&quot;radio&quot;],input[type=&quot;checkbox&quot;]{cursor:pointer;}
+input[type=&quot;search&quot;]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield;}
+input[type=&quot;search&quot;]::-webkit-search-decoration,input[type=&quot;search&quot;]::-webkit-search-cancel-button{-webkit-appearance:none;}
+textarea{overflow:</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/Cascading_Style_Sheets'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">body {
+   overflow: hidden;
+   background: #000000;
+}</code>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"Hello world"</pre></td>
+<td>"</td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre>/* This is a single-line comment */ p { color: red; }</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>✓</td>
+<td><pre>@import 'custom.css';</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/functions-feature.html">Functions</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/disk-output-feature.html">Disk Output</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about CSS on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=HTML, XHTML & CSS for Dummies Ed Tittel">HTML, XHTML & CSS for Dummies</a></td>
+<td>Ed Tittel</td>
+<td>2008</td>
+<td>14</td>
+<td>109</td>
+<td>3.55</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about CSS from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780596101978">Head First Html With CSS & XHTML</a></td>
+<td>Eric Freeman and Elisabeth Freeman and Elisabeth Robson</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596155933">CSS Cookbook, 3rd Edition (Animal Guide)</a></td>
+<td>Christopher Schmitt</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780538746335">Blended Html, Xhtml, and CSS</a></td>
+<td>Henry Bojack</td>
+<td>2010</td>
+<td>Course Technology, Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590597323">Pro CSS Techniques (Expert's Voice)</a></td>
+<td>Rubin, Dan and Lloyd, Ian and Croft, Jeffrey</td>
+<td>2006</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321266910">DHTML and CSS Advanced: Visual QuickPro Guide</a></td>
+<td>Teague, Jason Cranford</td>
+<td>2004</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764557392">HTML, XHTML, and CSS Bible (Bible) 3rd Edition</a></td>
+<td>Pfaffenberger, Bryan and Schafer, Steven M. and White, Chuck and Karow, Bill</td>
+<td>2004</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764570780">Beginning Web Programming with HTML, XHTML, and CSS (Wrox Beginning Guides)</a></td>
+<td>Duckett, Jon</td>
+<td>2004</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071633178">HTML, XHTML & CSS QuickSteps</a></td>
+<td>Hart-Davis, Guy</td>
+<td>2009</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520676081">Programming: Python Programming, JAVA Programming, HTML and CSS Programming for Beginners</a></td>
+<td>Academy, iCode</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672331367">Sams Teach Yourself Web Publishing with HTML and CSS in One Hour a Day: Includes New HTML5 Coverage</a></td>
+<td>Lemay, Laura and Colburn, Rafe</td>
+<td>2010</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596554682">CSS Cookbook</a></td>
+<td>Christopher Schmitt</td>
+<td>20061017</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787284531">Enduring CSS</a></td>
+<td>Frain, Ben</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430264910">CSS Quick Syntax Reference</a></td>
+<td>Olsson, Mikael</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430203506">Beginning HTML with CSS and XHTML</a></td>
+<td>Craig Cook; David Schultz</td>
+<td>20071018</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484213476">Beginning CSS Preprocessors: With SASS, Compass.js and Less.js</a></td>
+<td>Prabhu, Anirudh</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430204794">The Essential Guide to CSS and HTML Web Design (Essentials)</a></td>
+<td>Grannell, Craig</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430232896">Pro CSS for High Traffic Websites (Expert's Voice in Web Design)</a></td>
+<td>Kennedy, Antony and de Leon, Inayaili</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430249849">CSS for Windows 8 App Development (Expert's Voice in Windows 8)</a></td>
+<td>Foster, Jeremy</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781839219795">Responsive Web Design with HTML5 and CSS: Develop future-proof responsive websites using the latest HTML5 and CSS techniques, 3rd Edition</a></td>
+<td>Frain, Ben</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098140991">Tailwind CSS</a></td>
+<td>Gerchev, Ivaylo</td>
+<td>2022</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798644382446">Coding for Kids Ages 9-15: Simple HTML, CSS and JavaScript lessons to get you started with Programming from Scratch</a></td>
+<td>Mather, Bob</td>
+<td>2020</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484262948">Modern CSS: Master the Key Concepts of CSS for Modern Web Development</a></td>
+<td>Attardi, Joe</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133980547">CSS Animations and Transitions for the Modern Web</a></td>
+<td>Bradley, Steven</td>
+<td>2014</td>
+<td>Adobe Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449373740">CSS Text: Styling Your Words</a></td>
+<td>Meyer, Eric A.</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798543586372">Coding for Absolute Beginners: Master the Basics of Computer Programming with Python, Java, SQL, C, C++, C#, HTML, and CSS</a></td>
+<td>Warner, Andrew</td>
+<td>2021</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133795189">HTML, CSS and JavaScript All in One, Sams Teach Yourself: Covering HTML5, CSS3, and jQuery</a></td>
+<td>Meloni, Julie C.</td>
+<td>2014</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470916599">HTML, XHTML and CSS For Dummies</a></td>
+<td>Tittel, Ed and Noble, Jeff</td>
+<td>2011</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638350590">Web Design Playground: HTML & CSS The Interactive Way</a></td>
+<td>McFedries, Paul</td>
+<td>2019</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593275754">Build an HTML5 Game: A Developer's Guide with CSS and JavaScript</a></td>
+<td>Bunyan, Karl</td>
+<td>2015</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491949467">Learning PHP, MySQL, JavaScript, CSS & HTML5: A Step-by-Step Guide to Creating Dynamic Websites</a></td>
+<td>Nixon, Robin</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781285414652">New Perspectives on Blended HTML and CSS Fundamentals: Introductory</a></td>
+<td>Bojack, Henry and Scollard, Sharon</td>
+<td>2012</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781541006225">Programming: Computer Programming For Beginners: Learn The Basics Of HTML5, JavaScript & CSS (Coding, C Programming, Java Programming, Web Design, JavaScript, Python, HTML and CSS)</a></td>
+<td>Connor, Joseph</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781981497805">Computer Programming For Beginners: Learn The Basics of Java, SQL, C, C++, C#, Python, HTML, CSS and Javascript</a></td>
+<td>Alvin, Cooper</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321765888">CSS for Print Designers</a></td>
+<td>Graffam, J. D.</td>
+<td>2011</td>
+<td>New Riders</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430223986">CSS Mastery: Advanced Web Standards Solutions</a></td>
+<td>Collison, Simon and Budd, Andy and Moll, Cameron</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520561400">HTML & CSS For Beginners: Your Step by Step Guide to Easily HtmL & Css Programming in 7 Days</a></td>
+<td>Academy, iCode</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781890774578">Murach's HTML, XHTML, and CSS</a></td>
+<td>Anne Boehm</td>
+<td>2010</td>
+<td>Mike Murach & Associates</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430219330">AdvancED CSS</a></td>
+<td>Lewis, Joe and Moscovitz, Meitar</td>
+<td>2009</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596527419">CSS Cookbook (Cookbooks (O'Reilly))</a></td>
+<td>Schmitt, Christopher</td>
+<td>2006</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071850216">CSS & CSS3: 20 Lessons to Successful Web Development: 20 Lessons to Successful Web Development [ENHANCED EBOOK]</a></td>
+<td>Nixon, Robin</td>
+<td>2015</td>
+<td>McGraw Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470259313">Beginning Web Programming with HTML, XHTML, and CSS</a></td>
+<td>Duckett, Jon</td>
+<td>2008</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470186275">HTML, XHTML, and CSS All-in-One Desk Reference For Dummies</a></td>
+<td>Harris, Andy and McCulloh, Chris</td>
+<td>2008</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781594960376">HTML, XHTML, CSS and XML by Example: A Practical Guide (By Example Series)</a></td>
+<td>Teodoru Gugoiu</td>
+<td>2005-07-01T00:00:01Z</td>
+<td>Teora USA, LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484233993">CSS Framework Alternatives: Explore Five Lightweight Alternatives to Bootstrap and Foundation with Project Examples</a></td>
+<td>Shenoy, Aravind and Prabhu, Anirudh</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781138911857">Introduction to Web Interaction Design: With HTML and CSS</a></td>
+<td>Macaulay, Michael</td>
+<td>2017</td>
+<td>Chapman and Hall/CRC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430216063">HTML and CSS Web Standards Solutions: A Web Standardistas' Approach</a></td>
+<td>Persson, Nicklas and Murphy, Christopher</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590597477">Beginning HTML with CSS and XHTML: Modern Guide and Reference (Beginning: from Novice to Professional)</a></td>
+<td>Cook, Craig and Schultz, David</td>
+<td>2007</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470227794">Beginning JavaScript and CSS Development with jQuery</a></td>
+<td>York, Richard</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781790591848">HTML, CSS & JavaScript for Complete Beginners: A Step by Step Guide to Learning HTML5, CSS3 and the JavaScript Programming Language</a></td>
+<td>Hawramani, Ikram</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470097540">Mastering Integrated HTML and CSS</a></td>
+<td>DeBolt, Virginia</td>
+<td>2007</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781423906513">New Perspectives on Blended HTML, XHTML, and CSS</a></td>
+<td>Bojack, Henry</td>
+<td>2007</td>
+<td>Thomson Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430225430">Getting StartED with CSS</a></td>
+<td>Powers, David</td>
+<td>2009</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470847046">JavaScript: A Programmer's Companion from Basic through DHTML, CSS and DOM</a></td>
+<td>Koch, Stefan</td>
+<td>2003</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781913151140">HTML & CSS for Beginners: Learn the Fundamentals of Computer Programming (1) (Essential Coding)</a></td>
+<td>Foster, Jo</td>
+<td>2020-02-28T00:00:01Z</td>
+<td>Elluminet Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130649959">Essential CSS and DHTML for Web Professionals (2nd Edition)</a></td>
+<td>Livingston, Dan</td>
+<td>2001</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781519536709">Html & CSS Programming: The Ultimate guide on How you can write Html and CSS in Under 10 Hours</a></td>
+<td>Dawson, Ted</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781690768128">You Are The Css To My Html: Size 6 x 9 inch - 120 Pages - Lined (Ruled) Notebook/Journal</a></td>
+<td>Journal, Programming and Coding Lovers</td>
+<td>2019-09-03T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787120570">Mastering CSS</a></td>
+<td>Rich Finelli</td>
+<td>43014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781304699787">Html & Css Programming Guide</a></td>
+<td>Ramasamy, Venkatesh</td>
+<td>2013</td>
+<td>lulu.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491930489">Table Layout in CSS</a></td>
+<td>Eric A. Meyer</td>
+<td>20160613</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781329461710">CSS Programming Professional Made Easy</a></td>
+<td>Key, Sam</td>
+<td>2015-08-21T00:00:01Z</td>
+<td>Lulu.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781090804709">Source Code: Path to Programming CSS</a></td>
+<td>Society, Source Code</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484221372">ASP.NET MVC with Entity Framework and CSS</a></td>
+<td>Lee Naylor</td>
+<td>20160912</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781803060545">HTML & CSS: The Simplified Beginners Guide to build your websites and Easily Html & CSS Programming in 7 Days</a></td>
+<td>Parker, Jacob</td>
+<td>2021</td>
+<td>Jacob Parker</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788126516971">Beginning Web Programming With Html, Xhtml, And Css</a></td>
+<td>Jon Duckett</td>
+<td>2008T</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781511454568">Python Programming In A Day & CSS Programming Professional Made Easy</a></td>
+<td>Key, Sam</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781517222819">C++ Programming Professional Made Easy & CSS Programming Professional Made Easy</a></td>
+<td>Key, Sam</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787302317999">HTML 5 and CSS 3 programming from basic to applied (with DVD-ROM disc 1)(Chinese Edition)</a></td>
+<td>ZHU HONG TAO . ZHAO XI LAI</td>
+<td>2014</td>
+<td>Tsinghua University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9782822409711">Css</a></td>
+<td>Fabien Basmaison; Antoine Cailliau</td>
+<td>20110223</td>
+<td>Hachette</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9782212850734">Css 2</a></td>
+<td>Raphaël Goetter</td>
+<td>2007</td>
+<td>Eyrolles</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430258643">CSS Mastery</a></td>
+<td>Andy Budd; Emil Björklund</td>
+<td>20160726</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470175071">Beginning Css</a></td>
+<td>Richard York</td>
+<td>2007</td>
+<td>Wiley & Sons, Incorporated, John</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449372767">CSS Secrets</a></td>
+<td>Lea Verou</td>
+<td>20150604</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449373771">CSS Text</a></td>
+<td>Eric A. Meyer</td>
+<td>20130821</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492071013">CSS Master</a></td>
+<td>Tiffany B Brown</td>
+<td>20181011</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491929612">CSS Floating</a></td>
+<td>Eric A. Meyer</td>
+<td>20160113</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492069973">Modern CSS</a></td>
+<td>Craig Buckler; Ilya Bodrov-Krukowski; Claudio Ribeiro; Tiffany B Brown; David Attard; Ahmed Bouchefr</td>
+<td>20181022</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449373788">CSS Text</a></td>
+<td>Eric A. Meyer</td>
+<td>20130821</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098129484">CSS Master</a></td>
+<td>Tiffany B Brown</td>
+<td>20210815</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491929599">CSS Floating</a></td>
+<td>Eric A. Meyer</td>
+<td>20160113</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484257500">Architecting CSS</a></td>
+<td>Martine Dowden; Michael Dowden</td>
+<td>20200515</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449372774">CSS Secrets</a></td>
+<td>Lea Verou</td>
+<td>20150604</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449389055">CSS Cookbook</a></td>
+<td>Christopher Schmitt</td>
+<td>20091215</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449382940">CSS Cookbook</a></td>
+<td>Christopher Schmitt</td>
+<td>20091215</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781542829908">Html And Css</a></td>
+<td>Micheal Knapp</td>
+<td>2017</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491930328">Positioning in CSS</a></td>
+<td>Eric A. Meyer</td>
+<td>20160413</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781457192258">Jump Start CSS</a></td>
+<td>Louis   Lazaris</td>
+<td>20130912</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781457192265">Jump Start CSS</a></td>
+<td>Louis   Lazaris</td>
+<td>20130912</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638355861">CSS in Depth</a></td>
+<td>Keith Grant</td>
+<td>20180308</td>
+<td>Simon & Schuster</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492033349">CSS Pocket Reference</a></td>
+<td>Eric Meyer</td>
+<td>20180402</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491981436">Flexbox in CSS</a></td>
+<td>Estelle Weyl</td>
+<td>20170525</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781535236102">Html & Css For Beginners</a></td>
+<td>iCode Academy</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137043835">CSS Fundamentals [With DVD]</a></td>
+<td>Montoya and Christian</td>
+<td>2009</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781913151706">HTML& CSS for Beginners</a></td>
+<td>Jo Foster</td>
+<td>2022-04-22</td>
+<td>Elluminet Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430202257">Beginning CSS Web Development</a></td>
+<td>Simon Collison</td>
+<td>20071222</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781636100029">HTML & CSS QuickStart Guide</a></td>
+<td>David DuRocher</td>
+<td>20210125</td>
+<td>ClydeBank Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781943872886">Murach's HTML and CSS</a></td>
+<td>Zak Ruvalcaba, Anne Boehm</td>
+<td>11/2021</td>
+<td>Mike Murach & Associates</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680508574">Modern CSS with Tailwind</a></td>
+<td>Noel Rappin</td>
+<td>20210505</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492069898">The Advanced CSS Collection</a></td>
+<td>Craig Buckler; Ilya Bodrov-Krukowski; Claudio Ribeiro; Tiffany B Brown; David Attard; Ahmed Bouchefr</td>
+<td>20181022</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430225447">Getting StartED with CSS</a></td>
+<td>David Powers</td>
+<td>20100325</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9786232443723">Buku Sakti Html, Css & Javascript</a></td>
+<td>Adam Saputra, S.Si.</td>
+<td>2019</td>
+<td>Anak Hebat Indonesia</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about CSS from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/c064a3f1e0d9d086baa50433435f884905e15177">An Empirical Study on the Use of CSS Preprocessors</a></td>
+<td>D. Mazinanian and Nikolaos Tsantalis</td>
+<td>2016</td>
+<td>22</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6f85bbca627498fa404f6f705b3000ca0155c989">CSS Preprocessing: Tools and Automation Techniques</a></td>
+<td>R. Queirós</td>
+<td>2018</td>
+<td>3</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="scala.html">scala.html</a> · css.html · <a href="rust.html">rust.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/css.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

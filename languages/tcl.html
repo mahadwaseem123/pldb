@@ -1,0 +1,578 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>Tcl - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="Tcl"></meta>
+  <meta property="og:description" content="Tcl, aka Tool Command Language, is a pl created in 1988 by John Ousterhout."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="tcl.html">Tcl</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="tcl.html">Tcl</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">Tcl, aka Tool Command Language, is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1988">1988</a> by <a href="../lists/creators.html#John_Ousterhout">John Ousterhout</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#47<span><span title="TotalRank: 156 Jobs: 62 Users: 266 Facts: 60 Links: 34">on PLDB</span></span></td>
+<td>34<span>Years Old</span></td>
+<td>3.1k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>26<span><span title="Books about or leveraging Tcl">Books</span></span></td>
+<td>2<span><span title="Academic publications about or leveraging Tcl">Papers</span></span></td>
+<td>14k<span><span title="Tcl repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/tcl">Riju</a> · <a href="https://tio.run/#tcl">TIO</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `puts {Hello, world!}\n`,
+        language: 'tcl',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Tcl (pronounced "tickle" or tee cee ell, ) is a high-level, general-purpose, interpreted, dynamic programming language. It was designed with the goal of being very simple but powerful. Tcl casts everything into the mold of a command, even programming constructs like variable assignment and procedure definition. <a href="https://en.wikipedia.org/wiki/Tcl">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="http://www.tcl.tk">Tcl website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/Tcl">Tcl Wikipedia page</a></li>
+<li>There are at least 13,969 Tcl repos on <a href="https://github.com/search?q=language:Tcl">GitHub</a></li>
+<li>file extensions for Tcl include tcl, tbc, adp, tclin, tm and rvt</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 7k users using Tcl in 8k repos on <a href="https://api.github.com/search/repositories?q=language:Tcl">GitHub</a></li>
+<li>There are 71 <a href="https://projecteuler.net/language=Tcl">Project Euler</a> users using Tcl</li>
+<li>Explore Tcl snippets on <a href="http://www.rosettacode.org/wiki/Category:Tcl">Rosetta Code</a></li>
+<li>Tcl appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/tcl">Ubuntu package</a> for Tcl</li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/tcl">package</a> for syntax highlighting Tcl</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/tcl">package</a> for syntax highlighting Tcl</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/tcl.py">syntax highlighting</a> for Tcl</li>
+<li>GitHub supports <a href="https://github.com/textmate/tcl.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Tcl</li>
+<li>Tcl appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/rpep/tcl_kernel">Kernel</a> for Tcl</li>
+<li>See also: <a href="awk.html">awk</a>, <a href="lisp.html">Lisp</a>, <a href="php.html">PHP</a>, <a href="tea.html">Tea</a>, <a href="powershell.html">PowerShell</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="expect.html">Expect</a>, <a href="unicode.html">Unicode</a>, <a href="regex.html">Regular Expressions</a>, <a href="java.html">Java</a>, <a href="unix.html">Unix</a>, <a href="linux.html">Linux</a>, <a href="bourne-shell.html">Bourne shell</a>, <a href="xotcl.html">XOTcl</a>, <a href="snit.html">Snit</a>, <a href="verilog.html">Verilog</a>, <a href="vhdl.html">VHDL</a>, <a href="udp.html">UDP</a>, <a href="mysql.html">MySQL</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="sqlite.html">SQLite</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/tcl">Improve our Tcl file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/tcl'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">puts {Hello, world!}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/t/Tcl.tcl'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">puts &quot;Hello World&quot;</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Tool'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">#!/usr/local/bin/tclsh
+# Hello World in Tcl
+
+puts &quot;Hello World!&quot;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/textmate/tcl.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent"># XDG Base Directory Specification handling
+#
+# Copyright (C) 2013 Lawrence Woodman
+#
+# Licensed under an MIT licence.  Please see LICENCE.md for details.
+#
+# For XDG Base Directory Specification
+#   http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
+#
+package require Tcl 8.5
+
+namespace eval XDG {
+  variable DEFAULTS &quot;&quot;
+  namespace export DATA_HOME CONFIG_HOME CACHE_HOME
+  namespace export RUNTIME_DIR DATA_DIRS CONFIG_DIRS
+}
+
+proc XDG::SetDefaults {} {
+  variable DEFAULTS
+  if {$DEFAULTS ne &quot;&quot;} return
+  set DEFAULTS [list \
+    DATA_HOME   [file join $::env(HOME) .local share] \
+    CONFIG_HOME [file join $::env(HOME) .config] \
+    CACHE_HOME  [file join $::env(HOME) .cache] \
+    DATA_DIRS   [list [file join /usr local share] [file join /usr share]] \
+    CONFIG_DIRS [list [file join /etc xdg ]]
+  ]
+}
+
+proc XDG::XDGVarSet {var} {
+  expr {[info exists ::env(XDG_$var)] &amp;&amp; $::env(XDG_$var) ne &quot;&quot;}
+}
+
+proc XDG::Dir {var {subdir &quot;&quot;} } {
+  variable DEFAULTS
+  SetDefaults
+  set dir [dict get $DEFAULTS $var]
+
+  if {[XDGVarSet $var]} {
+    set dir $::env(XDG_$var)
+  }
+
+  return [file join $dir $subdir]
+}
+
+proc XDG::Dirs {var {subdir &quot;&quot;} } {
+  variable DEFAULTS
+  SetDefaults
+  set rawDirs [dict get $DEFAULTS $var]
+
+  if {[XDGVarSet $var]} {
+    set rawDirs [split $::env(XDG_$var) &quot;:&quot;]
+  }
+
+  set outDirs {}
+  foreach dir $rawDirs {
+    lappend outDirs [file join $dir $subdir]
+  }
+  return $outDirs
+}
+
+# The remaining procs reference the environmental variables XDG_
+# followed by the proc name.
+proc XDG::DATA_HOME {{subdir &quot;&quot;}} {Dir DATA_HOME $subdir}
+proc XDG::CONFIG_HOME {{subdir &quot;&quot;}} {Dir CONFIG_HOME $subdir}
+proc XDG::CACHE_HOME {{subdir &quot;&quot;}} {Dir CACHE_HOME $subdir}
+
+proc XDG::RUNTIME_DIR {{subdir &quot;&quot;}} {
+  if {![XDGVarSet RUNTIME_DIR]} { return {} }
+  return [file join $::env(XDG_RUNTIME_DIR) $subdir]
+}
+
+# The following procs returning the directories as a list with the most
+# important first.
+proc XDG::DATA_DIRS {{subdir &quot;&quot;}} {Dirs DATA_DIRS $subdir}
+proc XDG::CONFIG_DIRS {{subdir &quot;&quot;}} {Dirs CONFIG_DIRS $subdir}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/Tcl'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">oo::class create fruit {
+    method eat {} {
+        puts &quot;yummy!&quot;
+    }
+}
+oo::class create banana {
+    superclass fruit
+    constructor {} {
+        my variable peeled
+        set peeled 0
+    }
+    method peel {} {
+        my variable peeled
+        set peeled 1
+        puts &quot;skin now off&quot;
+    }
+    method edible? {} {
+        my variable peeled
+        return $peeled
+    }
+    method eat {} {
+        if {![my edible?]} {
+            my peel
+        }
+        next
+    }
+}
+set b [banana new]
+$b eat               → prints &quot;skin now off&quot; and &quot;yummy!&quot;
+fruit destroy
+$b eat               → error &quot;unknown command&quot;</code>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"Hello world"</pre></td>
+<td>"</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td></td>
+<td>puts</td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre># A comment</pre></td>
+<td>#</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Tcl on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=Practical Programming in TCL & TK Brent B. Welch">Practical Programming in TCL & TK</a></td>
+<td>Brent B. Welch</td>
+<td>1961</td>
+<td>2</td>
+<td>55</td>
+<td>3.87</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Effective Tcl/TK Programming: Writing Better Programs with TCL and TK Mark Harrison">Effective Tcl/TK Programming: Writing Better Programs with TCL and TK</a></td>
+<td>Mark Harrison</td>
+<td>1997</td>
+<td>0</td>
+<td>4</td>
+<td>3.50</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Tcl/TK Pocket Reference: Programming Tools Paul Raines">Tcl/TK Pocket Reference: Programming Tools</a></td>
+<td>Paul Raines</td>
+<td>1998</td>
+<td>0</td>
+<td>9</td>
+<td>3.22</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=TCL/TK Programmer's Reference Chris Nelson">TCL/TK Programmer's Reference</a></td>
+<td>Chris Nelson</td>
+<td>1999</td>
+<td>1</td>
+<td>1</td>
+<td>5.00</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Tcl/Tk 8.5 Programming Cookbook Bert Wheeler">Tcl/Tk 8.5 Programming Cookbook</a></td>
+<td>Bert Wheeler</td>
+<td>2011</td>
+<td>0</td>
+<td>1</td>
+<td>3.00</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Tcl/TK Programming for the Absolute Beginner Kurt Wall">Tcl/TK Programming for the Absolute Beginner</a></td>
+<td>Kurt Wall</td>
+<td>2007</td>
+<td>1</td>
+<td>1</td>
+<td>4.00</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=TCL 8.5 Network Programming Wojciech Kocjan">TCL 8.5 Network Programming</a></td>
+<td>Wojciech Kocjan</td>
+<td>2010</td>
+<td>1</td>
+<td>3</td>
+<td>3.67</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Tcl/TK: A Developer's Guide Clif Flynt">Tcl/TK: A Developer's Guide</a></td>
+<td>Clif Flynt</td>
+<td>2003</td>
+<td>0</td>
+<td>0</td>
+<td>0.0</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=TCL/TK for Dummies? Tim Webster">TCL/TK for Dummies?</a></td>
+<td>Tim Webster</td>
+<td>1997</td>
+<td>0</td>
+<td>2</td>
+<td>3.50</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=CGI Programming with TCL [With CDROM] David Maggiano">CGI Programming with TCL [With CDROM]</a></td>
+<td>David Maggiano</td>
+<td>1999</td>
+<td>0</td>
+<td>0</td>
+<td>0.0</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Tcl from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780201634747">Effective Tcl/TK Programming: Writing Better Programs with TCL and TK</a></td>
+<td>Harrison, Mark and McLennan, Michael</td>
+<td>1997</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321336330">Tcl and the Tk Toolkit</a></td>
+<td>Ousterhout, John and Jones, Ken</td>
+<td>2009</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849510967">Tcl 8.5 Network Programming (Community Experience Distilled)</a></td>
+<td>Kocjan, Wojciech and Beltowski, Piotr</td>
+<td>2010</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137277513">Cgi Developer's Resource: Web Programming in Tcl and Perl (Resource Series)</a></td>
+<td>Ivler, J. M. and Husain, Kamran</td>
+<td>1997</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780079137135">Web TCL Complete</a></td>
+<td>Stephen Ball</td>
+<td>1999</td>
+<td>McGraw-Hill Inc.,US</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130385604">Practical Programming in Tcl and Tk</a></td>
+<td>Welch, Brent and Jones, Ken</td>
+<td>2003</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548679644">The Tcl Programming Language: A Comprehensive Guide</a></td>
+<td>Nadkarni, Ashok P.</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136168300">Practical Programming in Tcl & Tk</a></td>
+<td>Welch, Brent B.</td>
+<td>1997</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565924338">TCL / TK in a Nutshell: A Desktop Quick Reference</a></td>
+<td>Raines, Paul and Tranter, Jeff</td>
+<td>1999</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598634389">Tcl and Tk Programming for the Absolute Beginner</a></td>
+<td>Wall, Kurt</td>
+<td>2007</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201633375">Tcl and the Tk Toolkit</a></td>
+<td>Ousterhout, John K.</td>
+<td>1994</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130220288">Practical Programming in Tcl and Tk (3rd Edition)</a></td>
+<td>Welch, Brent B.</td>
+<td>1999</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131820074">Practical Programming in Tcl and Tk/Book and Disk</a></td>
+<td>Welch, Brent B.</td>
+<td>1995-04T</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201606294">Cgi Programming With Tcl</a></td>
+<td>David Maggiano</td>
+<td>1999</td>
+<td>Addison-wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849510974">Tcl 8.5 Network Programming</a></td>
+<td>Wojciech Kocjan; Piotr Beltowski</td>
+<td>20100701</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201633375">Tcl And The Tk Toolkit</a></td>
+<td>Ousterhout, John K.</td>
+<td>1994</td>
+<td>Addison-wesley</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about Tcl from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/9aa8df179b2f6b3c252657a8813850e22d2fe7e9">VIPERS: a data flow visual programming environment based on the Tcl language</a></td>
+<td>Massimo Bernini and M. Mosconi</td>
+<td>1994</td>
+<td>21</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/dbc9036c86dbe20795e6eccc8393d02dd7251692">Petascale Tcl with NAMD, VMD, and Swift/T</a></td>
+<td>James C. Phillips and J. Stone and Kirby L. Vandivort and Timothy G. Armstrong and J. Wozniak and M. Wilde and K. Schulten</td>
+<td>2014</td>
+<td>18</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="modula-2.html">modula-2.html</a> · tcl.html · <a href="dart.html">dart.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/tcl.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

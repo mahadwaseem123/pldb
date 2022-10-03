@@ -1,0 +1,956 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>Rust - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="Rust"></meta>
+  <meta property="og:description" content="Rust is a pl created in 2010 by Graydon Hoare."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="rust.html">Rust</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="rust.html">Rust</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">Rust is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2010">2010</a> by <a href="../lists/creators.html#Graydon_Hoare">Graydon Hoare</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#23<span><span title="TotalRank: 80 Jobs: 46 Users: 25 Facts: 27 Links: 28">on PLDB</span></span></td>
+<td>12<span>Years Old</span></td>
+<td>194.0k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>65<span><span title="Books about or leveraging Rust">Books</span></span></td>
+<td>36<span><span title="Academic publications about or leveraging Rust">Papers</span></span></td>
+<td>357k<span><span title="Rust repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/rust">Riju</a> · <a href="https://tio.run/#rust">TIO</a> · <a href="https://repl.it/languages/rust">Replit</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `// Type your code here, or load an example.\npub fn square(num: i32) -> i32 {\n    num * num\n}\n\n// If you use `main()`, declare it as `pub` to see it in the output:\n// pub fn main() { ... }\n`,
+        language: 'rust',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language," supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance. Rust is an open source programming language. <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://www.rust-lang.org">Rust website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Rust Wikipedia page</a></li>
+<li>There are at least 356,891 Rust repos on <a href="https://github.com/search?q=language:Rust">GitHub</a></li>
+<li>Rust first developed in <a href="../lists/originCommunities.html#Mozilla">Mozilla</a></li>
+<li>PLDB estimates there are currently 141 job openings for Rust programmers.</li>
+<li>file extensions for Rust include rs, rlib, rsin and rs.in</li>
+<li>the Rust team is on <a href="https://twitter.com/rustlang">Twitter</a></li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Rust in 16k repos on <a href="https://api.github.com/search/repositories?q=language:Rust">GitHub</a></li>
+<li>Check out the 122 <a href="https://www.meetup.com/topics/rust/">Rust meetup groups</a> on Meetup.com.</li>
+<li>There are 186,942 members in the <a href="https://reddit.com/r/rust">Rust subreddit</a></li>
+<li>There are 1,227 <a href="https://projecteuler.net/language=Rust">Project Euler</a> users using Rust</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Rust programmers reported a median salary of $77,530. 7% of respondents reported using Rust. 5,799 programmers reported using Rust, and 15,865 said they wanted to use it</li>
+<li>Explore Rust snippets on <a href="http://www.rosettacode.org/wiki/Category:Rust">Rosetta Code</a></li>
+<li>Rust is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a></li>
+<li>Rust ranks #31 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/rustc">Ubuntu package</a> for Rust</li>
+<li>Here is a Rust <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/rust-lang-nursery/rls">implementation</a></li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/rust">package</a> for syntax highlighting Rust</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/rust">package</a> for syntax highlighting Rust</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rust.py">syntax highlighting</a> for Rust</li>
+<li>GitHub supports <a href="https://github.com/zargony/atom-language-rust" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Rust</li>
+<li>Rust appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/google/evcxr/tree/master/evcxr_jupyter">Kernel</a> for Rust</li>
+<li>There is a <a href="https://crates.io/">central package repository</a> for Rust</li>
+<li>Indeed.com has 141 matches for <a href="https://www.indeed.com/jobs?q=rust engineer">"rust engineer"</a>.</li>
+<li><a href="https://www.rust-lang.org">rust-lang.org</a> was registered in 2010</li>
+<li>See also: <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="android.html">Android</a>, <a href="ios.html">iOS</a>, <a href="alef.html">ALEF</a>, <a href="csharp.html">C#</a>, <a href="cyclone.html">Cyclone</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="haxe.html">Haxe</a>, <a href="limbo.html">Limbo</a>, <a href="newsqueak.html">Newsqueak</a>, <a href="ruby.html">Ruby</a>, <a href="scheme.html">Scheme</a>, <a href="standard-ml.html">Standard ML</a>, <a href="swift.html">Swift</a>, <a href="crystal.html">Crystal</a>, <a href="elm.html">Elm</a>, <a href="idris.html">Idris</a>, <a href="c.html">C</a>, <a href="ml.html">ML</a>, <a href="go.html">Go</a>, <a href="java.html">Java</a>, <a href="ocaml.html">OCaml</a>, <a href="llvmir.html">LLVM IR</a>, <a href="d.html">D</a>, <a href="nim.html">Nim</a>, <a href="emacs-editor.html">Emacs</a></li>
+<li>Read more about Rust on the web: <a href="https://blog.rust-lang.org/2018/11/27/Rust-survey-2018.html">1</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/rust">Improve our Rust file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:</div>
+<code class="scrollCodeBlockComponent">// Type your code here, or load an example.
+pub fn square(num: i32) -&gt; i32 {
+    num * num
+}
+
+// If you use `main()`, declare it as `pub` to see it in the output:
+// pub fn main() { ... }
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/rust'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">fn main() {
+    println!(&quot;Hello, world!&quot;);
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/r/Rust.rs'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">fn main() {
+    println!(&quot;Hello World&quot;);
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Rust'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">// Hello world in Rust
+
+fn main() {
+    println!(&quot;Hello World!&quot;);
+}</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/zargony/atom-language-rust'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">extern crate foo;
+extern crate bar;
+
+use foo::{self, quix};
+use bar::car::*;
+use bar;
+
+fn main() {
+    println!(&quot;Hello {}&quot;, &quot;World&quot;);
+
+    panic!(&quot;Goodbye&quot;)
+}
+</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=rust">Keywords</a> in Rust</h4>
+<p class="scrollParagraphComponent">abstract alignof as become box break const continue crate do else enum extern false final fn for if impl in let loop macro match mod move mut offsetof override priv proc pub pure ref return Self self sizeof static struct super trait true type typeof unsafe unsized use virtual where while yield</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constants-feature.html">Constants</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/booleans-feature.html">Booleans</a></td>
+<td>✓</td>
+<td></td>
+<td>true false</td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td>//</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td><pre>println!("Hi");</pre></td>
+<td>println!</td>
+</tr>
+<tr><td><a href="../languages/pattern-matching-feature.html">Pattern Matching</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/operator-overloading-feature.html">Operator Overloading</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/macros-feature.html">Macros</a></td>
+<td>✓</td>
+<td><pre>https://doc.rust-lang.org/book/ch19-06-macros.html</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/iterators-feature.html">Iterators</a></td>
+<td>✓</td>
+<td><pre>for n in 0..42 {
+  println!("{}", n);
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>✓</td>
+<td><pre>use ::std::fs;  // Imports from the `std` crate, not the module below.
+use self::std::fs as self_fs;  // Imports the module below.
+mod my;
+use self::foo::Zoo as _;
+#[path = "foo.rs"]
+mod c;</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/directives-feature.html">Directives</a></td>
+<td>✓</td>
+<td><pre>// A conditionally-compiled module
+#[cfg(target_os = "linux")]
+mod bar {
+    /* ... */
+}
+// General metadata applied to the enclosing module or crate.
+#![crate_type = "lib"]
+// A function marked as a unit test
+#[test]
+fn test_foo() {
+    /* ... */
+}
+// A lint attribute used to suppress a warning/error
+#[allow(non_camel_case_types)]
+type int8_t = i8;
+
+// Inner attribute applies to the entire function.
+fn some_unused_variables() {
+  #![allow(unused_variables)]
+
+  let x = ();
+  let y = ();
+  let z = ();
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre>// https://doc.rust-lang.org/reference/comments.html
+// a comment</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"hello world"</pre></td>
+<td>"</td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Rust from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9781593278281">The Rust Programming Language</a></td>
+<td>Klabnik, Steve and Nichols, Carol</td>
+<td>2018</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617294556">Rust in Action</a></td>
+<td>McNamara, TS</td>
+<td>2020</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789346220">Creative Projects for Rust Programmers: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing</a></td>
+<td>Milanesi, Carlo</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789530667">Rust Programming Cookbook: Explore the latest features of Rust 2018 for building fast and secure apps</a></td>
+<td>Matzinger, Claus</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781718500440">The Rust Programming Language (Covers Rust 2018)</a></td>
+<td>Klabnik, Steve and Nichols, Carol</td>
+<td>2019-08-12T00:00:01Z</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781718501850">Rust for Rustaceans: Idiomatic Programming for Experienced Developers</a></td>
+<td>Gjengset, Jon</td>
+<td>2021</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680508802">Hands-on Rust</a></td>
+<td>Wolverson, Herbert</td>
+<td>2021</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781718501867">Rust for Rustaceans: Idiomatic Programming for Experienced Developers</a></td>
+<td>Gjengset, Jon</td>
+<td>2021</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781718500457">The Rust Programming Language (Covers Rust 2018)</a></td>
+<td>Klabnik, Steve and Nichols, Carol</td>
+<td>2019</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098109431">Command-Line Rust: A Project-Based Primer for Writing Rust CLIs</a></td>
+<td>Youens-Clark, Ken</td>
+<td>2022</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119712978">Beginning Rust Programming</a></td>
+<td>Messier, Ric</td>
+<td>2021</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789343878">Creative Projects for Rust Programmers: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing</a></td>
+<td>Milanesi, Carlo</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638356226">Rust in Action</a></td>
+<td>McNamara, Tim</td>
+<td>2021</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800560819">Rust Web Programming: A hands-on guide to developing fast and secure web apps with the Rust programming language</a></td>
+<td>Flitton, Maxwell</td>
+<td>2021</td>
+<td>Packt Publishing - ebooks Account</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788995528">Hands-On Data Structures and Algorithms with Rust: Learn programming techniques to build effective, maintainable, and readable code in Rust 2018</a></td>
+<td>Matzinger, Claus</td>
+<td>2019-01-25T00:00:01Z</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593278519">The Rust Programming Language</a></td>
+<td>Klabnik, Steve and Nichols, Carol</td>
+<td>2018</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838828103">The Complete Rust Programming Reference Guide: Design, develop, and deploy effective software systems using the advanced constructs of Rust</a></td>
+<td>Sharma, Rahul and Kaihlavirta, Vesa and Matzinger, Claus</td>
+<td>2019-05-22T00:00:01Z</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484258590">Rust for the IoT: Building Internet of Things Apps with Rust and Raspberry Pi</a></td>
+<td>Nusairat, Joseph Faisal</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484258606">Rust for the IoT: Building Internet of Things Apps with Rust and Raspberry Pi</a></td>
+<td>Nusairat, Joseph Faisal</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789341980">Hands-On Microservices with Rust: Build, test, and deploy scalable and reactive microservices with Rust 2018</a></td>
+<td>Kolodin, Denis</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484251218">Practical Machine Learning with Rust: Creating Intelligent Applications in Rust</a></td>
+<td>Bhattacharjee, Joydeep</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789531749">Rust Programming Cookbook: Explore the latest features of Rust 2018 for building fast and secure apps</a></td>
+<td>Matzinger, Claus</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119712879">Beginning Rust Programming</a></td>
+<td>Messier, Ric</td>
+<td>2021</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788831581">Hands-On Functional Programming in Rust: Build modular and reactive applications with functional programming techniques in Rust 2018</a></td>
+<td>Johnson, Andrew</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788478236">Rust High Performance: Learn to skyrocket the performance of your Rust applications</a></td>
+<td>Eguia Moraza, Iban</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788470308">Rust Programming By Example: Enter the world of Rust by building engaging, concurrent, reactive, and robust applications</a></td>
+<td>Gomez, Guillaume and Boucher, Antoni</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484265895">Practical Rust Web Projects: Building Cloud and Web-Based Applications</a></td>
+<td>Lyu, Shing</td>
+<td>2021</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788839358">Hands-On Functional Programming in Rust: Build modular and reactive applications with functional programming techniques in Rust 2018</a></td>
+<td>Johnson, Andrew</td>
+<td>2018-05-31T00:00:01Z</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800560963">Practical System Programming for Rust Developers: Build fast and secure software for Linux/Unix systems with the help of practical examples</a></td>
+<td>Eshwarla, Prabhu</td>
+<td>2020-12-24T00:00:01Z</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484255995">Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications</a></td>
+<td>Lyu, Shing</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780999361801">Step Ahead with Rust: Systems Programming in Rust</a></td>
+<td>Jonathan Creekmore and James Miller</td>
+<td>2018-01-15T00:00:00.000Z</td>
+<td>Armstrong Publications LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789341188">Mastering Rust: Learn about memory safety, type system, concurrency, and the new features of Rust 2018 edition, 2nd Edition</a></td>
+<td>Sharma, Rahul and Kaihlavirta, Vesa</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789616705">Rust Quick Start Guide: The easiest way to learn Rust programming</a></td>
+<td>Arbuckle, Daniel</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788390637">Rust Programming By Example: Enter the world of Rust by building engaging, concurrent, reactive, and robust applications</a></td>
+<td>Gomez, Guillaume and Boucher, Antoni</td>
+<td>2018-01-11T00:00:01Z</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484255988">Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications</a></td>
+<td>Lyu, Shing</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098122539">The Rust Programming Language</a></td>
+<td>Steve Klabnik and Carol Nichols</td>
+<td>2019</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787121354854">Rust programming(Chinese Edition)</a></td>
+<td>ZHANG HAN DONG ZHU</td>
+<td>2019</td>
+<td>Electronic Industry Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838828004">Practical WebAssembly-Explore the fundamentals of WebAssembly programming using Rust</a></td>
+<td>Sendil Kumar Nellaiyapen</td>
+<td>2022</td>
+<td>Packt Publishing - ebooks Account</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789355511546">Learn Rust Programming: Safe Code, Supports Low Level and Embedded Systems Programming with a Strong Ecosystem (English Edition)</a></td>
+<td>Matzinger, Claus</td>
+<td>2022</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789355510952">Rust Crash Course: Build High-Performance, Efficient and Productive Software with the Power of Next-Generation Programming Skills (English Edition)</a></td>
+<td>Kumar, Abhishek</td>
+<td>2022</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785888885">Learning Rust</a></td>
+<td>Paul Johnson</td>
+<td>24-11-2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492052562">Programming Rust</a></td>
+<td>Jim Blandy and Jason Orendorff and Leonora F.S. Tindall</td>
+<td>2021</td>
+<td>O'reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785881374">Mastering Rust</a></td>
+<td>Vesa Kaihlavirta</td>
+<td>2017-05-30</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492052548">Programming Rust</a></td>
+<td>Jim Blandy; Jason Orendorff; Leonora F .S. Tindall</td>
+<td>20210611</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491927236">Programming Rust</a></td>
+<td>Jim Blandy; Jason Orendorff</td>
+<td>20171121</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785282133">Rust Essentials</a></td>
+<td>Ivo Balbaert</td>
+<td>2015-05-27</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785886218">Rust Cookbook</a></td>
+<td>Vigneshwer Dhinakaran</td>
+<td>2017-07-27</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484234686">Beginning Rust</a></td>
+<td>Carlo Milanesi</td>
+<td>20180322</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9784798160221">Rust In Action</a></td>
+<td>Tim McNamara</td>
+<td>2021</td>
+<td>翔泳社</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800566095">Rust Web Programming</a></td>
+<td>Maxwell Flitton</td>
+<td>26-02-2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098109400">Command-line Rust</a></td>
+<td>Ken Youens-Clark</td>
+<td>2022</td>
+<td>O'reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680509557">Rust Brain Teasers</a></td>
+<td>Herbert Wolverson</td>
+<td>20220225</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098109387">Command-Line Rust</a></td>
+<td>Ken Youens-Clark</td>
+<td>20220113</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789348071">Network Programming With Rust</a></td>
+<td>Abhishek Chanda</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789610611">Rust Quick Start Guide</a></td>
+<td>Daniel Arbuckle</td>
+<td>30-10-2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788399135">Rust Essentials - Second Edition</a></td>
+<td>Ivo Balbaert</td>
+<td>43047</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788629652">Rust Standard Library Cookbook</a></td>
+<td>Jan Hohenheim, Daniel Durante</td>
+<td>29-03-2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789805499">Learn Rust In 7 Days</a></td>
+<td>Matthew Stoodley</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800560826">Rust Web Development with Rocket</a></td>
+<td>Karuna Murti</td>
+<td>2022-06-30</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788478359">Hands-On Concurrency with Rust</a></td>
+<td>Brian L. Troutwine</td>
+<td>31-05-2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800562011">Practical System Programming for Rust Developers</a></td>
+<td>Prabhu Eshwarla</td>
+<td>24-12-2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781801074995">Game Development with Rust and WebAssembly</a></td>
+<td>Eric Smith</td>
+<td>29-04-2022</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838826383">The Complete Rust Programming Reference Guide</a></td>
+<td>Rahul Sharma; Vesa Kaihlavirta; Claus Matzinger</td>
+<td>43607</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781801812320">Speed Up Your Python with Rust</a></td>
+<td>Maxwell Flitton</td>
+<td>21-01-2022</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788991490">Hands-On Data Structures and Algorithms with Rust</a></td>
+<td>Claus Matzinger</td>
+<td>25-01-2019</td>
+<td>Packt Publishing</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about Rust from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/50eba68089cf51323d95631c2f59ff916848863f">The rust language</a></td>
+<td>Nicholas D. Matsakis and Felix S. Klock</td>
+<td>2014</td>
+<td>238</td>
+<td>25</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6a8ceba15f95d03617e79aaba35515776c4bc4d9">RustBelt: securing the foundations of the rust programming language</a></td>
+<td>Ralf Jung and Jacques-Henri Jourdan and R. Krebbers and Derek Dreyer</td>
+<td>2017</td>
+<td>192</td>
+<td>23</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8f564873814a12526a844d69c216ba2b599bdf9a">Is Rust Used Safely by Software Developers?</a></td>
+<td>A. Evans and Bradford Campbell and M. Soffa</td>
+<td>2020</td>
+<td>23</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d536933053c16f6ab16f92468542084630e72f55">Understanding memory and thread safety practices and issues in real-world Rust programs</a></td>
+<td>Boqin Qin and Yilun Chen and Zeming Yu and Linhai Song and Yiying Zhang</td>
+<td>2020</td>
+<td>23</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/187e2d1c888c5c0529e5a50c8c90efe9889cbd69">POSTER: Rust SGX SDK: Towards Memory Safety in Intel SGX Enclave</a></td>
+<td>Yu Ding and Ran Duan and Long Li and Yueqiang Cheng and Yulong Zhang and Tanghui Chen and Tao Wei and Huibo Wang</td>
+<td>2017</td>
+<td>21</td>
+<td>4</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2b7bd2b93f5aa66a65d9cfc7f0222a16d3aca007">Sandcrust: Automatic Sandboxing of Unsafe Components in Rust</a></td>
+<td>Benjamin Lamowski and C. Weinhold and A. Lackorzynski and Hermann Härtig</td>
+<td>2017</td>
+<td>20</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/350795523676e071a64d8d60acd30252db2c7eec">Verifying Rust Programs with SMACK</a></td>
+<td>Marek S. Baranowski and Shaobo He and Z. Rakamaric</td>
+<td>2018</td>
+<td>20</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/01bd07b28877e088aefc9a54ba842b8aa3b804f5">Safe systems programming in Rust</a></td>
+<td>Ralf Jung and Jacques-Henri Jourdan and R. Krebbers and Derek Dreyer</td>
+<td>2021</td>
+<td>17</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/dc734f8a1e20f7de5dbbe8c668c0683381bbcb1a">KRust: A Formal Executable Semantics of Rust</a></td>
+<td>Feng Wang and Fu Song and Min Zhang and Xiaoran Zhu and Jun Zhang</td>
+<td>2018</td>
+<td>12</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/efa6eb7b43f19f8b072f9323ac2e838618537932">Exploring Rust for Unikernel Development</a></td>
+<td>Stefan Lankes and J. Breitbart and Simon Pickartz</td>
+<td>2019</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/37d7114d5a9bc202742bd0c248fe8af1a689d1b6">Understanding and evolving the Rust programming language</a></td>
+<td>Ralf Jung</td>
+<td>2020</td>
+<td>11</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d72458f9501963670b50ee9fe78e622425955630">Fidelius Charm: Isolating Unsafe Rust Code</a></td>
+<td>Hussain M. J. Almohri and David Evans</td>
+<td>2018</td>
+<td>8</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/aaf8eeb909892036436dff4bef41a0924e730d6c">Design of a DSL for Converting Rust Programming Language into RTL</a></td>
+<td>K. Takano and Tetsuya Oda and M. Kohata</td>
+<td>2020</td>
+<td>8</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6f6a28a3115e147e443a545fd8f75cf7a3babf1b">Identifying Barriers to Adoption for Rust through Online Discourse</a></td>
+<td>Anna Zeng and Will Crichton</td>
+<td>2019</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/164b3187c0d904f04e96ac5f0d5b9fdeab0da547">Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs</a></td>
+<td>Hui Xu and Zhuangbin Chen and Mingshen Sun and Yangfan Zhou and Michael R. Lyu</td>
+<td>2020</td>
+<td>6</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f3b75979611c111233c9cd5e6674e71be83b6f13">Securing UnSafe Rust Programs with XRust</a></td>
+<td>Peiming Liu and Gang Zhao and Jeff Huang</td>
+<td>2020</td>
+<td>6</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c2e188799c7bdca68f6334b329682e12b1d58da9">GhostCell: separating permissions from data in Rust</a></td>
+<td>Joshua Yanovski and Hoang-Hai Dang and Ralf Jung and Derek Dreyer</td>
+<td>2021</td>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fede987ed6b38a516655cc05c3ed55a19068b1a9">A Lightweight Formalism for Reference Lifetimes and Borrowing in Rust</a></td>
+<td>David J. Pearce</td>
+<td>2021</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4567c1f22d80334eade2ceb396d43ae8e895b131">What can the programming language Rust do for astrophysics?</a></td>
+<td>S. Blanco-Cuaresma and É. Bolmont</td>
+<td>2016</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c9cb48a5680fe6911ca620897980c51a8aa5f9a6">On utilizing rust programming language for Internet of Things</a></td>
+<td>Tunç Uzlu and E. Saykol</td>
+<td>2017</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2739f9c914bb01de599f4549b0e847b10c83c3df">Structured Stream Parallelism for Rust</a></td>
+<td>Ricardo Pieper and Dalvan Griebler and L. G. Fernandes</td>
+<td>2019</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ff3de8816bc7685668a56da5c30eecc76c817558">Keeping Safe Rust Safe with Galeed</a></td>
+<td>Elijah Rivera and Samuel Mergendahl and Howie Shrobe and H. Okhravi and N. Burow</td>
+<td>2021</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/36674fd3bc28fd3f01711de8785171c720a97a25">RustHornBelt: a semantic foundation for functional verification of Rust programs with unsafe code</a></td>
+<td>Yusuke Matsushita and Xavier Denis and Jacques-Henri Jourdan and Derek Dreyer</td>
+<td>2022</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/336759267740e25049691e8f74374721dc4718a4">Towards Profile-Guided Optimization for Safe and Efficient Parallel Stream Processing in Rust</a></td>
+<td>Stefan Sydow and Mohannad Nabelsee and S. Glesner and Paula Herber</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/57b463af9a5699fb4011435cee3429f51ce86113">Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale</a></td>
+<td>Yechan Bae and Youngsuk Kim and Ammar Askar and Jungwon Lim and Taesoo Kim</td>
+<td>2021</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0dd40638f259c5b99cab356706943ee7697c811d">Detecting Unsafe Raw Pointer Dereferencing Behavior in Rust</a></td>
+<td>Zhijian Huang and Y. Wang and J. Liu</td>
+<td>2018</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/cc5c9f522aa65cb5ddb5f2dae650a3e7a0739b03">Basics of Rust</a></td>
+<td>J. Bhattacharjee</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fcee0c1a34783b7f7253dfccae2f29af38dd3259">Devise Rust Compiler Optimizations on RISC-V Architectures with SIMD Instructions</a></td>
+<td>Heng Lin and Piyo Chen and Yuan-Shin Hwang and Jenq-Kuen Lee</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f17890851dcaa805c0d47cc084113626c298382b">Verification of Safety Functions Implemented in Rust - a Symbolic Execution based approach</a></td>
+<td>Marcus Lindner and Nils Fitinghoff and Johan Eriksson and P. Lindgren</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1ff44db7ee219174273efba0e4a42bf24c1807cf">Verifying Dynamic Trait Objects in Rust</a></td>
+<td>Alexa VanHattum and Daniel Schwartz-Narbonne and Nathan Chong and Adrian Sampson</td>
+<td>2022</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/9d0046724361849d494d42338bbb77874dd0bdf4">SafeDrop: Detecting Memory Deallocation Bugs of Rust Programs via Static Data-Flow Analysis</a></td>
+<td>Mohan Cui and Chengjun Chen and Hui Xu and Yangfan Zhou</td>
+<td>2021</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/38a0f156a77cdac95dbac2affdeb3b9e91cc531c">VRLifeTime -- An IDE Tool to Avoid Concurrency and Memory Bugs in Rust</a></td>
+<td>Ziyi Zhang and Boqin Qin and Yilun Chen and Linhai Song and Yiying Zhang</td>
+<td>2020</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/9046c775dcb9ad9e21eaece1f90537f9741acf51">Approach of a Coding Conventions for Warning and Suggestion in Transpiler for Rust Convert to RTL</a></td>
+<td>K. Takano and Tetsuya Oda and M. Kohata</td>
+<td>2020</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d0fb133db727fc51913e623041a6e86eb99e8c6c">Translating C to safer Rust</a></td>
+<td>Mehmet Emre and Ryan Schroeder and Kyle Dewey and B. Hardekopf</td>
+<td>2021</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/74dfb86326be51d0cc2d0aee69d3266d8994ea31">Performance vs Programming Effort between Rust and C on Multicore Architectures: Case Study in N-Body</a></td>
+<td>Manuel Costanzo and Enzo Rucci and M. Naiouf and A. D. Giusti</td>
+<td>2021</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f57083b736fa347d6e48d09bdc09a308df017eeb">On Evaluating Rust as a Programming Language for the Future of Massive Agent-Based Simulations</a></td>
+<td>Alessia Antelmi and G. Cordasco and Matteo D'Auria and Daniele De Vinco and A. Negro and Carmine Spagnuolo</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="css.html">css.html</a> · rust.html · <a href="haskell.html">haskell.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/rust.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,431 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>SPARQL - Query language</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="SPARQL"></meta>
+  <meta property="og:description" content="SPARQL, aka SPARQL Protocol and RDF Query Language, is a query language created in 2008."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="sparql.html">SPARQL</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="sparql.html">SPARQL</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">SPARQL, aka SPARQL Protocol and RDF Query Language, is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=2008">2008</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#233<span><span title="TotalRank: 545 Jobs: 62 Users: 330 Facts: 213 Links: 270">on PLDB</span></span></td>
+<td>14<span>Years Old</span></td>
+<td>2.2k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>4<span><span title="Books about or leveraging SPARQL">Books</span></span></td>
+<td>18<span><span title="Academic publications about or leveraging SPARQL">Papers</span></span></td>
+<td>0<span><span title="SPARQL repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://dbpedia.org/sparql">Web</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `SELECT ?h WHERE { \n  VALUES ?h { "Hello World" } \n}\n`,
+        language: 'sparql',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">SPARQL (pronounced "sparkle", a recursive acronym for SPARQL Protocol and RDF Query Language) is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format. It was made a standard by the RDF Data Access Working Group (DAWG) of the World Wide Web Consortium, and is recognized as one of the key technologies of the semantic web. On 15 January 2008, SPARQL 1.0 became an official W3C Recommendation, and SPARQL 1.1 in March, 2013. <a href="https://en.wikipedia.org/wiki/SPARQL">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/SPARQL">SPARQL Wikipedia page</a></li>
+<li>There are at least 0 SPARQL repos on <a href="https://github.com/search?q=language:SPARQL">GitHub</a></li>
+<li>SPARQL first developed in <a href="../lists/originCommunities.html#W3C">W3C</a></li>
+<li>file extensions for SPARQL include sparql and rq</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/sparql">grammar</a> for SPARQL</li>
+<li>Here is a SPARQL <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/stardog-union/stardog-language-servers/tree/master/packages/sparql-language-server">implementation</a></li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/sparql">package</a> for syntax highlighting SPARQL</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/sparql">package</a> for syntax highlighting SPARQL</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rdf.py">syntax highlighting</a> for SPARQL</li>
+<li>GitHub supports <a href="https://github.com/peta/turtle.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SPARQL</li>
+<li>There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/paulovn/sparql-kernel">Kernel</a> for SPARQL</li>
+<li>SPARQL <a href="http://www.iro.umontreal.ca/~lapalme/ift6281/sparql-1_1-cheat-sheet.pdf">cheat sheet</a></li>
+<li>See also: <a href="rdf.html">RDF</a>, <a href="sql.html">SQL</a>, <a href="xquery.html">XQuery</a>, <a href="turtle.html">Turtle</a>, <a href="geo-ml.html">Geography Markup Language</a></li>
+<li>Read more about SPARQL on the web: <a href="https://www.w3.org/TR/rdf-sparql-query/">1</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/sparql">Improve our SPARQL file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/SparQL.sparql'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">SELECT ?h WHERE { 
+  VALUES ?h { &quot;Hello World&quot; } 
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/peta/turtle.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+SELECT ?name ?email
+WHERE {
+  ?person a foaf:Person.
+  ?person foaf:name ?name.
+  ?person foaf:mbox ?email.
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/SPARQL'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">PREFIX ex: &lt;http://example.com/exampleOntology#&gt;
+SELECT ?capital
+       ?country
+WHERE
+  {
+    ?x  ex:cityname       ?capital   ;
+        ex:isCapitalOf    ?y         .
+    ?y  ex:countryname    ?country   ;
+        ex:isInContinent  ex:Africa  .
+  }</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=sparql">Keywords</a> in SPARQL</h4>
+<p class="scrollParagraphComponent">add as asc ask base by clear construct copy create data delete desc describe distinct drop false filter from graph group having in insert limit load minus move named not offset optional order prefix reduced select service silent to true undef union using values where with</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/integers-feature.html">Integers</a></td>
+<td>✓</td>
+<td><pre># [+\-]?\d+</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/floats-feature.html">Floats</a></td>
+<td>✓</td>
+<td><pre># [+\-]?(\d+\.\d*[eE][+-]?\d+|\.?\d+[eE][+-]?\d+)</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/booleans-feature.html">Booleans</a></td>
+<td>✓</td>
+<td></td>
+<td>true false</td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"Hello world"</pre></td>
+<td>"</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre># A comment</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre># A comment</pre></td>
+<td>#</td>
+</tr></tbody></table>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about SPARQL from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9781449371432">Learning SPARQL: Querying and Updating with SPARQL 1.1</a></td>
+<td>DuCharme, Bob</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780127999579">RDF Database Systems: Triples Storage and SPARQL Query Processing</a></td>
+<td>Curé, Olivier and Blin, Guillaume</td>
+<td>2014</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449371487">Learning SPARQL</a></td>
+<td>Bob DuCharme</td>
+<td>20130703</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449371470">Learning SPARQL</a></td>
+<td>Bob DuCharme</td>
+<td>20130703</td>
+<td>O'Reilly Media, Inc.</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about SPARQL from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/f0cab66649c3593b8defc7c7989d84b4acae2c2d">From SPARQL to rules (and back)</a></td>
+<td>A. Polleres</td>
+<td>2007</td>
+<td>220</td>
+<td>19</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/81836d9086683ceab2af97428dffbab6004d4a6b">PigSPARQL: mapping SPARQL to Pig Latin</a></td>
+<td>A. Schätzle and Martin Przyjaciel-Zablocki and G. Lausen</td>
+<td>2011</td>
+<td>112</td>
+<td>12</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fd8a81c0b066eb23b38659f95fdd83ce29d3b3c6">Sparklis: An expressive query builder for SPARQL endpoints with guidance in natural language</a></td>
+<td>S. Ferré</td>
+<td>2016</td>
+<td>111</td>
+<td>6</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4a109ebd285f579e3daa3a11bafdb9b7894cbd0b">A SPARQL Extension for Generating RDF from Heterogeneous Formats</a></td>
+<td>M. Lefrançois and Antoine Zimmermann and Noorani Bakerally</td>
+<td>2017</td>
+<td>98</td>
+<td>9</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0d985477fe44764f6bd2fe9a6bfa38ff048a8333">Sorry, i don't speak SPARQL: translating SPARQL queries into natural language</a></td>
+<td>A. N. Ngomo and Lorenz Bühmann and Christina Unger and Jens Lehmann and D. Gerber</td>
+<td>2013</td>
+<td>98</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/9e163940219265fc4595bb3c66f7a35f83b2943f">AskNow: A Framework for Natural Language Query Formalization in SPARQL</a></td>
+<td>Mohnish Dubey and Sourish Dasgupta and A. Sharma and Konrad Höffner and Jens Lehmann</td>
+<td>2016</td>
+<td>70</td>
+<td>8</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f9896a40e497b74caabf5ef7f25db77f51689ac0">Dynamic Linked Data: A SPARQL Event Processing Architecture</a></td>
+<td>L. Roffia and Paolo Azzoni and Cristiano Aguzzi and Fabio Viola and Francesco Antoniazzi and T. S. Cinotti</td>
+<td>2018</td>
+<td>37</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3eadd38475cfad8e4267b946550f04add0252269">SQUALL: A Controlled Natural Language as Expressive as SPARQL 1.1</a></td>
+<td>S. Ferré</td>
+<td>2013</td>
+<td>30</td>
+<td>7</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/27cd8f658901437c5217cd34b927b81ec0eac466">Towards the Novel Reasoning among Particles in PSO by the Use of RDF and SPARQL</a></td>
+<td>Iztok Fister and Xin-She Yang and Karin Ljubič and D. Fister and J. Brest and Iztok Fister</td>
+<td>2014</td>
+<td>24</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/195e38b8701bae75bc634d60e7df2fe91cfddbb0">Linked Data Queries as Jigsaw Puzzles: a Visual Interface for SPARQL Based on Blockly Library</a></td>
+<td>P. Bottoni and Miguel Ceriani</td>
+<td>2015</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4b64a186f0a10be716c051f666cdeac1a851bed7">SWOBE - embedding the semantic web languages RDF, SPARQL and SPARUL into java for guaranteeing type safety, for checking the satisfiability of queries and for the determination of query result types</a></td>
+<td>Sven Groppe and Jana Neumann and V. Linnemann</td>
+<td>2009</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ba91a4697df0f4e3143b8609dd0f12ab3851ea97">Authorization Proxy for SPARQL Endpoints</a></td>
+<td>Riste Stojanov and Milos Jovanovik</td>
+<td>2017</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/74dd69c8377529e55c41ae7f8d6585be47653248">Generation of Test Questions from RDF Files Using PYTHON and SPARQL</a></td>
+<td>A. Omarbekova and A. Sharipbay and A. Barlybaev</td>
+<td>2017</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/42f59c1c7c434aae1f4d8f4d2ab4fcd46337cab2">Tuning Fuzzy SPARQL Queries in a Fuzzy Logic Programming Environment</a></td>
+<td>J. Almendros-Jiménez and A. Becerra-Terón and G. Moreno and J. A. Riaza</td>
+<td>2019</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/09a17efd129440582beae6d906eadc6e1b017671">An Approach of Automatic SPARQL Generation for BIM Data Extraction</a></td>
+<td>Dongming Guo and Erling Onstein and Angela Daniela La Rosa</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a186269b94b12386891b504f5a886da8e23aac89">DaRLing: A Datalog rewriter for OWL 2 RL ontological reasoning under SPARQL queries</a></td>
+<td>A. Fiorentino and J. Zangari and M. Manna</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d0f7a30d99cc0d8e5041e91cd525ec4ec6a49704">The Quranic Nature Ontology: From Sparql Endpoint to Java Application and Reasoning</a></td>
+<td>S. Khan and Mohammed Mahmudur Rahman and A. B. M. S. Sadi and T. Anwar and S. Mohammed and S. A. Chowdhury</td>
+<td>2017</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/894a309620c4613fe4dddef4da8f7b4f38fe1218">SQL2SPARQL4RDF: Automatic SQL to SPARQL Conversion for RDF Querying</a></td>
+<td>Ahmed Abatal and Khadija Alaoui and L. Alaoui and M. Bahaj</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="turtle.html">turtle.html</a> · sparql.html · <a href="supercollider.html">supercollider.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/sparql.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

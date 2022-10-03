@@ -1,0 +1,2048 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>PHP - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="PHP"></meta>
+  <meta property="og:description" content="PHP, aka Personal Home Page, is a pl created in 1995 by Rasmus Lerdorf."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="php.html">PHP</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="php.html">PHP</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">PHP, aka Personal Home Page, is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1995">1995</a> by <a href="../lists/creators.html#Rasmus_Lerdorf">Rasmus Lerdorf</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#8<span><span title="TotalRank: 23 Jobs: 9 Users: 10 Facts: 4 Links: 13">on PLDB</span></span></td>
+<td>27<span>Years Old</span></td>
+<td>2.4m<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>274<span><span title="Books about or leveraging PHP">Books</span></span></td>
+<td>26<span><span title="Academic publications about or leveraging PHP">Papers</span></span></td>
+<td>3m<span><span title="PHP repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/php">Riju</a> · <a href="https://tio.run/#php">TIO</a> · <a href="https://repl.it/languages/php">Replit</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `<?php\n\necho "Hello, world!\n";\n`,
+        language: 'php',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Development Team. PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor. <a href="https://en.wikipedia.org/wiki/PHP">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://php.net">PHP website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/PHP">PHP Wikipedia page</a></li>
+<li>PHP is developed on <a href="https://github.com/php/php-src">GitHub</a> and has 33,991 stars</li>
+<li>There are at least 3,479,326 PHP repos on <a href="https://github.com/search?q=language:PHP">GitHub</a></li>
+<li>PHP first developed in <a href="../lists/originCommunities.html#Zend">Zend</a></li>
+<li>PLDB estimates there are currently 30k job openings for PHP programmers.</li>
+<li>file extensions for PHP include php, phtml, php3, php4, php5, php7, phps, aw, ctp, fcgi, inc, phpt and php[345]</li>
+<li>the PHP team is on <a href="https://twitter.com/official_php">Twitter</a></li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 202k users using PHP in 340k repos on <a href="https://api.github.com/search/repositories?q=language:PHP">GitHub</a></li>
+<li>Check out the 2,012 <a href="https://www.meetup.com/topics/php/">PHP meetup groups</a> on Meetup.com.</li>
+<li>There are 150,168 members in the <a href="https://reddit.com/r/PHP">PHP subreddit</a></li>
+<li>There are 3,210 <a href="https://projecteuler.net/language=PHP">Project Euler</a> users using PHP</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> PHP programmers reported a median salary of $38,916. 22% of respondents reported using PHP. 18,130 programmers reported using PHP, and 8,852 said they wanted to use it</li>
+<li>Explore PHP snippets on <a href="http://www.rosettacode.org/wiki/Category:PHP">Rosetta Code</a></li>
+<li>PHP is listed on <a href="https://hopl.info/showlanguage.prx?exp=2361">HOPL</a></li>
+<li>PHP ranks #10 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/php-cli">Ubuntu package</a> for PHP</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/php">grammar</a> for PHP</li>
+<li>Here is a PHP <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/phan/phan">implementation</a></li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/php">package</a> for syntax highlighting PHP</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/php">package</a> for syntax highlighting PHP</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/php.py">syntax highlighting</a> for PHP</li>
+<li>GitHub supports <a href="https://github.com/textmate/php.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PHP</li>
+<li>PHP appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>There are 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for PHP: <a href="https://github.com/dawehner/ipython-php">1</a>,<a href="https://github.com/Litipk/Jupyter-PHP">2</a></li>
+<li>There is a <a href="https://packagist.org/">central package repository</a> for PHP</li>
+<li>Indeed.com has 9,017 matches for <a href="https://www.indeed.com/jobs?q=php developer">"php developer"</a>.</li>
+<li><a href="https://php.net">php.net</a> was registered in 1997</li>
+<li>See also: <a href="c.html">C</a>, <a href="hhvm.html">HHVM</a>, <a href="parrot-vm.html">Parrot</a>, <a href="java.html">Java</a>, <a href="perl.html">Perl</a>, <a href="tcl.html">Tcl</a>, <a href="falcon.html">Falcon</a>, <a href="hack.html">Hack</a>, <a href="html.html">HTML</a>, <a href="x86-isa.html">X86</a>, <a href="unicode.html">Unicode</a>, <a href="wordpress.html">WordPress</a>, <a href="json.html">JSON</a>, <a href="mysql.html">MySQL</a>, <a href="mime.html">MIME</a>, <a href="javascript.html">JavaScript</a>, <a href="xml.html">XML</a>, <a href="parrot-internal-representation.html">PIR</a>, <a href="cil.html">CIL</a>, <a href="ftp.html">FTP</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="sqlite.html">SQLite</a>, <a href="aws.html">AWS</a>, <a href="java-server-pages.html">JSP</a>, <a href="linux.html">Linux</a>, <a href="python.html">Python</a>, <a href="mediawiki.html">MediaWiki</a>, <a href="drupal.html">Drupal</a></li>
+<li>Read more about PHP on the web: <a href="http://php.net/manual/en/reserved.keywords.php">1</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/php">Improve our PHP file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/php'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;?php
+
+echo &quot;Hello, world!\n&quot;;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/p/PHP.php'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;?php
+
+echo &#39;Hello World&#39;;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#PHP'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;?php
+  // Hello world in PHP
+  echo &#39;Hello World!&#39;;
+?&gt;</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/textmate/php.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">#!/usr/bin/php
+&lt;?php
+
+echo &quot;PHP\n&quot;;</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/PHP'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">class Person
+{
+    public $firstName;
+    public $lastName;
+
+    public function __construct(string $firstName, string $lastName = &#39;&#39;) { // optional second argument
+        $this-&gt;firstName = $firstName;
+        $this-&gt;lastName  = $lastName;
+    }
+
+    public function greet(): string {
+        return &#39;Hello, my name is &#39; . $this-&gt;firstName .
+               (($this-&gt;lastName != &#39;&#39;) ? (&#39; &#39; . $this-&gt;lastName) : &#39;&#39;) . &#39;.&#39;;
+    }
+
+    public static function staticGreet(string $firstName, string $lastName) {
+        return &#39;Hello, my name is &#39; . $firstName . &#39; &#39; . $lastName . &#39;.&#39;;
+    }
+}
+
+$he    = new Person(&#39;John&#39;, &#39;Smith&#39;);
+$she   = new Person(&#39;Sally&#39;, &#39;Davis&#39;);
+$other = new Person(&#39;iAmine&#39;);
+
+echo $he-&gt;greet(); // prints &quot;Hello, my name is John Smith.&quot;
+echo &#39;&lt;br /&gt;&#39;;
+
+echo $she-&gt;greet(); // prints &quot;Hello, my name is Sally Davis.&quot;
+echo &#39;&lt;br /&gt;&#39;;
+
+echo $other-&gt;greet(); // prints &quot;Hello, my name is iAmine.&quot;
+echo &#39;&lt;br /&gt;&#39;;
+
+echo Person::staticGreet(&#39;Jane&#39;, &#39;Doe&#39;); // prints &quot;Hello, my name is Jane Doe.&quot;</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=php">Keywords</a> in PHP</h4>
+<p class="scrollParagraphComponent">__CLASS__ __DIR__ __FILE__ __FUNCTION__ __halt_compiler() __LINE__ __METHOD__ __NAMESPACE__ __TRAIT__ abstract and array() as break callable case catch class clone const continue declare default die() do echo else elseif empty() enddeclare endfor endforeach endif endswitch endwhile eval() exit() extends final finally for foreach function global goto if implements include include_once instanceof insteadof interface isset() list() namespace new or print private protected public require require_once return static switch throw trait try unset() use var while xor yield</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/inheritance-feature.html">Inheritance</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/access-modifiers-feature.html">Access Modifiers</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/switch-statements-feature.html">Switch Statements</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/exceptions-feature.html">Exceptions</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constants-feature.html">Constants</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/classes-feature.html">Classes</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td></td>
+<td>echo</td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td>//</td>
+</tr>
+<tr><td><a href="../languages/increment-and-decrement-operators-feature.html">Increment and decrement operators</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/functions-feature.html">Functions</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/variadic-functions-feature.html">Variadic Functions</a></td>
+<td>✓</td>
+<td><pre>function sum(...$nums)
+{
+    return array_sum($nums);
+}
+echo sum(1, 2, 3); // 6</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/traits-feature.html">Traits</a></td>
+<td>✓</td>
+<td><pre>// The template
+trait TSingleton
+{
+    private static $_instance = null; 
+    private function __construct(){} // Must have private default constructor and be aware not to open it in the class
+    public static function getInstance()
+    {
+        if (null === self::$_instance)
+        {
+            self::$_instance = new self();
+        }
+        return self::$_instance;
+    }
+}
+class FrontController
+{
+    use TSingleton;
+}
+// Can also be used in already extended classes
+class WebSite extends SomeClass
+{
+    use TSingleton;
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/operator-overloading-feature.html">Operator Overloading</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-strings-feature.html">Multiline Strings</a></td>
+<td>✓</td>
+<td><pre>$xml = <<<XML
+l
+vv
+XML;</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>✓</td>
+<td><pre><?php
+include 'vars.php';
+require 'filename'; // FATAL error if fails</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/assignment-feature.html">Assignment</a></td>
+<td>✓</td>
+<td><pre>$name = "John"</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constructor-feature.html">Constructors</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/magic-getters-and-setters-feature.html">Magic Getters and Setters</a></td>
+<td>✓</td>
+<td><pre>    public function __set($name, $value)
+   {
+       echo "Setting '$name' to '$value'\n";
+       $this->data[$name] = $value;
+   }
+
+   public function __get($name)
+   {
+       echo "Getting '$name'\n";
+       if (array_key_exists($name, $this->data)) {
+           return $this->data[$name];
+       }
+
+       $trace = debug_backtrace();
+       trigger_error(
+           'Undefined property via __get(): ' . $name .
+           ' in ' . $trace[0]['file'] .
+           ' on line ' . $trace[0]['line'],
+           E_USER_NOTICE);
+       return null;
+   }</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"hello world"</pre></td>
+<td>'</td>
+</tr>
+<tr><td><a href="../languages/booleans-feature.html">Booleans</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about PHP on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=Programming PHP Rasmus Lerdorf">Programming PHP</a></td>
+<td>Rasmus Lerdorf</td>
+<td>2002</td>
+<td>36</td>
+<td>642</td>
+<td>3.92</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=PHP and MySQL Web Development (Developer's Library) Luke Welling">PHP and MySQL Web Development (Developer's Library)</a></td>
+<td>Luke Welling</td>
+<td>2003</td>
+<td>54</td>
+<td>854</td>
+<td>3.95</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=PHP & MySQL For Dummies Janet Valade">PHP & MySQL For Dummies</a></td>
+<td>Janet Valade</td>
+<td>2002</td>
+<td>11</td>
+<td>186</td>
+<td>3.53</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Professional PHP Programming Sascha Schumann">Professional PHP Programming</a></td>
+<td>Sascha Schumann</td>
+<td>1999</td>
+<td>5</td>
+<td>150</td>
+<td>3.95</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Advanced PHP Programming George Schlossnagle">Advanced PHP Programming</a></td>
+<td>George Schlossnagle</td>
+<td>2004</td>
+<td>11</td>
+<td>116</td>
+<td>3.86</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about PHP from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780596006303">Head First PHP & MySQL: A Brain-Friendly Guide</a></td>
+<td>Lynn Beighley and Michael Morrison</td>
+<td>2009</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321832184">PHP Advanced and Object-Oriented Programming: Visual QuickPro Guide (Visual QuickPro Guides)</a></td>
+<td>Ullman, Larry</td>
+<td>2012</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321121745">The Web Wizard's Guide to PHP</a></td>
+<td>Lash, David</td>
+<td>2002</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596101015">PHP Cookbook: Solutions and Examples for PHP Programmers</a></td>
+<td>Trachtenberg, Adam and Sklar, David</td>
+<td>2006</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781494267353">The Joy of PHP: A Beginner's Guide to Programming Interactive Web Applications with PHP and mySQL</a></td>
+<td>Forbes, Alan</td>
+<td>2012</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596005603">Learning PHP 5</a></td>
+<td>Sklar, David</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430229254">Php Objects, Patterns, And Practice</a></td>
+<td>Zandstra, Matt.</td>
+<td></td>
+<td>Apress Distributed To The Book Trade Worldwide By Springer-verlag New York</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484224519">Design Patterns in PHP and Laravel</a></td>
+<td>Dockins, Kelt</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596005436">Web Database Applications with PHP & MySQL, 2nd Edition</a></td>
+<td>Hugh E. Williams and David Lane</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596006365">Upgrading to PHP 5</a></td>
+<td>Trachtenberg, Adam</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449325572">PHP & MySQL: The Missing Manual</a></td>
+<td>McLaughlin, Brett</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430260318">PHP Objects, Patterns, and Practice</a></td>
+<td>Zandstra, Matt</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430231141">Beginning PHP and MySQL: From Novice to Professional (Expert's Voice in Web Development)</a></td>
+<td>Gilmore, W Jason</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201775976">PHP Advanced for the World Wide Web: Visual QuickPro Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2001</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781592004942">PHP 5 / MySQL Programming for the Absolute Beginner</a></td>
+<td>Harris, Andy</td>
+<td>2004</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484219959">PHP Objects, Patterns, and Practice</a></td>
+<td>ZANDSTRA, MATT</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484217290">Learn PHP 7: Object Oriented Modular Programming using HTML5, CSS3, JavaScript, XML, JSON, and MySQL</a></td>
+<td>Prettyman, Steve</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847199645">PHP 5 E-commerce Development</a></td>
+<td>Peacock, Michael</td>
+<td>2010</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430235606">Pro PHP Programming (Expert's Voice in Open Source)</a></td>
+<td>Gogala, Mladen and MacIntyre, Peter and MacDonald, Adam and Danchilla, Brian</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598631395">PHP for Teens</a></td>
+<td>Sethi, Maneesh</td>
+<td>2006</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781844807536">Dynamic Web Application Development Using PHP and MySQL</a></td>
+<td>Stobart, Simon and Parsons, David</td>
+<td>2008</td>
+<td>Cengage Learning EMEA</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780973862140">Phparchitect's Zend PHP 5 Certification Study Guide</a></td>
+<td>Shafik, Davey and Ramsey, Ben</td>
+<td>2006</td>
+<td>musketeers.me, LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596514013">Learning PHP & MySQL: Step-by-Step Guide to Creating Database-Driven Web Sites</a></td>
+<td>Davis, Michele E. and Phillips, Jon A.</td>
+<td>2007</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672323829">PHP and PostgreSQL Advanced Web Programming</a></td>
+<td>Geschwinde, Ewald and Schoenig, Hans-Juergen</td>
+<td>2002</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788575220252">PHP Com XML</a></td>
+<td></td>
+<td></td>
+<td>Novatec</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321376015">PHP 5 Advanced: Visual QuickPro Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2007</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470258248">Flash and PHP Bible</a></td>
+<td>Keefe, Matthew</td>
+<td>2008</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131498624">Spring Into PHP 5</a></td>
+<td>Holzner, Steven</td>
+<td>2005</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781544883847">Learn Php: The Complete Beginner's Guide To Learn Php Programming (php Guide)</a></td>
+<td>Bruce Berke</td>
+<td>2017</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781786462954">Modular Programming with PHP 7</a></td>
+<td>Ajzele, Branko</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847191304">Learning Joomla! 1.5 Extension Development: Creating Modules, Components, and Plugins with PHP</a></td>
+<td>LeBlanc, Joseph L.</td>
+<td>2007</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596100674">PHP in a Nutshell: A Desktop Quick Reference</a></td>
+<td>Hudson, Paul</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785889714">PHP 7 Programming Blueprints</a></td>
+<td>Palala, Jose and Helmich, Martin</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131471498">PHP 5 Power Programming</a></td>
+<td>Gutmans, Andi</td>
+<td>2004</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672330278">Sams Teach Yourself PHP and MySQL: Video Learning Starter Kit</a></td>
+<td>Sams Publishing</td>
+<td>2009</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449333607">Node.js for PHP Developers: Porting PHP to Node.js</a></td>
+<td>Howard, Daniel</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484222379">PHP CLI: Create Command Line Interface Scripts with PHP</a></td>
+<td>Aley, Rob</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849512381">PHP 5 Social Networking</a></td>
+<td>Peacock, Michael</td>
+<td>2010</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596515867">PHP & MySQL: The Missing Manual</a></td>
+<td>McLaughlin, Brett</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596101398">PHP Hacks: Tips & Tools For Creating Dynamic Websites</a></td>
+<td>Herrington, Jack D.</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484262399">Learn PHP 8: Using MySQL, JavaScript, CSS3, and HTML5</a></td>
+<td>Prettyman, Steve</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780415818049">Web Programming for Business: PHP Object-Oriented Programming with Oracle</a></td>
+<td>Paper, David</td>
+<td>2015</td>
+<td>Routledge</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764575877">PHP and MySQL Everyday Apps For Dummies</a></td>
+<td>Valade, Janet</td>
+<td>2005</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596101107">Learning PHP and MySQL</a></td>
+<td>Michele E. Davis and Jon A. Phillips</td>
+<td>2006</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847194442">Learning Drupal 6 Module Development: A practical tutorial for creating your first Drupal 6 modules with PHP</a></td>
+<td>Butcher, Matt</td>
+<td>2008</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781075932557">PHP: Advanced Detailed Approach to Master PHP Programming Language for Web Development</a></td>
+<td>Martin, MG</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072263251">Oracle Database 10g Express Edition PHP Web Programming (Oracle Press)</a></td>
+<td>McLaughlin, Michael</td>
+<td>2006</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781447110552">PHP and MySQL Manual: Simple, yet Powerful Web Programming (Springer Professional Computing)</a></td>
+<td>Stobart, Simon and Vassileiou, Mike</td>
+<td>2012</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201734027">Create Dynamic Web Pages Using PHP and MySQL</a></td>
+<td>Tansley, David</td>
+<td>2001</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781592001538">PHP Game Programming</a></td>
+<td>Rutledge, Matt</td>
+<td>2004</td>
+<td>Course Technology PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838647285">The PHP Workshop</a></td>
+<td>Alexandru Busuioc; David Carr; Markus Gray; Vijay Joshi; Mark McCollum; Bart McLeod; M A Hossain Ton</td>
+<td>31-10-2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430268147">PHP for Absolute Beginners</a></td>
+<td>Lengstorf, Jason and Blom Hansen, Thomas</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590591871">Advanced PHP for Flash</a></td>
+<td>Webster, Steve and Rice, Matt and Palmer, James and Sutherland, Kev and Marks, Todd and Hanson, Jacob and Eide, Harvard and Eide, Håvard</td>
+<td>2003</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781730781094">Php: A Comprehensive Intermediate Guide To Learn The Concept Of Php Programming</a></td>
+<td>Martin and Mg</td>
+<td>2018</td>
+<td>Independently Published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590592809">Essential PHP Tools: Modules, Extensions, and Accelerators</a></td>
+<td>Sklar, David</td>
+<td>2004</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861008275">PHP MySQL Website Programming: Problem - Design - Solution</a></td>
+<td>Chris Lea and Mike Buzzard and Cinis, Jessey and Thomas, Dilip</td>
+<td>2003</td>
+<td>Wrox Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781940111469">Functional Programming in PHP (2nd ed): a php[architect] guide</a></td>
+<td>Holywell, Simon and Bruce, Kevin Hamilton</td>
+<td>2016</td>
+<td>php[architect]</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781931769525">Hackish PHP Pranks & Tricks</a></td>
+<td>Flenov, Michael</td>
+<td>2006</td>
+<td>A-List Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847197429">Magento 1.3: PHP Developer's Guide</a></td>
+<td>Huskisson,Jamie</td>
+<td>2010</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788420531120">PHP 4 - Serie Practica (Spanish Edition)</a></td>
+<td>Fabrega Martinez, Pedro Pablo</td>
+<td>2001</td>
+<td>Pearson Educacion</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781904811404">Smarty PHP Template Programming And Applications</a></td>
+<td>Hasin Hayder and J. P. Maia and Lucian Gheorghe</td>
+<td>2006</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781931769044">Creating Your Web Site with PHP</a></td>
+<td>Koterov, Dmitriy</td>
+<td>2002</td>
+<td>A-List Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781597060332">The Visibooks Guide to PHP Basics</a></td>
+<td>Paul Gruhn</td>
+<td></td>
+<td>Visibooks, LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133038637">PHP and MySQL Web Development (Developer's Library)</a></td>
+<td>Luke, Welling and Thomson Laura</td>
+<td>2016</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847190888">PHP Web 2.0 Mashup Projects: Practical PHP Mashups with Google Maps, Flickr, Amazon, YouTube, MSN Search, Yahoo!</a></td>
+<td>Chow, Shu-Wai</td>
+<td>2007</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484206355">PHP Solutions: Dynamic Web Design Made Easy</a></td>
+<td>Powers, David</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484206058">PHP and MySQL Recipes: A Problem-Solution Approach</a></td>
+<td>Kromann, Frank M.</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788184048438">LAMP Programming, for Professionals - Covers MySQL 5.4 & PHP 6 (Book/CD-ROM/CentOS 5.4 DVD) by Sharanam Shah, Vaishali Shah (2010) Hardcover</a></td>
+<td>Sharanam Shah and Vaishali Shah</td>
+<td>2010</td>
+<td>Shroff Publishers and Distributors Pvt. Ltd.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598220414">Filemaker Web Publishing: A Complete Guide To Using The API For PHP</a></td>
+<td>Allyson Olm and Stephen Knight and Michael Petrov</td>
+<td>2007</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520921464">Object-Oriented PHP Best Practices: A Small Handbook of Conventions for Writing Readable, Sustainable OOPHP Code</a></td>
+<td>Hawramani, Ikram</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430227281">Pro PHP Refactoring</a></td>
+<td>Francesco Trucchia; Jacopo Romei</td>
+<td>20110110</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491933046">PHP Web Services</a></td>
+<td>Lorna Jane Mitchell</td>
+<td>20160106</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430210122">PHP Object-Oriented Solutions</a></td>
+<td>Powers, David</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781099807183">Php : A Beginner's Guide</a></td>
+<td>Bruce Herbert</td>
+<td>2019</td>
+<td>Independently Published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430219750">Zend Enterprise PHP Patterns</a></td>
+<td>John Coggeshall; Morgan Tocker</td>
+<td>20091001</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430228486">Pro PHP and jQuery</a></td>
+<td>Jason Lengstorf</td>
+<td>20100806</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430204756">Practical Web 2.0 Applications with PHP</a></td>
+<td>Quentin Zervaas</td>
+<td>20080311</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430201397">Pro PHP XML and Web Services</a></td>
+<td>Robert Richards</td>
+<td>20070205</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430241652">Pro PHP MVC (Expert's Voice in Open Source)</a></td>
+<td>Pitt, Chris</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781078335126">PHP: A Step By Step Guide from Beginner to Expert (Learn PHP in 2 Hours and Start Programming Today)</a></td>
+<td>Clyde, Alexander</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781517659738">Php Programming: Learn Php Programming: - Crush It In One Day. Learn It Fast. Learn It Once. Get Coding Today.</a></td>
+<td>Giggle Publishing</td>
+<td>2015</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133560107">Introduction to JavaScript Programming with XML and PHP</a></td>
+<td>Elizabeth Drake</td>
+<td>20140804</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430224747">PHP for Absolute Beginners (Expert's Voice in Open Source)</a></td>
+<td>Lengstorf, Jason</td>
+<td>2009</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781798562062">Php Mysql: Interview Exam, Certification Exam, 100 Questions And Answers</a></td>
+<td>Ray Yao</td>
+<td>2019</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484216729">Make an E-commerce Site in a Weekend: Using PHP</a></td>
+<td>Harwani, Bintu</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430260776">Practical PHP and MySQL Website Databases: A Simplified Approach (Expert's Voice in Web Development)</a></td>
+<td>West, Adrian W.</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672325618">Advanced PHP Programming</a></td>
+<td>Schlossnagle, George</td>
+<td>2004-02-20T00:00:01Z</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596004026">PHP Pocket Reference, 2nd Edition</a></td>
+<td>Rasmus Lerdorf</td>
+<td>2002</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484269572">Pro PHP 8 MVC: Model View Controller Architecture-Driven Application Development</a></td>
+<td>Pitt, Christopher</td>
+<td>2021</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134301914">PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2017</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781111790523">PHP Programming with MySQL: The Web Technologies Series</a></td>
+<td>Gosselin, Don and Kokoska, Diana and Easterbrooks, Robert</td>
+<td>2010</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781522792147">The Joy of PHP: A Beginner's Guide to Programming Interactive Web Applications with PHP and mySQL</a></td>
+<td>Forbes, Alan</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134301846">PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2017</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780538745840">PHP Programming with MySQL: The Web Technologies Series</a></td>
+<td>Gosselin, Don and Kokoska, Diana and Easterbrooks, Robert</td>
+<td>2010</td>
+<td>Course Technology / Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783981632">Building a Web Application with PHP and MariaDB: A Reference Guide</a></td>
+<td>Sriparasa, Sai Srinivas</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430260448">Beginning PHP and MySQL: From Novice to Professional</a></td>
+<td>Kromann, Frank M.</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596800802">Head First PHP & MySQL</a></td>
+<td>Morrison, Michael and Beighley, Lynn</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484219966">PHP Objects, Patterns, and Practice</a></td>
+<td>ZANDSTRA, MATT</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134301884">PHP for the Web: Visual QuickStart Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2016</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484271414">PHP 8 Solutions: Dynamic Web Design and Development Made Easy</a></td>
+<td>Powers, David</td>
+<td>2021</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449363758">PHP Cookbook: Solutions & Examples for PHP Programmers</a></td>
+<td>Sklar, David and Trachtenberg, Adam</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672329166">PHP and MySQL Web Development (4th Edition)</a></td>
+<td>Welling, Luke and Thomson, Laura</td>
+<td>2008</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132767583">PHP and MySQL for Dynamic Web Sites, Fourth Edition: Visual QuickPro Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2011</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781940111957">PHP Web Development with MySQL: A Hands On Approach to Application Programming</a></td>
+<td>Marks, Kenneth E.</td>
+<td>2021</td>
+<td>php[architect]</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321784070">PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2014</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548980078">PHP Programming for Beginners: Programming Concepts. How to use PHP with MySQL and Oracle databases (MySqli, PDO)</a></td>
+<td>Skudaev, Sergey</td>
+<td>2018-05-21T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780992869755">PHP Tutorials: Programming with PHP and MySQL: Learn PHP 7 / 8 with MySQL databases for web Programming</a></td>
+<td>Gibbs, Paul</td>
+<td>2020-12-02T00:00:01Z</td>
+<td>Paul Gibbs</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789332502093">PHP ADVANCED AND OBJECT-ORIENTED PROGRAMMING: VISUAL QUICKPRO GUIDE</a></td>
+<td>Ullman, Larry</td>
+<td>2012T</td>
+<td>PP</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484243381">PHP 7 Solutions: Dynamic Web Design Made Easy</a></td>
+<td>Powers, David</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781080691098">PHP: The Complete Guide for Beginners,Intermediate and Advanced Detailed Approach To Master PHP Programming</a></td>
+<td>Martin, MG</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484262405">Learn PHP 8: Using MySQL, JavaScript, CSS3, and HTML5</a></td>
+<td>Prettyman, Steve</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470413968">Beginning PHP 5.3</a></td>
+<td>Doyle, Matt</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781786463579">PHP 7 Data Structures and Algorithms: Implement linked lists, stacks, and queues using PHP</a></td>
+<td>Rahman, Mizanur</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321733450">PHP for the Web: Visual QuickStart Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2011</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484232460">PHP 7 Zend Certification Study Guide: Ace the ZCE 2017-PHP Exam</a></td>
+<td>Beak, Andrew</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785882548">PHP 7 Programming Cookbook</a></td>
+<td>Bierer, Doug</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133068306">Introduction to JavaScript Programming with XML and PHP</a></td>
+<td>Drake, Elizabeth</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781840787467">PHP 7 in easy steps</a></td>
+<td>McGrath, Mike</td>
+<td>2016</td>
+<td>In Easy Steps Limited</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133057782">PHP Advanced and Object-Oriented Programming: Visual QuickPro Guide (Visual QuickPro Guides)</a></td>
+<td>Ullman, Larry</td>
+<td>2012</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785883446">PHP 7 Programming Cookbook</a></td>
+<td>Bierer, Doug</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133251821">Introduction to JavaScript Programming with XML and PHP (2-downloads)</a></td>
+<td>Drake, Elizabeth</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781932394757">PHP in Action: Objects, Design, Agility</a></td>
+<td>Dagfinn Reiersol and Marcus Baker and Chris Shiflett</td>
+<td>2007</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430210115">PHP Object-Oriented Solutions</a></td>
+<td>Powers, David</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785883415">Learning PHP 7</a></td>
+<td>Lopez, Antonio</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672333149">Advanced PHP Programming</a></td>
+<td>Schlossnagle, George</td>
+<td>2004</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785880544">Learning PHP 7</a></td>
+<td>Lopez, Antonio</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596804374">PHP: The Good Parts: Delivering the Best of PHP</a></td>
+<td>MacIntyre, Peter</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781511594226">PhP: Learn PHP Programming Quick & Easy</a></td>
+<td>Dimes, Troy</td>
+<td>2015-04-14T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596006563">Essential PHP Security</a></td>
+<td>Shiflett, Chris</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132639880">PHP for the Web: Visual QuickStart Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2011</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449344917">Learning PHP Design Patterns</a></td>
+<td>Sanders, William</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672326196">Sams Teach Yourself PHP in 24 Hours (3rd Edition): Php in 24 Hours</a></td>
+<td>Zandstra, Matt</td>
+<td>2003</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780768685442">Sams Teach Yourself Ajax, JavaScript, and PHP All in One</a></td>
+<td>Ballard, Phil and Moncur, Michael</td>
+<td>2008</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787120143">PHP 7: Real World Application Development</a></td>
+<td>Bierer, Doug and Hussain, Altaf and Ajzele, Branko</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783981892">Web Application Development with Yii 2 and PHP</a></td>
+<td>Safronov,  Mark and Winesett,  Jeffrey</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071837316">PHP and MySQL Web Development: A Beginner’s Guide (Beginner's Guide)</a></td>
+<td>Matthews, Marty</td>
+<td>2015</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596006815">Programming PHP</a></td>
+<td>Lerdorf, Rasmus and Tatroe, Kevin and MacIntyre, Peter</td>
+<td>2006</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781530904389">PHP: Learn PHP in 24 Hours or Less - A Beginner’s Guide To Learning PHP Programming Now (PHP, PHP Programming, PHP Course)</a></td>
+<td>Dwight, Robert</td>
+<td>2016-04-09T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484238431">Practical PHP 7, MySQL 8, and MariaDB Website Databases: A Simplified Approach to Developing Database-Driven Websites</a></td>
+<td>West, Adrian W. and Prettyman, Steve</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470167779">PHP & MySQL Web Development All-in-One Desk Reference For Dummies</a></td>
+<td>Valade, Janet</td>
+<td>2008</td>
+<td>John Wiley &Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780975240205">No Nonsense XML Web Development With PHP: Master PHP 5's Powerful New XML Functionality</a></td>
+<td>Myer, Thomas</td>
+<td>2005</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781511872171">Php: Learn PHP In A DAY! - The Ultimate Crash Course to Learning the Basics of PHP In No Time (Learn PHP FAST - The Ultimate Crash Course to Learning ... of the PHP Programming Language In No Time)</a></td>
+<td>Acodemy</td>
+<td>2015-05-18T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781583470831">The IBM i Programmer's Guide to PHP</a></td>
+<td>Olen, Jeff and Schroeder, Kevin</td>
+<td>2009</td>
+<td>MC Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598637984">PHP 6/MySQL Programming for the Absolute Beginner</a></td>
+<td>Harris, Andrew B.</td>
+<td>2008</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785880322">Functional PHP</a></td>
+<td>Crettenand, Gilles</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781786461469">Modular Programming with PHP 7</a></td>
+<td>Ajzele, Branko</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798403343497">PHP Programming: A Step-by-Step Guide to Learn, in an Easy Way, the Fundamentals of PHP Programming Language 3nd Edition</a></td>
+<td>Robinson, Daniel</td>
+<td>2022</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783555109">Learning Phalcon PHP</a></td>
+<td>Rada, Calin</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849512756">PHP jQuery Cookbook</a></td>
+<td>Joshi, Vijay</td>
+<td>2010</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430233183">Pro PHP Security: From Application Security Principles to the Implementation of XSS Defenses (Expert's Voice in Open Source)</a></td>
+<td>Snyder, Chris and Myer, Thomas and Southwell, Michael</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430233190">Pro PHP Security: From Application Security Principles to the Implementation of XSS Defenses (Expert's Voice in Open Source)</a></td>
+<td>Snyder, Chris and Thomas Myer and Michael Southwell</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781517080525">PHP Programming For Beginners: The Simple Guide to Learning PHP Fast!</a></td>
+<td>Warren, Tim</td>
+<td>2015-08-28T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118066881">PHP and MySQL 24-Hour Trainer</a></td>
+<td>Tarr, Andrea</td>
+<td>2011</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565926813">PHP Cookbook</a></td>
+<td>Sklar, David and Trachtenberg, Adam</td>
+<td>2002</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849513098">PHP Ajax Cookbook</a></td>
+<td>Sedliak, Milan and Bhattarai, Roshan and Anbiah, R. Rajesh Jeba</td>
+<td>2011</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780138006020">PHP and MySQL by Example</a></td>
+<td>Quigley, Ellie and Gargenta, Marko</td>
+<td>2006</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430260325">PHP Objects, Patterns, and Practice</a></td>
+<td>Zandstra, Matt</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596101039">PHPUnit Pocket Guide: Test-Driven Development in PHP</a></td>
+<td>Bergmann, Sebastian</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672329654">Sams Teach Yourself Ajax, JavaScript, and PHP All in One</a></td>
+<td>Ballard, Phil and Moncur, Michael</td>
+<td>2008</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430228998">Pro PHP Application Performance: Tuning PHP Web Projects for Maximum Performance (Expert's Voice in Open Source)</a></td>
+<td>Padilla, Armando and Hawkins, DUPTim</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782164937">Apache Solr PHP Integration</a></td>
+<td>Kumar, Jayant</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785882265">Learning PHP 7 High Performance</a></td>
+<td>Hussain, Altaf</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785887130">Mastering PHP Design Patterns</a></td>
+<td>Ali, Junade</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321678829">Effortless E-Commerce with PHP and MySQL (Voices That Matter)</a></td>
+<td>Ullman, Larry</td>
+<td>2010</td>
+<td>New Riders</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470563120">Expert PHP and MySQL</a></td>
+<td>Curioso, Andrew and Bradford, Ronald and Galbraith, Patrick</td>
+<td>2010</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781713215486">PHP: The Ultimate Crash Course To Learn PHP with Practical Computer Coding Exercises</a></td>
+<td>Academy, Computer Programming</td>
+<td>2019-11-29T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619216870">PHP Programming with MySQL</a></td>
+<td>Gosselin, Don</td>
+<td>2005</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321534347">Securing PHP Web Applications</a></td>
+<td>Ballad, Tricia and Ballad, William</td>
+<td>2008</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321834638">PHP and MySQL Phrasebook (Developer's Library)</a></td>
+<td>Wenz, Christian Wenz</td>
+<td>2012</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470496701">Professional PHP Design Patterns</a></td>
+<td>Saray, Aaron</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071666596">Plug-In PHP: 100 Power Solutions: Simple Solutions to Practical PHP Problems</a></td>
+<td>Nixon, Robin</td>
+<td>2010</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321617446">PHP for the Web: Visual QuickStart Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2009</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735647916">Integrating PHP with Windows</a></td>
+<td>Hollosi, Arno</td>
+<td>2011</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565926103">Programming PHP</a></td>
+<td>Lerdorf, Rasmus and Tatroe, Kevin</td>
+<td>2002</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484217306">Learn PHP 7: Object Oriented Modular Programming using HTML5, CSS3, JavaScript, XML, JSON, and MySQL</a></td>
+<td>Prettyman, Steve</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321442499">PHP for the World Wide Web, Third Edition</a></td>
+<td>Ullman, Larry</td>
+<td>2008</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672317842">PHP and MySQL Web Development</a></td>
+<td>Luke Welling and Laura Thomson</td>
+<td>2001</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781943873005">Murach's PHP and MySQL (4th Edition)</a></td>
+<td>Joel Murach and Ray Harris</td>
+<td>2022</td>
+<td>Mike Murach & Associates</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782164104">Persistence in PHP with Doctrine ORM</a></td>
+<td>Dunglas, Kévin</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484221860">Lumen Programming Guide: Writing PHP Microservices, REST and Web Service APIs</a></td>
+<td>Redmond, Paul</td>
+<td>2016-09-24T00:00:01Z</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781542609876">PHP Beginners Course: Understand basics of PHP / MySQL programming in 5 days</a></td>
+<td>Thenmayer, Klaus</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849518727">Web Application Development with Yii and PHP</a></td>
+<td>Winesett, Jeffrey</td>
+<td>2012</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430228981">Pro PHP Application Performance: Tuning PHP Web Projects for Maximum Performance (Expert's Voice in Open Source)</a></td>
+<td>Padilla, Armando and Hawkins, DUPTim</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598634716">PHP 6 Fast and Easy Web Development</a></td>
+<td>Telles, Matt and Meloni, Julie C.</td>
+<td>2008</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430203674">Beginning PHP and Oracle: From Novice to Professional (Expert's Voice)</a></td>
+<td>Gilmore, W Jason and Bryla, Bob</td>
+<td>2007</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861002969">Professional PHP Programming</a></td>
+<td>Castagnetto, Jesus M. and Rawat, Harish and Veliath, Deepak T.</td>
+<td>1999</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470391143">Beginning PHP 6, Apache, MySQL 6 Web Development</a></td>
+<td>Boronczyk, Timothy and Naramore, Elizabeth and Gerner, Jason and Le Scouarnec, Yann and Stolz, Jeremy</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783319226590">Web Programming with PHP and MySQL: A Practical Guide</a></td>
+<td>Bramer, Max</td>
+<td>2015</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782164760">Instant PHP Web Scraping</a></td>
+<td>Ward, Jacob</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201770612">Open Source Development with LAMP: Using Linux, Apache, MySQL, Perl, and PHP</a></td>
+<td>Lee, James</td>
+<td>2002</td>
+<td>Pearson Technology Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735709706">Php Functions Essential Reference</a></td>
+<td>Wilson, Tprbem and Michlitsch, Brett and Merrall, Graeme</td>
+<td>2001</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130463463">Core PHP Programming (3rd Edition)</a></td>
+<td>Atkinson, Leon and Suraski, Zeev</td>
+<td>2003</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430235613">Pro PHP Programming (Expert's Voice in Open Source)</a></td>
+<td>MacIntyre, Peter and Brian Danchilla and Mladen Gogala and Adam MacDonald</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071502771">Oracle Database Ajax & PHP Web Application Development (Oracle Press)</a></td>
+<td>Barney, Lee and McLaughlin, Michael</td>
+<td>2008</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133040333">PHP and MySQL Phrasebook (Developer's Library)</a></td>
+<td>Wenz, Christian</td>
+<td>2012</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780957921856">The PHP Anthology: Object Oriented PHP Solution, Volume 1</a></td>
+<td>Fuecks, Harry</td>
+<td>2004</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672325113">PHP 5 Unleashed</a></td>
+<td>John C. Coggeshall</td>
+<td>2004</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781592004737">PHP 5 Fast & Easy Web Development</a></td>
+<td>Meloni, Julie C.</td>
+<td>2004</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780975240212">Build Your Own Database Driven Website Using PHP and MySQL: Learning PHP & MySQL Has Never Been So Easy!</a></td>
+<td>Yank, Kevin</td>
+<td>2004</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781893115514">Beginning PHP 5 and MySQL: From Novice to Professional</a></td>
+<td>Gilmore, W Jason</td>
+<td>2009</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781503216051">PHP Programming and MySQL For Beginners: A Simple Start To PHP & MySQL Written By A Software Engineer (PHP Programming, MySQL, Computer Programming, Software Engineering) (Volume 1)</a></td>
+<td>Sanderson, Scott</td>
+<td>2014-11-14T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783981625">Building a Web Application with PHP and MariaDB: A Reference Guide</a></td>
+<td>Sriparasa, Sai Srinivas</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781515046530">Programming For Beginner's Box Set: Learn HTML, HTML5 & CSS3, Java, PHP & MySQL, C# With the Ultimate Guides For Beginner's (Programming for Beginners in under 8 hours!)</a></td>
+<td>Wilson, T. J</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780975841990">The PHP Anthology: 101 Essential Tips, Tricks & Hacks</a></td>
+<td>Balbo, Ben and Fuecks, Harry and Shafik, Davey and Turmelle, Ligaya and O'Phinney, Matthew Weler</td>
+<td>2007</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484266199">PHP 8 Quick Scripting Reference: A Pocket Guide to PHP Web Scripting</a></td>
+<td>Olsson, Mikael</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071466547">How to Do Everything with PHP and MySQL</a></td>
+<td>Vaswani, Vikram</td>
+<td>2005</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672323256">PHP Developer's Cookbook</a></td>
+<td>Hughes, Sterling</td>
+<td>2008</td>
+<td>Pearson Technology Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430228479">Pro PHP and jQuery (Expert's Voice in Open Source)</a></td>
+<td>Lengstorf, Jason</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130893987">Core Php Programming: Using Php to Build Dynamic Web Sites</a></td>
+<td>Atkinson, Leon</td>
+<td>2000-08-03T00:00:01Z</td>
+<td>Pearson Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764583322">PHP 5: Your visual blueprint for creating open source, server-side content</a></td>
+<td>Boudreaux, Toby</td>
+<td>2005</td>
+<td>Visual</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781786462879">PHP Reactive Programming: Leverage the power of Reactive Programming in PHP</a></td>
+<td>Sikora, Martin</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789387284203">PHP Beginner's Practical Guide</a></td>
+<td>Guleria, Pratiyush</td>
+<td>2018</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130207876">Core PHP Programming</a></td>
+<td>Atkinson, Leon</td>
+<td>1999</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590591505">PHP MySQL Website Programming: Problem - Design - Solution</a></td>
+<td>Chris Lea and Mike Buzzard and Dilip Thomas and Jessey White-Cinis</td>
+<td>2003</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321245656">PHP for the World Wide Web, Second Edition</a></td>
+<td>Ullman, Larry</td>
+<td>2004</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781942689713">Introducing PHP 7/MySQL</a></td>
+<td>Purdue Univ, Prof. Sham Tickoo</td>
+<td>2018</td>
+<td>CADCIM Technologies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781516927494">PHP: The Ultimate Step by Step guide for beginners on how to learn PHP and MYSQL programming in just 6 hours</a></td>
+<td>Dawson, Ted</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782164920">Apache Solr PHP Integration</a></td>
+<td>Kumar, Jayant</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780761527299">PHP Essentials (Prima Tech Linux Series)</a></td>
+<td>Meloni, Julie C.</td>
+<td>2000</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072257953">How to Do Everything with PHP and MySQL</a></td>
+<td>Vaswani, Vikram</td>
+<td>2005</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430260080">Expert PHP and MySQL: Application Design and Development (Expert's Voice in Web Development)</a></td>
+<td>Rochkind, Marc</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781848002371">An Introduction to PHP for Scientists and Engineers: Beyond JavaScript</a></td>
+<td>Brooks, David R.</td>
+<td>2009</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590596487">Beginning PHP and PostgreSQL E-Commerce: From Novice to Professional (Beginning, from Novice to Professional)</a></td>
+<td>Darie, Cristian and Bucica, Mihai and Balanescu, Emilian</td>
+<td>2006</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780761530558">PHP Fast & Easy Web Development</a></td>
+<td>Meloni, Julie C.</td>
+<td>2000</td>
+<td>Course Technology PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781511846783">Beginners Guide On PHP Programming: Quick And Easy Guide To Learn PHP With My-SQL</a></td>
+<td>Long, James P.</td>
+<td>2015-02-20T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781594605239">A Web-Based Introduction to Programming: Essential Algorithms, Syntax and Control Structures Using PHP and XHTML</a></td>
+<td>Michael J. O'kane</td>
+<td>2008-08-13T00:00:01Z</td>
+<td>Carolina Academic Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735711693">Php Programming for Windows (Landmark (New Riders))</a></td>
+<td>Stopford, Andrew</td>
+<td>2002</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735712270">Xml and Php</a></td>
+<td>Vaswani, Vikram</td>
+<td>2002</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484252116">Building Scalable PHP Web Applications Using the Cloud: A Simple Guide to Programming and Administering Cloud-Based Applications</a></td>
+<td>Bartlett, Jonathan</td>
+<td>2019-11-28T00:00:01Z</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780760747865">PHP in Easy Steps</a></td>
+<td>Mike McGrath and Mike McGrath</td>
+<td>2003</td>
+<td>Barnes&Nobles</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781801071871">PHP 8 Programming Tips, Tricks and Best Practices: A practical guide to PHP 8 features, usage changes, and advanced programming techniques</a></td>
+<td>Bierer, Doug</td>
+<td>2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780957921849">PHP Anthology: OBject Oriented PHP Solutions, Vol.2- Applications</a></td>
+<td>Fuecks, Harry</td>
+<td>2004</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847193636">PHP Oracle Web Development: Data processing, Security, Caching, XML, Web Services, and Ajax</a></td>
+<td>Vasiliev, Yuli</td>
+<td>2007</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130085399">Advanced PHP for Web Professionals</a></td>
+<td>Cosentino, Christopher</td>
+<td>2002</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781848002364">An Introduction to PHP for Scientists and Engineers: Beyond JavaScript</a></td>
+<td>Brooks, David R.</td>
+<td>2008</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847196989">jQuery 1.3 with PHP</a></td>
+<td>Verens, Kae</td>
+<td>2009</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781852337476">PHP and MySQL Manual: Simple, yet Powerful Web Programming (Springer Professional Computing)</a></td>
+<td>Stobart, Simon and Vassileiou, Mike</td>
+<td>2003</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780760763315">PHP 5 in Easy Steps</a></td>
+<td>Mike McGrath</td>
+<td>2004</td>
+<td>Barnes & Noble</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484229576">Pro Functional PHP Programming: Application Development Strategies for Performance Optimization, Concurrency, Testability, and Code Brevity</a></td>
+<td>Aley, Rob</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071353427">PHP3: Programming Browser-Based Applications with PHP</a></td>
+<td>Medinets, David</td>
+<td>1999</td>
+<td>Computing McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783836414708">A PHP Compiler for the .NET Platform</a></td>
+<td>Romeikat, Raphael</td>
+<td>2007</td>
+<td>VDM Verlag Dr. Mueller e.K.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783540731443">Ruby on Rails for PHP and Java Developers</a></td>
+<td>Vohra, Deepak</td>
+<td>2007</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484280812">Beginning PHP 8 and MySQL: For Programming and Web Development</a></td>
+<td>Engebreth, Gunnard</td>
+<td>2022</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781708047979">Python Programming: A beginners’ guide to understand machine learning and master coding. Includes Smalltalk, Java, TCL, JavaScript, Perl, Scheme, Common Lisp, Data Science Analysis, C++, PHP & Ruby</a></td>
+<td>Bash, Adam</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781904811794">PHP Programming with PEAR: XML, Data, Dates, Web Services, and Web APIs</a></td>
+<td>Stephan, Schmidt and Stefanov, Stoyan and Aaron, Wormus and Carsten, Lucke</td>
+<td>2006</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783847330219">Easy PHP: An Easy Approach to PHP</a></td>
+<td>Ahmed, Anil</td>
+<td>2011</td>
+<td>LAP LAMBERT Academic Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782129243">Mastering PHP 4.1 with CDROM</a></td>
+<td>Jeremy Allen and Charles Hornberger</td>
+<td>2002</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781893115934">Wireless Web Development with PHP and WAP</a></td>
+<td>Rischpater, Ray</td>
+<td>2001</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781514646670">PHP - HTML for a customizable edit form (IT Easy Solutions - Programming & Office Automation) (Volume 1)</a></td>
+<td>Taricco, Mr Gian Piero</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071461511">Teach Yourself PHP With MYSOL (Teach Yourself: Computers)</a></td>
+<td>McBride, Nat</td>
+<td>2005</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788441515697">Desarrollo Web Con Php Y Mysql / PHP and MYSQL Web Development (Programacion / Programming) (Spanish Edition)</a></td>
+<td>Welling, Luke</td>
+<td>2003-06-30T00:00:01Z</td>
+<td>Anaya Multimedia-Anaya Interactiva</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789351102113">Programming PHP</a></td>
+<td>MacIntyre, Peter</td>
+<td></td>
+<td>Shroff Publishers & Distributors Pvt Ltd</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781457192623">PHP Master</a></td>
+<td>Davey Shafik; Lorna Mitchell; Matthew Turland</td>
+<td>20111025</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9786200482549">PHP Shots: Learn PHP Tricks in few Minutes</a></td>
+<td>Arora, Shagun</td>
+<td>2020</td>
+<td>LAP LAMBERT Academic Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071487450">PHP Programming Solutions</a></td>
+<td>Vaswani, Vikram</td>
+<td>2007</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430207146">Essential PHP Tools</a></td>
+<td>David Sklar</td>
+<td>20080101</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071596596">PHP Programming Solutions</a></td>
+<td>Vaswani, Vikram</td>
+<td>2007</td>
+<td>McGraw Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9786202512510">PRACTICE BOOK OF WEB TECHNOLOGIES-(PHP) FOR BEGINNERS: PHP PROGRAMMING</a></td>
+<td>Singh, Chamkaur and Kaur, Sarabjeet and Singh Kalsi, Jasvir</td>
+<td>2020</td>
+<td>LAP LAMBERT Academic Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781456615291">PHP This! A Beginners Guide to Learning Object Oriented  PHP</a></td>
+<td>Michelle Gosney</td>
+<td>20130605</td>
+<td>eBookit.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781792079795">Php For Beginners 2019</a></td>
+<td>Shekhar Mishra</td>
+<td>2018</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596007416">Php Security Collection - Pdf</a></td>
+<td>Coggeshall, John and Malcolm, Clancy</td>
+<td>2004</td>
+<td>Oreilly & Associates Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321574336">Securing PHP Web Applications</a></td>
+<td>Ballad, Tricia and Ballad, William</td>
+<td>2008</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593275655">Php And Mysql For Kids</a></td>
+<td>Johann-Christian Hanke</td>
+<td>2015</td>
+<td>No Starch Press, Incorporated</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788441525528">Programacion con PHP 6 y MySQL/ Programming with PHP 6 and MySQL (Spanish Edition)</a></td>
+<td>Harris, Andy</td>
+<td>2009</td>
+<td>ANAYA MULTIMEDIA</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132712286">PHP 5 Advanced: Visual QuickPro Guide</a></td>
+<td>Ullman, Larry</td>
+<td>2007</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118172933">Php And Mysql 24-hour Trainer</a></td>
+<td>Andrea Tarr</td>
+<td>2011</td>
+<td>Wiley & Sons, Incorporated, John</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596100032">Web Database Applications with PHP & MySQL</a></td>
+<td>Shillingford, Nadine</td>
+<td>2006</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787129009">PHP 7: Real World Application Development</a></td>
+<td>Doug Bierer and Altaf Hussain and Branko Ajzele</td>
+<td>2016-09-30</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781931841870">PHP Fast & Easy Web Development, 2nd Edition</a></td>
+<td>Meloni, Julie C.</td>
+<td>2002</td>
+<td>Muska & Lipman/Premier-Trade</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about PHP from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/4eb7e810e2aa6e9547dc3a12daae53ef70accd38">Efficient and Flexible Discovery of PHP Application Vulnerabilities</a></td>
+<td>M. Backes and K. Rieck and Malte Skoruppa and Ben Stock and Fabian Yamaguchi</td>
+<td>2017</td>
+<td>42</td>
+<td>6</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ccdd735ec2aa48f844e69187e946e9d05e9fd7e3">PHP AiR: Analyzing PHP systems with Rascal</a></td>
+<td>M. Hills and P. Klint</td>
+<td>2014</td>
+<td>26</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/b2cbbdb1efcdbf34cbe670dfcc786433991c2bb2">Analysing Student Programs in the PHP Intelligent Tutoring System</a></td>
+<td>Dinesha Weragama and J. Reye</td>
+<td>2014</td>
+<td>22</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c35d1d04446b8cbe696493db22344cc6507584e8">Maintenance Patterns of Large-Scale PHP Web Applications</a></td>
+<td>Panos Kyriakakis and A. Chatzigeorgiou</td>
+<td>2014</td>
+<td>19</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ef89f04493508d96938f9f4e14a7fdf80b723a0c">Identifying and locating interference issues in PHP applications: the case of WordPress</a></td>
+<td>L. Eshkevari and G. Antoniol and J. Cordy and M. D. Penta</td>
+<td>2014</td>
+<td>16</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e4b687662191d88ae1249632f281317aca509e55">The Development of Web Based Expert System for Diagnosing Children Diseases Using PHP and MySQL</a></td>
+<td>Hustina waty and Randy Aprianggi</td>
+<td>2014</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/aabde6301d2d5361962e5a633871656eff4aee0c">ANALISA KONSEP OBJECT ORIENTED PROGRAMMING PADA BAHASA PEMROGRAMAN PHP</a></td>
+<td>Kadek Wibowo</td>
+<td>2015</td>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/926bb33994dc8ced2416bdf997a19c0497e32220">Aplikasi Diagnosis Gangguan Kecemasan Menggunakan Metode Forward Chaining Berbasis Web dengan PHP dan MYSQL</a></td>
+<td>Raka Yusuf and Harni Kusniyati and Yurike Nuramelia</td>
+<td>2016</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4ea747a8a19da550a1085b5d9f6cd55c26970b47">E-learning of PHP based on the solutions of real-life problems</a></td>
+<td>G. M. M. Bashir and A. S. L. Hoque and Bipul Chandra Dev Nath</td>
+<td>2016</td>
+<td>6</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/635811dd348e866aa4d7e7dc99a66f02c5dd16a1">Designing the Knowledge Base for a PHP Tutor</a></td>
+<td>Dinesha Weragama and J. Reye</td>
+<td>2012</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3293452be118ca6720c4a6ea1bfd2bf7198b713b">Sistem Informasi Berbasis Web Sma Al- Mukhtariyah Mamben Lauk Berbasis Php Dan Mysql Dengan Framework Codeigniter</a></td>
+<td>S. Suhartini and Muhamad Sadali and Yupi Kuspandi Putra</td>
+<td>2020</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c320cd427ae066bfe365b5461788c0bdf33d1507">A logical error detector for novice PHP programmers</a></td>
+<td>Tung Nguyen and C. Chua</td>
+<td>2014</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/11bfca21cee85dfe9860f550c297f4967a1a96c4">Evolution of PHP Applications: A Systematic Literature Review</a></td>
+<td>Alinaswe Siame and D. Kunda</td>
+<td>2017</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/cfa538107946ab4e1f77ae41db99d8af9a0a3471">Determination of Bahasa Melayu Word List From Friday Sermon Transcripts Using PHP and MySQL</a></td>
+<td>M. Harun and Muhammad ‘Aasim Asyafi’ie bin Ahmad and S. Hamid and Fareha Abdul Rahman and P. I. Khalid</td>
+<td>2013</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/dbfb0559140c92a193e4723fc8ca7242531286b9">Sistem Pemrosesan Transaksi Pada Toko Bangunan Berbasis Web Dengan PHP dan MySQL</a></td>
+<td>Rizky Gelar Maliq and R. Isnanto and Ike Pertiwi Windasari</td>
+<td>2014</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/71d4444fc6c57e59c4e1137b97d0b3da121e028a">SISTEM INFORMASI MANAJEMEN SURAT BERBASIS PHP DAN MYSQL DI INSTITUT SENI INDONESIA PADANGPANJANG</a></td>
+<td>Irwan Yusti</td>
+<td>2016</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/54cac445f04718a06b61f5616615baf28f4cc092">Static optimization in PHP 7</a></td>
+<td>N. Popov and Biagio Cosenza and B. Juurlink and Dmitry Stogov</td>
+<td>2017</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/b30cf4d01b0085647e6f146364eeaf97a88a5cf2">Vulnerability Detection in PHP Web Application Using Lexical Analysis Approach with Machine Learning</a></td>
+<td>Dhika Rizki Anbiya and A. Purwarianti and Y. Asnar</td>
+<td>2018</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/66a1049603e6166b9cc4975433eb388c6fdb6c4d">Information Retrieval Technique for Indonesian PDF Document with Modified Stemming Porter Method Using PHP</a></td>
+<td>Faizal Riza and S. Rifai and Akmal Dirgantara and Sfenrianto and Rasenda and Syarifudin Herdyansyah</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/401a0b2b887c3d8c50f95ad8f59dff6a3f725df2">Pro PHP Programming</a></td>
+<td>Peter B. MacIntyre and Brian Danchilla and Mladen Gogala</td>
+<td>2011</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/b3cbb06d4fd1967a30cdab16989c18a2b18f4722">Evolution of method invocation and object instantiation patterns in a PHP ecosystem</a></td>
+<td>Panos Kyriakakis and A. Chatzigeorgiou and Apostolos Ampatzoglou and S. Xinogalos</td>
+<td>2016</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/b28d1b5faeb54e58c991f3eaca916db1c9dd757f">MIGRATION CODE PADA BACKEND CRIMEZONE DARI PHP KE SCALA</a></td>
+<td>A. Suhendra and A. Bachtiar</td>
+<td>2016</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4fd455e698d4b0687184c1a2db10e05b89f4f2ad">Object-Oriented Programming with PHP</a></td>
+<td>Luis Argerich and Wankyu Choi and J. Coggeshall and Ken Egervari and Martin Geisler and Zak Greant and Andrew F. Hill and C. Hubbard and James Moore and Devon O’Dell and Jon Parise and Harish Rawat and Tarique Sani and Christopher Scollo and Deepak Thomas and Chris Ullman</td>
+<td>2003</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e870a0eebcd0ce3ac4d41f93531a1904f9f3e66c">Mutation Testing for Evaluating PHP Web Applications</a></td>
+<td>A. Saifan and M. Ata</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0a1a7f81189724590b1d1b73e2f85b59616414d7">Analisis Perbandingan Bahasa Pemrograman PHP Laravel dengan PHP Native pada Pengembangan Website</a></td>
+<td>R. Endra and Yuthsi Aprilinda and Yanuar Dharmawan and Wahyu Ramadhan</td>
+<td>2021</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d1ced82bbe63acf677f5f0e5327cfb97b00da35d">The PHP Language: Types of Statement</a></td>
+<td>M. Bramer</td>
+<td>2015</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="sql.html">sql.html</a> · php.html · <a href="xml.html">xml.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/php.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

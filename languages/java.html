@@ -1,0 +1,2986 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>Java - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="Java"></meta>
+  <meta property="og:description" content="Java is a pl created in 1995 by James Gosling."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="java.html">Java</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="java.html">Java</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">Java is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1995">1995</a> by <a href="../lists/creators.html#James_Gosling">James Gosling</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#1<span><span title="TotalRank: 1 Jobs: 0 Users: 3 Facts: 0 Links: 1">on PLDB</span></span></td>
+<td>27<span>Years Old</span></td>
+<td>5.6m<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>401<span><span title="Books about or leveraging Java">Books</span></span></td>
+<td>37<span><span title="Academic publications about or leveraging Java">Papers</span></span></td>
+<td>12m<span><span title="Java repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/java">Riju</a> · <a href="https://repl.it/languages/java">Replit</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `// Type your code here, or load an example.\nclass Square {\n    static int square(int num) {\n        return num * num;\n    }\n}`,
+        language: 'java',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture. <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://oracle.com/java/">Java website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java Wikipedia page</a></li>
+<li>There are at least 11,529,980 Java repos on <a href="https://github.com/search?q=language:Java">GitHub</a></li>
+<li>Java first developed in <a href="../lists/originCommunities.html#Sun_Microsystems">Sun Microsystems</a></li>
+<li>PLDB estimates there are currently 85k job openings for Java programmers.</li>
+<li>file extensions for Java include java and jav</li>
+<li>the Java team is on <a href="https://twitter.com/java">Twitter</a></li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 217k users using Java in 370k repos on <a href="https://api.github.com/search/repositories?q=language:Java">GitHub</a></li>
+<li>Check out the 2,090 <a href="https://www.meetup.com/topics/java/">Java meetup groups</a> on Meetup.com.</li>
+<li>There are 266,613 members in the <a href="https://reddit.com/r/java">Java subreddit</a></li>
+<li>There are 29,675 <a href="https://projecteuler.net/language=Java">Project Euler</a> users using Java</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Java programmers reported a median salary of $51,888. 35% of respondents reported using Java. 29,162 programmers reported using Java, and 17,222 said they wanted to use it</li>
+<li>Explore Java snippets on <a href="http://www.rosettacode.org/wiki/Category:Java">Rosetta Code</a></li>
+<li>Java is listed on <a href="https://hopl.info/showlanguage.prx?exp=2131">HOPL</a></li>
+<li>Java ranks #3 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/openjdk-8-jdk">Ubuntu package</a> for Java</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/java">grammar</a> for Java</li>
+<li>Here is a Java <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/georgewfraser/vscode-javac">implementation</a></li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/java">package</a> for syntax highlighting Java</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Java</li>
+<li>GitHub supports <a href="https://github.com/textmate/java.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Java</li>
+<li>Java appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/SpencerPark/IJava">Kernel</a> for Java</li>
+<li>There are 2 central package repositories for Java: <a href="https://search.maven.org/">1</a>,<a href="https://mvnrepository.com/popular">2</a></li>
+<li>Indeed.com has 32,645 matches for <a href="https://www.indeed.com/jobs?q=java engineer">"java engineer"</a>.</li>
+<li>See also: <a href="javascript.html">JavaScript</a>, <a href="pizza.html">Pizza</a>, <a href="ada.html">Ada</a>, <a href="csharp.html">C#</a>, <a href="eiffel.html">Eiffel</a>, <a href="mesa.html">Mesa</a>, <a href="modula-3.html">Modula-3</a>, <a href="oberon.html">Oberon</a>, <a href="objective-c.html">Objective-C</a>, <a href="ucsd-pascal.html">UCSD Pascal</a>, <a href="object-pascal.html">Object Pascal</a>, <a href="beanshell.html">BeanShell</a>, <a href="chapel.html">Chapel</a>, <a href="clojure.html">Clojure</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="fantom.html">Fantom</a>, <a href="gambas.html">Gambas</a>, <a href="groovy.html">Groovy</a>, <a href="hack.html">Hack</a>, <a href="jsharp.html">J#</a>, <a href="kotlin.html">Kotlin</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="scala.html">Scala</a>, <a href="seed7.html">Seed7</a>, <a href="vala.html">Vala</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="jvm.html">JVM</a>, <a href="c.html">C</a>, <a href="oak.html">Oak</a>, <a href="linux.html">Linux</a>, <a href="solaris.html">Solaris</a>, <a href="arm.html">ARM</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="html.html">HTML</a>, <a href="http.html">HTTP</a>, <a href="mime.html">MIME</a>, <a href="java-server-pages.html">JSP</a>, <a href="motif-software.html">Motif</a>, <a href="android.html">Android</a>, <a href="xml.html">XML</a>, <a href="java-ee-version-history.html">Java EE version history</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/java">Improve our Java file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:</div>
+<code class="scrollCodeBlockComponent">// Type your code here, or load an example.
+class Square {
+    static int square(int num) {
+        return num * num;
+    }
+}</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/java'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">public class Main {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello, world!&quot;);
+    }
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/j/Java.java'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">public class Java {
+	public static void main(String[] args) {
+		System.out.println(&quot;Hello World&quot;);
+	}
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Java'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">// Hello World in Java
+
+class HelloWorld {
+  static public void main( String args[] ) {
+    System.out.println( &quot;Hello World!&quot; );
+  }
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/textmate/java.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">/**
+ *   Copyright (c) Rich Hickey. All rights reserved.
+ *   The use and distribution terms for this software are covered by the
+ *   Eclipse Public License 1.0 (http://opensource.org/licenses/eclipse-1.0.php)
+ *   which can be found in the file epl-v10.html at the root of this distribution.
+ *   By using this software in any fashion, you are agreeing to be bound by
+ * 	 the terms of this license.
+ *   You must not remove this notice, or any other, from this software.
+ **/
+
+/* rich Apr 19, 2008 */
+
+package clojure.lang;
+
+import java.lang.ref.Reference;
+import java.math.BigInteger;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.lang.ref.SoftReference;
+import java.lang.ref.ReferenceQueue;
+
+public class Util{
+static public boolean equiv(Object k1, Object k2){
+	if(k1 == k2)
+		return true;
+	if(k1 != null)
+		{
+		if(k1 instanceof Number &amp;&amp; k2 instanceof Number)
+			return Numbers.equal((Number)k1, (Number)k2);
+		else if(k1 instanceof IPersistentCollection || k2 instanceof IPersistentCollection)
+			return pcequiv(k1,k2);
+		return k1.equals(k2);
+		}
+	return false;
+}
+
+static public boolean equiv(long k1, long k2){
+	return k1 == k2;
+}
+
+static public boolean equiv(Object k1, long k2){
+	return equiv(k1, (Object)k2);
+}
+
+static public boolean equiv(long k1, Object k2){
+	return equiv((Object)k1, k2);
+}
+
+static public boolean equiv(double k1, double k2){
+	return k1 == k2;
+}
+
+static public boolean equiv(Object k1, double k2){
+	return equiv(k1, (Object)k2);
+}
+
+static public boolean equiv(double k1, Object k2){
+	return equiv((Object)k1, k2);
+}
+
+static public boolean equiv(boolean k1, boolean k2){
+	return k1 == k2;
+}
+
+static public boolean equiv(Object k1, boolean k2){
+	return equiv(k1, (Object)k2);
+}
+
+static public boolean equiv(boolean k1, Object k2){
+	return equiv((Object)k1, k2);
+}
+
+static public boolean equiv(char c1, char c2) {
+    return c1 == c2;
+}
+
+static public boolean pcequiv(Object k1, Object k2){
+	if(k1 instanceof IPersistentCollection)
+		return ((IPersistentCollection)k1).equiv(k2);
+	return ((IPersistentCollection)k2).equiv(k1);
+}
+
+static public boolean equals(Object k1, Object k2){
+	if(k1 == k2)
+		return true;
+	return k1 != null &amp;&amp; k1.equals(k2);
+}
+
+static public boolean identical(Object k1, Object k2){
+	return k1 == k2;
+}
+
+static public Class classOf(Object x){
+	if(x != null)
+		return x.getClass();
+	return null;
+}
+
+static public int compare(Object k1, Object k2){
+	if(k1 == k2)
+		return 0;
+	if(k1 != null)
+		{
+		if(k2 == null)
+			return 1;
+		if(k1 instanceof Number)
+			return Numbers.compare((Number) k1, (Number) k2);
+		return ((Comparable) k1).compareTo(k2);
+		}
+	return -1;
+}
+
+static public int hash(Object o){
+	if(o == null)
+		return 0;
+	return o.hashCode();
+}
+
+static public int hasheq(Object o){
+	if(o == null)
+		return 0;
+	if(o instanceof Number)
+		return Numbers.hasheq((Number)o);
+	else if(o instanceof IHashEq)
+		return ((IHashEq)o).hasheq();
+	return o.hashCode();
+}
+
+static public int hashCombine(int seed, int hash){
+	//a la boost
+	seed ^= hash + 0x9e3779b9 + (seed &lt;&lt; 6) + (seed &gt;&gt; 2);
+	return seed;
+}
+
+static public boolean isPrimitive(Class c){
+	return c != null &amp;&amp; c.isPrimitive() &amp;&amp; !(c == Void.TYPE);
+}
+
+static public boolean isInteger(Object x){
+	return x instanceof Integer
+			|| x instanceof Long
+	        || x instanceof BigInt
+			|| x instanceof BigInteger;
+}
+
+static public Object ret1(Object ret, Object nil){
+		return ret;
+}
+
+static public ISeq ret1(ISeq ret, Object nil){
+		return ret;
+}
+
+static public &lt;K,V&gt; void clearCache(ReferenceQueue rq, ConcurrentHashMap&lt;K, Reference&lt;V&gt;&gt; cache){
+		//cleanup any dead entries
+	if(rq.poll() != null)
+		{
+		while(rq.poll() != null)
+			;
+		for(Map.Entry&lt;K, Reference&lt;V&gt;&gt; e : cache.entrySet())
+			{
+            Reference&lt;V&gt; val = e.getValue();
+			if(val != null &amp;&amp; val.get() == null)
+				cache.remove(e.getKey(), val);
+			}
+		}
+}
+
+static public RuntimeException runtimeException(String s){
+	return new RuntimeException(s);
+}
+
+static public RuntimeException runtimeException(String s, Throwable e){
+	return new RuntimeException(s, e);
+}
+
+/**
+ * Throw even checked exceptions without being required
+ * to declare them or catch them. Suggested idiom:
+ * &lt;p&gt;
+ * &lt;code&gt;throw sneakyThrow( some exception );&lt;/code&gt;
+ */
+static public RuntimeException sneakyThrow(Throwable t) {
+    // http://www.mail-archive.com/javaposse@googlegroups.com/msg05984.html
+	if (t == null)
+		throw new NullPointerException();
+	Util.&lt;RuntimeException&gt;sneakyThrow0(t);
+	return null;
+}
+
+@SuppressWarnings(&quot;unchecked&quot;)
+static private &lt;T extends Throwable&gt; void sneakyThrow0(Throwable t) throws T {
+	throw (T) t;
+}
+
+}
+
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/Java_(programming_language)'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">// Hello.java (Java SE 5)
+import javax.swing.*;
+
+public class Hello extends JFrame {
+    public Hello() {
+        super(&quot;hello&quot;);
+        super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        super.add(new JLabel(&quot;Hello, world!&quot;));
+        super.pack();
+        super.setVisible(true);
+    }
+
+    public static void main(final String[] args) {
+        new Hello();
+    }
+}</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=java">Keywords</a> in Java</h4>
+<p class="scrollParagraphComponent">abstract continue for new switch assert default goto package synchronized boolean do if private this break double implements protected throw byte else import public throws case enum instanceof return transient catch extends int short try char final interface static void class finally long strictfp volatile const float native super while _</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/scientific-notation-feature.html">Scientific Notation</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/binary-numbers-feature.html">Binary Literals</a></td>
+<td>✓</td>
+<td><pre>// 0[bB][01][01_]*[lL]?</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/integers-feature.html">Integers</a></td>
+<td>✓</td>
+<td><pre>// 0|[1-9][0-9_]*[lL]?</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/floats-feature.html">Floats</a></td>
+<td>✓</td>
+<td><pre>// ([0-9][0-9_]*\.([0-9][0-9_]*)?|\.[0-9][0-9_]*)([eE][+\-]?[0-9][0-9_]*)?[fFdD]?|[0-9][eE][+\-]?[0-9][0-9_]*[fFdD]?|[0-9]([eE][+\-]?[0-9][0-9_]*)?[fFdD]|0[xX]([0-9a-fA-F][0-9a-fA-F_]*\.?|([0-9a-fA-F][0-9a-fA-F_]*)?\.[0-9a-fA-F][0-9a-fA-F_]*)[pP][+\-]?[0-9][0-9_]*[fFdD]?</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/hexadecimals-feature.html">Hexadecimals</a></td>
+<td>✓</td>
+<td><pre>// 0[xX][0-9a-fA-F][0-9a-fA-F_]*[lL]?</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/octals-feature.html">Octals</a></td>
+<td>✓</td>
+<td><pre>// 0[0-7_]+[lL]?</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/inheritance-feature.html">Inheritance</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/access-modifiers-feature.html">Access Modifiers</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/switch-statements-feature.html">Switch Statements</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/exceptions-feature.html">Exceptions</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constants-feature.html">Constants</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/classes-feature.html">Classes</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/booleans-feature.html">Booleans</a></td>
+<td>✓</td>
+<td></td>
+<td>true false</td>
+</tr>
+<tr><td><a href="../languages/case-sensitivity-feature.html">Case Sensitivity</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td></td>
+<td>System.out.println</td>
+</tr>
+<tr><td><a href="../languages/threads-feature.html">Threads</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td>//</td>
+</tr>
+<tr><td><a href="../languages/increment-and-decrement-operators-feature.html">Increment and decrement operators</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/module-feature.html">Module Pattern</a></td>
+<td>✓</td>
+<td><pre>// Package = directory. Java classes can be grouped together in packages. A package name is the same as the directory (folder) name which contains the .java files. You declare packages when you define your Java program, and you name the packages you want to use from other libraries in an import statement.
+// The first statement, other than comments, in a Java source file, must be the package declaration.
+// Following the optional package declaration, you can have import statements, which allow you to specify classes from other packages that can be referenced without qualifying them with their package.
+// This source file must be Drawing.java in the illustration directory.
+package illustration;
+import java.awt.*;
+public class Drawing {
+ // ...
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/iterators-feature.html">Iterators</a></td>
+<td>✓</td>
+<td><pre>Iterator iter = list.iterator();
+//Iterator<MyType> iter = list.iterator();    in J2SE 5.0
+while (iter.hasNext()) {
+    System.out.print(iter.next());
+    if (iter.hasNext())
+        System.out.print(", ");
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/interface-feature.html">Interfaces</a></td>
+<td>✓</td>
+<td><pre>interface MyInterface{  
+   /* This is a default method so we need not
+    * to implement this method in the implementation 
+    * classes  
+    */
+   default void newMethod(){  
+       System.out.println("Newly added default method");  
+   }  
+   /* Already existing public and abstract method
+    * We must need to implement this method in 
+    * implementation classes.
+    */
+   void existingMethod(String str);  
+}  
+public class Example implements MyInterface{ 
+  // implementing abstract method
+    public void existingMethod(String str){           
+        System.out.println("String is: "+str);  
+    }  
+    public static void main(String[] args) {  
+      Example obj = new Example();
+      
+      //calling the default method of interface
+        obj.newMethod();     
+        //calling the abstract method of interface
+        obj.existingMethod("Java 8 is easy to learn"); 
+  
+    }  
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>✓</td>
+<td><pre>import javax.swing.*;
+import javax.swing.JOptionPane;
+// use fully qualified name without import:
+javax.swing.JOptionPane.showMessageDialog(null, "Hi");
+// There are 166 packages containing 3279 classes and interfaces in Java 5.
+// import java.io.*; Input-output classes.</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/garbage-collection-feature.html">Garbage Collection</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constructor-feature.html">Constructors</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"hello world"</pre></td>
+<td>"</td>
+</tr>
+<tr><td><a href="../languages/single-dispatch-feature.html">Single Dispatch</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/generics-feature.html">Generics</a></td>
+<td>✓</td>
+<td><pre>List<String> v = new ArrayList<String>();
+v.add("test");
+Integer i = v.get(0); // (type error)  compilation-time error</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/assert-statements-feature.html">Assert Statements</a></td>
+<td>✓</td>
+<td><pre>// By default, assertions are disabled
+// java –enableassertions Test
+int score = 10;
+assert score >= 10 : " Below";
+System.out.println("score is "+score);</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/operator-overloading-feature.html">Operator Overloading</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/macros-feature.html">Macros</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/pointers-feature.html">Pointers</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Java on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=Effective Java Programming Language Guide Joshua Bloch">Effective Java Programming Language Guide</a></td>
+<td>Joshua Bloch</td>
+<td>2001</td>
+<td>299</td>
+<td>5484</td>
+<td>4.48</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Java from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780134462028">Java Software Solutions</a></td>
+<td>Lewis, John and Loftus, William</td>
+<td>2017</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132576246">Data Structures and Other Objects Using Java</a></td>
+<td>Main, Michael</td>
+<td>2011</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133360905">Building Java Programs (3rd Edition)</a></td>
+<td>Reges, Stuart and Stepp, Marty</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780073523354">Java Programming: From The Ground Up</a></td>
+<td>Ralph Bravaco and Shai Simonson</td>
+<td>2009</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132149181">Java Software Solutions: Foundations of Program Design</a></td>
+<td>Lewis, John and Loftus, William</td>
+<td>2011</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449370824">Java in a Nutshell: A Desktop Quick Reference</a></td>
+<td>Evans, Benjamin J and Flanagan, David</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780139194245">C++ for Java Programmers</a></td>
+<td>Weiss, Mark</td>
+<td>2003</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781285081953">Java Programming</a></td>
+<td>Farrell, Joyce</td>
+<td>2013</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617291999">Java 8 in Action: Lambdas, Streams, and functional-style programming</a></td>
+<td>Urma, Raoul-Gabriel and Fusco, Mario and Mycroft, Alan</td>
+<td>2014</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131872486">Thinking in Java</a></td>
+<td>Eckel, Bruce</td>
+<td>2006</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781943872077">Murach's Java Programming (5th Edition)</a></td>
+<td>Joel Murach</td>
+<td>2017</td>
+<td>Mike Murach & Associates</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132830317">Absolute Java (5th Edition)</a></td>
+<td>Savitch, Walter and Mock, Kenrick</td>
+<td>2012</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131469143">Data Structures and Algorithms in Java</a></td>
+<td>Drake, Peter</td>
+<td>2005</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470509487">Big Java: Compatible with Java 5, 6 and 7</a></td>
+<td>Horstmann, Cay S.</td>
+<td>2009</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134743356">Java How to Program, Early Objects (Deitel: How to Program)</a></td>
+<td>Deitel, Paul and Deitel, Harvey</td>
+<td>2017</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133813463">Introduction to Java Programming, Comprehensive Version plus MyLab Programming with Pearson eText -- Access Card Package (10th Edition)</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2014</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201702798">C for Java Programmers</a></td>
+<td>Muldner, Tomasz</td>
+<td>2000</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672324604">Sams Teach Yourself Java 2 in 24 Hours (3rd Edition) (Sams Teach Yourself...in 24 Hours (Paperback))</a></td>
+<td>Cadenhead, Rogers</td>
+<td>2002</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118431122">Java Concepts: Early Objects</a></td>
+<td>Horstmann, Cay S.</td>
+<td>2012</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449361341">RESTful Java with JAX-RS 2.0: Designing and Developing Distributed Web Services</a></td>
+<td>Burke, Bill</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471697046">Java Concepts</a></td>
+<td>Horstmann, Cay S.</td>
+<td>2005</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118957400">OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808</a></td>
+<td>Boyarsky, Jeanne and Scott Selikoff</td>
+<td>2014</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133593495">Intro to Java Programming, Comprehensive Version, Student Value Edition (10th Edition)</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2014</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780073047027">Introduction to Programming with Java A Problem Solving Approach</a></td>
+<td>John S. Dean and Raymond H. Dean</td>
+<td>2008</td>
+<td>McGraw-Hill Science/Engineerin</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470181607">Java Concepts for AP Computer Science</a></td>
+<td>Horstmann, Cay S.</td>
+<td>2007</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781423901884">Java Programming Lab Manual: From Problem Analysis To Program Design, 3rd Edition</a></td>
+<td>Mayfield, Blayne</td>
+<td>2007</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596007829">Java Threads: Understanding and Mastering Concurrent Programming</a></td>
+<td>Scott Oaks and Henry Wong</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781418835408">Java Programming: Program Design Including Data Structures</a></td>
+<td>Malik, D. S.</td>
+<td>2005</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136123712">Java How to Program: Late Objects Version</a></td>
+<td>Deitel, Paul</td>
+<td>2009</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133050578">Introduction to Java Programming, Comprehensive Version Plus Myprogramminglab with Pearson Etext -- Access Card Package</a></td>
+<td>Liang, Y Daniel</td>
+<td>2012</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596007737">Java in a Nutshell</a></td>
+<td>Flanagan, David</td>
+<td>08/24/2012</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133813487">Introduction to Java Programming, Brief Version Plus MyLab Programming with Pearson eText -- Access Card Package (10th Edition)</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2014</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449370770">Java 8 Lambdas: Functional Programming For The Masses</a></td>
+<td>Warburton, Richard</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449357672">Java Network Programming</a></td>
+<td>Harold, Elliotte Rusty</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078022074">Java Programming: A Comprehensive Introduction</a></td>
+<td>Schildt, Herbert and Skrien, Dale</td>
+<td>2012</td>
+<td>McGraw Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321304278">Addison-Wesley's Java Backpack Reference Guide</a></td>
+<td>DePasquale, Peter</td>
+<td>2004</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781930110434">Bitter Java</a></td>
+<td>Tate, Bruce A.</td>
+<td>2002</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321512093">Programming with Alice and Java</a></td>
+<td>Lewis, John and DePasquale, Peter</td>
+<td>2008</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781411652385">Java by Dissection</a></td>
+<td>McDowell, Charlie</td>
+<td>2006</td>
+<td>Lulu.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071606301">Java The Complete Reference, 8th Edition</a></td>
+<td>Schildt, Herbert</td>
+<td>2011</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596001575">Java Security (2nd Edition)</a></td>
+<td>Oaks, Scott</td>
+<td>2001</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201634556">The Java Programming Language</a></td>
+<td>Arnold, Ken and Gosling, James</td>
+<td>1996</td>
+<td>Addison-Wesley Pub (Sd)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565924550">Java Swing (Java (O'Reilly))</a></td>
+<td>Eckstein, Robert and Loy, Marc and Wood, Dave</td>
+<td>1998</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763717612">Fundamentals Of Computer Science Using Java</a></td>
+<td>Hughes, David</td>
+<td>2002</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787126367">Programming Kotlin: Get to grips quickly with the best Java alternative</a></td>
+<td>Samuel, Stephen and Bocutiu, Stefan</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781683920274">Computer Graphics Programming in OpenGL with Java</a></td>
+<td>Gordon, V. Scott and Clevenger, John L.</td>
+<td>2017</td>
+<td>Mercury Learning & Information</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134448305">Building Java Programs: A Back to Basics Approach Plus MyLab Programming with Pearson eText -- Access Card Package</a></td>
+<td>Reges, Stuart and Stepp, Marty</td>
+<td>2016</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072224207">Java 2: The Complete Reference, Fifth Edition</a></td>
+<td>Schildt, Herbert</td>
+<td>2002</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764588747">Beginning Programming with Java For Dummies</a></td>
+<td>Burd, Barry A.</td>
+<td>2005</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785880902">Neural Network Programming with Java: Create and unleash the power of neural networks by implementing professional Java code</a></td>
+<td>Souza, Alan M.F. and Soares, Fabio M.</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130471109">Object-Oriented Software Engineering: Using UML, Patterns and Java (2nd Edition)</a></td>
+<td>Bruegge, Bernd and Dutoit, Allen H.</td>
+<td>2003</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201310061">The Java Programming Language (Java Series)</a></td>
+<td>Arnold, Ken and Gosling, James</td>
+<td>1997</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471769071">Operating System Concepts with Java</a></td>
+<td>Silberschatz, Abraham and Galvin, Peter B. and Gagne, Greg</td>
+<td>2006</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449316648">Programming Android: Java Programming for the New Generation of Mobile Devices</a></td>
+<td>Mednieks, Zigurd and Dornin, Laird and Meike, G. Blake and Nakamura, Masumi</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596803735">Java: The Good Parts: Unearthing the Excellence in Java</a></td>
+<td>Waldo, Jim</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780340700143">Software Development for Engineers, C/C++, Pascal, Assembly, Visual Basic, HTML, Java Script, Java DOS, Windows NT, UNIX</a></td>
+<td>Buchanan, William</td>
+<td>1997</td>
+<td>Butterworth-Heinemann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071633604">Java Programming (Oracle Press)</a></td>
+<td>Sarang, Poornachandra</td>
+<td>2012</td>
+<td>McGraw Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134756431">Introduction to Java Programming and Data Structures, Comprehensive Version, Student Value Edition Plus MyLab Programming with Pearson eText - Access Card Package</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2017</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565924857">Java I/O (Java Series)</a></td>
+<td>Harold, Elliotte Rusty</td>
+<td>1999</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321336781">Java Puzzlers: Traps, Pitfalls, and Corner Cases</a></td>
+<td>Bloch, Joshua and Gafter, Neal</td>
+<td>2005</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780387226811">Multimedia Introduction to Programming Using Java</a></td>
+<td>Gries, David and Gries, Paul</td>
+<td>2004</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590590614">Bug Patterns In Java</a></td>
+<td>Allen, Eric</td>
+<td>2002</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119619130">OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide: Exam 1Z0-815, Exam 1Z0-816, and Exam 1Z0-817</a></td>
+<td>Boyarsky, Jeanne and Selikoff, Scott</td>
+<td>2020</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078823688">Java Programmer's Reference</a></td>
+<td>Schildt, Herbert and O'Neil, Joe</td>
+<td>1997</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735711952">Java for the Web With Servlets, Jsp, and Ejb: A Developer's Guide to Scalable Solutions</a></td>
+<td>Kurniawan, Budi</td>
+<td>2002</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470105559">Java Concepts, Compatible with Java 5 and 6, 5th Edition</a></td>
+<td>Horstmann, Cay S.</td>
+<td>2007</td>
+<td>John Wiley and Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133762518">MyLab Programming with Pearson eText -- Access Card -- for Intro to Java Programming, Comprehensive Version, 10/e</a></td>
+<td>Liang, Y. and Liang, Y. Daniel</td>
+<td>2014</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619159504">Data Structures Using Java</a></td>
+<td>Malik, D. S.</td>
+<td>2003</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132472753">Introduction to Java Programming, Comprehensive: International Edition</a></td>
+<td>Liang</td>
+<td>2010</td>
+<td>Pearson Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470093559">Concurrency: State Models and Java Programs</a></td>
+<td>Magee, Jeff and Kramer, Jeff</td>
+<td>2006</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565927186">Learning Java (Java Series)</a></td>
+<td>Knudsen, Jonathan and Niemeyer, Patrick</td>
+<td>2000</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937785468">Functional Programming in Java: Harnessing the Power Of Java 8 Lambda Expressions</a></td>
+<td>Subramaniam, Venkat</td>
+<td>2014</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781418859831">Java Programming: Introductory Concepts and Techniques (Available Titles Skills Assessment Manager (SAM) - Office 2010)</a></td>
+<td>Shelly, Gary B. and Cashman, Thomas J. and Starks, Joy L.</td>
+<td>2005</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133900699">Java Language Specification, Java SE 8 Edition, The (Java Series)</a></td>
+<td>Gosling, James and Joy, Bill and Steele Jr., Guy and Bracha, Gilad and Buckley, Alex</td>
+<td>2014</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584884552">A Practical Guide to Data Structures and Algorithms using Java (Chapman & Hall/CRC Applied Algorithms and Data Structures series)</a></td>
+<td>Goldman, Sally. A and Goldman, Kenneth. J</td>
+<td>2007</td>
+<td>Chapman and Hall/CRC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789351197584">Java 8 Programming: Black Book</a></td>
+<td>WILEY INDIA and WILEY INDIA and WILEY INDIA</td>
+<td>2015</td>
+<td>DT EDITORIAL SERVICES</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470889640">Java Programming 24-Hour Trainer</a></td>
+<td>Fain, Yakov</td>
+<td>2011</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131482111">Just Java 2 (6th Edition)</a></td>
+<td>van der Linden, Peter</td>
+<td>2004</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492056270">Learning Java: An Introduction to Real-World Programming with Java</a></td>
+<td>Loy, Marc and Niemeyer, Patrick and Leuck, Daniel</td>
+<td>2020</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672315855">Java Thread Programming</a></td>
+<td>Hyde, Paul</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430266617">Beginning Java 8 APIs, Extensions and Libraries: Swing, JavaFX, JavaScript, JDBC and Network Programming APIs (Expert's Voice in Java)</a></td>
+<td>Sharan, Kishori</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521520591">Java Frameworks and Components: Accelerate Your Web Application Development</a></td>
+<td>Nash, Michael</td>
+<td>2003</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201719628">Building Parsers with Java</a></td>
+<td>Metsker, Steven John Metsker</td>
+<td>2001</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201634587">The Java Class Libraries: An Annotated Reference (Java Series) (v. 1)</a></td>
+<td>Chan, Patrick and Lee, Rosanna</td>
+<td>1996</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072123548">Java 2 Programmer's Reference</a></td>
+<td>ONeil, Joseph</td>
+<td>2000</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780387372372">Java for Bioinformatics and Biomedical Applications</a></td>
+<td>Bal, Harshawardhan and Hujol, Johnny</td>
+<td>2007</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783642285042">Java kompakt</a></td>
+<td>Matthias Hölzl; Allaithy Raed; Martin Wirsing</td>
+<td>20130312</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593278052">Learn Java the Easy Way: A Hands-On Introduction to Programming</a></td>
+<td>Payne, Bryson</td>
+<td>2017</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781337756280">Bundle: Java Programming, Loose-Leaf Version, 9th + MindTap Programming, 1 term (6 months) Printed Access Card</a></td>
+<td>Farrell, Joyce</td>
+<td>2018</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596521127">Java Web Services: Up and Running</a></td>
+<td>Kalin, Martin</td>
+<td>20080514</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449394707">Clojure Programming: Practical Lisp for the Java World</a></td>
+<td>Emerick, Chas and Carper, Brian and Grand, Christophe</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470889404">Practical Database Programming with Java</a></td>
+<td>Bai, Ying</td>
+<td>2011</td>
+<td>Wiley-IEEE Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118951453">Java Programming: 24-Hour Trainer</a></td>
+<td>Fain, Yakov</td>
+<td>2015</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071283687">An Introduction to Object-Oriented Programming with Java</a></td>
+<td>Wu, C. Thomas</td>
+<td>2009</td>
+<td>McGraw-Hill Higher Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780073317083">A Comprehensive Introduction to Object-Oriented Programming with Java</a></td>
+<td>Wu, C</td>
+<td>2007</td>
+<td>McGraw-Hill Science/Engineering/Math</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133781281">MyLab Programming with Pearson eText -- Access Code Card -- for Java Software Solutions: Foundations of Program Design</a></td>
+<td>Lewis, John and Lewis, John and Loftus, William</td>
+<td>2014</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596007218">Java Network Programming, Third Edition</a></td>
+<td>Harold, Elliotte Rusty</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201703238">The Real-Time Specification for Java</a></td>
+<td>Gosling, James and Bollella, Greg and Dibble, Peter and Furr, Steve and Turnbull, Mark</td>
+<td>2000</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781571690432">Black Art of Java Game Programming</a></td>
+<td>Fan, Joel and Tenitchi, Calin and Ries, Eric</td>
+<td>1996</td>
+<td>Waite Group Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201715019">Advanced Programming for the Java 2 Platform</a></td>
+<td>Austin, Calvin and Pawlan, Monica</td>
+<td>2000</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521662208">Fundamentals of OOP and Data Structures in Java</a></td>
+<td>Wiener, Richard and Pinson, Lewis J.</td>
+<td>2000</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119235552">Java For Dummies (For Dummies (Computers))</a></td>
+<td>Burd, Barry</td>
+<td>2017</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781934356098">Programming Groovy: Dynamic Productivity for the Java Developer (Pragmatic Programmers)</a></td>
+<td>Subramaniam, Venkat</td>
+<td>2008</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781420065473">Java Programming Fundamentals: Problem Solving Through Object Oriented Analysis and Design</a></td>
+<td>Nair, Premchand S.</td>
+<td>2008</td>
+<td>CRC Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072254549">Java Demystified</a></td>
+<td>Keogh, Jim</td>
+<td>2004</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136042587">Introduction to Java Programming</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2008</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521583886">Modern Compiler Implementation in Java</a></td>
+<td>Appel, Andrew W.</td>
+<td>1997</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131486607">Small Java How To Program</a></td>
+<td>Deitel, Harvey M. and Deitel, Paul J.</td>
+<td>2004</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617292736">Functional Programming in Java: How functional techniques improve your Java programs</a></td>
+<td>Saumont, Pierre-Yves</td>
+<td>2017</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471332299">Mastering Enterprise JavaBeans and the Java 2 Platform, Enterprise Edition</a></td>
+<td>Roman, Ed</td>
+<td>1999</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763704902">Programming and Problem Solving with Java</a></td>
+<td>Dale, Nell B. and Chip Weems and Mark R. Headington</td>
+<td>2003</td>
+<td>Jones & Bartlett Publishers</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781566043557">Java Programming For The Internet: A Guide To Creating Dynamic, Interactive Internet Applications</a></td>
+<td>Pratik R. Patel and Alan D. Hudson and Donald A. Ball</td>
+<td>1996</td>
+<td>Ventana Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072222623">Java Servlets Developer's Guide</a></td>
+<td>Karl Moss and Michael Mueller and Lyssa Wald</td>
+<td>2002</td>
+<td>McGraw-Hill/OsborneMedia</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134672816">Mylab Programming with Pearson Etext -- Access Card -- For Introduction to Java Programming and Data Structures, Comprehensive Version</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2019</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780127427515">Java Cryptography Extensions: Practical Guide for Programmers (The Practical Guides)</a></td>
+<td>Weiss, Jason R.</td>
+<td>2004</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596000882">Java Programming with Oracle JDBC</a></td>
+<td>Bales, Donald</td>
+<td>2001</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131436978">Java Application Development on Linux</a></td>
+<td>Albing, Carl</td>
+<td>2004</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763734237">Java Web Development Illuminated (Jones and Bartlett Illuminated (Paperback))</a></td>
+<td>Qian, Kai</td>
+<td>2006</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789724731">Platinum Edition Using Xhtml, Xml and Java 2</a></td>
+<td>O'Donnell, Jim</td>
+<td>2000</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201488371">Hooked on Java: Creating Hot Web Sites With Java Applets</a></td>
+<td>Van Hoff, Arthur and Shaio, Sami and Starbuck, Orca and Sun Microsystems, Inc.</td>
+<td>1996</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071310376">Java Programming: A Comprehensive 1st Skrien</a></td>
+<td>Herbert Schildt, Dale John Skrien</td>
+<td>2012</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201852745">Hooked On Java: Creating Hot Web Sites With Java Applets</a></td>
+<td>Van Hoff, Arthur.</td>
+<td>1996</td>
+<td>Addison-wesley Pub. Co.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430225270">The Definitive Guide to Jython: Python for the Java Platform (Expert's Voice in Software Development)</a></td>
+<td>Juneau, Josh and Baker, Jim and Wierzbicki, Frank and Soto Muoz, Leo and Ng, Victor and Ng, Alex and Baker, Donna L.</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471987109">Concurrency: State Models & Java Programs</a></td>
+<td>Magee, Jeff and Kramer, Jeff</td>
+<td>1999</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780198094852">Programming in Java</a></td>
+<td>Sachin Malhotra,Saurabh Chaudhary</td>
+<td>2021</td>
+<td>Oxford University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596002435">Learning Wireless Java</a></td>
+<td>Qusay Mahmoud</td>
+<td>2002</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321429728">Java Foundations: Introduction to Program Design and Data Structures</a></td>
+<td>Lewis, John and DePasquale, Peter and Chase, Joseph</td>
+<td>2007</td>
+<td>Addison Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781846283802">An Introduction to Network Programming with Java</a></td>
+<td>Graba, Jan</td>
+<td>2006</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565921948">Java Virtual Machine (Java Series)</a></td>
+<td>Downing, Troy and Meyer, Jon</td>
+<td>1997</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619035655">Object-Oriented Application Development Using Java</a></td>
+<td>Doke, E. Reed and Satzinger, John W. and Rebstock Williams, Susan</td>
+<td>2002</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781580030717">A Guide To Programming in Java: Java 2 Platform Standard Edition 5</a></td>
+<td>Brown, Beth</td>
+<td>2005</td>
+<td>Lawrenceville Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764556173">Professional Java Tools for Extreme Programming: Ant, XDoclet, JUnit, Cactus, and Maven</a></td>
+<td>Hightower, Richard and Onstine, Warner and Visan, Paul and Payne, Damon and Gradecki, Joseph D.</td>
+<td>2004</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780135472118">Building Java Programs, Student Value Edition</a></td>
+<td>Reges, Stuart and Stepp, Marty</td>
+<td>2019</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672316975">Java 2 for Professional Developers</a></td>
+<td>Morgan, Michael</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781884777493">Java Network Programming, 2nd Edition</a></td>
+<td>Hughes, Merlin and Hamner, Derek and Hughes, Merlin</td>
+<td>1999</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781423901235">Modern Software Development Using Java</a></td>
+<td>Tymann, Paul T. and Schneider, G.Michael</td>
+<td>2007</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596002459">Java Management Extensions: Managing Java Applications with JMX</a></td>
+<td>J. Steven Perry</td>
+<td>2002</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133592689">MyLab Programming with Pearson eText -- Access Card -- for Intro to Java Programming, Brief Version</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2014</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130352903">Java Transaction Processing (Hewlett-Packard Professional Books): Design and Implementation</a></td>
+<td>Mark Little and Jon Maron and Greg Pavlik and Jonathan Maron</td>
+<td>2004</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321185792">Enterprise Java Programming with IBM WebSphere (2nd Edition)</a></td>
+<td>Brown, Kyle and Craig, Gary and Hester, Greg and Pitt, David and Stinehour, Russell and Weitzel, Mark and Amsden, Jim and Jakab, Peter M. and Berg, Daniel</td>
+<td>2003</td>
+<td>IBM Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596005689">Hardcore Java</a></td>
+<td>Robert Simmons</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201612721">Introduction to Programming Using Java: An Object-Oriented Approach: Java 2 Update</a></td>
+<td>Arnow, David and Weiss, Gerald</td>
+<td>1999</td>
+<td>Addison Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780324599510">Java Programming</a></td>
+<td>Farrell, Joyce</td>
+<td>2009</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565922624">Java in a Nutshell: A Desktop Quick Reference for Java Programmers (In a Nutshell (O'Reilly))</a></td>
+<td>Flanagan, David</td>
+<td>1997</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598634761">Beginning Java Game Programming Second Edition</a></td>
+<td>Harbour, Jonathan S.</td>
+<td>2007</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130340764">Java 3D API Jump-Start</a></td>
+<td>Aaron E. Walsh and Doug Gehringer</td>
+<td>2001</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130166388">Java 2 Programmer's Interactive Workbook</a></td>
+<td>Chu, Kevin and Brower, Eric</td>
+<td>1999</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471725046">Modern Multithreading : Implementing, Testing, and Debugging Multithreaded Java and C++/Pthreads/Win32 Programs</a></td>
+<td>Carver, Richard H. and Tai, Kuo-Chung</td>
+<td>2005</td>
+<td>Wiley-Interscience</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484206423">Pro Java 8 Programming</a></td>
+<td>Brett Spell, Terrill</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780976694090">From Java to Ruby: Things Every Manager Should Know (Pragmatic Programmers)</a></td>
+<td>Tate, Bruce A.</td>
+<td>2006</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132757638">Starting Out with Java: From Control Structures Through Data Structures with Java Integrated Development Environment Resource Kit</a></td>
+<td>Gaddis, Tony and Muganda, Godfrey</td>
+<td>2011</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781852330712">Essential Java 2 fast: How to develop applications and applets with Java 2 (Essential Series)</a></td>
+<td>Cowell, John</td>
+<td>1999</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430209737">Practical API Design: Confessions of a Java Framework Architect</a></td>
+<td>Tulach, Jaroslav</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764526466">Beginning Programming with Java For Dummies (For Dummies (Computers))</a></td>
+<td>Burd, Barry A.</td>
+<td>2003</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781576105313">Java Black Book: The Java Book Programmers Turn To First</a></td>
+<td>Holzner, Steven</td>
+<td>2000</td>
+<td>Coriolis Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136801504">Introduction to Java Programming and Data Structures, Comprehensive Version</a></td>
+<td>Y. Daniel Liang</td>
+<td>20200417</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134756387">Java Software Solutions, Student Value Edition Plus MyLab Programming with Pearson eText - Access Card Package</a></td>
+<td>Lewis, John and Loftus, William</td>
+<td>2017</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471245780">Client/Server Programming with Java and CORBA, 2nd Edition</a></td>
+<td>Orfali, Robert and Harkey, Dan</td>
+<td>1998</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849687324">Oracle Certified Associate, Java SE 7 Programmer Study Guide</a></td>
+<td>M. Reese Richard</td>
+<td>2012</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470011270">Concurrent And Real-time Programming In Java</a></td>
+<td>Andrew Wellings</td>
+<td>2005</td>
+<td>John Wiley & Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780198063582">Programming in JAVA</a></td>
+<td>Malhotra, Sachin and Choudhary, Saurabh</td>
+<td>2011</td>
+<td>Oxford University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781568846415">Java for Dummies</a></td>
+<td>Aaron E. Walsh</td>
+<td>1996</td>
+<td>IDG Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201310078">The Java Tutorial: Object-Oriented Programming for the Internet (2nd Edition)</a></td>
+<td>Campione, Mary and Walrath, Kathy</td>
+<td>1998</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672316388">Sams Teach Yourself Java 2 in 21 Days (Teach Yourself in 21 Days Series)</a></td>
+<td>Lemay, Laura and Cadenhead, Rogers</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619213190">Java Programming</a></td>
+<td>Farrell, Joyce</td>
+<td>2005</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071783170">Kinect Open Source Programming Secrets: Hacking the Kinect with OpenNI, NITE, and Java</a></td>
+<td>Davison, Andrew</td>
+<td>2012</td>
+<td>McGraw-Hill Education TAB</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471269236">MySQL and Java Developer's Guide</a></td>
+<td>Mark Matthews and Jim Cole and Joseph D. Gradecki</td>
+<td>2003</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133379785">MyProgrammingLab with Pearson eText -- Access Card -- for Building Java Programs (MyProgrammingLab (Access Codes))</a></td>
+<td>Reges, Stuart and Stepp, Marty</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130109224">Java for Students 1.2</a></td>
+<td>Bell, Doug and Parr, Mike</td>
+<td>1999</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781568848112">Foundations of Java Programming for the World Wide Web</a></td>
+<td>Walsh, Aaron E.</td>
+<td>1996</td>
+<td>John Wiley & Sons Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491938690">Java Pocket Guide: Instant Help for Java Programmers</a></td>
+<td>Liguori, Robert and Liguori, Patricia</td>
+<td>2017</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130927385">Core Java 2, Volume II: Advanced Features (5th Edition)</a></td>
+<td>Horstmann, Cay and Cornell, Gary</td>
+<td>2001</td>
+<td>Prentice Hall PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071077101">Java</a></td>
+<td>In Easy Steps</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130333704">Java, Java, Java Object-Oriented Problem Solving (2nd Edition)</a></td>
+<td>Morelli, Ralph</td>
+<td>2002</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672328961">Agile Java Development with Spring, Hibernate and Eclipse</a></td>
+<td>Hemrajani, Anil</td>
+<td>2006</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781928994558">Programming Lego Mindstorms with Java (With CD-ROM)</a></td>
+<td>Dario Laverde and Giulio Ferrari and Jurgen Stuber</td>
+<td>2002</td>
+<td>Syngress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321396853">Eclipse Web Tools Platform: Developing Java Web Applications</a></td>
+<td>Dai, Naci</td>
+<td>2007</td>
+<td>AddisonWesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596000875">Java Programming with Oracle SQLJ</a></td>
+<td>Price, Jason</td>
+<td>2001</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781523407811">Java: The Ultimate Guide To Learn Java Programming And Computer Hacking (java For Beginners, Java For Dummies, Java Apps, Hacking) (html, Javascript, ... Developers, Coding, Css, Php) (volume 2)</a></td>
+<td>Peter Hoffman and Matt Benton</td>
+<td>2016</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471431046">Mastering AspectJ: Aspect-Oriented Programming in Java</a></td>
+<td>Gradecki, Joseph D.</td>
+<td>2003</td>
+<td>John Wiley &Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781576761717">Starting Out with Java 5: Control Structures to Objects</a></td>
+<td>Gaddis, Tony</td>
+<td>2005</td>
+<td>Addison Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788189866822">Data Structures Through Java</a></td>
+<td>Muniswamy</td>
+<td>2008</td>
+<td>I. K. International Pvt Ltd</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130282200">Weaving a Website: Programming in HTML, Java Script, Perl and Java</a></td>
+<td>Anderson-Freed, Susan</td>
+<td>2001</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132237383">Introduction to Java Programming (GOAL Series)</a></td>
+<td>Liang, Y Daniel</td>
+<td>2006</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470843864">Java the UML Way: Integrating Object-Oriented Design and Programming</a></td>
+<td>Lervik, Else and Havdal, Vegard B.</td>
+<td>2002</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430268727">Pro JavaFX 2: A Definitive Guide to Rich Clients with Java Technology</a></td>
+<td>Weaver, James and Gao, Weiqi and Chin, Stephen and Iverson, Dean and Vos, Johan</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565928701">Java Network Programming (Java (O'Reilly))</a></td>
+<td>Harold, Elliotte Rusty</td>
+<td>2000</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782142853">Java Programming 10-Minute Solutions</a></td>
+<td>Watson, Mark and Sybex</td>
+<td>2003</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558284692">Java Programming Basics</a></td>
+<td>Au, Edith and Makower, Dave</td>
+<td>1996</td>
+<td>Mis Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764543654">Beginning Java 2</a></td>
+<td>Horton, Ivor</td>
+<td>2002</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937161880">Java For Kids: NetBeans 8 Programming Tutorial</a></td>
+<td>Conrod, Philip and Tylee, Lou</td>
+<td>2015</td>
+<td>Kidware Software</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781683922193">Computer Graphics Programming in OpenGL with JAVA</a></td>
+<td>Gordon, V. Scott and Clevenger, John L.</td>
+<td>2018</td>
+<td>Mercury Learning & Information</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130819345">Core Java 2 , Volume 2: Advanced Features (4th Edition)</a></td>
+<td>Horstmann, Cay S. and Cornell, Gary</td>
+<td>1999</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132846387">MyProgrammingLab with Pearson eText  --  Access Card  -- for Absolute Java (5th Edition)</a></td>
+<td>Pearson Education and Mock, Kenrick</td>
+<td>2012</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780977616695">Rails for Java Developers</a></td>
+<td>Halloway, Stuart and Gehtland, Justin</td>
+<td>2007</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780079130891">Advanced Java 1.1 Programming</a></td>
+<td>Rice, Jeffrey C. and Salisbury, Irving</td>
+<td>1997</td>
+<td>Computing McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492041054">Programming AWS Lambda: Build and Deploy Serverless Applications with Java</a></td>
+<td>Chapin, John and Roberts, Mike</td>
+<td>2020</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783030077853">Fundamentals of Java Programming</a></td>
+<td>Ogihara, Mitsunori</td>
+<td>2019</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492062653">Quarkus Cookbook: Kubernetes-Optimized Java Solutions</a></td>
+<td>Bueno, Alex Soto and Porter, Jason</td>
+<td>2020</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782119350">Mastering Java</a></td>
+<td>Phillips, Ivan and Hsu, Goang-Tay and Sankar, Krishna and Ries, Eric and Rohaly, Tim and Zukowski, John and Vanhelsuwe, Laurence</td>
+<td>1996</td>
+<td>Sybex Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764549243">Java Database Programming Bible</a></td>
+<td>O'Donahue, John</td>
+<td>2002</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781848823389">A Concise and Practical Introduction to Programming Algorithms in Java (Undergraduate Topics in Computer Science)</a></td>
+<td>Nielsen, Frank</td>
+<td>2009</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781580030724">A Guide to Programming in Java: Java 2 Platform Standard Edition 5</a></td>
+<td>Brown, Beth</td>
+<td>2006</td>
+<td>Lawrenceville Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130461346">Java Web Services: For Experienced Programmers (Deitel Developers Series)</a></td>
+<td>Deitel, Harvey M. and Deitel, Paul J. and Gadzik, J. P. and Lomeli, K. and Santry, S. E. and Zhang, S.</td>
+<td>2002</td>
+<td>Pearson P T R</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937161606">Java For Kids - A Computer Programming Tutorial</a></td>
+<td>Conrod, Philip and Tylee, Lou</td>
+<td>2013</td>
+<td>Kidware Software</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584502487">ANT: The Java Build Tool In Practice (Programming Series)</a></td>
+<td>Matzke, Bernd</td>
+<td>2003</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201725933">On to Java (3rd Edition)</a></td>
+<td>Winston, Patrick Henry and Narasimhan, Sundar</td>
+<td>2001</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590591079">Java Regular Expressions: Taming the java.util.regex Engine</a></td>
+<td>Mehran Habibi</td>
+<td>2003</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861003829">Professional Java Programming</a></td>
+<td>Spell, Brett</td>
+<td>2000</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078821998">The Java Handbook</a></td>
+<td>Naughton, Patrick</td>
+<td>1996</td>
+<td>Osborne Mcgraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471448464">Java Testing Patterns</a></td>
+<td>Andrew Glover and Kyle Brown and Jon Thomas and Matthew Young</td>
+<td>2003</td>
+<td>Wiley, John & Sons, Incorporated</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781951442224">Android Studio 4.0 Development Essentials - Java Edition: Developing Android Apps Using Android Studio 4.0, Java and Android Jetpack</a></td>
+<td>Smyth, Neil</td>
+<td>2020</td>
+<td>Payload Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471498261">Java In Telecommunications: Solutions For Next Generation Networks</a></td>
+<td>Thomas C. Jepsen and Farooq Anjum and Ravi Raj Bhat and Douglas Tait</td>
+<td>2001</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590598177">Pro Java 6 3D Game Development: Java 3D, JOGL, JInput and JOAL APIs (Expert's Voice in Java)</a></td>
+<td>Davison, Andrew</td>
+<td>2007</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201308815">Understanding Object-Oriented Programming With Java</a></td>
+<td>Budd, Timothy</td>
+<td>1998</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471346098">Computing Concepts with Java 2 Essentials</a></td>
+<td>Horstmann, Cay S.</td>
+<td>1999</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781930110335">Java 2 Micro Edition</a></td>
+<td>White, James and Hemphill, David A and Hemphill, David</td>
+<td>2002</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584504184">Java Messaging (Programming Series)</a></td>
+<td>Bruno, Eric</td>
+<td>2005</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861003669">Beginning Java 2 - Jdk 1.3 Edition (Programmer to Programmer)</a></td>
+<td>Horton, Ivor</td>
+<td>2000</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782128253">The Complete Java 2 Certification Study Guide: Programmer's and Developers Exams (With CD-ROM)</a></td>
+<td>Roberts, Simon and Heller, Philip and Ernest, Michael and Heller, Philip</td>
+<td>2000</td>
+<td>Sybex Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131018600">Information Systems Programming with Java (2nd Edition)</a></td>
+<td>Staugaard, Andrew</td>
+<td>2003</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785887949">Mastering Concurrency Programming with Java 9 - Second Edition: Fast, reactive and parallel application development</a></td>
+<td>Gonzalez, Javier Fernandez</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072132878">Java 2: The Complete Reference</a></td>
+<td>Naughton, Patrick and Schildt, Herbert</td>
+<td>1999</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780878913800">Java Super Review w/ CD-ROM (Super Reviews Study Guides)</a></td>
+<td>Rea and Staff of Research & Education Association and Randall Raus and Dr. Hang Lau</td>
+<td>2001</td>
+<td>Research & Education Association</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565923041">Java in a Nutshell, Deluxe Edition (In a Nutshell (O'Reilly))</a></td>
+<td>Flanagan, David</td>
+<td>1997</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134752129">MyLab Programming with Pearson eText -- Access Code Card -- for Java How to Program, Early Objects</a></td>
+<td>Deitel, Paul and Deitel, Harvey</td>
+<td>2017</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781575210308">Teach Yourself Java in 21 Days (Teach Yourself (Teach Yourself))</a></td>
+<td>Lemay, Laura and Perkins, Charles L.</td>
+<td>1996</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781941222942">Learn to Program with Minecraft Plugins: Create Flaming Cows in Java Using CanaryMod</a></td>
+<td>Hunt, Andy</td>
+<td>2014</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119784746">OCP Java SE 11 Developer Complete Certication Kit</a></td>
+<td>Boyarsky, Jeanne and Selikoff, Scott</td>
+<td>2021</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430223696">Learn Objective-C for Java Developers (Learn Series)</a></td>
+<td>Bucanek, James</td>
+<td>2009</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781583482186">Principles Of Object-oriented Programming In Java 1.1</a></td>
+<td>James W. Cooper</td>
+<td>1999</td>
+<td>Iuniverse</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321123800">Java Data Objects</a></td>
+<td>Roos, Robin M.</td>
+<td>2002</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565924024">Java Cryptography (Java Series)</a></td>
+<td>Knudsen, Jonathan</td>
+<td>1998</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071342100">Schaum's Outlines of Programming with Java</a></td>
+<td>Hubbard, John R.</td>
+<td>1998</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484245019">Practical Microservices Architectural Patterns: Event-Based Java Microservices with Spring Boot and Spring Cloud</a></td>
+<td>Binildas Christudas</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789729927">Java 2 Developer Exam Cram 2: Exam Cx-310-252A and Cx-310-027</a></td>
+<td>Trottier, Alain</td>
+<td>2003</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780135658543">JAVA JUMP START: A Beginner's Guide to Internet Programming</a></td>
+<td>Enete, Noel</td>
+<td>1997</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672323669">JXTA: Java P2P Programming</a></td>
+<td>Brookshier, Daniel and Govoni, Darren and Krishnan, Navaneeth and Soto, Juan</td>
+<td>2002</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134441160">MyLab Programming with Pearson eText -- Access Card -- for Introduction to Java Programming, AP Version (1-year access)</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2016</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781718753914">Java: Simple Beginner’s Guide to Java Programming (Tips and Tricks and Strategies of Java Programming) (Volume 1)</a></td>
+<td>Laurence, Paul</td>
+<td>2018</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781571691668">Java Programming for Linux</a></td>
+<td>Meyers, Nathan</td>
+<td>1999</td>
+<td>Waite Group Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861004314">Professional WebObjects with Java</a></td>
+<td>Thomas Termini and Pierce Wetter and Ben Galbraith and Jim Roepcke and Pero Maric and John Hopkins and Josh Flowers and Daniel Steinberg and Max Muller and Michael DeMann and Bernard Scholz</td>
+<td>2001</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780123743428">Bluetooth Application Programming with the Java APIs Essentials Edition (The Morgan Kaufmann Series in Networking)</a></td>
+<td>Thompson, Timothy J. and Kumar, C Bala and Kline, Paul J.</td>
+<td>2008</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133051469">Introduction to Java Programming</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2012</td>
+<td>Pearson College Div</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847195463">Java EE 5 Development with NetBeans 6</a></td>
+<td>Heffelfinger, David</td>
+<td>2008</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781292222028">Introduction to Java Programming and Data Structures, Comprehensive Version Plus Pearson Mylab Programming with Pearson Etext, Global Edition</a></td>
+<td></td>
+<td></td>
+<td>Pearson Education Limited</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861004154">Professional Oracle 8i Java</a></td>
+<td>Wrox Press Author Team</td>
+<td></td>
+<td>Wrox Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672327476">Java After Hours: 10 Projects You'll Never Do at Work</a></td>
+<td>Holzner, Steven</td>
+<td>2005</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861002709">Professional JavaScript with DHTML, ASP, CGI, FESI, Netscape Enterprise Server, Windows Script Host, LiveConnect and Java</a></td>
+<td>Chirelli, Andrea and Li, Sing and Wilton, Paul and McFarlane, Nigel and Updegrave, Stuart and Wilcox, Mark and Wootton, Cliff and McFarlane, Nigel and James De Carli</td>
+<td>1999</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672321351">Wireless Java Programming With J2me</a></td>
+<td>Yu Feng and Jun Zhu</td>
+<td>2001</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781337685917">Java Programming, Loose-leaf Version</a></td>
+<td>Farrell, Joyce</td>
+<td>2017</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780079129864">Web Site Programming With Java</a></td>
+<td>Harms, David and Fiske, Barton C. and Rice, Jeffrey C.</td>
+<td>1996</td>
+<td>Computing McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584502210">Java Programming Fundamentals (CYBERROOKIES SERIES)</a></td>
+<td>Seefeld, Kimberly</td>
+<td>2002</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672319396">Java Server Pages Application Development</a></td>
+<td>Scott M. Stirling and Andre Lei and Ben Forta and Edwin Smith and Larry Kim and Roger Kerr and David Aden</td>
+<td>2000</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780768682144">Ldap Programming With Java (paperback)</a></td>
+<td>Rob Weltman and Tony Dahbura</td>
+<td>2000</td>
+<td>Addison-wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780511081507">COBOL Programmers Swing with Java</a></td>
+<td>E. Reed Doke; Bill C. Hardgrave; Richard A. Johnson</td>
+<td>20041228</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780921598329">Programming Concepts in Java 2nd Edition w/ IBM's VisualAge for Java 2.0 Software</a></td>
+<td></td>
+<td>1999</td>
+<td>Holt Software Associates Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321503107">Next Generation Java Testing: TestNG and Advanced Concepts</a></td>
+<td>Beust, C\Xe9dric</td>
+<td>2007</td>
+<td>AddisonWesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449369316">Client-Server Web Apps with JavaScript and Java</a></td>
+<td>Casimir Saternos</td>
+<td>20140328</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430265740">Pro JavaFX 8: A Definitive Guide to Building Desktop, Mobile, and Embedded Java Clients</a></td>
+<td>Vos, Johan and Gao, Weiqi and Weaver, James and Chin, Stephen and Iverson, Dean</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672316548">Pure Java 2</a></td>
+<td>Litwak, Kenneth</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071123099">Programming with Java</a></td>
+<td>Bradley, Julia Case and Millspaugh, Anita</td>
+<td>2021</td>
+<td>McGraw-Hill Publishing Co.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780975212851">Java 5: A Beginner's Tutorial (BrainySoftware)</a></td>
+<td>Kurniawan, Budi</td>
+<td>2006</td>
+<td>BrainySoftware</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672323942">Java 2 Unleashed</a></td>
+<td>Potts, Stephen and Pestrikov, Alex</td>
+<td>2002</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672320941">Java Media APIs: Cross-Platform Imaging, Media and Visualization</a></td>
+<td>Terrazas PH.D., Alejandro and Ostuni PH.D., John and Barlow, Michael</td>
+<td>2002</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735617797">C# for Java Developers (Pro-Developer)</a></td>
+<td>Jones, Allen and Freeman, Adam</td>
+<td>2002</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201787047">Understanding Object-Oriented Programming with Java</a></td>
+<td>Timothy A. Budd</td>
+<td>2001</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201711028">Programming Open Service Gateways with Java Embedded Server™ Technology</a></td>
+<td>Mike Hendrickson and Chen, Kirk and Gong, Li</td>
+<td>2001</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781482587524">Fundamentals of Object-Oriented Programming in Java</a></td>
+<td>Mohan, Permanand</td>
+<td>2013</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788131508688">Java Programming: Advanced Topics (GTU) (with CD)</a></td>
+<td>WILLIAMS RICHARD H.</td>
+<td>2021</td>
+<td>CENGAGE INDIA</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619016593">Java Programming, Second Edition</a></td>
+<td>Farrell, Joyce</td>
+<td>2002</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780273751427">Java An Introduction to Problem Solving & Programming</a></td>
+<td>Walter Savitch</td>
+<td>2022</td>
+<td>N/a</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596003876">Java Extreme Programming Cookbook</a></td>
+<td>Eric M. Burke and Brian M. Coyner</td>
+<td>2003</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781111577643">Java Programming From Problem Analysis To Program Design</a></td>
+<td>Malik and D. S.</td>
+<td>2011</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849690447">Google App Engine Java and GWT Application Development</a></td>
+<td>Guermeur, Daniel and Unruh, Amy</td>
+<td>2010</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780849308109">Java Programming for Engineers (Mechanical Engineering)</a></td>
+<td>Sanchez, Julio</td>
+<td>2002</td>
+<td>Routledge</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470844373">Concurrent and Real-Time Programming in Java</a></td>
+<td>Wellings, Andrew</td>
+<td>2004</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789380108186">A Laboratory Course for Programming with Java</a></td>
+<td>Dale</td>
+<td>2021</td>
+<td>Jones & Bartlet</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430259848">Learn Java for Web Development: Modern Java Web Development</a></td>
+<td>Layka, Vishal</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789721310">The Complete Idiot's Guide to Java 2</a></td>
+<td>Morrison, Michael</td>
+<td>1999</td>
+<td>Alpha</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780448446257">Java Threads: Understanding and Mastering Concurrent Programming</a></td>
+<td>Scott Oaks and Henry Wong</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132940955">Java + MyProgrammingLab Access Code: How to Program</a></td>
+<td>Deitel, Paul and Deitel, Harvey</td>
+<td>2012</td>
+<td>Pearson College Div</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590596456">Pro EJB 3: Java Persistence API (Expert's Voice in Java)</a></td>
+<td>Keith, Mike and Schincariol, Merrick</td>
+<td>2006</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781557536723">Start Concurrent: An Introduction to Problem Solving in Java with a Focus on Concurrency, 2013 Edition</a></td>
+<td>Wittman, Barry and Mathur, Aditya and Korb, Tim</td>
+<td>2012</td>
+<td>PUP Department of Computer Science</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847192936">DWR Java AJAX Applications</a></td>
+<td>Sami Salkosuo</td>
+<td>2008</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783540661580">Formal Syntax and Semantics of Java (Lecture Notes in Computer Science (1523))</a></td>
+<td></td>
+<td>1999</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619160258">Java Programs to Accompany Programming Logic and Design</a></td>
+<td>Smith, Jo Ann</td>
+<td>2004</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491073933">Learning Java through Alice</a></td>
+<td>Daly, Tebring and Wrigley, Eileen</td>
+<td>2013</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781931182065">Java for RPG Programmers</a></td>
+<td>Coulthard, Phil and Farr, George</td>
+<td>2002</td>
+<td>Mc Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132991568">MyProgrammingLab with Pearson eText -- Access Card -- for Introduction to Java Programming, Brief Version (MyProgrammingLab (Access Codes))</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2012</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484220047">Beginning Robotics Programming in Java with LEGO Mindstorms</a></td>
+<td>Lu, Wei</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781886801912">Graphics Programming With Java Second Edition/Book and Cd-Rom (Graphics Series)</a></td>
+<td>Stevens, Roger T.</td>
+<td>1999</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781532852701">Java: The Guide to Master Java Programming Fast (Booklet) (Volume 2)</a></td>
+<td>Hoffman, Andrew</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849689205">BPEL and Java Cookbook</a></td>
+<td>Laznik, Jurij</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071217705">An Introduction To Object-oriented Programming With Java</a></td>
+<td>C. Thomas Wu</td>
+<td>2003</td>
+<td>Mcgraw-hill (tx)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735711112">Jython for Java Programmers</a></td>
+<td>Bill, Robert</td>
+<td>2001</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781884777714">Server-Based Java Programming</a></td>
+<td>Neward, Ted</td>
+<td>2000</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119321071">Big Java Late Objects</a></td>
+<td>Cay S. Horstmann</td>
+<td>2016-09-26</td>
+<td>Wiley Global Education US</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565928503">The Java Enterprise CD Bookshelf</a></td>
+<td>O'Reilly Media, Inc.</td>
+<td>2000</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134512396">Introduction to Programming in Java</a></td>
+<td>Robert Sedgewick; Kevin Wayne</td>
+<td>20170404</td>
+<td>Pearson Technology Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780980839616">Java 7: A Beginner's Tutorial</a></td>
+<td>Kurniawan, Budi</td>
+<td>2011</td>
+<td>BrainySoftware</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780921598398">Introduction to Programming in Java</a></td>
+<td>Hume, J. N. Patterson and Stephenson, Christine</td>
+<td>2000</td>
+<td>Holt Software Assoc Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137084265">Java EE 6 Tutorial, The</a></td>
+<td>Eric Jendrock; Ian Evans; Devika Gollapudi; Kim Haase; Chinmayee Srivathsa</td>
+<td>20100824</td>
+<td>Pearson Technology Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072505016">Objects Have Class: An Introduction to Programming with Java with CD-ROM and OLC</a></td>
+<td>Poplawski, David A.</td>
+<td>2001</td>
+<td>McGraw-Hill Science/Engineering/Math</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137129393">Seam Framework: Experience the Evolution of Java EE (2nd Edition)</a></td>
+<td>Yuan, Michael and Orshalick, Jacob and Heute, Thomas</td>
+<td>2009</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471481676">An Introduction to Programming and Object-Oriented Design Using Java</a></td>
+<td>Ni?o, Jaime and Hosch, Frederick A.</td>
+<td>2004</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781530669172">Learn Java 8 In a Week: A beginner's guide to Java Programming (Black Book)</a></td>
+<td>Rathore, Mahavir DS</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763722074">Introduction To Cryptography With Java Applets</a></td>
+<td>Bishop, David</td>
+<td>2002</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787126909">Modular Programming in Java 9: Build large scale applications using Java modularity and Project Jigsaw</a></td>
+<td>Kothagal, Koushik</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787111506904">Java Programming Language (Basic) (the original book version 10) - Java语言程序设计（基础篇）（原书第10版）</a></td>
+<td>[美]Y.Daniel Liang</td>
+<td>2015</td>
+<td>机械工业出版社</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781883577810">Java Programming EXplorer: Everything You Need to Develop Internet Applications with the Java Programming Language</a></td>
+<td>Simkin, Steve and Bartlett, Neil and Leslie, Alex</td>
+<td>1996</td>
+<td>Coriolis Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780521648240">Java Gems: Jewels from Java Report</a></td>
+<td>Dwight Deugo and Donald G. Firesmith</td>
+<td>1998</td>
+<td>Cambridge University Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134686042">Effective Java</a></td>
+<td>Joshua, Bloch</td>
+<td>2017</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781576102916">Java 2 Exam Cram Exam 310-025</a></td>
+<td>William B. Brogden</td>
+<td>1999</td>
+<td>Coriolis Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132473118">Introduction to Java Programming, Brief: International Edition</a></td>
+<td>Liang, Y. Daniel</td>
+<td>2010</td>
+<td>Pearson Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781576102619">Java 2 Exam Prep (Exam: 310-025)</a></td>
+<td>Brogden, Bill</td>
+<td>1999</td>
+<td>Coriolis Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781883884611">Java Application Strategies For The As/400</a></td>
+<td>Don Denoncourt</td>
+<td>1999</td>
+<td>Mc Pr Llc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789534757">Developing Java Applications with Spring and Spring Boot</a></td>
+<td>Oliveira, Claudio Eduardo de and Turnquist, Greg L. and Antonov, Alex</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130672384">Practical Object-Oriented Development with UML and Java</a></td>
+<td>Lee, Richard C. and Tepfenhart, William M.</td>
+<td>2002</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781774073193">Java Programming Applications</a></td>
+<td>Prudhomme, Gerard</td>
+<td>2019</td>
+<td>Arcler Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201710410">The Java 3D(TM)  API Specification (2nd Edition)</a></td>
+<td>Sowizral, Henry and Rushforth, Kevin and Deering, Michael</td>
+<td>2000</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134544021">Java Software Solutions</a></td>
+<td>John Lewis; William Loftus</td>
+<td>20170830</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590590300">The Sun Certified Java Developer Exam with J2SE 1.4</a></td>
+<td>Patterson, Jeremy and Habibi, Mehran and Camerlengo, Terry</td>
+<td>2002</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484252086">Learn Java with Math: Using Fun Projects and Games</a></td>
+<td>Dai, Ron</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780978739294">Groovy Recipes: Greasing the Wheels of Java (Pragmatic Programmers)</a></td>
+<td>Davis, Scott</td>
+<td>2008</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780971843950">Java Programming For Kids</a></td>
+<td>Yakov Fain</td>
+<td>2004</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861005205">Java XML Programmer's Reference</a></td>
+<td>Eric Jung and Andrei Cioroianu and Dave Writz and Mohammad Akif and Steven Brodhead and James Hart</td>
+<td>2001</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764578496">Java 2 For Dummies</a></td>
+<td>Barry Burd</td>
+<td>2004-08-26</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133957235">Starting Out with Java</a></td>
+<td>Tony Gaddis</td>
+<td>20150529</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558605626">Understanding SQL and Java Together: A Guide to SQLJ, JDBC, and Related Technologies (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Melton, Jim and Eisenberg, Andrew</td>
+<td>2000</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672325625">Extreme Programming With Ant: Building and Deploying Java Applications With Jsp, Ejb, Xslt, Xdoclet, and Junit</a></td>
+<td>Niemeyer, Glenn and Poteet, Jeremy</td>
+<td>2003</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785882562">Learning Network Programming with Java</a></td>
+<td>Reese, Richard</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471981428">Computer Graphics for Java Programmers</a></td>
+<td>Ammeraal, Leen</td>
+<td>1998</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484204153">Beginning Java 8 Games Development</a></td>
+<td>Jackson, Wallace</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520676081">Programming: Python Programming, JAVA Programming, HTML and CSS Programming for Beginners</a></td>
+<td>Academy, iCode</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470090251">Developing Java Software (third edition)</a></td>
+<td>Winder, Russel and Roberts, Graham</td>
+<td>2006</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781903996157">Java & Databases (Innovative Technology Series)</a></td>
+<td></td>
+<td>2004</td>
+<td>ISTE Publishing Company</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484260319">Beginning Quarkus Framework: Build Cloud-Native Enterprise Java Applications and Microservices</a></td>
+<td>Koleoso, Tayo</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471399568">(Wcs)Intro to Programming W/ Java</a></td>
+<td>Nino</td>
+<td>2000</td>
+<td>John Wiley and Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780977320608">Introduction to Neural Networks with Java</a></td>
+<td>Heaton, Jeff T</td>
+<td>2005</td>
+<td>Heaton Research, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584503767">Learning JAVA through Applications (Programming Series)</a></td>
+<td>Jarc, Duane J</td>
+<td>2005</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449639808">Programming and Problem Solving with Java</a></td>
+<td>Nell Dale</td>
+<td>20080212</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071168502">An Introduction To Object Oriented Programming With Java (mcgraw-hill International Editions)</a></td>
+<td>C.thomas Wu</td>
+<td>1999</td>
+<td>Mcgraw-hill Education (ise Editions)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780977762224">Rich Internet Applications with Adobe Flex and Java : Secrets of the Masters</a></td>
+<td>Fain, Yakov; Rasputnis, Victor; Tartakovsky, Anatole</td>
+<td>2022</td>
+<td>SYS-CON Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780761535225">Java Programming for the Absolute Beginner</a></td>
+<td>Russell, Joseph P.</td>
+<td>2002</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201615630">Mr. Bunny's Big Cup o' Java</a></td>
+<td>Egremont, Carlton</td>
+<td>1999</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484256268">Spring Boot Persistence Best Practices: Optimize Java Persistence Performance in Spring Boot Applications</a></td>
+<td>Anghel Leonard</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788623797">Serverless Programming Cookbook: Practical solutions to building serverless applications using Java and AWS</a></td>
+<td>Kanikathottu, Heartin</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558606791">Object-Oriented Implementation of Numerical Methods: An Introduction with Java & Smalltalk (The Morgan Kaufmann Series in Software Engineering and Programming)</a></td>
+<td>Besset, Didier H.</td>
+<td>2000</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781575213903">Sams Teach Yourself Java 1.2 in 21 Days</a></td>
+<td>Lemay, Laura and Cadenhead, Rogers</td>
+<td>1998</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781305480537">Java Programming</a></td>
+<td>Farrell, Joyce</td>
+<td>2015</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781931841856">Java Security</a></td>
+<td>Ganguli, Madhushree</td>
+<td>2002</td>
+<td>Muska & Lipman/Premier-Trade</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781439040348">Java Programming</a></td>
+<td>D. S. Malik</td>
+<td>2009</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484229859">Pro Java Clustering and Scalability: Building Real-Time Apps with Spring, Cassandra, Redis, WebSocket and RabbitMQ</a></td>
+<td>Acetozi, Jorge</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781893115781">Definitive Guide to Swing for Java 2, Second Edition</a></td>
+<td>Zukowski, John</td>
+<td>2000</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780557043552">Reviewing Java</a></td>
+<td>Maureau, Alex</td>
+<td>2019</td>
+<td>lulu.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780558100117">Introduction To Java Programming Comprehensive Version Custom Edition Sixth Edition</a></td>
+<td>Y. Daniel Liang</td>
+<td>2007</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548828547">Computer Programming: 6 Books in 1: Beginner's Guide + Best Practices to Programming Code with Python, JavaScript and Java</a></td>
+<td>Masterson, Charlie</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781930110359">Java 3D Programming</a></td>
+<td>Selman, Daniel</td>
+<td>2002</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780760010709">Java Programming: Comprehensive</a></td>
+<td>Farrell, Joyce M.</td>
+<td>1999</td>
+<td>Course Technology Ptr (Sd)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132783385">Java Software Solutions</a></td>
+<td>Lewis and John/ Loftus</td>
+<td>2011</td>
+<td>Pearson College Div</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133795318">Java Software Solutions</a></td>
+<td>John Lewis; William Loftus</td>
+<td>20140226</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781589397385">Ant Java Notes: An Accelerated Intro Guide to the Java Ant Build Tool</a></td>
+<td>A. T. Bell</td>
+<td>2005</td>
+<td>Virtualbookworm.com Publishing, Incorporated</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781534746183">Android: Android Programming And Android App Development For Beginners: (Learn How To Program Android Apps, How To Develop Android Applications Through Java Programming, Android For Dummies)</a></td>
+<td>Publishing, UpSkill</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781575212906">Maximum Java 1.1</a></td>
+<td>Vanderburg, Glenn</td>
+<td>1997</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780765561947">Java Network Programming</a></td>
+<td>E. Harold</td>
+<td>2000</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471751571">Developing Chemical Information Systems: An Object-Oriented Approach Using Enterprise Java</a></td>
+<td>Li, Fan</td>
+<td>2006</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598632927">Mobile 3d Graphics: Learning 3d Graphics With The Java Micro Edition</a></td>
+<td>Claus Höfele</td>
+<td>2007</td>
+<td>Cengage Learning Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449390884">Java I/O</a></td>
+<td>Elliotte Rusty Harold</td>
+<td>20060516</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784391904">Java Hibernate Cookbook</a></td>
+<td>Yogesh Prajapati</td>
+<td>2015-09-18</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781447152545">An Introduction to Network Programming with Java: Java 7 Compatible</a></td>
+<td>Graba, Jan</td>
+<td>2013</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788120316201">Object Oriented Programming with C++ and Java [Oct 30, 2004] D. Samanta</a></td>
+<td>Samanta</td>
+<td>2021</td>
+<td>Prentice Hall of India</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861007537">Beginning Java Web Services</a></td>
+<td>Henry Bequet and Meeraj Kunnumpurath and Rhody, Sean and Andre Tost</td>
+<td>2002</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788122413526">Internet And Java Programming</a></td>
+<td>R. Krishnamoorty,prabhu R. Krishnamoorty</td>
+<td>2007</td>
+<td>New Age Publications (academic)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764549526">Java Web Services Programming</a></td>
+<td>Mogha, Rashim</td>
+<td>2002</td>
+<td>John Wiley &Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672326226">BEA WebLogic Workshop 8.1 Kick Start: Simplifying Java Web Applications and J2EE</a></td>
+<td>Saganich Jr., Albert and Hardy, Tom and Kaye, Lawrence and Srivatsan, Sunila</td>
+<td>2004</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781883577995">Kickass Java Programming: Cutting-Edge Java Techniques With an Attitude</a></td>
+<td>Tonny Espeset</td>
+<td>1996</td>
+<td>Coriolis Group,U.S.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788184954432">Introduction To Java Programming</a></td>
+<td>K. Somasundaram</td>
+<td>2012</td>
+<td>Jaico Publishing House</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118214572">Big Java Late Objects</a></td>
+<td>Cay S. Horstmann</td>
+<td>2012</td>
+<td>Wiley Global Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134034690">Java Tutorial, The: A Short Course on the Basics (Java Series)</a></td>
+<td>Gallardo, Raymond and Hommel, Scott and Kannan, Sowmya and Gordon, Joni and Zakhour, Sharon Biocca</td>
+<td>2014</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781402080852">The JR Programming Language: Concurrent Programming in an Extended Java (The Springer International Series in Engineering and Computer Science (774))</a></td>
+<td>Olsson, Ronald A. and Keen, Aaron W.</td>
+<td>2004</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130115195">Core Java Media Framework</a></td>
+<td>deCarmo, Linden</td>
+<td>1999</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781886801622">Graphics Programming with Java</a></td>
+<td>Stevens, Roger</td>
+<td>1997</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789814583473">The Nonlinear Workbook: Chaos, Fractals, Cellular Automata, Genetic Algorithms, Gene Expression Programming, Support Vector Machine, Wavelets, Hidden ... Java And Symbolicc++ Programs</a></td>
+<td>Steeb, Willi-Hans</td>
+<td>2014</td>
+<td>Wspc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788170299370">Learn Advanced Java Script Programming</a></td>
+<td></td>
+<td>2002</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596514846">Darkstar: The Java Game Server</a></td>
+<td>Brendan Burns</td>
+<td>20070830</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132707787">Java Programming For The Internet</a></td>
+<td>Marc Loy</td>
+<td>1996</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780203166178">Java Programming For Spatial Sciences</a></td>
+<td>Jo Wood</td>
+<td>2002</td>
+<td>London ; Taylor & Francis, 2002.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780595318964">First Course: Data Structures and Algorithms Using Java: Data Structures and Algorithms Using JAVA</a></td>
+<td>Hill, Edward</td>
+<td>2004</td>
+<td>iUniverse</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781292184944">Java Plus Myprogramminglab With Pearson Etext</a></td>
+<td>Savitch and Walter J.</td>
+<td>2017</td>
+<td>Pearson Education Limited</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471034650">Mobile Information Device Profile For Java 2 Microedition: Professional Developer's Guide (professional Developer's Guide Series)</a></td>
+<td>C. Enrique Ortiz and Eric Gigu?re</td>
+<td>2001</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764532726">Programming Windows with Java and WFC</a></td>
+<td>Krell, Bruce E.</td>
+<td>1999</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781257188796">C For Java Programmers: A Primer</a></td>
+<td>Charlie McDowell</td>
+<td>2011</td>
+<td>Lulu.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787508468280">Java Case Programming Tutorials(chinese Edition)</a></td>
+<td>Guo Zhen Min Sheng Gui Yong</td>
+<td>2009</td>
+<td>China Water Power Press Pub. Date :2009-09</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471218784">Wireless Java Programming For Enterprise Applications</a></td>
+<td>Dan Harkey and Shan Appajodu and Mike Larkin</td>
+<td>2002</td>
+<td>Indianapolis, In : Wiley, 2002.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780135038253">Java: Introduction To Problem Solving And Programming Value Package (includes Addison-wesley's Java Backpack Reference Guide)</a></td>
+<td>Walter Savitch and Frank Carrano</td>
+<td>2008</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847191014">Google Web Toolkit: GWT Java AJAX Programming</a></td>
+<td>Prabhakar Chaganti</td>
+<td>2007-02-15</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430200888">The Definitive Guide to Building Java Robots</a></td>
+<td>Scott Preston</td>
+<td>20061107</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781285999722">Bundle: Java Programming, 7th + Coursemate Printed Access Card</a></td>
+<td>Joyce Farrell</td>
+<td>2013</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780534391447">Java With Object-oriented Programming (non-infotrac Version)</a></td>
+<td>Paul S. Wang</td>
+<td>2002</td>
+<td>Cengage Learning</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about Java from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/7862ab20bf14ff78eb74c5b17fd52a4d498eaec2">Making the future safe for the past: adding genericity to the Java programming language</a></td>
+<td>Gilad Bracha and Martin Odersky and David Stoutamire and P. Wadler</td>
+<td>1998</td>
+<td>594</td>
+<td>44</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fb892076f2b162d2c061bfefdad88158cf522b99">Compatible genericity with run-time types for the Java programming language</a></td>
+<td>Robert Cartwright and G. Steele</td>
+<td>1998</td>
+<td>150</td>
+<td>13</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1c657b0b5a77b302493a69820540d418ba18ba47">Session-Based Distributed Programming in Java</a></td>
+<td>Raymond Hu and N. Yoshida and Kohei Honda</td>
+<td>2008</td>
+<td>149</td>
+<td>19</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/cec77c48196c68ae617911e7b316612396ad27ec">Adding wildcards to the Java programming language</a></td>
+<td>Mads Torgersen and Erik Ernst and Christian Plesner Hansen and P. Ahé and Gilad Bracha and N. Gafter</td>
+<td>2004</td>
+<td>137</td>
+<td>13</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e6ba2aae171aaadf0d4648cbd254f279c5b92566">Java programming for high-performance numerical computing</a></td>
+<td>J. Moreira and S. Midkiff and Manish Gupta and Pedro V. Artigas and M. Snir and Richard D. Lawrence</td>
+<td>2000</td>
+<td>117</td>
+<td>8</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d5fd3931b0f0492bd543aac33c953aa541f2d03c">Mining billions of AST nodes to study actual and potential usage of Java language features</a></td>
+<td>Robert Dyer and Hridesh Rajan and H. Nguyen and T. Nguyen</td>
+<td>2014</td>
+<td>97</td>
+<td>7</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6472be8854d79560923461f32c36026ebc97f883">ContextJ: Context-oriented Programming with Java</a></td>
+<td>M. Appeltauer and R. Hirschfeld and M. Haupt and Hidehiko Masuhara</td>
+<td>2011</td>
+<td>95</td>
+<td>9</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a11513ce3256ebea0eec68b38acbd8275723050d">NaturalJava: a natural language interface for programming in Java</a></td>
+<td>D. Price and E. Riloff and J. Zachary and Brandon Harvey</td>
+<td>2000</td>
+<td>93</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3a54e9d683c172acf9d2a503754f1c68b7daf611">Maxine: An approachable virtual machine for, and in, java</a></td>
+<td>Christian Wimmer and M. Haupt and M. V. D. Vanter and Mick J. Jordan and L. Daynès and Doug Simon</td>
+<td>2013</td>
+<td>89</td>
+<td>12</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2f80cbad16b5945f2f5029012999aeff12efd51d">Java as first programming language: a critical evaluation</a></td>
+<td>Said Hadjerrouit</td>
+<td>1998</td>
+<td>87</td>
+<td>6</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6f6c15e91faf8afa4ad9b48c224350f1bf135054">Keyword programming in Java</a></td>
+<td>Greg Little and Rob Miller</td>
+<td>2007</td>
+<td>78</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/48142625261b1cca94ab650a6ccf10706e830f49">Interface-based programming assignments and automatic grading of java programs</a></td>
+<td>Michael T. Helmick</td>
+<td>2007</td>
+<td>64</td>
+<td>7</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f0552a483f71919a32365012de15051c206c00ad">Investigating Static Analysis Errors in Student Java Programs</a></td>
+<td>S. Edwards and Nischel Kandru and Mukund B. M. Rajagopal</td>
+<td>2017</td>
+<td>62</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fcfd49bdf3cecf170a4bf5974bdfa2abcd250397">Concurrent Programming: The Java Programming Language</a></td>
+<td>G. Gagne</td>
+<td>2001</td>
+<td>62</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8892647a286cd2141d5d18c1a9b00fc2e1c58ff4">A Java programming tool for students with visual disabilities</a></td>
+<td>Ann C. Smith and J. Francioni and Sam D. Matzek</td>
+<td>2000</td>
+<td>58</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f3047998ef0ab6ffffe617397cf8efe99bd34b80">Understanding the use of lambda expressions in Java</a></td>
+<td>D. Mazinanian and Ameya Ketkar and Nikolaos Tsantalis and Danny Dig</td>
+<td>2017</td>
+<td>56</td>
+<td>8</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c72cea83ed4b4649251f54a83adc18124f42de55">LeakWatch: Estimating Information Leakage from Java Programs</a></td>
+<td>Tom Chothia and Yusuke Kawamoto and Chris Novakovic</td>
+<td>2014</td>
+<td>50</td>
+<td>4</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/777b8c22184ce1b10a56730d594adae962f10cbc">DeltaJ 1.5: delta-oriented programming for Java 1.5</a></td>
+<td>J. Koscielny and Sönke Holthusen and I. Schaefer and Sandro Schulze and Lorenzo Bettini and F. Damiani</td>
+<td>2014</td>
+<td>50</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1ef340939607eaf1361c9da010da9c3c12dcde42">Caching and incrementalisation in the java query language</a></td>
+<td>Darren Willis and David J. Pearce and J. Noble</td>
+<td>2008</td>
+<td>40</td>
+<td>10</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/94ebd1b97887bd36ca54d93581ac83b2911157b4">Genetic Algorithms in Java Basics</a></td>
+<td>Lee Jacobson and B. Kanber</td>
+<td>2015</td>
+<td>40</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d6b50fc7e13a1057b077ab3bd48f87271d9af8b8">Using mobile phone programming to teach Java and advanced programming to computer scientists</a></td>
+<td>D. Riley</td>
+<td>2012</td>
+<td>39</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c6db9561b9769a5fc1618e1fe29ee3b7851555a1">Language-specific make technology for the Java programming language</a></td>
+<td>M. Dmitriev</td>
+<td>2002</td>
+<td>39</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a8f6e0d60e1364333694ccc60cb04d5cf5f44374">Programming Finite Elements in Java</a></td>
+<td>G. Nikishkov</td>
+<td>2010</td>
+<td>34</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/870662bb6c66a2069a7392e2ad2bb67f9a65dd94">Safe Parallel Programming with Session Java</a></td>
+<td>Nicholas Ng and N. Yoshida and Olivier Pernet and Raymond Hu and Yiannos Kryftis</td>
+<td>2011</td>
+<td>30</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c36ff13c201aa3caaa8ed1179b206023fdd194ed">A machine-checked, type-safe model of Java concurrency: language, virtual machine, memory model, and verified compiler</a></td>
+<td>Andreas Lochbihler</td>
+<td>2012</td>
+<td>30</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2aed90d637971b96a891f79187f3e6e92736b925">The Case for Java as a Programming Language</a></td>
+<td>A. Hoff</td>
+<td>1997</td>
+<td>30</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f3919013a32e7236f1235dc39b085e8fa3357be4">Concurrent programming: the Java programming language</a></td>
+<td>Stephen J. Hartley</td>
+<td>1998</td>
+<td>30</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0e6ee9ce96b9f5aae32f1da6fbf21a44d7ee198b">Evaluation of Assertion Support for the Java Programming Language</a></td>
+<td>Reinhold Plösch</td>
+<td>2002</td>
+<td>28</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c6446458e72ce254305ef3cd4eeb0fc62c71cb4e">Web-Based Multiplayer Online Role Playing Game (MORPG) for Assessing Students' Java Programming Knowledge and Skills</a></td>
+<td>Maiga Chang and Kinshuk</td>
+<td>2010</td>
+<td>22</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3915703932e988d909d0a9251009fa6c5933290e">Modeling the Knowledge Domain of the Java Programming Language as an Ontology</a></td>
+<td>Aggeliki Kouneli and G. Solomou and C. Pierrakeas and A. Kameas</td>
+<td>2012</td>
+<td>21</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/09501e85462489a754a1cab8eafd9ccb759f8234">Improving the interactivity and functionality of Web-based radiology teaching files with the Java programming language.</a></td>
+<td>J. Eng</td>
+<td>1997</td>
+<td>20</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/90b925874632d2a11c9d3ada8c963e899e363c4e">Assessment of the Java programming language for use in high integrity systems</a></td>
+<td>J. Kwon and A. Wellings and S. King</td>
+<td>2003</td>
+<td>19</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e502374c91f0b196836e965cf0ac88002d642bb3">Applications of JAVA programming language to database management</a></td>
+<td>Bradley F. Burton and V. Marek</td>
+<td>1998</td>
+<td>13</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/75aac5614558f08595d4b737c075e89e47040337">SQLJ Part 1: SQL routines using the Java programming language</a></td>
+<td>A. Eisenberg and Jim Melton</td>
+<td>1999</td>
+<td>13</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/090173690ad7bcf3c2d83f840db65872d0d66b5f">Comparison of garbage collectors in Java programming language</a></td>
+<td>H. Grgic and B. Mihaljević and A. Radovan</td>
+<td>2018</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6bffc1a6dff69fc47734945adfc4e04775d3b139">Java Programming Language</a></td>
+<td>Gerard O'Regan</td>
+<td>2018</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6e0f1aacb150c00ef2c9ad638c7fa495332086fa">Java Programming Language</a></td>
+<td>D. Friedel and Anthony P. Potts</td>
+<td>1996</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="xql.html">xql.html</a> · java.html · <a href="javascript.html">javascript.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/java.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

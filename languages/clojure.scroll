@@ -1,0 +1,309 @@
+title Clojure
+
+import settings.scroll
+htmlTitle Clojure - Pl
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/clojure.pldb
+
+paragraph
+ Clojure is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2007">2007</a> by <a href="../lists/creators.html#Rich_Hickey">Rich Hickey</a>.
+
+kpiTable
+ #34 <span title="TotalRank: 120 Jobs: 36 Users: 45 Facts: 52 Links: 39">on PLDB</span>
+ 15 Years Old
+ 44.9k <span title="Crude user estimate from a linear model.">Users</span>
+ 60 <span title="Books about or leveraging Clojure">Books</span>
+ 7 <span title="Academic publications about or leveraging Clojure">Papers</span>
+ 82k <span title="Clojure repos on GitHub.">Repos</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/clojure">Riju</a> · <a href="https://tio.run/#clojure">TIO</a> · <a href="https://repl.it/languages/clojure">Replit</a>
+
+monacoEditor clojure
+ (println "Hello, world!")
+ 
+
+
+
+paragraph
+ Clojure ( , like "closure") is a dialect of the Lisp programming language. Clojure is a general-purpose programming language with an emphasis on functional programming. It runs on the Java virtual machine and the Common Language Runtime. <a href="https://en.wikipedia.org/wiki/Clojure">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://clojure.org">Clojure website</a>
+ - the <a href="https://en.wikipedia.org/wiki/Clojure">Clojure Wikipedia page</a>
+ - There are at least 82,125 Clojure repos on <a href="https://github.com/search?q=language:Clojure">GitHub</a>
+ - Clojure first developed in <a href="../lists/originCommunities.html#Cognitect,_Inc">Cognitect, Inc</a>
+ - PLDB estimates there are currently 469 job openings for Clojure programmers.
+ - file extensions for Clojure include clj, cljs, cljc, edn, bb, boot, cl2, cljshl, cljscm, cljx and hic
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 14k users using Clojure in 26k repos on <a href="https://api.github.com/search/repositories?q=language:Clojure">GitHub</a>
+ - Check out the 378 <a href="https://www.meetup.com/topics/clojure/">Clojure meetup groups</a> on Meetup.com.
+ - There are 29,258 members in the <a href="https://reddit.com/r/Clojure">Clojure subreddit</a>
+ - There are 1,655 <a href="https://projecteuler.net/language=Clojure">Project Euler</a> users using Clojure
+ - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Clojure programmers reported a median salary of $95,000. 2% of respondents reported using Clojure. 1,552 programmers reported using Clojure, and 2,413 said they wanted to use it
+ - Explore Clojure snippets on <a href="http://www.rosettacode.org/wiki/Category:Clojure">Rosetta Code</a>
+ - Clojure ranks #42 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - There is an <a href="https://packages.ubuntu.com/jammy/clojure">Ubuntu package</a> for Clojure
+ - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/clojure">grammar</a> for Clojure
+ - Here is a Clojure <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/snoe/clojure-lsp">implementation</a>
+ - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/clojure">package</a> for syntax highlighting Clojure
+ - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/clojure">package</a> for syntax highlighting Clojure
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Clojure
+ - GitHub supports <a href="https://github.com/atom/language-clojure" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Clojure
+ - Clojure appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+ - There are 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Clojure: <a href="https://github.com/roryk/clojupyter">1</a>,<a href="https://github.com/achesnais/clj-jupyter">2</a>
+ - There is a <a href="https://clojars.org/">central package repository</a> for Clojure
+ - Clojure <a href="http://web.csulb.edu/~artg/524/clojure-cheat-sheet-a4-grey.pdf">cheat sheet</a>
+ - Indeed.com has 355 matches for <a href="https://www.indeed.com/jobs?q=clojure engineer">"clojure engineer"</a>.
+ - <a href="https://clojure.org">clojure.org</a> was registered in 2005
+ - See also: <a href="jvm.html">JVM</a>, <a href="csharp.html">C#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="mathematica.html">Mathematica</a>, <a href="ml.html">ML</a>, <a href="prolog.html">Prolog</a>, <a href="scheme.html">Scheme</a>, <a href="java.html">Java</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="elixir.html">Elixir</a>, <a href="lisp.html">Lisp</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="s-expressions.html">S-expressions</a>, <a href="csp.html">CSP</a>, <a href="actionscript.html">ActionScript</a>, <a href="python.html">Python</a>, <a href="unicode.html">Unicode</a>
+ - Read more about Clojure on the web: <a href="https://download.clojure.org/papers/clojure-hopl-iv-final.pdf">1</a>
+ - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+ - <a href="https://build.pldb.com/edit/clojure">Improve our Clojure file</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/clojure'>Riju</a>:
+code
+ (println &quot;Hello, world!&quot;)
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Clojure.clj'>hello-world</a>:
+code
+ (println &quot;Hello World&quot;)
+ 
+
+exampleCodeHeader Example from <a href='http://helloworldcollection.de/#Clojure'>the Hello World Collection</a>:
+code
+ ; Hello world in Clojure
+ 
+ (defn hello []
+   (println &quot;Hello world!&quot;))
+ 
+ (hello)
+
+exampleCodeHeader Example from <a href='https://github.com/atom/language-clojure'>Linguist</a>:
+code
+ (defn rand
+   &quot;Returns a random floating point number between 0 (inclusive) and
+   n (default 1) (exclusive).&quot;
+   ([] (scm* [n] (random-real)))
+   ([n] (* (rand) n)))
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Clojure'>Wikipedia</a>:
+code
+ ;; A typical entry point of a Clojure program:
+ ;;   `-main` function
+ (defn -main ; name
+   [&amp; args] ; (variable) parameters
+   (println &quot;Hello, World!&quot;)) ; body
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+   ; -?\d+
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+   ; -?\d+\.\d+
+  Token 
+ row
+  Feature Hexadecimals
+  FeatureLink ../languages/hexadecimals-feature.html
+  Supported ✓
+  Example
+   ; 0x-?[abcdef\d]+
+  Token 
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+   (comment A comment
+   )
+  Token (comment )
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token println
+ row
+  Feature Homoiconicity
+  FeatureLink ../languages/homoiconic-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   ; A comment
+  Token ;
+ row
+  Feature Operator Overloading
+  FeatureLink ../languages/operator-overloading-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Macros
+  FeatureLink ../languages/macros-feature.html
+  Supported ✓
+  Example
+   https://clojure.org/reference/macros
+  Token 
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   (load "fun")
+   (load "files/fun")
+   (load-file "./files/fun.clj")
+   (defproject project-a
+   :dependencies [[org.clojure/clojure "1.5.1"]
+                 [project-b "0.1.0"]])
+   (require '[clojure.string :as string])
+   (use '[clojure.string :only [split]])
+   (import 'java.util.Date)
+   (java.util.Date.)
+   (require 'clojure.contrib.def 'clojure.contrib.except 'clojure.contrib.sql)
+   (require '(clojure.contrib def except sql))
+  Token 
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Partial Application
+  FeatureLink ../languages/partial-application-feature.html
+  Supported ✓
+  Example
+   (defn fun-full [x y] (+ x y))
+   (fun-full 2 3)
+   (def fun-half (partial fun-full 2))
+   (fun-half 3)
+  Token 
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "hello world"
+  Token "
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+foldBreak
+subsection Books about Clojure on goodreads
+pipeTable
+ title|titleLink|author|year|reviews|ratings|rating
+ Programming Clojure|https://www.goodreads.com/search?q=Programming Clojure Stuart Halloway|Stuart Halloway|2009|45|559|3.82
+ Clojure Programming|https://www.goodreads.com/search?q=Clojure Programming Chas Emerick|Chas Emerick|2011|30|423|4.18
+ Clojure Reactive Programming|https://www.goodreads.com/search?q=Clojure Reactive Programming Leonardo Borges|Leonardo Borges|2015|1|21|3.81
+ Clojure Cookbook: Recipes for Functional Programming|https://www.goodreads.com/search?q=Clojure Cookbook: Recipes for Functional Programming Luke VanderHart|Luke VanderHart|2014|5|55|3.75
+ Clojure High Performance Programming|https://www.goodreads.com/search?q=Clojure High Performance Programming Shantanu Kumar|Shantanu Kumar|2013|4|19|2.84
+
+
+foldBreak
+subsection Books about Clojure from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ Clojure Reactive Programming|https://isbndb.com/book/9781783986668|Borges, Leonardo|2015|Packt Publishing
+ Clojure Programming: Practical Lisp for the Java World|https://isbndb.com/book/9781449394707|Emerick, Chas and Carper, Brian and Grand, Christophe|2012|O'Reilly Media
+ The Joy of Clojure: Thinking the Clojure Way|https://isbndb.com/book/9781935182641|Michael Fogus and Chris Houser|2011|Manning Publications
+ Clojure Applied: From Practice to Practitioner|https://isbndb.com/book/9781680500745|Vandgrift, Ben and Miller, Alex|2015|Pragmatic Bookshelf
+ Mastering Clojure Macros: Write Cleaner, Faster, Smarter Code|https://isbndb.com/book/9781941222225|Jones, Colin|2014|Pragmatic Bookshelf
+ Programming Clojure|https://isbndb.com/book/9781934356869|Halloway, Stuart and Bedra, Aaron|2012|Pragmatic Bookshelf
+ Mastering Clojure Data Analysis|https://isbndb.com/book/9781783284139|Rochester, Eric|2014|Packt Publishing
+ Mastering Clojure|https://isbndb.com/book/9781785889745|Wali, Akhil|2016|Packt Publishing
+ Clojure for Java Developers|https://isbndb.com/book/9781785281501|Diaz, Eduardo|2016|Packt Publishing
+ The Joy of Clojure|https://isbndb.com/book/9781617291418|Michael Fogus and Chris Houser|2014|Manning Publications
+ Web Development with Clojure|https://isbndb.com/book/9781680508840|Sotnikov, Dmitri and Brown, Scot|2021|Pragmatic Bookshelf
+ The Clojure Workshop: Use functional programming to build data-centric applications with Clojure and ClojureScript|https://isbndb.com/book/9781838825119|Fahey, Joseph and Haratyk, Thomas and McCaughie, Scott and Sharvit, Yehonathan and Szydlo, Konrad|2020|Packt Publishing
+ Professional Clojure|https://isbndb.com/book/9781119267294|Anderson, Jeremy and Gaare, Michael and Holguín, Justin and Bailey, Nick and Pratley, Timothy|2016|Wrox
+ Professional Clojure|https://isbndb.com/book/9781119267270|Anderson, Jeremy and Gaare, Michael and Holguín, Justin and Bailey, Nick and Pratley, Timothy|2016|Wrox
+ Programming Clojure (The Pragmatic Programmers)|https://isbndb.com/book/9781680502466|Miller, Alex and Halloway, Stuart and Bedra, Aaron|2018-03-20T00:00:01Z|Pragmatic Bookshelf
+ Clojure for Data Science|https://isbndb.com/book/9781784397180|Garner, Henry|2015|Packt Publishing
+ Clojure Reactive Programming - How to Develop Concurrent and Asynchronous Applications with Clojure|https://isbndb.com/book/9781783986675|Borges,  Leonardo|2015|Packt Publishing
+ Clojure Cookbook: Recipes for Functional Programming|https://isbndb.com/book/9781449366179|VanderHart, Luke and Neufeld, Ryan|2014|O'Reilly Media
+ Clojure Recipes (Developer's Library)|https://isbndb.com/book/9780133430073|Gamble, Julian|2015|Addison-Wesley Professional
+ Clojure for Machine Learning|https://isbndb.com/book/9781783284351|Wali, Akhil|2014|Packt Publishing
+ Programming Clojure (Pragmatic Programmers)|https://isbndb.com/book/9781934356333|Halloway, Stuart|2009-06-07T00:00:01Z|Pragmatic Bookshelf
+ Practical Clojure (Expert's Voice in Open Source)|https://isbndb.com/book/9781430272304|VanderHart, Luke and Sierra, Stuart|2010|Apress
+ Clojure Data Structures and Algorithms Cookbook|https://isbndb.com/book/9781785281457|Naccache, Rafik|2015|Packt Publishing
+ Clojure Programming Cookbook|https://isbndb.com/book/9781785885037|Hashimoto, Makoto and Modrzyk, Nicolas|2016|Packt Publishing
+ Clojure High Performance Programming|https://isbndb.com/book/9781782165606|Kumar, Shantanu|2013|Packt Publishing
+ Clojure for Domain-specific Languages|https://isbndb.com/book/9781782166504|D. Kelker, Ryan|2013|Packt Publishing
+ Clojure for Finance|https://isbndb.com/book/9781785289286|Washington, Timothy|2016|Packt Publishing
+ Clojure|https://isbndb.com/book/9783898648905|Stefan Kamphausen and Tim Oliver Kaiser|2010-09-01|dpunkt
+ Clojure Cookbook|https://isbndb.com/book/9781449366414|Luke VanderHart; Ryan Neufeld|20140305|O'Reilly Media, Inc.
+ Getting Clojure|https://isbndb.com/book/9781680506099|Russ Olsen|20180509|O'Reilly Media, Inc.
+ Living Clojure|https://isbndb.com/book/9781491909294|Carin Meier|20150414|O'Reilly Media, Inc.
+ Mastering Clojure|https://isbndb.com/book/9781785882050|Akhil Wali|28-03-2016|Packt Publishing
+ Clojure Polymorphism|https://isbndb.com/book/9781838988371|Paul Stadig|20191115|Packt Publishing
+ Living Clojure|https://isbndb.com/book/9781491909287|Carin Meier|20150414|O'Reilly Media, Inc.
+ Clojure in Action|https://isbndb.com/book/9781638355335|Amit Rathore|20151216|Simon & Schuster
+ Microservices with Clojure|https://isbndb.com/book/9781788626316|Anuj Kumar|25-01-2018|Packt Publishing
+ Clojure Programming|https://isbndb.com/book/9781449335359|Chas Emerick; Brian Carper; Christophe Grand|20120330|O'Reilly Media, Inc.
+ Clojure Cookbook|https://isbndb.com/book/9781449366407|Luke VanderHart; Ryan Neufeld|20140305|O'Reilly Media, Inc.
+ Clojure Programming|https://isbndb.com/book/9781449335342|Chas Emerick; Brian Carper; Christophe Grand|20120330|O'Reilly Media, Inc.
+ Clojure Programming Cookbook|https://isbndb.com/book/9781785888519|Makoto Hashimoto and Nicolas Modrzyk|2016|Packt Publishing Ltd
+ The Joy of Clojure|https://isbndb.com/book/9781638351283|Chris Houser; Michael Fogus|20140528|Simon & Schuster
+ Clojure High Performance Programming|https://isbndb.com/book/9781782165613|Shantanu Kumar|2013-11-20|Packt Publishing
+ Clojure for Finance|https://isbndb.com/book/9781785287619|Timothy Washington|2016-01-11|Packt Publishing
+ Clojure Programming Cookbook|https://isbndb.com/book/9781785888519|Makoto Hashimoto|28-10-2016|Packt Publishing
+ Clojure for Data Science|https://isbndb.com/book/9781784397500|Henry Garner|20150903|Packt Publishing
+ Clojure Web Development Essentials|https://isbndb.com/book/9781784394875|Ryan Baldwin|20150224|Packt Publishing
+ Clojure for Machine Learning|https://isbndb.com/book/9781783284368|Akhil Wali|2014-04-24|Packt Publishing
+ Web Development with Clojure|https://isbndb.com/book/9781680505306|Dmitri Sotnikov|20160714|O'Reilly Media, Inc.
+ Clojure for Java Developers|https://isbndb.com/book/9781785280412|Eduardo Diaz|23-02-2016|Packt Publishing
+ Clojure for Domain-specific Languages|https://isbndb.com/book/9781782166511|Ryan D. Kelker|2013-12-18|Packt Publishing
+ Clojure for the Brave and True|https://isbndb.com/book/9781593277239|Daniel Higginbotham|20151015|Random House Publishing Services
+ Clojure High Performance Programming - Second Edition|https://isbndb.com/book/9781785283642|Kumar and Shantanu|2015|Packt Publishing 2015-09-29
+ Clojure High Performance Programming - Second Edition|https://isbndb.com/book/9781785287671|Shantanu Kumar|20150929|Packt Publishing
+ Clojure 134 Success Secrets - 134 Most Asked Questions On Clojure - What You Need To Know|https://isbndb.com/book/9781488813016|Cynthia Harmon|20141030|Emereo
+ Hands-On Reactive Programming with Clojure|https://isbndb.com/book/9781789341966|Konrad Szydlo; Leonardo Borges|25-01-2019|Packt Publishing
+
+
+foldBreak
+subsection Publications about Clojure from Semantic Scholar
+pipeTable
+ title|titleLink|authors|year|citations|influentialCitations
+ The Clojure programming language|https://www.semanticscholar.org/paper/d9567af818aae84bae7ec340aff4a7a664e1777a|R. Hickey|2008|187|20
+ Getting Started with Google App Engine and Clojure|https://www.semanticscholar.org/paper/1bc8d663955e442c0ec6564e1abb6e05349ed048|Aaron Bedra|2010|36|3
+ A history of Clojure|https://www.semanticscholar.org/paper/f931ff3469da7d1537f338b63b0051e8709b4470|R. Hickey|2020|12|3
+ Practical Clojure|https://www.semanticscholar.org/paper/733c78d87b4b684e6de3d7b5463fd837484e663a|Luke VanderHart and S. Sierra|2010|5|0
+ cljRobust - Clojure Programming API for Lego Mindstorms NXT|https://www.semanticscholar.org/paper/452889551382a4ba973482d6ac70599a1c889e02|K. Kułakowski|2010|4|0
+ An open source implementation of an intuitionistic fuzzy inference system in Clojure|https://www.semanticscholar.org/paper/3a851fc47e922137f1829ca3fcce286982784a2f|Amaury Hernández-Águila and Mario García Valdez and O. Castillo and J. J. M. Guervós|2017|2|0
+ Towards Static Verification of Clojure Contract-Based Programs|https://www.semanticscholar.org/paper/26132abec6e92e8df28cdea73b9b5f0411edf17d|Gheorghe Pinzaru and V. Rivera|2019|2|0
+
+
+
+
+
+
+keyboardNav prolog.html kotlin.html

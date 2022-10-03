@@ -1,0 +1,522 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>WebAssembly - Bytecode</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="WebAssembly"></meta>
+  <meta property="og:description" content="WebAssembly is a bytecode created in 2015 by Ben Smith."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="wasm.html">WebAssembly</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="wasm.html">WebAssembly</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">WebAssembly is a <a href="../lists/languages.html?filter=bytecode">bytecode</a> created in <a href="../lists/languages.html?filter=2015">2015</a> by <a href="../lists/creators.html#Ben_Smith">Ben Smith</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#103<span><span title="TotalRank: 286 Jobs: 59 Users: 124 Facts: 103 Links: 160">on PLDB</span></span></td>
+<td>7<span>Years Old</span></td>
+<td>8.3k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>13<span><span title="Books about or leveraging WebAssembly">Books</span></span></td>
+<td>25<span><span title="Academic publications about or leveraging WebAssembly">Papers</span></span></td>
+<td>2k<span><span title="WebAssembly repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://tio.run/#wasm">TIO</a></p>
+
+
+
+
+
+<p class="scrollParagraphComponent">WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code. It was envisioned to complement JavaScript to speed up performance-critical parts of web applications and later on to enable web development in languages other than JavaScript. <a href="https://en.wikipedia.org/wiki/WebAssembly">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="http://webassembly.org/">WebAssembly website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/WebAssembly">WebAssembly Wikipedia page</a></li>
+<li>WebAssembly is developed on <a href="https://github.com/WebAssembly/wabt">GitHub</a> and has 4,534 stars</li>
+<li>There are at least 1,641 WebAssembly repos on <a href="https://github.com/search?q=language:WebAssembly">GitHub</a></li>
+<li>WebAssembly first developed in <a href="../lists/originCommunities.html#W3C">W3C</a></li>
+<li>file extensions for WebAssembly include wasm, wast and wat</li>
+<li>WebAssembly is written in <a href="cpp.html">C++</a></li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 148 users using WebAssembly in 160 repos on <a href="https://api.github.com/search/repositories?q=language:WebAssembly">GitHub</a></li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/webassembly.py">syntax highlighting</a> for WebAssembly</li>
+<li>GitHub supports <a href="https://github.com/Alhadis/language-webassembly" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for WebAssembly</li>
+<li>Indeed.com has 5 matches for <a href="https://www.indeed.com/jobs?q=webassembly engineer">"webassembly engineer"</a>.</li>
+<li><a href="http://webassembly.org/">webassembly.org</a> was registered in 2015</li>
+<li>See also: <a href="asmjs.html">Asm.js</a>, <a href="assembly-language.html">Assembly language</a>, <a href="javascript.html">JavaScript</a>, <a href="unity-engine.html">Unity</a>, <a href="llvmir.html">LLVM IR</a>, <a href="c.html">C</a>, <a href="rust.html">Rust</a>, <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="go.html">Go</a>, <a href="s-expressions.html">S-expressions</a>, <a href="doi.html">DOI</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/wasm">Improve our WebAssembly file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from the web:</div>
+<code class="scrollCodeBlockComponent">20 00
+50
+04 7E
+42 01
+05
+20 00
+20 00
+42 01
+7D
+10 00
+7E
+0B</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/w/WebAssembly.wat'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">(module
+    (import &quot;wasi_unstable&quot; &quot;fd_write&quot;
+        (func $fd_write (param i32 i32 i32 i32) (result i32))
+    )
+
+    (memory 1)
+    (export &quot;memory&quot; (memory 0))
+
+    (data (i32.const 0) &quot;\08\00\00\00\0c\00\00\00Hello World\n&quot;)
+
+    (func $main (export &quot;_start&quot;)
+        i32.const 1
+        i32.const 0
+        i32.const 1
+        i32.const 20
+        call $fd_write
+        drop
+    )
+)
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/Alhadis/language-webassembly'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">(module
+  (import &quot;env&quot; &quot;printInt&quot; (func $printInt (param i32)))
+  (func $add (param $lhs i32) (param $rhs i32) (result i32)
+    get_local $lhs
+    get_local $rhs
+    i32.add
+  )
+
+  (func $main
+    (call $printInt
+      (call $add (i32.const 9) (i32.const 8))))
+
+  (export &quot;main&quot; (func $main))
+)
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/WebAssembly'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">(module
+  (import &quot;math&quot; &quot;exp&quot; (func $exp (param f64) (result f64)))
+  (func (export &quot;doubleExp&quot;) (param $0 f64) (result f64)
+    (f64.mul
+      (call $exp
+        (get_local $0))
+      (f64.const 2))))</code>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/integers-feature.html">Integers</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/floats-feature.html">Floats</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/hexadecimals-feature.html">Hexadecimals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about WebAssembly from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9781680506365">Programming WebAssembly with Rust: Unified Development for Web, Mobile, and Embedded Applications</a></td>
+<td>Hoffman, Kevin</td>
+<td>2019</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838646837">Hands-On Game Development with WebAssembly: Learn WebAssembly C++ programming by building a retro space game</a></td>
+<td>Battagline, Rick</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838825867">Hands-On JavaScript High Performance: Build faster web apps using Node.js, Svelte.js, and WebAssembly</a></td>
+<td>Scherer, Justin</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638355304">WebAssembly in Action: With examples using C++ and Emscripten</a></td>
+<td>Gallant, Gerard</td>
+<td>2019</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838644659">Hands-On Game Development with WebAssembly: Learn WebAssembly C++ programming by building a retro space game</a></td>
+<td>Battagline, Rick</td>
+<td>2019-05-31T00:00:01Z</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484274958">WebAssembly for Cloud: A Basic Guide for Wasm-Based Cloud Apps</a></td>
+<td>Jain, Shashank Mohan</td>
+<td>2021</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838828004">Practical WebAssembly-Explore the fundamentals of WebAssembly programming using Rust</a></td>
+<td>Sendil Kumar Nellaiyapen</td>
+<td>2022</td>
+<td>Packt Publishing - ebooks Account</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484274965">WebAssembly for Cloud</a></td>
+<td>Shashank Mohan Jain</td>
+<td>20211113</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838827465">Practical WebAssembly</a></td>
+<td>Sendil Kumar Nellaiyapen</td>
+<td>20220502</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781718501454">The Art of WebAssembly</a></td>
+<td>Rick Battagline</td>
+<td>20210601</td>
+<td>Random House Publishing Services</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800563933">Blazor WebAssembly by Example</a></td>
+<td>Toi B. Wright; Scott Hanselman</td>
+<td>44386</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781801074995">Game Development with Rust and WebAssembly</a></td>
+<td>Eric Smith</td>
+<td>29-04-2022</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800563599">Creative DIY Microcontroller Projects with TinyGo and WebAssembly</a></td>
+<td>Tobias Theel</td>
+<td>14-05-2021</td>
+<td>Packt Publishing</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about WebAssembly from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/f9420023ec1ee6d7d61d8f61f3c7df33b59afe61">Bringing the web up to speed with WebAssembly</a></td>
+<td>Andreas Haas and Andreas Rossberg and Derek L. Schuff and Ben L. Titzer and Michael Holman and D. Gohman and Luke Wagner and Alon Zakai and J. Bastien</td>
+<td>2017</td>
+<td>307</td>
+<td>64</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8dafcb807d8d2b1f613043069af51ba63ef5d474">Mechanising and verifying the WebAssembly specification</a></td>
+<td>C. Watt</td>
+<td>2018</td>
+<td>45</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4c2d6e7037ba8c4118eb1d2fe25de910871314c9">Wasabi: A Framework for Dynamically Analyzing WebAssembly</a></td>
+<td>Daniel Lehmann and Michael Pradel</td>
+<td>2018</td>
+<td>27</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6fb0698434403b0caa9a32133ad0f90efb36d9cd">Weakening WebAssembly</a></td>
+<td>C. Watt and Andreas Rossberg and Jean Pichon-Pharabod</td>
+<td>2019</td>
+<td>18</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/53859511943c1cc1da713b436cea1f502ce64c10">An Empirical Study of Real-World WebAssembly Binaries: Security, Languages, Use Cases</a></td>
+<td>Aaron Hilbig and Daniel Lehmann and Michael Pradel</td>
+<td>2021</td>
+<td>17</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f39df8f217036d1fd3e5e44385291f02258a5a7f">Formally Verified Cryptographic Web Applications in WebAssembly</a></td>
+<td>Jonathan Protzenko and Benjamin Beurdouche and Denis Merigoux and K. Bhargavan</td>
+<td>2019</td>
+<td>17</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/668338ad3648e7540c1718ba94a409cceefc9d3d">WARDuino: a dynamic WebAssembly virtual machine for programming microcontrollers</a></td>
+<td>Robbert Gurdeep Singh and Christophe Scholliers</td>
+<td>2019</td>
+<td>16</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/373cea7cdd706641f4795fb3ff777fb23ace30c8">Accelerate JavaScript applications by cross-compiling to WebAssembly</a></td>
+<td>M. Reiser and Luc Bläser</td>
+<td>2017</td>
+<td>15</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c32344f4f80d5d545abeaedb544933a12d0230fe">Virtual Machine Execution for Wearables Based on WebAssembly</a></td>
+<td>M. Jacobsson and Jonas Willén</td>
+<td>2018</td>
+<td>11</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/010c899740f3cc29d6dc26ab4065fdc6b9875956">FAUST Domain Specific Audio DSP Language Compiled to WebAssembly</a></td>
+<td>S. Letz and Y. Orlarey and D. Fober</td>
+<td>2018</td>
+<td>8</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/854c5480cbb67ae0558d81ce1a25a6778a1b84df">Compositional Information Flow Analysis for WebAssembly Programs</a></td>
+<td>Quentin Stiévenart and Coen De Roover</td>
+<td>2020</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/377c29add6290cc6d4ac30e3571010f3fc987e2c">Bringing the web up to speed with WebAssembly</a></td>
+<td>Andreas Rossberg and Ben L. Titzer and Andreas Haas and Derek L. Schuff and D. Gohman and Luke Wagner and Alon Zakai and J. Bastien and Michael Holman</td>
+<td>2018</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/89428a2534ebfc5ae593c22587ca5991f5d33c56">Sparse matrices on the web: characterizing the performance and optimal format selection of sparse matrix-vector multiplication in javascript and webassembly</a></td>
+<td>Prabhjot Sandhu and D. Herrera and L. Hendren</td>
+<td>2018</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a6580cf09f8153cb59f2935a9f53d9bd7c92aefc">Wasmachine: Bring the Edge up to Speed with A WebAssembly OS</a></td>
+<td>Elliott Wen and Gerald Weber</td>
+<td>2020</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/30f7df3054343ee487d52e94ab7760262ec5958f">Understanding the performance of webassembly applications</a></td>
+<td>Yutian Yan and Tengfei Tu and Lijian Zhao and Yuchen Zhou and Weihang Wang</td>
+<td>2021</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a53f209c578bceeff3f14ea9cf5d431d91f8961f">SELWasm: A Code Protection Mechanism for WebAssembly</a></td>
+<td>Jian Sun and Dingyuan Cao and Ximing Liu and Ziyi Zhao and Wenwen Wang and Xiaoli Gong and Jin Zhang</td>
+<td>2019</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fbe367aa92c17b5fbc4b439b9d3ed05cddeb17a8">WASim: Understanding WebAssembly Applications through Classification</a></td>
+<td>Alan Romano and Weihang Wang</td>
+<td>2020</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d6fcc99b621cb2156537b94ab1d9034ae682f803">TruffleWasm: a WebAssembly interpreter on GraalVM</a></td>
+<td>Salim S. Salim and A. Nisbet and M. Luján</td>
+<td>2020</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/9d75f907e65b5b74d90e8c6d9bdf968288331121">An Empirical Study of Bugs in WebAssembly Compilers</a></td>
+<td>Alan Romano and Xinyue Liu and Yonghwi Kwon and Weihang Wang</td>
+<td>2021</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f041c9d54534217e888eee2f9aba22f682048a69">Wobfuscator: Obfuscating JavaScript Malware via Opportunistic Translation to WebAssembly</a></td>
+<td>Alan Romano and Daniel Lehmann and Michael Pradel and Weihang Wang</td>
+<td>2022</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7f9ad986365a726a97a79cf606c8db9303b1effc">Superoptimization of WebAssembly bytecode</a></td>
+<td>Javier Cabrera-Arteaga and Shrinish Donde and Jian Gu and Orestis Floros and Lucas Satabin and B. Baudry and Monperrus Martin</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e72c81c91e2c3f3259a9a28f5157ed132c01f698">Analysis of WebAssembly as a Strategy to Improve JavaScript Performance on IoT Environments</a></td>
+<td>F. Oliveira and J. Mattos</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/79c2622251cf1d7bcd0d266253ccc69da749eb59">Towards a WebAssembly standalone runtime on GraalVM</a></td>
+<td>Salim S. Salim and A. Nisbet and M. Luján</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/743067aed49d0f62682d11d2db96bf3f62c969ba">Static Stack-Preserving Intra-Procedural Slicing of WebAssembly Binaries</a></td>
+<td>Quentin Stiévenart and D. Binkley and Coen De Roover</td>
+<td>2022</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/85c19f3e93d649ce229ff07daa8ae36e7a1a56bf">Bringing WebAssembly up to speed with dynamic linking</a></td>
+<td>Niko Mäkitalo and Victor Bankowski and Paulius Daubaris and R. Mikkola and Oleg Beletski and T. Mikkonen</td>
+<td>2021</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="haxe.html">haxe.html</a> · wasm.html · <a href="asp.html">asp.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/wasm.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

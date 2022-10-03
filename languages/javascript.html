@@ -1,0 +1,2832 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>JavaScript - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="JavaScript"></meta>
+  <meta property="og:description" content="JavaScript is a pl created in 1995 by Brendan Eich."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="javascript.html">JavaScript</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="javascript.html">JavaScript</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">JavaScript is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1995">1995</a> by <a href="../lists/creators.html#Brendan_Eich">Brendan Eich</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#2<span><span title="TotalRank: 5 Jobs: 3 Users: 1 Facts: 1 Links: 3">on PLDB</span></span></td>
+<td>27<span>Years Old</span></td>
+<td>6.0m<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>351<span><span title="Books about or leveraging JavaScript">Books</span></span></td>
+<td>48<span><span title="Academic publications about or leveraging JavaScript">Papers</span></span></td>
+<td>16m<span><span title="JavaScript repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://playcode.io/javascript/">Web</a> · <a href="https://riju.codes/javascript">Riju</a> · <a href="https://repl.it/languages/javascript">Replit</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `console.log("Hello, world!");\n`,
+        language: 'javascript',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">JavaScript (), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. <a href="https://en.wikipedia.org/wiki/JavaScript">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript Wikipedia page</a></li>
+<li>There are at least 16,046,489 JavaScript repos on <a href="https://github.com/search?q=language:JavaScript">GitHub</a></li>
+<li>JavaScript first developed in <a href="../lists/originCommunities.html#Netscape">Netscape</a></li>
+<li>PLDB estimates there are currently 64k job openings for JavaScript programmers.</li>
+<li>file extensions for JavaScript include js, _js, bones, cjs, es, es6, frag, gs, jake, javascript, jsb, jscad, jsfl, jslib, jsm, jspre, jss, jsx, mjs, njs, pac, sjs, ssjs, xsjs and xsjslib</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 566k users using JavaScript in 1m repos on <a href="https://api.github.com/search/repositories?q=language:JavaScript">GitHub</a></li>
+<li>Check out the 5,270 <a href="https://www.meetup.com/topics/javascript/">JavaScript meetup groups</a> on Meetup.com.</li>
+<li>There are 2,113,371 members in the <a href="https://reddit.com/r/javascript">JavaScript subreddit</a></li>
+<li>There are 2,478 <a href="https://projecteuler.net/language=ECMAScript">Project Euler</a> users using JavaScript</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> JavaScript programmers reported a median salary of $54,049. 64% of respondents reported using JavaScript. 53,587 programmers reported using JavaScript, and 37,008 said they wanted to use it</li>
+<li>Explore JavaScript snippets on <a href="http://www.rosettacode.org/wiki/Category:JavaScript">Rosetta Code</a></li>
+<li>JavaScript is listed on <a href="https://hopl.info/showlanguage.prx?exp=2133">HOPL</a></li>
+<li>JavaScript ranks #6 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/nodejs">Ubuntu package</a> for JavaScript</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/javascript">grammar</a> for JavaScript</li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/javascript">package</a> for syntax highlighting JavaScript</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/javascript">package</a> for syntax highlighting JavaScript</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for JavaScript</li>
+<li>GitHub supports <a href="https://github.com/atom/language-javascript" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for JavaScript</li>
+<li>JavaScript appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/n-riesco/ijavascript">Kernel</a> for JavaScript</li>
+<li>There is a <a href="http://npmjs.org">central package repository</a> for JavaScript</li>
+<li>Indeed.com has 25,726 matches for <a href="https://www.indeed.com/jobs?q=javascript developer">"javascript developer"</a>.</li>
+<li>See also: <a href="java.html">Java</a>, <a href="lua.html">Lua</a>, <a href="scheme.html">Scheme</a>, <a href="perl.html">Perl</a>, <a href="self.html">Self</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="awk.html">awk</a>, <a href="hypertalk.html">HyperTalk</a>, <a href="actionscript.html">ActionScript</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="dart.html">Dart</a>, <a href="livescript.html">LiveScript</a>, <a href="objective-j.html">Objective-J</a>, <a href="opa.html">Opa</a>, <a href="perl-6.html">Perl 6</a>, <a href="qml.html">QML</a>, <a href="typescript.html">TypeScript</a>, <a href="json.html">JSON</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="html.html">HTML</a>, <a href="regex.html">Regular Expressions</a>, <a href="pdf.html">PDF</a>, <a href="tcl.html">Tcl</a>, <a href="c--.html">C--</a>, <a href="vbscript.html">VBScript</a>, <a href="jscript.html">JScript</a>, <a href="jquery.html">JQuery</a>, <a href="npm-pm.html">npm</a>, <a href="mongodb.html">MongoDB</a>, <a href="sql.html">SQL</a>, <a href="max.html">Max</a>, <a href="unity-engine.html">Unity</a>, <a href="google-apps-script.html">Google Apps Script</a>, <a href="objective-c.html">Objective-C</a>, <a href="applescript.html">Applescript</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="asmjs.html">Asm.js</a>, <a href="processing.html">Processing</a>, <a href="oberon.html">Oberon</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="scala.html">Scala</a>, <a href="racket.html">Racket</a>, <a href="llvmir.html">LLVM IR</a>, <a href="fantom.html">Fantom</a>, <a href="haxe.html">Haxe</a>, <a href="clojure.html">Clojure</a>, <a href="kotlin.html">Kotlin</a>, <a href="squeak.html">Squeak</a>, <a href="wasm.html">WebAssembly</a></li>
+<li>Read more about JavaScript on the web: <a href="https://www.w3schools.com/js/js_reserved.asp">1</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/javascript">Improve our JavaScript file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/javascript'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">console.log(&quot;Hello, world!&quot;);
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/j/JavaScript.js'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">console.log(&quot;Hello World&quot;);
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#JavaScript'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">// Hello world in JavaScript
+console.log(&quot;Hello World&quot;);</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/atom/language-javascript'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">alert(&quot;dude!&quot;)</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/JavaScript'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">var minstake   = 0.00000100;  // valor base
+    //-----------------------------------------
+    var autorounds = 99;         // n° de rolls
+    //======================================================
+    // if (profit &gt; profit_max) {
+        //     error_title = &quot;Maximum profit exceeded&quot;;
+        //     error_info = &quot;Maximum profit: &quot; + number_format(profit_max, devise_decimal);
+        //     error_value = &quot;Maximum profit exceeded - Maximum profit: &quot; + number_format(profit_max, devise_decimal);
+        //     error = true;
+        // }
+        // else if (amount &gt; balance) {
+        //     error_title = &quot;Bet amount&quot;;
+        //     error_info = &quot;Maximum bet: &quot; + number_format(balance, devise_decimal);
+        //     error_value = &quot;Bet amount - Maximum bet: &quot; + number_format(balance, devise_decimal);
+        //     error = true;
+        // }
+    var handbrake  = 1.0000000;  // valor lose pause game
+    var autoruns   = 1;
+        // else if (amount &gt; bet_max) {
+        //     error_title = &quot;Bet amount&quot;;
+        //     error_info = &quot;Maximum bet: &quot; + number_format(bet_max, devise_decimal);
+        //     error_value = &quot;Bet amount - Maximum bet: &quot; + number_format(bet_max, devise_decimal);
+        //     error = true;
+        // }
+        // else if (amount &lt; bet_min) {
+        //     error_title = &quot;Bet amount&quot;;
+        //     error_info = &quot;Minimum bet: &quot; + number_format(bet_min, devise_decimal);
+        //     error_value = &quot;Bet amount - Minimum bet: &quot; + number_format(bet_min, devise_decimal);
+        //     error = true;
+        // }
+    function playnow() {
+           if (autoruns &gt; autorounds ) { console.log(&#39;Limit reached&#39;); return; }
+           document.getElementById(&#39;double_your_btc_bet_hi_button&#39;).click();
+           setTimeout(checkresults, 1000);
+           return;}
+    function checkresults() {
+           if (document.getElementById(&#39;double_your_btc_bet_hi_button&#39;).disabled === true) {
+                  setTimeout(checkresults, 1000);
+                  return;
+           }
+           var stake = document.getElementById(&#39;double_your_btc_stake&#39;).value * 1;
+           var won = document.getElementById(&#39;double_your_btc_bet_win&#39;).innerHTML;
+           if (won.match(/(\d+\.\d+)/) !== null) { won = won.match(/(\d+\.\d+)/)[0]; } else { won = false; }
+           var lost = document.getElementById(&#39;double_your_btc_bet_lose&#39;).innerHTML;
+           if (lost.match(/(\d+\.\d+)/) !== null) { lost = lost.match(/(\d+\.\d+)/)[0]; } else { lost = false; }
+           if (won &amp;&amp; !lost) { stake = minstake; console.log(&#39;Bet #&#39; + autoruns + &#39;/&#39; + autorounds + &#39;: Won  &#39; + won  + &#39; Stake: &#39; + stake.toFixed(8)); }
+           if (lost &amp;&amp; !won) { stake = lost * 2.1; console.log(&#39;Bet #&#39; + autoruns + &#39;/&#39; + autorounds + &#39;: Lost &#39; + lost + &#39; Stake: &#39; + stake.toFixed(8)); }
+           if (!won &amp;&amp; !lost) { console.log(&#39;Something went wrong&#39;); return; }
+           document.getElementById(&#39;double_your_btc_stake&#39;).value = stake.toFixed(8);
+           autoruns++;
+           if (stake &gt;= handbrake) {
+                  document.getElementById(&#39;handbrakealert&#39;).play();
+                  console.log(&#39;Handbrake triggered! Execute playnow() to override&#39;);
+               return;
+           }
+           setTimeout(playnow, 1000);
+           return;
+           }playnow()</code>
+
+<div class="exampleCodeHeader"><a href='https://www.youtube.com/watch?v=XOmhtfTrRxc&t=125s&ab_channel=FinJS'>Fun fact</a>:</div>
+<code class="scrollCodeBlockComponent">The name Java in JavaScript was pure marketing: &quot;At the time, the dot-com boom had begun and Java was the hot new language, so Eich considered the JavaScript name a marketing ploy by Netscape&quot;</code>
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=javascript">Keywords</a> in JavaScript</h4>
+<p class="scrollParagraphComponent">abstract arguments await boolean break byte case catch char class const continue debugger default delete do double else enum eval export extends false final finally float for function goto if implements import in instanceof int interface let long native new null package private protected public return short static super switch synchronized this throw throws transient true try typeof var void volatile while with yield</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/scientific-notation-feature.html">Scientific Notation</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/binary-numbers-feature.html">Binary Literals</a></td>
+<td>✓</td>
+<td><pre>// 0[bB][01]+n?
+0b100110100000110011110010010</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/floats-feature.html">Floats</a></td>
+<td>✓</td>
+<td><pre>// (\.[0-9]+|[0-9]+\.[0-9]*|[0-9]+)([eE][-+]?[0-9]+)?
+80766866.0</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/hexadecimals-feature.html">Hexadecimals</a></td>
+<td>✓</td>
+<td><pre>// 0[xX][0-9a-fA-F]+n?
+0x4D06792</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/octals-feature.html">Octals</a></td>
+<td>✓</td>
+<td><pre>// 0[oO]?[0-7]+n?
+0o464063622</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/sets-feature.html">Sets</a></td>
+<td>✓</td>
+<td><pre>set = new Set()
+set.add("foo")</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/function-composition-feature.html">Function Composition</a></td>
+<td>✓</td>
+<td><pre>function o(f, g) {
+   return function(x) {
+       return f(g(x));
+   }
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/destructuring-feature.html">Destructuring</a></td>
+<td>✓</td>
+<td><pre>const o = {p: 42, q: true};
+const {p, q} = o;</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/default-parameters-feature.html">Default Parameters Pattern</a></td>
+<td>✓</td>
+<td><pre>function multiply(a, b = 1) {
+ return a * b;
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td>//</td>
+</tr>
+<tr><td><a href="../languages/increment-and-decrement-operators-feature.html">Increment and decrement operators</a></td>
+<td>✓</td>
+<td><pre>let i = 0
+i++
+i--</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/methods-feature.html">Methods</a></td>
+<td>✓</td>
+<td><pre>class Person {
+ method1() {}
+ method2() {}
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/functions-feature.html">Functions</a></td>
+<td>✓</td>
+<td><pre>function helloWorld() {console.log("hi")}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/case-sensitivity-feature.html">Case Sensitivity</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td><pre>let times = 10
+while (times) {times--}
+console.log("done")</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/ternary-operators-feature.html">Ternary operators</a></td>
+<td>✓</td>
+<td><pre>let i = true ? 1 : 0</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/switch-statements-feature.html">Switch Statements</a></td>
+<td>✓</td>
+<td><pre>var animal = "dog"
+switch (animal) {
+ case "dog": console.log("yay"); break;
+ case "cat": console.log("oh"); break;
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"hello world"</pre></td>
+<td>`</td>
+</tr>
+<tr><td><a href="../languages/letter-first-identifiers-feature.html">Letter-first Identifiers</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/inheritance-feature.html">Inheritance</a></td>
+<td>✓</td>
+<td><pre>class B {}
+class A extends B {}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td><pre>console.log("Hi")</pre></td>
+<td>console.log</td>
+</tr>
+<tr><td><a href="../languages/reference-feature.html">References</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-strings-feature.html">Multiline Strings</a></td>
+<td>✓</td>
+<td><pre>const lines = `one
+two`</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/anonymous-functions-feature.html">Anonymous Functions</a></td>
+<td>✓</td>
+<td><pre>(() => console.log("hello world"))()</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/infix-notation-feature.html">Infix Notation</a></td>
+<td>✓</td>
+<td><pre>const six = 2 + 2 + 2</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/implicit-type-casting-feature.html">Implicit Type Casting</a></td>
+<td>✓</td>
+<td><pre>console.log("hello " + 2)</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/assignment-feature.html">Assignment</a></td>
+<td>✓</td>
+<td><pre>var name = "John"</pre></td>
+<td>=</td>
+</tr>
+<tr><td><a href="../languages/directives-feature.html">Directives</a></td>
+<td>✓</td>
+<td><pre>"use strict";
+"use asm";</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/generators-feature.html">Generators</a></td>
+<td>✓</td>
+<td><pre>function* fibonacci(limit) {
+    let [prev, curr] = [0, 1];
+    while (!limit || curr <= limit) {
+        yield curr;
+        [prev, curr] = [curr, prev + curr];
+    }
+}
+// bounded by upper limit 10
+for (let n of fibonacci(10)) {
+    console.log(n);
+}
+// generator without an upper bound limit
+for (let n of fibonacci()) {
+    console.log(n);
+    if (n > 10000) break;
+}
+// manually iterating
+let fibGen = fibonacci();
+console.log(fibGen.next().value); // 1
+console.log(fibGen.next().value); // 1
+console.log(fibGen.next().value); // 2
+console.log(fibGen.next().value); // 3
+console.log(fibGen.next().value); // 5
+console.log(fibGen.next().value); // 8
+// picks up from where you stopped
+for (let n of fibGen) {
+    console.log(n);
+    if (n > 10000) break;
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/garbage-collection-feature.html">Garbage Collection</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/first-class-functions-feature.html">First-Class Functions</a></td>
+<td>✓</td>
+<td><pre>[2.0,1.1].map(Math.round)</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/exceptions-feature.html">Exceptions</a></td>
+<td>✓</td>
+<td><pre>try {
+ undefinedFn()
+} catch (err) {
+ console.log(err)
+}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constants-feature.html">Constants</a></td>
+<td>✓</td>
+<td><pre>const one = 1</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constructor-feature.html">Constructors</a></td>
+<td>✓</td>
+<td><pre>class Person {
+ constructor(name) {
+   this._name = name
+ }
+}
+new Person("Jane")</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td><pre>if (true)
+ console.log("hi!")</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/classes-feature.html">Classes</a></td>
+<td>✓</td>
+<td><pre>class Person {}</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/method-chaining-feature.html">Method Chaining</a></td>
+<td>✓</td>
+<td><pre>"hello world".toString().substr(0, 1).length</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/booleans-feature.html">Booleans</a></td>
+<td>✓</td>
+<td></td>
+<td>true false</td>
+</tr>
+<tr><td><a href="../languages/magic-getters-and-setters-feature.html">Magic Getters and Setters</a></td>
+<td>✓</td>
+<td><pre>// Can be implemented in ES6 using proxies:
+"use strict";
+if (typeof Proxy == "undefined") {
+    throw new Error("This browser doesn't support Proxy");
+}
+let original = {
+    "foo": "bar"
+};
+let proxy = new Proxy(original, {
+    get(target, name, receiver) {
+        let rv = Reflect.get(target, name, receiver);
+        if (typeof rv === "string") {
+            rv = rv.toUpperCase();
+        }
+        return rv;
+      }
+});
+console.log(`original.foo = ${original.foo}`); // "original.foo = bar"
+console.log(`proxy.foo = ${proxy.foo}`);       // "proxy.foo = BAR"</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/dynamic-properties-feature.html">Dynamic Properties</a></td>
+<td>✓</td>
+<td><pre>class Person {}
+const person = new Person()
+person.age = 50</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/sourcemaps-feature.html">Source Maps</a></td>
+<td>✓</td>
+<td><pre>{
+ version: 3,
+ file: 'min.js',
+ names: ['bar', 'baz', 'n'],
+ sources: ['one.js', 'two.js'],
+ sourceRoot: 'http://example.com/www/js/',
+ mappings: 'CAAC,IAAI,IAAM,SAAUA,GAClB,OAAOC,IAAID;CCDb,IAAI,IAAM,SAAUE,GAClB,OAAOA'
+};</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/bitwise-operaters-feature.html">Bitwise Operators</a></td>
+<td>✓</td>
+<td><pre>var x = 5 & 1;</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/single-dispatch-feature.html">Single Dispatch</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/polymorphism-feature.html">Polymorphism</a></td>
+<td>✓</td>
+<td><pre>"a" + "b"; 1 + 2</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/merges-whitespace-feature.html">Merges Whitespace</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/lists-feature.html">Lists</a></td>
+<td>✓</td>
+<td><pre>const list = [1,2,3]</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/integers-feature.html">Integers</a></td>
+<td>✓</td>
+<td><pre>80766866</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/supports-breakpoints-feature.html">Breakpoints</a></td>
+<td>✓</td>
+<td><pre>if (false)
+  debugger</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/partial-application-feature.html">Partial Application</a></td>
+<td>✓</td>
+<td><pre>const addNumbers = (num1, num2) => num1 + num2
+const add5 = num => addNumbers(10, num)</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/map-functions-feature.html">Map Functions</a></td>
+<td>✓</td>
+<td><pre>[1,2.1].map(Math.round)</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/binary-operators-feature.html">Binary Operators</a></td>
+<td>✓</td>
+<td><pre>1 + 1</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/async-await-feature.html">Async Await</a></td>
+<td>✓</td>
+<td><pre>async doSomething => await somethingElse()</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/expressions-feature.html">Expressions</a></td>
+<td>✓</td>
+<td><pre>1 + 1</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/regular-expressions-syntax-sugar-feature.html">Regular Expression Syntax Sugar</a></td>
+<td>✓</td>
+<td><pre>console.log("Hello World".match(/\w/))</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/statements-feature.html">Statements</a></td>
+<td>✓</td>
+<td><pre>let x = 3;</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>✓</td>
+<td><pre>import { helloWorld } from "./helloWorld.js";</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/operator-overloading-feature.html">Operator Overloading</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/case-insensitive-identifiers-feature.html">Case Insensitive Identifiers</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiple-inheritance-feature.html">Multiple Inheritance</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/function-overloading-feature.html">Function Overloading</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/macros-feature.html">Macros</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/processor-registers-feature.html">Processor Registers</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiple-dispatch-feature.html">Multiple Dispatch</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/pointers-feature.html">Pointers</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/abstract-types-feature.html">Abstract Types</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/access-modifiers-feature.html">Access Modifiers</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about JavaScript on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=Eloquent JavaScript: A Modern Introduction to Programming Marijn Haverbeke">Eloquent JavaScript: A Modern Introduction to Programming</a></td>
+<td>Marijn Haverbeke</td>
+<td>2010</td>
+<td>141</td>
+<td>1721</td>
+<td>4.12</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Professional JavaScript for Web Developers Nicholas C. Zakas">Professional JavaScript for Web Developers</a></td>
+<td>Nicholas C. Zakas</td>
+<td>2005</td>
+<td>31</td>
+<td>559</td>
+<td>4.14</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about JavaScript from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9781118531648">JavaScript and JQuery: Interactive Front-End Web Development</a></td>
+<td>Duckett, Jon</td>
+<td>2014</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137054893">JavaScript by Example</a></td>
+<td>Quigley, Ellie</td>
+<td>2010</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072261349">JavaScript Demystified</a></td>
+<td>Keogh, Jim</td>
+<td>2005</td>
+<td>McGraw Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780980285802">Simply JavaScript: Everything You Need to Learn JavaScript From Scratch</a></td>
+<td>Yank, Kevin and Adams, Cameron</td>
+<td>2007</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137001316">JavaScript for Programmers</a></td>
+<td>Deitel, Paul J.</td>
+<td>2009</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781933988696">Secrets of the JavaScript Ninja</a></td>
+<td>John Resig and Bear Bibeault</td>
+<td>2013</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321812186">Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript (Effective Software Development Series)</a></td>
+<td>Herman, David</td>
+<td>2012</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596527747">Head First JavaScript</a></td>
+<td>Morrison, Michael</td>
+<td>2008</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131400863">Mastering the Internet, Xhtml, and Javascript</a></td>
+<td>Zeid, Ibrahim</td>
+<td>2004</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781284091793">Web Programming with HTML5, CSS, and JavaScript</a></td>
+<td>Dean, John</td>
+<td>2018</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781284091793">Web Programming With Html5, Css, And Javascript</a></td>
+<td>Dean, John , 1962- (author.)</td>
+<td>2017</td>
+<td>Jones And Bartlett Learning,</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781661212568">Composing Software: An Exploration of Functional Programming and Object Composition in JavaScript</a></td>
+<td>Elliott, Eric</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118871652">JavaScript and jQuery: Interactive Front-End Web Development</a></td>
+<td>Duckett, Jon</td>
+<td>2014</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470525937">Beginning JavaScript</a></td>
+<td>Wilton, Paul and McPeak, Jeremy</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118213704">PHP, MySQL, JavaScript & HTML5 All-in-One For Dummies</a></td>
+<td>Suehring, Steve and Valade, Janet</td>
+<td>2013</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491949306">Web Development with Node and Express: Leveraging the JavaScript Stack</a></td>
+<td>Brown, Ethan</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491901885">JavaScript Cookbook: Programming the Web</a></td>
+<td>Powers, Shelley</td>
+<td>2015</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672336089">JavaScript in 24 Hours, Sams Teach Yourself (5th Edition)</a></td>
+<td>Ballard, Phil</td>
+<td>2012</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072228878">How to Do Everything with JavaScript</a></td>
+<td>Duffy, Scott</td>
+<td>2003</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471383666">Introduction to Interactive Programming on the Internet: Using HTML and JavaScript</a></td>
+<td>Knuckles, Craig D.</td>
+<td>2000</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619266257">HTML and JavaScript BASICS (BASICS Series)</a></td>
+<td>Barksdale, Karl and Turner, E. Shane</td>
+<td>2005</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430230540">Pro JavaScript with MooTools (Expert's Voice in Web Development)</a></td>
+<td>Obcena, Mark</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672337703">PHP, MySQL & JavaScript All in One, Sams Teach Yourself</a></td>
+<td>Meloni, Julie</td>
+<td>2017</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470417997">JavaScript & Ajax for Dummies</a></td>
+<td>Harris, Andy</td>
+<td>2009</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619068059">Course ILT: Javascript Programming</a></td>
+<td>Technology, Course</td>
+<td>2001</td>
+<td>Crisp Pub Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491950296">Programming JavaScript Applications: Robust Web Architecture with Node, HTML5, and Modern JS Libraries</a></td>
+<td>Elliott, Eric</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785281341">Mastering JavaScript</a></td>
+<td>Antani, Ved</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781423901501">JavaScript</a></td>
+<td>Gosselin, Don</td>
+<td>2007</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470384596">Professional JavaScript Frameworks: Prototype,YUI, ExtJS, Dojo and MooTools</a></td>
+<td>Orchard, Leslie M. and Pehlivanian, Ara and Koon, Scott and Jones, Harley</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785889103">Mastering JavaScript Object-Oriented Programming</a></td>
+<td>Chiarelli, Andrea</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132358040">Dojo: Using the Dojo JavaScript Library to Build Ajax Applications</a></td>
+<td>Harmon, James E.</td>
+<td>2008</td>
+<td>AddisonWesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430272199">JavaScript for Absolute Beginners</a></td>
+<td>McNavage, Terry</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781592000869">Learn JavaScript In a Weekend, Second Edition</a></td>
+<td>Ford, Jr., Jerry Lee</td>
+<td>2003</td>
+<td>Course Technology PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780761534105">JavaScript Programming for the Absolute Beginner</a></td>
+<td>Harris, Andy</td>
+<td>2002</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136502142">Modern JavaScript for the Impatient</a></td>
+<td>Horstmann, Cay</td>
+<td>2020</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449320515">HTML5 and JavaScript Web Apps: Bridging the Gap Between the Web and the Mobile Web</a></td>
+<td>Hales, Wesley</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596518370">AIR for Javascript Developers Pocket Guide: Getting Started with Adobe AIR</a></td>
+<td>Chambers, Mike and Dura, Daniel and Dura, Daniel and Hoyt, Kevin and Hoyt, Kevin and Georgita, Dragos</td>
+<td>2008</td>
+<td>Adobe Developer Library</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449399085">Programming HTML5 Applications: Building Powerful Cross-Platform Environments in JavaScript</a></td>
+<td>Kessin, Zachary</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672321412">Pure JavaScript (2nd Edition)</a></td>
+<td>R. Allen Wyke and Charlton Ting and Jason D. Gilliam and Sean Michaels</td>
+<td>2001</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782160823">Getting Started with Meteor.js JavaScript Framework</a></td>
+<td>Strack, Isaac</td>
+<td>2012</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780986307652">JavaScript: Optimizing Native JavaScript</a></td>
+<td>Robert C. Etheredge</td>
+<td>20170302</td>
+<td>Independent Publishers Group (Chicago Review Press)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596515195">Adobe Integrated Runtime (AIR) for JavaScript Developers Pocket Guide (Adobe Developer Library)</a></td>
+<td>Chambers, Mike and Dura, Daniel and Hoyt, Kevin</td>
+<td>2007</td>
+<td>Adobe Developer Library</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430236658">Foundation HTML5 Animation with JavaScript</a></td>
+<td>Lamberta, Billy and Peters, Keith</td>
+<td>2011</td>
+<td>friends of ED</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484207147">Scripting in Java: Integrating with Groovy and JavaScript</a></td>
+<td>Sharan, Kishori</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781934356111">Mastering Dojo: Javascript and Ajax Tools for Great Web Experiences (Pragmatic Programmers)</a></td>
+<td>Riecke, Craig and Gill, Rawld and Russell, Alex</td>
+<td>2008</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672317637">Javascript Unleashed</a></td>
+<td></td>
+<td>2000</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430209911">Foundation Website Creation with CSS, XHTML, and JavaScript</a></td>
+<td>Jonathan Lane and Meitar Moscovitz and Joseph R. Lewis</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785888564">Internet of Things Programming with JavaScript</a></td>
+<td>Ramos, Ruben Oliva</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491979099">Learning PHP, MySQL & JavaScript</a></td>
+<td>Robin Nixon</td>
+<td>20180509</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672314070">Sams Teach Yourself Javascript 1.3 in 24 Hours (Teach Yourself in 24 Hours)</a></td>
+<td>Moncur, Michael</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449388454">Learning the iOS 4 SDK for JavaScript Programmers: Create Native Apps with Objective-C and Xcode</a></td>
+<td>Goodman, Danny</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861002709">Professional JavaScript with DHTML, ASP, CGI, FESI, Netscape Enterprise Server, Windows Script Host, LiveConnect and Java</a></td>
+<td>Chirelli, Andrea and Li, Sing and Wilton, Paul and McFarlane, Nigel and Updegrave, Stuart and Wilcox, Mark and Wootton, Cliff and McFarlane, Nigel and James De Carli</td>
+<td>1999</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764544057">Beginning JavaScript (Programmer to Programmer)</a></td>
+<td>Wilton, Paul</td>
+<td>2000</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449342845">DOM Enlightenment: Exploring JavaScript and the Modern DOM</a></td>
+<td>Lindley, Cody</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449369316">Client-Server Web Apps with JavaScript and Java</a></td>
+<td>Casimir Saternos</td>
+<td>20140328</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430240389">Learn HTML5 and JavaScript for iOS: Web Standards-based Apps for iPhone, iPad, and iPod touch</a></td>
+<td>Preston, Scott</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131001473">Essential JavaScript for Web Professionals (2nd Edition)</a></td>
+<td>Barrett, Dan and Brown, Micah and Lifingston, Dan</td>
+<td>2002</td>
+<td>Prentice Hall PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680502701">3D Game Programming for Kids: Create Interactive Worlds with JavaScript</a></td>
+<td>Strom, Chris</td>
+<td>2018</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201688146">Javascript for the World Wide Web (Visual QuickStart Guide)</a></td>
+<td>Gesing, Ted and Schneider, Jeremy</td>
+<td>1997</td>
+<td>Peachpit Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861001276">Instant Javascript</a></td>
+<td>McFarlane, Nigel and McFarlane</td>
+<td>1997</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321412942">Adobe Illustrator Cs2 Official Javascript Reference</a></td>
+<td>Adobe Systems</td>
+<td>2005</td>
+<td>Adobe Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321409713">Adobe Golive Cs2 Official Javascript Reference</a></td>
+<td>Adobe Systems</td>
+<td>2005</td>
+<td>Adobe Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449356378">JavaScript Testing with Jasmine: JavaScript Behavior-Driven Development</a></td>
+<td>Hahn, Evan</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071435048">Teach Yourself Javascript</a></td>
+<td>McBride, Mac</td>
+<td>2004</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781839213069">Mastering JavaScript Functional Programming: Write clean, robust, and maintainable web and server code using functional JavaScript, 2nd Edition</a></td>
+<td>Kereki, Federico</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789725769">Special Edition Using Javascript</a></td>
+<td>McFedries, Paul</td>
+<td>2001</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785287176">JavaScript Projects for Kids</a></td>
+<td>Towaha, Syed Omar Faruk</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783987986">Mastering JavaScript Design Patterns</a></td>
+<td>Timms, Simon</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781539124771">TypeScript: JavaScript Development Guide</a></td>
+<td>Brown, Nicholas</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430240327">HTML5 and JavaScript Projects (Expert's Voice in Web Development)</a></td>
+<td>Meyer, Jeanine</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787115278814">JavaScript Efficient Graphical Programming (Chinese Edition)</a></td>
+<td>[Mei]RaffaeleCecco</td>
+<td>2012</td>
+<td>Posts and Telecom Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789389328721">JavaScript for Modern Web Development: Building a Web Application Using HTML, CSS, and JavaScript (English Edition)</a></td>
+<td>Ranjan, Alok and Sinha, Abhilasha and Battewad, Ranjit</td>
+<td>2020</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484226568">Beginning Functional JavaScript</a></td>
+<td>Anto Aravinth</td>
+<td>2017</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781568302782">Javascript for Macintosh</a></td>
+<td>Shobe, Matt and Ritchey, Tim</td>
+<td>1996</td>
+<td>Hayden Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783558551">Reactive Programming with JavaScript</a></td>
+<td>Hayward, Jonathan</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672324314">JavaScript Unleashed (4th Edition)</a></td>
+<td>Wyke, R. Allen and Gilliam, Jason</td>
+<td>2002</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617295867">The Joy of JavaScript</a></td>
+<td>Atencio, Luis</td>
+<td>2020</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782128192">Mastering Javascript Premium Edition</a></td>
+<td>James Jaworski and Jamie Jaworski</td>
+<td>2001</td>
+<td>Wiley, John & Sons, Incorporated</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449398583">Node: Up and Running: Scalable Server-Side Code with JavaScript</a></td>
+<td>Hughes-Croucher, Tom and Wilson, Mike</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847196163">Drupal 6 JavaScript and jQuery</a></td>
+<td>Butcher, Matt</td>
+<td>2009</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491948620">JavaScript & jQuery: The Missing Manual</a></td>
+<td>David Sawyer McFarland</td>
+<td>20140918</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781562764234">JavaScript 2.1 Manual of Style</a></td>
+<td>Mark Johnson</td>
+<td>1996</td>
+<td>Ziff Davis</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430232469">Pro iOS Web Design and Development: HTML5, CSS3, and JavaScript with Safari</a></td>
+<td>Picchi, Andrea and Willat, Carl</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430267904">Pro TypeScript: Application-Scale JavaScript Development</a></td>
+<td>Fenton, Steve</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430244011">Pro Windows 8 Development with HTML5 and JavaScript (Expert's Voice in Microsoft)</a></td>
+<td>Freeman, Adam</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672330377">Sams Teach Yourself JavaScript and Ajax: Video Learning Starter Kit</a></td>
+<td>Sams Publishing</td>
+<td>2009</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780737215748">Inside Javascript</a></td>
+<td>New Riders and Jill Bond</td>
+<td>1996</td>
+<td>New Riders</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680501292">Reactive Programming with RxJS: Untangle Your Asynchronous JavaScript Code</a></td>
+<td>Mansilla, Sergi</td>
+<td>2015</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484249956">JavaScript Frameworks for Modern Web Development: The Essential Frameworks, Libraries, and Tools to Learn Right Now</a></td>
+<td>bin Uzayr, Sufyan and Cloud, Nicholas and Ambler, Tim</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584500209">Javascript CD Cookbook</a></td>
+<td>Monroe, J Brook and Sadun, Erica</td>
+<td>2000</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849691086">iPhone JavaScript Cookbook</a></td>
+<td>Fernandez Montoro, Arturo</td>
+<td>2011</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548828547">Computer Programming: 6 Books in 1: Beginner's Guide + Best Practices to Programming Code with Python, JavaScript and Java</a></td>
+<td>Masterson, Charlie</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780749257644">An Introduction to Programming Using JavaScript (M150 Data, Computing and Information)</a></td>
+<td></td>
+<td>2004</td>
+<td>Unknown</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471161851">JavaScript Sourcebook: Create Interactive JavaScript Programs for the World Wide Web</a></td>
+<td>McComb, Gordon</td>
+<td>1996</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785880353">Mastering JavaScript Design Patterns</a></td>
+<td>Simon Timms</td>
+<td>29-06-2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590591895">Practical Javascript for the Usable Web</a></td>
+<td>Wilton, Paul and Williams, Stephen and Li, Sing</td>
+<td>2003</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137018253">Javascript Fundamentals I And Ii Livelessons Bundle</a></td>
+<td>Paul J. Deitel</td>
+<td>2009</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596529192">Prototype and Scriptaculous: Taking the Pain out of JavaScript</a></td>
+<td>Chris Angus</td>
+<td>20061130</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781697517811">Javascript</a></td>
+<td>Ryan Turner</td>
+<td>2019</td>
+<td>Independently Published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484237182">Full Stack JavaScript</a></td>
+<td>Azat Mardan</td>
+<td>20181114</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078823640">Javascript Annotated Archives</a></td>
+<td>Frentzen, Jeff and Sobotka, Henry and McNair, Dewayne</td>
+<td>1998</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783658210779">Objektorientierte Programmierung mit JavaScript</a></td>
+<td>Jörg Bewersdorff</td>
+<td>20180215</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430264941">JavaScript Quick Syntax Reference</a></td>
+<td>Olsson, Mikael</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787287594">TypeScript: Modern JavaScript Development</a></td>
+<td>Remo H. Jansen</td>
+<td>42726</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430230557">Pro JavaScript with MooTools: Laerning Advanced JavaScript Programming (Expert's Voice in Web Development)</a></td>
+<td>Obcena, Mark</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321172389">Extending Acrobat Forms With Javascript</a></td>
+<td>Deubert, John</td>
+<td>2003</td>
+<td>Adobe Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430236665">Foundation HTML5 Animation with JavaScript</a></td>
+<td>Billy Lamberta; Keith Peters</td>
+<td>20120113</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430244622">Pro JavaScript for Web Apps</a></td>
+<td>Adam Freeman</td>
+<td>20120808</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484206621">JavaScript Frameworks for Modern Web Dev</a></td>
+<td>Ambler, Tim and Cloud, Nicholas</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430260981">Expert JavaScript (Expert's Voice in Web Development)</a></td>
+<td>Daggett, Mark E.</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449370923">Building Web Apps with Ember.js: Write Ambitious JavaScript</a></td>
+<td>Cravens, Jesse and Brady, Thomas Q</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133560107">Introduction to JavaScript Programming with XML and PHP</a></td>
+<td>Elizabeth Drake</td>
+<td>20140804</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785282270">Getting Started with Meteor.js JavaScript Framework - Second Edition</a></td>
+<td>Isaac Strack</td>
+<td>20150630</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430230465">Beginning iPhone and iPad Web Apps: Scripting with HTML5, CSS3, and JavaScript</a></td>
+<td>Apers, Chris and Daniel Paterson</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430262909">Beginning JavaScript Charts: With jqPlot, d3, and Highcharts (Expert's Voice in Web Development)</a></td>
+<td>Nelli, Fabio</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430233848">The Essential Guide to HTML5: Using Games to learn HTML5 and JavaScript (Essential Guide To...)</a></td>
+<td>Meyer, Jeanine</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430257806">Beginning Windows Store Application Development: HTML and JavaScript Edition (The Expert's Voice in Windows 8)</a></td>
+<td>Isaacs, Scott and Burns, Kyle</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781951791476">Learn JavaScript Quickly: A Complete Beginner’s Guide to Learning JavaScript, Even If You’re New to Programming (Crash Course With Hands-On Project)</a></td>
+<td>Quickly, Code</td>
+<td>2020-11-10T00:00:01Z</td>
+<td>Drip Digital</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449340131">Head First JavaScript Programming: A Brain-Friendly Guide</a></td>
+<td>Eric Freeman and Robson, Elisabeth</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593274085">JavaScript for Kids: A Playful Introduction to Programming</a></td>
+<td>Morgan, Nick</td>
+<td>2014</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492037651">Programming TypeScript: Making Your JavaScript Applications Scale</a></td>
+<td>Cherny, Boris</td>
+<td>2019</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136502159">Modern JavaScript for the Impatient</a></td>
+<td>Horstmann, Cay S.</td>
+<td>2020</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118026694">Professional JavaScript for Web Developers</a></td>
+<td>Zakas, Nicholas C.</td>
+<td>2012</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800568914">Interactive Dashboards and Data Apps with Plotly and Dash: Harness the power of a fully fledged frontend web framework in Python – no JavaScript required</a></td>
+<td>Dabbas, Elias</td>
+<td>2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593275402">The Principles of Object-Oriented JavaScript</a></td>
+<td>Zakas, Nicholas C.</td>
+<td>2014</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596806750">JavaScript Patterns: Build Better Applications with Coding and Design Patterns</a></td>
+<td>Stefanov, Stoyan</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449343965">Head First JavaScript Programming: A Brain-Friendly Guide</a></td>
+<td>Freeman, Eric and Robson, Elisabeth</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449316853">JavaScript Pocket Reference: Activate Your Web Pages (Pocket Reference (O'Reilly))</a></td>
+<td>Flanagan, David</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134498621">JavaScript Absolute Beginner's Guide</a></td>
+<td>Chinnathambi Kirupa</td>
+<td>2016</td>
+<td>Que Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617292828">Functional Programming in JavaScript: How to improve your JavaScript programs using functional techniques</a></td>
+<td>Atencio, Luis</td>
+<td>2016</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800566774">JavaScript from Beginner to Professional: Learn JavaScript quickly by building fun, interactive, and dynamic web apps, games, and pages</a></td>
+<td>Svekis, Laurence Lars and Putten, Maaike van and Percival, Rob</td>
+<td>2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781839217425">Mastering JavaScript Functional Programming: Write clean, robust, and maintainable web and server code using functional JavaScript, 2nd Edition</a></td>
+<td>Kereki, Federico</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780262367622">Structure and Interpretation of Computer Programs: JavaScript Edition (MIT Electrical Engineering and Computer Science)</a></td>
+<td>Abelson, Harold and Sussman, Gerald Jay</td>
+<td>2022</td>
+<td>The MIT Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781536210309">Get Coding 2! Build Five Computer Games Using HTML and JavaScript</a></td>
+<td>Whitney, David</td>
+<td>2019</td>
+<td>Candlewick</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132902250">Effective JavaScript (Effective Software Development Series)</a></td>
+<td>Herman, David</td>
+<td>2012</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798644382446">Coding for Kids Ages 9-15: Simple HTML, CSS and JavaScript lessons to get you started with Programming from Scratch</a></td>
+<td>Mather, Bob</td>
+<td>2020</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470611944">Learn JavaScript and Ajax with w3Schools</a></td>
+<td>W3Schools and Refsnes, Hege and Refsnes, Stale and Refsnes, Kai Jim and Refsnes, Jan Egil</td>
+<td>2010</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780137084760">JavaScript by Example</a></td>
+<td>Quigley, Ellie</td>
+<td>2010</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780996246330">Programming Fundamentals in JavaScript</a></td>
+<td>Barzee, Rex A.</td>
+<td>2017-04-18T00:00:01Z</td>
+<td>Maia LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680451894">Making Things Smart: Easy Embedded JavaScript Programming for Making Everyday Objects into Intelligent Machines</a></td>
+<td>Williams, Gordon F.</td>
+<td>2017</td>
+<td>Make Community, LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789957297">Clean Code in JavaScript: Develop reliable, maintainable, and robust JavaScript</a></td>
+<td>Padolsey, James</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491947074">JavaScript & jQuery: The Missing Manual (Missing Manuals)</a></td>
+<td>McFarland, David Sawyer</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449370190">Learning Web App Development: Build Quickly with Proven JavaScript Techniques</a></td>
+<td>Purewal, Semmy</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484250860">Beginning Ethereum Smart Contracts Programming: With Examples in Python, Solidity, and JavaScript</a></td>
+<td>Lee, Wei-Meng</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780135245859">"Introduction to JavaScript Programming The ""Nothing but a Browser"" Approach"</a></td>
+<td>Roberts, Eric</td>
+<td>2019</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781981672349">Functional-Light JavaScript: Balanced, Pragmatic FP in JavaScript</a></td>
+<td>Simpson, Kyle</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119366577">Professional JavaScript for Web Developers</a></td>
+<td>Frisbie, Matt</td>
+<td>2019</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638351344">Single Page Web Applications: JavaScript end-to-end</a></td>
+<td>Mikowski, Michael and Powell, Josh</td>
+<td>2013</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735676633">Exam Ref 70-480 Programming in HTML5 with JavaScript and CSS3 (MCSD)</a></td>
+<td>Delorme, Rick</td>
+<td>2014</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484234266">Learn JavaScript with p5.js: Coding for Visual Learners</a></td>
+<td>Arslan, Engin</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484232521">Introducing JavaScript Game Development: Build a 2D Game from the Ground Up</a></td>
+<td>Stuart, Graeme</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484268421">Beginning Machine Learning in the Browser: Quick-start Guide to Gait Analysis with JavaScript and TensorFlow.js</a></td>
+<td>Suryadevara, Nagender Kumar</td>
+<td>2021</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593276591">JavaScript for Kids: A Playful Introduction to Programming</a></td>
+<td>Morgan, Nick</td>
+<td>2014</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449390549">Head First HTML5 Programming: Building Web Apps with JavaScript</a></td>
+<td>Freeman, Eric and Robson, Elisabeth</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133358674">Web Game Developer's Cookbook, The: Using JavaScript and HTML5 to Develop Games (Game Design)</a></td>
+<td>Burchard, Evan</td>
+<td>2013</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134663722">Learning Node.js: A Hands-On Guide to Building Web Applications in JavaScript</a></td>
+<td>Wandschneider, Marc</td>
+<td>2016</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783985500">Mastering JavaScript Promises</a></td>
+<td>Hussain, Muzzamil</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484239889">JavaScript Data Structures and Algorithms: An Introduction to Understanding and Implementing Core Data Structure and Algorithm Fundamentals</a></td>
+<td>Bae, Sammie</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780135166956">JavaScript in 24 Hours, Sams Teach Yourself</a></td>
+<td>Ballard, Phil</td>
+<td>2018</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134439587">PHP, MySQL & JavaScript All in One, Sams Teach Yourself</a></td>
+<td>Meloni Julie C.</td>
+<td>2017</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133795189">HTML, CSS and JavaScript All in One, Sams Teach Yourself: Covering HTML5, CSS3, and jQuery</a></td>
+<td>Meloni, Julie C.</td>
+<td>2014</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593277987">Understanding ECMAScript 6: The Definitive Guide for JavaScript Developers</a></td>
+<td>Zakas, Nicholas C.</td>
+<td>2016</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838825867">Hands-On JavaScript High Performance: Build faster web apps using Node.js, Svelte.js, and WebAssembly</a></td>
+<td>Scherer, Justin</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781091212169">JavaScript Grammar</a></td>
+<td>Sidelnikov, Greg</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735674387">Training Guide: Programming in HTML5 with JavaScript and CSS3 (Microsoft Press Training Guide)</a></td>
+<td>Johnson, Glenn</td>
+<td>2013-04-08T00:00:01Z</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764502231">JavaScript for Dummies, 2nd Edition</a></td>
+<td>Emily A. Vander Veer</td>
+<td>1997</td>
+<td>IDG Books Worldwide</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449399023">JavaScript & jQuery: The Missing Manual</a></td>
+<td>McFarland, David Sawyer</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781801257534">JavaScript for beginners: The simplified for absolute beginner's guide to learn and understand computer programming coding with JavaScript step by step. Basics concepts and practice examples inside.</a></td>
+<td>Python, Matthew</td>
+<td>2020</td>
+<td>Black and White Line Ltd</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788624947">Learning JavaScript Data Structures and Algorithms: Write complex and powerful JavaScript code using the latest ECMAScript, 3rd Edition</a></td>
+<td>Groner, Loiane</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781955786010">Javascript: This book includes: Javascript Basics For Beginners + Javascript Front End Programming + Javascript Back End Programming</a></td>
+<td>Vickler, Andy</td>
+<td>2021</td>
+<td>Ladoo Publishing LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781890774707">Murach's JavaScript and jQuery</a></td>
+<td>Zak Ruvalcaba and Mike Murach</td>
+<td>2012-12-11T00:00:01Z</td>
+<td>Mike Murach & Associates</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617293863">JavaScript on Things: Hacking hardware for web developers</a></td>
+<td>Gardner, Lyza Danger</td>
+<td>2018</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484257845">Essential ASP.NET Web Forms Development: Full Stack Programming with C#, SQL, Ajax, and JavaScript</a></td>
+<td>Beasley, Robert E.</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484228937">Enhancing Adobe Acrobat DC Forms with JavaScript</a></td>
+<td>Harder, Jennifer</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136204350">JavaScript Absolute Beginner's Guide</a></td>
+<td>Chinnathambi, Kirupa</td>
+<td>2019</td>
+<td>Que Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937785734">Node.js the Right Way: Practical, Server-Side JavaScript That Scales</a></td>
+<td>Wilson, Jim</td>
+<td>2013</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449319366">Head First HTML5 Programming: Building Web Apps with JavaScript</a></td>
+<td>Robson, Elisabeth and Freeman, Eric</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783554874">Learning JavaScript Data Structures and Algorithms</a></td>
+<td>Groner, Loiane</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484271445">Decoupled Django: Understand and Build Decoupled Django Architectures for JavaScript Front-ends</a></td>
+<td>Gagliardi, Valentino</td>
+<td>2021</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781093985948">JavaScript Programming: A Step-by-Step Guide for Absolute Beginners</a></td>
+<td>Brian Jenkins</td>
+<td>2019-04-14T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484224939">Making Games: With JavaScript</a></td>
+<td>Pitt, Christopher</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787289734">Mastering JavaScript Functional Programming: In-depth guide for writing robust and maintainable JavaScript code in ES8 and beyond</a></td>
+<td>Kereki, Federico</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937785444">3D Game Programming for Kids: Create Interactive Worlds with JavaScript (Pragmatic Programmers)</a></td>
+<td>Strom, Chris</td>
+<td>2013</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789618822">Learn Blockchain Programming with JavaScript: Build your very own Blockchain and decentralized network with JavaScript and Node.js</a></td>
+<td>Traub, Eric</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449342883">JavaScript Enlightenment: From Library User to JavaScript Developer</a></td>
+<td>Lindley, Cody</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593275754">Build an HTML5 Game: A Developer's Guide with CSS and JavaScript</a></td>
+<td>Bunyan, Karl</td>
+<td>2015</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430247166">Foundation Game Design with HTML5 and JavaScript</a></td>
+<td>van der Spuy, Rex</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780538742351">HTML and JavaScript BASICS</a></td>
+<td>Barksdale, Karl and Turner, E. Shane</td>
+<td>2010</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789803891">Advanced JavaScript: Speed up web development with the powerful features and benefits of JavaScript</a></td>
+<td>Shute, Zachary</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781492055754">JavaScript Cookbook: Programming the Web</a></td>
+<td>Scott, Adam D. and MacDonald, Matthew and Powers, Shelley</td>
+<td>2021</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789614848">Learn Blockchain Programming with JavaScript: Build your very own Blockchain and decentralized network with JavaScript and Node.js</a></td>
+<td>Traub, Eric</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430247173">Foundation Game Design with HTML5 and JavaScript</a></td>
+<td>van der Spuy, Rex</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680508215">Programming Phoenix LiveView: Interactive Elixir Web Programming Without Writing Any JavaScript</a></td>
+<td>Tate, Bruce A. and DeBenedetto, Sophie</td>
+<td>2022</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838645885">The JavaScript Workshop: Learn to develop interactive web applications with clean and maintainable JavaScript code</a></td>
+<td>Labrecque, Joseph and Love, Jahred and Rosenbaum, Daniel and Turner, Nick and Mehla, Gaurav and Hosford, Alonzo L. and Sloot, Florian and Kirkbride, Philip</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780134172170">JavaScript in 24 Hours, Sams Teach Yourself</a></td>
+<td>Ballard Phil</td>
+<td>2015</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133068306">Introduction to JavaScript Programming with XML and PHP</a></td>
+<td>Drake, Elizabeth</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484257838">Essential ASP.NET Web Forms Development: Full Stack Programming with C#, SQL, Ajax, and JavaScript</a></td>
+<td>Beasley, Robert E.</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785884719">Object-Oriented JavaScript: Learn everything you need to know about object-oriented JavaScript (OOJS)</a></td>
+<td>Antani, Ved and Stefanov, Stoyan</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071832120">Programming the BeagleBone Black: Getting Started with JavaScript and BoneScript</a></td>
+<td>Monk, Simon</td>
+<td>2014-05-06T00:00:00.000Z</td>
+<td>McGraw-Hill Education TAB</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590599082">Pro JavaScript Design Patterns: The Essentials of Object-Oriented JavaScript Programming</a></td>
+<td>Diaz, Dustin and Harmes, Ross</td>
+<td>2007</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787287440">Mastering JavaScript Functional Programming: In-depth guide for writing robust and maintainable JavaScript code in ES8 and beyond</a></td>
+<td>Kereki, Federico</td>
+<td>2017-11-29T00:00:01Z</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133251821">Introduction to JavaScript Programming with XML and PHP (2-downloads)</a></td>
+<td>Drake, Elizabeth</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133048315">Sams Teach Yourself JavaScript in 24 Hours</a></td>
+<td>Ballard, Phil and Moncur, Michael</td>
+<td>2012</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783553884">Learning JavaScript Data Structures and Algorithms: Hone your skills by learning classic data structures and algorithms in JavaScript, 2nd Edition</a></td>
+<td>Groner, Loiane</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781839215636">End-to-End Web Testing with Cypress: Explore techniques for automated frontend web testing with Cypress and JavaScript</a></td>
+<td>Mwaura, Waweru</td>
+<td>2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617293108">Get Programming with JavaScript</a></td>
+<td>Larsen, John</td>
+<td>2016</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735674349">Training Guide Programming in HTML5 with JavaScript and CSS3 (MCSD) (Microsoft Press Training Guide)</a></td>
+<td>Johnson, Glenn</td>
+<td>2013</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680501957">Node.js 8 the Right Way: Practical, Server-Side JavaScript That Scales</a></td>
+<td>Wilson, Jim</td>
+<td>2018</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789534177">Beginning API Development with Node.js: Build highly scalable, developer-friendly APIs for the modern web with JavaScript and Node.js</a></td>
+<td>Nandaa, Anthony</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781541006225">Programming: Computer Programming For Beginners: Learn The Basics Of HTML5, JavaScript & CSS (Coding, C Programming, Java Programming, Web Design, JavaScript, Python, HTML and CSS)</a></td>
+<td>Connor, Joseph</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781534821859">JavaScript: Learn JavaScript in 24 Hours or Less - A Beginner’s Guide To Learning JavaScript Programming Now (JavaScript, JavaScript Programming)</a></td>
+<td>Dwight, Robert</td>
+<td>2016-06-22T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430265399">Building JavaScript Games: for Phones, Tablets, and Desktop</a></td>
+<td>Egges, Arjan</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780136870630">Begin to Code with JavaScript</a></td>
+<td>Miles, Rob</td>
+<td>2021</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449364823">Test-Driven Development with Python: Obey the Testing Goat: Using Django, Selenium, and JavaScript</a></td>
+<td>Percival, Harry</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430258018">Advanced Game Design with HTML5 and JavaScript</a></td>
+<td>van der Spuy, Rex</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788991018">Advanced TypeScript Programming Projects: Build 9 different apps with TypeScript 3 and JavaScript frameworks such as Angular, React, and Vue</a></td>
+<td>O'Hanlon, Peter</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785888267">Mastering JavaScript Object-Oriented Programming</a></td>
+<td>Chiarelli, Andrea</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484238639">HTML5 and JavaScript Projects: Build on your Basic Knowledge of HTML5 and JavaScript to Create Substantial HTML5 Applications</a></td>
+<td>Meyer, Jeanine</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118185469">Professional Node.js: Building Javascript Based Scalable Software</a></td>
+<td>Teixeira, Pedro</td>
+<td>2012</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430263371">Physics for JavaScript Games, Animation, and Simulations: with HTML5 Canvas</a></td>
+<td>Dobre, Adrian and Ramtal, Dev</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785880568">Object-Oriented JavaScript: Learn everything you need to know about object-oriented JavaScript (OOJS), 3rd Edition</a></td>
+<td>Antani, Ved and Stefanov, Stoyan</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781133387299">Principles of Program Design: Problem-Solving with JavaScript (Logic and Design)</a></td>
+<td>Addison, Paul</td>
+<td>2011</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781095338780">Discover Functional JavaScript: An overview of Functional and Object Oriented Programming in JavaScript</a></td>
+<td>Salcescu, Cristian</td>
+<td>2019-05-04T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449328252">Developing Backbone.js Applications: Building Better JavaScript Applications</a></td>
+<td>Osmani, Addy</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484232491">Pro TypeScript: Application-Scale JavaScript Development</a></td>
+<td>Fenton, Steve</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781457186950">JavaScript Robotics: Building NodeBots with Johnny-Five, Raspberry Pi, Arduino, and BeagleBone (Make)</a></td>
+<td>Media, Backstop and Waldron, Rick</td>
+<td>2015</td>
+<td>Make Community, LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838641047">Hands-on JavaScript for Python Developers: Leverage your Python knowledge to quickly learn JavaScript and advance your web development career</a></td>
+<td>Nagale, Sonyl</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119962595">Smashing Node.js: JavaScript Everywhere</a></td>
+<td>Rauch, Guillermo</td>
+<td>2012</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847194145">Object-Oriented JavaScript: Create scalable, reusable high-quality JavaScript applications and libraries</a></td>
+<td>Stefanov, Stoyan</td>
+<td>2008</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484243954">Beginning JavaScript: The Ultimate Guide to Modern JavaScript Development</a></td>
+<td>Ferguson, Russ</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430263388">Physics for JavaScript Games, Animation, and Simulations: with HTML5 Canvas</a></td>
+<td>Dobre, Adrian and Ramtal, Dev</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071471398">JavaScript Demystified</a></td>
+<td>Keogh, Jim</td>
+<td>2005</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596157135">Learning PHP, MySQL, and Javascript (Animal Guide)</a></td>
+<td>Robin Nixon</td>
+<td>2009</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784391027">Learning Three.js – the JavaScript 3D Library for WebGL - Second Edition: Create stunning 3D graphics in your browser using the Three.js JavaScript library</a></td>
+<td>Dirksen, Jos</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789724991">Javascript 1.5 by Example</a></td>
+<td>Kingsley-Hughes, Adrian and Kingsley-Hughes, Kathie</td>
+<td>2001</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071741217">JavaScript The Complete Reference 3rd Edition</a></td>
+<td>Powell, Thomas A. and Schneider, Fritz</td>
+<td>2012</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781507587140">Javascript: Learn Javascript In A DAY! - The Ultimate Crash Course to Learning the Basics of the Javascript Programming Language In No Time ... Javascript Course, Javascript Development)</a></td>
+<td>Acodemy</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785885068">JavaScript Unlocked</a></td>
+<td>Sheiko, Dmitry</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800201149">Deno Web Development: Write, test, maintain, and deploy JavaScript and TypeScript web applications using Deno</a></td>
+<td>Santos, Alexandre Portela dos</td>
+<td>2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781981497805">Computer Programming For Beginners: Learn The Basics of Java, SQL, C, C++, C#, Python, HTML, CSS and Javascript</a></td>
+<td>Alvin, Cooper</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781539929185">JAVASCRIPT: Easy JavaScript Programming For Beginners. Your Step-By-Step Guide to Learning JavaScript Programming (JavaScript Series)</a></td>
+<td>Alvaro, Felix</td>
+<td>2016-11-04T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118431665">HTML5 Programming with JavaScript For Dummies</a></td>
+<td>Mueller, John Paul</td>
+<td>2013</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596806132">JavaScript Cookbook</a></td>
+<td>Powers, Shelley</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785889233">JavaScript Concurrency</a></td>
+<td>Boduch, Adam</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484224786">Building Web Applications with Visual Studio 2017: Using .NET Core and Modern JavaScript Frameworks</a></td>
+<td>Japikse, Philip and Kevin Grossnicklaus and Ben Dewey</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781801567824">JavaScript Crash Course: The Only Guide to Quickly Learn JavaScript, the Most Used Programming Language</a></td>
+<td></td>
+<td>2021</td>
+<td>Dr. Lucas J. Loan</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798718960556">Javascript: This book includes : Javascript Basics For Beginners + Javascript Front End Programming + Javascript Back End Programming</a></td>
+<td>Vickler, Andy</td>
+<td>2021</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596004118">JavaScript Pocket Reference (2nd Edition)</a></td>
+<td>Flanagan, David</td>
+<td>2002</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789347746">D3.js Quick Start Guide: Create amazing, interactive visualizations in the browser with JavaScript</a></td>
+<td>Huntington, Matthew</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484253526">Building Web Applications with .NET Core 2.1 and JavaScript: Leveraging Modern JavaScript Frameworks</a></td>
+<td>Japikse, Philip and Grossnicklaus, Kevin and Dewey, Ben</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763766580">The JavaScript Programming Language</a></td>
+<td>Toal, Ray and Dionisio, John David</td>
+<td>2009</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789133042">Advanced TypeScript Programming Projects: Build 9 different apps with TypeScript 3 and JavaScript frameworks such as Angular, React, and Vue</a></td>
+<td>O'Hanlon, Peter</td>
+<td>2019</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470647837">JavaScript 24-Hour Trainer</a></td>
+<td>McPeak, Jeremy</td>
+<td>2010</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449381875">Closure: The Definitive Guide: Google Tools to Add Power to Your JavaScript</a></td>
+<td>Bolin, Michael</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788299008">JavaScript by Example: Learn modern web development with real-world applications</a></td>
+<td>S, Dani Akash</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321700957">The JavaScript Pocket Guide (Peachpit Pocket Guide)</a></td>
+<td>Burdette, Lenny</td>
+<td>2010</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783286041">JavaScript and JSON Essentials</a></td>
+<td>Sriparasa, Sai Srinivas</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471219767">Making Use of JavaScript</a></td>
+<td>Bhasin, Shweta</td>
+<td>2002</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781723929762">Javascript for Beginners: The Simple Way to Start Programming</a></td>
+<td>Connors, K.</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430250937">Beginning JavaScript with DOM Scripting and Ajax: Second Editon</a></td>
+<td>Ferguson, Russ and Heilmann, Christian</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785886447">Mastering JavaScript Single Page Application Development</a></td>
+<td>Klauzinski, Philip and Moore, John</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787124660">JavaScript: Functional Programming for JavaScript Developers</a></td>
+<td>Antani, Ved and Timms, Simon and Mantyla, Dan</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785288746">Test-driven JavaScript Development</a></td>
+<td>Gupta, Ravi Kumar and Singh, Harmeet and Prajapati,  Hetal</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118026229">HTML, CSS, and JavaScript Mobile Development For Dummies</a></td>
+<td>Harrel, William</td>
+<td>2011</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780357638033">JavaScript for Web Warriors</a></td>
+<td>Carey, Patrick and Vodnik, Sasha</td>
+<td>2021</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781952433337">Javascript: Optimizing Native Javascript: Designing, Programming, and Debugging Native JavaScript Applications</a></td>
+<td>Etheredge, Robert C.</td>
+<td>2020</td>
+<td>MiraVista Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680506334">Web Development with ReasonML: Type-Safe, Functional Programming for JavaScript Developers</a></td>
+<td>Eisenberg, J. David</td>
+<td>2019-04-09T00:00:01Z</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787124738">Build Applications with Meteor: Isomorphic JavaScript web development</a></td>
+<td>Ganev, Dobrin</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430238195">Pro Android Web Game Apps: Using HTML5, CSS3 and JavaScript</a></td>
+<td>Bura, Juriy and Coates, Paul</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788295598">Practical Internet of Things with JavaScript: Build standalone exciting IoT projects with Raspberry Pi 3 and JavaScript (ES5/ES6)</a></td>
+<td>Ravulavaru, Arvind</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735667310">JavaScript Step by Step (Step by Step Developer)</a></td>
+<td>Suehring, Steve</td>
+<td>2013</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133414196">jQuery and JavaScript in 24 Hours, Sams Teach Yourself</a></td>
+<td>Dayley Brad</td>
+<td>2013</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565925779">JavaScript Application Cookbook: Programming JavaScript Applications</a></td>
+<td>Bradenbaugh, Jerry</td>
+<td>1999</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781802350463">Learn JavaScript Programming: 3 Books in 1 - The Best Beginner's Guide to Learn JavaScript and Master Front End & Back End Programming</a></td>
+<td>Hacktech Academy</td>
+<td>2021</td>
+<td>Hacktech Academy</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787280359">Building Web and Mobile ArcGIS Server Applications with JavaScript - Second Edition: Build exciting custom web and mobile GIS applications with the ArcGIS Server API for JavaScript</a></td>
+<td>Pimpler, Eric and Lewin, Mark</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788620659">Internet of Things with Raspberry Pi 3: Leverage the power of Raspberry Pi 3 and JavaScript to build exciting IoT projects</a></td>
+<td>Rao, Maneesh</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680502473">Reactive Programming with RxJS 5: Untangle Your Asynchronous JavaScript Code</a></td>
+<td>Mansilla, Sergi</td>
+<td>2018</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484255698">Modern Programming Made Easy: Using Java, Scala, Groovy, and JavaScript</a></td>
+<td>Davis, Adam L.</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787284258">Learning D3.js 4 Mapping - Second Edition: Build cutting-edge maps and visualizations with JavaScript</a></td>
+<td>Newton, Thomas and Villarreal, Oscar and Verspohl, Lars</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788397247">Mastering Immutable.js: Better JavaScript development using immutable data</a></td>
+<td>Boduch, Adam</td>
+<td>2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484241554">The Essential Guide to HTML5: Using Games to Learn HTML5 and JavaScript</a></td>
+<td>Meyer, Jeanine</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484225837">Building a 2D Game Physics Engine: Using HTML5 and JavaScript</a></td>
+<td>Tanaya, Michael and Chen, Huaming and Pavleas, Jebediah and Sung, Kelvin</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785284359">JavaScript JSON Cookbook</a></td>
+<td>Rischpater, Ray</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470540718">Professional XMPP Programming with JavaScript and jQuery</a></td>
+<td>Moffitt, Jack</td>
+<td>2010</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780857294494">Guide to HTML, JavaScript and PHP: For Scientists and Engineers</a></td>
+<td>Brooks, David R.</td>
+<td>2011</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484255681">Modern Programming Made Easy: Using Java, Scala, Groovy, and JavaScript</a></td>
+<td>Davis, Adam L.</td>
+<td>2020-01-18T00:00:01Z</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784398224">Functional Programming in JavaScript</a></td>
+<td>Mantyla, Dan</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484231807">Front-End Reactive Architectures: Explore the Future of the Front-End using Reactive JavaScript Frameworks and Libraries</a></td>
+<td>Mezzalira, Luca</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617294204">Get Programming with JavaScript Next: New features of ECMAScript 2015, 2016, and beyond</a></td>
+<td>Isaacks, J.D.</td>
+<td>2018</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430259459">JavaScript Creativity: Exploring the Modern Capabilities of JavaScript and HTML5</a></td>
+<td>Hudson, Shane</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781790591848">HTML, CSS & JavaScript for Complete Beginners: A Step by Step Guide to Learning HTML5, CSS3 and the JavaScript Programming Language</a></td>
+<td>Hawramani, Ikram</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430262695">Pro JavaScript Development: Coding, Capabilities, and Tooling</a></td>
+<td>Odell, Den</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430272182">JavaScript for Absolute Beginners</a></td>
+<td>McNavage, Terry</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430263920">Pro JavaScript Techniques: Second Edition</a></td>
+<td>Paxton, John and Resig, John and Ferguson, Russ</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781976210235">React: Quickstart Step-By-Step Guide To Learning React Javascript Library (React.js, Reactjs, Learning React JS, React Javascript, React Programming)</a></td>
+<td>Lopez, Lionel</td>
+<td>2017-09-07T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782166283">Learning Three.js: The JavaScript 3D Library for WebGL</a></td>
+<td>Dirksen, Jos</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071738620">Plug-In JavaScript 100 Power Solutions</a></td>
+<td>Nixon, Robin</td>
+<td>2010</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484224908">Modern Programming Made Easy: Using Java, Scala, Groovy, and JavaScript</a></td>
+<td>Davis, Adam L.</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484226551">Beginning Functional JavaScript: Functional Programming with JavaScript Using EcmaScript 6</a></td>
+<td>Aravinth, Anto</td>
+<td>2017-03-10T00:00:01Z</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787289086">TypeScript: Modern JavaScript Development</a></td>
+<td>Jansen, Remo H. and Vane, Vilic and Wolff, Ivo Gabe de</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849697965">Building Web and Mobile ArcGIS Server Applications with JavaScript</a></td>
+<td>Pimpler, Eric</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781978421868">JavaScript: JavaScript Programming For Absolute Beginner's Ultimate Guide to JavaScript Coding, JavaScript Programs and JavaScript Language</a></td>
+<td>Sullivan, William</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672328794">Sams Teach Yourself JavaScript in 24 Hours (4th Edition)</a></td>
+<td>Moncur, Michael</td>
+<td>2006</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781096466093">JavaScript Programming Pattern: Looping intelligence</a></td>
+<td>YAKUB, MOHMAD</td>
+<td>2019-05-01T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781977650719">Javascript: Javascript Programming The Ultimate Beginners Guide</a></td>
+<td>Hutten, Dennis</td>
+<td>2017-09-25T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484250853">Beginning Ethereum Smart Contracts Programming: With Examples in Python, Solidity, and JavaScript</a></td>
+<td>Lee, Wei-Meng</td>
+<td>2019-09-06T00:00:01Z</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781521546185">React.js Book: Learning React JavaScript Library From Scratch</a></td>
+<td>Sidelnikov, Greg</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781498731447">Start Programming Using HTML, CSS, and JavaScript (Chapman & Hall/CRC Textbooks in Computing)</a></td>
+<td>Fajfar, Iztok</td>
+<td>2015</td>
+<td>Chapman and Hall/CRC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430246305">JavaScript Programmer's Reference</a></td>
+<td>Valentine, Thomas and Reid, Jonathan</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780986307638">JavaScript: Optimizing Native JavaScript: Designing, Programming, and Debugging Native JavaScript Applications</a></td>
+<td>Etheredge, Robert C.</td>
+<td>2017</td>
+<td>MiraVista Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785881572">JavaScript Unlocked</a></td>
+<td>Sheiko, Dmitry</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072560312">Programming the Web Using XHTML and JavaScript</a></td>
+<td>Lagerstrom,Larry and Lagerstrom, Larry</td>
+<td>2002</td>
+<td>Career Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781983139147">Learning JavaScript: The non-boring beginner's guide to modern (ES6+) JavaScript programming Vol 2: DOM manipulation</a></td>
+<td>Emrich, Marco and Marit, Christin</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118524565">JavaScript Programming: Pushing the Limits</a></td>
+<td>Raasch, Jon</td>
+<td>2013-08-12T00:00:01Z</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430265863">Learn Unity3D Programming with UnityScript: Unity's JavaScript for Beginners</a></td>
+<td>Suvak, Janine</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764579080">Professional JavaScript for Web Developers (Wrox Professional Guides)</a></td>
+<td>Zakas, Nicholas C.</td>
+<td>2005</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449369330">Client-Server Web Apps with JavaScript and Java: Rich, Scalable, and RESTful</a></td>
+<td>Saternos, Casimir</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735667358">Start Here! Learn JavaScript</a></td>
+<td>Suehring, Steve</td>
+<td>2012</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785880278">Modern JavaScript Applications</a></td>
+<td>Prusty, Narayan</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785284878">JavaScript at Scale</a></td>
+<td>Boduch, Adam</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430237907">Foundation Website Creation with HTML5, CSS3, and JavaScript</a></td>
+<td>Lewis, Joe and Lane, Jonathan and Moscovitz, Meitar and Barker, Tom</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430238201">Pro Android Web Game Apps: Using HTML5, CSS3 and JavaScript</a></td>
+<td>Bura, Juriy and Coates, Paul</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785880650">Modular Programming with JavaScript</a></td>
+<td>Seydnejad, Sasan</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619015237">Internet Programming with VBScript and JavaScript (Web Warrior Series)</a></td>
+<td>Kalata, Kate</td>
+<td>2000</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781731503930">Learn GIS Programming with ArcGIS for Javascript API 4.x and ArcGIS Online: Learn GIS programming by building an engaging web map application, works on mobile or the web</a></td>
+<td>Nasser, Hussein</td>
+<td>2018-12-05T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783554171">JavaScript Mobile Application Development</a></td>
+<td>Saleh, Hazem</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781540734235">JavaScript: Beginner's Guide to Programming Code with JavaScript (JavaScript, Java, Python, Code, Programming Language, Programming, Computer Programming) (Volume 1)</a></td>
+<td>Masterson, Charlie</td>
+<td>2016-11-29T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735676183">Start Here! Build Windows 8 Apps with HTML5 and JavaScript</a></td>
+<td>Esposito, Dino and Esposito, Francesco</td>
+<td>2013</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781518849121">Javascript: The Ultimate guide for javascript programming (javascript for beginners, how to program, software development, basic javascript, browsers, ... Coding, CSS, Java, PHP) (Volume 7)</a></td>
+<td>Hoffman, Stanley</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782174929">Test-Driven JavaScript Development</a></td>
+<td>Gupta, Ravi Kumar and Prajapati, Hetal and Singh, Harmeet</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781498731454">Start Programming Using HTML, CSS, and JavaScript (Chapman & Hall/CRC Textbooks in Computing Book 17)</a></td>
+<td>Fajfar, Iztok</td>
+<td>2015</td>
+<td>Chapman and Hall/CRC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789390684816">Decoding JavaScript: A Simple Guide for the Not-so-Simple JavaScript Concepts, Libraries, Tools, and Frameworks (English Edition)</a></td>
+<td>Shah, Rushabh Mulraj</td>
+<td>2021</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785881640">Mastering JavaScript Single Page Application Development</a></td>
+<td>Klauzinski, Philip and Moore, John</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321564085">JavaScript and Ajax for the Web: Visual QuickStart Guide (7th Edition)</a></td>
+<td>Negrino, Tom and Smith, Dori</td>
+<td>2008</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470227794">Beginning JavaScript and CSS Development with jQuery</a></td>
+<td>York, Richard</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430233831">The Essential Guide to HTML5: Using Games to learn HTML5 and JavaScript</a></td>
+<td>Meyer, Jeanine</td>
+<td>2010</td>
+<td>friendsofED</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430247500">Pro JavaScript Performance: Monitoring and Visualization (Expert's Voice in Web Development)</a></td>
+<td>Barker, Tom</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781543055016">JavaScript: Advanced Guide to Programming Code with JavaScript (Java, JavaScript, Python, Code, Programming Language, Programming, Computer Programming)</a></td>
+<td>Masterson, Charlie</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430249092">Windows 8 MVVM Patterns Revealed: covers both C# and JavaScript (Expert's Voice in Windows 8)</a></td>
+<td>Ghoda, Ashish</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430240334">HTML5 and JavaScript Projects (Expert's Voice in Web Development)</a></td>
+<td>Meyer, Jeanine</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132104272">JavaScript and Ajax for the Web: Visual QuickStart Guide</a></td>
+<td>Negrino, Tom and Smith, Dori</td>
+<td>2008</td>
+<td>Peachpit Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484224892">Modern Programming Made Easy: Using Java, Scala, Groovy, and JavaScript</a></td>
+<td>Davis, Adam L. L.</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781704415956">Computer programming Javascript: step-by-step beginner’s guide on how to start to programm your first website using Javascript + practical exercises</a></td>
+<td>Harris, Adam</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430240396">Learn HTML5 and JavaScript for iOS: Web Standards-based Apps for iPhone, iPad, and iPod touch</a></td>
+<td>Preston, Scott</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781976459238">JavaScript-mancy: Object-Oriented Programming: Mastering the Arcane Art of Summoning Objects in JavaScript for C# Developers</a></td>
+<td>González García, Jaime</td>
+<td>2017-09-15T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133090581">Building Windows 8 Apps with JavaScript (Microsoft Windows Development Series)</a></td>
+<td>Sells, Chris and Satrom, Brandon and Box, Don</td>
+<td>2012</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449327859">Mobile JavaScript Application Development: Bringing Web Programming to Mobile Devices</a></td>
+<td>Kosmaczewski, Adrian</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132104760">Scriptin' with JavaScript and Ajax: A Designer's Guide (Voices That Matter)</a></td>
+<td>Wyke-Smith, Charles</td>
+<td>2010</td>
+<td>New Riders</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789389423655">JavaScript for Gurus: Use JavaScript programming features, techniques and modules to solve everyday problems (English Edition)</a></td>
+<td>Preez, Ockert J. du</td>
+<td>2020</td>
+<td>BPB Publications</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about JavaScript from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/cc4e39f219e384df97109a36b80875791fdd8d30">The application/json Media Type for JavaScript Object Notation (JSON)</a></td>
+<td>D. Crockford</td>
+<td>2006</td>
+<td>1178</td>
+<td>151</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d94aa2358423328344c291ef9cc8d943a52b2fd7">The JavaScript Object Notation (JSON) Data Interchange Format</a></td>
+<td>T. Bray</td>
+<td>2014</td>
+<td>625</td>
+<td>107</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0f62cd120ccb58696dc3c5fc3846f5b3bf6c6e0b">JSME: a free molecule editor in JavaScript</a></td>
+<td>B. Bienfait and P. Ertl</td>
+<td>2013</td>
+<td>176</td>
+<td>14</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c866a930fe71b77c8c99ec59088fd3cdf5af8558">Efficient construction of approximate call graphs for JavaScript IDE services</a></td>
+<td>Asger Feldthaus and Max Schäfer and Manu Sridharan and Julian T Dolby and F. Tip</td>
+<td>2013</td>
+<td>98</td>
+<td>9</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/641094f7b66d126a6decafbe57f0f0c05c31a886">DLint: dynamically checking bad coding practices in JavaScript</a></td>
+<td>Liang Gong and Michael Pradel and Manu Sridharan and Koushik Sen</td>
+<td>2015</td>
+<td>62</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7915125f1b90cd43120cca127cfb71e1c565a8a6">Discovering bug patterns in JavaScript</a></td>
+<td>Quinn Hanam and Fernando Brito and Ali Mesbah</td>
+<td>2016</td>
+<td>59</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/448f69b78819f2797715a685203cfa1d7ffa265b">A Survey of Dynamic Analysis and Test Generation for JavaScript</a></td>
+<td>Esben Andreasen and Liang Gong and Anders Møller and Michael Pradel and Marija Selakovic and Koushik Sen and Cristian-Alexandru Staicu</td>
+<td>2017</td>
+<td>56</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e9e9cd100c3bbe03060b441336ca70b9e2b9ad04">An empirical study of code smells in JavaScript projects</a></td>
+<td>Amir Saboury and Pooya Musavi and F. Khomh and G. Antoniol</td>
+<td>2017</td>
+<td>40</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/10fd1629037821e6fc480506004b8d7d5ac986c8">BugsJS: a Benchmark of JavaScript Bugs</a></td>
+<td>Péter Gyimesi and Béla Vancsics and Andrea Stocco and D. Mazinanian and Árpád Beszédes and R. Ferenc and Ali Mesbah</td>
+<td>2019</td>
+<td>40</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1a6df344e298ddce54bd8c3c4a75311b5a65e786">Detecting JavaScript races that matter</a></td>
+<td>Erdal Mutlu and S. Tasiran and B. Livshits</td>
+<td>2015</td>
+<td>35</td>
+<td>4</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/29261bd6d9a190dc957c56c5105d8b948e60d387">Mobile Multi-agent Systems for the Internet-of-Things and Clouds Using the JavaScript Agent Machine Platform and Machine Learning as a Service</a></td>
+<td>S. Bosse</td>
+<td>2016</td>
+<td>29</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0a8212fdfeafa2cf56915a1408c10f53e57ac16d">AOJS: aspect-oriented javascript programming framework for web development</a></td>
+<td>H. Washizaki and A. Kubo and Tomohiko Mizumachi and Kazuki Eguchi and Y. Fukazawa and N. Yoshioka and Hideyuki Kanuka and T. Kodaka and Nobuhide Sugimoto and Yoichi Nagai and Rieko Yamamoto</td>
+<td>2009</td>
+<td>27</td>
+<td>4</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/49eac0ffa1e47b77755050ea7eb76c38bb29291b">The Simplicity of Modern Audiovisual Web Cartography: An Example with the Open-Source JavaScript Library leaflet.js</a></td>
+<td>Dennis Edler and M. Vetter</td>
+<td>2019</td>
+<td>23</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3da8e277712210217587051e31bb1a6b673a6fec">JStap: a static pre-filter for malicious JavaScript detection</a></td>
+<td>Aurore Fass and M. Backes and Ben Stock</td>
+<td>2019</td>
+<td>21</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a777b5616c3b8efa8d76a8c511af57d2d32626a7">A large-scale empirical study of code smells in JavaScript projects</a></td>
+<td>David Johannes and F. Khomh and G. Antoniol</td>
+<td>2019</td>
+<td>15</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3c60a80e69d3131a61a86759dad89edc6367f912">An extensible approach for taming the challenges of JavaScript dead code elimination</a></td>
+<td>N. Obbink and I. Malavolta and Gian Luca Scoccia and P. Lago</td>
+<td>2018</td>
+<td>14</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/5e3b5966f3cf3b486415ac79c54adebb6b16a1aa">Refactoring Asynchrony in JavaScript</a></td>
+<td>Keheliya Gallaba and Quinn Hanam and Ali Mesbah and Ivan Beschastnikh</td>
+<td>2017</td>
+<td>13</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7d12e9df3d0bd39263400a15be0a50d313019d86">JavaScript as a first programming language for multimedia students</a></td>
+<td>Robert Ward and Martin Smith</td>
+<td>1998</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/dd63c76b40d937dc3a7af3de5ba42232b858bd6c">Automated conformance testing for JavaScript engines via deep compiler fuzzing</a></td>
+<td>Guixin Ye and Zhanyong Tang and Shin Hwei Tan and Songfang Huang and Dingyi Fang and Xiaoyang Sun and Lizhong Bian and Haibo Wang and Zheng Wang</td>
+<td>2021</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a6eb1a84e2000b7f4184a5d9e1b6bee30b3befb6">Mining Rule Violations in JavaScript Code Snippets</a></td>
+<td>Uriel Campos and Guilherme Smethurst and João Pedro Moraes and R. Bonifácio and G. Pinto</td>
+<td>2019</td>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/898b2a68db7bd851f1d8f66ae86d96f8d75ec945">Accelerated Mobile Pages from JavaScript as Accelerator Tool for Web Service on E-Commerce in the E-Business</a></td>
+<td>A. Wibowo and G. Aryotejo and M. Mufadhol</td>
+<td>2018</td>
+<td>9</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0222250a30698b39f08aff5247270abee7cf8ec0">ClojureScript: Functional Programming for JavaScript Platforms</a></td>
+<td>M. McGranaghan</td>
+<td>2011</td>
+<td>9</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/910721d68ae9fc95295618b57419e6792ee37cfd">Modern JavaScript frameworks: A Survey Study</a></td>
+<td>Sanja Delčev and D. Draskovic</td>
+<td>2018</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d04471d1d78dfc41289e3b59cc1330b918038ef2">A Server-Side JavaScript Security Architecture for Secure Integration of Third-Party Libraries</a></td>
+<td>N. V. Ginkel and Willem De Groef and F. Massacci and F. Piessens</td>
+<td>2019</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f4ef28993cc17a192b34e85e5a20e4ce64964c30">BUGSJS: a benchmark and taxonomy of JavaScript bugs</a></td>
+<td>Péter Gyimesi and Béla Vancsics and Andrea Stocco and D. Mazinanian and Árpád Beszédes and R. Ferenc and Ali Mesbah</td>
+<td>2020</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/89428a2534ebfc5ae593c22587ca5991f5d33c56">Sparse matrices on the web: characterizing the performance and optimal format selection of sparse matrix-vector multiplication in javascript and webassembly</a></td>
+<td>Prabhjot Sandhu and D. Herrera and L. Hendren</td>
+<td>2018</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/08dc259ab52194a9da5022decc8316149a397095">JEST: N+1-Version Differential Testing of Both JavaScript Engines and Specification</a></td>
+<td>Jihyeok Park and Seungmin An and Dongjun Youn and Gyeongwon Kim and S. Ryu</td>
+<td>2021</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1609a912a7c91c93bb7e616c406ea518b0f1028e">Evaluation and Comparison of Dynamic Call Graph Generators for JavaScript</a></td>
+<td>Zoltán Herczeg and Gábor Lóki</td>
+<td>2019</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/38354bce37c211c7eea6e24fc7772df9804eb648">Automated refactoring of client-side JavaScript code to ES6 modules</a></td>
+<td>Aikaterini Paltoglou and V. Zafeiris and E. A. Giakoumakis and N. A. Diamantidis</td>
+<td>2018</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7be6a84f7a69f8066483f2673dd383d84a243a6d">JISET: JavaScript IR-based Semantics Extraction Toolchain</a></td>
+<td>Jihyeok Park and Jihee Park and Seungmin An and S. Ryu</td>
+<td>2020</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/cba224db4c4ee0364f79397d93b5dac19c95d31a">Lexicon Visualization Library and JavaScript for Scientific Data Visualization</a></td>
+<td>I. Tanyalcin and Carla Al Assaf and Julien Ferté and F. Ancien and Taushif Khan and G. Smits and M. Rooman and W. Vranken</td>
+<td>2018</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c4354ff184c905cd9fc484a4bf33430df6f035dd">Industry Practice of JavaScript Dynamic Analysis on WeChat Mini-Programs</a></td>
+<td>Yi Liu and Jinhui Xie and Jianbo Yang and Shi-ze Guo and Yuetang Deng and Shuqing Li and Yechang Wu and Yepang Liu</td>
+<td>2020</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/86a55c10816bc81071b362a54bcee26b7e214ee2">DRUIDJS — A JavaScript Library for Dimensionality Reduction</a></td>
+<td>René Cutura and Christoph Kralj and M. Sedlmair</td>
+<td>2020</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2c31f7d6c21df7a7e4c26e191781081391953980">Malicious JavaScript Detection using Statistical Language Model</a></td>
+<td>Anumeha Shah</td>
+<td>2019</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/354befad12d440787eb78b887b2852607b8e7c93">JSNVM: Supporting Data Persistence in JavaScript Using Non-Volatile Memory</a></td>
+<td>Hao Xu and Yanmin Zhu and Yuting Chen and Linpeng Huang and Tianyou Li and Pan Deng</td>
+<td>2018</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8104fe10fae101963ace0dcc69b1c512f61357c3">WebletScript: A Lightweight Distributed JavaScript Engine for Internet of Things</a></td>
+<td>Dong Li and Bin Huang and Li Cui and Zhiwei Xu</td>
+<td>2018</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/448fb190f9ec0b291a769806db2ef045a0a0fd02">A Study on Visual Programming Extension of JavaScript</a></td>
+<td>A. Wajid and S. Kanwal and Pervez Sophia</td>
+<td>2011</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/25f4e1f7907e21f34444e8febf46ee0ddcd03543">Interactive course for JavaScript in LMS Moodle</a></td>
+<td>P. Vostinár</td>
+<td>2019</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/11b2227f1e7f453a000be07b2486e42866ded461">JSAC: A Novel Framework to Detect Malicious JavaScript via CNNs over AST and CFG</a></td>
+<td>Hongliang Liang and Yuxing Yang and Lu Sun and Lin Jiang</td>
+<td>2019</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d7d32f464175e11c1e0694b5988aa185c662a5d4">JSOptimizer: An Extensible Framework for JavaScript Program Optimization</a></td>
+<td>Yi Liu</td>
+<td>2019</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/75ba8ef3c7565b889ee21a8765cc46ad67aa98d8">JavaScript programming basics: a laboratory series for beginning programmers</a></td>
+<td>A. Brady and R. McDowell and Kelly Schultz</td>
+<td>2002</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e72c81c91e2c3f3259a9a28f5157ed132c01f698">Analysis of WebAssembly as a Strategy to Improve JavaScript Performance on IoT Environments</a></td>
+<td>F. Oliveira and J. Mattos</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4990c9214aac6db1a71291f4d60d883a8f233fb3">Teaching introductory programming with JavaScript in higher education</a></td>
+<td>Gyfizfi Horváth and L. Menyhárt</td>
+<td>2015</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/90762afc573af09032204322796f24a795effb49">JavaScript Development Environment for Programming Education Using Smartphones</a></td>
+<td>M. Uehara</td>
+<td>2019</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/b232f8145c7e53a0df89fb4edc58a82f62d1a806">JavaScript Guidelines for JavaScript Programmers - A Comprehensive Guide for Performance Critical JS Programs</a></td>
+<td>Gábor Lóki and Péter Gál</td>
+<td>2018</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/568d2f0e2d7415523cce127ce25bab8b3dff455e">JavaScript language extension for non-professional programmers: Sharable own variables</a></td>
+<td>M. Oya and Ayumu Kashiwakura</td>
+<td>2016</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/146ce6bb1be347a7afe095f0f8c6b4d9068b4572">State-of-the-Art Javascript Language for Internet of Things</a></td>
+<td>Fernando Luis Oliveira and J. Mattos</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7817b9bfa35c5ea2aad9e8c8050c5d23cc5705a8">Functional Programming Patterns in JavaScript</a></td>
+<td>A. Sobolev and S. Zykov</td>
+<td>2019</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="java.html">java.html</a> · javascript.html · <a href="c.html">c.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/javascript.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>ATS - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="ATS"></meta>
+  <meta property="og:description" content="ATS, aka Applied Type System, is a pl created in 2013 by Hongwei Xi."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="ats.html">ATS</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="ats.html">ATS</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">ATS, aka Applied Type System, is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2013">2013</a> by <a href="../lists/creators.html#Hongwei_Xi">Hongwei Xi</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#274<span><span title="TotalRank: 619 Jobs: 62 Users: 661 Facts: 171 Links: 386">on PLDB</span></span></td>
+<td>9<span>Years Old</span></td>
+<td>576<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>1<span><span title="Books about or leveraging ATS">Books</span></span></td>
+<td>1<span><span title="Academic publications about or leveraging ATS">Papers</span></span></td>
+<td>217<span><span title="ATS repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/ats">Riju</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `val _ = print ("Hello, world!\n")\nimplement main0 () = ()\n`,
+        language: 'postiats',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">ATS (Applied Type System) is a programming language designed to unify programming with formal specification. ATS has support for combining theorem proving with practical programming through the use of advanced type systems. A past version of The Computer Language Benchmarks Game has demonstrated that the performance of ATS is comparable to that of the C and C++ programming languages. <a href="https://en.wikipedia.org/wiki/ATS_(programming_language)">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="http://www.ats-lang.org/">ATS website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/ATS_(programming_language)">ATS Wikipedia page</a></li>
+<li>There are at least 217 ATS repos on <a href="https://github.com/search?q=language:ATS">GitHub</a></li>
+<li>ATS first developed in <a href="../lists/originCommunities.html#Boston_University">Boston University</a></li>
+<li>file extensions for ATS include dats, hats and sats</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 26 users using ATS in 46 repos on <a href="https://api.github.com/search/repositories?q=language:ATS">GitHub</a></li>
+<li>Explore ATS snippets on <a href="http://www.rosettacode.org/wiki/Category:ATS">Rosetta Code</a></li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/postiats">package</a> for syntax highlighting ATS</li>
+<li>GitHub supports <a href="https://github.com/steinwaywhw/ats-mode-sublimetext" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for ATS</li>
+<li><a href="http://www.ats-lang.org/">ats-lang.org</a> was registered in 2007</li>
+<li>See also: <a href="dependent-ml.html">DML</a>, <a href="ml.html">ML</a>, <a href="ocaml.html">OCaml</a>, <a href="c.html">C</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/ats">Improve our ATS file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/ats'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">val _ = print (&quot;Hello, world!\n&quot;)
+implement main0 () = ()
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Applied'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">// Hello world in ATS
+
+implement main () = begin
+  print (&quot;Hello, world!&quot;); print_newline ()
+end</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/steinwaywhw/ats-mode-sublimetext'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">(* ****** ****** *)
+//
+// HX-2013-11
+//
+// Implementing a variant of
+// the problem of Dining Philosophers
+//
+(* ****** ****** *)
+//
+#include &quot;share/atspre_define.hats&quot;
+#include &quot;share/atspre_staload.hats&quot;
+//
+(* ****** ****** *)
+
+staload &quot;{$LIBATSHWXI}/teaching/mythread/SATS/mythread.sats&quot;
+
+(* ****** ****** *)
+
+local
+//
+#include &quot;{$LIBATSHWXI}/teaching/mythread/DATS/mythread.dats&quot;
+//
+in (* in of [local] *)
+//
+// HX: it is intentionally left to be empty
+//
+end // end of [local]
+
+(* ****** ****** *)
+
+local
+//
+#include &quot;{$LIBATSHWXI}/teaching/mythread/DATS/mythread_posix.dats&quot;
+//
+in (* in of [local] *)
+//
+// HX: it is intentionally left to be empty
+//
+end // end of [local]
+
+(* ****** ****** *)
+
+(* end of [DiningPhil2_thread.dats] *)
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/ATS_(programming_language)'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">#define BUFLEN 10
+var !p_buf with pf_buf = @[byte][BUFLEN](0)    // pf_buf = @[byte][BUFLEN](0) @ p_buf[14]</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=ats">Keywords</a> in ATS</h4>
+<p class="scrollParagraphComponent">abstype abst0ype absprop absview absvtype absviewtype absvt0ype absviewt0ype as and assume begin classdec datasort datatype dataprop dataview datavtype dataviewtype do end extern extype extvar exception fn fnx fun prfn prfun praxi castfn if then else ifcase in infix infixl infixr prefix postfix implmnt implement primplmnt primplement import let local macdef macrodef nonfix symelim symintr overload of op rec sif scase sortdef sta stacst stadef static staload dynload try tkindef typedef propdef viewdef vtypedef viewtypedef prval var prvar when where with withtype withprop withview withvtype withviewtype</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/functions-feature.html">Functions</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>(* A comment
+*)</pre></td>
+<td>(* *)</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td>//</td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about ATS from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9786201963160">Ats (programming Language)</a></td>
+<td>Niek Yoan</td>
+<td>2012</td>
+<td></td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about ATS from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/63338d33f437a3e21ed477293e9dac064bceb9bf">ATS (AUTOMATIC TRANSFER SWITCH) BERBASIS PROGRAMMABLLE LOGIC CONTROLLER CPM1A AUTOMATIC TRANSFER SWITCH (ATS) BASED ON PROGRAMMABLLE LOGIC CONTROLLER CPM1A</a></td>
+<td>Sumardi Sadi and S. Mulyati</td>
+<td>2019</td>
+<td>3</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="pike.html">pike.html</a> · ats.html · <a href="deno.html">deno.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/ats.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

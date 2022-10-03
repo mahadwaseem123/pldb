@@ -1,0 +1,446 @@
+title Haskell
+
+import settings.scroll
+htmlTitle Haskell - Pl
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/haskell.pldb
+
+paragraph
+ Haskell is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1990">1990</a> by <a href="../lists/creators.html#Paul_Hudak">Paul Hudak</a> and <a href="../lists/creators.html#John_Hughes">John Hughes</a>.
+
+kpiTable
+ #24 <span title="TotalRank: 83 Jobs: 35 Users: 49 Facts: 35 Links: 13">on PLDB</span>
+ 32 Years Old
+ 37.6k <span title="Crude user estimate from a linear model.">Users</span>
+ 70 <span title="Books about or leveraging Haskell">Books</span>
+ 34 <span title="Academic publications about or leveraging Haskell">Papers</span>
+ 127k <span title="Haskell repos on GitHub.">Repos</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/haskell">Riju</a> · <a href="https://tio.run/#haskell">TIO</a> · <a href="https://repl.it/languages/haskell">Replit</a>
+
+
+
+
+
+paragraph
+ Haskell  is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry. The latest standard of Haskell is Haskell 2010. <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://www.haskell.org">Haskell website</a>
+ - the <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell Wikipedia page</a>
+ - There are at least 126,924 Haskell repos on <a href="https://github.com/search?q=language:Haskell">GitHub</a>
+ - PLDB estimates there are currently 495 job openings for Haskell programmers.
+ - file extensions for Haskell include hs, lhs, hs-boot and hsc
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 13k users using Haskell in 30k repos on <a href="https://api.github.com/search/repositories?q=language:Haskell">GitHub</a>
+ - Check out the 311 <a href="https://www.meetup.com/topics/haskell/">Haskell meetup groups</a> on Meetup.com.
+ - There are 7,098 <a href="https://projecteuler.net/language=Haskell">Project Euler</a> users using Haskell
+ - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Haskell programmers reported a median salary of $67,021. 2% of respondents reported using Haskell. 1,749 programmers reported using Haskell, and 3,453 said they wanted to use it
+ - Explore Haskell snippets on <a href="http://www.rosettacode.org/wiki/Category:Haskell">Rosetta Code</a>
+ - Haskell is listed on <a href="https://hopl.info/showlanguage.prx?exp=1555">HOPL</a>
+ - Haskell appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - There is an <a href="https://packages.ubuntu.com/jammy/ghc">Ubuntu package</a> for Haskell
+ - Here is a Haskell <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/haskell/haskell-ide-engine">implementation</a>
+ - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/haskell">package</a> for syntax highlighting Haskell
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Haskell
+ - GitHub supports <a href="https://github.com/atom-haskell/language-haskell" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Haskell
+ - Haskell appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+ - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/gibiansky/IHaskell">Kernel</a> for Haskell
+ - There is a <a href="https://hackage.haskell.org/">central package repository</a> for Haskell
+ - Indeed.com has 190 matches for <a href="https://www.indeed.com/jobs?q=haskell developer">"haskell developer"</a>.
+ - <a href="https://www.haskell.org">haskell.org</a> was registered in 1996
+ - See also: <a href="clean.html">Clean</a>, <a href="fp.html">FP</a>, <a href="hope.html">HOPE</a>, <a href="id.html">Irvine Dataflow</a>, <a href="iswim.html">ISWIM</a>, <a href="krc.html">KRC</a>, <a href="lisp.html">Lisp</a>, <a href="miranda.html">Miranda</a>, <a href="ml.html">ML</a>, <a href="standard-ml.html">Standard ML</a>, <a href="scheme.html">Scheme</a>, <a href="sisal.html">SISAL</a>, <a href="agda.html">Agda</a>, <a href="csharp.html">C#</a>, <a href="linq.html">LINQ</a>, <a href="cayenne.html">Cayenne</a>, <a href="clojure.html">Clojure</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="curry.html">Curry</a>, <a href="elm.html">Elm</a>, <a href="epigram.html">Epigram</a>, <a href="f-sharp.html">F#</a>, <a href="frege.html">Frege</a>, <a href="hack.html">Hack</a>, <a href="idris.html">Idris</a>, <a href="java.html">Java</a>, <a href="livescript.html">LiveScript</a>, <a href="mercury.html">Mercury</a>, <a href="perl-6.html">Perl 6</a>, <a href="python.html">Python</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="swift.html">Swift</a>, <a href="visual-basic.net.html">Visual Basic .NET</a>, <a href="c.html">C</a>, <a href="c--.html">C--</a>, <a href="llvmir.html">LLVM IR</a>, <a href="opengl.html">OpenGL</a>, <a href="javascript.html">JavaScript</a>, <a href="lazyml.html">Lazy ML</a>, <a href="pandoc-app.html">Pandoc</a>, <a href="cryptol.html">Cryptol</a>, <a href="jvm.html">JVM</a>
+ - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+ - <a href="https://build.pldb.com/edit/haskell">Improve our Haskell file</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
+code
+ module Example where
+ 
+ sumOverArray :: [Int] -&gt; Int
+ sumOverArray (x:xs) = x + sumOverArray xs
+ sumOverArray [] =  0
+ 
+
+exampleCodeHeader Example from <a href='https://riju.codes/haskell'>Riju</a>:
+code
+ module Main where
+ 
+ main :: IO ()
+ main = putStrLn &quot;Hello, world!&quot;
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/Haskell.hs'>hello-world</a>:
+code
+ module Main where
+ 
+ main = putStrLn &quot;Hello World&quot;
+ 
+
+exampleCodeHeader Example from <a href='http://helloworldcollection.de/#Haskell'>the Hello World Collection</a>:
+code
+ -- Hello World in Haskell
+  
+ main = putStrLn &quot;Hello World&quot;
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/atom-haskell/language-haskell'>Linguist</a>:
+code
+ import Data.Char
+ 
+ main :: IO ()
+ main = do
+ 	let hello = &quot;hello world&quot;
+ 	putStrLn $ map toUpper hello
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Haskell_(programming_language)'>Wikipedia</a>:
+code
+ $ ghci
+ Prelude&gt; import Data.Int
+ Prelude Data.Int&gt; fromIntegral (32767 :: Int16) :: Int8
+ -1
+ Prelude Data.Int&gt; fromInteger (2^64 :: Integer) :: Int32
+ 0
+
+
+
+subsection <a href="../lists/keywords.html?filter=haskell">Keywords</a> in Haskell
+paragraph
+ ! ' '' - -< -<< -> :: ; <- , = => > ? # \* @ [|, |] \ \_ ` {, } {-, -} | ~ as case of class data family instance default deriving do forall foreign hiding if then else import infix infixl infixr let in mdo module newtype proc qualified rec type where
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Binary Literals
+  FeatureLink ../languages/binary-numbers-feature.html
+  Supported ✓
+  Example
+   -- 0[bB]_*[01](_*[01])*
+  Token 
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+   -- \d(_*\d)*
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+   -- 0[xX]_*[\da-fA-F](_*[\da-fA-F])*_*[pP][+-]?\d(_*\d)*
+  Token 
+ row
+  Feature Hexadecimals
+  FeatureLink ../languages/hexadecimals-feature.html
+  Supported ✓
+  Example
+   -- 0[xX]_*[\da-fA-F](_*[\da-fA-F])*
+  Token 
+ row
+  Feature Octals
+  FeatureLink ../languages/octals-feature.html
+  Supported ✓
+  Example
+   -- 0[oO]_*[0-7](_*[0-7])*
+  Token 
+ row
+  Feature Conditionals
+  FeatureLink ../languages/conditionals-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Classes
+  FeatureLink ../languages/classes-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Case Sensitivity
+  FeatureLink ../languages/case-sensitivity-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token putStrLn
+ row
+  Feature Range Operator
+  FeatureLink ../languages/range-operator-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Function Composition
+  FeatureLink ../languages/function-composition-feature.html
+  Supported ✓
+  Example
+   foo = f . g
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   -- A comment
+  Token --
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Operator Overloading
+  FeatureLink ../languages/operator-overloading-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   import Data.Maybe
+   import Mod as Foo
+   import Mod (x,y, (+++))
+   import qualified Mod
+   import Mod hiding (x,y,(+++))
+   import qualified Mod hiding (x,y)
+  Token 
+ row
+  Feature Directives
+  FeatureLink ../languages/directives-feature.html
+  Supported ✓
+  Example
+   {-# INLINE foo #-}
+  Token 
+ row
+  Feature Garbage Collection
+  FeatureLink ../languages/garbage-collection-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Pattern Matching
+  FeatureLink ../languages/pattern-matching-feature.html
+  Supported ✓
+  Example
+   fib 0 = 1
+   fib 1 = 1
+   fib n | n >= 2
+         = fib (n-1) + fib (n-2)
+  Token 
+ row
+  Feature Zippers
+  FeatureLink ../languages/zipper-feature.html
+  Supported ✓
+  Example
+   -- https://wiki.haskell.org/Zipper_monad/TravelTree
+  Token 
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+  Token {- -}
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+    -- a single line comment
+    {- A multiline comment
+       which can continue for many lines
+    -}
+  Token 
+ row
+  Feature Map Functions
+  FeatureLink ../languages/map-functions-feature.html
+  Supported ✓
+  Example
+   class Functor f where
+      fmap :: (a -> b) -> f a -> f b
+      (<$) :: a -> f b -> f a
+  Token 
+ row
+  Feature Monad
+  FeatureLink ../languages/monads-feature.html
+  Supported ✓
+  Example
+   -- https://stackoverflow.com/questions/44965/what-is-a-monad
+   parseExpr = parseString <|> parseNumber
+   
+   parseString = do
+           char '"'
+           x <- many (noneOf "\"")
+           char '"'
+           return (StringValue x)
+   
+   parseNumber = do
+       num <- many1 digit
+       return (NumberValue (read num))
+  Token 
+ row
+  Feature Typed Holes
+  FeatureLink ../languages/typed-holes-feature.html
+  Supported ✓
+  Example
+   -- Found hole `_' with type f (Free f b)
+  Token 
+ row
+  Feature Runtime Guards
+  FeatureLink ../languages/runtime-guards-feature.html
+  Supported ✓
+  Example
+   f x
+    | x > 0 = 1
+    | otherwise = 0
+  Token 
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "hello world"
+  Token "
+
+
+
+foldBreak
+subsection Books about Haskell on goodreads
+pipeTable
+ title|titleLink|author|year|reviews|ratings|rating
+ Programming in Haskell|https://www.goodreads.com/search?q=Programming in Haskell Graham  Hutton|Graham  Hutton|2006|28|306|3.98
+ Haskell Programming From First Principles|https://www.goodreads.com/search?q=Haskell Programming From First Principles Christopher    Allen|Christopher    Allen|2015|22|130|4.55
+ Haskell: The Craft of Functional Programming|https://www.goodreads.com/search?q=Haskell: The Craft of Functional Programming Simon Thompson|Simon Thompson|1996|8|159|3.53
+ The Haskell Road to Logic, Maths and Programming|https://www.goodreads.com/search?q=The Haskell Road to Logic, Maths and Programming Kees Doets|Kees Doets|2004|5|110|3.67
+
+
+foldBreak
+subsection Books about Haskell from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ Programming in Haskell|https://isbndb.com/book/9781316626221|Hutton, Graham|2016|Cambridge University Press
+ Real World Haskell|https://isbndb.com/book/9780596514983|Bryan O'Sullivan and John Goerzen and Don Stewart|2008|O'Reilly Media
+ Learn You a Haskell for Great Good!: A Beginner's Guide|https://isbndb.com/book/9781593272838|Lipovaca, Miran|2011|No Starch Press
+ Introduction to Functional Programming Systems Using Haskell (Cambridge Computer Science Texts, Series Number 27)|https://isbndb.com/book/9780521277242|Davie, Antony J. T.|1992|Cambridge University Press
+ Haskell Data Analysis Cookbook|https://isbndb.com/book/9781783286331|Shukla, Nishant|2014|Packt Publishing
+ The Haskell School of Expression: Learning Functional Programming through Multimedia|https://isbndb.com/book/9780521644082|Paul Hudak|2000|Cambridge University Press
+ Haskell Workshop Acm Sigplan 2002|https://isbndb.com/book/9781581136050|Association for Computing Machinery (ACM) Staff and ACM SIGPLAN Haskell Workshop|2002|Assn for Computing Machinery
+ The Haskell Road to Logic, Maths and Programming. Second Edition (Texts in Computing)|https://isbndb.com/book/9780954300692|Kees Doets and Jan van Eijck|2004|College Publications
+ Developing Web Apps with Haskell and Yesod: Safety-Driven Web Development|https://isbndb.com/book/9781491915592|Snoyman, Michael|2015|O'Reilly Media
+ Haskell Design Patterns|https://isbndb.com/book/9781783988730|Ryan Lemmer|42314|Packt Publishing
+ Algorithm Design with Haskell|https://isbndb.com/book/9781108491617|Bird, Richard and Gibbons, Jeremy|2020|Cambridge University Press
+ Get Programming with Haskell|https://isbndb.com/book/9781617293764|Kurt, Will|2018|Manning Publications
+ Learn You a Haskell for Great Good!: A Beginner's Guide|https://isbndb.com/book/9781593272951|Lipovaca, Miran|2011|No Starch Press
+ Thinking Functionally with Haskell|https://isbndb.com/book/9781107452640|Bird, Richard|2014|Cambridge University Press
+ Programming in Haskell|https://isbndb.com/book/9780521692694|Graham Hutton|2007|Cambridge University Press
+ Haskell Data Analysis Cookbook|https://isbndb.com/book/9781783286348|Shukla, Nishant|2014|Packt Publishing
+ Haskell High Performance Programming|https://isbndb.com/book/9781786464217|Thomasson, Samuli|2016|Packt Publishing
+ Haskell Cookbook: Build functional applications using Monads, Applicatives, and Functors|https://isbndb.com/book/9781786462657|Sajanikar, Yogesh|2017|Packt Publishing
+ Introduction to Functional Programming using Haskell (2nd Edition)|https://isbndb.com/book/9780134843469|Bird, Richard|1998-05-09T00:00:01Z|Prentice Hall
+ Haskell Design Patterns: Take your Haskell and functional programming skills to the next level by exploring new idioms and design patterns|https://isbndb.com/book/9781783988723|Lemmer, Ryan|2015|Packt Publishing
+ Developing Web Applications with Haskell and Yesod|https://isbndb.com/book/9781449316976|Snoyman, Michael|2012|O'Reilly Media
+ Haskell Financial Data Modeling and Predictive Analytics|https://isbndb.com/book/9781782169437|Ryzhov, Pavel|2013|Packt Publishing
+ Programming in Haskell|https://isbndb.com/book/9780521871723|Graham Hutton|2007-01-15T00:00:01Z|Cambridge University Press
+ The Haskell School of Expression: Learning Functional Programming through Multimedia|https://isbndb.com/book/9780521643382|Hudak, Paul|2000|Cambridge University Press
+ The Haskell Road to Logic, Maths and Programming. Second edition|https://isbndb.com/book/9781954300699|Doets, Kees and Eijck, van Jan|2004|College Publications
+ Programming in Haskell|https://isbndb.com/book/9781316863220|Graham Hutton|20160901|Cambridge University Press
+ Parallel and Concurrent Programming in Haskell|https://isbndb.com/book/9789351102335|||Shroff Publishers & Distributors Pvt Ltd
+ Haskell 98 Language and Libraries: The Revised Report|https://isbndb.com/book/9780521826143|Simon L. Peyton Jones|2003|Cambridge University Press
+ Highlights of cutting-edge programming languages: Haskell Fun Learning Guide(Chinese Edition)|https://isbndb.com/book/9787115335593|[ SI LUO WEN NI YA ] Miran Lipovaca|2014|People Post Press
+ Haskell|https://isbndb.com/book/9783486718539|Ernst-Erich Doberkat|20121018|De Gruyter
+ Haskell '06|https://isbndb.com/book/9781595934895|Acm Sigplan Haskell Workshop (10th : 2006 : Portland, Oregon) and Acm Special Interest Group On Programming Languages|2006|Association For Computing Machinery
+ Programming In Haskell|https://isbndb.com/book/9780511813672|Professor Graham Hutton|2012|Cambridge University Press
+ Programming in Haskell|https://isbndb.com/book/9780511292187|Graham Hutton|20070115|Cambridge University Press
+ Real World Haskell|https://isbndb.com/book/9780596803322|Bryan O'Sullivan|20081115|O'Reilly Media, Inc.
+ Real World Haskell|https://isbndb.com/book/9780596554309|Bryan O'Sullivan; John Goerzen; Donald Bruce Stewart|20081115|O'Reilly Media, Inc.
+ Programming in Haskell|https://isbndb.com/book/9781139637534|Graham Hutton|20070115|Cambridge University Press
+ Haskell (programming Language)|https://isbndb.com/book/9786132660435|Miller and Frederic P. and Vandome and Agnes F. and McBrewster and John||
+ Programming In Haskell|https://isbndb.com/book/9781316784099|Graham Hutton||
+ Haskell in Depth|https://isbndb.com/book/9781638356929|Vitaly Bragilevsky|20210713|Simon & Schuster
+ Haskell pdf Ebook|https://isbndb.com/book/9781292127576|Simon Thompson|20150925|Pearson International Content
+ Haskell School Of Music|https://isbndb.com/book/9781108241861|Paul Hudak and Donya Quick|2018|Cambridge University Press
+ Haskell Quick Syntax Reference|https://isbndb.com/book/9781484245071|Stefania Loredana Nita; Marius Mihailescu|20190610|Springer Nature
+ Functional Programming With Haskell|https://isbndb.com/book/9780077093303|Michael G. Hinchey and Steven A. Jarvis|2000|Mcgraw-hill Osborne Media
+ Get Programming with Haskell|https://isbndb.com/book/9781638356776|Will Kurt|20180306|Simon & Schuster
+ Algorithm Design with Haskell|https://isbndb.com/book/9781108858267|Richard Bird; Jeremy Gibbons|20200709|Cambridge University Press
+ Haskell High Performance Programming|https://isbndb.com/book/9781786466914|Samuli Thomasson|26-09-2016|Packt Publishing
+ Learning Haskell Data Analysis|https://isbndb.com/book/9781784395230|James Church|2015-05-28|Packt Publishing
+ Thinking Functionally with Haskell|https://isbndb.com/book/9781316189986|Richard Bird|20141009|Cambridge University Press
+ Haskell '05: proceedings of the ACM SIGPLAN 2005 Haskell Workshop : September 30, 2005, Tallinn, Estonia|https://isbndb.com/book/9781595930712|Acm Sigplan Haskell Workshop (2005 : Tallinn, Estonia)|2005|Acm Press
+ Haskell Programming From First Principles|https://isbndb.com/book/9781945388033|Christopher Allen and Julie Moronuki|2016|
+ The Haskell School of Expression|https://isbndb.com/book/9781107263925|Paul Hudak|20000228|Cambridge University Press
+ The Haskell School of Expression|https://isbndb.com/book/9781107266483|Paul Hudak|20000228|Cambridge University Press
+ Haskell '05: proceedings of the ACM SIGPLAN 2005 Haskell Workshop : September 30, 2005, Tallinn, Estonia|https://isbndb.com/book/9781595930712|Acm Sigplan Haskell Workshop (2005 : Tallinn, Estonia)|2005|Acm Press
+ The Haskell School of Music|https://isbndb.com/book/9781108271493|Paul Hudak; Donya Quick|20181004|Cambridge University Press
+ Parallel and Concurrent Programming in Haskell|https://isbndb.com/book/9781449335922|Simon Marlow|20130712|O'Reilly Media, Inc.
+ Introduction to Functional Programming, Haskell 1.3|https://isbndb.com/book/9780134843384|Richard Bird||
+ Parallel and Concurrent Programming in Haskell|https://isbndb.com/book/9781449335908|Simon Marlow|20130712|O'Reilly Media, Inc.
+ Haskell '07: Proceedings Of The Acm Sigplan 2007 Haskell Workshop : Freiburg, Germany, September 30, 2007|https://isbndb.com/book/9781595936745|ACM Special Interest Group on Programming Languages|2007|Association For Computing Machinery
+ Getting Started with Haskell Data Analysis|https://isbndb.com/book/9781789808605|James Church|31-10-2018|Packt Publishing
+ Articles On Haskell Programming Language Family, Including|https://isbndb.com/book/9781243296672|Hephaestus Books|2011|
+ Haskell Financial Data Modeling and Predictive Analytics|https://isbndb.com/book/9781782169444|Pavel Ryzhov|2013-10-25|Packt Publishing
+ Haskell &#39;04: Proceedings Of The Acm Sigplan 2004 Haskell Workshop  September 22-22, 2004, Snowbird, Utah, Usa|https://isbndb.com/book/9781581138504|Association for Computing Machinery and ACM Special Interest Group on Programming Languages|2004|Association For Computing Machinery
+ Developing Web Apps with Haskell and Yesod|https://isbndb.com/book/9781491915578|Michael Snoyman|20150217|O'Reilly Media, Inc.
+ Developing Web Apps with Haskell and Yesod|https://isbndb.com/book/9781491915554|Michael Snoyman|20150217|O'Reilly Media, Inc.
+ Introduction To Functional Programming Systems Using Haskell (cambridge Computer Science Texts)|https://isbndb.com/book/9780521258302|Antony J. T. Davie|1992|Cambridge University Press
+ JAVA BY DISSECTION The Essentials of Java Programming - Javaplace Edition with Haskell - The Craft of Functional Programming|https://isbndb.com/book/9780582849426|Pohl and Ira||
+
+
+foldBreak
+subsection Publications about Haskell from Semantic Scholar
+pipeTable
+ title|titleLink|authors|year|citations|influentialCitations
+ Template meta-programming for Haskell|https://www.semanticscholar.org/paper/9cf2790a364e5c14fb37bbd8026902712ac6b2aa|T. Sheard and S. Jones|2002|527|62
+ Accelerating Haskell array codes with multicore GPUs|https://www.semanticscholar.org/paper/4726ec683a7db8e97ebd845b98e294ead537888a|M. Chakravarty and G. Keller and Sean Lee and T. L. McDonell and Vinod Grover|2011|254|33
+ The Haskell School of Expression: Learning Functional Programming through Multimedia|https://www.semanticscholar.org/paper/41cb1636d156537ead0a6b8045b26a00864bfae4|P. Hudak|1999|199|16
+ Comparing libraries for generic programming in haskell|https://www.semanticscholar.org/paper/51eb0e70ed65f59141a17d29b3790aab08b12e58|A. R. Yakushev and J. Jeuring and Patrik Jansson and Alex Gerdes and O. Kiselyov and B. C. Oliveira|2008|84|4
+ Ask-Elle: an Adaptable Programming Tutor for Haskell Giving Automated Feedback|https://www.semanticscholar.org/paper/90a7ef598330801986e41e5ae185276329b42825|Alex Gerdes and B. Heeren and J. Jeuring and L. T. V. Binsbergen|2017|70|9
+ Hasochism: the pleasure and pain of dependently typed haskell programming|https://www.semanticscholar.org/paper/9ff209527963fb71d3a2452dd3512158639993fb|S. Lindley and Conor McBride|2013|54|3
+ FranTk - a declarative GUI language for Haskell|https://www.semanticscholar.org/paper/0a0976e003e205c4dc2551f7b557b0dcb08082fc|M. Sage|2000|50|3
+ Attribute grammars fly first-class: how to do aspect oriented programming in Haskell|https://www.semanticscholar.org/paper/51fcb83978c204f062d6b86b367495752c607f09|Marcos Viera and S. Swierstra and W. Swierstra|2009|50|3
+ Polytypic Programming in Haskell|https://www.semanticscholar.org/paper/ba46a21d4c8471664326927ed813ad78f1d48355|U. Norell and Patrik Jansson|2003|36|7
+ A typechecker plugin for units of measure: domain-specific constraint solving in GHC Haskell|https://www.semanticscholar.org/paper/d963e1217287c00d732f5204d20a3873f5db09e9|Adam Gundry|2015|29|1
+ Distributed Programming in Haskell with Ports|https://www.semanticscholar.org/paper/a1a9747208e4e2b403e2d07334ef04f2e648ce89|F. Huch and U. Norbisrath|2000|25|3
+ Promoting functions to type families in Haskell|https://www.semanticscholar.org/paper/d3f760683b98a6c662cd5e515c54c082ab63b920|R. Eisenberg and Jan Stolarek|2014|25|1
+ Eden - Parallel Functional Programming with Haskell|https://www.semanticscholar.org/paper/32feaf7dc73338e84c7e0ce92bb50f8a160a245b|R. Loogen|2011|24|4
+ An EDSL approach to high performance Haskell programming|https://www.semanticscholar.org/paper/a9feb2a0dd2dd85def2084ac9785f41795932f09|J. Ankner and Josef Svenningsson|2013|22|3
+ Session Types with Linearity in Haskell|https://www.semanticscholar.org/paper/7c3e5bdff48b2830a35a0087e3610d09b93dd96a|Dominic A. Orchard and N. Yoshida|2017|21|1
+ Haskell clone detection using pattern comparing algorithm|https://www.semanticscholar.org/paper/8cbcff03c1119ed4f8355f40dd9e767081492cc6|Sergej Chodarev and E. Pietriková and J. Kollár|2015|15|0
+ Generic programming with C++ concepts and Haskell type classes—a comparison|https://www.semanticscholar.org/paper/ba21705e0ce61b899205260d78fad259acab811d|Jean-Philippe Bernardy and Patrik Jansson and Marcin Zalewski and S. Schupp|2010|13|0
+ Understanding beginners' mistakes with Haskell|https://www.semanticscholar.org/paper/62f3eaec30521360445110584271e36880563f69|V. Tirronen and Samuel Uusi-Mäkelä and Ville Isomöttönen|2015|12|1
+ Haskell vs. f# vs. scala: a high-level language features and parallelism support comparison|https://www.semanticscholar.org/paper/170ac8c4d10a9bfae6da19fb21933cfb561ace73|Prabhat Totoo and Pantazis Deligiannis and Hans-Wolfgang Loidl|2012|8|1
+ Composable scheduler activations for Haskell|https://www.semanticscholar.org/paper/302eefdee1e482e1d31aa6f7a8c767f5e0b29747|K. Sivaramakrishnan and T. Harris and S. Marlow and S. Jones|2016|7|0
+ Deterministic Parallel Programming with Haskell|https://www.semanticscholar.org/paper/b88bde4843d794fe6380a78a9d0e642e0e0ee2e9|Duncan Coutts and Andres Löh|2012|7|0
+ Polymonad programming in Haskell|https://www.semanticscholar.org/paper/34b9460068fdb7e19b1d12cc5d678313d6198e33|J. Bracker and H. Nilsson|2015|7|2
+ Programming Reactive Systems in Haskell|https://www.semanticscholar.org/paper/80d85b3350baa9acbcdaa740bca45d5aba1db637|Sigbjørn Finne and S. Jones|1994|6|1
+ Hardware software co-design in Haskell|https://www.semanticscholar.org/paper/938b3f682f74c26274e52344b51e3cc1725b72bf|M. Aronsson and M. Sheeran|2017|6|0
+ Parallel programming in Haskell almost for free: an embedding of intel's array building blocks|https://www.semanticscholar.org/paper/2fb44d66edcae5096dc546d0e5a25a0b5b1ca97e|Bo Joel Svensson and M. Sheeran|2012|6|0
+ Algorithm Design with Haskell|https://www.semanticscholar.org/paper/6b01a61e5af971986f78c51a6605a0adf8a7cbb3|R. Bird and J. Gibbons|2020|6|1
+ TIP in Haskell - another Exercise in Functional Programming|https://www.semanticscholar.org/paper/4cabdf996a1376e623040ab79e539f8debf01de9|C. Runciman|1991|5|0
+ GenI: natural language generation in Haskell|https://www.semanticscholar.org/paper/e903da230650b20c7116e0b4b07e7bd533c60af7|Eric Kow|2006|5|1
+ Functional programming languages for verification tools: a comparison of Standard ML and Haskell|https://www.semanticscholar.org/paper/bb7c485843e97b376ef02d71798cee12daa04178|M. Leucker and T. Noll and P. Stevens and Michael Weber|2005|4|0
+ High-performance client-side web applications through Haskell EDSLs|https://www.semanticscholar.org/paper/465b59bf4909f9ef5040da20b1d084e02005bb07|A. Ekblad|2016|3|0
+ A Library for Processing Ad hoc Data in Haskell - Embedding a Data Description Language|https://www.semanticscholar.org/paper/b533fb5e42edd7234991be0fdde794bc683836ab|Yan Wang and Verónica Gaspes|2008|3|0
+ A Purely Functional Computer Algebra System Embedded in Haskell|https://www.semanticscholar.org/paper/313e883a7f66075b6573704768f7790e568c1ded|Hiromi Ishii|2018|3|0
+ Learn Physics by Programming in Haskell|https://www.semanticscholar.org/paper/f7a8926d40dada932192f465709deb970f245d3f|S. Walck|2014|3|0
+ Towards secure IoT programming in Haskell|https://www.semanticscholar.org/paper/19aa46db9aca26b92d479332dab89584e61ef93a|Nachiappan Valliappan and Robert Krook and Alejandro Russo and K. Claessen|2020|2|0
+
+
+
+
+
+
+keyboardNav rust.html postgresql.html

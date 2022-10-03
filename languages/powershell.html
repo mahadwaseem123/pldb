@@ -1,0 +1,931 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>PowerShell - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="PowerShell"></meta>
+  <meta property="og:description" content="PowerShell is a pl created in 2006 by Jeffrey Snover."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="powershell.html">PowerShell</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="powershell.html">PowerShell</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">PowerShell is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2006">2006</a> by <a href="../lists/creators.html#Jeffrey_Snover">Jeffrey Snover</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#37<span><span title="TotalRank: 126 Jobs: 62 Users: 23 Facts: 41 Links: 105">on PLDB</span></span></td>
+<td>16<span>Years Old</span></td>
+<td>208.7k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>107<span><span title="Books about or leveraging PowerShell">Books</span></span></td>
+<td>3<span><span title="Academic publications about or leveraging PowerShell">Papers</span></span></td>
+<td>161k<span><span title="PowerShell repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/powershell">Riju</a> · <a href="https://tio.run/#powershell">TIO</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `Write-Host "Hello, world!"\n`,
+        language: 'powershell',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language. Initially a Windows component only, known as Windows PowerShell, it was made open-source and cross-platform on 18 August 2016 with the introduction of PowerShell Core. The former is built on .NET Framework while the latter on .NET Core. <a href="https://en.wikipedia.org/wiki/PowerShell">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="http://microsoft.com/powershell">PowerShell website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/PowerShell">PowerShell Wikipedia page</a></li>
+<li>There are at least 161,144 PowerShell repos on <a href="https://github.com/search?q=language:PowerShell">GitHub</a></li>
+<li>PowerShell first developed in <a href="../lists/originCommunities.html#Microsoft">Microsoft</a></li>
+<li>file extensions for PowerShell include ps1, psd1 and psm1</li>
+<li>the PowerShell team is on <a href="https://twitter.com/powershell_team">Twitter</a></li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 25k users using PowerShell in 33k repos on <a href="https://api.github.com/search/repositories?q=language:PowerShell">GitHub</a></li>
+<li>There are 201,622 members in the <a href="https://reddit.com/r/PowerShell">PowerShell subreddit</a></li>
+<li>There are 159 <a href="https://projecteuler.net/language=PowerShell">Project Euler</a> users using PowerShell</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> PowerShell programmers reported a median salary of $68,824. 11% of respondents reported using PowerShell. 8,871 programmers reported using PowerShell, and 4,896 said they wanted to use it</li>
+<li>Explore PowerShell snippets on <a href="http://www.rosettacode.org/wiki/Category:PowerShell">Rosetta Code</a></li>
+<li>PowerShell appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>Here is a PowerShell <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/PowerShell/PowerShellEditorServices">implementation</a></li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/powershell">package</a> for syntax highlighting PowerShell</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/shell.py">syntax highlighting</a> for PowerShell</li>
+<li>GitHub supports <a href="https://github.com/PowerShell/EditorSyntax" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PowerShell</li>
+<li>There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/vors/jupyter-powershell">Kernel</a> for PowerShell</li>
+<li>There is a <a href="https://www.powershellgallery.com/">central package repository</a> for PowerShell</li>
+<li>See also: <a href="perl.html">Perl</a>, <a href="csharp.html">C#</a>, <a href="digital-command-language.html">DIGITAL Command Language</a>, <a href="sql.html">SQL</a>, <a href="tcl.html">Tcl</a>, <a href="puppet.html">Puppet</a>, <a href="jscript.html">JScript</a>, <a href="vbscript.html">VBScript</a>, <a href="linux.html">Linux</a>, <a href="ascii.html">ASCII</a>, <a href="awk.html">awk</a>, <a href="grep.html">grep</a>, <a href="sed.html">sed</a>, <a href="xml.html">XML</a>, <a href="cli-assembly.html">Assembly CLI</a>, <a href="ooxml.html">Office Open XML</a>, <a href="bash.html">Bash</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/powershell">Improve our PowerShell file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/powershell'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">Write-Host &quot;Hello, world!&quot;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/p/PowerShell.ps1'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">&#39;Hello World&#39;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#PowerShell'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent"># Hello World in Microsoft Powershell
+
+&#39;Hello World!&#39;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/PowerShell/EditorSyntax'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">#!/usr/bin/env pwsh
+
+# source:  https://github.com/PowerShell/PowerShellStandard/blob/3436bfc162d6804dd11d1d76c4faff486b4b405d/build.ps1
+
+param ( 
+    [Parameter(ParameterSetName=&quot;Clean&quot;)][switch]$Clean,
+    [Parameter(ParameterSetName=&quot;Test&quot;)][switch]$Test
+)
+
+import-module $PSScriptRoot/PowerShellStandard.psm1 -force
+
+if ( $Clean ) {
+    Start-Clean
+    return
+}
+
+Start-Build
+
+if ( $Test ) {
+    Invoke-Test
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/PowerShell'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">name value1 value2
+name -Param1 value1 -Param2 value2</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=powershell">Keywords</a> in PowerShell</h4>
+<p class="scrollParagraphComponent">begin break catch class continue data define do dynamicparam else elseif end exit filter finally for foreach from function if in param process return switch throw trap try until using var while workflow parallel sequence inlinescript configuration</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/switch-statements-feature.html">Switch Statements</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/functions-feature.html">Functions</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/exceptions-feature.html">Exceptions</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/classes-feature.html">Classes</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre><# A comment
+#></pre></td>
+<td><# #></td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td></td>
+<td>'</td>
+</tr>
+<tr><td><a href="../languages/assignment-feature.html">Assignment</a></td>
+<td>✓</td>
+<td></td>
+<td>=</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td></td>
+<td>echo</td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre># A comment</pre></td>
+<td>#</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about PowerShell on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=Windows PowerShell for Developers Douglas Finke">Windows PowerShell for Developers</a></td>
+<td>Douglas Finke</td>
+<td>2012</td>
+<td>7</td>
+<td>64</td>
+<td>3.70</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Powershell: Comprehensive Beginner's Guide to Learn Powershell Programming Daniel Jones">Powershell: Comprehensive Beginner's Guide to Learn Powershell Programming</a></td>
+<td>Daniel Jones</td>
+<td></td>
+<td>0</td>
+<td>2</td>
+<td>1.00</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Windows PowerShell 2 for Dummies Steve Seguis">Windows PowerShell 2 for Dummies</a></td>
+<td>Steve Seguis</td>
+<td>2009</td>
+<td>1</td>
+<td>18</td>
+<td>3.94</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about PowerShell from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9781305260344">Windows PowerShell Programming for the Absolute Beginner, 3rd</a></td>
+<td>Ford, Jr.   Jerry Lee</td>
+<td>2014</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449322700">Windows PowerShell for Developers: Enhance Your Productivity and Enable Rapid Application Development</a></td>
+<td>Finke, Douglas</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781935182139">Windows PowerShell in Action, Second Edition</a></td>
+<td>Payette, Bruce</td>
+<td>2011</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849688765">Windows PowerShell 4.0 for .NET Developers</a></td>
+<td>Talaat, Sherif</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735663398">Windows PowerShell 3.0 Step by Step (Step by Step Developer)</a></td>
+<td>Wilson, Ed</td>
+<td>2013</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672329661">Essential PowerShell</a></td>
+<td>Schwichtenberg, Holger</td>
+<td>2008</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470173930">Professional Windows PowerShell Programming: Snapins, Cmdlets, Hosts and Providers (Wrox Professional Guides)</a></td>
+<td>Kumaravel, Arul and White, Jon and Li, Michael Naixin and Happell, Scott and Xie, Guohui and Vutukuri, Krishna C.</td>
+<td>2008</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484200162">Windows PowerShell Desired State Configuration Revealed</a></td>
+<td>Chaganti, Ravikanth</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548211981">Powershell: Tips and Tricks to Learn Powershell Programming (Volume 2)</a></td>
+<td>Jones, Mr Daniel</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548556839">Powershell: Comprehensive Beginner's Guide to Learn Powershell Programming (Volume 1)</a></td>
+<td>Jones, Mr Daniel</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781547290239">Powershell: Become A Master In Powershell</a></td>
+<td>Richard Dorsey</td>
+<td>2017</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781545226506">PowerShell: PowerShell Command Line 2017 - Easy Beginners Guide To Write And Run Scripts And Learn Basic PowerShell Commands! (Programming, C++, SQL)</a></td>
+<td>Nelson, Francisco</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484231388">Troubleshooting SharePoint: The Complete Guide to Tools, Best Practices, PowerShell One-Liners, and Scripts</a></td>
+<td>Simpkins, Stacy</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781470066697">Cmd Your Computer: Using Command Prompt, Powershell & Run Commands To Control And Program In The 21st Century.</a></td>
+<td>Cask J. Thomson</td>
+<td>2012</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119644705">PowerShell 7 for IT Professionals: A Guide to Using PowerShell 7 to Manage Windows Systems</a></td>
+<td>Lee, Thomas</td>
+<td>2020</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638353898">Learn Windows PowerShell in a Month of Lunches</a></td>
+<td>Jones, Don</td>
+<td>2016</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593279196">PowerShell for Sysadmins: Workflow Automation Made Easy</a></td>
+<td>Bertram, Adam</td>
+<td>2020</td>
+<td>No Starch Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449320966">Windows PowerShell Pocket Reference: Portable Help for PowerShell Scripters (Pocket Reference (O'Reilly))</a></td>
+<td>Holmes, Lee</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484248508">Pro PowerShell for Amazon Web Services</a></td>
+<td>Beach, Brian and Armentrout, Steven and Bozo, Rodney and Tsouris, Emmanuel</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449320683">Windows PowerShell Cookbook: The Complete Guide to Scripting Microsoft's Command Shell</a></td>
+<td>Holmes, Lee</td>
+<td>2013</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735675117">Windows PowerShell Step by Step</a></td>
+<td>Wilson, Ed</td>
+<td>2015</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484245040">PowerShell and Python Together: Targeting Digital Investigations</a></td>
+<td>Hosmer, Chet</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781530411825">PowerShell: For Beginners! Master The PowerShell Command Line In 24 Hours (Python Programming, Javascript, Computer Programming, C++, SQL, Computer Hacking, Programming)</a></td>
+<td>Artuso, Alex</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484234839">Pro PowerShell Desired State Configuration: An In-Depth Guide to Windows PowerShell DSC</a></td>
+<td>Chaganti, Ravikanth</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598638998">Microsoft  Windows PowerShell 2.0 Programming for the Absolute Beginner, 2nd Edition</a></td>
+<td>Ford, Jr.  Jerry Lee</td>
+<td>2008</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617290558">PowerShell in Depth: An administrator's guide</a></td>
+<td>Jones, Don and Siddaway, Richard and Hicks, Jeffrey</td>
+<td>2013</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784392208">Microsoft Hyper-V PowerShell Automation</a></td>
+<td>Menon, Vinith</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484205419">Pro PowerShell for Database Developers</a></td>
+<td>Cafferky, Bryan P.</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785280269">Windows PowerShell for .NET Developers - Second Edition</a></td>
+<td>Venkatesan, Chendrayan and Talaat, Sherif</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596801502">Windows PowerShell Cookbook: The Complete Guide to Scripting Microsoft's New Command Shell</a></td>
+<td>Holmes, Lee</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781545494325">Powershell: The Ultimate Windows Powershell Beginners Guide. Learn Powershell Scripting In A Day! (Powershell, Powershell guide, Powershell scripting, ... Hacking, Tor, Programming, Command Line)</a></td>
+<td>Jones, Jack</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782176039">Microsoft Exchange Server PowerShell Essentials</a></td>
+<td>Banerjee, Biswanath</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784393267">Microsoft System Center PowerShell Essentials</a></td>
+<td>HP,  Guruprasad and Patel,  Harshul</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484218518">Troubleshooting Windows Server with PowerShell</a></td>
+<td>Schauland, Derek and Jacobs, Donald</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430264521">Pro PowerShell for Amazon Web Services: DevOps for the AWS Cloud</a></td>
+<td>Beach, Brian</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598633542">Microsoft Windows PowerShell Programming for the Absolute Beginner</a></td>
+<td>Ford Jr., Jerry Lee</td>
+<td>2006</td>
+<td>Cengage Learning PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849689427">Microsoft Exchange Server 2013 Powershell Cookbook: Second Edition</a></td>
+<td>Andersson, Jonas and Pfeiffer, Mike</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430264736">Beginning PowerShell for SharePoint 2013</a></td>
+<td>Charlebois-Laprade, Nikolas</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780132715195">Essential PowerShell</a></td>
+<td>Schwichtenberg Holger</td>
+<td>2008</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118027318">Automating Active Directory Administration with Windows PowerShell 2.0</a></td>
+<td>St. Cyr, Ken and Hunter, Laura E.</td>
+<td>2011</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781719982535">CMD Your Computer: An In-Depth Guide to Command Prompt, Batch Programming and Powershell</a></td>
+<td>Thomson, Cask J.</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470477281">Microsoft SQL Server 2008 Administration with Windows PowerShell</a></td>
+<td>Muthusamy, Ananthakumar</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735626461">Windows PowerShell 2.0 Best Practices (IT Best Practices - Microsoft Press)</a></td>
+<td>Ed Wilson</td>
+<td>2009</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590599402">Pro Windows PowerShell</a></td>
+<td>Deshev, Hristo</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430268475">Pro Exchange 2013 SP1 PowerShell Administration: For Exchange On-Premises and Office 365</a></td>
+<td>de Rooij, Michel and Wesselius, Jaap</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798404004441">PowerShell Programming, For Beginners, Quick Start Guide: PowerShell Programming Language Crash Course Tutorial, Textbook & Exercises</a></td>
+<td>Yao, Ray</td>
+<td>2022</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470939208">Automating SharePoint 2010 with Windows PowerShell 2.0</a></td>
+<td>Lapointe, Gary and Bray, Shannon</td>
+<td>2011</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785287435">Windows PowerShell for .NET Developers - Second Edition</a></td>
+<td>Venkatesan, Chendrayan and Talaat, Sherif</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849684118">Microsoft SharePoint 2010 and Windows PowerShell 2.0: Expert Cookbook</a></td>
+<td>Pentsarskyy, Yaroslav</td>
+<td>2011</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781976408359">Powershell: Advanced Strategies to Learn and Execute Powershell Programming (Volume 5)</a></td>
+<td>Jones, Mr Daniel</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781537717135">PowerShell: For Beginners! - Learn How To Write And Run Scripts From The PowerShell Command Line (Python Programming, Javascript, Computer Programming)</a></td>
+<td>Larson, David</td>
+<td>2016-09-17T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781976055096">Powershell: Best Practices to Learn and Execute Powershell Programming (Volume 4)</a></td>
+<td>Jones, Mr Daniel</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781791316761">Advanced Programming With Sample Codings: 4 Books In 1- Arduino, C++, Powershell and Python Programming with Sample Designs and Codings</a></td>
+<td>Webber, Zach</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782173571">PowerShell Troubleshooting Guide</a></td>
+<td>Shepard, Michael</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781719524995">PowerShell: The Utmost Intermediate Course Guide in Fundamentals and Concept of PowerShell Programming (Volume 2)</a></td>
+<td>Webber, Zach</td>
+<td>2018-05-20T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548542726">Powershell: The What, When and How of Powershell (David Chang - Programming) (Volume 1)</a></td>
+<td>Chang, David</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781719359023">Powershell: 2 Books in 1: The Comprehensive Beginners Guide to Taking Control of The PowerShell Command Line & Best Practices to Excel While Learning PowerShell Programming</a></td>
+<td>Price, Miles</td>
+<td>2018-05-20T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781987737899">PowerShell: Best Practices to Excel While Learning PowerShell Programming</a></td>
+<td>Price, Miles</td>
+<td>2018</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781975980177">Programming for Beginners: 6 Books in 1- Powershell Programming(3 Book series) & Docker Programming(3 Book series)</a></td>
+<td>Jones, Mr Daniel</td>
+<td>2017</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470535769">Windows Powershell 2 For Dummies</a></td>
+<td>Steve Seguis</td>
+<td>2009</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781337684279">Acp Ms Windows Powershell Programming</a></td>
+<td>Jerry Lee Ford Jr.</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787126404">Windows Server 2016 Automation with PowerShell Cookbook - Second Edition</a></td>
+<td>Thomas Lee</td>
+<td>21-09-2017</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098101565">PowerShell Cookbook</a></td>
+<td>Lee Holmes</td>
+<td>20210616</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781501506611">Learning PowerShell</a></td>
+<td>Jonathan Hassell</td>
+<td>20170320</td>
+<td>De Gruyter</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548105365">Powershell: The Ultimate Windows Powershell Beginners Guide - Part 2. Take Your Powershell Scripting Further! (powershell, Powershell Guide, ... Hacking, Tor, Programming, Command Line)</a></td>
+<td>Jack Jones</td>
+<td>2017-06-14</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638352594">PowerShell in Practice</a></td>
+<td>Richard Siddaway</td>
+<td>20100607</td>
+<td>Simon & Schuster</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484270646">PowerShell for Beginners</a></td>
+<td>Ian Waters</td>
+<td>20210611</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781800208575">Mastering PowerShell Scripting</a></td>
+<td>Chris Dent</td>
+<td>29-06-2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449364281">Windows PowerShell Cookbook</a></td>
+<td>Lee Holmes</td>
+<td>20121222</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449399627">Windows PowerShell Cookbook</a></td>
+<td>Lee Holmes</td>
+<td>20100819</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638353294">PowerShell in Depth</a></td>
+<td>Don Jones; Jeffery Hicks; Richard Siddaway</td>
+<td>20141031</td>
+<td>Simon & Schuster</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430205463">Pro Windows PowerShell</a></td>
+<td>Hristo Deshev</td>
+<td>20080406</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781098101633">PowerShell Pocket Reference</a></td>
+<td>Lee Holmes</td>
+<td>20210422</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484277591">PowerShell Fast Track</a></td>
+<td>Vikas Sukhija</td>
+<td>20211125</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449364274">Windows PowerShell Cookbook</a></td>
+<td>Lee Holmes</td>
+<td>20121222</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491937471">Windows Powershell For Developers</a></td>
+<td>Douglas Finke</td>
+<td>2016</td>
+<td>O'Reilly Media, Incorporated</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849686792">Instant Windows PowerShell Guide</a></td>
+<td>Harshul Patel</td>
+<td>20131125</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449363390">Windows PowerShell Pocket Reference</a></td>
+<td>Lee Holmes</td>
+<td>20121210</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449322687">Windows PowerShell for Developers</a></td>
+<td>Douglas Finke</td>
+<td>20120706</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484263884">Building Better PowerShell Code</a></td>
+<td>Adam Bertram</td>
+<td>20201019</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449363383">Windows PowerShell Pocket Reference</a></td>
+<td>Lee Holmes</td>
+<td>20121210</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638351566">Windows PowerShell in Action</a></td>
+<td>Bruce Payette; Richard Siddaway</td>
+<td>20170919</td>
+<td>Simon & Schuster</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783866457119">Windows PowerShell 2.0 - Crashkurs</a></td>
+<td>Peter Monadjemi</td>
+<td>20100224</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449322663">Windows PowerShell for Developers</a></td>
+<td>Douglas Finke</td>
+<td>20120706</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783848301041">Windows PowerShell 2.0 - Crashkurs</a></td>
+<td>Peter Monadjemi</td>
+<td>20120601</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781548212247">Powershell: Simple And Effective Strategies To Execute Powershell Programming (volume 3)</a></td>
+<td>Mr Daniel Jones</td>
+<td>2017</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781509300457">Windows Powershell Step By Step</a></td>
+<td>Ed Wilson</td>
+<td>2015</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781540670021">Powershell : The Complete Beginner's Guide</a></td>
+<td>Byron Francis</td>
+<td>2016</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781987665505">Powershell: The Ultimate Beginners Guide To Learn And Understand Powershell Programming Effectively</a></td>
+<td>Webber and Zach</td>
+<td>2018</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781723976858">Powershell: 21 Sample Codes And Advance Crash Course Guide In Powershell Programming</a></td>
+<td>Zach Webber</td>
+<td>2018</td>
+<td>Independently Published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849686433">PowerShell 3.0 Advanced Administration Handbook</a></td>
+<td>Sherif Talaat and Haijun Fu</td>
+<td>2013-04-25</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484228845">Beginning PowerShell for SharePoint 2016</a></td>
+<td>Nikolas Charlebois-Laprade; John Edward Naguib</td>
+<td>20170523</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484206652">Pro PowerShell for Microsoft Azure</a></td>
+<td>Sherif Talaat</td>
+<td>20151124</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781509300433">Windows Powershell Step By Step</a></td>
+<td>Wilson, Ed , 1957- (author.)</td>
+<td></td>
+<td>Microsoft Press,</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484231296">Essential PowerShell for Office 365</a></td>
+<td>Vlad Catrinescu</td>
+<td>20180327</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781542744911">Powershell: Powershell Command Line Tips - Learn How To Write And Run Scripts, Plus Basic Powershell Commands! (python Programming, Computer Hacking, Programming)</a></td>
+<td>Chester Mckinney</td>
+<td>2017</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849688772">Windows PowerShell 4.0 for .NET Developers</a></td>
+<td>Sherif Talaat</td>
+<td>2014-01-16</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638351559">Learn PowerShell Scripting in a Month of Lunches</a></td>
+<td>Don Jones; Jeffery Hicks</td>
+<td>20171111</td>
+<td>Simon & Schuster</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781305260351">Microsoft Windows Powershell Programming For The Absolute Beginner</a></td>
+<td>Jerry Lee Ford</td>
+<td></td>
+<td>Nelson Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781849689632">Instant Windows Powershell 3.0 Windows Management Instrumentation Starter</a></td>
+<td>Brenton J.W. Blawat</td>
+<td>20130326</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470289860">Professional Windows Powershell Programming: Snapins, Cmdlets, Hosts And Providers</a></td>
+<td>Jon White and Arul Kumaravel and Michael Naixin Li and Scott Happell and Guohui Xie and Krishna C.  Vutukuri</td>
+<td>2008</td>
+<td>John Wiley & Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119867845">Windows Server 2022 & Powershell All-in-One For Dummies</a></td>
+<td>Sara Perrott</td>
+<td>2022-03-29</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118118542">Automating Active Directory Administration With Windows Powershell 2. 0</a></td>
+<td>Ken St. Cyr and Laura E. Hunter</td>
+<td>2011</td>
+<td>Wiley & Sons, Incorporated, John</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781730803901">Powershell: The Complete 3 Books In 1 For Beginners, Intermediate And 21 Sample Codings And Advance Crash Course Guide In Powershell Programming</a></td>
+<td>Zach Webber</td>
+<td>2018-11-03</td>
+<td>Independently Published</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about PowerShell from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/2ce5684b7b0a14e3ea3c1f281c8f1f9e1db56b7f">Detecting Malicious PowerShell Commands using Deep Neural Networks</a></td>
+<td>Danny Hendler and Shay Kels and Amir Rubin</td>
+<td>2018</td>
+<td>54</td>
+<td>8</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/77369f12dd131a755129b1b5b923b1d479eff5db">AST-Based Deep Learning for Detecting Malicious PowerShell</a></td>
+<td>Gili Rusak and Abdullah Al-Dujaili and Una-May O’Reilly</td>
+<td>2018</td>
+<td>21</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e0390ca20fd2572a1f6e41898fdd39e030649bf6">Working with PowerShell</a></td>
+<td>R. Garrett</td>
+<td>2013</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="isbn.html">isbn.html</a> · powershell.html · <a href="elixir.html">elixir.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/powershell.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

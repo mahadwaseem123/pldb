@@ -1,0 +1,458 @@
+title C#
+
+import settings.scroll
+htmlTitle C# - Pl
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/csharp.pldb
+
+paragraph
+ C# is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2000">2000</a> by <a href="../lists/creators.html#Anders_Hejlsberg">Anders Hejlsberg</a>.
+
+kpiTable
+ #12 <span title="TotalRank: 41 Jobs: 11 Users: 22 Facts: 33 Links: 8">on PLDB</span>
+ 22 Years Old
+ 217.3k <span title="Crude user estimate from a linear model.">Users</span>
+ 3 <span title="Books about or leveraging C#">Books</span>
+ 0 <span title="Academic publications about or leveraging C#">Papers</span>
+ 2m <span title="C# repos on GitHub.">Repos</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/csharp">Riju</a> · <a href="https://repl.it/languages/csharp">Replit</a>
+
+monacoEditor csharp
+ class Program
+ {
+     static int Square(int num) => num * num;
+ }
+ 
+
+
+
+paragraph
+ C# (pronounced as see sharp) is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed by Microsoft within its .NET initiative and later approved as a standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2006). C# is one of the programming languages designed for the Common Language Infrastructure. <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://docs.microsoft.com/dotnet/csharp/language-reference/">C# website</a>
+ - the <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C# Wikipedia page</a>
+ - There are at least 2,161,625 C# repos on <a href="https://github.com/search?q=language:C#">GitHub</a>
+ - C# first developed in <a href="../lists/originCommunities.html#Microsoft">Microsoft</a>
+ - PLDB estimates there are currently 20k job openings for C# programmers.
+ - file extensions for C# include cs, cake, csx and linq
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 83k users using C# in 133k repos on <a href="https://api.github.com/search/repositories?q=language:C#">GitHub</a>
+ - Check out the 802 <a href="https://www.meetup.com/topics/csharp/">C# meetup groups</a> on Meetup.com.
+ - There are 202,070 members in the <a href="https://reddit.com/r/csharp">C# subreddit</a>
+ - There are 14,113 <a href="https://projecteuler.net/language=C#">Project Euler</a> users using C#
+ - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> C# programmers reported a median salary of $58,368. 28% of respondents reported using C#. 22,984 programmers reported using C#, and 17,999 said they wanted to use it
+ - C# is listed on <a href="https://hopl.info/showlanguage.prx?exp=3445">HOPL</a>
+ - C# ranks #5 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/csharp">grammar</a> for C#
+ - Here is a C# <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/OmniSharp/csharp-language-server-protocol">implementation</a>
+ - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/csharp">package</a> for syntax highlighting C#
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/dotnet.py">syntax highlighting</a> for C#
+ - GitHub supports <a href="https://github.com/atom/language-csharp" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for C#
+ - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/zabirauf/icsharp">Kernel</a> for C#
+ - There is a <a href="https://www.nuget.org/">central package repository</a> for C#
+ - Indeed.com has 19,747 matches for <a href="https://www.indeed.com/jobs?q=c# developer">"c# developer"</a>.
+ - See also: <a href="spec-sharp.html">Spec Sharp</a>, <a href="eiffel.html">Eiffel</a>, <a href="java.html">Java</a>, <a href="modula-3.html">Modula-3</a>, <a href="object-pascal.html">Object Pascal</a>, <a href="ml.html">ML</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="icon.html">Icon</a>, <a href="haskell.html">Haskell</a>, <a href="rust.html">Rust</a>, <a href="jsharp.html">J#</a>, <a href="f-sharp.html">F#</a>, <a href="chapel.html">Chapel</a>, <a href="crystal.html">Crystal</a>, <a href="d.html">D</a>, <a href="dart.html">Dart</a>, <a href="hack.html">Hack</a>, <a href="kotlin.html">Kotlin</a>, <a href="monkey.html">Monkey</a>, <a href="nemerle.html">Nemerle</a>, <a href="oxygene.html">Oxygene</a>, <a href="swift.html">Swift</a>, <a href="vala.html">Vala</a>, <a href="unity-engine.html">Unity</a>, <a href="c.html">C</a>, <a href="turbo-pascal.html">Turbo Pascal</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="linq.html">LINQ</a>, <a href="a-sharp.html">A#</a>, <a href="ada.html">Ada</a>, <a href="cil.html">CIL</a>, <a href="fortran.html">Fortran</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="morfik.html">Morfik</a>
+ - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+ - <a href="https://build.pldb.com/edit/csharp">Improve our C# file</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
+code
+ class Program
+ {
+     static int Square(int num) =&gt; num * num;
+ }
+ 
+
+exampleCodeHeader Example from <a href='https://riju.codes/csharp'>Riju</a>:
+code
+ class main {
+     static void Main(string[] args) {
+         System.Console.WriteLine(&quot;Hello, world!&quot;);
+     }
+ }
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/CSharp.cs'>hello-world</a>:
+code
+ System.Console.WriteLine(&quot;Hello World&quot;);
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/atom/language-csharp'>Linguist</a>:
+code
+ ﻿using System;
+ 
+ namespace MongoDB.Serialization.Descriptors
+ {
+     internal class BsonPropertyValue
+     {
+         public bool IsDictionary { get; private set; }
+ 
+         public Type Type { get; private set; }
+ 
+         public object Value { get; private set; }
+ 
+         public BsonPropertyValue(Type type, object value, bool isDictionary)
+         {
+             Type = type;
+             Value = value;
+             IsDictionary = isDictionary;
+         }
+     }
+ }
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/C_Sharp_(programming_language)'>Wikipedia</a>:
+code
+ using System.Windows.Forms;
+ 
+ class Program
+ {
+     static void Main(string[] args)
+     {
+         MessageBox.Show(&quot;Hello, World!&quot;);
+         System.Console.WriteLine(&quot;Is almost the same argument!&quot;);
+     }
+ }
+
+
+
+subsection <a href="../lists/keywords.html?filter=csharp">Keywords</a> in C#
+paragraph
+ abstract add alias as ascending async await base bool break byte case catch char checked class const continue decimal default delegate descending do double dynamic else enum event explicit extern false finally fixed float for foreach from get global goto group if implicit in int interface internal into is join let lock long namespace new null object operator orderby out override params partial private protected public readonly ref remove return sbyte sealed select set short sizeof stackalloc static string struct switch this throw true try typeof uint ulong unchecked unsafe ushort using value var virtual void volatile where while yield
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Conditionals
+  FeatureLink ../languages/conditionals-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Access Modifiers
+  FeatureLink ../languages/access-modifiers-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Switch Statements
+  FeatureLink ../languages/switch-statements-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Exceptions
+  FeatureLink ../languages/exceptions-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Constants
+  FeatureLink ../languages/constants-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Classes
+  FeatureLink ../languages/classes-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature While Loops
+  FeatureLink ../languages/while-loops-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Case Sensitivity
+  FeatureLink ../languages/case-sensitivity-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Function Composition
+  FeatureLink ../languages/function-composition-feature.html
+  Supported ✓
+  Example
+   // Call example:
+   //   var c = Compose(f, g);
+   //
+   //   Func<int, bool> g = _ =>  ...
+   //   Func<bool, string> f = _ => ...
+   
+   Func<TIn, TOut> Compose<TIn, TMid, TOut>(Func<TMid, TOut> f, Func<TIn, TMid> g) => _ => f(g(_));
+  Token 
+ row
+  Feature Default Parameters Pattern
+  FeatureLink ../languages/default-parameters-feature.html
+  Supported ✓
+  Example
+   public void ExampleMethod(string optionalstr = "default string") {}
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Dispose Blocks Pattern
+  FeatureLink ../languages/dispose-blocks-feature.html
+  Supported ✓
+  Example
+   using (Resource resource = GetResource())
+   {
+      // Perform actions with the resource.
+      ...
+   }
+  Token 
+ row
+  Feature Module Pattern
+  FeatureLink ../languages/module-feature.html
+  Supported ✓
+  Example
+   // In C#, namespaces are the semi-equivalent of Java's packages.
+   namespace com.test
+   {
+      class Test {}
+   }
+  Token 
+ row
+  Feature Operator Overloading
+  FeatureLink ../languages/operator-overloading-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Namespaces
+  FeatureLink ../languages/namespace-feature.html
+  Supported ✓
+  Example
+   namespace MyNamespace
+   {
+       class MyClass
+       {
+           public void MyMethod()
+           {
+               System.Console.WriteLine("Creating my namespace");
+       }
+     }
+   }
+  Token 
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   using static System.Console;
+   using static System.Math;
+   class Program
+   {
+       static void Main()
+       {
+           WriteLine(Sqrt(3*3 + 4*4));
+       }
+   }
+  Token 
+ row
+  Feature Type Casting
+  FeatureLink ../languages/type-casting-feature.html
+  Supported ✓
+  Example
+   Animal animal = new Cat();
+   
+   Bulldog b = (Bulldog) animal;   // if (animal is Bulldog), stat.type(animal) is Bulldog, else an exception
+   b = animal as Bulldog;          // if (animal is Bulldog), b = (Bulldog) animal, else b = null
+   
+   animal = null;
+   b = animal as Bulldog;          // b == null
+  Token 
+ row
+  Feature Directives
+  FeatureLink ../languages/directives-feature.html
+  Supported ✓
+  Example
+   #define MAX_CLIENTS 200
+   int array[MAX_CLIENTS];
+   
+   #if PRODUCTION
+   //code
+   #elif DEVELOPMENT
+   //code
+   #else
+   //code
+   #endif
+  Token 
+ row
+  Feature Generators
+  FeatureLink ../languages/generators-feature.html
+  Supported ✓
+  Example
+   // Method that takes an iterable input (possibly an array)
+   // and returns all even numbers.
+   public static IEnumerable<int> GetEven(IEnumerable<int> numbers) {
+       foreach (int i in numbers) {
+           if ((i % 2) == 0) {
+               yield return i;
+           }
+       }
+   }
+  Token 
+ row
+  Feature Constructors
+  FeatureLink ../languages/constructor-feature.html
+  Supported ✓
+  Example
+   public class MyClass
+   {
+       private int a;
+       private string b;
+   
+       // Constructor
+       public MyClass() : this(42, "string")
+       {
+       }
+   
+       // Overloading a constructor
+       public MyClass(int a, string b)
+       {
+           this.a = a;
+           this.b = b;
+       }
+   }
+   // Code somewhere
+   // Instantiating an object with the constructor above
+   MyClass c = new MyClass(42, "string");
+  Token 
+ row
+  Feature Generics
+  FeatureLink ../languages/generics-feature.html
+  Supported ✓
+  Example
+   // Declare the generic class.
+   public class GenericList<T>
+   {
+       public void Add(T input) { }
+   }
+   class TestGenericList
+   {
+       private class ExampleClass { }
+       static void Main()
+       {
+           // Declare a list of type int.
+           GenericList<int> list1 = new GenericList<int>();
+           list1.Add(1);
+   
+           // Declare a list of type string.
+           GenericList<string> list2 = new GenericList<string>();
+           list2.Add("");
+   
+           // Declare a list of type ExampleClass.
+           GenericList<ExampleClass> list3 = new GenericList<ExampleClass>();
+           list3.Add(new ExampleClass());
+       }
+   }
+  Token 
+ row
+  Feature Pointers
+  FeatureLink ../languages/pointers-feature.html
+  Supported ✓
+  Example
+   // Pointers supported only under certain conditions.
+   // Get 16 bytes of memory from the process's unmanaged memory
+   IntPtr pointer = System.Runtime.InteropServices.Marshal.AllocHGlobal(16);
+  Token 
+ row
+  Feature Async Await
+  FeatureLink ../languages/async-await-feature.html
+  Supported ✓
+  Example
+   public async Task<int> FindPageSize(Uri uri) 
+   {
+       byte[] data = await new WebClient().DownloadDataTaskAsync(uri);
+       return data.Length;
+   }
+  Token 
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+   /* A comment
+   */
+  Token /* */
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+   Console.WriteLine("This is C#");
+  Token Console.WriteLine
+ row
+  Feature Assignment
+  FeatureLink ../languages/assignment-feature.html
+  Supported ✓
+  Example
+   int pldb = 80766866;
+  Token 
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+   int pldb = 80766866;
+  Token 
+ row
+  Feature Booleans
+  FeatureLink ../languages/booleans-feature.html
+  Supported ✓
+  Example
+  Token true false
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "hello world"
+  Token "
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // This is a comment
+  Token 
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+foldBreak
+subsection Books about C# from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ C# Programming: From Problem Analysis to Program Design|https://isbndb.com/book/9781285856872|Doyle, Barbara|2015|Cengage Learning
+ Starting out with Visual C#|https://isbndb.com/book/9780134382609|Gaddis, Tony|2016|Pearson
+ Microsoft Visual C# 2013 Step by Step|https://isbndb.com/book/9780735681835|Sharp, John|2013|Microsoft Press
+
+
+
+
+
+
+
+
+keyboardNav matlab.html ruby.html

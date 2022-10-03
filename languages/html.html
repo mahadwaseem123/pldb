@@ -1,0 +1,961 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>HTML - Text markup</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="HTML"></meta>
+  <meta property="og:description" content="HTML is a text markup created in 1991 by Tim Berners-Lee."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="html.html">HTML</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="html.html">HTML</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">HTML is a <a href="../lists/languages.html?filter=textMarkup">text markup</a> created in <a href="../lists/languages.html?filter=1991">1991</a> by <a href="../lists/creators.html#Tim_Berners-Lee">Tim Berners-Lee</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#6<span><span title="TotalRank: 15 Jobs: 2 Users: 2 Facts: 43 Links: 11">on PLDB</span></span></td>
+<td>31<span>Years Old</span></td>
+<td>5.6m<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>116<span><span title="Books about or leveraging HTML">Books</span></span></td>
+<td>7<span><span title="Academic publications about or leveraging HTML">Papers</span></span></td>
+<td>13m<span><span title="HTML repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://playcode.io/html/">Web</a> · <a href="https://repl.it/languages/html">Replit</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>Hello World</title>\n</head>\n<body>\n  <h1>Hello World</h1>\n</body>\n</html>\n`,
+        language: 'html',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. <a href="https://en.wikipedia.org/wiki/HTML">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/HTML">HTML Wikipedia page</a></li>
+<li>There are at least 12,648,584 HTML repos on <a href="https://github.com/search?q=language:HTML">GitHub</a></li>
+<li>HTML first developed in <a href="../lists/originCommunities.html#Conseil_Européen_pour_la_Recherche_Nucléaire">Conseil Européen pour la Recherche Nucléaire</a></li>
+<li>PLDB estimates there are currently 70k job openings for HTML programmers.</li>
+<li>file extensions for HTML include html, hta, htm, htmlhl, inc, xht, xhtml and xslt</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 492k users using HTML in 778k repos on <a href="https://api.github.com/search/repositories?q=language:HTML">GitHub</a></li>
+<li>Check out the 2,347 <a href="https://www.meetup.com/topics/html5/">HTML meetup groups</a> on Meetup.com.</li>
+<li>There are 40,286 members in the <a href="https://www.reddit.com/r/HTML">HTML subreddit</a></li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> HTML programmers reported a median salary of $52,980. 55% of respondents reported using HTML. 46,259 programmers reported using HTML, and 29,353 said they wanted to use it</li>
+<li>HTML is listed on <a href="https://hopl.info/showlanguage.prx?exp=2097">HOPL</a></li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/html">grammar</a> for HTML</li>
+<li>Here is a HTML <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/Microsoft/vscode/tree/master/extensions/html-language-features/server">implementation</a></li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/html">package</a> for syntax highlighting HTML</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/html.py">syntax highlighting</a> for HTML</li>
+<li>GitHub supports <a href="https://github.com/atom/language-html" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for HTML</li>
+<li>Indeed.com has 14,472 matches for <a href="https://www.indeed.com/jobs?q=html developer">"html developer"</a>.</li>
+<li>See also: <a href="sgml.html">SGML</a>, <a href="css.html">CSS</a>, <a href="javascript.html">JavaScript</a>, <a href="webgl.html">WebGL</a>, <a href="dtd.html">DTD</a>, <a href="rfc.html">RFC</a>, <a href="xml.html">XML</a>, <a href="unicode.html">Unicode</a>, <a href="utf-8.html">UTF-8</a>, <a href="http.html">HTTP</a>, <a href="fat.html">FAT</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/html">Improve our HTML file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/HTML.html'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Hello World&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#HTML'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;HTML&gt;
+&lt;!-- Hello World in HTML --&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Hello World!&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+Hello World!
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/atom/language-html'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;/UL&gt;
+&lt;P&gt;&lt;A HREF=&quot;devices.html&quot;&gt;Supported Targets&lt;/A&gt;&lt;/P&gt;
+&lt;/BODY&gt;
+&lt;/HEAD&gt;
+
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/HTML'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;</code>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre><!-- A comment
+--></pre></td>
+<td><!-- --></td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre><!-- Hello World in HTML --></pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about HTML on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=HTML Black Book: The Programmer's Complete HTML Reference Book Steven Holzner">HTML Black Book: The Programmer's Complete HTML Reference Book</a></td>
+<td>Steven Holzner</td>
+<td>2000</td>
+<td>5</td>
+<td>96</td>
+<td>3.77</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=HTML 4 for Dummies Ed Tittel">HTML 4 for Dummies</a></td>
+<td>Ed Tittel</td>
+<td>1995</td>
+<td>10</td>
+<td>130</td>
+<td>3.46</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Html: HTML & CSS: For Beginners: Your Step by Step Guide to Easily HtmL & Css Programming in 7 Days iCode Academy">Html: HTML & CSS: For Beginners: Your Step by Step Guide to Easily HtmL & Css Programming in 7 Days</a></td>
+<td>iCode Academy</td>
+<td></td>
+<td>2</td>
+<td>47</td>
+<td>3.70</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=HTML, XHTML & CSS for Dummies Ed Tittel">HTML, XHTML & CSS for Dummies</a></td>
+<td>Ed Tittel</td>
+<td>2008</td>
+<td>14</td>
+<td>109</td>
+<td>3.55</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=HTML: Learn HTML The Smart Way! HTML for Beginners Guide to: Learning HTML, HTML & CSS, & Web Design (HTML5, HTML5 and CSS3, HTML Programming, HTML CSS, HTML for Beginners, HTML Programming Book 1) Quick Start Guides">HTML: Learn HTML The Smart Way! HTML for Beginners Guide to: Learning HTML, HTML & CSS, & Web Design (HTML5, HTML5 and CSS3, HTML Programming, HTML CSS, HTML for Beginners, HTML Programming Book 1)</a></td>
+<td>Quick Start Guides</td>
+<td>2015</td>
+<td>0</td>
+<td>18</td>
+<td>3.89</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about HTML from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780596101978">Head First Html With CSS & XHTML</a></td>
+<td>Eric Freeman and Elisabeth Freeman and Elisabeth Robson</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619268442">HTML Illustrated Complete (Illustrated Series)</a></td>
+<td>Cox, Vicki and Wermers, Lynn and Reding, Elizabeth Eisner</td>
+<td>2006</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672320774">Sams Teach Yourself Web Publishing with HTML and XHTML in 21 Days, Third Edition (3rd Edition)</a></td>
+<td>Laura Lemay and Denise Tyler and Rafe Colburn</td>
+<td>2001</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071611435">HTML A Beginner's Guide</a></td>
+<td>Willard, Wendy</td>
+<td>2009</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619266264">HTML BASICS, Third Edition (BASICS Series)</a></td>
+<td>Barksdale, Karl and Turner, E. Shane</td>
+<td>2005</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596805869">HTML and XHTML Pocket Reference (Pocket Reference (O'Reilly))</a></td>
+<td>Robbins, Jennifer Niederst</td>
+<td>2010</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471383666">Introduction to Interactive Programming on the Internet: Using HTML and JavaScript</a></td>
+<td>Knuckles, Craig D.</td>
+<td>2000</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619266257">HTML and JavaScript BASICS (BASICS Series)</a></td>
+<td>Barksdale, Karl and Turner, E. Shane</td>
+<td>2005</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619019693">New Perspectives on Creating Web Pages with HTML and Dynamic HTML - Comprehensive (New Perspectives (Course Technology Paperback))</a></td>
+<td>Carey, Patrick</td>
+<td>2000</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619019686">New Perspectives on Creating Web Pages with HTML Second Edition - Comprehensive</a></td>
+<td>Carey, Patrick and Carey, Joan</td>
+<td>2000</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789722676">Special Edition Using HTML 4 (6th Edition)</a></td>
+<td>Holzschlag, Molly E.</td>
+<td>1999</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782143782">Integrated HTML and CSS: A Smarter, Faster Way to Learn</a></td>
+<td>DeBolt, Virginia</td>
+<td>2005</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780761530091">Learn HTML on the Mac in a Weekend</a></td>
+<td>Steven E. Callihan</td>
+<td>2000</td>
+<td>Prima Tech</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071422420">Schaum's Easy Outline HTML</a></td>
+<td>Mercer,David and Mercer, David</td>
+<td>2003</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071373654">Schaum's Outline Of Html</a></td>
+<td>David Mercer</td>
+<td>2001</td>
+<td>Mcgraw-hill Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201379617">Dynamic Html: The Html Developer's Guide</a></td>
+<td>Jeff Rule</td>
+<td>1999</td>
+<td>Addison-wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584502081">Html & Xhtml Template Master CD-Rom</a></td>
+<td>Kelly Valqui</td>
+<td>2002</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781566047302">The Html 4 Programmer's Reference: All Platforms</a></td>
+<td>Mullen, Robert</td>
+<td>1998</td>
+<td>Ventana Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789704115">Html Visual Quick Reference</a></td>
+<td>Scharf, Dean</td>
+<td>1995</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781575213804">HTML 4 Unleashed, Professional Reference Edition (2nd Edition)</a></td>
+<td>Darnell, Rick</td>
+<td>1997</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781592000555">HTML Professional Projects</a></td>
+<td>Gosney, John W.</td>
+<td>2003</td>
+<td>Muska & Lipman/Premier-Trade</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781556159480">HTML in action</a></td>
+<td>Morris, Bruce</td>
+<td>2000</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764540929">HTML Complete Course</a></td>
+<td>Baker, Donna L.</td>
+<td>2003</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619018818">HTML Illustrated Brief, Second Edition</a></td>
+<td>Vodnik, Sasha and Reding, Elizabeth Eisner</td>
+<td>2000</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780595271764">Programming a REAL Internet Site with ASP and HTML: Book I: HTML and Basic ASP</a></td>
+<td>Bosque, Marcelo</td>
+<td>2003</td>
+<td>iUniverse, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781575211770">Html 3.2 and Cgi Unleashed: Professional Reference Edition</a></td>
+<td>December, John and Ginsburg, Mark</td>
+<td>1996</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781576106174">HTML Black Book: The Programmer's Complete HTML Reference Book</a></td>
+<td>Steven Holzner</td>
+<td>2000</td>
+<td>Coriolis Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861005335">HTML 4.01 Programmer's Reference</a></td>
+<td>Chris Ullman and Sean Palmer and Simon Oliver and Stuart Conway and Cassandra Greer and Christian Jarolim and Gary Damschen and Daniel Maharry and Jon Stephens</td>
+<td>2001</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520676081">Programming: Python Programming, JAVA Programming, HTML and CSS Programming for Beginners</a></td>
+<td>Academy, iCode</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781999256753">Computer Programming The Doctrine 2.0: Full Breakdown of HTML, Python, C, C++, Coding Raspberry PI, Java, SQL, HTML and Black Hat Hacking.</a></td>
+<td>Silva, Adesh</td>
+<td>2019</td>
+<td>Adesh Silva</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781575212999">HTML 4 Unleashed</a></td>
+<td>Pozadzides, John</td>
+<td>1997</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789708120">Html by Example</a></td>
+<td>Stauffer, Todd</td>
+<td>1996</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780792396918">HTML and The Art of Authoring For the World Wide Web</a></td>
+<td>Bebo White</td>
+<td>1996</td>
+<td>Springer-Verlag New York, LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672331367">Sams Teach Yourself Web Publishing with HTML and CSS in One Hour a Day: Includes New HTML5 Coverage</a></td>
+<td>Lemay, Laura and Colburn, Rafe</td>
+<td>2010</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781562765293">Html 3.2 Manual of Style (HTMLMANUAL OF STYLE)</a></td>
+<td>Aronson, Larry and Lowery, Joseph</td>
+<td>1997</td>
+<td>Ziff Davis Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672330599">Sams Teach Yourself HTML and CSS: Video Learning Starter Kit</a></td>
+<td>Sams Publishing</td>
+<td>2009</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781877225727">Introduction to Html</a></td>
+<td>Cheryl Price</td>
+<td>2001</td>
+<td>Software Pubns Pty Ltd</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130170040">Html User's Interactive Workbook</a></td>
+<td>Cohn, Alayna and Potter, John</td>
+<td>2000</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430226215">Beginning Smartphone Web Development: Building JavaScript, CSS, HTML and Ajax-based Applications for iPhone, Android, Palm Pre, BlackBerry, Windows Mobile and Nokia S60</a></td>
+<td>Frederick, Gail and Lal, Rajesh</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071809283">HTML: A Beginner's Guide, Fifth Edition: CourseLoad ebook for HTML A BEGINNERS GD 5E</a></td>
+<td>Willard, Wendy</td>
+<td>2013</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781572316867">Inside Dynamic HTML (Microsoft Programming Series)</a></td>
+<td>Isaacs, Scott</td>
+<td>1997</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430203506">Beginning HTML with CSS and XHTML</a></td>
+<td>Craig Cook; David Schultz</td>
+<td>20071018</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781568848228">Creating Cool Web Pages With Html</a></td>
+<td>Dave Taylor</td>
+<td>1995</td>
+<td>John Wiley & Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430204794">The Essential Guide to CSS and HTML Web Design (Essentials)</a></td>
+<td>Grannell, Craig</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484205440">Custom SharePoint Solutions with HTML and JavaScript: For SharePoint On-Premises and SharePoint Online</a></td>
+<td>Atkinson, Brandon</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430257806">Beginning Windows Store Application Development: HTML and JavaScript Edition (The Expert's Voice in Windows 8)</a></td>
+<td>Isaacs, Scott and Burns, Kyle</td>
+<td>2013</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520562599">HTML & CSS: Learn The Fundamentals In 7 days</a></td>
+<td>Knapp, Micheal</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781536210309">Get Coding 2! Build Five Computer Games Using HTML and JavaScript</a></td>
+<td>Whitney, David</td>
+<td>2019</td>
+<td>Candlewick</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781661846282">The Computer Programming Bible: A Step by Step Guide On How To Master From The Basics to Advanced of Python, C, C++, C#, HTML Coding Raspberry Pi3</a></td>
+<td>Inc, C.P.A</td>
+<td>2020</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781727521900">Computer Programming: The Bible: Learn From The Basics to Advanced of Python, C, C++, C#, HTML Coding, and Black Hat Hacking Step-by-Step IN NO TIME!</a></td>
+<td>Architects, CyberPunk</td>
+<td>2018-09-22T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781681856858">HTML Guide (Speedy Study Guides)</a></td>
+<td>Publishing, Speedy</td>
+<td>2015</td>
+<td>Dot EDU</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071748049">HTML & XHTML DeMYSTiFieD</a></td>
+<td>Cottrell, Lee</td>
+<td>2010</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638350590">Web Design Playground: HTML & CSS The Interactive Way</a></td>
+<td>McFedries, Paul</td>
+<td>2019</td>
+<td>Manning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071748056">HTML & XHTML DeMYSTiFieD</a></td>
+<td>Cottrell, Lee M.</td>
+<td>2010</td>
+<td>McGraw Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780538742351">HTML and JavaScript BASICS</a></td>
+<td>Barksdale, Karl and Turner, E. Shane</td>
+<td>2010</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781285414652">New Perspectives on Blended HTML and CSS Fundamentals: Introductory</a></td>
+<td>Bojack, Henry and Scollard, Sharon</td>
+<td>2012</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781777942885">HTML Beginner's Crash Course: HTML for Beginner's Guide to Learning HTML, HTML & CSS, & Web Design (HTML5, HTML5 and CSS3, HTML Programming, HTML CSS, HTML for Beginners, HTML Programming)</a></td>
+<td>Start Guides, Quick</td>
+<td>2021</td>
+<td>ND Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672317248">Sams Teach Yourself Html 4 in 24 Hours (Sams Teach Yourself...in 24 Hours)</a></td>
+<td>Oliver, Dick</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781541006225">Programming: Computer Programming For Beginners: Learn The Basics Of HTML5, JavaScript & CSS (Coding, C Programming, Java Programming, Web Design, JavaScript, Python, HTML and CSS)</a></td>
+<td>Connor, Joseph</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789726117">HTML Goodies (2nd Edition)</a></td>
+<td>Burns Ph.D., Joe</td>
+<td>2001</td>
+<td>Que Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520561400">HTML & CSS For Beginners: Your Step by Step Guide to Easily HtmL & Css Programming in 7 Days</a></td>
+<td>Academy, iCode</td>
+<td>2017</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072228250">HTML & Web Design Tips & Techniques</a></td>
+<td>Jamsa, Kris and King, Konrad and Anderson, Andy</td>
+<td>2002</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781138911857">Introduction to Web Interaction Design: With HTML and CSS</a></td>
+<td>Macaulay, Michael</td>
+<td>2017</td>
+<td>Chapman and Hall/CRC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781846286568">An Introduction to HTML and JavaScript: for Scientists and Engineers</a></td>
+<td>Brooks, David R.</td>
+<td>2007</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430216063">HTML and CSS Web Standards Solutions: A Web Standardistas' Approach</a></td>
+<td>Persson, Nicklas and Murphy, Christopher</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781568847030">Foundations of World Wide Web Programming With Html & Cgi/Book and Cd-Rom</a></td>
+<td>Tittel, Ed and Gaither, Mark and Hassinger, Sebastian and Erwin, Mike</td>
+<td>1995-08T</td>
+<td>Hungry Minds Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590597477">Beginning HTML with CSS and XHTML: Modern Guide and Reference (Beginning: from Novice to Professional)</a></td>
+<td>Cook, Craig and Schultz, David</td>
+<td>2007</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072229424">HTML & XHTML: The Complete Reference (Osborne Complete Reference Series)</a></td>
+<td>Powell,Thomas</td>
+<td>2003</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781572309975">How to Conduct Behavioral Research over the Internet: A Beginner's Guide to HTML and CGI/Perl (Methodology in the Social Sciences)</a></td>
+<td>Fraley, R. Chris</td>
+<td>2004</td>
+<td>The Guilford Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781571691255">Html 4 How-To: The Definitive Html 4 Problem-Solver</a></td>
+<td>Zakour, John and Foust, Jeff and Kerven, David</td>
+<td>1997</td>
+<td>Waite Group Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565926479">Perl for Web Site Management: HTML Generation, Link Checking, Simple CGI, and More</a></td>
+<td>Callender, John</td>
+<td>2001</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781989120347">Computer Programming Bible: A Step by Step Guide On How To Master From The Basics to Advanced of Python, C, C++, C#, HTML Coding Raspberry Pi3</a></td>
+<td>Inc, C P a</td>
+<td>2020</td>
+<td>Cyberpunk Architects</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781520274737">jQuery Gems: The easy guide to the JavaScript library for beginners who are ready to start moving beyond basic HTML programming.</a></td>
+<td>Sidelnikov, Greg</td>
+<td>2014</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672328787">Sams Teach Yourself Html in 10 Minutes</a></td>
+<td>Hayes, Deidre</td>
+<td>2006</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781447103639">Essential Dynamic HTML fast (Essential Series)</a></td>
+<td>Ayesh, Aladdin</td>
+<td>2012</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470097540">Mastering Integrated HTML and CSS</a></td>
+<td>DeBolt, Virginia</td>
+<td>2007</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118159002">Beginning iOS Application Development with HTML and JavaScript</a></td>
+<td>Wagner, Richard</td>
+<td>2012</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781568304540">Html Artistry: More Than Code</a></td>
+<td>Ibanez, Ardith and Zee, Natalie</td>
+<td>1998</td>
+<td>Hayden Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789709325">Platinum Edition Using HTML 3.2, Java 1.1, and CGI</a></td>
+<td>Jim O'Donnell and Jerry Ablan and Tobin Anthony and Eric Ladd and Dr. Donald Doherty and Jeffry Dwight</td>
+<td>1996</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861001566">Instant HTML Programmer's Reference Html</a></td>
+<td>Homer, Alex and Ullman, Chris and Homer, Alex</td>
+<td>1997</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783319569727">Programming in HTML and PHP: Coding for Scientists and Engineers (Undergraduate Topics in Computer Science)</a></td>
+<td>Brooks, David R.</td>
+<td>2017-09-11T00:00:01Z</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072132328">HTML Programmer's Reference, 2nd Edition</a></td>
+<td>Whitworth, Dan</td>
+<td>2001</td>
+<td>McGraw-Hill/OsborneMedia</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619058012">Programming Basics Using Microsoft Visual Basic, C++, Html and Java</a></td>
+<td>Knowlton, Todd</td>
+<td>2001-10-01T00:00:01Z</td>
+<td>Course Technology Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780538688222">HTML & JavaScript Programming Concepts (Computer Applications Series)</a></td>
+<td>Barksdale, Karl and Turner, E. Shane</td>
+<td>1999</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619187194">New Perspectives on Creating Web Pages with HTML and Dynamic HTML, 2nd Edition</a></td>
+<td>Carey, Patrick</td>
+<td>2003</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789714770">Using HTML 4 - Java 1.1 - Javascript 1.2 - Platinum Edition</a></td>
+<td>Ladd, Eric and O'Donnell, Jim</td>
+<td>1998</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201688627">HTML for the World Wide Web, Second Edition (Visual QuickStart Guide)</a></td>
+<td>Castro, Elizabeth</td>
+<td>1997</td>
+<td>Peachpit Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071419567">Teach Yourself HTML Publishing on the World Wide Web</a></td>
+<td>Bride, Mac</td>
+<td>2003</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789718518">Special Edition Using Html 4</a></td>
+<td>Holzschlag, Molly E.</td>
+<td>1998</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781575210964">Teach Yourself Web Publishing With Html 3.2 in 14 Days: Premier Edition (Teach Yourself (Teach Yourself))</a></td>
+<td>Lemay, Laura</td>
+<td>1996</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764541230">HTML in 10 Simple Steps or Less</a></td>
+<td>Fuller, Robert G.</td>
+<td>2003</td>
+<td>John Wiley &Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781562057046">Creative Html Design</a></td>
+<td>Weinman, Lynda and Weinman, William</td>
+<td>1998</td>
+<td>New Riders Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078821981">Beyond Html</a></td>
+<td>Karpinski, Richard</td>
+<td>1996</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078824371">Dynamic Html in Action</a></td>
+<td>Petrovsky, Michele</td>
+<td>1997</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781508438649">HTML Programming Professional Made Easy: Expert HTML Programming Language Success in a Day for any Computer Users</a></td>
+<td>Key, Sam</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781913151140">HTML & CSS for Beginners: Learn the Fundamentals of Computer Programming (1) (Essential Coding)</a></td>
+<td>Foster, Jo</td>
+<td>2020-02-28T00:00:01Z</td>
+<td>Elluminet Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735606388">Dynamic HTML Reference and Software Development Kit</a></td>
+<td>Microsoft Corporation</td>
+<td>1999</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781519536709">Html & CSS Programming: The Ultimate guide on How you can write Html and CSS in Under 10 Hours</a></td>
+<td>Dawson, Ted</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789710345">10 Minute Guide to Html Style Sheets (SAMS TEACH YOURSELF IN 10 MINUTES)</a></td>
+<td>Zacker, Craig</td>
+<td>1997</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780125531672">Discovering HTML 4</a></td>
+<td>Pfaffenberger, Bryan</td>
+<td>1998</td>
+<td>Academic Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781792923265">HTML Programming For Beginners: Answers all your Questions Step-by-Step (Programming for Beginners: A Friendly Q & A Guide)</a></td>
+<td>Doyle, Ryshith</td>
+<td>2018</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781932813005">Introduction to Extensible HTML (xHTML)</a></td>
+<td>Routt, Bill</td>
+<td>2004</td>
+<td>Althos</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781514646670">PHP - HTML for a customizable edit form (IT Easy Solutions - Programming & Office Automation) (Volume 1)</a></td>
+<td>Taricco, Mr Gian Piero</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764540035">Html & Web Publishing Secrets</a></td>
+<td>Heid, Jim and Block, Adam</td>
+<td>1997</td>
+<td>John Wiley & Sons Inc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780139774225">Javascript and Html 4.0 User's Resource</a></td>
+<td>Murray, William H. and Pappas, Chris H.</td>
+<td>1998</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781999256746">Computer Programming The Doctrine: An introduction to the language of computer programming. From user-friendly HTML to the more advanced Python. C, C++,C#, Coding, Rasberry PI and Black Hat Hacking</a></td>
+<td>Silva, Adesh</td>
+<td>2019</td>
+<td>Adesh Silva</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619101138">New Perspectives on Creating Web Pages with HTML Third Edition - Introductory (New Perspectives (Course Technology Paperback))</a></td>
+<td>Carey, Patrick</td>
+<td>2002</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783656607526">HTML & Advanced HTML Programming for Beginners</a></td>
+<td>Chikani, Nitin</td>
+<td>2014</td>
+<td>GRIN Verlag</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781304699787">Html & Css Programming Guide</a></td>
+<td>Ramasamy, Venkatesh</td>
+<td>2013</td>
+<td>lulu.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788177220865">Html Black Book: Comprehensive Problem Solver</a></td>
+<td>Holzner and Steven</td>
+<td>2000</td>
+<td>Paraglyph Press / Dreamtech, New Delhi, India</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781803060545">HTML & CSS: The Simplified Beginners Guide to build your websites and Easily Html & CSS Programming in 7 Days</a></td>
+<td>Parker, Jacob</td>
+<td>2021</td>
+<td>Jacob Parker</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about HTML from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/aefffbc84ecc2754b34b50bfdd2593ae90637e67">A typed representation for HTML and XML documents in Haskell</a></td>
+<td>Peter Thiemann</td>
+<td>2002</td>
+<td>70</td>
+<td>8</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ef171868f99c03e4875c6b4e9b04e5ab07a1df34">Modeling HTML in Haskell</a></td>
+<td>Peter Thiemann</td>
+<td>2000</td>
+<td>28</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/9b58c94021a5d7f6c1dd7052221a47bde042f5ff">Using HTML and JavaScript in introductory programming courses</a></td>
+<td>Rebecca T. Mercuri and N. Herrmann and J. Popyack</td>
+<td>1998</td>
+<td>15</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/77d6843d3dd20cd3b554aacfac82d0df2a1706c2">Labicom.net — Putting your laboratory online in less than five minutes with WebPager tool: Automatic generation and real-time control of a LabVIEW based laboratory server from pluginless HTML page</a></td>
+<td>Igor Titov and Evgeny Titov</td>
+<td>2013</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/081d9e7d4c794dc4975cc00d9dd5a856d031c787">HTML Voice</a></td>
+<td>Hashmeet Chadha and Satyam Mhatre and Unnati Ganatra and S. Pathak</td>
+<td>2018</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7eca57779b9bcb922028e10feb0e8c9757abea74">Build an Online Shop Website Using Html Programming Language</a></td>
+<td>E. S. Soegoto and H. Pasaribu</td>
+<td>2018</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1bd14d790a2abaa69d9a7114cf864d970516f63b">Recommendation of Instructional Video Clips for HTML Learners Based on the ID3 Algorithm</a></td>
+<td>Ting-Chia Hsu and Kai-Zhong Zhou</td>
+<td>2017</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="cpp.html">cpp.html</a> · html.html · <a href="sql.html">sql.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/html.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

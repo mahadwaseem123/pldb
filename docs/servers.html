@@ -1,0 +1,224 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>About our servers - PLDB</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="About our servers"></meta>
+  <meta property="og:description" content=""></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="servers.html">About our servers</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:80ch;column-count:1;max-width:80ch;"><h1 class="scrollTitleComponent"><a href="servers.html">About our servers</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">You can download all the <a href="https://github.com/breck7/pldb">source code</a> for this site and browse it completely offline from GitHub.</p>
+
+<h3 class="scrollSectionComponent">Domains and DNS</h3>
+
+<p class="scrollParagraphComponent">Most PLDB domains are registered with <a href="https://domains.google/">Google Domains</a> and PLDB uses Google Domains and <a href="https://www.digitalocean.com/">Digital Ocean</a> for DNS.</p>
+
+<p class="scrollParagraphComponent">This site is served using <a href="https://www.nginx.com/">NGINX</a> on <a href="https://releases.ubuntu.com/20.04/">Ubuntu 20</a> running on <a href="https://www.digitalocean.com/">Digital Ocean</a> <span class="scrollCaveat" title="Remember to create the droplets in the same region as the reserved IPs so no DNS update is needed when changing servers.">droplet</span>s. SSL certificates are generated using <a href="https://certbot.eff.org/">certbot</a>.</p>
+
+
+<h4 class="scrollSubsectionComponent">Marconi server setup</h4>
+
+<code class="scrollCodeBlockComponent">apt update
+apt upgrade
+apt install nginx goaccess certbot python3-certbot-nginx
+reboot
+# deploy the site to /var/www/html
+sudo certbot --nginx -d pldb.com</code>
+
+<h4 class="scrollSubsectionComponent">Nginx Setup</h4>
+
+<code class="scrollCodeBlockComponent">add_header 'Access-Control-Allow-Origin' '*' always; add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS' always; add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range' always; add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range' always;</code>
+
+<code class="scrollCodeBlockComponent"># Update nginx conf to allow CORS using the snippet above (putting that on line 58 seems to work):
+vim /etc/nginx/nginx.conf
+nginx -t
+sudo systemctl restart nginx
+# Test that it worked here, swapping XXX with IP address of server: https://v20.ohayo.computer/?filename=testcorsonpldb&nodeBreakSymbol=%7E&edgeSymbol=_&data=web.get_http%253A%252F%252FXXX.XXX.XXX.XXX%252Fpldb.csv%7E_tables.basic</code>
+
+<p class="scrollParagraphComponent">The custom 404 page is activated using the code below (line 142 seems to work):</p>
+
+<code class="scrollCodeBlockComponent">vim /etc/nginx/sites-enabled/default
+nginx -t
+sudo systemctl restart nginx</code>
+
+<code class="scrollCodeBlockComponent">error_page 404 /custom_404.html;
+location = /custom_404.html {
+      root /var/www/html;
+      internal;
+}</code>
+
+<h4 class="scrollSubsectionComponent">Deploying</h4>
+
+<p class="scrollParagraphComponent">Marconi is deployed using <a href="https://linux.die.net/man/1/rsync">rsync</a>.</p>
+
+<h4 class="scrollSubsectionComponent">Analytics</h4>
+
+<p class="scrollParagraphComponent">This site does not use cookies or include any tracking scripts. Server logs are kept and used primarily for catching broken links, broken scripts, and other QA. If you need even more privacy, you can run the site locally or on your own servers. You can view <a href="https://pldb.com/nginxDaily.html">traffic today</a> and/or <a href="https://pldb.com/nginxDailyAll.html">traffic trends</a> for the last two weeks.</p>
+
+<p class="scrollParagraphComponent"><a href="https://goaccess.io/">GoAccess</a> generates these reports. It runs every hour thanks to the <code>cron</code> jobs listed below.</p>
+
+<code class="scrollCodeBlockComponent"># add the server stats cron job below with:
+crontab -e</code>
+
+<code class="scrollCodeBlockComponent">0 * * * * goaccess /var/log/nginx/access.log -o /var/www/html/nginxDaily.html --log-format=COMBINED --anonymize-ip --html-report-title='~24 hours traffic to PLDB.com'
+0 * * * * zcat -f /var/log/nginx/access.log* | goaccess -o /var/www/html/nginxDailyAll.html --log-format=COMBINED --anonymize-ip --html-report-title='~14 days traffic to PLDB.com'</code>
+
+
+
+
+<h4 class="scrollSubsectionComponent">Build Server Setup</h4>
+
+<code class="scrollCodeBlockComponent">apt update
+apt upgrade
+apt install git cloc
+curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
+bash n lts
+# Now node and npm are available
+npm install -g n
+npm install -g pm2 typescript jtree
+# Generate keys
+# ssh-keygen -t rsa
+# Get pldb
+# git clone git@github.com:breck7/pldb.git
+git clone https://github.com/breck7/pldb
+cd pldb
+npm install .
+npm run tsc
+npm run build
+# Test that it works over http
+node ./code/BuildServer.js startDevServer 80
+# Now get SSL cert for https
+snap install core
+snap refresh core
+snap install --classic certbot
+certbot certonly --standalone
+mkdir ignore
+cp /etc/letsencrypt/live/build.pldb.com/privkey.pem ignore
+cp /etc/letsencrypt/live/build.pldb.com/fullchain.pem ignore
+# Now start with pm2 over http2
+pm2 start ./code/BuildServer.js -- startProdServer
+pm2 startup systemd</code>
+
+<h4 class="scrollSubsectionComponent">Deploying Build Server</h4>
+
+<code class="scrollCodeBlockComponent">ssh root@build.pldb.com
+cd pldb
+git pull
+npm install .
+npm run tsc
+npm run build
+pm2 restart 0</code>
+
+
+<h4 class="scrollSubsectionComponent">Logo and favicons</h4>
+
+<p class="scrollParagraphComponent">Favicon designed with <a href="https://formito.com/tools/favicon">this</a> and favicon files generated with <a href="https://favicon.io/">this</a>.</p>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/docs/servers.scroll">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

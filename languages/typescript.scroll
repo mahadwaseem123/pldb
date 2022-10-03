@@ -1,0 +1,406 @@
+title TypeScript
+
+import settings.scroll
+htmlTitle TypeScript - Pl
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/typescript.pldb
+
+paragraph
+ TypeScript is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2012">2012</a> by <a href="../lists/creators.html#Anders_Hejlsberg">Anders Hejlsberg</a>.
+
+kpiTable
+ #30 <span title="TotalRank: 102 Jobs: 30 Users: 33 Facts: 39 Links: 46">on PLDB</span>
+ 10 Years Old
+ 94.6k <span title="Crude user estimate from a linear model.">Users</span>
+ 56 <span title="Books about or leveraging TypeScript">Books</span>
+ 8 <span title="Academic publications about or leveraging TypeScript">Papers</span>
+ 3m <span title="TypeScript repos on GitHub.">Repos</span>
+
+paragraph
+ Try now: <a href="https://playcode.io/typescript/">Web</a> · <a href="https://riju.codes/typescript">Riju</a> · <a href="https://tio.run/#typescript">TIO</a>
+
+monacoEditor typescript
+ console.log("Hello, world!");
+ 
+
+
+
+paragraph
+ TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. Anders Hejlsberg, lead architect of C# and creator of Delphi and Turbo Pascal, has worked on the development of TypeScript. <a href="https://en.wikipedia.org/wiki/TypeScript">Read more on Wikipedia...</a>
+
+list
+ - the <a href="http://www.typescriptlang.org/">TypeScript website</a>
+ - the <a href="https://en.wikipedia.org/wiki/TypeScript">TypeScript Wikipedia page</a>
+ - There are at least 3,281,749 TypeScript repos on <a href="https://github.com/search?q=language:TypeScript">GitHub</a>
+ - TypeScript first developed in <a href="../lists/originCommunities.html#Microsoft">Microsoft</a>
+ - PLDB estimates there are currently 2k job openings for TypeScript programmers.
+ - file extensions for TypeScript include ts, tsx, cts and mts
+ - the TypeScript team is on <a href="https://twitter.com/typescript">Twitter</a>
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 36k users using TypeScript in 48k repos on <a href="https://api.github.com/search/repositories?q=language:TypeScript">GitHub</a>
+ - There are 87,839 members in the <a href="https://reddit.com/r/typescript">TypeScript subreddit</a>
+ - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> TypeScript programmers reported a median salary of $59,172. 30% of respondents reported using TypeScript. 24,909 programmers reported using TypeScript, and 26,905 said they wanted to use it
+ - Explore TypeScript snippets on <a href="http://www.rosettacode.org/wiki/Category:TypeScript">Rosetta Code</a>
+ - TypeScript appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - There is an <a href="https://packages.ubuntu.com/jammy/node-typescript">Ubuntu package</a> for TypeScript
+ - Here is a TypeScript <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/theia-ide/typescript-language-server">implementation</a>
+ - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/typescript">package</a> for syntax highlighting TypeScript
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for TypeScript
+ - GitHub supports <a href="https://github.com/Microsoft/TypeScript-TmLanguage" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for TypeScript
+ - TypeScript appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+ - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/nearbydelta/itypescript">Kernel</a> for TypeScript
+ - There is a <a href="https://npmjs.org/">central package repository</a> for TypeScript
+ - Indeed.com has 1,542 matches for <a href="https://www.indeed.com/jobs?q=typescript developer">"typescript developer"</a>.
+ - <a href="http://www.typescriptlang.org/">typescriptlang.org</a> was registered in 2012
+ - See also: <a href="javascript.html">JavaScript</a>, <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="delphi.html">Delphi</a>, <a href="turbo-pascal.html">Turbo Pascal</a>, <a href="jquery.html">JQuery</a>, <a href="mongodb.html">MongoDB</a>, <a href="d3.html">D3.js</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="emacs-editor.html">Emacs</a>, <a href="vim-editor.html">Vim</a>, <a href="sublime-editor.html">Sublime Text</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="dart.html">Dart</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="elm.html">Elm</a>
+ - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+ - <a href="https://build.pldb.com/edit/typescript">Improve our TypeScript file</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/typescript'>Riju</a>:
+code
+ console.log(&quot;Hello, world!&quot;);
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/t/TypeScript.ts'>hello-world</a>:
+code
+ console.log(&quot;Hello World&quot;);
+ 
+
+exampleCodeHeader Example from <a href='http://helloworldcollection.de/#TypeScript'>the Hello World Collection</a>:
+code
+ // Hello world in TypeScript
+ 
+ alert(&#39;Hello world!&#39;);
+
+exampleCodeHeader Example from <a href='https://github.com/Microsoft/TypeScript-TmLanguage'>Linguist</a>:
+code
+ console.log(&quot;Hello, World!&quot;);
+ 
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/TypeScript'>Wikipedia</a>:
+code
+ class Person {
+     private name: string;
+     private age: number;
+     private salary: number;
+ 
+     constructor(name: string, age: number, salary: number) {
+         this.name = name;
+         this.age = age;
+         this.salary = salary;
+     }
+ 
+     toString(): string {
+         return `${this.name} (${this.age}) (${this.salary})`; // As of version 1.4
+     }
+ }
+
+
+
+
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+   /* A comment
+   */
+  Token /* */
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token 
+ row
+  Feature Algebraic Data Type
+  FeatureLink ../languages/algebraic-types-feature.html
+  Supported ✓
+  Example
+   declare type numOrString = string | number
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Union Types
+  FeatureLink ../languages/union-types-feature.html
+  Supported ✓
+  Example
+   declare type numOrString = string | number
+  Token 
+ row
+  Feature Single-Type Arrays
+  FeatureLink ../languages/single-type-arrays-feature.html
+  Supported ✓
+  Example
+   const scores: int[]
+  Token 
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "hello world"
+  Token "
+ row
+  Feature Type Parameters
+  FeatureLink ../languages/type-parameters-feature.html
+  Supported ✓
+  Example
+   function identity<T>(arg: T): T {
+      return arg;
+   }
+  Token 
+ row
+  Feature Static Typing
+  FeatureLink ../languages/static-typing-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Inheritance
+  FeatureLink ../languages/inheritance-feature.html
+  Supported ✓
+  Example
+   class B {}
+   class A extends B {}
+  Token 
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+   console.log("Hi")
+  Token console.log
+ row
+  Feature Namespaces
+  FeatureLink ../languages/namespace-feature.html
+  Supported ✓
+  Example
+   // Typescript even supports splitting namespaces across multiple files:
+   // Validation.ts
+   namespace Validation {
+       export interface StringValidator {
+           isAcceptable(s: string): boolean;
+       }
+   }
+   // LettersOnlyValidator.ts
+   /// <reference path="Validation.ts" />
+   namespace Validation {
+       const lettersRegexp = /^[A-Za-z]+$/;
+       export class LettersOnlyValidator implements StringValidator {
+           isAcceptable(s: string) {
+               return lettersRegexp.test(s);
+           }
+       }
+   }
+  Token 
+ row
+  Feature Mixins
+  FeatureLink ../languages/mixin-feature.html
+  Supported ✓
+  Example
+   // https://www.typescriptlang.org/docs/handbook/mixins.html
+   class SmartObject implements Disposable, Activatable {
+   }
+   // Note: still need to do some runtime ops to make that work.
+  Token 
+ row
+  Feature Interfaces
+  FeatureLink ../languages/interface-feature.html
+  Supported ✓
+  Example
+   // https://www.typescriptlang.org/docs/handbook/interfaces.html
+   interface SquareConfig {
+      color?: string;
+      width?: number;
+   }
+  Token 
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   import { ZipCodeValidator } from "./ZipCodeValidator";
+   /// <reference path="../typings/jquery.d.ts"/>
+   /// <reference path="components/someclass.ts"/>
+   import moo = module('moo');
+   /// <amd-dependency path="legacy/moduleA" name="moduleA"/>
+  Token 
+ row
+  Feature Type Casting
+  FeatureLink ../languages/type-casting-feature.html
+  Supported ✓
+  Example
+   <number>something;
+  Token 
+ row
+  Feature Classes
+  FeatureLink ../languages/classes-feature.html
+  Supported ✓
+  Example
+   class Person {}
+  Token 
+ row
+  Feature Booleans
+  FeatureLink ../languages/booleans-feature.html
+  Supported ✓
+  Example
+   const result = true
+  Token 
+ row
+  Feature Generics
+  FeatureLink ../languages/generics-feature.html
+  Supported ✓
+  Example
+   function identity<T>(arg: T): T {
+      return arg;
+   }
+  Token 
+ row
+  Feature Abstract Types
+  FeatureLink ../languages/abstract-types-feature.html
+  Supported ✓
+  Example
+   abstract class Animal {}
+   class Dog extends Animal
+  Token 
+ row
+  Feature Access Modifiers
+  FeatureLink ../languages/access-modifiers-feature.html
+  Supported ✓
+  Example
+   class Person {
+     private _age = 2
+     public get age() {
+       return _age
+     }
+     protected year = 1990
+   }
+  Token 
+ row
+  Feature Static Methods
+  FeatureLink ../languages/static-methods-feature.html
+  Supported ✓
+  Example
+   class Person {
+     static sayHi() {
+       console.log("Hello world")
+     }
+   }
+  Token 
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+ row
+  Feature Operator Overloading
+  FeatureLink ../languages/operator-overloading-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+foldBreak
+subsection Books about TypeScript on goodreads
+pipeTable
+ title|titleLink|author|year|reviews|ratings|rating
+ TypeScript for C# programmers|https://www.goodreads.com/search?q=TypeScript for C# programmers Steve  Fenton|Steve  Fenton|2013|3|9|3.67
+ TypeScript for JavaScript Programmers|https://www.goodreads.com/search?q=TypeScript for JavaScript Programmers Steve  Fenton|Steve  Fenton|2012|1|4|3.50
+
+
+foldBreak
+subsection Books about TypeScript from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ TypeScript Blueprints|https://isbndb.com/book/9781785887017|Wolff, Ivo Gabe de|2016|Packt Publishing
+ Beginning Angular 2 with Typescript|https://isbndb.com/book/9781542916677|Lim, Greg|2017|CreateSpace Independent Publishing Platform
+ Mastering TypeScript: Build enterprise-ready, modular web applications using TypeScript 4 and modern frameworks, 4th Edition|https://isbndb.com/book/9781800561601|Rozentals, Nathan|2021|Packt Publishing
+ Learn React with TypeScript 3: Beginner's guide to modern React web development with TypeScript 3|https://isbndb.com/book/9781789618129|Rippon, Carl|2018|Packt Publishing
+ Vue.js 3 Cookbook: Discover actionable solutions for building modern web apps with the latest Vue features and TypeScript|https://isbndb.com/book/9781838827397|Ribeiro, Heitor Ramon|2020|Packt Publishing
+ The TypeScript Workshop: A practical guide to confident, effective TypeScript programming|https://isbndb.com/book/9781838828493|Grynhaus, Ben and Hudgens, Jordan and Hunte, Rayon and Morgan, Matt and Stefanovski, Wekoslav|2021|Packt Publishing
+ TypeScript 4 Design Patterns and Best Practices: Discover effective techniques and design patterns for every programming task|https://isbndb.com/book/9781800563421|Despoudis, Theo|2021|Packt Publishing
+ Essential TypeScript 4: From Beginner to Pro|https://isbndb.com/book/9781484270110|Freeman, Adam|2021|Apress
+ Advanced TypeScript Programming Projects: Build 9 different apps with TypeScript 3 and JavaScript frameworks such as Angular, React, and Vue|https://isbndb.com/book/9781788991018|O'Hanlon, Peter|2019|Packt Publishing
+ Programming with Types: Examples in TypeScript|https://isbndb.com/book/9781638350262|Riscutia, Vlad|2019|Manning
+ Advanced TypeScript Programming Projects: Build 9 different apps with TypeScript 3 and JavaScript frameworks such as Angular, React, and Vue|https://isbndb.com/book/9781789133042|O'Hanlon, Peter|2019|Packt Publishing
+ Hands-On Functional Programming with TypeScript: Explore functional and reactive programming to create robust and testable TypeScript applications|https://isbndb.com/book/9781788831437|Jansen, Remo H.|2019-01-30T00:00:01Z|Packt Publishing
+ TypeScript Design Patterns|https://isbndb.com/book/9781785882289|Vane, Vilic|2016|Packt Publishing
+ Angular Projects: Build nine real-world applications from scratch using Angular 8 and TypeScript|https://isbndb.com/book/9781838550387|Mohammed, Zama Khan|2019|Packt Publishing
+ Deno Web Development: Write, test, maintain, and deploy JavaScript and TypeScript web applications using Deno|https://isbndb.com/book/9781800201149|Santos, Alexandre Portela dos|2021|Packt Publishing
+ Beginning Angular with Typescript (updated to Angular 5)|https://isbndb.com/book/9781981969913|Lim, Greg|2017|CreateSpace Independent Publishing Platform
+ Mastering TypeScript|https://isbndb.com/book/9781786468710|Rozentals, Nathan|2017|Packt Publishing
+ TypeScript Design Patterns|https://isbndb.com/book/9781785280832|Vane, Vilic|2016|Packt Publishing
+ TypeScript Revealed|https://isbndb.com/book/9781430257264|Maharry, Dan|2013|Apress
+ Angular for Material Design: Leverage Angular Material and TypeScript to Build a Rich User Interface for Web Apps|https://isbndb.com/book/9781484254349|Kotaru, Venkata Keerti|2019|Apress
+ TypeScript Blueprints|https://isbndb.com/book/9781785888779|Wolff, Ivo Gabe de|2016|Packt Publishing
+ TypeScript 2.x By Example: Build engaging applications with TypeScript, Angular, and NativeScript on the Azure platform|https://isbndb.com/book/9781787280878|Ohri, Sachin|2017|Packt Publishing
+ Learning TypeScript 2.x: Develop and maintain captivating web applications with ease, 2nd Edition|https://isbndb.com/book/9781788396608|Jansen, Remo H.|2018|Packt Publishing
+ Building Chatbots in TypeScript with the Microsoft Bot Framework: Programming Useful Bots in the Node.JS SDK|https://isbndb.com/book/9780578513492|Szul, Michael|2019|The October Foundation
+ TypeScript High Performance: Code for performance, use asynchronous programming, and deliver resources efficiently|https://isbndb.com/book/9781785288647|Kher, Ajinkya|2017-08-24T00:00:01Z|Packt Publishing
+ PROGRAMMING TYPESCRIPT|https://isbndb.com/book/9789352138340|||SHROFF
+ Design Patterns In Typescript|https://isbndb.com/book/9781078401661|Deepak Sukdeo Sapkale|2019|Independently Published
+ TypeScript Programming(Chinese Edition)|https://isbndb.com/book/9787519845964|[ MEI ] BAO LI SI QIE ER NI|2020|China Electric Power Press
+ "TypeScript Programming Notebook: A TypeScript Programming Notebook|Journal|Diary For Daily Use"|https://isbndb.com/book/9781686791451|LLC Publishing, Sanders Industries|2019|Independently published
+ Typescript Programming|https://isbndb.com/book/9781118705377|Zoltan Arvai and Attila Hajdrik|2013|Wrox
+ Refactoring TypeScript|https://isbndb.com/book/9781839218415|James Hickey|20191018|Packt Publishing
+ TypeScript Microservices|https://isbndb.com/book/9781788836852|Parth Ghiya|30-05-2018|Packt Publishing
+ Mastering TypeScript|https://isbndb.com/book/9781784393991|Nathan Rozentals|2015-04-23|Packt Publishing
+ Effective TypeScript|https://isbndb.com/book/9781492053699|Dan  Vanderkam|20191017|O'Reilly Media, Inc.
+ Learning TypeScript|https://isbndb.com/book/9781098110284|Josh  Goldberg|20220603|O'Reilly Media, Inc.
+ TypeScript Quickly|https://isbndb.com/book/9781638351436|Anton Moiseev; Yakov Fain|20200210|Simon & Schuster
+ Programming TypeScript|https://isbndb.com/book/9781492037606|Boris Cherny|20190425|O'Reilly Media, Inc.
+ TypeScript Essentials|https://isbndb.com/book/9781783985777|Christopher Nance|20141021|Packt Publishing
+ TypeScript High Performance|https://isbndb.com/book/9781782174387|Ajinkya Kher|2017-08-24|Packt Publishing
+ The TypeScript Workshop|https://isbndb.com/book/9781838826765|Ben Grynhaus; Jordan Hudgens; Rayon Hunte; Matt Morgan; Wekoslav Stefanovski|29-07-2021|Packt Publishing
+ Mastering Typescript Programming Techniques|https://isbndb.com/book/9781787121416|Tamas Piros|2018|
+ TypeScript for Beginners|https://isbndb.com/book/9781000539967|Sufyan bin Uzayr|20220323|Taylor & Francis
+ Mastering TypeScript 3|https://isbndb.com/book/9781789537475|Nathan Rozentals|28-02-2019|Packt Publishing
+ Typescript Programming Language|https://isbndb.com/book/9781708839802|Typescript Publishing|2019-11-18|Independently Published
+ Design Patterns In Typescript|https://isbndb.com/book/9781789347951|Dimitris Loukas||
+ TypeScript 3.0 Quick Start Guide|https://isbndb.com/book/9781789347937|Patrick Desjardins|2018-08-30|Packt Publishing
+ Mastering TypeScript - Second Edition|https://isbndb.com/book/9781786467485|Nathan Rozentals|2017-02-24|Packt Publishing
+ Angular Development with TypeScript|https://isbndb.com/book/9781638355250|Anton Moiseev; Yakov Fain|20181205|Simon & Schuster
+ Developing Web Components with TypeScript|https://isbndb.com/book/9781484268407|Jörg Krause|20210312|Springer Nature
+ Hands-On Functional Programming with TypeScript|https://isbndb.com/book/9781788838184|Remo H. Jansen|30-01-2019|Packt Publishing
+ TypeScript 2.x for Angular Developers|https://isbndb.com/book/9781786464361|Christian Nwamba|20171207|Packt Publishing
+ TypeScript 4 Design Patterns and Best Practices|https://isbndb.com/book/9781800565418|Theo Despoudis|15-09-2021|Packt Publishing
+ Learn TypeScript 3 by Building Web Applications|https://isbndb.com/book/9781789617863|Sebastien Dubois; Alexis Georges; Basarat Ali Syed|22-11-2019|Packt Publishing
+ Hands-On TypeScript for C# and .NET Core Developers|https://isbndb.com/book/9781789133325|Francesco Abbruzzese|31-10-2018|Packt Publishing
+
+
+foldBreak
+subsection Publications about TypeScript from Semantic Scholar
+pipeTable
+ title|titleLink|authors|year|citations|influentialCitations
+ Understanding TypeScript|https://www.semanticscholar.org/paper/1469b0cbb109c2a788a346dd0480070de8334dea|G. Bierman and M. Abadi and Mads Torgersen|2014|158|23
+ Safe & Efficient Gradual Typing for TypeScript|https://www.semanticscholar.org/paper/26ac3ad840d8d773eec2ab7fc60d441b34c6adc5|Aseem Rastogi and N. Swamy and C. Fournet and G. Bierman and Panagiotis Vekris|2015|93|12
+ Concrete Types for TypeScript|https://www.semanticscholar.org/paper/0b9d9312d42ee79ff09d47be9146bea121dac3c2|G. Richards and Francesco Zappa Nardelli and J. Vitek|2015|46|7
+ Checking correctness of TypeScript interfaces for JavaScript libraries|https://www.semanticscholar.org/paper/0c85abd759cbe878b186a8b01f202a38f048f445|Asger Feldthaus and Anders Møller|2014|38|0
+ An empirical investigation of the effects of type systems and code completion on API usability using TypeScript and JavaScript in MS visual studio|https://www.semanticscholar.org/paper/2020498cd27feb41069b39a0982b65d033e49ffb|Lars Fischer and Stefan Hanenberg|2015|14|0
+ Mixed Messages: Measuring Conformance and Non-Interference in TypeScript|https://www.semanticscholar.org/paper/aac07bd3202a7da8ab2d627bf15a2ac97c1837cd|Jack Williams and J. Garrett Morris and P. Wadler and Jakub Zalewski|2017|11|1
+ Static TypeScript: an implementation of a static compiler for the TypeScript language|https://www.semanticscholar.org/paper/80fedaa1921bb6e42069f83679ae2c42f863a68e|T. Ball and J. D. Halleux and Michal Moskal|2019|5|1
+ To Type or Not to Type? A Systematic Comparison of the Software Quality of JavaScript and TypeScript Applications on GitHub|https://www.semanticscholar.org/paper/475615b230f0fe5a8dffa5970a90c0d98c94827c|J. Bogner and Manuel Merkel|2022|1|0
+
+
+
+
+
+
+keyboardNav lua.html arm.html

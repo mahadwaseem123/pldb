@@ -1,0 +1,437 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>SystemVerilog - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="SystemVerilog"></meta>
+  <meta property="og:description" content="SystemVerilog is a pl created in 2002."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="systemverilog.html">SystemVerilog</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="systemverilog.html">SystemVerilog</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">SystemVerilog is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2002">2002</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#237<span><span title="TotalRank: 551 Jobs: 62 Users: 426 Facts: 219 Links: 270">on PLDB</span></span></td>
+<td>20<span>Years Old</span></td>
+<td>1.3k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>9<span><span title="Books about or leveraging SystemVerilog">Books</span></span></td>
+<td>3<span><span title="Academic publications about or leveraging SystemVerilog">Papers</span></span></td>
+<td>10k<span><span title="SystemVerilog repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `function integer log2;\n  input integer x;\n  begin\n    x = x-1;\n    for (log2 = 0; x > 0; log2 = log2 + 1)\n      x = x >> 1;\n  end\nendfunction\n`,
+        language: 'systemverilog',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">SystemVerilog, standardized as IEEE 1800, is a hardware description and hardware verification language used to model, design, simulate, test and implement electronic systems. SystemVerilog is based on Verilog and some extensions, and since 2008 Verilog is now part of the same IEEE standard. It is commonly used in the semiconductor and electronic design industry as an evolution of Verilog.. <a href="https://en.wikipedia.org/wiki/SystemVerilog">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/SystemVerilog">SystemVerilog Wikipedia page</a></li>
+<li>There are at least 9,972 SystemVerilog repos on <a href="https://github.com/search?q=language:SystemVerilog">GitHub</a></li>
+<li>SystemVerilog first developed in <a href="../lists/originCommunities.html#Synopsys">Synopsys</a></li>
+<li>file extensions for SystemVerilog include sv, svh, vh, header and file</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 872 users using SystemVerilog in 1k repos on <a href="https://api.github.com/search/repositories?q=language:SystemVerilog">GitHub</a></li>
+<li>Explore SystemVerilog snippets on <a href="http://www.rosettacode.org/wiki/Category:SystemVerilog">Rosetta Code</a></li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/systemverilog">package</a> for syntax highlighting SystemVerilog</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/hdl.py">syntax highlighting</a> for SystemVerilog</li>
+<li>GitHub supports <a href="https://github.com/TheClams/SystemVerilog" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SystemVerilog</li>
+<li>See also: <a href="verilog.html">Verilog</a>, <a href="vhdl.html">VHDL</a>, <a href="openvera.html">OpenVera</a>, <a href="java.html">Java</a>, <a href="c.html">C</a>, <a href="property-specification-language.html">Property Specification Language</a>, <a href="axiom.html">AXIOM</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/systemverilog">Improve our SystemVerilog file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/TheClams/SystemVerilog'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">function integer log2;
+  input integer x;
+  begin
+    x = x-1;
+    for (log2 = 0; x &gt; 0; log2 = log2 + 1)
+      x = x &gt;&gt; 1;
+  end
+endfunction
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/SystemVerilog'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">class eth_frame;
+   // Definitions as above
+   covergroup cov;
+      coverpoint dest {
+          bins bcast[1] = {48&#39;hFFFFFFFFFFFF};
+          bins ucast[1] = default;
+      }
+      coverpoint f_type {
+          bins length[16] = { [0:1535] };
+          bins typed[16] = { [1536:32767] };
+          bins other[1] = default;
+      }
+      psize: coverpoint payload.size {
+          bins size[] = { 46, [47:63], 64, [65:511], [512:1023], [1024:1499], 1500 };
+      }
+
+      sz_x_t: cross f_type, psize;
+   endgroup
+endclass</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=systemverilog">Keywords</a> in SystemVerilog</h4>
+<p class="scrollParagraphComponent">accept_on alias always always_comb always_ff always_latch and assert assign assume automatic before begin bind bins binsof bit break buf bufif0 bufif1 byte case casex casez cell chandle checker class clocking cmos config const constraint context continue cover covergroup coverpoint cross deassign default defparam design disable dist do edge else end endcase endchecker endclass endclocking endconfig endfunction endgenerate endgroup endinterface endmodule endpackage endprimitive endprogram endproperty endspecify endsequence endtable endtask enum event eventually expect export extends extern final first_match for force foreach forever fork forkjoin function generate genvar global highz0 highz1 if iff ifnone ignore_bins illegal_bins implements implies import incdir include initial inout input inside instance int integer interconnect interface intersect join join_any join_none large let liblist library local localparam logic longint macromodule matches medium modport module nand negedge nettype new nexttime nmos nor noshowcancelled not notif0 notif1 null or output package packed parameter pmos posedge primitive priority program property protected pull0 pull1 pulldown pullup pulsestyle_ondetect pulsestyle_onevent pure rand randc randcase randsequence rcmos real realtime ref reg reject_on release repeat restrict return rnmos rpmos rtran rtranif0 rtranif1 s_always s_eventually s_nexttime s_until s_until_with scalared sequence shortint shortreal showcancelled signed small soft solve specify specparam static string strong strong0 strong1 struct super supply0 supply1 sync_accept_on sync_reject_on table tagged task this throughout time timeprecision timeunit tran tranif0 tranif1 tri tri0 tri1 triand trior trireg type typedef union unique unique0 unsigned until until_with untyped use uwire var vectored virtual void wait wait_order wand weak weak0 weak1 while wildcard wire with within wor xnor xor</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/binary-numbers-feature.html">Binary Literals</a></td>
+<td>✓</td>
+<td><pre>// ([1-9][_0-9]*)?\s*\'[sS]?[bB]\s*[xXzZ?01][_xXzZ?01]*</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/integers-feature.html">Integers</a></td>
+<td>✓</td>
+<td><pre>// ([1-9][_0-9]*)?\s*\'[sS]?[dD]\s*[xXzZ?0-9][_xXzZ?0-9]*</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/floats-feature.html">Floats</a></td>
+<td>✓</td>
+<td><pre>// (\d+\.\d*|\.\d+|\d+)[eE][+-]?\d+[lL]?</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/hexadecimals-feature.html">Hexadecimals</a></td>
+<td>✓</td>
+<td><pre>// ([1-9][_0-9]*)?\s*\'[sS]?[hH]\s*[xXzZ?0-9a-fA-F][_xXzZ?0-9a-fA-F]*</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/octals-feature.html">Octals</a></td>
+<td>✓</td>
+<td><pre>// ([1-9][_0-9]*)?\s*\'[sS]?[oO]\s*[xXzZ?0-7][_xXzZ?0-7]*</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/inheritance-feature.html">Inheritance</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/functions-feature.html">Functions</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constants-feature.html">Constants</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/classes-feature.html">Classes</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td>//</td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about SystemVerilog on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=SystemVerilog for Verification: A Guide to Learning the Testbench Language Features Chris Spear">SystemVerilog for Verification: A Guide to Learning the Testbench Language Features</a></td>
+<td>Chris Spear</td>
+<td>2006</td>
+<td>1</td>
+<td>16</td>
+<td>4.19</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Systemverilog for Verification: A Guide to Learning the Testbench Language Features Christian B. Spear">Systemverilog for Verification: A Guide to Learning the Testbench Language Features</a></td>
+<td>Christian B. Spear</td>
+<td>2008</td>
+<td>1</td>
+<td>7</td>
+<td>4.71</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Systemverilog for Verification: A Guide to Learning the Testbench Language Features Chris Spear">Systemverilog for Verification: A Guide to Learning the Testbench Language Features</a></td>
+<td>Chris Spear</td>
+<td>2006</td>
+<td>0</td>
+<td>9</td>
+<td>4.22</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about SystemVerilog from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9781461407140">SystemVerilog for Verification: A Guide to Learning the Testbench Language Features</a></td>
+<td>Spear, Chris and Tumbush, Greg</td>
+<td>2012</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780387270388">SystemVerilog for Verification</a></td>
+<td>Chris Spear</td>
+<td>20060915</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789805413">FPGA Programming for Beginners: Bring your ideas to life by creating hardware designs and electronic circuits with SystemVerilog</a></td>
+<td>Bruno, Frank</td>
+<td>2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789807790">FPGA Programming for Beginners: Bring your ideas to life by creating hardware designs and electronic circuits with SystemVerilog</a></td>
+<td>Bruno, Frank</td>
+<td>2021</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119282709">FPGA Prototyping by SystemVerilog Examples: Xilinx MicroBlaze MCS SoC Edition</a></td>
+<td>Chu, Pong P.</td>
+<td>2018</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781500385781">Logic Design and Verification Using SystemVerilog</a></td>
+<td>Thomas, Donald</td>
+<td>2014</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about SystemVerilog from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/8a7f871e1b2f49cbf063a7d92f7b253a1be11a9e">Model-based design verification for embedded systems through SVOCL: an OCL extension for SystemVerilog</a></td>
+<td>Muhammad Waseem Anwar and M. Rashid and F. Azam and M. Kashif</td>
+<td>2017</td>
+<td>36</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fd1f66c3b18e1e704474946f8c3ad03404f5ecae">A model-driven framework for design and verification of embedded systems through SystemVerilog</a></td>
+<td>Muhammad Waseem Anwar and M. Rashid and F. Azam and M. Kashif and Wasi Haider Butt</td>
+<td>2019</td>
+<td>33</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8d919ca9f37b11536a68ee9998001efd7f0af503">Verifying an Implementation of Genetic Algorithm on FPGA-SoC using SystemVerilog</a></td>
+<td>Hayder Al-Hakeem and S. Karhu and J. Alander</td>
+<td>2018</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="robotframework.html">robotframework.html</a> · systemverilog.html · <a href="algol-60.html">algol-60.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/systemverilog.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

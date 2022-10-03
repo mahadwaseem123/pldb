@@ -1,0 +1,493 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>Objective-C - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="Objective-C"></meta>
+  <meta property="og:description" content="Objective-C is a pl created in 1984 by Brad Cox."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="objective-c.html">Objective-C</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="objective-c.html">Objective-C</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">Objective-C is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1984">1984</a> by <a href="../lists/creators.html#Brad_Cox">Brad Cox</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#42<span><span title="TotalRank: 133 Jobs: 20 Users: 100 Facts: 74 Links: 39">on PLDB</span></span></td>
+<td>38<span>Years Old</span></td>
+<td>12.4k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>15<span><span title="Books about or leveraging Objective-C">Books</span></span></td>
+<td>0<span><span title="Academic publications about or leveraging Objective-C">Papers</span></span></td>
+<td>536k<span><span title="Objective-C repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/objectivec">Riju</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `#import <Foundation/Foundation.h>\n\nint main() {\n  NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];\n  NSLog(@"Hello, world!");\n  [pool drain];\n  return 0;\n}\n`,
+        language: 'objective-c',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style messaging to the C programming language. It was the main programming language used by Apple for the OS X and iOS operating systems, and their respective application programming interfaces (APIs) Cocoa and Cocoa Touch prior to the introduction of Swift. The programming language Objective-C was originally developed in the early 1980s. <a href="https://en.wikipedia.org/wiki/Objective-C">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">Objective-C website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/Objective-C">Objective-C Wikipedia page</a></li>
+<li>There are at least 535,667 Objective-C repos on <a href="https://github.com/search?q=language:Objective-C">GitHub</a></li>
+<li>PLDB estimates there are currently 4k job openings for Objective-C programmers.</li>
+<li>file extensions for Objective-C include h, m, mm and C</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 97k users using Objective-C in 167k repos on <a href="https://api.github.com/search/repositories?q=language:Objective-C">GitHub</a></li>
+<li>Check out the 445 <a href="https://www.meetup.com/topics/objective-c/">Objective-C meetup groups</a> on Meetup.com.</li>
+<li>There are 6,609 members in the <a href="https://reddit.com/r/ObjectiveC">Objective-C subreddit</a></li>
+<li>There are 60 <a href="https://projecteuler.net/language=Objective-C">Project Euler</a> users using Objective-C</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Objective-C programmers reported a median salary of $64,859. 3% of respondents reported using Objective-C. 2,310 programmers reported using Objective-C, and 1,400 said they wanted to use it</li>
+<li>Explore Objective-C snippets on <a href="http://www.rosettacode.org/wiki/Category:Objective-C">Rosetta Code</a></li>
+<li>Objective-C is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a></li>
+<li>Objective-C is listed on <a href="https://hopl.info/showlanguage.prx?exp=1247">HOPL</a></li>
+<li>Objective-C ranks #19 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/gobjc">Ubuntu package</a> for Objective-C</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/objc">grammar</a> for Objective-C</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/objective-c">package</a> for syntax highlighting Objective-C</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/objective.py">syntax highlighting</a> for Objective-C</li>
+<li>GitHub supports <a href="https://github.com/textmate/objective-c.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Objective-C</li>
+<li>Objective-C appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>There is a <a href="https://cocoapods.org/">central package repository</a> for Objective-C</li>
+<li>Indeed.com has 4,276 matches for <a href="https://www.indeed.com/jobs?q=objective-c engineer">"objective-c engineer"</a>.</li>
+<li>See also: <a href="c.html">C</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="groovy.html">Groovy</a>, <a href="java.html">Java</a>, <a href="nu.html">Nu</a>, <a href="objective-j.html">Objective-J</a>, <a href="tom-oopl.html">TOM object-oriented</a>, <a href="swift.html">Swift</a>, <a href="ios.html">iOS</a>, <a href="simula.html">Simula</a>, <a href="ada.html">Ada</a>, <a href="self.html">Self</a>, <a href="ruby.html">Ruby</a>, <a href="llvmir.html">LLVM IR</a>, <a href="linux.html">Linux</a>, <a href="vala.html">Vala</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/objective-c">Improve our Objective-C file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/objectivec'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">#import &lt;Foundation/Foundation.h&gt;
+
+int main() {
+  NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+  NSLog(@&quot;Hello, world!&quot;);
+  [pool drain];
+  return 0;
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/o/Objective C.m'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">/*
+ Build on OS X: 
+ clang -framework Foundation -fobjc-arc objc.m -o objc
+ 
+ Build on Linux with GNUstep:
+ clang `gnustep-config --objc-flags` `gnustep-config --base-libs` -fobjc-nonfragile-abi -fobjc-arc objc.m -o objc
+ */
+
+#import &lt;Foundation/Foundation.h&gt;
+
+int main(void)
+{
+    NSLog(@&quot;Hello World&quot;);
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Objective-C'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">/* Hello World in Objective-C.
+** Since the standard implementation is identical to K&amp;R C,
+** a version that says hello to a set of people passed on
+** the command line is shown here.
+*/
+
+#include &lt;stdio.h&gt;
+#include &lt;objpak.h&gt;
+int main(int argc,char **argv)
+{
+    id set = [Set new];
+    argv++;while (--argc) [set add:[String str:*argv++]];
+    [set do:{ :each | printf(&quot;hello, %s!\n&quot;,[each str]); }];
+    return 0;
+}
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/textmate/objective-c.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">#import &quot;Foo.h&quot;
+
+
+@implementation Foo
+
+@end
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/Objective-C'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">-(void) firstLabel: (int)param1 secondLabel: (int)param2;</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=objective-c">Keywords</a> in Objective-C</h4>
+<p class="scrollParagraphComponent">auto break case char const continue default do double else enum extern float for goto if inline int long register restrict return short signed sizeof static struct switch typedef union unsigned void volatile while _Bool _Complex _Imaginary BOOL Class bycopy byref id IMP in inout nil NO NULL oneway out Protocol SEL self Super YES @ @interface @end @implementation @protocol @class @public @protected @private @property @try @throw @catch() @finally @synthesize @dynamic @selector atomic nonatomic retain</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/switch-statements-feature.html">Switch Statements</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constants-feature.html">Constants</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/while-loops-feature.html">While Loops</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td></td>
+<td>printf</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/message-passing-feature.html">Message Passing</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>// A comment</pre></td>
+<td>//</td>
+</tr>
+<tr><td><a href="../languages/interface-feature.html">Interfaces</a></td>
+<td>✓</td>
+<td><pre>@protocol Printing
+   -(void) print;
+@end</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>✓</td>
+<td><pre>// #import ensures that a file is only ever included once so that you never have a problem with recursive includes.
+#import <Foundation/Foundation.h>
+#include <asl.h>
+#include <mach/mach.h></pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/constructor-feature.html">Constructors</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/pointers-feature.html">Pointers</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/single-dispatch-feature.html">Single Dispatch</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"hello world"</pre></td>
+<td>"</td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/operator-overloading-feature.html">Operator Overloading</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/garbage-collection-feature.html">Garbage Collection</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Objective-C on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=Programming in Objective C Stephen G. Kochan">Programming in Objective C</a></td>
+<td>Stephen G. Kochan</td>
+<td>1999</td>
+<td>21</td>
+<td>445</td>
+<td>3.96</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Programming in Objective-C 2.0 Stephen G. Kochan">Programming in Objective-C 2.0</a></td>
+<td>Stephen G. Kochan</td>
+<td>2008</td>
+<td>16</td>
+<td>370</td>
+<td>3.85</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Objective-C Programming: The Big Nerd Ranch Guide Aaron Hillegass">Objective-C Programming: The Big Nerd Ranch Guide</a></td>
+<td>Aaron Hillegass</td>
+<td>2011</td>
+<td>41</td>
+<td>634</td>
+<td>4.17</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=The Objective-C Programming Language Apple Inc.">The Objective-C Programming Language</a></td>
+<td>Apple Inc.</td>
+<td></td>
+<td>0</td>
+<td>24</td>
+<td>3.62</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Objective-C from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780321887283">Programming in Objective-C (Developer's Library)</a></td>
+<td>Kochan, Stephen G.</td>
+<td>2012</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430218159">Learn Objective-C on the Mac (Learn Series)</a></td>
+<td>Knaster, Scott and Dalrymple, Mark</td>
+<td>2008</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470479223">Objective-C</a></td>
+<td>DeVoe, Jiva</td>
+<td>2011</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430241881">Learn Objective-C on the Mac: For OS X and iOS</a></td>
+<td>Knaster, Scott and Dalrymple, Mark and Malik, Waqar</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430236535">Objective-C for Absolute Beginners: iPhone, iPad and Mac Programming Made Easy</a></td>
+<td>Bennett, Gary and Fisher, Mitchell and Lees, Brad</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449387822">Head First iPhone and iPad Development: A Learner's Guide to Creating Objective-C Applications for the iPhone and iPad</a></td>
+<td>Pilone, Dan and Pilone, Tracey</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430223696">Learn Objective-C for Java Developers (Learn Series)</a></td>
+<td>Bucanek, James</td>
+<td>2009</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071703284">Objective-C for iPhone Developers, A Beginner's Guide</a></td>
+<td>Brannan, James</td>
+<td>2010</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449388454">Learning the iOS 4 SDK for JavaScript Programmers: Create Native Apps with Objective-C and Xcode</a></td>
+<td>Goodman, Danny</td>
+<td>2011</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430233312">Pro Objective-C Design Patterns for iOS</a></td>
+<td>Chung, Carlo</td>
+<td>2011</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781935182535">Objective-C Fundamentals</a></td>
+<td>Fairbairn, Christopher and Ruffenach, Collin and Fahrenkrug, Johannes</td>
+<td>2011</td>
+<td>Manning Publications</td>
+</tr></tbody></table>
+
+
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="visual-basic.html">visual-basic.html</a> · objective-c.html · <a href="julia.html">julia.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/objective-c.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

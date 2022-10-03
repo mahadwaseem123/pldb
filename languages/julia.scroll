@@ -1,0 +1,431 @@
+title Julia
+
+import settings.scroll
+htmlTitle Julia - Pl
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/julia.pldb
+
+paragraph
+ Julia is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2012">2012</a> by <a href="../lists/creators.html#Jeff_Bezanson">Jeff Bezanson</a> and <a href="../lists/creators.html#Alan_Edelman">Alan Edelman</a> and <a href="../lists/creators.html#Stefan_Karpinski">Stefan Karpinski</a> and <a href="../lists/creators.html#Viral_B._Shah">Viral B. Shah</a>.
+
+kpiTable
+ #43 <span title="TotalRank: 135 Jobs: 48 Users: 67 Facts: 34 Links: 53">on PLDB</span>
+ 10 Years Old
+ 25.1k <span title="Crude user estimate from a linear model.">Users</span>
+ 22 <span title="Books about or leveraging Julia">Books</span>
+ 36 <span title="Academic publications about or leveraging Julia">Papers</span>
+ 54k <span title="Julia repos on GitHub.">Repos</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/julia">Riju</a> · <a href="https://tio.run/#julia">TIO</a>
+
+monacoEditor julia
+ println("Hello, world!")
+ 
+
+
+
+paragraph
+ Julia is a high-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science, without the typical need of separate compilation to be fast, while also being effective for general-purpose programming, web use or as a specification language. Distinctive aspects of Julia's design include a type system with parametric polymorphism and types in a fully dynamic programming language and multiple dispatch as its core programming paradigm. It allows concurrent, parallel and distributed computing, and direct calling of C and Fortran libraries without glue code. <a href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="http://julialang.org/">Julia website</a>
+ - the <a href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Julia Wikipedia page</a>
+ - There are at least 53,507 Julia repos on <a href="https://github.com/search?q=language:Julia">GitHub</a>
+ - PLDB estimates there are currently 85 job openings for Julia programmers.
+ - file extensions for Julia include jl
+ - the Julia team is on <a href="https://twitter.com/julialanguage">Twitter</a>
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 3k users using Julia in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Julia">GitHub</a>
+ - Check out the 36 <a href="https://www.meetup.com/topics/julia/">Julia meetup groups</a> on Meetup.com.
+ - There are 20,624 members in the <a href="https://reddit.com/r/Julia">Julia subreddit</a>
+ - There are 700 <a href="https://projecteuler.net/language=Julia">Project Euler</a> users using Julia
+ - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Julia programmers reported a median salary of $65,228. 1% of respondents reported using Julia. 1,068 programmers reported using Julia, and 2,445 said they wanted to use it
+ - Explore Julia snippets on <a href="http://www.rosettacode.org/wiki/Category:Julia">Rosetta Code</a>
+ - Julia ranks #35 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - There is an <a href="https://packages.ubuntu.com/jammy/julia">Ubuntu package</a> for Julia
+ - Here is a Julia <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/JuliaEditorSupport/LanguageServer.jl">implementation</a>
+ - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/julia">package</a> for syntax highlighting Julia
+ - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/julia">package</a> for syntax highlighting Julia
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/julia.py">syntax highlighting</a> for Julia
+ - GitHub supports <a href="https://github.com/JuliaEditorSupport/atom-language-julia" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Julia
+ - Julia appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+ - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/JuliaLang/IJulia.jl">Kernel</a> for Julia
+ - There is a <a href="https://pkg.julialang.org/">central package repository</a> for Julia
+ - Indeed.com has 85 matches for <a href="https://www.indeed.com/jobs?q=julia engineer">"julia engineer"</a>.
+ - See also: <a href="c.html">C</a>, <a href="scheme.html">Scheme</a>, <a href="llvmir.html">LLVM IR</a>, <a href="fortran.html">Fortran</a>, <a href="ia-32.html">IA-32</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="lisp.html">Lisp</a>, <a href="lua.html">Lua</a>, <a href="mathematica.html">Mathematica</a>, <a href="wolfram.html">Wolfram Language</a>, <a href="matlab.html">MATLAB</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="r.html">R</a>, <a href="ruby.html">Ruby</a>, <a href="regex.html">Regular Expressions</a>, <a href="unicode.html">Unicode</a>, <a href="utf-8.html">UTF-8</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="dylan.html">Dylan</a>, <a href="algol.html">Algol</a>, <a href="fortress.html">Fortress</a>, <a href="html.html">HTML</a>, <a href="xml.html">XML</a>, <a href="json.html">JSON</a>, <a href="arm.html">ARM</a>, <a href="powerpc.html">PowerPC</a>
+ - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+ - <a href="https://build.pldb.com/edit/julia">Improve our Julia file</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://riju.codes/julia'>Riju</a>:
+code
+ println(&quot;Hello, world!&quot;)
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/j/Julia.jl'>hello-world</a>:
+code
+ println(&quot;Hello World&quot;)
+ 
+
+exampleCodeHeader Example from <a href='http://helloworldcollection.de/#Julia'>the Hello World Collection</a>:
+code
+ # Hello world in Julia
+ 
+ println(&quot;Hello, World!&quot;)
+
+exampleCodeHeader Example from <a href='https://github.com/JuliaEditorSupport/atom-language-julia'>Linguist</a>:
+code
+ #!/usr/bin/env julia
+ 
+ # From https://github.com/JoshCheek/language-sampler-for-fullpath/blob/b766dcdbd249ec63516f491390a75315e78cba95/julia/fullpath
+ help_screen = &quot;&quot;&quot;
+ usage: fullpath *[relative-paths] [-c]
+ 
+   Prints the fullpath of the paths
+   If no paths are given as args, it will read them from stdin
+ 
+   If there is only one path, the trailing newline is omitted
+ 
+   The -c flag will copy the results into your pasteboard
+ &quot;&quot;&quot;
+ 
+ help  = false
+ copy  = false
+ dir   = pwd()
+ paths = []
+ 
+ for arg = ARGS
+   if arg == &quot;-h&quot; || arg == &quot;--help&quot;
+     help = true
+   elseif arg == &quot;-c&quot; || arg == &quot;--copy&quot;
+     copy = true
+   elseif arg != &quot;&quot;
+     push!(paths, arg)
+   end
+ end
+ 
+ if help
+   print(help_screen)
+   exit()
+ end
+ 
+ function notempty(string)
+   return !isempty(string)
+ end
+ 
+ if length(paths) == 0
+   paths = filter(notempty, map(chomp, readlines()))
+ end
+ 
+ function print_paths(stream, paths)
+   if length(paths) == 1
+     path = paths[1]
+     print(stream, &quot;$dir/$path&quot;)
+   else
+     for path = paths
+       println(stream, &quot;$dir/$path&quot;)
+     end
+   end
+ end
+ 
+ if copy
+   read, write, process = readandwrite(`pbcopy`)
+   print_paths(write, paths)
+   close(write)
+ end
+ 
+ print_paths(STDOUT, paths)
+ 
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Julia_(programming_language)'>Wikipedia</a>:
+code
+ julia&gt; p(x) = 2x^2 + 1; f(x, y) = 1 + 2p(x)y
+ julia&gt; println(&quot;Hello world!&quot;, &quot; I&#39;m on cloud &quot;, f(0, 4), &quot; as Julia supports recognizable syntax!&quot;)
+ Hello world! I&#39;m on cloud 9 as Julia supports recognizable syntax!
+
+
+
+subsection <a href="../lists/keywords.html?filter=julia">Keywords</a> in Julia
+paragraph
+ begin while if for try return break continue function macro quote let local global const do struct abstract typealias bitstype type immutable module baremodule using import export importall end else catch finally true false
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Binary Literals
+  FeatureLink ../languages/binary-numbers-feature.html
+  Supported ✓
+  Example
+   # 0b[01]+((_[01]+)+)?
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+   # (\d+((_\d+)+)?\.(?!\.)(\d+((_\d+)+)?)?|\.\d+((_\d+)+)?)([eEf][+-]?[0-9]+)?
+  Token 
+ row
+  Feature Hexadecimals
+  FeatureLink ../languages/hexadecimals-feature.html
+  Supported ✓
+  Example
+   # 0x[a-fA-F0-9]+((_[a-fA-F0-9]+)+)?
+  Token 
+ row
+  Feature Octals
+  FeatureLink ../languages/octals-feature.html
+  Supported ✓
+  Example
+   # 0o[0-7]+((_[0-7]+)+)?
+  Token 
+ row
+  Feature Conditionals
+  FeatureLink ../languages/conditionals-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Functions
+  FeatureLink ../languages/functions-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Constants
+  FeatureLink ../languages/constants-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature While Loops
+  FeatureLink ../languages/while-loops-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   # A comment
+  Token #
+ row
+  Feature Module Pattern
+  FeatureLink ../languages/module-feature.html
+  Supported ✓
+  Example
+   module MyModule
+   using Lib
+   
+   using BigLib: thing1, thing2
+   
+   import Base.show
+   
+   export MyType, foo
+   
+   struct MyType
+       x
+   end
+   
+   bar(x) = 2x
+   foo(a::MyType) = bar(a.x) + 1
+   
+   show(io::IO, a::MyType) = print(io, "MyType $(a.x)")
+   end
+  Token 
+ row
+  Feature Pipes
+  FeatureLink ../languages/pipes-feature.html
+  Supported ✓
+  Example
+   [1,2,3] |> (y -> f(3, y))
+  Token 
+ row
+  Feature Mixins
+  FeatureLink ../languages/mixin-feature.html
+  Supported ✓
+  Example
+   # Including the same code in different modules provides mixin-like behavior.
+   module Normal
+   include("mycode.jl")
+   end
+   
+   module Testing
+   include("safe_operators.jl")
+   include("mycode.jl")
+   end
+  Token 
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   # Files and file names are mostly unrelated to modules; modules are associated only with module expressions.
+   # One can have multiple files per module, and multiple modules per file:
+   using MyModule
+   using MyModule: x, p
+   import MyModule
+   import MyModule.x, MyModule.p
+   import MyModule: x, p
+   module Foo
+   include("file1.jl")
+   include("file2.jl")
+   end
+  Token 
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+   print("hello world")
+  Token println
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+   80766866
+  Token 
+ row
+  Feature Booleans
+  FeatureLink ../languages/booleans-feature.html
+  Supported ✓
+  Example
+  Token true false
+ row
+  Feature Garbage Collection
+  FeatureLink ../languages/garbage-collection-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+   #=
+   A comment.
+   =#
+  Token #= =#
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   # This is a comment
+  Token 
+ row
+  Feature Unicode Identifers
+  FeatureLink ../languages/unicode-identifiers-feature.html
+  Supported ✓
+  Example
+   δ = 0.00001
+  Token 
+ row
+  Feature Multiple Dispatch
+  FeatureLink ../languages/multiple-dispatch-feature.html
+  Supported ✓
+  Example
+   collide_with(x::Asteroid, y::Asteroid) = ... # deal with asteroid hitting asteroid
+   collide_with(x::Asteroid, y::Spaceship) = ... # deal with asteroid hitting spaceship
+   collide_with(x::Spaceship, y::Asteroid) = ... # deal with spaceship hitting asteroid
+   collide_with(x::Spaceship, y::Spaceship) = ... # deal with spaceship hitting spaceship
+  Token 
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "hello world"
+  Token "
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+foldBreak
+subsection Books about Julia from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ The Little Book of Julia Algorithms: A workbook to develop fluency in Julia programming|https://isbndb.com/book/9781838173609|Sengupta, Ahan and Lau, William|2020|SAV Publishing
+ Julia Programming for Operations Research|https://isbndb.com/book/9781798205471|Kwon, Changhyun|2019|Independently published
+ Beginning Julia Programming: For Engineers and Scientists|https://isbndb.com/book/9781484231715|Nagar, Sandeep|2017|Apress
+ Julia Quick Syntax Reference: A Pocket Guide for Data Science Programming|https://isbndb.com/book/9781484251898|Lobianco, Antonello|2019|Apress
+ Julia High Performance: Optimizations, distributed computing, multithreading, and GPU programming with Julia 1.0 and beyond, 2nd Edition|https://isbndb.com/book/9781788298117|Sengupta, Avik|2019-06-10T00:00:01Z|Packt Publishing
+ Tanmay Teaches Julia for Beginners: A Springboard to Machine Learning for All Ages|https://isbndb.com/book/9781260456646|Bakshi, Tanmay|2019|McGraw-Hill Education TAB
+ Julia High Performance: Optimizations, distributed computing, multithreading, and GPU programming with Julia 1.0 and beyond, 2nd Edition|https://isbndb.com/book/9781788292306|Sengupta, Avik|2019|Packt Publishing
+ Julia Programming Projects: Learn Julia 1.x by building apps for data analysis, visualization, machine learning, and the web|https://isbndb.com/book/9781788297257|Salceanu, Adrian|2018|Packt Publishing
+ Julia 1.0 Programming Complete Reference Guide: Discover Julia, a high-performance language for technical computing|https://isbndb.com/book/9781838824679|Balbaert, Ivo and Salceanu, Adrian|2019|Packt Publishing
+ Julia 1.0 Programming Complete Reference Guide: Discover Julia, a high-performance language for technical computing|https://isbndb.com/book/9781838822248|Balbaert, Ivo and Salceanu, Adrian|2019|Packt Publishing
+ Julia Programming Projects: Learn Julia 1.x by building apps for data analysis, visualization, machine learning, and the web|https://isbndb.com/book/9781788292740|Salceanu, Adrian|2018|Packt Publishing
+ Julia 1.0 Programming: Dynamic and high-performance programming to build fast scientific applications, 2nd Edition|https://isbndb.com/book/9781788990059|Balbaert, Ivo|2018|Packt Publishing
+ Tanmay Teaches Julia for Beginners: A Springboard to Machine Learning for All Ages|https://isbndb.com/book/9781260456639|Bakshi, Tanmay|2019|McGraw-Hill Education TAB
+ Julia 1.0 Programming Cookbook: Over 100 numerical and distributed computing recipes for your daily data science workflow|https://isbndb.com/book/9781788998369|Kaminski, Bogumil and Szufel, Przemyslaw|2018-11-29T00:00:01Z|Packt Publishing
+ Julia High Performance|https://isbndb.com/book/9781785887826|Sengupta, Avik|2016|Packt Publishing
+ Hands-On Julia Programming: An Authoritative Guide to the Production-Ready Systems in Julia (English Edition)|https://isbndb.com/book/9789391030889|Dash, Sambit Kumar|2021|BPB Publications
+ Julia 1.0 Programming: Dynamic and high-performance programming to build fast scientific applications, 2nd Edition|https://isbndb.com/book/9781788999090|Balbaert, Ivo|2018|Packt Publishing
+ Julia Programming for Operations Research: A Primer on Computing|https://isbndb.com/book/9781533328793|Kwon, Changhyun|2016|CreateSpace Independent Publishing Platform
+ Julia Cookbook|https://isbndb.com/book/9781785882012|Rohit, Jalem Raj|2016|Packt Publishing
+ Julia 1.0 Programming Cookbook: Over 100 numerical and distributed computing recipes for your daily data science workﬂow|https://isbndb.com/book/9781788998826|Kamiński, Bogumił and Szufel, Przemysław|2018|Packt Publishing
+ Beginning Julia Programming: For Engineers and Scientists|https://isbndb.com/book/9781484231708|Nagar, Sandeep|2017-11-27T00:00:01Z|Apress
+ Numerical Linear Algebra: A Concise Introduction with MATLAB and Julia (Springer Undergraduate Mathematics Series)|https://isbndb.com/book/9783319742229|Bornemann, Folkmar|2018|Springer
+
+
+foldBreak
+subsection Publications about Julia from Semantic Scholar
+pipeTable
+ title|titleLink|authors|year|citations|influentialCitations
+ Optim: A mathematical optimization package for Julia|https://www.semanticscholar.org/paper/5b9beb63591876dc225ea00e04d77498fc28a5ea|P. K. Mogensen and A. N. Riseth|2018|198|8
+ Effective Extensible Programming: Unleashing Julia on GPUs|https://www.semanticscholar.org/paper/7d905f4b07f6eb91177edcf307bc80f9f5c1f33a|Tim Besard and Christophe Foket and B. De Sutter|2017|78|4
+ Nemo/Hecke: Computer Algebra and Number Theory Packages for the Julia Programming Language|https://www.semanticscholar.org/paper/05272de903f0d6ce2bfe6651b53e9147d0d233a5|C. Fieker and W. Hart and Tommy Hofmann and Fredrik Johansson|2017|61|5
+ Julia for robotics: simulation and real-time control in a high-level programming language|https://www.semanticscholar.org/paper/dbae8cb7428e868cfacd210cda2cc50364f191be|T. Koolen and R. Deits|2019|28|0
+ ToQ.jl: A high-level programming language for D-Wave machines based on Julia|https://www.semanticscholar.org/paper/3b98415124b1d661f0c29f030d7f4ae67ca4978a|D. O'Malley and V. Vesselinov|2016|27|3
+ Gridap: An extensible Finite Element toolbox in Julia|https://www.semanticscholar.org/paper/27276e58e2d6c5f44d02185534638e6519f9cae8|S. Badia and F. Verdugo|2020|25|1
+ Systems Modeling and Programming in a Unified Environment Based on Julia|https://www.semanticscholar.org/paper/9a2ebe28b9786c7a6afb0122b8228d084be23f3f|H. Elmqvist and T. Henningsson and M. Otter|2016|25|2
+ Makie.jl: Flexible high-performance data visualization for Julia|https://www.semanticscholar.org/paper/725fcbf7514d2464e5540972dfa16ed7ebea9949|S. Danisch and Julius Krumbiegel|2021|19|1
+ GaussianProcesses.jl: A Nonparametric Bayes Package for the Julia Language|https://www.semanticscholar.org/paper/915aa124c64dc217b69b1c2e50a22c69e04a5c05|Jamie Fairbrother and C. Nemeth and M. Rischard and Johanni Brea and Thomas Pinder|2018|13|1
+ Illustrating the Benefits of Openness: A Large-Scale Spatial Economic Dispatch Model Using the Julia Language|https://www.semanticscholar.org/paper/a304837d021df72ccd0a7edeb69e049626ae9569|Jens Weibezahn and M. Kendziorski|2019|12|0
+ A New Kid on the Block: Application of Julia to Hartree-Fock Calculations.|https://www.semanticscholar.org/paper/8d9735c0cb63af04356f32dc15ba2ac36e07fb64|David L. Poole and Jorge L. Galvez Vallejo and M. Gordon|2020|8|0
+ Efficient Stochastic Programming in Julia|https://www.semanticscholar.org/paper/84694fa560d1eaf48e9a1a191709529c56561838|Martin Biel and M. Johansson|2019|8|1
+ JuPOETs: a constrained multiobjective optimization approach to estimate biochemical model ensembles in the Julia programming language|https://www.semanticscholar.org/paper/80405e5f33de6bea69c162c1e204e34c04ec7e85|D. Bassen and Michael Vilkhovoy and Mason Minot and J. Butcher and J. Varner|2016|8|1
+ Experimental Multi-threading Support for the Julia Programming Language|https://www.semanticscholar.org/paper/7d31348dd404654dd26031091125e56941e64b2e|T. Knopp|2014|7|0
+ BioStructures.jl: read, write and manipulate macromolecular structures in Julia|https://www.semanticscholar.org/paper/9e75082cb736566d8ceb53dacdda6065b7fb3264|Joe G. Greener and Joel Selvaraj and Ben Ward|2020|6|0
+ NetworkDynamics.jl - Composing and simulating complex networks in Julia|https://www.semanticscholar.org/paper/9e7d4d08eee494f88042aa2829bac1cdd8f36910|Michael Q. Lindner and Lucas Lincoln and Fenja Drauschke and J. M. Koulen and Hannes Würfel and A. Plietzsch and F. Hellmann|2020|6|0
+ MRIReco.jl: An MRI reconstruction framework written in Julia|https://www.semanticscholar.org/paper/0e7b3a418f2c49671b802fa3c5435860a520349a|T. Knopp and M. Grosser|2021|6|0
+ Performance of Julia for High Energy Physics Analyses|https://www.semanticscholar.org/paper/1cfdfc910076aee3a9798ef6552ac944dfccefe1|M. Stanitzki and J. Strube|2020|6|2
+ Metatheory.jl: Fast and Elegant Algebraic Computation in Julia with Extensible Equality Saturation|https://www.semanticscholar.org/paper/46b544baa83079f1a59bdafc13e63a2583e27f57|Alessandro Cheli|2021|4|0
+ EBIC.JL: an efficient implementation of evolutionary biclustering algorithm in Julia|https://www.semanticscholar.org/paper/b288b373226d3145347f05d7ea9c13c590efdcb4|Pawel Renc and P. Orzechowski and A. Byrski and Jaroslaw Was and J. Moore|2021|3|0
+ WordTokenizers.jl: Basic tools for tokenizing natural language in Julia|https://www.semanticscholar.org/paper/19a981faaf3c2be82298f214bf5b80a38c4ce0eb|Ayush Kaushal and Lyndon White and Mike Innes and Rohit Kumar|2020|3|0
+ The JuliaConnectoR: a functionally oriented interface for integrating Julia in R|https://www.semanticscholar.org/paper/ca7fd29ec1460159815f8424f1dfb93177623efd|S. Lenz and Maren Hackenberg and H. Binder|2020|2|0
+ Archmodels.Jl: Estimating Arch Models in Julia|https://www.semanticscholar.org/paper/7f6b300bc93f948345a85689c297f8dcb685930a|S. Broda and Marc S. Paolella|2020|2|1
+ Comparing Julia to Performance Portable Parallel Programming Models for HPC|https://www.semanticscholar.org/paper/53aa513eb7efba2755658cff885056f45c83b361|Wei-Chen Lin and S. McIntosh-Smith|2021|2|0
+ Statistically significant performance testing of Julia scientific programming language|https://www.semanticscholar.org/paper/7f1df9117e930987fde207b23ba3bf0dfc453f77|M. N. Gevorkyan and A. V. Demidova and A. Korolkova and D. Kulyabov|2019|2|0
+ Plots.jl - a user extendable plotting API for the julia programming language|https://www.semanticscholar.org/paper/677154c1f6140ea18aea3674a258347a3f08d61a|Simon Christ and D. Schwabeneder and Christopher Rackauckas|2022|2|0
+ Julia Programming Language Benchmark Using a Flight Simulation|https://www.semanticscholar.org/paper/3763cc8a899da4a106f0d84b6c1ed1496cb081fc|R. Sells|2020|2|0
+ "JlBox v1.0: A Julia based mixed-phase atmospheric chemistry
+ box-model"|https://www.semanticscholar.org/paper/c6b7f380d0818a97e5e04e261c7bb66523c5c8e7|La-mei Huang and D. Topping|2020|1|1
+ Rapid prototyping of evolution-driven biclustering methods in Julia|https://www.semanticscholar.org/paper/b4eaa7e68500e18841d8ecbbaf75389e188f4cb3|Pawel Renc and P. Orzechowski and A. Byrski and Jaroslaw Was and J. Moore|2021|1|0
+ RADIv1: a non-steady-state early diagenetic model for ocean sediments in Julia and MATLAB/GNU Octave|https://www.semanticscholar.org/paper/9c31814ff2a9ccee98588ba2ff21ed496563356c|Olivier Sulpis and M. Humphreys and M. Wilhelmus and D. Carroll and W. Berelson and D. Menemenlis and Jack Middelburg and J. Adkins|2021|1|0
+ AuditoryStimuli.jl: A Julia package for generating real-time auditory stimuli|https://www.semanticscholar.org/paper/6233b051235e6a0f44a8e15afc9258abd1247e66|R. Luke|2021|1|0
+ Application of a numerical-analytical approach in the process of modeling differential equations in the Julia language|https://www.semanticscholar.org/paper/d5379b60247a15e6009b5b4961c70fa90e892bd7|A. V. Fedorov and A. O. Masolova and A. Korolkova and D. S. Kulyabov|2020|1|0
+ Julia Language in Computational Mechanics: A New Competitor|https://www.semanticscholar.org/paper/1ef389a28b48ff11e8da8bb26a79ce7c0853e841|Lei Xiao and Gang Mei and Ning Xi and F. Piccialli|2021|1|0
+ The Usage of Julia Programming in Grounding Grids Simulations : An alternative to MATLAB and Python|https://www.semanticscholar.org/paper/183303bc57f9f6b3c05c5828dd34a02b19a4784b|Rodolfo A. R. Moura and M. Schroeder and S. J. S. Silva and E. Nepomuceno and P. H. N. Vieira and A. Lima|2019|1|0
+ An Overview of the Julia Programming Language|https://www.semanticscholar.org/paper/3e62ce30a835230fa8d51c053e4bd2541cfc5fb8|Tyler A. Cabutto and Sean P. Heeney and S. Ault and Guifen Mao and Jin Wang|2018|1|0
+
+
+
+
+
+
+keyboardNav objective-c.html cuda.html

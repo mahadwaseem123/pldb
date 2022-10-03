@@ -1,0 +1,1266 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>XML - Data notation</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="XML"></meta>
+  <meta property="og:description" content="XML, aka Extensible Markup Language, is a data notation created in 1996."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="xml.html">XML</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="xml.html">XML</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">XML, aka Extensible Markup Language, is a <a href="../lists/languages.html?filter=dataNotation">data notation</a> created in <a href="../lists/languages.html?filter=1996">1996</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#9<span><span title="TotalRank: 27 Jobs: 12 Users: 11 Facts: 43 Links: 4">on PLDB</span></span></td>
+<td>26<span>Years Old</span></td>
+<td>1.9m<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>151<span><span title="Books about or leveraging XML">Books</span></span></td>
+<td>37<span><span title="Academic publications about or leveraging XML">Papers</span></span></td>
+<td>3k<span><span title="XML repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `<?xml version="1.0" encoding="UTF-8"?>\n<text><![CDATA[Hello World]]></text>`,
+        language: 'xml',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">In computing, Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The W3C's XML 1.0 Specification and several other related specifications—all of them free open standards—define XML. The design goals of XML emphasize simplicity, generality, and usability across the Internet. <a href="https://en.wikipedia.org/wiki/XML">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/XML">XML Wikipedia page</a></li>
+<li>There are at least 3,258 XML repos on <a href="https://github.com/search?q=language:XML">GitHub</a></li>
+<li>PLDB estimates there are currently 19k job openings for XML programmers.</li>
+<li>file extensions for XML include xml, adml, admx, ant, axaml, axml, builds, ccproj, ccxml, clixml, cproject, cscfg, csdef, csl, csproj, ct, depproj, dita, ditamap, ditaval, dllconfig, dotsettings, filters, fsproj, fxml, glade, gml, gmx, grxml, gst, hzp, iml, ivy, jelly, jsproj, kml, launch, mdpolicy, mjml, mm, mod, mxml, natvis, ncl, ndproj, nproj, nuspec, odd, osm, pkgproj, pluginspec, proj, props, ps1xml, psc1, pt, qhelp, rdf, res, resx, rs, rss, sch, scxml, sfproj, shproj, srdf, storyboard, sublime-snippet, targets, tml, ts, tsx, ui, urdf, ux, vbproj, vcxproj, vsixmanifest, vssettings, vstemplate, vxml, wixproj, workflow, wsdl, wsf, wxi, wxl, wxs, x3d, xacro, xaml, xib, xlf, xliff, xmi, xmldist, xmp, xproj, xsd, xspec, xul, zcml, xsl and xslt</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using XML in 3k repos on <a href="https://api.github.com/search/repositories?q=language:XML">GitHub</a></li>
+<li>XML is listed on <a href="https://hopl.info/showlanguage.prx?exp=2626">HOPL</a></li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/xml">grammar</a> for XML</li>
+<li>Here is a XML <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/angelozerr/lsp4xml/tree/master/org.eclipse.lsp4xml">implementation</a></li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/xml">package</a> for syntax highlighting XML</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/xml">package</a> for syntax highlighting XML</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/html.py">syntax highlighting</a> for XML</li>
+<li>GitHub supports <a href="https://github.com/textmate/xml.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for XML</li>
+<li>See also: <a href="sgml.html">SGML</a>, <a href="unicode.html">Unicode</a>, <a href="soap.html">SOAP</a>, <a href="ooxml.html">Office Open XML</a>, <a href="utf-8.html">UTF-8</a>, <a href="ascii.html">ASCII</a>, <a href="html.html">HTML</a>, <a href="regex.html">Regular Expressions</a>, <a href="xpath.html">XPath</a>, <a href="xquery.html">XQuery</a>, <a href="scala.html">Scala</a>, <a href="java.html">Java</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="rdf.html">RDF</a>, <a href="javascript.html">JavaScript</a>, <a href="hytime.html">HyTime</a>, <a href="json.html">JSON</a>, <a href="yaml.html">YAML</a>, <a href="s-expressions.html">S-expressions</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/xml">Improve our XML file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/x/XML.xml'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;text&gt;&lt;![CDATA[Hello World]]&gt;&lt;/text&gt;</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/textmate/xml.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;gml:Point xmlns:gml=&quot;http://www.opengis.net/gml&quot; srsName=&quot;urn:ogc:def:crs:EPSG::4326&quot; gml:id=&quot;uuid.12b3c8bb-bc8a-4f83-9085-1a5f3280b8ba&quot;&gt;
+  &lt;gml:pos&gt;52.56 13.29&lt;/gml:pos&gt;
+&lt;/gml:Point&gt;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/XML'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
+&lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;/xs:schema&gt;</code>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre><!-- A comment
+--></pre></td>
+<td><!-- --></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/conditionals-feature.html">Conditionals</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/disk-output-feature.html">Disk Output</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about XML from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780136168225">Designing XML Internet Applications</a></td>
+<td>Leventhal, Michael and Lewis, David and Fuchs, Matthew</td>
+<td>1998</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764570773">Beginning XML (Programmer to Programmer)</a></td>
+<td>Hunter, David and Watt, Andrew and Rafter, Jeff and Duckett, Jon and Ayers, Danny and Chase, Nicholas and Fawcett, Joe and Gaven, Tom and Patterson, Bill</td>
+<td>2004</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764538292">XML Programming Bible</a></td>
+<td>Benz, Brian and Durant, John R.</td>
+<td>2003</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764503603">XML For Dummies</a></td>
+<td>Tittel, Ed and Chandak, Ramesh and Mikula, Norbert</td>
+<td>1998</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789724731">Platinum Edition Using Xhtml, Xml and Java 2</a></td>
+<td>O'Donnell, Jim</td>
+<td>2000</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788575220252">PHP Com XML</a></td>
+<td></td>
+<td></td>
+<td>Novatec</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130811523">The XML Handbook (First Edition)</a></td>
+<td>Goldfarb, Charles F. and Prescod, Paul</td>
+<td>1998</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672324710">Sams Teach Yourself XML in 10 Minutes</a></td>
+<td>Watt, Andrew H.</td>
+<td>2002</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072228960">SQL Server 2000 Stored Procedure & XML Programming, Second Edition</a></td>
+<td>Dejan Sunderic</td>
+<td>2003</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735605626">XML in Action (IT Professional)</a></td>
+<td>Pardi, William J</td>
+<td>1999</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470477250">Beginning XSLT and XPath: Transforming XML Documents and Data</a></td>
+<td>Williams, Ian</td>
+<td>2009</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072262100">XML Demystified</a></td>
+<td>Keogh, Jim and Davidson, Ken</td>
+<td>2005</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861003324">Professional Visual Basic 6 XML</a></td>
+<td>James G. Britt and Teun Duynstee</td>
+<td>2000</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781515212119">XML Programming Success in a Day: Beginner?s Guide to Fast, Easy, and Efficient Learning of XML Programming</a></td>
+<td>Key, Sam</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598220438">Excel 2007 VBA Programming with XML and ASP (Wordware Applications Library)</a></td>
+<td>Korol, Julitta</td>
+<td>2009</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596002169">XML Publishing with Axkit</a></td>
+<td>Kip Hampton</td>
+<td>2004</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201774252">Real World Xml Web Services: For Vb and Vb.Net Developers (Developmentor Series (Dm))</a></td>
+<td>Shohoud, Yasser</td>
+<td>2002</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735619333">Microsoft® .NET Distributed Applications: Integrating XML Web Services and .NET Remoting (Pro-Developer)</a></td>
+<td>MacDonald, Matthew and MacDonald, Matthew</td>
+<td>2003</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735615861">MCAD/MCSD Self-Paced Training Kit: Developing XML Web Services and Server Components with Microsoft® Visual Basic® .NET and Microsoft Visual C#™ .NET: ... Basic(r) .Net and Microsoft Visual C#(tm) .N</a></td>
+<td>Corporation, Microsoft</td>
+<td>2003</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321205216">Designing Web Services With the J2EE 1.4 Platform: Jax-RPC, SOAP, and XML Technologies</a></td>
+<td>Singh, Inderjeet and Brydon, Sean and Murray, Greg and Ramachandran, Vijay and Violleau, Thierry and Stearns, Beth</td>
+<td>2004</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764597923">Professional SQL Server 2005 XML</a></td>
+<td>Klein, Scott</td>
+<td>2006</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782129717">ASP, ADO, and XML Complete</a></td>
+<td>Dave Evans, Greg Jarboe, Hollis Thomases, Mari Smith, Chris Treadaway and Inc., Sybex</td>
+<td>2001</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672315145">XML Unleashed</a></td>
+<td></td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735614062">Building XML Web Services for the Microsoft .Net Platform</a></td>
+<td>Short, Scott</td>
+<td>2002</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735611856">XML Programming (Core Reference)</a></td>
+<td>Rofail, Ash and Wyke, R Allen</td>
+<td>2002</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789727480">Special Edition Using XML</a></td>
+<td>Gulbransen, David and Bartlett, Kynn and Bingham, Earl and Kachur, Alexander and Rawlings, Kenrick and Watt, Andrew</td>
+<td>2002</td>
+<td>Que Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471399513">Scripting XML and WMI for Microsoft(r) SQL Server 2000: Professional Developer's Guide</a></td>
+<td>Martinsson, Tobias</td>
+<td>2001</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470847183">Web Design with XML: Generating Web Pages with XML ,CSS, XSLT and Formatting Objects</a></td>
+<td>Knobloch, Manfred and Kopp, Matthias</td>
+<td>2003</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735611269">XML and Soap Programming for BizTalk Servers (DV-MPS Programming)</a></td>
+<td>Travis, Brian E</td>
+<td>2000</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781556222252">Excel 2003 VBA Programming With XML And ASP</a></td>
+<td>Korol, Julitta</td>
+<td>2005</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861006288">Beginning C# XML: Essential XML Skills for C# Programmers</a></td>
+<td>Steven Livingstone and Stewart Fraser</td>
+<td>2002</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072124897">Oracle XML Handbook</a></td>
+<td>Ben Chang</td>
+<td>2000</td>
+<td>Osborne/McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764555763">Xml Programming Bible</a></td>
+<td>John Durant and Brian Benz</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781930110304">J2ee and XML Development</a></td>
+<td>Gabrick, Kurt A and Weiss, David B and Weiss, David</td>
+<td>2002</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861005205">Java XML Programmer's Reference</a></td>
+<td>Eric Jung and Andrei Cioroianu and Dave Writz and Mohammad Akif and Steven Brodhead and James Hart</td>
+<td>2001</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672323300">Sams Teach Yourself .NET XML Web Services in 24 Hours</a></td>
+<td>Augustyniak, Mark</td>
+<td>2007</td>
+<td>Pearson Technology Group</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861004840">Professional Oracle 8i Application Programming with Java, PL/SQL and XML</a></td>
+<td>Michael Awai and Matthew Bortniker and John Carnell and Kelly Cox and Daniel O'Connor and Mario Zucca and Sean Dillon and Thomas Kyte and Ann Horton and Frank Hubeny and Glenn E. Mitchell II and Kevin Mukhar and Gary Nicol and Guy Ruth Hammond</td>
+<td>2000</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590596661">The Definitive Guide to Berkeley DB XML</a></td>
+<td>Brian, Daniel</td>
+<td>2006</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484208830">Web Standards: Mastering HTML5, CSS3, and XML</a></td>
+<td>Sikos, Leslie</td>
+<td>2014</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590596418">Pro Apache XML</a></td>
+<td>Sarang, Poornachandra</td>
+<td>2006</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735712003">Xml And Asp.net</a></td>
+<td>Evans, Kirk Allen.</td>
+<td>2002</td>
+<td>New Riders</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764503832">XML For Dummies Quick Reference</a></td>
+<td>Aviram, Mariva H.</td>
+<td>1998</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735611757">Programming Sql Server With Xml [with 1]</a></td>
+<td>Sankar and Krishna</td>
+<td>2000</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783642156847">Database and XML Technologies</a></td>
+<td>Mong Li Lee; ‎Jeffrey Xu Yu; ‎Zohra Bellahsene</td>
+<td>20100915</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430200741">Foundation XML for Flash</a></td>
+<td>Sas Jacobs</td>
+<td>20061114</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430201397">Pro PHP XML and Web Services</a></td>
+<td>Robert Richards</td>
+<td>20070205</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787302141112">Sql Server 2005 Xml Advanced Programming(chinese Edition)</a></td>
+<td>(mei)ke Lin (klein.s.) / Wang Xin</td>
+<td>2000</td>
+<td>Tsinghua University Press Pub. Date :2007-01</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133560107">Introduction to JavaScript Programming with XML and PHP</a></td>
+<td>Elizabeth Drake</td>
+<td>20140804</td>
+<td>Pearson Education (US)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590592649">Office 2003 XML for Power Users (Books for Professionals by Professionals)</a></td>
+<td>MacDonald, Matthew</td>
+<td>2004</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449374358">SVG Essentials: Producing Scalable Vector Graphics with XML</a></td>
+<td>Eisenberg, J. David and Bellamy-Royds, Amelia</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596009748">XSLT Cookbook: Solutions and Examples for XML and XSLT Developers, 2nd Edition</a></td>
+<td>Mangano, Sal</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133068306">Introduction to JavaScript Programming with XML and PHP</a></td>
+<td>Drake, Elizabeth</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484231173">XML and JSON Recipes for SQL Server: A Problem-Solution Approach</a></td>
+<td>Grinberg, Alex</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201740950">Essential XML Quick Reference: A Programmer's Reference to XML, XPath, XSLT, XML Schema, SOAP, and More</a></td>
+<td>Skonnard, Aaron</td>
+<td>2001</td>
+<td>AddisonWesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133251821">Introduction to JavaScript Programming with XML and PHP (2-downloads)</a></td>
+<td>Drake, Elizabeth</td>
+<td>2013</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596001285">Python & XML</a></td>
+<td>Jones, Christopher A. and Drake Jr, Fred L.</td>
+<td>2001</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590592762">XML and FrameMaker</a></td>
+<td>Ethier, Kay</td>
+<td>2004</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781088918326">Dan Gookin's Guide to XML and JSON Programming</a></td>
+<td>Gookin, Dan</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672324222">XML Primer Plus</a></td>
+<td>Chase, Nicholas</td>
+<td>2002</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471120605">Visual Basic .NET and XML</a></td>
+<td>Stephens, Rod</td>
+<td>2002</td>
+<td>John Wiley &Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596002053">Perl and XML: XML Processing with Perl</a></td>
+<td>Ray, Erik T. and McIntosh, Jason</td>
+<td>2002</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780975240205">No Nonsense XML Web Development With PHP: Master PHP 5's Powerful New XML Functionality</a></td>
+<td>Myer, Thomas</td>
+<td>2005</td>
+<td>SitePoint</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471777779">Professional XML</a></td>
+<td>Evjen, Bill and Sharkey, Kent and Thangarathinam, Thiru and Kay, Michael and Vernet, Alessandro and Ferguson, Sam</td>
+<td>2007</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484226650">Pro RESTful APIs: Design, Build and Integrate with REST, JSON, XML and JAX-RS</a></td>
+<td>Patni, Sanjay</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672325762">Sams Teach Yourself XML in 21 Days (3rd Edition)</a></td>
+<td>Holzner, Steven</td>
+<td>2003</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764516580">Java and XML For Dummies</a></td>
+<td>Burd, Barry</td>
+<td>2002</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130284174">XML How to Program</a></td>
+<td>Deitel, Harvey M. and Deitel, Paul J. and Nieto, Tem R. and Lin, Ted and Sadhu, Praveen</td>
+<td>2000</td>
+<td>Pearson</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861003584">Professional XML Databases</a></td>
+<td>Williams, Kevin and Brundage, Michael and Michael Brundage and Patrick Dengler and Jeff Gabriel and Andy Hoskinson and Michael Kay and Thomas Maxwell and Marcelo Ochoa and Johnny Papa and Mohan Vanmane</td>
+<td>2000</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764532368">XML Bible</a></td>
+<td>Harold, Elliotte Rusty</td>
+<td>1999</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781594960376">HTML, XHTML, CSS and XML by Example: A Practical Guide (By Example Series)</a></td>
+<td>Teodoru Gugoiu</td>
+<td>2005-07-01T00:00:01Z</td>
+<td>Teora USA, LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672327971">Sams Teach Yourself Xml in 24 Hours</a></td>
+<td>Morrison, Michael</td>
+<td>2005</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781598632149">Advanced XML Applications from the Experts at The XML Guild</a></td>
+<td>The XML Guild</td>
+<td>2006</td>
+<td>Course Technology PTR</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201771862">Processing XML with Java¿: A Guide to SAX, DOM, JDOM, JAXP, and TrAX (2 Volume Set)</a></td>
+<td>Harold, Elliotte Rusty</td>
+<td>2002</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781893115422">XML Programming Using the Microsoft XML Parser</a></td>
+<td>Lee, Wei-Meng and Foo, Soo Mee</td>
+<td>2002</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471791195">XML Problem Design Solution</a></td>
+<td>Amiano, Mitch</td>
+<td>2006</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130404466">XSLT and Xpath: A Guide to XML Transformations</a></td>
+<td>Gardner, John Robert and Gardner, James Robert and Rendon, Zarella L.</td>
+<td>2001</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321146182">J2EE Web Services: XML SOAP WSDL UDDI WS-I JAX-RPC JAXR SAAJ JAXP</a></td>
+<td>Monson-Haefel, Richard</td>
+<td>2003</td>
+<td>Addison Wesley Publishing Company</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321154996">Xforms: Xml Powered Web Forms</a></td>
+<td>Raman, T. V.</td>
+<td>2003</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781329503212">XML Programming Success In A Day</a></td>
+<td>Key, Sam</td>
+<td>2015</td>
+<td>Lulu.com</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130907639">SOAP: Cross Platform Web Services Development Using XML</a></td>
+<td>Scott Seely and Kent Sharkey</td>
+<td>2001</td>
+<td>Pearson P T R</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780080511818">Modeling Business Objects with XML Schema (The Morgan Kaufmann Series in Software Engineering and Programming)</a></td>
+<td>Daum, Berthold</td>
+<td>2003</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781565927094">XML Pocket Reference: Extensible Markup Language</a></td>
+<td>Eckstein, Robert</td>
+<td>1999</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558608160">Modeling Business Objects with XML Schema (The Morgan Kaufmann Series in Software Engineering and Programming)</a></td>
+<td>Daum, Berthold</td>
+<td>2003</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201770049">XML and Java¿: Developing Web Applications (2nd Edition)</a></td>
+<td>Maruyama, Hiroshi</td>
+<td>2002</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131421936">Xml in Office 2003: Information Sharing With Desktop Xml</a></td>
+<td>Goldfarb, Charles F. and Walmsley, Priscilla</td>
+<td>2004</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596101879">Ajax on Java: The Essentials of XMLHttpRequest and XML Programming with Java</a></td>
+<td>Olson, Steven Douglas</td>
+<td>2007</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735710207">Inside XML</a></td>
+<td>Holzner, Steve</td>
+<td>2000</td>
+<td>New Riders Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780079137050">Building Corporate Portals with XML</a></td>
+<td>Aiken, Peter and Finkelstein, Clive</td>
+<td>1999</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781970001761">Reactive Internet Programming: State Chart XML in Action (ACM Books)</a></td>
+<td>Barbier. Franck</td>
+<td>2016</td>
+<td>ACM Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735618015">Applied XML Programming for Microsoft® .NET</a></td>
+<td>Esposito, Dino</td>
+<td>2002</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861005595">Beginning XML</a></td>
+<td>David Hunter and Jeff Rafter and Jon Pinnock and Chris Dix and Kurt Cagle and Roger Kovack</td>
+<td>2001</td>
+<td>Wrox Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735712270">Xml and Php</a></td>
+<td>Vaswani, Vikram</td>
+<td>2002</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072845501">Programming The Web Using XML (Web Developer Series)</a></td>
+<td>Pearlman, Ellen and Mullin, Eileen</td>
+<td>2003</td>
+<td>Career Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558607453">System Architecture with XML (The Morgan Kaufmann Series in Software Engineering and Programming)</a></td>
+<td>Daum, Berthold and Merten, Udo</td>
+<td>2002</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780750659987">XML Made Simple (Made Simple Programming)</a></td>
+<td>Henderson, Robert and Deane, Sharon</td>
+<td>2004</td>
+<td>Made Simple</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764543555">Professional XML Development with Apache Tools: Xerces, Xalan, FOP, Cocoon, Axis, Xindice</a></td>
+<td>Leung, Theodore W.</td>
+<td>2003</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781556227615">Learn Microsoft Excel 2002: VBA Programming with XML and ASP</a></td>
+<td>Korol, Julitta</td>
+<td>2003</td>
+<td>Wordware Publishing, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471327530">XML Specification Guide</a></td>
+<td>Graham, Ian S. and Quin, Liam R. E.</td>
+<td>1999</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781549772054">XML Processing with Scala (Programming with Scala)</a></td>
+<td>Upadhyaya, Bhim</td>
+<td>2017-09-18T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735712355">Cocoon: Building Xml Applications</a></td>
+<td>Ziegeler, Carsten and Langham, Matthew</td>
+<td>2002</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430216346">Foundation XML and E4X for Flash and Flex (Foundations)</a></td>
+<td>Jacobs, Sas</td>
+<td>2009</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783642035548">Database and XML Technologies: 6th International XML Database Symposium, XSym 2009, Lyon, France, August 24, 2009. Proceedings (Lecture Notes in Computer Science, 5679)</a></td>
+<td></td>
+<td>2009</td>
+<td>Springer</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735619128">Programming Microsoft(r) .Net XML Web Services (Pro-Developer)</a></td>
+<td>Foggon, Damien and Ullman, Chris and Maharry, Daniel and Watson, Karli</td>
+<td>2003</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780126633559">Enterprise XML Clearly Explained</a></td>
+<td>Standefer, Robert</td>
+<td>2001</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130550682">The XML Handbook (3rd Edition)</a></td>
+<td>Charles F. Goldfarb and Paul Prescod</td>
+<td>2000</td>
+<td>Pearson Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781928994817">Developing .Net Web Services With Xml</a></td>
+<td>David Jorgensen</td>
+<td>2002</td>
+<td>Syngress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789724762">XML and Java from Scratch</a></td>
+<td>Chase, Nicholas</td>
+<td>2001</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590596760">Beginning XML with DOM and Ajax: From Novice to Professional (Beginning: From Novice to Professional)</a></td>
+<td>Jacobs, Sas</td>
+<td>2006</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558606227">Data on the Web: From Relations to Semistructured Data and XML (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Abiteboul, Serge and Buneman, Peter and Suciu, Dan</td>
+<td>1999</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590590034">XML Programming: Web Applications and Web Services With JSP and ASP</a></td>
+<td>Alexander Nakhimovsky and Tom Myers</td>
+<td>2002</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861002853">Professional Java XML Programming with servlets and JSP</a></td>
+<td>Myers, Thomas J.</td>
+<td>1999</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130417909">Fundamentals of Web Applications Using .Net and XML</a></td>
+<td>Eric Bell and Hao Howard Feng and Edward L.W. Soong and David Zhang and Shijia Sam Zhu</td>
+<td>2002</td>
+<td>Prentice Hall Ptr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071346214">Inside XML DTDs: Scientific and Technical</a></td>
+<td>Simon St. Laurent and Robert J. Biggar</td>
+<td>1999</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764525360">Water: Simplified Web Services and XML Programming</a></td>
+<td>Plusch, Mike</td>
+<td>2003</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782141313">Cocoon 2 Programming: Web Publishing with XML and Java</a></td>
+<td>Bill Brogden and Conrad D'Cruz and Mark Gaither</td>
+<td>2002</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735613690">Programming Microsoft SQL Server 2000 with XML (Pro-Developer)</a></td>
+<td>Malcolm, Graeme</td>
+<td>2001-06-30T00:00:01Z</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780321228390">First Look at ADO.NET and System Xml v 2.0</a></td>
+<td>Homer, Alex and Sussman, Dave and Fussell, Mark</td>
+<td>2003</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780789725035">Special Edition Using Java 2 Enterprise Edition (J2EE): With JSP, Servlets, EJB 2.0, JNDI, JMS, JDBC, CORBA, XML and RMI</a></td>
+<td>Wutka, Mark</td>
+<td>2001</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735617742">Programming Microsoft SQL Server 2000 with XML (2nd Edition) (Developer Reference)</a></td>
+<td>Malcolm, Graeme and Content Masters, Ltd</td>
+<td>2002</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781584503019">XML for Web Designers Using Macromedia Studio MX 2004 (Internet Series)</a></td>
+<td>Ruse, Kevin</td>
+<td>2004</td>
+<td>Charles River Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781928994855">Developing Web Services with Java APIs for XML (JAX Pack) with CDROM</a></td>
+<td>Hablutzel, Robert</td>
+<td>2002</td>
+<td>Syngress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788126512256">Professional Xml</a></td>
+<td>Bill Evjen</td>
+<td></td>
+<td>Wiley Dreamtech</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430207191">XML and FrameMaker</a></td>
+<td>Kay Ethier</td>
+<td>20080101</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780679647287">CodeNotes for XML</a></td>
+<td>Brill, Gregory</td>
+<td>2002</td>
+<td>Random House</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781884777875">XML Programming with VB and ASP</a></td>
+<td>Wilson, Mark and Wilson, Tracey</td>
+<td>1999</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788176355056">INSIDE XML AUTHORIZED EDITION FOR INDIAN SUB-CONTINENT</a></td>
+<td>STEVEN HOLZNER</td>
+<td>2022</td>
+<td>TECHMEDIA</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788176567824">Learn Excel 2002 Vba Programming With Xml   Asp</a></td>
+<td></td>
+<td></td>
+<td>Bpb Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071215046">Programming the Web Using Xml (Web Developer Series)</a></td>
+<td>Pearlman, Ellen and Mullin, Eileen</td>
+<td>2003</td>
+<td>McGraw-Hill</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783836472838">Designing a Feature Tracking Web-Tool Using Java and XML</a></td>
+<td>Bornkessel, Daniel</td>
+<td>2008</td>
+<td>VDM Verlag Dr. Müller</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781970001792">Reactive Internet Programming: State Chart XML in Action (ACM Books)</a></td>
+<td>Barbier. Franck</td>
+<td>2016</td>
+<td>ACM Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783659151132">An Answer Set Programming Based Formal Language for XML Authorisations: with Temporal Constraints</a></td>
+<td>Policarpio, Sean</td>
+<td>2012</td>
+<td>LAP LAMBERT Academic Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783658354350">XML</a></td>
+<td>Margit Becher</td>
+<td>20220214</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491948866">Python & XML</a></td>
+<td>Christopher A. Jones</td>
+<td>20011218</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071487894">XML Demystified</a></td>
+<td>Jim Keogh; Ken Davidson</td>
+<td>20051017</td>
+<td>McGraw-Hill Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491901298">.NET & XML</a></td>
+<td>Niel M. Bornstein</td>
+<td>20031124</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491948859">Python & XML</a></td>
+<td>Christopher A. Jones; Fred L. Drake Jr</td>
+<td>20011218</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491901304">.NET & XML</a></td>
+<td>Niel M. Bornstein</td>
+<td>20031124</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118014851">Professional XML</a></td>
+<td>Bill Evjen; Kent Sharkey; Thiru Thangarathinam</td>
+<td>042007</td>
+<td>Wiley Professional Development (P&T)</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430208297">XML Programming Using the Microsoft XML Parser</a></td>
+<td>Wei-Meng Lee; Soo Mee Foo</td>
+<td>20080101</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735712898">XML and Perl</a></td>
+<td>Mark Riehl and Ilya Sterin and Llya Sterin</td>
+<td>2002</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735712003">Xml And Asp.net</a></td>
+<td>Evans, Kirk Allen.</td>
+<td>2002</td>
+<td>New Riders</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672323157">XML in Flash</a></td>
+<td>Craig Swann and Gregg Caines</td>
+<td>2001</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470107775">Beginning Xml Databases</a></td>
+<td>Gavin Powell</td>
+<td>2006</td>
+<td>John Wiley & Sons, Ltd.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780641589270">Professional Java Xml</a></td>
+<td>Sudhir Ancha and Jeremy Michael Crosbie and John Davies and Judy Skubal and Karli Watson</td>
+<td>2001</td>
+<td>Wrox Press, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449344122">XML and InDesign</a></td>
+<td>Dorothy J. Hoskins</td>
+<td>20130111</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780130889027">Developing Xml Applications</a></td>
+<td>Lars M. Garshol</td>
+<td>2002</td>
+<td>Prentice Hall</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449366827">Perl and XML</a></td>
+<td>Erik T. Ray; Jason McIntosh</td>
+<td>20020425</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430201663">Pro Apache XML</a></td>
+<td>Poornachandra Sarang</td>
+<td>20061121</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781884777837">Java Xml Programming</a></td>
+<td>Nazmul Idris</td>
+<td>1999</td>
+<td>Manning Pubns Co</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449344146">XML and InDesign</a></td>
+<td>Dorothy J. Hoskins</td>
+<td>20130111</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596516406">Perl and XML</a></td>
+<td>Erik T. Ray</td>
+<td>20020425</td>
+<td>O'Reilly Media, Inc.</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about XML from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/8ad190feef8bc7744f6b3f155661f5a1c3389ab5">LINQ: reconciling object, relations and XML in the .NET framework</a></td>
+<td>E. Meijer and B. Beckman and G. Bierman</td>
+<td>2006</td>
+<td>434</td>
+<td>58</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c488504779ab5a4e33ab5b58f71e8d6702701a17">XDuce: A statically typed XML processing language</a></td>
+<td>H. Hosoya and B. Pierce</td>
+<td>2003</td>
+<td>357</td>
+<td>24</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a368b3942754bd8033e07d440272e4c82a8c36a1">XQuery: A Typed Functional Language for Querying XML</a></td>
+<td>P. Wadler</td>
+<td>2002</td>
+<td>171</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d6a269fae3fa76bded548a617ee7d846769a6021">XL: an XML programming language for web service specification and composition</a></td>
+<td>D. Florescu and A. Grünhagen and D. Kossmann</td>
+<td>2002</td>
+<td>129</td>
+<td>4</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f3103b548e8ea7d16ab1896339aedf43ad21a5d2">Towards a Declarative Query and Transformation Language for XML and Semistructured Data: Simulation Unification</a></td>
+<td>François Bry and Sebastian Schaffert</td>
+<td>2002</td>
+<td>118</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e2c3c14c671ebc328e8db710251dff78019bbb61">biXid: a bidirectional transformation language for XML</a></td>
+<td>Shinya Kawanaka and H. Hosoya</td>
+<td>2006</td>
+<td>67</td>
+<td>4</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/350b3eec3ea853f150d120b74605309f673ca9a7">XML schema language: taking XML to the next level</a></td>
+<td>J. Roy and A. Ramanujan</td>
+<td>2001</td>
+<td>52</td>
+<td>5</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1b3ef01041884e2151a9b2eae43b58ae16a55014">XPath-logic and XPathLog: A logic-programming style XML data manipulation language</a></td>
+<td>Wolfgang May</td>
+<td>2003</td>
+<td>45</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a7a4490f25a194bd2609c0c98c5e2a2ebff5bcb0">BiFluX: A Bidirectional Functional Update Language for XML</a></td>
+<td>Hugo Pacheco and Tao Zan and Zhenjiang Hu</td>
+<td>2014</td>
+<td>36</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/b73c3e0759ce3b65a9b62b6297aeccd3bd494f4a">Querying XML documents in logic programming*</a></td>
+<td>J. Almendros-Jiménez and A. Becerra-Terón and F. J. Enciso-Baños</td>
+<td>2007</td>
+<td>31</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/dccdd7c09b1b48be5ad389fb86152851bf918636">XML programming with SQL/XML and XQuery</a></td>
+<td>J. Funderburk and S. Malaika and B. Reinwald</td>
+<td>2002</td>
+<td>30</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3af2401bd61ba956bb269a45a701e1d3e9da3f93">A High-Level Language for Specifying XML Data Transformations</a></td>
+<td>Tadeusz Pankowski</td>
+<td>2004</td>
+<td>27</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fff40acdda2b6ef583ddc6430e9524a6efcd63d4">XCentric: logic programming for XML processing</a></td>
+<td>Jorge Coelho and Mário Florido</td>
+<td>2007</td>
+<td>27</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/32fa6510c382571f53d6c110e68aedbe34aaa182">Scalable Programming Abstractions for XML Services</a></td>
+<td>B. Emir and S. Maneth and Martin Odersky</td>
+<td>2006</td>
+<td>26</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8dda5f07469d5c31176d3a990f9d271da4d4c15d">Fuzzy Markup Language: A XML Based Language for Enabling Full Interoperability in Fuzzy Systems Design</a></td>
+<td>G. Acampora</td>
+<td>2013</td>
+<td>25</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/012d8d0ef2962a0addddeb589a3f49d0926f8f24">Type-Based XML Processing in Logic Programming</a></td>
+<td>Jorge Coelho and Mário Florido</td>
+<td>2003</td>
+<td>21</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0bf807c6a9f72cc4ce841fea043c3a84828d66bd">Streaming transformation of XML to RDF using XPath-based mappings</a></td>
+<td>Jyun-Yao Huang and C. Lange and S. Auer</td>
+<td>2015</td>
+<td>13</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4895dda8333b9779ff9f7e307d48fc14ca8eea0c">LotusX: A Position-Aware XML Graphical Search System with Auto-Completion</a></td>
+<td>Chunbin Lin and Jiaheng Lu and T. Ling and B. Cautis</td>
+<td>2012</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/afc83cf3d895cc9e41558f16a49e2fe58be861aa">Securing XML with Role-Based Access Control: Case Study in Health Care</a></td>
+<td>A. D. L. R. Algarin and S. Demurjian and Timoteus B. Ziminski and Yaira K. Rivera Sánchez and Robert Kuykendall</td>
+<td>2014</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/5c7fcdf6e6464a37e0bc94834c4548612262812b">Programming with heterogeneous structures: manipulating XML data using bondi</a></td>
+<td>F. Huang and C. Jay and D. Skillicorn</td>
+<td>2006</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ebf3df2b7c5d5aadbb398bbfab44c7b15a987304">Use of XML Schema Definition for the Development of Semantically Interoperable Healthcare Applications</a></td>
+<td>L. Cavalini and T. Cook</td>
+<td>2013</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/56dddc0d3a4c7ceb490ef0291d73ff2ecccdf8d3">Xobe Sensor Networks: Integrating XML in sensor network programming</a></td>
+<td>N. Hoeller and C. Reinke and Sven Groppe and V. Linnemann</td>
+<td>2008</td>
+<td>9</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/737c0a97c37115e57dc44347d33988113e796a3e">A visual programming language for XML manipulation</a></td>
+<td>Gilbert Tekli and R. Chbeir and J. Fayolle</td>
+<td>2013</td>
+<td>9</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c047b46244ce65da6ebcae29068b81a2a8bb6a74">Experimenting with the circus language for XML modeling and transformation</a></td>
+<td>Jean-Yves Vion-Dury and Veronika Lux and E. Pietriga</td>
+<td>2002</td>
+<td>8</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fea58831709cc49d3d2b33bf94fd8fbb32a74bdb">xml2jupyter: Mapping parameters between XML and Jupyter widgets</a></td>
+<td>R. Heiland and Daniel Mishler and T. Zhang and Eric Bower and P. Macklin</td>
+<td>2019</td>
+<td>8</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/5aa93c0f81532a5c43f4fab1e8687cdea5c7b8b5">XML database for Hadith and narrators</a></td>
+<td>M. M. Najeeb</td>
+<td>2016</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/55b5bd2bfcc55fe257fb67ac6274ff76d0e9b9e0">A Formal Language for XML Authorisations Based on Answer Set Programming and Temporal Interval Logic Constraints</a></td>
+<td>Sean Policarpio and Yan Zhang</td>
+<td>2011</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7b857d2e8b597d4bd4724e092c32313b976792e3">The Query Language to XML Documents Connected by XLink Links</a></td>
+<td>D. Lizorkin</td>
+<td>2005</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/04b44c10741753aeecc618e3a123a0826f042b65">Implementation of the XML linking language XLink by functional methods</a></td>
+<td>D. Lizorkin and K. Lisovsky</td>
+<td>2005</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d444919ac1ef0ce64d27447058cf8e371f9e8b74">Avoiding Security Pitfalls with Functional Programming: A Report on the Development of a Secure XML Validator</a></td>
+<td>Damien Doligez and C. Faure and T. Hardin and M. Maarek</td>
+<td>2015</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6b42308074880263cb71972008f0ed31c52bb866">Integrating XML and object-based programming for distributed collaboration</a></td>
+<td>Vassil Roussev and P. Dewan and Naveen Koorakula and Sriram Sellappa</td>
+<td>2000</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2db3c829b68f99ea25d3a13f4194e8aa58157211">Cross-fertilizing logic programming and XML for knowledge representation</a></td>
+<td>H. Boley</td>
+<td>2002</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7b88f4f87223881c0b849911d4ed3724bb7090a9">Research on XML Schema Transformation Algorithm</a></td>
+<td>Bin Ji and Jiaju Wu and Huijun Liu and Li-rong Meng and Peng Wanyi</td>
+<td>2017</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e0115394c7ca4afc0f60ad500d55fe4a6adbad0c">An XML experiment description language for ns-3</a></td>
+<td>G. Riley and Joshua Pelkey</td>
+<td>2011</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3c616070af9a536db1c9245e647dc707715e5c15">XIVD: Runtime Detection of XPath Injection Vulnerabilities in XML Databases through Aspect Oriented Programming</a></td>
+<td>V. Shanmughaneethi and Ra. Yagna Pravin and S. Swamynathan</td>
+<td>2011</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/29fae73cdcb21b1c8e3b874f2d3fa21e99b42b69">XML Programming Using the Microsoft XML Parser</a></td>
+<td>S. M. Foo and W. Lee</td>
+<td>2002</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a9a62d49806cadb8ce937e853c231e94fac86cff">Embedding XML processing toolkit on general purpose programming language</a></td>
+<td>T. Kamina and T. Tamai</td>
+<td>2002</td>
+<td>2</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="php.html">php.html</a> · xml.html · <a href="perl.html">perl.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/xml.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

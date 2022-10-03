@@ -1,0 +1,538 @@
+title C
+
+import settings.scroll
+htmlTitle C - Pl
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/c.pldb
+
+paragraph
+ C is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1972">1972</a> by <a href="../lists/creators.html#Dennis_Ritchie">Dennis Ritchie</a>.
+
+kpiTable
+ #3 <span title="TotalRank: 10 Jobs: 5 Users: 5 Facts: 11 Links: 0">on PLDB</span>
+ 50 Years Old
+ 3.8m <span title="Crude user estimate from a linear model.">Users</span>
+ 78 <span title="Books about or leveraging C">Books</span>
+ 19 <span title="Academic publications about or leveraging C">Papers</span>
+ 2m <span title="C repos on GitHub.">Repos</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/c">Riju</a> · <a href="https://repl.it/languages/c">Replit</a>
+
+monacoEditor cpp
+ // Type your code here, or load an example.
+ int square(int num) {
+     return num * num;
+ }
+
+
+
+paragraph
+ C (, as in the letter c) is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. By design, C provides constructs that map efficiently to typical machine instructions, and therefore it has found lasting use in applications that had formerly been coded in assembly language, including operating systems, as well as various application software for computers ranging from supercomputers to embedded systems. C was originally developed by Dennis Ritchie between 1969 and 1973 at Bell Labs, and used to re-implement the Unix operating system. <a href="https://en.wikipedia.org/wiki/C_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C Wikipedia page</a>
+ - There are at least 2,160,271 C repos on <a href="https://github.com/search?q=language:C">GitHub</a>
+ - C first developed in <a href="../lists/originCommunities.html#Bell_Labs">Bell Labs</a>
+ - PLDB estimates there are currently 60k job openings for C programmers.
+ - file extensions for C include c, cats, h, idc, x[bp]m and Mono
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 178k users using C in 293k repos on <a href="https://api.github.com/search/repositories?q=language:C">GitHub</a>
+ - Check out the 204 <a href="https://www.meetup.com/topics/c/">C meetup groups</a> on Meetup.com.
+ - There are 127,013 members in the <a href="https://reddit.com/r/C_Programming">C subreddit</a>
+ - There are 46,028 <a href="https://projecteuler.net/language=C/C++">Project Euler</a> users using C
+ - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> C programmers reported a median salary of $53,184. 21% of respondents reported using C. 17,329 programmers reported using C, and 9,702 said they wanted to use it
+ - Explore C snippets on <a href="http://www.rosettacode.org/wiki/Category:C">Rosetta Code</a>
+ - C is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
+ - C is listed on <a href="https://hopl.info/showlanguage.prx?exp=577">HOPL</a>
+ - C ranks #2 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - There is an <a href="https://packages.ubuntu.com/jammy/gcc">Ubuntu package</a> for C
+ - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/c">grammar</a> for C
+ - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/cpp">package</a> for syntax highlighting C
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/c_cpp.py">syntax highlighting</a> for C
+ - GitHub supports <a href="https://github.com/textmate/c.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for C
+ - C appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+ - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/brendan-rius/jupyter-c-kernel">Kernel</a> for C
+ - C <a href="https://courses.cs.washington.edu/courses/cse351/14sp/sections/1/Cheatsheet-c.pdf">cheat sheet</a>
+ - Indeed.com has 23,567 matches for <a href="https://www.indeed.com/jobs?q=c engineer">"c engineer"</a>.
+ - See also: <a href="cyclone.html">Cyclone</a>, <a href="unified-parallel-c.html">UPC</a>, <a href="split-c.html">Split-C</a>, <a href="cilk.html">CIL</a>, <a href="b.html">B</a>, <a href="bcpl.html">BCPL</a>, <a href="cpl.html">CPL</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="assembly-language.html">Assembly language</a>, <a href="pl-i.html">PL/I</a>, <a href="ampl.html">AMPL</a>, <a href="awk.html">awk</a>, <a href="c--.html">C--</a>, <a href="csharp.html">C#</a>, <a href="objective-c.html">Objective-C</a>, <a href="d.html">D</a>, <a href="go.html">Go</a>, <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="limbo.html">Limbo</a>, <a href="lpc.html">LPC</a>, <a href="perl.html">Perl</a>, <a href="php.html">PHP</a>, <a href="pike.html">Pike</a>, <a href="processing.html">Processing</a>, <a href="python.html">Python</a>, <a href="rust.html">Rust</a>, <a href="seed7.html">Seed7</a>, <a href="vala.html">Vala</a>, <a href="verilog.html">Verilog</a>, <a href="unix.html">Unix</a>, <a href="algol.html">Algol</a>, <a href="swift.html">Swift</a>, <a href="multics.html">Multics</a>, <a href="unicode.html">Unicode</a>, <a href="fortran.html">Fortran</a>, <a href="pascal.html">Pascal</a>, <a href="mathematica.html">Mathematica</a>, <a href="matlab.html">MATLAB</a>, <a href="ch.html">Ch computer programming</a>, <a href="smalltalk.html">Smalltalk</a>
+ - Read more about C on the web: <a href="http://www.c4learn.com/c-programming/c-keywords/">1</a>
+ - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+ - <a href="https://build.pldb.com/edit/c">Improve our C file</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
+code
+ // Type your code here, or load an example.
+ int square(int num) {
+     return num * num;
+ }
+
+exampleCodeHeader Example from <a href='https://riju.codes/c'>Riju</a>:
+code
+ #include &lt;stdio.h&gt;
+ 
+ int main() {
+   printf(&quot;Hello, world!\n&quot;);
+   return 0;
+ }
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/C.c'>hello-world</a>:
+code
+ #include &lt;stdio.h&gt;
+ 
+ main()
+ {
+     printf(&quot;Hello World\n&quot;);
+ }
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/textmate/c.tmbundle'>Linguist</a>:
+code
+ #ifndef HELLO_H
+ #define HELLO_H
+ 
+ void hello();
+ 
+ #endif
+ 
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/C_(programming_language)'>Wikipedia</a>:
+code
+ #include &lt;stdio.h&gt;
+ 
+ int main(void)
+ {
+     printf(&quot;hello, world\n&quot;);
+ }
+
+exampleCodeHeader <a href='https://news.ycombinator.com/item?id=32621392'>Fun fact</a>:
+code
+  C gets credit for the // comments, starting in 1972, but that&#39;s not really accurate. BCPL -- which begat B which begat C -- had // comments but they were not included in C until C99. C++ (which isn&#39;t included in their top 30 languages) brought back // comments from BCPL sometime between 1979 and 1985 (the first public release of cfront). Many C compilers included // comments as an extension prior to C99 but those were inspired by C++
+
+subsection <a href="../lists/keywords.html?filter=c">Keywords</a> in C
+paragraph
+ auto break case char const continue default do double else enum extern float for goto if int long register return short signed sizeof static struct switch typedef union unsigned void volatile while
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Scientific Notation
+  FeatureLink ../languages/scientific-notation-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Conditionals
+  FeatureLink ../languages/conditionals-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Switch Statements
+  FeatureLink ../languages/switch-statements-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Constants
+  FeatureLink ../languages/constants-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature While Loops
+  FeatureLink ../languages/while-loops-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Case Sensitivity
+  FeatureLink ../languages/case-sensitivity-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Assignment
+  FeatureLink ../languages/assignment-feature.html
+  Supported ✓
+  Example
+  Token =
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token printf
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ✓
+  Example
+   /* A comment
+   */
+  Token /* */
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   // A comment
+  Token //
+ row
+  Feature Increment and decrement operators
+  FeatureLink ../languages/increment-and-decrement-operators-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Variadic Functions
+  FeatureLink ../languages/variadic-functions-feature.html
+  Supported ✓
+  Example
+   double average(int count, ...)
+   {
+    //
+   }
+  Token 
+ row
+  Feature Manual Memory Management
+  FeatureLink ../languages/manual-memory-management-feature.html
+  Supported ✓
+  Example
+   #include <stdio.h>
+   #include <stdlib.h>
+   int main(void)
+   {
+     int *poin = malloc(4);
+     free(poin);
+   }
+  Token 
+ row
+  Feature Macros
+  FeatureLink ../languages/macros-feature.html
+  Supported ✓
+  Example
+   https://gcc.gnu.org/onlinedocs/cpp/Macro-Arguments.html
+  Token 
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+   int pldb = 80766866;
+  Token 
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   //  If a header file is included within <>, the preprocessor will search a predetermined directory path to locate the header file. If the header file is enclosed in "", the preprocessor will look for the header file in the same directory as the source file.
+   #include <stdio.h>
+   #include "stdio.h"
+  Token 
+ row
+  Feature Type Casting
+  FeatureLink ../languages/type-casting-feature.html
+  Supported ✓
+  Example
+   double da = 3.3;
+   double db = 3.3;
+   double dc = 3.4;
+   int result = (int)da + (int)db + (int)dc; //result == 9
+  Token 
+ row
+  Feature Directives
+  FeatureLink ../languages/directives-feature.html
+  Supported ✓
+  Example
+   #include <stdio.h>
+   #define height 10
+   #ifdef
+   #endif
+   #if
+   #else
+   #ifndef
+   #undef
+   #pragma
+  Token 
+ row
+  Feature Gotos
+  FeatureLink ../languages/gotos-feature.html
+  Supported ✓
+  Example
+   // C/C++ program to check if a number is 
+   // even or not using goto statement 
+   #include <iostream> 
+   using namespace std; 
+     
+   // function to check even or not 
+   void checkEvenOrNot(int num) 
+   { 
+       if (num % 2 == 0) 
+           goto even; // jump to even 
+       else
+           goto odd; // jump to odd 
+     
+   even: 
+       cout << num << " is evenn"; 
+       return; // return if even 
+   odd: 
+       cout << num << " is oddn"; 
+   } 
+     
+   // Driver program to test above function 
+   int main() 
+   { 
+       int num = 26; 
+       checkEvenOrNot(num); 
+       return 0; 
+   }
+  Token 
+ row
+  Feature Structs
+  FeatureLink ../languages/structs-feature.html
+  Supported ✓
+  Example
+   struct account {
+     int account_number;
+     char *first_name;
+     char *last_name;
+     float balance;
+   };
+  Token 
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   /* hello world */
+   // hi
+  Token 
+ row
+  Feature Symbol Tables
+  FeatureLink ../languages/symbol-table-feature.html
+  Supported ✓
+  Example
+   // Declare an external function
+   extern double bar(double x);
+   
+   // Define a public function
+   double foo(int count)
+   {
+       double  sum = 0.0;
+   
+       // Sum all the values bar(1) to bar(count)
+       for (int i = 1;  i <= count;  i++)
+           sum += bar((double) i);
+       return sum;
+   }
+   // Symbol Table:
+   // Symbol name|Type|Scope
+   // bar|function, double|extern
+   // x|double|function parameter
+   // foo|function, double|global
+   // count|int|function parameter
+   // sum|double|block local
+   // i|int|for-loop statement
+  Token 
+ row
+  Feature Bitwise Operators
+  FeatureLink ../languages/bitwise-operaters-feature.html
+  Supported ✓
+  Example
+   int i = 4; /* bit pattern equivalent is binary 100 */
+   int j = i << 2; /* makes it binary 10000, which multiplies the original number by 4 i.e. 16 */
+  Token 
+ row
+  Feature Assert Statements
+  FeatureLink ../languages/assert-statements-feature.html
+  Supported ✓
+  Example
+   #include <assert.h>
+   int i, a[10];
+   for (i = 0; i < 10; ++i)
+     {
+     assert(0 <= i && i < 10);
+     a[i] = 10-i;
+     }
+   for (i = 0; i < 10; ++i)
+     {
+     assert(0 <= i && i < 10);
+     assert(0 <= a[i] && a[i] < 10);
+     a[a[i]] = a[i];
+     }
+  Token 
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "hello world"
+  Token 
+ row
+  Feature Pointers
+  FeatureLink ../languages/pointers-feature.html
+  Supported ✓
+  Example
+   int *ptr;
+  Token 
+ row
+  Feature Booleans
+  FeatureLink ../languages/booleans-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Fixed Point Numbers
+  FeatureLink ../languages/fixed-point-feature.html
+  Supported ϴ
+  Example
+  Token 
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+ row
+  Feature Operator Overloading
+  FeatureLink ../languages/operator-overloading-feature.html
+  Supported ϴ
+  Example
+  Token 
+ row
+  Feature Garbage Collection
+  FeatureLink ../languages/garbage-collection-feature.html
+  Supported ϴ
+  Example
+  Token 
+ row
+  Feature Regular Expression Syntax Sugar
+  FeatureLink ../languages/regular-expressions-syntax-sugar-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+
+
+foldBreak
+subsection Books about C from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ Introduction to Computing Systems: From Bits and Gates to C and Beyond|https://isbndb.com/book/9780072467505|Yale N. Patt and Sanjay J. Patel|2003|McGraw-Hill Education
+ The C Programming Language|https://isbndb.com/book/9780131101630|Brian W. Kernighan and Dennis M. Ritchie|1978|Prentice-Hall
+ Data Structures Using C and C++ (2nd Edition)|https://isbndb.com/book/9780130369970|Langsam, Yedidyah and Augenstein, Moshe J. and Tenenbaum, Aaron M.|1995|Pearson
+ Problem Solving and Program Design in C (7th Edition)|https://isbndb.com/book/9780132936491|Hanly, Jeri R. and Koffman, Elliot B.|2012|Pearson
+ Data Structures and Algorithm Analysis in C (2nd Edition)|https://isbndb.com/book/9780201498400|Weiss, Mark A.|1996|Pearson
+ C Programming for the Absolute Beginner|https://isbndb.com/book/9781305273764|Davenport, Keith and Vine, Michael|2014|Cengage Learning PTR
+ Standard C Library, The|https://isbndb.com/book/9780131315099|Plauger, P.J.|1992|Pearson
+ SPARC Architecture, Assembly Language Programming, and C|https://isbndb.com/book/9780130255969|Paul, Richard|1999|Pearson
+ System Programming with C and Unix|https://isbndb.com/book/9780136067122|Hoover, Adam|2009|Pearson
+ Expert C Programming: Deep C Secrets|https://isbndb.com/book/9780131774292|van der Linden, Peter|1994|Pearson
+ Book on C, A: Programming in C|https://isbndb.com/book/9780201183993|Kelley, Al and Pohl, Ira|1997|Addison-Wesley Professional
+ C for Java Programmers|https://isbndb.com/book/9780201702798|Muldner, Tomasz|2000|Pearson
+ Understanding and Using C Pointers: Core Techniques for Memory Management|https://isbndb.com/book/9781449344184|Reese, Richard M|2013|O'Reilly Media
+ C for Scientists and Engineers|https://isbndb.com/book/9780023611360|Johnsonbaugh, Richard and Kalin, Martin|2019|Pearson
+ Embedded C: Embedded C|https://isbndb.com/book/9780201795233|Pont, Michael|2002|Addison-Wesley Professional
+ Beginning C for Arduino, Second Edition: Learn C Programming for the Arduino|https://isbndb.com/book/9781484209417|Purdum, Jack|2015|Apress
+ C Programming for the Absolute Beginner|https://isbndb.com/book/9781598634808|Vine, Michael|2007|Cengage Learning PTR
+ Microcontrollers: From Assembly Language to C Using the Pic24 Family|https://isbndb.com/book/9781584505839|Reese, Robert B. and Bruce, J. W. and Jones, Bryan A.|2008|Charles River Media
+ C Programming for Arduino|https://isbndb.com/book/9781849517584|Bayle, Julien|2013|Packt Publishing
+ Engineering Problem Solving with C (3rd Edition)|https://isbndb.com/book/9780131429710|Etter, Delores M.|2004|Pearson
+ Absolute Beginner's Guide to C (2nd Edition)|https://isbndb.com/book/9780672305108|Perry, Greg|1994|Sams Publishing
+ C Programming Language: A Step by Step Beginner's Guide to Learn C Programming in 7 Days|https://isbndb.com/book/9781534679702|Graham, Darrel L.|2016|CreateSpace Independent Publishing Platform
+ Intermediate C Programming|https://isbndb.com/book/9781498711630|Lu, Yung-Hsiang|2015|CRC Press
+ C for Programmers with an Introduction to C11 (Deitel Developer Series): With an Introduction to C11 (Deitel Developer (Paperback))|https://isbndb.com/book/9780133462067|Deitel, Paul|2013|Prentice Hall
+ C Programming: A Modern Approach|https://isbndb.com/book/9780393969450|King, K. N. and King, K.N.|1996|W W Norton & Co Inc
+ C Knights: An Introduction to Programming in C (with selections by Arup Guha and Ali Orooji)|https://isbndb.com/book/9780558564698|||Pearson Learning Solutions
+ The Waite Group's New C Primer Plus|https://isbndb.com/book/9780672303197|Waite, Mitchell and Prata, Stephen|1993|Sams
+ Problem Solving and Program Design in C Plus MyLab Programming with Pearson eText -- Access Card Package|https://isbndb.com/book/9780134243948|Hanly, Jeri and Koffman, Elliot|2015|Pearson
+ Introduction to C|https://isbndb.com/book/9780130118547|Etter, Delores|1999|Pearson
+ Enough Rope to Shoot Yourself in the Foot: Rules for C and C++ Programming (Unix/C)|https://isbndb.com/book/9780070296893|Holub, Allen I.|1995|Computing McGraw-Hill
+ Programming In Ansi C|https://isbndb.com/book/9789339219666|E Balagurusamy|2022|Mc Graw Hill India
+ Programming in C 2/e (Oxford Higher Education)|https://isbndb.com/book/9780198065289|Dey, Pradip and Ghosh, Manas|2012|Oxford University Press
+ Crafting a Compiler with C|https://isbndb.com/book/9780805321661|Fischer, Charles and LeBlanc Jr., Richard|1991|Pearson
+ C Programming for Microcontrollers Featuring ATMEL's AVR Butterfly and the free WinAVR Compiler|https://isbndb.com/book/9780976682202|Pardue, Joe|2005|Smiley Micros
+ 21st Century C: C Tips from the New School|https://isbndb.com/book/9781491903896|Klemens, Ben|2014|O'Reilly Media
+ C by Example (Cambridge Computer Science Texts, Series Number 29)|https://isbndb.com/book/9780521456500|Kalicharan, Noel|1994|Cambridge University Press
+ Black Art of 3D Game Programming: Writing Your Own High-Speed 3D Polygon Video Games in C|https://isbndb.com/book/9781571690043|Lamothe, Andre|1995|Waite Group Pr
+ Programming C On The Macintosh|https://isbndb.com/book/9780673182746|Terry A Ward|1986|Scott, Foresman
+ Let Us C Solutions|https://isbndb.com/book/9788183331777|Yashavant Kanetkar|2007|BPB Publications
+ C by Dissection: The Essentials of C Programming|https://isbndb.com/book/9780805331493|Kelley, Al and Pohl, Ira|1995|Addison-Wesley
+ C++ For C Programmers, Third Edition (3rd Edition)|https://isbndb.com/book/9780201395198|Pohl, Ira|1998|Addison-Wesley Professional
+ Numerical Recipes in C|https://isbndb.com/book/9780521354653|Press, W. H. and Flannery, B. P. and Teukolsky, S. A. and Vetterling, W. T.|1988|Cambridge University Press
+ C A Software Engineering Approach|https://isbndb.com/book/9780387946757|Darnell, Peter A. and Margolis, Philip E.|1996|Springer
+ Linux System Programming: Talking Directly to the Kernel and C Library|https://isbndb.com/book/9780596009588|Love, Robert|2007|O'Reilly Media
+ C Puzzle Book, The|https://isbndb.com/book/9780201604610|Feuer, Alan|2020|Addison-Wesley Professional
+ C++ The Core Language: A Foundation for C Programmers (Nutshell Handbooks)|https://isbndb.com/book/9781565921160|Brown, Doug and Satir, Gregory|1995|O'Reilly & Associates
+ Simulating Ecological and Evolutionary Systems in C|https://isbndb.com/book/9780521772280|Wilson, Will|2000|Cambridge University Press
+ Computing Fundamentals And C Programming 2Nd Edition|https://isbndb.com/book/9789352604166|BALAGURUSAMY|2017|MC GRAW HILL INDIA
+ Programming in C|https://isbndb.com/book/9789332554665|KOCHAN|2022|PEARSON INDIA
+ Computer Fundamentals & Programming in C|https://isbndb.com/book/9780198078883|Thareja, Reema|2012|Oxford University Press
+ Programming for Graphics Files: In C and C++|https://isbndb.com/book/9780471598565|Levine, John R. and Levine, John|1994|Wiley
+ Programming in ANSI C|https://isbndb.com/book/9780195690378|Kumar, Ram; Agrawal, Rakesh|1992|West Publishing Company, College & School Division
+ Programming in Objective- C|https://isbndb.com/book/9780672325861|Cengage|2003|Thomson Delmar Learning
+ Parallel Programming In C With Mpi And Open Mp, 1St Edn|https://isbndb.com/book/9780070582019|QUINN|2011|MC GRAW HILL INDIA
+ ANSI C Programming|https://isbndb.com/book/9788183333245|||BPB Publications
+ Introduction to C Programming|https://isbndb.com/book/9780198086390|Thareja, Reema|2013|Oxford University Press
+ Introduction to C Programming|https://isbndb.com/book/9780199452057|Thareja, Reema|2014|Oxford University Press
+ C Programming Faqs: Frequently Asked Questions|https://isbndb.com/book/9780201845198|Summit, Steve|1995|Addison-Wesley Professional
+ C Programming For Dummies (For Dummies (Computer/Tech))|https://isbndb.com/book/9781119740247|Gookin, Dan|2020|For Dummies
+ Graphics Programming In Turbo C|https://isbndb.com/book/9780471924395|Leen Ammeraal|1989|Wiley
+ Let Us C: Authentic Guide to C PROGRAMMING Language 17th Edition (English Edition)|https://isbndb.com/book/9789389845686|Kanetkar, Yashavant|2020|BPB Publications
+ 大学计算机教育丛书•C程序设计语言习题解答(第2版)(影印版) - The C Answer Book - Solutions to the Exercises in the C Programming Language - 2nd Edition|https://isbndb.com/book/9787302027287||1997|Prentice Hall
+ Computer Concepts and C Programming|https://isbndb.com/book/9788177229981|VIKAS GUPTA|2009|Wiley India
+ The Art of C Programming|https://isbndb.com/book/9780387963921|Jones, Robin and Stewart, Ian|1986|Springer
+ Mylab Programming with Pearson Etext -- Access Code Card -- For Problem Solving and Program Design in C|https://isbndb.com/book/9780134253992|Hanly, Jeri and Koffman, Elliot|2015|Pearson
+ MyLab Programming with Pearson eText -- Standalone Access Card -- for C How to Program|https://isbndb.com/book/9780134225340|Deitel, Paul and Deitel, Harvey|2015|Pearson
+ C programming guide|https://isbndb.com/book/9780880221573|Purdum, Jack J|1985|Que Corp
+ Programming with C|https://isbndb.com/book/9780070593695|Hubbard, John|1996|McGraw Hill
+ 21st Century C: C Tips from the New School|https://isbndb.com/book/9781449327149|Klemens, Ben|2012|O'Reilly Media
+ Data Structures and Program Design In C (2nd Edition)|https://isbndb.com/book/9780132883665|Kruse, Robert L. and Leung, Bruce P. and Tondo, Clovis L.|1996|Prentice Hall
+ Advanced Turbo C (Borland-Osborne/McGraw-Hill Programming Series)|https://isbndb.com/book/9780078814792|Schildt, Herbert|1989|McGraw-Hill Osborne Media
+ Data Structures Through C in Depth [May 30, 2004] Srivastava, S. K. and Srivastava, Deepali|https://isbndb.com/book/9788176567411|Srivastava, S. K.|2004|Bpb Publications
+ C language programming: a modern approach(Chinese Edition)|https://isbndb.com/book/9787115219572|( MEI )K. N. King|2010|People Post Press Pub. Date: 2010 -04
+ Foundations of C  /CLI|https://isbndb.com/book/9781430210245|Gordon Hogenson|20081020|Springer Nature
+ Programming in C (Hayden books C library)|https://isbndb.com/book/9780672484209|Kochan, Stephen G.|1988|Sams
+ Getting Graphic: Programming Fundamentals in C and C++/Book and Disk|https://isbndb.com/book/9781558512825|Finlay, Mark|1992|M & T Books
+ Starting Out with C   From Control Structures to Objects|https://isbndb.com/book/9780133888201|Tony Gaddis|20140307|Pearson Education (US)
+ Business Programming in C for Dos-Based Systems (The Dryden Press Series in Information System)|https://isbndb.com/book/9780155001398|Millspaugh, A. C.|1992|Dryden Pr
+
+
+foldBreak
+subsection Publications about C from Semantic Scholar
+pipeTable
+ title|titleLink|authors|year|citations|influentialCitations
+ The C Programming Language|https://www.semanticscholar.org/paper/d36227ed3bfbe37972acfc90acea59f1246e0fde|B. Kernighan and D. Ritchie|1978|2216|51
+ The Semantics of the C Programming Language|https://www.semanticscholar.org/paper/6d65722122ef01784cf681cffff7b8e70a033f5b|Y. Gurevich and J. Huggins|1992|252|10
+ Hardbound: architectural support for spatial safety of the C programming language|https://www.semanticscholar.org/paper/4f8aa76dd8c1309d48bca4858a468769c992bff9|Joseph Devietti and Colin Blundell and Milo M. K. Martin and S. Zdancewic|2008|211|30
+ The concurrent C programming language|https://www.semanticscholar.org/paper/6f4869aad5488ceb5dc9123f812cf650f8ad07b5|N. Gehani and W. D. Roome|1989|84|1
+ UNIX time-sharing system: The C programming language|https://www.semanticscholar.org/paper/1f12815c916ee291721ab09f32b6dc9cccf78052|D. Ritchie and S. C. Johnson and M. Lesk and B. Kernighan|1978|58|0
+ Real-time learning analytics for C programming language courses|https://www.semanticscholar.org/paper/e62c260c0bdafaff60edd58cca1916b6bfd1de01|Xinyu Fu and Atsushi Shimada and H. Ogata and Yuta Taniguchi and D. Suehiro|2017|32|1
+ Introductory C Programming Language Learning with Game-Based Digital Learning|https://www.semanticscholar.org/paper/c608f31fcf55b8025d32db5b5e5e6965d0c86124|Wen-Chih Chang and Yu-Min Chou|2008|24|3
+ C Programming: A Modern Approach|https://www.semanticscholar.org/paper/96393da4f7c043d840fab62911d1fa4a44b12b39|K. N. King|1996|23|3
+ A minimal, extensible, drag-and-drop implementation of the C programming language|https://www.semanticscholar.org/paper/19bcbe22289575283fa5ea50b28b98b4fef0195e|S. Federici|2011|22|1
+ Omega&#8212;A Data Flow Analysis Tool for the C Programming Language|https://www.semanticscholar.org/paper/a17b956678ab4e32f2246a425d92d2d0c9d9035a|C. Wilson and L. Osterweil|1985|20|1
+ The development of the C programming language|https://www.semanticscholar.org/paper/53a1e8c89f53aee3cb584f63968c65bbc23516bb|D. Ritchie|1996|18|0
+ Extensions to the C programming language for enhanced fault detection|https://www.semanticscholar.org/paper/85f138643978fbd9f461a0a024e9d20009a33d20|D. Flater and Y. Yesha and E. Park|1993|17|1
+ Research and Reflection on Teaching of C Programming Language Design|https://www.semanticscholar.org/paper/ca493d45444957fb34f85425e89c1132c1e58797|Hui Gao and Zhaowen Qiu and Di Wu and Liyan Gao|2015|12|0
+ A Serious Game for Learning C Programming Language Concepts Using Solo Taxonomy|https://www.semanticscholar.org/paper/dab275e2c8e9f22bc9cce1286b62fcb6ba3b2f2d|Alaeeddine Yassine and D. Chenouni and M. Berrada and A. Tahiri|2017|12|0
+ Timed C: An Extension to the C Programming Language for Real-Time Systems|https://www.semanticscholar.org/paper/d1baf7641b5c7f0074923e3b3773f0f6d6f77741|Saranya Natarajan and David Broman|2018|10|0
+ Design tradeoffs to support the C programming language in the CRISP microprocessor|https://www.semanticscholar.org/paper/37a1c18cce1c6840b7b94600a4e7247b534382b6|D. Ditzel and H. McLellan|1987|8|0
+ The C Programming Language and a C Compiler|https://www.semanticscholar.org/paper/0f9a12e9901772a51486f72283b7e34e3d54f996|Ralph R. Ryan and Hans-Dieter Spiller|1985|7|0
+ Virtual Education System for the C Programming Language|https://www.semanticscholar.org/paper/3c048305affc8dd4a384db4843f4c98d59cf4660|Il-Hyeon Moon and Saeron Han and KwanSun Choi and Dongsik Kim and Changwan Jeon and Sunheum Lee and Heunggu Jeon|2008|5|1
+ The C programming language|https://www.semanticscholar.org/paper/4ad1b60dca3d306e164233d7044f9587f296e002|Russell Jones|1985|2|0
+
+
+
+
+
+
+keyboardNav javascript.html python.html

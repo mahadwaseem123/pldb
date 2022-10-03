@@ -1,0 +1,741 @@
+importOnly
+replace EXTENSION_COUNT
+ 1,535
+replace TABLE
+ pipeTable
+  name|nameLink|extensions|numberOfExtensions
+  Java|../languages/java.html|java jav|2
+  JavaScript|../languages/javascript.html|js _js bones cjs es es6 frag gs jake javascript jsb jscad jsfl jslib jsm jspre jss jsx mjs njs pac sjs ssjs xsjs xsjslib|25
+  C|../languages/c.html|c cats h idc x[bp]m Mono|6
+  Python|../languages/python.html|py pyc pyd pyo cgi fcgi gyp gypi lmi py3 pyde pyi pyp pyt pyw rpy smk spec tac wsgi xpy jy sage sc SConstruct SConscript bzl BUCK BUILD BUILD.bazel WORKSPACE|31
+  C++|../languages/cpp.html|cpp c++ cc cp cxx h h++ hh hpp hxx inc inl ino ipp ixx re tcc tpp C H CPP|21
+  HTML|../languages/html.html|html hta htm htmlhl inc xht xhtml xslt|8
+  SQL|../languages/sql.html|sql cql ddl inc mysql prc tab udf viw|9
+  PHP|../languages/php.html|php phtml php3 php4 php5 php7 phps aw ctp fcgi inc phpt php[345]|13
+  XML|../languages/xml.html|xml adml admx ant axaml axml builds ccproj ccxml clixml cproject cscfg csdef csl csproj ct depproj dita ditamap ditaval dllconfig dotsettings filters fsproj fxml glade gml gmx grxml gst hzp iml ivy jelly jsproj kml launch mdpolicy mjml mm mod mxml natvis ncl ndproj nproj nuspec odd osm pkgproj pluginspec proj props ps1xml psc1 pt qhelp rdf res resx rs rss sch scxml sfproj shproj srdf storyboard sublime-snippet targets tml ts tsx ui urdf ux vbproj vcxproj vsixmanifest vssettings vstemplate vxml wixproj workflow wsdl wsf wxi wxl wxs x3d xacro xaml xib xlf xliff xmi xmldist xmp xproj xsd xspec xul zcml xsl xslt|105
+  Perl|../languages/perl.html|pl pm t pod al cgi fcgi perl ph plx psgi|11
+  MATLAB|../languages/matlab.html|matlab m|2
+  Ruby|../languages/ruby.html|rb builder eye fcgi gemspec god jbuilder mspec pluginspec podspec prawn rabl rake rbi rbuild rbw rbx ru ruby spec thor watchr Rakefile duby Gemfile Vagrantfile|26
+  C#|../languages/csharp.html|cs cake csx linq|4
+  Fortran|../languages/fortran.html|f for f90 f95 f03 f08 f15 f77 fpp F03 F90|11
+  CSS|../languages/css.html|css|1
+  Go|../languages/go.html|go|1
+  R|../languages/r.html|r R RData rds rda rd rsx|7
+  Swift|../languages/swift.html|swift|1
+  JSON|../languages/json.html|json 4DForm 4DProject avsc geojson gltf har ice JSON-tmLanguage jsonl mcmeta tfstate tfstatebackup topojson webapp webmanifest yy yyp Pipfile.lock|19
+  Scala|../languages/scala.html|scala sc kojo sbt|4
+  COBOL|../languages/cobol.html|cbl cob cpy ccp cobol COB CPY|7
+  Haskell|../languages/haskell.html|hs lhs hs-boot hsc|4
+  Rust|../languages/rust.html|rs rlib rsin rs.in|4
+  Pascal|../languages/pascal.html|pp pas inc dfm dpr lpr pascal|7
+  Ada|../languages/ada.html|adb ads ada|3
+  SAS|../languages/sas.html|sas SAS|2
+  TypeScript|../languages/typescript.html|ts tsx cts mts|4
+  Lua|../languages/lua.html|lua fcgi nse p8 pd_lua rbxs rockspec wlua|8
+  PowerShell|../languages/powershell.html|ps1 psd1 psm1|3
+  Prolog|../languages/prolog.html|pl pro P prolog yap ecl|6
+  Objective-C|../languages/objective-c.html|h m mm C|4
+  Clojure|../languages/clojure.html|clj cljs cljc edn bb boot cl2 cljshl cljscm cljx hic|11
+  Kotlin|../languages/kotlin.html|kt kts ktm|3
+  Erlang|../languages/erlang.html|erl hrl appsrc es escript xrl yrl|7
+  Julia|../languages/julia.html|jl|1
+  Mathematica|../languages/mathematica.html|mathematica cdf m ma mt nb nbp wl wlt|9
+  Elixir|../languages/elixir.html|ex exs eex|3
+  Modula-2|../languages/modula-2.html|mod m2 def MOD DEF mi md|7
+  CUDA|../languages/cuda.html|cu cuh|2
+  Scheme|../languages/scheme.html|scm ss sch sld sls sps |7
+  Tcl|../languages/tcl.html|tcl tbc adp tclin tm rvt|6
+  Assembly language|../languages/assembly-language.html|asm a51 i inc nas nasm|6
+  BASIC|../languages/basic.html|bas|1
+  Dart|../languages/dart.html|dart|1
+  Arduino|../languages/arduino.html|ino|1
+  ActionScript|../languages/actionscript.html|as|1
+  awk|../languages/awk.html|awk auk gawk mawk nawk|5
+  Regular Expressions|../languages/regex.html|regexp regex|2
+  Bash|../languages/bash.html|sh bash bats cgi command env fcgi ksh shin tmux tool zsh zsh-theme ebuild eclass exheres-0 exlib .bashrc bashrc .bash_* bash_* zshrc .zshrc .kshrc kshrc PKGBUILD|26
+  F#|../languages/f-sharp.html|fs fsi fsx fsscript|4
+  HTTP|../languages/http.html|http|1
+  Crystal|../languages/crystal.html|cr|1
+  Delphi|../languages/delphi.html|pas dpr|2
+  VBA|../languages/vba.html|bas cls frm frx vba|5
+  Verilog|../languages/verilog.html|v veo|2
+  Smalltalk|../languages/smalltalk.html|st cs|2
+  OCaml|../languages/ocaml.html|ml mli eliom eliomi ml4 mll mly|7
+  Modula-3|../languages/modula-3.html|i3 ig m3 mg|4
+  Eiffel|../languages/eiffel.html|e|1
+  Reason|../languages/reason.html|re rei|2
+  Solidity|../languages/solidity.html|sol|1
+  Sage|../languages/sagemath.html|sage sagews|2
+  Yacc|../languages/yacc.html|y yacc yy|3
+  D|../languages/d.html|d di|2
+  Groovy|../languages/groovy.html|groovy grt gtpl gvy gradle|5
+  Elm|../languages/elm.html|elm|1
+  VHDL|../languages/vhdl.html|vhdl vhd vhf vhi vho vhs vht vhw|8
+  Racket|../languages/racket.html|rkt rktl rktd scrbl plt ss scm|7
+  Common Lisp|../languages/common-lisp.html|lisp lsp l cl fasl asd ny podsl sexp|9
+  APL|../languages/apl.html|apl dyalog aplf aplo apln aplc apli|7
+  CoffeeScript|../languages/coffeescript.html|coffee litcoffee _coffee cake cjsx iced|6
+  PostScript|../languages/postscript.html|ps eps epsi pfa|4
+  GraphQL|../languages/graphql.html|graphql gql graphqls|3
+  YAML|../languages/yaml.html|yml mir reek rviz sublime-syntax syntax yaml yaml-tmlanguage yamlsed ymlmysql|10
+  OpenCL|../languages/opencl.html|cl opencl|2
+  Vue|../languages/vuejs.html|vue|1
+  ASP|../languages/asp.html|asp asax ascx ashx asmx aspx axd|7
+  Smali|../languages/smali.html|smali|1
+  XQuery|../languages/xquery.html|xq xql xqm xqy xquery|5
+  Scratch|../languages/scratch.html|scratch sb sprite sb2 sprite2|5
+  Nim|../languages/nim.html|nim nimcfg nimble nimrod nims|5
+  LFE|../languages/lfe.html|lfe hrl|2
+  Forth|../languages/forth.html|fth 4th f for forth fr frt fs|8
+  Rexx|../languages/rexx.html|cmd exec rexx rex pprx rx arexx|7
+  PureBasic|../languages/purebasic.html|pb pbi|2
+  Chapel|../languages/chapel.html|chpl|1
+  Markdown|../languages/markdown.html|md livemd markdown mdown mdwn mdx mkd mkdn mkdown ronn scd workbook|12
+  WebAssembly|../languages/wasm.html|wasm wast wat|3
+  ANTLR|../languages/antlr.html|g4|1
+  Red|../languages/red.html|red reds|2
+  Haxe|../languages/haxe.html|hx hxml hxsl|3
+  LLVM IR|../languages/llvmir.html|ll|1
+  Oz|../languages/oz.html|oz|1
+  Liquid|../languages/liquid.html|liquid|1
+  Applescript|../languages/applescript.html|scpt scptd AppleScript applescript|4
+  MediaWiki|../languages/mediawiki.html|mediawiki wiki|2
+  LabVIEW G|../languages/labview.html|lvproj lvclass lvlib|3
+  fish|../languages/fish.html|fish load|2
+  VBScript|../languages/vbscript.html|vbs vbe wsf wsc VBS|5
+  Idris|../languages/idris.html|idr lidr|2
+  Nginx|../languages/nginx-config.html|nginx nginxconf vhost nginx.conf|4
+  V|../languages/v.html|v|1
+  sed|../languages/sed.html|sed [gs]sed|2
+  Lasso|../languages/lasso.html|lasso LassoApp las lasso8 lasso9 lasso[89]|6
+  AMPL|../languages/ampl.html|ampl mod run dat|4
+  PicoLisp|../languages/picolisp.html|l|1
+  Standard ML|../languages/standard-ml.html|sml ml fun sig|4
+  Protocol Buffers|../languages/protobuf.html|proto|1
+  Visual Basic .NET|../languages/visual-basic.net.html|vb vbhtml|2
+  PureScript|../languages/purescript.html|purs|1
+  Tex|../languages/tex.html|tex aux bbx cbx cls dtx ins lbx ltx mkii mkiv mkvi sty toc|14
+  REBOL|../languages/rebol.html|r reb r2 r3 rebol|5
+  SVG|../languages/svg.html|svg|1
+  OWL|../languages/owl.html|owl|1
+  Processing|../languages/processing.html|pde|1
+  Org|../languages/org.html|org|1
+  Dylan|../languages/dylan.html|dylan dyl intr lid|4
+  Hack|../languages/hack.html|hack hh hhi php|4
+  Brainfuck|../languages/brainfuck.html|b bf|2
+  DOT|../languages/dot.html|dot gv|2
+  FLUX|../languages/flux.html|fx flux|2
+  PL/SQL|../languages/pl-sql.html|pls bdy ddl fnc pck pkb pks plb plsql prc spc sql tpb tps trg vw|16
+  Fantom|../languages/fantom.html|fan|1
+  BlitzBasic|../languages/blitzbasic.html|bb decls|2
+  Limbo|../languages/limbo.html|b m|2
+  Agda|../languages/agda.html|agda lagda|2
+  HAML|../languages/haml.html|haml hamldeface|2
+  MUMPS|../languages/mumps.html|mumps m|2
+  Jinja|../languages/jinja.html|jinja j2 jinja2|3
+  Coq|../languages/coq.html|coq v|2
+  ColdFusion|../languages/coldfusion.html|cfm cfml|2
+  Emacs Lisp|../languages/emacs-lisp.html|el emacs emacsdesktop elc|4
+  Monkey|../languages/monkey.html|monkey monkey2|2
+  AutoIt|../languages/autoit.html|au3|1
+  ABAP|../languages/abap.html|abap ABAP|2
+  Nearley|../languages/nearley.html|ne nearley|2
+  x86 Assembly|../languages/x86-assembly.html|s ms|2
+  Vala|../languages/vala.html|vala vapi|2
+  MoonScript|../languages/moonscript.html|moon|1
+  Jison|../languages/jison.html|jison|1
+  Squirrel|../languages/squirrel.html|nut|1
+  Terra|../languages/terra.html|t|1
+  TOML|../languages/toml.html|toml Pipfile poetry.lock|3
+  Ballerina|../languages/ballerina.html|bal|1
+  Zig|../languages/zig.html|zig|1
+  Icon|../languages/icon.html|icon ICON|2
+  X10|../languages/x10.html|x10|1
+  Makefile|../languages/makefile.html|mak d make makefile mk mkfile Makefile Makefile.* GNUmakefile|9
+  Scilab|../languages/scilab.html|sci sce tst|3
+  Frege|../languages/frege.html|fr|1
+  Turing|../languages/turing.html|t tu|2
+  Pug|../languages/pug.html|jade pug|2
+  NewLisp|../languages/newlisp.html|nl lisp lsp kif|4
+  Slim|../languages/slim-lang.html|slim|1
+  xBase|../languages/xbase.html|prg ch prw|3
+  JSP|../languages/java-server-pages.html|jsp|1
+  IDL|../languages/idl.html|pro dlm|2
+  QML|../languages/qml.html|qml qbs|2
+  Boo|../languages/boo.html|boo|1
+  Mercury|../languages/mercury.html|m moo|2
+  GNU Octave|../languages/octave.html|m|1
+  Hy|../languages/hy.html|hy|1
+  Zephir|../languages/zephir.html|zep|1
+  Io|../languages/io.html|io|1
+  PostCSS|../languages/postcss.html|pcss postcss|2
+  Nemerle|../languages/nemerle.html|n|1
+  Lean|../languages/lean.html|lean hlean|2
+  Object Pascal|../languages/object-pascal.html|p pp pas|3
+  Ceylon|../languages/ceylon.html|ceylon ceyloncite web|3
+  SuperCollider|../languages/supercollider.html|sc scd|2
+  SPARQL|../languages/sparql.html|sparql rq|2
+  LOLCODE|../languages/lolcode.html|lol|1
+  Clean|../languages/clean.html|icl dcl abc sapl|4
+  SystemVerilog|../languages/systemverilog.html|sv svh vh header file|5
+  SNOBOL|../languages/snobol.html|snobol|1
+  Opa|../languages/opa.html|opa|1
+  J|../languages/j.html|ijs|1
+  QBasic|../languages/qbasic.html|BAS bas|2
+  Bison|../languages/bison.html|bison|1
+  Cython|../languages/cython.html|pyx pxd pxi|3
+  Inform|../languages/inform.html|ni i7x|2
+  RobotFramework|../languages/robotframework.html|robot resource|2
+  KiCad Legacy Layout|../languages/kicad.html|sch lib brd kicad_pcb kicad_wks kicad_mod|6
+  CLIPS|../languages/clips.html|clp|1
+  CMake|../languages/cmake.html|cmake cmakein CMakeLists.txt|3
+  JSON5|../languages/json5.html|json5|1
+  Nextflow|../languages/nextflow.html|nf|1
+  Stata|../languages/stata.html|do ado doh ihlp mata matah sthlp|7
+  reStructuredText|../languages/restructuredtext.html|rst rest resttxt rsttxt|4
+  Metal|../languages/metal.html|metal|1
+  Self|../languages/self.html|self|1
+  Multi-User Forth|../languages/muf.html|muf m|2
+  EDN|../languages/edn.html|edn|1
+  NumPy|../languages/numpy.html|numpy numpyw numsc|3
+  Click|../languages/click.html|click|1
+  API Blueprint|../languages/api-blueprint.html|apib|1
+  Isabelle|../languages/isabelle.html|ROOT thy|2
+  Pike|../languages/pike.html|pike pmod|2
+  HCL|../languages/hcl.html|hcl nomad tf tfvars workflow|5
+  YANG|../languages/yang.html|yang|1
+  RAML|../languages/raml.html|raml|1
+  ATS|../languages/ats.html|dats hats sats|3
+  F*|../languages/fstar.html|fst fsti|2
+  AGC|../languages/apollo-guidance-computer.html|agc|1
+  Sass|../languages/sass.html|sass scss|2
+  ClojureScript|../languages/clojurescript.html|cljs|1
+  Csound|../languages/csound.html|csd sco orc udo|4
+  Perl 6|../languages/perl-6.html|6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 t|11
+  Turtle|../languages/turtle.html|ttl|1
+  Xojo|../languages/xojo.html|xojo_code xojo_menu xojo_report xojo_script xojo_toolbar xojo_window|6
+  NetLogo|../languages/netlogo.html|nlogo nlogo3d nls|3
+  Lex|../languages/lex.html|l lex|2
+  Factor|../languages/factor.html|factor|1
+  Gnuplot|../languages/gnuplot.html|gp gnu gnuplot p plot plt|6
+  FoxPRO|../languages/foxpro.html|PRG prg|2
+  Wren|../languages/wren.html|wren|1
+  Wavefront Object|../languages/wavefront-object.html|obj|1
+  odin|../languages/odin.html|odin|1
+  YARA|../languages/yara.html|yar yara|2
+  PL/pgSQL|../languages/plpgsql.html|pgsql sql|2
+  E|../languages/e.html|e|1
+  Alloy|../languages/alloy.html|als|1
+  Ioke|../languages/ioke.html|ik|1
+  Modelica|../languages/modelica.html|mo|1
+  LiveScript|../languages/livescript.html|ls _ls|2
+  Gradle|../languages/gradle.html|gradle|1
+  RDoc|../languages/rdoc.html|rdoc|1
+  Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope|21
+  Dafny|../languages/dafny.html|dfy|1
+  Batchfile|../languages/batch.html|bat cmd|2
+  B|../languages/b.html|b|1
+  AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc|3
+  ERB|../languages/erb.html|erb erbdeface rhtml|3
+  Marko|../languages/marko.html|marko|1
+  GAMS|../languages/general-algebraic-modeling-system.html|gms|1
+  M4|../languages/m4.html|m4 mc|2
+  TLA|../languages/tla.html|tla|1
+  Arc|../languages/arc.html|arc|1
+  Dhall|../languages/dhall.html|dhall|1
+  Pod|../languages/pod.html|pod|1
+  Objective-J|../languages/objective-j.html|j sj|2
+  Ninja|../languages/ninja.html|ninja|1
+  JSON-LD|../languages/json-ld.html|jsonld|1
+  Wolfram Language|../languages/wolfram.html|nb m wl|3
+  Q|../languages/q.html|q|1
+  PEG.js|../languages/pegjs.html|pegjs|1
+  Puppet|../languages/puppet.html|pp|1
+  Bicep|../languages/bicep.html|bicep|1
+  Seed7|../languages/seed7.html|sd7 s7i|2
+  Befunge|../languages/befunge.html|befunge|1
+  Oxygene|../languages/oxygene.html|oxygene|1
+  GDB|../languages/gdb.html|gdb gdbinit|2
+  BibTeX|../languages/bibtex.html|bib bibtex|2
+  AutoHotkey|../languages/autohotkey.html|ahk ahkl|2
+  PowerBuilder|../languages/powerbuilder.html|pbt sra sru srw|4
+  Twig|../languages/twig.html|twig|1
+  Less|../languages/less.html|less|1
+  SaltStack|../languages/saltstack.html|sls|1
+  XS|../languages/xs.html|xs|1
+  G-code|../languages/g-code.html|g cnc gco gcode mpt mpf nc|7
+  Thrift|../languages/thrift.html|thrift|1
+  Genie|../languages/genie.html|gs|1
+  Classroom Object Oriented Language|../languages/cool.html|cl|1
+  Maxima|../languages/maxima.html|mac max|2
+  wisp|../languages/wisp.html|wisp|1
+  Falcon|../languages/falcon.html|ftd fal fam|3
+  Transact-SQL|../languages/transact-sql.html|sql|1
+  ASN.1|../languages/asn-1.html|asn asn1|2
+  Netwide Assembler|../languages/nasm.html|asm ASM|2
+  Cap'n Proto|../languages/capn-proto.html|capnp|1
+  YASnippet|../languages/yasnippet.html|yasnippet|1
+  UrWeb|../languages/urweb.html|ur urs|2
+  S|../languages/s.html|S R .Rhistory .Rprofile .Renviron|5
+  JScript|../languages/jscript.html|js jse wsf wsc|4
+  Pig Latin|../languages/pig.html|pig|1
+  EJS|../languages/ejs.html|ejs ect ejst jst|4
+  EML|../languages/mbox.html|eml mbox|2
+  Bluespec|../languages/bluespec.html|bsv|1
+  starlark|../languages/starlark.html|bzl star|2
+  K|../languages/k.html|k|1
+  Stylus|../languages/stylus.html|styl|1
+  Latte|../languages/latte.html|latte|1
+  JFlex|../languages/jflex.html|flex jflex|2
+  CIL|../languages/cilk.html|cil|1
+  Vim script|../languages/vim-script.html|vim vba vimrc vmb .vimrc .exrc .gvimrc _vimrc _exrc _gvimrc gvimrc|11
+  RMarkdown|../languages/rmarkdown.html|rmd qmd|2
+  DTD|../languages/dtd.html|dtd|1
+  FreeBASIC|../languages/freebasic.html|bi bas|2
+  AspectJ|../languages/aspectj.html|aj|1
+  TXL|../languages/txl.html|txl|1
+  Parrot|../languages/parrot-vm.html|parrot|1
+  Smarty|../languages/smarty.html|tpl|1
+  Graph Modeling Language|../languages/graph-modeling-language.html|gml|1
+  DTrace|../languages/dtrace.html|d|1
+  Max|../languages/max.html|maxpat maxhelp maxproj mxt pat|5
+  Xtend|../languages/xtend.html|xtend|1
+  Nu|../languages/nu.html|nu|1
+  Slash|../languages/slash.html|sl sla|2
+  Diff|../languages/diff.html|diff patch|2
+  NSIS|../languages/nsis.html|nsi nsh|2
+  Ragel|../languages/ragel.html|rl|1
+  muPad|../languages/mupad.html|mu|1
+  jq|../languages/jq.html|jq|1
+  JCL|../languages/jcl.html|jcl|1
+  Unicon|../languages/unicon.html|icn|1
+  mlir|../languages/mlir.html|mlir|1
+  Pure Data|../languages/puredata.html|pd|1
+  Fennel|../languages/fennel.html|fnl|1
+  HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli|5
+  beef-lang|../languages/beef.html|bf|1
+  Ring|../languages/ring.html|ring rh rform|3
+  XSLT|../languages/xslt.html|xslt xsl xpl|3
+  PEG|../languages/peg.html|peg|1
+  Gerber Image|../languages/gerber-image.html|gbr cmp gbl gbo gbp gbs gko gml gpb gpt gtl gto gtp gts ncl sol|16
+  SIL|../languages/swift-il.html|sil|1
+  Closure Templates|../languages/closure-templates.html|soy|1
+  NL|../languages/nl.html|nl|1
+  CWL|../languages/common-workflow-language.html|cwl|1
+  WDL|../languages/wdl.html|wdl|1
+  Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5|7
+  Gosu|../languages/gosu.html|gs gsp gst gsx vark|5
+  OpenVera|../languages/openvera.html|vr|1
+  Koka|../languages/koka.html|kk kki|2
+  Dogescript|../languages/dogescript.html|djs|1
+  Augmented Backus-Naur Form|../languages/abnf.html|abnf|1
+  GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader|22
+  SourcePawn|../languages/sourcepawn.html|sp inc|2
+  EBNF|../languages/ebnf.html|ebnf|1
+  Curry|../languages/curry.html|curry|1
+  Ren'Py|../languages/renpy.html|rpy|1
+  Inno Setup|../languages/inno-setup.html|iss isl|2
+  LilyPond|../languages/lilypond.html|ly ily|2
+  Java Properties|../languages/java-properties.html|properties|1
+  Xtext|../languages/xtext.html|xtext|1
+  Eagle|../languages/eagle.html|sch brd|2
+  IGOR Pro|../languages/igor-pro.html|ipf|1
+  Zip file format|../languages/zip-format.html|zip|1
+  CFML|../languages/cfml.html|cfm cfc|2
+  eC|../languages/ec.html|ec eh|2
+  PIR|../languages/parrot-internal-representation.html|pir|1
+  Velocity|../languages/apache-velocity.html|vm fhtml|2
+  RUNOFF|../languages/runoff.html|rnh rno|2
+  CWEB|../languages/cweb.html|w|1
+  Glyph Bitmap Distribution Format|../languages/glyph-bitmap-distribution-format.html|bdf|1
+  CSV|../languages/csv.html|csv|1
+  Jule|../languages/x.html|.jule|1
+  CodeQL|../languages/codeql.html|ql qll|2
+  SubRip Text|../languages/subrip-text.html|srt|1
+  beads-lang|../languages/beads-lang.html|beads|1
+  Dockerfile|../languages/dockerfile.html|dockerfile|1
+  PAWN|../languages/pawn.html|pwn inc|2
+  Pony|../languages/pony.html|pony|1
+  SQLPL|../languages/sqlpl.html|sql db2|2
+  MiniD|../languages/minid.html|minid|1
+  Euphoria|../languages/euphoria.html|e ex exw edb|4
+  Spin|../languages/spin.html|spin|1
+  Papyrus|../languages/papyrus.html|psc|1
+  Felix|../languages/felix.html|flx flxh|2
+  CSON|../languages/cson.html|cson|1
+  Uno|../languages/uno.html|uno|1
+  P4|../languages/p4.html|p4|1
+  Varnish Configuration Language|../languages/vcl.html|vcl|1
+  Clarion|../languages/clarion.html|clw|1
+  Slope|../languages/slope.html|slo|1
+  X PixMap|../languages/x-pixmap.html|xpm pm|2
+  NetLinx|../languages/netlinx.html|axserb axierb axs axi|4
+  X BitMap|../languages/x-bitmap.html|xbm|1
+  kaitai|../languages/kaitai.html|ksy|1
+  BBC BASIC|../languages/bbc-basic.html|bbc|1
+  FIGlet Font|../languages/figlet-font.html|flf|1
+  mustache|../languages/mustache.html|mustache|1
+  Textile|../languages/textile.html|textile|1
+  Shapefile|../languages/shapefile.html|shp shx dbf|3
+  chaiscript|../languages/chaiscript.html|chai|1
+  MQL5|../languages/mql.html|mq5 mqh mq4|3
+  LookML|../languages/lookml.html|lookml modellkml viewlkml|3
+  Futhark|../languages/futhark.html|fut|1
+  Literate CoffeeScript|../languages/literate-coffeescript.html|litcoffee coffeemd|2
+  QMake|../languages/qmake.html|pro pri|2
+  Angelscript|../languages/angelscript.html|as angelscript|2
+  XProc|../languages/xproc.html|xpl xproc|2
+  Cobra|../languages/cobra.html|cobra|1
+  Apex|../languages/apex.html|cls|1
+  NCAR Command Language|../languages/ncl.html|ncl|1
+  BNF|../languages/bnf.html|bnf|1
+  Volt|../languages/volt.html|volt|1
+  CoNLL-U|../languages/conll-u.html|conllu conll|2
+  Asymptote|../languages/asymptote.html|asy|1
+  DM|../languages/dm.html|dm dmf|2
+  GNU Assembler|../languages/gas.html|s S|2
+  DIGITAL Command Language|../languages/digital-command-language.html|com|1
+  Linden Scripting Language|../languages/lsl.html|lsl lslp|2
+  DNS Zone|../languages/zone.html|zone arpa|2
+  GDScript|../languages/gdscript.html|gd|1
+  Filebench WML|../languages/filebench-wml.html|f|1
+  Eclipse Command Language|../languages/eclipse-command-language.html|ecl|1
+  Tea|../languages/tea.html|tea|1
+  TSV|../languages/tsv.html|tsv|1
+  PIC|../languages/pic.html|pic chem|2
+  ShaderLab|../languages/shaderlab.html|shader|1
+  UPC|../languages/unified-parallel-c.html|upc|1
+  Creole|../languages/creole.html|creole|1
+  COLLADA|../languages/collada.html|dae|1
+  Nix|../languages/nix.html|nix|1
+  JSONiq|../languages/jsoniq.html|jq|1
+  Easybuild|../languages/easybuild.html|eb|1
+  Meson|../languages/meson.html|meson.build meson_options.txt|2
+  Harbour|../languages/harbour.html|hb prg ch hbp|4
+  Cryptol|../languages/cryptol.html|cry|1
+  COMPONENT PASCAL|../languages/component-pascal.html|cp cps|2
+  POV-Ray SDL|../languages/pov-ray-sdl.html|pov inc|2
+  IcedCoffeeScript|../languages/icedcoffeescript.html|coffee|1
+  OpenSCAD|../languages/openscad.html|scad|1
+  CartoCSS|../languages/cartocss.html|mss|1
+  Gettext Catalog|../languages/gettext.html|po pot|2
+  Mask|../languages/maskjs.html|mask|1
+  Omgrofl|../languages/omgrofl.html|omgrofl|1
+  Yorick|../languages/yorick.html|i|1
+  Mu|../languages/mu.html|mu|1
+  BlitzMax|../languages/blitzmax.html|bmx|1
+  RenderScript|../languages/renderscript.html|rs rsh|2
+  contracts.coffee|../languages/contracts.coffee.html|coffee|1
+  ToffeeScript|../languages/toffeescript.html|toffee|1
+  BlackCoffee|../languages/blackcoffee.html|coffee|1
+  heap.coffee|../languages/heap.coffee.html|coffee|1
+  Rascal|../languages/rascal.html|rsc|1
+  Jasmin|../languages/jasmin.html|j|1
+  Literate Agda|../languages/literate-agda.html|lagda|1
+  UberScript|../languages/uberscript.html|coffee|1
+  ooc|../languages/ooc.html|ooc|1
+  Caffeine|../languages/caffeine.html|coffee|1
+  Game Maker Language|../languages/game-maker-language.html|gml|1
+  vyper|../languages/vyper.html|vy|1
+  clay|../languages/clay.html|clay|1
+  Nit|../languages/nit.html|nit|1
+  Edje Data Collection|../languages/edje-data-collection.html|edc|1
+  Objective C++|../languages/objective-cpp.html|mm hh|2
+  Blender|../languages/blender-app.html|blend|1
+  Slice|../languages/slice.html|ice|1
+  EmberScript|../languages/emberscript.html|em emberscript|2
+  Mirah|../languages/mirah.html|druby duby mirah|3
+  OX|../languages/ox.html|ox oxh oxo|3
+  SugarSS|../languages/sugarss.html|sss|1
+  gleam|../languages/gleam.html|gleam|1
+  ECL|../languages/ecl.html|ecl eclxml|2
+  GAP|../languages/gap.html|g gap gd gi tst|5
+  Jupyter Notebook|../languages/jupyter-notebook.html|ipynb|1
+  Stan|../languages/stan.html|stan|1
+  Whiley|../languages/whiley.html|whiley|1
+  GCC Machine Description|../languages/gcc-machine-description.html|md|1
+  Golo|../languages/golo.html|golo|1
+  Ch|../languages/chuck.html|ck|1
+  Shen|../languages/shen.html|shen|1
+  Brightscript|../languages/roku-brightscript.html|brs|1
+  SCSS|../languages/scss.html|sass scss|2
+  Fancy|../languages/fancy.html|fy fancypack|2
+  WebIDL|../languages/web-idl.html|webidl|1
+  Cycript|../languages/cycript.html|cy|1
+  winxed|../languages/winxed.html|winxed|1
+  Raku|../languages/raku.html|6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 raku rakumod t|13
+  GraphIt|../languages/graph-it.html|gt|1
+  SMT|../languages/smt.html|smt2 smt|2
+  Sieve mail filtering language|../languages/sieve.html|sieve siv|2
+  PogoScript|../languages/pogoscript.html|pogo|1
+  Ezhil|../languages/ezhil.html|n|1
+  TI Program|../languages/ti-basic-assembly.html|8xp 8xk 8xktxt 8xptxt|4
+  Logtalk|../languages/logtalk.html|lgt logtalk|2
+  SRecode Template|../languages/srecode-template.html|srt|1
+  FreeMarker|../languages/freemarker.html|ftl|1
+  OpenEdge ABL|../languages/openedge-advanced-business-language.html|p cls w|3
+  Property list|../languages/plist.html|plist|1
+  Umple|../languages/umple.html|ump|1
+  MAXScript|../languages/maxscript.html|ms mcr|2
+  Basis Codec|../languages/basis-universal-format.html|basis|1
+  Pan|../languages/pan.html|pan tpl|2
+  LoomScript|../languages/loomscript.html|ls|1
+  Pep8|../languages/pep8.html|pep|1
+  Type Language|../languages/type-language.html|tl|1
+  Windows Registry Entries|../languages/windows-registry-entries.html|reg|1
+  desktop|../languages/desktop.html|desktop desktopin service|3
+  MOO|../languages/moo.html|moo|1
+  ColdFusion Components|../languages/coldfusion-components.html|cfc|1
+  Jolie|../languages/jolie.html|ol iol|2
+  Blade|../languages/blade.html|blade bladephp|2
+  RPM Spec|../languages/rpm-spec.html|spec|1
+  Parrot Assembly|../languages/parrot-assembly.html|pasm|1
+  Smiles|../languages/smiles-format.html|smi|1
+  M4Sugar|../languages/m4sugar.html|m4|1
+  Programming Language for Business|../languages/plb.html|rl ps cb|3
+  Opal|../languages/opal.html|opal|1
+  network embedded systems C|../languages/nesc.html|nc|1
+  XC|../languages/xc.html|xc|1
+  HiveQL|../languages/hiveql.html|q hql|2
+  Xgboost|../languages/xgboost-model.html|model|1
+  Jison Lex|../languages/jison-lex.html|jisonlex|1
+  Logos|../languages/logos.html|xm x xi xmi|4
+  Molfile|../languages/molfile-format.html|mol|1
+  Object Rexx|../languages/object-rexx.html|rxs rex|2
+  Sweave|../languages/sweave.html|rnw|1
+  Cypher Query Language|../languages/cypher.html|cyp cypher|2
+  MXML|../languages/mxml.html|mxml|1
+  Lux|../languages/lux.html|lux|1
+  Spline Font Database|../languages/spline-font-database.html|sfd|1
+  TAP|../languages/tap.html|tap|1
+  EEX|../languages/eex.html|eex htmlheex htmlleex|3
+  JSX|../languages/jsx.html|jsx|1
+  KRL|../languages/krl.html|krl|1
+  1C Enterprise Script|../languages/1c-enterprise.html|bsl os|2
+  Q#|../languages/q-sharp.html|qs|1
+  Module Management System|../languages/module-management-system.html|mms mmk|2
+  Genshi|../languages/genshi.html|kid|1
+  Newspeak|../languages/newspeak.html|ns2|1
+  spider|../languages/spider.html|spider|1
+  XPages|../languages/xpages.html|xsp-config xspmetadata|2
+  JSON with Comments|../languages/json-with-comments.html|jsonc code-snippets sublime-build sublime-commands sublime-completions sublime-keymap sublime-macro sublime-menu sublime-mousemap sublime-project sublime-settings sublime-theme sublime-workspace sublime_metrics sublime_session|15
+  monte|../languages/monte.html|mt|1
+  Rescript|../languages/rescript.html|res|1
+  Gentoo Ebuild|../languages/gentoo-ebuild.html|ebuild|1
+  UnrealScript|../languages/unrealscript.html|uc|1
+  HXML|../languages/hxml.html|hxml|1
+  BARE|../languages/bare.html|bare|1
+  Earl Grey|../languages/earl-grey.html|eg|1
+  NestedText|../languages/nestedtext.html|nt|1
+  Simple Actor Language System and Architecture|../languages/salsa.html|salsa|1
+  basic calculator|../languages/bc.html|bc|1
+  BitBake|../languages/bitbake.html|bb|1
+  Grammatical Framework|../languages/grammatical-framework.html|gf|1
+  Semantic Patch Language|../languages/smpl.html|cocci|1
+  FAUST|../languages/faust.html|dsp|1
+  Mako|../languages/mako.html|mako mao|2
+  ApacheConf|../languages/apacheconf.html|apacheconf vhost .htaccess apache.conf apache2.conf|5
+  Gherkin|../languages/gherkin.html|feature story|2
+  ROFF|../languages/roff.html|roff 1 1in 1m 1x 2 3 3in 3m 3p 3pm 3qt 3x 4 5 6 7 8 9 l man mdoc me ms n nr rno tmac|28
+  tcsh|../languages/tcsh.html|tcsh csh|2
+  Dale|../languages/dale.html|dt|1
+  Subleq|../languages/subleq.html|sq|1
+  mpl|../languages/mpl.html|mpl|1
+  Handlebars|../languages/handlebars.html|handlebars hbs|2
+  ObjDump|../languages/objdump.html|objdump|1
+  Recfiles|../languages/recfiles.html|rec|1
+  Formatted Table|../languages/formatted-table.html|for eamfs|2
+  TextMate Language|../languages/tmlanguage.html|tmLanguage|1
+  GN|../languages/generate-ninja.html|gn gni|2
+  Embedded Crystal|../languages/ecr.html|ecr|1
+  SQF|../languages/status-quo-function.html|sqf hqf|2
+  Qore|../languages/qore.html|q qm qtest|3
+  Zimpl|../languages/zimpl.html|zimpl zmpl zpl|3
+  Redcode|../languages/redcode.html|cw|1
+  Snap!|../languages/snap.html|ypr ysp xml|3
+  Cirru|../languages/cirru.html|cirru|1
+  Boron|../languages/boron.html|b sb|2
+  Ren|../languages/ren-notation.html|ren|1
+  holyc|../languages/holyc.html|hc|1
+  Egison|../languages/egison.html|egi|1
+  Adobe Font Metrics|../languages/adobe-font-metrics.html|afm|1
+  NWScript|../languages/nwscript.html|nss|1
+  Genero Business Development Language|../languages/genero.html|4gl|1
+  Adventure Game Studio Script|../languages/ags-script.html|asc ash|2
+  Nymph|../languages/nymph.html|n|1
+  Charity|../languages/charity.html|ch|1
+  Jsonnet|../languages/jsonnet.html|jsonnet libsonnet|2
+  Z|../languages/z-expressions.html|zz|1
+  JS++|../languages/jspp.html|jspp|1
+  Ligo|../languages/ligo.html|religo|1
+  MXF|../languages/material-exchange-format.html|mxf|1
+  Pawn|../languages/pawn-scripting-language.html|pwn inc sma p|4
+  epsilon|../languages/epsilon.html|eol|1
+  JSLT|../languages/jslt.html|jslt|1
+  astro|../languages/astro.html|astro|1
+  Grace|../languages/grace.html|grace|1
+  Kit|../languages/kit.html|kit|1
+  Soy|../languages/soy.html|soy|1
+  TOM object-oriented|../languages/tom-oopl.html|t|1
+  Groovy Server Pages|../languages/groovy-server-pages.html|gsp|1
+  Augeas|../languages/augeas.html|aug|1
+  Aheui|../languages/aheui.html|aheui|1
+  Coco|../languages/coco.html|co|1
+  verifpal|../languages/verifpal.html|vp|1
+  Bro|../languages/bro.html|bro|1
+  Wavefront Material|../languages/wavefront-material.html|mtl|1
+  Fjölnir|../languages/fjolnir.html|fjo fjv sma ein|4
+  OpenType Feature File|../languages/opentype-feature-file.html|fea|1
+  zenscript|../languages/zenscript.html|zs|1
+  UCG|../languages/ucg.html|ucg|1
+  Velocity Template Language|../languages/vtl-lang.html|vtl|1
+  Sibilant|../languages/sibilant.html|sibilant|1
+  Z-flat|../languages/z-flat.html|zf|1
+  Linux Kernel Module|../languages/linux-kernel-module.html|ko mod|2
+  Rouge|../languages/rouge.html|rg|1
+  World of Warcraft Addon Data|../languages/world-of-warcraft-addon-data.html|toc|1
+  JSON Lines|../languages/ld-json.html|ldj jsonl|2
+  Breccia|../languages/breccia.html|brec|1
+  parasail|../languages/parasail.html|psi psl|2
+  GAML|../languages/gaml.html|gaml|1
+  STON|../languages/ston.html|ston|1
+  LinearML|../languages/linearml.html|lml|1
+  plam|../languages/plam.html|plam|1
+  TAL|../languages/tal.html|tal|1
+  Zeek|../languages/zeek.html|zeek bro|2
+  DataWeave|../languages/dataweave.html|dwl|1
+  pointless|../languages/pointless.html|ptls|1
+  Easytrieve|../languages/easytrieve.html|ezt mac|2
+  Promela|../languages/promela.html|pml|1
+  Mscgen|../languages/mscgen.html|msc|1
+  Sublime Syntax|../languages/sublime-syntax.html|sublime-syntax|1
+  mint|../languages/mint.html|mint|1
+  Filterscript|../languages/filterscript.html|fs|1
+  janet|../languages/janet.html|janet|1
+  GorillaScript|../languages/gorillascript.html|gs|1
+  groff|../languages/groff.html|[1-9] man 1p 3pm|4
+  Functional PHP Preprocessor|../languages/fpp.html|fpp|1
+  Scala Markup Language|../languages/scaml.html|scaml|1
+  Boogie|../languages/boogie.html|bpl|1
+  hoon|../languages/hoon.html|hoon|1
+  crmsh|../languages/crmsh.html|crmsh pcmk|2
+  HyPhy|../languages/hyphy.html|bf|1
+  Kuin|../languages/kuin.html|kn|1
+  Pharen|../languages/pharen.html|phn|1
+  CLAIRE|../languages/claire.html|cl|1
+  ten|../languages/ten.html|ten|1
+  Urbiscript|../languages/urbiscript.html|u|1
+  ca65 Assembly|../languages/ca65-assembly.html|s|1
+  Linker Script|../languages/linker-script.html|ld lds x|3
+  rbs|../languages/rbs.html|rbs|1
+  Zork Implementation Language|../languages/zil.html|zil mud|2
+  Literate Haskell|../languages/literate-haskell.html|lhs|1
+  RHTML|../languages/rhtml.html|rhtml|1
+  Unity3D Asset|../languages/unity3d-asset.html|anim asset mask mat meta prefab unity|7
+  ATLAS Transformation Language|../languages/atlas.html|atl|1
+  4th Dimension|../languages/4th-dimension.html|4dm|1
+  Frank|../languages/frank-lang.html|fk|1
+  Glyph|../languages/glyph.html|glf|1
+  TI-89 series|../languages/ti-89-basic.html|89p|1
+  nimrod|../languages/nimrod.html|nim nimrod|2
+  stella|../languages/stella.html|ste|1
+  IRC chat logs|../languages/irc-log.html|irclog weechatlog|2
+  FloScript|../languages/floscript.html|flo|1
+  Kaffeine|../languages/kaffeine.html|k|1
+  Dasm|../languages/dasm.html|dasm16 dasm|2
+  Gren|../languages/gren.html|gren|1
+  Miva|../languages/miva.html|mv mvc mvt|3
+  AmbientTalk|../languages/ambienttalk.html|at|1
+  SpiderBasic|../languages/spiderbasic.html|pb|1
+  X PixMap|../languages/xpm-format.html|xpm pm|2
+  OMG IDL|../languages/omg-idl.html|idl pidl|2
+  CBOR data definition language|../languages/cddl.html|cddl|1
+  Devicetree|../languages/devicetree.html|dts dtsi|2
+  USD|../languages/usd.html|usd usda|2
+  Savi|../languages/savi.html|savi|1
+  git-config|../languages/git-config.html|gitconfig|1
+  SubX|../languages/subx.html|subx|1
+  CheetahTemplate|../languages/cheetah.html|tmpl spt|2
+  Myghty|../languages/myghty.html|myt autodelegate|2
+  Jisp|../languages/jisp.html|jisp|1
+  Todotxt|../languages/todotxt.html|todo.txt todotxt|2
+  Sun Raster|../languages/sun-raster-format.html|sun ras|2
+  Rita|../languages/rita.html|rita|1
+  RTF|../languages/rtf.html|rtf|1
+  Link|../languages/link.html|link|1
+  Procfile|../languages/procfile.html|Procfile|1
+  srv|../languages/srv.html|srv|1
+  ASP.NET|../languages/asp.net.html|asax ascx ashx asmx aspx axd|6
+  Kami|../languages/kami.html|km|1
+  Kal|../languages/kal.html|kal|1
+  plantuml|../languages/plantuml.html|puml iuml plantuml|3
+  Darcs Advanced Revision Control System|../languages/darcs-patch.html|darcspatch dpatch|2
+  Marine Trading Markup Language|../languages/mtml.html|mtml|1
+  Ham|../languages/ham.html|ham|1
+  boa|../languages/boa.html|boa|1
+  PromQL|../languages/promql.html|promql|1
+  Spice|../languages/spice.html|spice|1
+  Typoscript|../languages/typoscript.html|typoscript|1
+  ASCII Armor|../languages/ascii-armor.html|asc pem id_dsa id_ecdsa id_ecdsa_sk id_ed25519 id_ed25519_sk id_rsa|8
+  TASM|../languages/tasm.html|asm ASM tasm|3
+  Snowball|../languages/snowball-programming-language.html|sbl|1
+  formality|../languages/formality.html|fm|1
+  Storymatic|../languages/storymatic.html|coffee|1
+  clarity|../languages/clarity.html|clar|1
+  plink-ped-format|../languages/plink-ped-format.html|ped|1
+  SARL|../languages/sarl.html|sarl|1
+  phylip|../languages/phylip.html|phy ph|2
+  Public Key File|../languages/public-key-file.html|asc pub|2
+  REALBasic (now Xojo)|../languages/realbasic.html|rbbas rbfrm rbmnu rbres rbtbar rbuistate|6
+  WebAssembly Text Format|../languages/wast.html|wast|1
+  Bizubee|../languages/bizubee.html|jsl|1
+  RigC|../languages/rigc.html|rigc|1
+  Freefem|../languages/freefem.html|edp|1
+  Pickle|../languages/pickle-format.html|pkl|1
+  Nasal|../languages/nasal.html|nas|1
+  Autoconf|../languages/autoconf.html|ac|1
+  Hot Cocoa Lisp|../languages/hotcocoalisp.html|hcl|1
+  Croc|../languages/croc.html|croc|1
+  arrow|../languages/arrow.html|arw|1
+  ObjectScript|../languages/objectscript.html|cls|1
+  Parasolid|../languages/parasolid.html|x_t x_b|2
+  bag-format|../languages/bag-format.html|bag|1
+  juttle|../languages/juttle.html|juttle|1
+  RAISE Specification Language|../languages/rsl.html|rsl|1
+  Statement List|../languages/stl.html|stl|1
+  skew|../languages/skew.html|sk|1
+  tiddler|../languages/tiddler.html|tid|1
+  DUEL|../languages/duel.html|duel jbst|2
+  JMESPath|../languages/jmespath.html|jp|1
+  plink-bed-format|../languages/plink-bed-format.html|bed|1
+  pyke|../languages/pyke.html|fb krb kqb|3
+  SmartGameFormat|../languages/smartgameformat.html|sgf|1
+  SNBT|../languages/snbt.html|snbt|1
+  teal|../languages/teal.html|teal|1
+  GSQL|../languages/gsql.html|gsql|1
+  JSGF|../languages/jsgf.html|jsgf|1
+  D++|../languages/dpp.html|dpp dpl|2
+  Wolfram Data Framework|../languages/wdf.html|wdf wdf.nb wdf.json|3
+  Elpi|../languages/elpi.html|elpi|1
+  plink-bim-format|../languages/plink-bim-format.html|bim|1
+  plink-fam-format|../languages/plink-fam-format.html|fam|1
+  RQL|../languages/rql.html|rql|1
+  Smithy|../languages/smithy.html|smithy|1
+  Extempore|../languages/extempore.html|xtm|1
+  PacmanConf|../languages/pacmanconf.html|pacman.conf|1
+  PkgConfig|../languages/pkgconfig.html|pc|1
+  plink-map-format|../languages/plink-map-format.html|map|1
+  Lighttpd configuration file|../languages/lighttpd-configuration-file.html|lighttpd.conf|1
+  ros-msg|../languages/ros-msg.html|msg|1
+  SquidConf|../languages/squidconf.html|squid.conf|1
+  A51 Assembly|../languages/a51.html|a51|1
+  C Header Files|../languages/c-headers.html|h|1
+  cimfast|../languages/cimfast.html|cel|1
+  TypeScript Type Declarations|../languages/dts.html|d.ts|1
+  rds-format|../languages/rds-format.html|rds|1
+  dalvik-bytecode|../languages/dalvik-bytecode.html|dex|1
+  npy|../languages/npy.html|npy|1
+  proverif-lang|../languages/proverif-lang.html|pv|1
+  rdata-format|../languages/rdata-format.html|Rdata rdata rda RData|4
+replace LANG_WITH_DATA_COUNT
+ 733

@@ -1,0 +1,739 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>Clojure - Pl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="Clojure"></meta>
+  <meta property="og:description" content="Clojure is a pl created in 2007 by Rich Hickey."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="clojure.html">Clojure</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="clojure.html">Clojure</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">Clojure is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2007">2007</a> by <a href="../lists/creators.html#Rich_Hickey">Rich Hickey</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#34<span><span title="TotalRank: 120 Jobs: 36 Users: 45 Facts: 52 Links: 39">on PLDB</span></span></td>
+<td>15<span>Years Old</span></td>
+<td>44.9k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>60<span><span title="Books about or leveraging Clojure">Books</span></span></td>
+<td>7<span><span title="Academic publications about or leveraging Clojure">Papers</span></span></td>
+<td>82k<span><span title="Clojure repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+<p class="scrollParagraphComponent">Try now: <a href="https://riju.codes/clojure">Riju</a> · <a href="https://tio.run/#clojure">TIO</a> · <a href="https://repl.it/languages/clojure">Replit</a></p>
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `(println "Hello, world!")\n`,
+        language: 'clojure',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">Clojure ( , like "closure") is a dialect of the Lisp programming language. Clojure is a general-purpose programming language with an emphasis on functional programming. It runs on the Java virtual machine and the Common Language Runtime. <a href="https://en.wikipedia.org/wiki/Clojure">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://clojure.org">Clojure website</a></li>
+<li>the <a href="https://en.wikipedia.org/wiki/Clojure">Clojure Wikipedia page</a></li>
+<li>There are at least 82,125 Clojure repos on <a href="https://github.com/search?q=language:Clojure">GitHub</a></li>
+<li>Clojure first developed in <a href="../lists/originCommunities.html#Cognitect,_Inc">Cognitect, Inc</a></li>
+<li>PLDB estimates there are currently 469 job openings for Clojure programmers.</li>
+<li>file extensions for Clojure include clj, cljs, cljc, edn, bb, boot, cl2, cljshl, cljscm, cljx and hic</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 14k users using Clojure in 26k repos on <a href="https://api.github.com/search/repositories?q=language:Clojure">GitHub</a></li>
+<li>Check out the 378 <a href="https://www.meetup.com/topics/clojure/">Clojure meetup groups</a> on Meetup.com.</li>
+<li>There are 29,258 members in the <a href="https://reddit.com/r/Clojure">Clojure subreddit</a></li>
+<li>There are 1,655 <a href="https://projecteuler.net/language=Clojure">Project Euler</a> users using Clojure</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Clojure programmers reported a median salary of $95,000. 2% of respondents reported using Clojure. 1,552 programmers reported using Clojure, and 2,413 said they wanted to use it</li>
+<li>Explore Clojure snippets on <a href="http://www.rosettacode.org/wiki/Category:Clojure">Rosetta Code</a></li>
+<li>Clojure ranks #42 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is an <a href="https://packages.ubuntu.com/jammy/clojure">Ubuntu package</a> for Clojure</li>
+<li>Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/clojure">grammar</a> for Clojure</li>
+<li>Here is a Clojure <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/snoe/clojure-lsp">implementation</a></li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/clojure">package</a> for syntax highlighting Clojure</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/clojure">package</a> for syntax highlighting Clojure</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Clojure</li>
+<li>GitHub supports <a href="https://github.com/atom/language-clojure" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Clojure</li>
+<li>Clojure appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project</li>
+<li>There are 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Clojure: <a href="https://github.com/roryk/clojupyter">1</a>,<a href="https://github.com/achesnais/clj-jupyter">2</a></li>
+<li>There is a <a href="https://clojars.org/">central package repository</a> for Clojure</li>
+<li>Clojure <a href="http://web.csulb.edu/~artg/524/clojure-cheat-sheet-a4-grey.pdf">cheat sheet</a></li>
+<li>Indeed.com has 355 matches for <a href="https://www.indeed.com/jobs?q=clojure engineer">"clojure engineer"</a>.</li>
+<li><a href="https://clojure.org">clojure.org</a> was registered in 2005</li>
+<li>See also: <a href="jvm.html">JVM</a>, <a href="csharp.html">C#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="mathematica.html">Mathematica</a>, <a href="ml.html">ML</a>, <a href="prolog.html">Prolog</a>, <a href="scheme.html">Scheme</a>, <a href="java.html">Java</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="elixir.html">Elixir</a>, <a href="lisp.html">Lisp</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="s-expressions.html">S-expressions</a>, <a href="csp.html">CSP</a>, <a href="actionscript.html">ActionScript</a>, <a href="python.html">Python</a>, <a href="unicode.html">Unicode</a></li>
+<li>Read more about Clojure on the web: <a href="https://download.clojure.org/papers/clojure-hopl-iv-final.pdf">1</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/clojure">Improve our Clojure file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://riju.codes/clojure'>Riju</a>:</div>
+<code class="scrollCodeBlockComponent">(println &quot;Hello, world!&quot;)
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Clojure.clj'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">(println &quot;Hello World&quot;)
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Clojure'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent">; Hello world in Clojure
+
+(defn hello []
+  (println &quot;Hello world!&quot;))
+
+(hello)</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/atom/language-clojure'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">(defn rand
+  &quot;Returns a random floating point number between 0 (inclusive) and
+  n (default 1) (exclusive).&quot;
+  ([] (scm* [n] (random-real)))
+  ([n] (* (rand) n)))</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://en.wikipedia.org/wiki/Clojure'>Wikipedia</a>:</div>
+<code class="scrollCodeBlockComponent">;; A typical entry point of a Clojure program:
+;;   `-main` function
+(defn -main ; name
+  [&amp; args] ; (variable) parameters
+  (println &quot;Hello, World!&quot;)) ; body</code>
+
+
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/integers-feature.html">Integers</a></td>
+<td>✓</td>
+<td><pre>; -?\d+</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/floats-feature.html">Floats</a></td>
+<td>✓</td>
+<td><pre>; -?\d+\.\d+</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/hexadecimals-feature.html">Hexadecimals</a></td>
+<td>✓</td>
+<td><pre>; 0x-?[abcdef\d]+</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>(comment A comment
+)</pre></td>
+<td>(comment )</td>
+</tr>
+<tr><td><a href="../languages/print-debugging-feature.html">Print() Debugging</a></td>
+<td>✓</td>
+<td></td>
+<td>println</td>
+</tr>
+<tr><td><a href="../languages/homoiconic-feature.html">Homoiconicity</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>; A comment</pre></td>
+<td>;</td>
+</tr>
+<tr><td><a href="../languages/operator-overloading-feature.html">Operator Overloading</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/macros-feature.html">Macros</a></td>
+<td>✓</td>
+<td><pre>https://clojure.org/reference/macros</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/file-imports-feature.html">File Imports</a></td>
+<td>✓</td>
+<td><pre>(load "fun")
+(load "files/fun")
+(load-file "./files/fun.clj")
+(defproject project-a
+:dependencies [[org.clojure/clojure "1.5.1"]
+              [project-b "0.1.0"]])
+(require '[clojure.string :as string])
+(use '[clojure.string :only [split]])
+(import 'java.util.Date)
+(java.util.Date.)
+(require 'clojure.contrib.def 'clojure.contrib.except 'clojure.contrib.sql)
+(require '(clojure.contrib def except sql))</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/partial-application-feature.html">Partial Application</a></td>
+<td>✓</td>
+<td><pre>(defn fun-full [x y] (+ x y))
+(fun-full 2 3)
+(def fun-half (partial fun-full 2))
+(fun-half 3)</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td><pre>"hello world"</pre></td>
+<td>"</td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Clojure on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=Programming Clojure Stuart Halloway">Programming Clojure</a></td>
+<td>Stuart Halloway</td>
+<td>2009</td>
+<td>45</td>
+<td>559</td>
+<td>3.82</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Clojure Programming Chas Emerick">Clojure Programming</a></td>
+<td>Chas Emerick</td>
+<td>2011</td>
+<td>30</td>
+<td>423</td>
+<td>4.18</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Clojure Reactive Programming Leonardo Borges">Clojure Reactive Programming</a></td>
+<td>Leonardo Borges</td>
+<td>2015</td>
+<td>1</td>
+<td>21</td>
+<td>3.81</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Clojure Cookbook: Recipes for Functional Programming Luke VanderHart">Clojure Cookbook: Recipes for Functional Programming</a></td>
+<td>Luke VanderHart</td>
+<td>2014</td>
+<td>5</td>
+<td>55</td>
+<td>3.75</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Clojure High Performance Programming Shantanu Kumar">Clojure High Performance Programming</a></td>
+<td>Shantanu Kumar</td>
+<td>2013</td>
+<td>4</td>
+<td>19</td>
+<td>2.84</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about Clojure from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9781783986668">Clojure Reactive Programming</a></td>
+<td>Borges, Leonardo</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449394707">Clojure Programming: Practical Lisp for the Java World</a></td>
+<td>Emerick, Chas and Carper, Brian and Grand, Christophe</td>
+<td>2012</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781935182641">The Joy of Clojure: Thinking the Clojure Way</a></td>
+<td>Michael Fogus and Chris Houser</td>
+<td>2011</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680500745">Clojure Applied: From Practice to Practitioner</a></td>
+<td>Vandgrift, Ben and Miller, Alex</td>
+<td>2015</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781941222225">Mastering Clojure Macros: Write Cleaner, Faster, Smarter Code</a></td>
+<td>Jones, Colin</td>
+<td>2014</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781934356869">Programming Clojure</a></td>
+<td>Halloway, Stuart and Bedra, Aaron</td>
+<td>2012</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783284139">Mastering Clojure Data Analysis</a></td>
+<td>Rochester, Eric</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785889745">Mastering Clojure</a></td>
+<td>Wali, Akhil</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785281501">Clojure for Java Developers</a></td>
+<td>Diaz, Eduardo</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781617291418">The Joy of Clojure</a></td>
+<td>Michael Fogus and Chris Houser</td>
+<td>2014</td>
+<td>Manning Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680508840">Web Development with Clojure</a></td>
+<td>Sotnikov, Dmitri and Brown, Scot</td>
+<td>2021</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838825119">The Clojure Workshop: Use functional programming to build data-centric applications with Clojure and ClojureScript</a></td>
+<td>Fahey, Joseph and Haratyk, Thomas and McCaughie, Scott and Sharvit, Yehonathan and Szydlo, Konrad</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119267294">Professional Clojure</a></td>
+<td>Anderson, Jeremy and Gaare, Michael and Holguín, Justin and Bailey, Nick and Pratley, Timothy</td>
+<td>2016</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119267270">Professional Clojure</a></td>
+<td>Anderson, Jeremy and Gaare, Michael and Holguín, Justin and Bailey, Nick and Pratley, Timothy</td>
+<td>2016</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680502466">Programming Clojure (The Pragmatic Programmers)</a></td>
+<td>Miller, Alex and Halloway, Stuart and Bedra, Aaron</td>
+<td>2018-03-20T00:00:01Z</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784397180">Clojure for Data Science</a></td>
+<td>Garner, Henry</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783986675">Clojure Reactive Programming - How to Develop Concurrent and Asynchronous Applications with Clojure</a></td>
+<td>Borges,  Leonardo</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449366179">Clojure Cookbook: Recipes for Functional Programming</a></td>
+<td>VanderHart, Luke and Neufeld, Ryan</td>
+<td>2014</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133430073">Clojure Recipes (Developer's Library)</a></td>
+<td>Gamble, Julian</td>
+<td>2015</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783284351">Clojure for Machine Learning</a></td>
+<td>Wali, Akhil</td>
+<td>2014</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781934356333">Programming Clojure (Pragmatic Programmers)</a></td>
+<td>Halloway, Stuart</td>
+<td>2009-06-07T00:00:01Z</td>
+<td>Pragmatic Bookshelf</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430272304">Practical Clojure (Expert's Voice in Open Source)</a></td>
+<td>VanderHart, Luke and Sierra, Stuart</td>
+<td>2010</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785281457">Clojure Data Structures and Algorithms Cookbook</a></td>
+<td>Naccache, Rafik</td>
+<td>2015</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785885037">Clojure Programming Cookbook</a></td>
+<td>Hashimoto, Makoto and Modrzyk, Nicolas</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782165606">Clojure High Performance Programming</a></td>
+<td>Kumar, Shantanu</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782166504">Clojure for Domain-specific Languages</a></td>
+<td>D. Kelker, Ryan</td>
+<td>2013</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785289286">Clojure for Finance</a></td>
+<td>Washington, Timothy</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783898648905">Clojure</a></td>
+<td>Stefan Kamphausen and Tim Oliver Kaiser</td>
+<td>2010-09-01</td>
+<td>dpunkt</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449366414">Clojure Cookbook</a></td>
+<td>Luke VanderHart; Ryan Neufeld</td>
+<td>20140305</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680506099">Getting Clojure</a></td>
+<td>Russ Olsen</td>
+<td>20180509</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491909294">Living Clojure</a></td>
+<td>Carin Meier</td>
+<td>20150414</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785882050">Mastering Clojure</a></td>
+<td>Akhil Wali</td>
+<td>28-03-2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838988371">Clojure Polymorphism</a></td>
+<td>Paul Stadig</td>
+<td>20191115</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781491909287">Living Clojure</a></td>
+<td>Carin Meier</td>
+<td>20150414</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638355335">Clojure in Action</a></td>
+<td>Amit Rathore</td>
+<td>20151216</td>
+<td>Simon & Schuster</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781788626316">Microservices with Clojure</a></td>
+<td>Anuj Kumar</td>
+<td>25-01-2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449335359">Clojure Programming</a></td>
+<td>Chas Emerick; Brian Carper; Christophe Grand</td>
+<td>20120330</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449366407">Clojure Cookbook</a></td>
+<td>Luke VanderHart; Ryan Neufeld</td>
+<td>20140305</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781449335342">Clojure Programming</a></td>
+<td>Chas Emerick; Brian Carper; Christophe Grand</td>
+<td>20120330</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785888519">Clojure Programming Cookbook</a></td>
+<td>Makoto Hashimoto and Nicolas Modrzyk</td>
+<td>2016</td>
+<td>Packt Publishing Ltd</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781638351283">The Joy of Clojure</a></td>
+<td>Chris Houser; Michael Fogus</td>
+<td>20140528</td>
+<td>Simon & Schuster</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782165613">Clojure High Performance Programming</a></td>
+<td>Shantanu Kumar</td>
+<td>2013-11-20</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785287619">Clojure for Finance</a></td>
+<td>Timothy Washington</td>
+<td>2016-01-11</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785888519">Clojure Programming Cookbook</a></td>
+<td>Makoto Hashimoto</td>
+<td>28-10-2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784397500">Clojure for Data Science</a></td>
+<td>Henry Garner</td>
+<td>20150903</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781784394875">Clojure Web Development Essentials</a></td>
+<td>Ryan Baldwin</td>
+<td>20150224</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781783284368">Clojure for Machine Learning</a></td>
+<td>Akhil Wali</td>
+<td>2014-04-24</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781680505306">Web Development with Clojure</a></td>
+<td>Dmitri Sotnikov</td>
+<td>20160714</td>
+<td>O'Reilly Media, Inc.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785280412">Clojure for Java Developers</a></td>
+<td>Eduardo Diaz</td>
+<td>23-02-2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781782166511">Clojure for Domain-specific Languages</a></td>
+<td>Ryan D. Kelker</td>
+<td>2013-12-18</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781593277239">Clojure for the Brave and True</a></td>
+<td>Daniel Higginbotham</td>
+<td>20151015</td>
+<td>Random House Publishing Services</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785283642">Clojure High Performance Programming - Second Edition</a></td>
+<td>Kumar and Shantanu</td>
+<td>2015</td>
+<td>Packt Publishing 2015-09-29</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781785287671">Clojure High Performance Programming - Second Edition</a></td>
+<td>Shantanu Kumar</td>
+<td>20150929</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781488813016">Clojure 134 Success Secrets - 134 Most Asked Questions On Clojure - What You Need To Know</a></td>
+<td>Cynthia Harmon</td>
+<td>20141030</td>
+<td>Emereo</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781789341966">Hands-On Reactive Programming with Clojure</a></td>
+<td>Konrad Szydlo; Leonardo Borges</td>
+<td>25-01-2019</td>
+<td>Packt Publishing</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about Clojure from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/d9567af818aae84bae7ec340aff4a7a664e1777a">The Clojure programming language</a></td>
+<td>R. Hickey</td>
+<td>2008</td>
+<td>187</td>
+<td>20</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1bc8d663955e442c0ec6564e1abb6e05349ed048">Getting Started with Google App Engine and Clojure</a></td>
+<td>Aaron Bedra</td>
+<td>2010</td>
+<td>36</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/f931ff3469da7d1537f338b63b0051e8709b4470">A history of Clojure</a></td>
+<td>R. Hickey</td>
+<td>2020</td>
+<td>12</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/733c78d87b4b684e6de3d7b5463fd837484e663a">Practical Clojure</a></td>
+<td>Luke VanderHart and S. Sierra</td>
+<td>2010</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/452889551382a4ba973482d6ac70599a1c889e02">cljRobust - Clojure Programming API for Lego Mindstorms NXT</a></td>
+<td>K. Kułakowski</td>
+<td>2010</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3a851fc47e922137f1829ca3fcce286982784a2f">An open source implementation of an intuitionistic fuzzy inference system in Clojure</a></td>
+<td>Amaury Hernández-Águila and Mario García Valdez and O. Castillo and J. J. M. Guervós</td>
+<td>2017</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/26132abec6e92e8df28cdea73b9b5f0411edf17d">Towards Static Verification of Clojure Contract-Based Programs</a></td>
+<td>Gheorghe Pinzaru and V. Rivera</td>
+<td>2019</td>
+<td>2</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="prolog.html">prolog.html</a> · clojure.html · <a href="kotlin.html">kotlin.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/clojure.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,340 @@
+title Erlang
+
+import settings.scroll
+htmlTitle Erlang - Pl
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/erlang.pldb
+
+paragraph
+ Erlang is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1986">1986</a> by <a href="../lists/creators.html#Joe_Armstrong">Joe Armstrong</a> and <a href="../lists/creators.html#Robert_Virding">Robert Virding</a> and <a href="../lists/creators.html#Mike_Williams">Mike Williams</a>.
+
+kpiTable
+ #39 <span title="TotalRank: 132 Jobs: 40 Users: 60 Facts: 48 Links: 44">on PLDB</span>
+ 36 Years Old
+ 27.1k <span title="Crude user estimate from a linear model.">Users</span>
+ 29 <span title="Books about or leveraging Erlang">Books</span>
+ 37 <span title="Academic publications about or leveraging Erlang">Papers</span>
+ 29k <span title="Erlang repos on GitHub.">Repos</span>
+
+paragraph
+ Try now: <a href="https://riju.codes/erlang">Riju</a>
+
+
+
+
+
+paragraph
+ Erlang ( ER-lang) is a general-purpose, concurrent, functional programming language, as well as a garbage-collected runtime system. The term Erlang is used interchangeably with Erlang/OTP, or OTP, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. The Erlang runtime system is known for its designs that are well suited for systems with the following characteristics: Distributed Fault-tolerant Soft real-time, Highly available, non-stop applications Hot swapping, where code can be changed without stopping a system. <a href="https://en.wikipedia.org/wiki/Erlang_(programming_language)">Read more on Wikipedia...</a>
+
+list
+ - the <a href="https://www.erlang.org">Erlang website</a>
+ - the <a href="https://en.wikipedia.org/wiki/Erlang_(programming_language)">Erlang Wikipedia page</a>
+ - There are at least 28,645 Erlang repos on <a href="https://github.com/search?q=language:Erlang">GitHub</a>
+ - Erlang first developed in <a href="../lists/originCommunities.html#Ericsson">Ericsson</a>
+ - PLDB estimates there are currently 308 job openings for Erlang programmers.
+ - file extensions for Erlang include erl, hrl, appsrc, es, escript, xrl and yrl
+ - the Erlang team is on <a href="https://twitter.com/erlang_org">Twitter</a>
+ - The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Erlang in 15k repos on <a href="https://api.github.com/search/repositories?q=language:Erlang">GitHub</a>
+ - Check out the 306 <a href="https://www.meetup.com/topics/erlang-programming/">Erlang meetup groups</a> on Meetup.com.
+ - There are 9,057 members in the <a href="https://reddit.com/r/erlang">Erlang subreddit</a>
+ - There are 618 <a href="https://projecteuler.net/language=Erlang">Project Euler</a> users using Erlang
+ - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Erlang programmers reported a median salary of $80,077. 1% of respondents reported using Erlang. 651 programmers reported using Erlang, and 1,379 said they wanted to use it
+ - Explore Erlang snippets on <a href="http://www.rosettacode.org/wiki/Category:Erlang">Rosetta Code</a>
+ - Erlang is listed on <a href="https://hopl.info/showlanguage.prx?exp=1728">HOPL</a>
+ - Erlang ranks #49 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+ - There is an <a href="https://packages.ubuntu.com/jammy/erlang">Ubuntu package</a> for Erlang
+ - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/erlang">grammar</a> for Erlang
+ - Here is a Erlang <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/erlang/sourcer">implementation</a>
+ - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/erlang">package</a> for syntax highlighting Erlang
+ - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/erlang.py">syntax highlighting</a> for Erlang
+ - GitHub supports <a href="https://github.com/textmate/erlang.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Erlang
+ - Erlang appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+ - There are 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Erlang: <a href="https://github.com/robbielynch/ierlang">1</a>,<a href="https://github.com/filmor/ierl">2</a>
+ - There is a <a href="https://hex.pm/">central package repository</a> for Erlang
+ - Indeed.com has 183 matches for <a href="https://www.indeed.com/jobs?q=erlang engineer">"erlang engineer"</a>.
+ - <a href="https://www.erlang.org">erlang.org</a> was registered in 1998
+ - See also: <a href="prolog.html">Prolog</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="plex.html">PLEX</a>, <a href="f-sharp.html">F#</a>, <a href="clojure.html">Clojure</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="opa.html">Opa</a>, <a href="elixir.html">Elixir</a>, <a href="dart.html">Dart</a>, <a href="oz.html">Oz</a>, <a href="java.html">Java</a>, <a href="ascii.html">ASCII</a>, <a href="occam.html">Occam</a>, <a href="csp.html">CSP</a>, <a href="lfe.html">LFE</a>, <a href="lisp.html">Lisp</a>
+ - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+ - <a href="https://build.pldb.com/edit/erlang">Improve our Erlang file</a>
+
+html
+ <br>
+
+exampleCodeHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
+code
+ -module(square).
+ -export([square/1]).
+ 
+ square(A) -&gt; A*A.
+ 
+
+exampleCodeHeader Example from <a href='https://riju.codes/erlang'>Riju</a>:
+code
+ -module(main).
+ -export([main/0]).
+ 
+ main() -&gt;
+     io:fwrite(&quot;Hello, world!\n&quot;).
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/e/Erlang.erl'>hello-world</a>:
+code
+ -module(erlang_hw).
+ -export([start/0]).
+ 
+ start() -&gt;
+   io:format(&quot;Hello World~n&quot;).
+
+exampleCodeHeader Example from <a href='http://helloworldcollection.de/#Erlang'>the Hello World Collection</a>:
+code
+ %% Hello World in Erlang
+ 
+ -module(hello).
+ 
+ -export([hello/0]).
+ 
+ hello() -&gt;
+    io:format(&quot;Hello World!~n&quot;, []).
+ 
+
+exampleCodeHeader Example from <a href='https://github.com/textmate/erlang.tmbundle'>Linguist</a>:
+code
+ #!/usr/bin/env escript
+ -export([main/1]).
+ 
+ main([]) -&gt; io:format(&quot;Hello, World!~n&quot;).
+ 
+
+exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Erlang_(programming_language)'>Wikipedia</a>:
+code
+ %% Second version
+   -module(counter).
+   -export([start/0, codeswitch/1]).
+ 
+   start() -&gt; loop(0).
+ 
+   loop(Sum) -&gt;
+     receive
+        {increment, Count} -&gt;
+           loop(Sum+Count);
+        reset -&gt;
+           loop(0);
+        {counter, Pid} -&gt;
+           Pid ! {counter, Sum},
+           loop(Sum);
+        code_switch -&gt;
+           ?MODULE:codeswitch(Sum)
+     end.
+ 
+   codeswitch(Sum) -&gt; loop(Sum).
+
+
+
+subsection <a href="../lists/keywords.html?filter=erlang">Keywords</a> in Erlang
+paragraph
+ after and andalso begin bnot bor bsl bsr bxor case catch cond div end fun if let not of or orelse receive rem try when xor
+
+foldBreak
+subsection Language <a href="../lists/features.html">features</a>
+
+treeTable
+ row
+  Feature Integers
+  FeatureLink ../languages/integers-feature.html
+  Supported ✓
+  Example
+   % [+-]?(?:[2-9]|[12][0-9]|3[0-6])#[0-9a-zA-Z]+
+  Token 
+ row
+  Feature Floats
+  FeatureLink ../languages/floats-feature.html
+  Supported ✓
+  Example
+   % [+-]?\d+.\d+
+  Token 
+ row
+  Feature Conditionals
+  FeatureLink ../languages/conditionals-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Functions
+  FeatureLink ../languages/functions-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Print() Debugging
+  FeatureLink ../languages/print-debugging-feature.html
+  Supported ✓
+  Example
+  Token io:format
+ row
+  Feature Message Passing
+  FeatureLink ../languages/message-passing-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Line Comments
+  FeatureLink ../languages/line-comments-feature.html
+  Supported ✓
+  Example
+   % A comment
+  Token %
+ row
+  Feature Macros
+  FeatureLink ../languages/macros-feature.html
+  Supported ✓
+  Example
+   -define(Const, Replacement).
+   -define(Func(Var1,...,VarN), Replacement).
+  Token 
+ row
+  Feature File Imports
+  FeatureLink ../languages/file-imports-feature.html
+  Supported ✓
+  Example
+   -include("my_records.hrl").
+   -include("incdir/my_records.hrl").
+   -include("/home/user/proj/my_records.hrl").
+   -include("$PROJ_ROOT/my_records.hrl").
+   -include_lib("kernel/include/file.hrl").
+  Token 
+ row
+  Feature Directives
+  FeatureLink ../languages/directives-feature.html
+  Supported ✓
+  Example
+   -define(TIMEOUT, 200).
+   ...
+   call(Request) ->
+      server:call(refserver, Request, ?TIMEOUT).
+   -undef(Macro).
+  Token 
+ row
+  Feature Comments
+  FeatureLink ../languages/comment-feature.html
+  Supported ✓
+  Example
+   % hello world program
+  Token 
+ row
+  Feature Shebang
+  FeatureLink ../languages/shebang-feature.html
+  Supported ✓
+  Example
+   #!/usr/bin/env escript
+  Token 
+ row
+  Feature Strings
+  FeatureLink ../languages/strings-feature.html
+  Supported ✓
+  Example
+   "hello world"
+  Token 
+ row
+  Feature Semantic Indentation
+  FeatureLink ../languages/semantic-indentation-feature.html
+  Supported ϴ
+  Example
+  Token 
+ row
+  Feature MultiLine Comments
+  FeatureLink ../languages/multiline-comments-feature.html
+  Supported ϴ
+  Example
+  Token 
+
+
+
+foldBreak
+subsection Books about Erlang on goodreads
+pipeTable
+ title|titleLink|author|year|reviews|ratings|rating
+ Programming Erlang|https://www.goodreads.com/search?q=Programming Erlang Joe Armstrong|Joe Armstrong|2007|34|643|3.97
+ ERLANG Programming|https://www.goodreads.com/search?q=ERLANG Programming Francesco Cesarini|Francesco Cesarini|2009|10|190|4.06
+ Concurrent Programming ERLANG|https://www.goodreads.com/search?q=Concurrent Programming ERLANG Joe Armstrong|Joe Armstrong|1995|2|15|4.00
+ Introducing Erlang: Getting Started in Functional Programming|https://www.goodreads.com/search?q=Introducing Erlang: Getting Started in Functional Programming Simon St. Laurent|Simon St. Laurent|2012|4|41|3.95
+ ERLANG and Elixir for Imperative Programmers|https://www.goodreads.com/search?q=ERLANG and Elixir for Imperative Programmers Wolfgang Loder|Wolfgang Loder||0|1|3.00
+ Concurrent Programming in ERLANG|https://www.goodreads.com/search?q=Concurrent Programming in ERLANG Joe Armstrong|Joe Armstrong|1993|1|2|4.50
+
+
+foldBreak
+subsection Books about Erlang from ISBNdb
+pipeTable
+ title|titleLink|authors|year|publisher
+ Handbook of Neuroevolution Through Erlang|https://isbndb.com/book/9781461444626|Sher, Gene I.|2012|Springer
+ Erlang '04: Proceedings Of The Acm Sigplan 2004 Erlang Workshop : September 22-22, 2004, Snowbird, Utah, Usa|https://isbndb.com/book/9781581139181|Acm Sigplan Erlang Workshop (2004 : Snowbird, Utah)|2004|Acm Press
+ Handbook of Neuroevolution Through Erlang|https://isbndb.com/book/9781461444633|Sher, Gene I.|2012|Springer
+ Erlang and OTP in Action|https://isbndb.com/book/9781933988788|Martin Logan and Eric Merritt and Richard Carlsson|2010|Manning Publications
+ Erlang Programming: A Concurrent Approach to Software Development|https://isbndb.com/book/9780596518189|Cesarini, Francesco and Thompson, Simon|2009|O'Reilly Media
+ Erlang and Elixir for Imperative Programmers|https://isbndb.com/book/9781484223949|Loder, Wolfgang|2016|Apress
+ Concurrent Programming in Erlang (2nd Edition)|https://isbndb.com/book/9780135083017|Virding, Robert and Wikstrom, Claes and Williams, Mike|1996|Prentice Hall
+ Concurrent Programming in Erlang|https://isbndb.com/book/9780132857925|Armstrong, Joe and Virding, Robert and Williams, Mike|1993|Prentice Hall
+ Introducing Erlang|https://isbndb.com/book/9781491973349|Simon St. Laurent|2017|O'reilly Media, Inc.
+ Programming Erlang|https://isbndb.com/book/9789351104674|||Shroff Publishers & Distributors Pvt Ltd
+ Introducing Erlang|https://isbndb.com/book/9781491973325|Simon St. Laurent|20170306|O'Reilly Media, Inc.
+ Erlang Programming|https://isbndb.com/book/9780596555856|Francesco Cesarini; Simon Thompson|20090611|O'Reilly Media, Inc.
+ Erlang Programming Language: Erlang, Ejabberd, Mnesia, Couchdb, Wings 3d, Open Telecom Platform, Rabbitmq, Tsung, Yaws|https://isbndb.com/book/9781155181370|Books and LLC||
+ Erlang Programming|https://isbndb.com/book/9780596551018|Francesco Cesarini|20090611|O'Reilly Media, Inc.
+ Études For Erlang|https://isbndb.com/book/9781449366452|J. David Eisenberg|2013|
+ Erlang '05: proceedings of the ACM SIGPLAN 2005 Erlang Workshop : September 25, 2005, Tallinn, Estonia|https://isbndb.com/book/9781595930668|Acm Sigplan Erlang Workshop (4th : 2005 : Tallinn, Estonia)||Acm Press
+ Building Web Applications with Erlang|https://isbndb.com/book/9781449320652|Zachary Kessin|20120605|O'Reilly Media, Inc.
+ Erlang and OTP in Action|https://isbndb.com/book/9781638354260|Eric Merritt; Martin Logan; Richard Carlsson|20101115|Simon & Schuster
+ Building Web Applications with Erlang|https://isbndb.com/book/9781449320669|Zachary Kessin|20120605|O'Reilly Media, Inc.
+ Articles On Erlang Programming Language, Including|https://isbndb.com/book/9781242972508|Hephaestus Books|2011|
+ Building Scalable Applications With Erlang (developer's Library)|https://isbndb.com/book/9780321636461|Jerry Jackson|2019|Addison-wesley Professional
+ Learn You Some Erlang for Great Good!|https://isbndb.com/book/9781593275044|Fred Hebert|20130113|Random House Publishing Services
+ Research and implementation of Lobby System in Erlang|https://isbndb.com/book/9783846503676|Wilson Tuladhar and Yury Dorofeev and Yeli Zhu|2011-09-22|LAP LAMBERT Academic Publishing
+
+
+foldBreak
+subsection Publications about Erlang from Semantic Scholar
+pipeTable
+ title|titleLink|authors|year|citations|influentialCitations
+ ERLANG - an experimental telephony programming language|https://www.semanticscholar.org/paper/85e842b75d9c9330fb9bf425dacbf2eceb2fcc38|J. Armstrong and S. R. Virding|1990|46|1
+ A Domain-Specific Language for Scripting Refactorings in Erlang|https://www.semanticscholar.org/paper/eb67b9e9396f66bcd693eb27032e3cfa00eae54a|Huiqing Li and S. Thompson|2012|43|1
+ Erlang for concurrent programming|https://www.semanticscholar.org/paper/b482d10ebb7784e249a8726ba6506b92a043bb5a|J. Larson|2009|36|4
+ Programming language support to context-aware adaptation: a case-study with Erlang|https://www.semanticscholar.org/paper/0a7250626ba4fd978f400cf9aacc0de623b63c13|C. Ghezzi and Matteo Pradella and G. Salvaneschi|2010|36|2
+ Handbook of Neuroevolution Through Erlang|https://www.semanticscholar.org/paper/d00b0d3d92a057b5eca17c97b0d5225da4864a1f|Gene I. Sher|2012|29|0
+ A Reversible Semantics for Erlang|https://www.semanticscholar.org/paper/f863d757999ecc375533e08aa7d13be71d2b502c|Naoki Nishida and Adrián Palacios and G. Vidal|2016|25|3
+ InterSCSimulator: Large-Scale Traffic Simulation in Smart Cities Using Erlang|https://www.semanticscholar.org/paper/6c95a1826fb9ddcca4956cff60c9cb01059ec132|E. Santana and Nelson Lago and Fabio Kon and D. Milojicic|2017|22|3
+ Drop the phone and talk to the physical world: Programming the internet of things with Erlang|https://www.semanticscholar.org/paper/d6b1666dd2e995bb901e0f75af99d3b2e7d69218|A. Sivieri and L. Mottola and G. Cugola|2012|19|0
+ An Erlang Implementation of Multiparty Session Actors|https://www.semanticscholar.org/paper/e64ba877ad7f75090095fc5dd5760a2b288a7962|S. Fowler|2016|18|0
+ Functional Federated Learning in Erlang (ffl-erl)|https://www.semanticscholar.org/paper/18d663d6163b8fa1beba7aff99a80bdaa5590819|G. Ulm and Emil Gustavsson and M. Jirstrand|2018|17|0
+ eJason: An Implementation of Jason in Erlang|https://www.semanticscholar.org/paper/89545ea3c22a8376ffc758a8041341a0b4b2957c|Álvaro Fernández Díaz and Clara Benac Earle and Lars-Åke Fredlund|2012|14|0
+ Multicore profiling for Erlang programs using percept2|https://www.semanticscholar.org/paper/1b6688abd714ee5e466b3283cf15c3f347e23b0f|Huiqing Li and S. Thompson|2013|14|0
+ On Using Erlang for Parallelization - Experience from Parallelizing Dialyzer|https://www.semanticscholar.org/paper/632de998f5b85a5bf3ba03529158f62287d2d925|Stavros Aronis and Konstantinos Sagonas|2012|12|0
+ Using the Erlang language for multi-agent systems implementation|https://www.semanticscholar.org/paper/3d1d62ef159b0dbbab39d482aabb6156aae59309|A. Stefano and C. Santoro|2005|12|0
+ Erlang for Concurrent Programming|https://www.semanticscholar.org/paper/3cdb7cad5cb98fbcf786583929b9dcf3d95e8f22|J. Larson|2008|11|2
+ Programming distributed erlang applications: pitfalls and recipes|https://www.semanticscholar.org/paper/489333bd8f4bd37bd040a21da14f18bc630e7102|Hans Svensson and Lars-Åke Fredlund|2007|10|1
+ BEAMJIT: a just-in-time compiling runtime for Erlang|https://www.semanticscholar.org/paper/e44ca98cf46a2e19ff517736f3225994ba7f695d|Frej Drejhammar and L. Rasmusson|2014|7|1
+ Evaluation of JADE multi-agent system and Erlang holonic control implementations for a manufacturing cell|https://www.semanticscholar.org/paper/f9dcd0c7e647f9dfcd3eec1cd29918ebc9523d90|K. Kruger and A. Basson|2019|6|0
+ Programming Erlang - Software for a Concurrent World by Joe Armstrong, Pragmatic Bookshelf, 2007, p. 536. ISBN-10: 193435600X|https://www.semanticscholar.org/paper/d41eac81e1e3d68dcf422586e1c9db9b3058f78e|K. Sankar|2009|5|0
+ Playing with Bisimulation in Erlang|https://www.semanticscholar.org/paper/6af114c50b40a55e904ce80740322b0bce2398b5|I. Lanese and D. Sangiorgi and G. Zavattaro|2019|5|1
+ Debugging Meets Testing in Erlang|https://www.semanticscholar.org/paper/a625b26fee4b262b6d5902d16805f2feb85c64a1|S. Tamarit and A. Riesco and Enrique Martin-Martin and R. Caballero|2016|4|0
+ Implementation of the real-time functional language Erlang on a massively parallel platform, with applications to telecommunications services|https://www.semanticscholar.org/paper/b250b2d633a2d34134a0c489f92ecd501705e4db|Beshar Zuhdy and P. Fritzson and Kent Engström|1995|4|0
+ Learning programming with erlang|https://www.semanticscholar.org/paper/2a561bb28b376ccdc97c3f667e9764909833a6d9|F. Huch|2007|4|2
+ Towards an Isabelle/HOL formalisation of core Erlang|https://www.semanticscholar.org/paper/0349abfb8b685437e2aefb04825d31cbb53d4d98|J. Harrison|2017|4|0
+ Teaching concurrency-oriented programming with Erlang|https://www.semanticscholar.org/paper/b7a37dd3f2752f5d3be6769a246fe1ad1131c9fb|Ariel Ortiz|2011|4|0
+ Typing the wild in Erlang|https://www.semanticscholar.org/paper/b34337c00ef07089528ca34c121a40b47cbfe307|Nachiappan Valliappan and John Hughes|2018|3|1
+ ValiErlang: A Structural Testing Tool for Erlang Programs|https://www.semanticscholar.org/paper/3ebd35c684490a4d778dd9b67471214cd0d69c0e|Alexandre P. Oliveira and P. Souza and S. Souza|2016|2|0
+ Polymorphic Types in Erlang Function Specifications|https://www.semanticscholar.org/paper/62f656c97d2e48eea9706f197d87189c7ec50572|F. J. López-Fraguas and Manuel Montenegro and J. Rodríguez-Hortalá|2016|2|0
+ An Evaluation of Erlang for Implementing Standby Redundancy in a Manufacturing Station Controller|https://www.semanticscholar.org/paper/c59ec7d32a839649fe9ae5fd18d264191031ce20|G. Hawkridge and A. Basson and K. Kruger|2018|2|0
+ Implementation and Evaluation of IEC 61499 Basic Function Blocks in Erlang|https://www.semanticscholar.org/paper/72e5b8c00df2832cb92aff55edc8605f15a6ba84|Laurin Prenzel and Julien Provost|2018|2|0
+ Towards Green Computing in Erlang|https://www.semanticscholar.org/paper/d206d0330c653ae31ae8a68abff521b2263bf298|A. Mezsaros and G. Nagy and István Bozó and M. Tóth|2018|2|0
+ An Extension to Computing Elements in Erlang for Actor Based Concurrent Programming|https://www.semanticscholar.org/paper/a4cae1617168d2a31c9b56abb4dbb8f77fa824b0|Kang Lianghuan and Cao Donggang|2012|2|0
+ Structuring Erlang BEAM control flow|https://www.semanticscholar.org/paper/294db656bf16be7ffa8d33511c022478227cfa05|D. Lukács and M. Tóth|2017|1|0
+ Erlang meets WSNs: A functional approach to WSN programming|https://www.semanticscholar.org/paper/4b7c6c6f993e598a0250f651724086cf78a890e1|A. Sivieri|2012|1|0
+ A Proof Assistant Based Formalisation of Core Erlang|https://www.semanticscholar.org/paper/453d42665878ac1b5787cd46c1c2321db69f7cb0|Péter Bereczky and D'aniel Horp'acsi and S. Thompson|2020|1|0
+ Bidirectional typing for Erlang|https://www.semanticscholar.org/paper/2dae5bb95f2ba11afa4ffc598c1ce663a7a29331|Nithin Vadukkumchery Rajendrakumar and Annette Bieniusa|2021|1|0
+ Supporting cloud computing using Erlang Programming Language|https://www.semanticscholar.org/paper/7d8e01ca6dda72b0d179099826a30a65effc5953|Abd El-Fattah Hussein and O. Ibrahim|2012|1|1
+
+
+
+
+
+
+keyboardNav elixir.html mathematica.html

@@ -1,0 +1,1466 @@
+<!doctype html>
+<!--
+
+ This page was compiled by 📜 Scroll, a public domain
+ programming language and static site publishing tool.
+ 
+ https://scroll.pub
+ 
+ Generally you don't want to edit it by hand.
+
+ Scroll v34.1.0
+
+-->
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"></meta>
+  <title>SQL - Query language</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+  <meta name="description" content="PLDB: a Programming Language Database. Build the next great programming language."></meta>
+  <meta name="generator" content="Scroll v34.1.0"></meta>
+  <meta property="og:title" content="SQL"></meta>
+  <meta property="og:description" content="SQL, aka Structured Query Language, is a query language created in 1974 by Donald D. Chamberlin and Raymond F. Boyce."></meta>
+  <meta property="og:image" content=""></meta>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+ <body>
+  <link rel="stylesheet" type="text/css" href="../scroll.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style.css"></link>
+  <script src="../libs.js"></script>
+  <script src="../search.js"></script>
+  <div class="pldbHeader">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <form style="display:inline-block;">
+    <input type="search" id="headerSearch" placeholder="Search" autocomplete="off"></input>
+</form>
+   <a href="../lists/top500.html">Languages</a>
+   <a href="../lists/features.html">Features</a>
+   <a href="../lists/calendar.html">Calendar</a>
+   <a href="../docs/csv.html">CSV</a>
+   <a href="../lists/lists.html">Lists</a>
+   <a href="../posts/index.html">Blog</a>
+   <a href="../pages/about.html">About</a>
+   <a href="../pages/sponsor-a-fact.html">Sponsor</a>
+   <a href="https://build.pldb.com/create">Add Language</a>
+</div>
+  <a class="gitHubTopRightLinkComponent" href="https://github.com/breck7/pldb"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12  5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0  1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12  3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0  .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <h1 class="scrollFilePageTitle">
+   <a href="sql.html">SQL</a>
+</h1>
+  <div class="scrollFilePageComponent" style="column-width:35ch;column-count:2;max-width:90ch;"><h1 class="scrollTitleComponent"><a href="sql.html">SQL</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="scrollParagraphComponent">SQL, aka Structured Query Language, is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=1974">1974</a> by <a href="../lists/creators.html#Donald_D._Chamberlin">Donald D. Chamberlin</a> and <a href="../lists/creators.html#Raymond_F._Boyce">Raymond F. Boyce</a>.</p>
+
+<table class="scrollKpiTable"><tr><td>#7<span><span title="TotalRank: 17 Jobs: 1 Users: 0 Facts: 31 Links: 16">on PLDB</span></span></td>
+<td>48<span>Years Old</span></td>
+<td>7.2m<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
+<tr><td>182<span><span title="Books about or leveraging SQL">Books</span></span></td>
+<td>37<span><span title="Academic publications about or leveraging SQL">Papers</span></span></td>
+<td>1k<span><span title="SQL repos on GitHub.">Repos</span></span></td></tr>
+</table>
+
+
+
+<div id="monacoContainer"></div>
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script>
+  require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
+  require(["vs/editor/editor.main"], function() {
+    monaco.editor.create(document.getElementById('monacoContainer'), {
+        value: `SELECT 'Hello World';\n`,
+        language: 'sql',
+        minimap: {
+          enabled: false
+      },
+      scrollbar: {
+          vertical:"hidden",
+          horizontal: "hidden",
+          handleMouseWheel:false,
+      },
+      overviewRulerLanes: 0,
+      hideCursorInOverviewRuler: true,
+      overviewRulerBorder: false,
+      wordWrap: 'on',
+      //lineNumbers: 'off',
+    glyphMargin: false,
+    folding: false,
+    // Undocumented see https://github.com/Microsoft/vscode/issues/30795#issuecomment-410998882
+    lineDecorationsWidth: 10,
+    lineNumbersMinChars: 2
+      });
+    });
+  </script>
+
+
+
+<p class="scrollParagraphComponent">SQL ( ( listen) ESS-kew-EL or  ( listen) SEE-kwəl or  SKWEEL, Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). In comparison to older read/write APIs like ISAM or VSAM, SQL offers two main advantages: first, it introduced the concept of accessing many records with one single command; and second, it eliminates the need to specify how to reach a record, e.g. with or without an index. <a href="https://en.wikipedia.org/wiki/SQL">Read more on Wikipedia...</a></p>
+
+<ul class="scrollUnorderedListComponent">
+<li>the <a href="https://en.wikipedia.org/wiki/SQL">SQL Wikipedia page</a></li>
+<li>There are at least 1,222 SQL repos on <a href="https://github.com/search?q=language:SQL">GitHub</a></li>
+<li>SQL first developed in <a href="../lists/originCommunities.html#IBM">IBM</a></li>
+<li>PLDB estimates there are currently 72k job openings for SQL programmers.</li>
+<li>file extensions for SQL include sql, cql, ddl, inc, mysql, prc, tab, udf and viw</li>
+<li>The  Google BigQuery Public Dataset GitHub snapshot shows 602 users using SQL in 641 repos on <a href="https://api.github.com/search/repositories?q=language:SQL">GitHub</a></li>
+<li>There are 124 <a href="https://projecteuler.net/language=SQL">Project Euler</a> users using SQL</li>
+<li>In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> SQL programmers reported a median salary of $56,228. 47% of respondents reported using SQL. 38,835 programmers reported using SQL, and 26,631 said they wanted to use it</li>
+<li>Explore SQL snippets on <a href="http://www.rosettacode.org/wiki/Category:SQL">Rosetta Code</a></li>
+<li>SQL is listed on <a href="https://hopl.info/showlanguage.prx?exp=533">HOPL</a></li>
+<li>SQL ranks #9 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
+<li>There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/sql">package</a> for syntax highlighting SQL</li>
+<li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/sql">package</a> for syntax highlighting SQL</li>
+<li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/sql.py">syntax highlighting</a> for SQL</li>
+<li>GitHub supports <a href="https://github.com/textmate/sql.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SQL</li>
+<li>There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://teradata.github.io/jupyterextensions/">Kernel</a> for SQL</li>
+<li>See also: <a href="sql-92.html">SQL-92</a>, <a href="datalog.html">Datalog</a>, <a href="linq.html">LINQ</a>, <a href="powershell.html">PowerShell</a>, <a href="c.html">C</a>, <a href="sql-psm.html">SQL/PSM</a>, <a href="sqlpl.html">SQLPL</a>, <a href="transact-sql.html">Transact-SQL</a>, <a href="mysql.html">MySQL</a>, <a href="pl-sql.html">PL/SQL</a>, <a href="ada.html">Ada</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="plpgsql.html">PL/pgSQL</a>, <a href="java.html">Java</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="tcl.html">Tcl</a>, <a href="javascript.html">JavaScript</a>, <a href="xml.html">XML</a>, <a href="xquery.html">XQuery</a>, <a href=".ql.html">.QL</a>, <a href="isbl.html">ISBL</a>, <a href="quel.html">QUEL</a>, <a href="mumps.html">MUMPS</a>, <a href="isbn.html">ISBN</a>, <a href="doi.html">DOI</a></li>
+<li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
+<li><a href="https://build.pldb.com/edit/sql">Improve our SQL file</a></li>
+</ul>
+
+<br>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/SQL.sql'>hello-world</a>:</div>
+<code class="scrollCodeBlockComponent">SELECT &#39;Hello World&#39;;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='http://helloworldcollection.de/#Structured'>the Hello World Collection</a>:</div>
+<code class="scrollCodeBlockComponent"># Hello World in SQL
+
+SELECT &#39;Hello World&#39;;
+</code>
+
+<div class="exampleCodeHeader">Example from <a href='https://github.com/textmate/sql.tmbundle'>Linguist</a>:</div>
+<code class="scrollCodeBlockComponent">--this is the most basic oracle sql command
+select * from dual;
+
+</code>
+
+
+
+<h4 class="scrollSubsectionComponent"><a href="../lists/keywords.html?filter=sql">Keywords</a> in SQL</h4>
+<p class="scrollParagraphComponent">ADD ALL ALLOCATE ALTER AND ANY ARE AS ASC ASSERTION AT AUTHORIZATION AVG BEGIN BETWEEN BIT BOOLEAN BOTH BY CALL CASCADE CASCADED CASE CAST CHAR CHARACTER CHECK CLOSE COLLATE COLLATION COLUMN COMMIT CONNECT CONNECTION CONSTRAINT CONSTRAINTS CONTINUE CONVERT CORRESPONDING COUNT CREATE CURRENT CURRENT_DATE CURRENT_TIME CURRENT_TIMESTAMP CURRENT_USER CURSOR DEALLOCATE DEC DECIMAL DECLARE DEFERRABLE DEFERRED DELETE DESC DESCRIBE DIAGNOSTICS DISCONNECT DISTINCT DOUBLE DROP ELSE END ENDEXEC ESCAPE EXCEPT EXCEPTION EXEC EXECUTE EXISTS EXPLAIN EXTERNAL FALSE FETCH FIRST FLOAT FOR FOREIGN FOUND FROM FULL FUNCTION GET GET_CURRENT_CONNECTION GLOBAL GO GOTO GRANT GROUP HAVING HOUR IDENTITY IMMEDIATE IN INDICATOR INITIALLY INNER INOUT INPUT INSENSITIVE INSERT INT INTEGER INTERSECT INTO IS ISOLATION JOIN KEY LAST LEFT LIKE LONGINT LOWER LTRIM MATCH MAX MIN MINUTE NATIONAL NATURAL NCHAR NVARCHAR NEXT NO NOT NULL NULLIF NUMERIC OF ON ONLY OPEN OPTION OR ORDER OUT OUTER OUTPUT OVERLAPS PAD PARTIAL PREPARE PRESERVE PRIMARY PRIOR PRIVILEGES PROCEDURE PUBLIC READ REAL REFERENCES RELATIVE RESTRICT REVOKE RIGHT ROLLBACK ROWS RTRIM SCHEMA SCROLL SECOND SELECT SESSION_USER SET SMALLINT SOME SPACE SQL SQLCODE SQLERROR SQLSTATE SUBSTR SUBSTRING SUM SYSTEM_USER TABLE TEMPORARY TIMEZONE_HOUR TIMEZONE_MINUTE TO TRAILING TRANSACTION TRANSLATE TRANSLATION TRUE UNION UNIQUE UNKNOWN UPDATE UPPER USER USING VALUES VARCHAR VARYING VIEW WHENEVER WHERE WITH WORK WRITE XML XMLEXISTS XMLPARSE XMLSERIALIZE YEAR</p>
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Language <a href="../lists/features.html">features</a></h4>
+
+<table class="scrollTableComponent"><thead><tr><th>Feature</th>
+
+<th>Supported</th>
+
+<th>Example</th>
+
+<th>Token</th>
+</tr></thead>
+<tbody><tr><td><a href="../languages/fixed-point-feature.html">Fixed Point Numbers</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/integers-feature.html">Integers</a></td>
+<td>✓</td>
+<td><pre>-- [0-9]+</pre></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/booleans-feature.html">Booleans</a></td>
+<td>✓</td>
+<td></td>
+<td>TRUE FALSE</td>
+</tr>
+<tr><td><a href="../languages/multiline-comments-feature.html">MultiLine Comments</a></td>
+<td>✓</td>
+<td><pre>/* A comment
+*/</pre></td>
+<td>/* */</td>
+</tr>
+<tr><td><a href="../languages/strings-feature.html">Strings</a></td>
+<td>✓</td>
+<td></td>
+<td>'</td>
+</tr>
+<tr><td><a href="../languages/line-comments-feature.html">Line Comments</a></td>
+<td>✓</td>
+<td><pre>-- A comment</pre></td>
+<td>--</td>
+</tr>
+<tr><td><a href="../languages/comment-feature.html">Comments</a></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/case-sensitivity-feature.html">Case Sensitivity</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><a href="../languages/semantic-indentation-feature.html">Semantic Indentation</a></td>
+<td>ϴ</td>
+<td></td>
+<td></td>
+</tr></tbody></table>
+
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about SQL on goodreads</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>author</th>
+
+<th>year</th>
+
+<th>reviews</th>
+
+<th>ratings</th>
+
+<th>rating</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.goodreads.com/search?q=SQL, PL/SQL: The Programming Language of Oracle Ivan Bayross">SQL, PL/SQL: The Programming Language of Oracle</a></td>
+<td>Ivan Bayross</td>
+<td>2002</td>
+<td>77</td>
+<td>729</td>
+<td>4.05</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=SQL for Dummies Allen G. Taylor">SQL for Dummies</a></td>
+<td>Allen G. Taylor</td>
+<td>1997</td>
+<td>10</td>
+<td>178</td>
+<td>3.48</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Joe Celko's SQL for Smarties: Advanced SQL Programming Joe Celko">Joe Celko's SQL for Smarties: Advanced SQL Programming</a></td>
+<td>Joe Celko</td>
+<td>1995</td>
+<td>11</td>
+<td>172</td>
+<td>3.96</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=Oracle PL/SQL Programming Steven Feuerstein">Oracle PL/SQL Programming</a></td>
+<td>Steven Feuerstein</td>
+<td>1993</td>
+<td>14</td>
+<td>250</td>
+<td>3.93</td>
+</tr>
+<tr><td><a href="https://www.goodreads.com/search?q=The Language of SQL Larry Rockoff">The Language of SQL</a></td>
+<td>Larry Rockoff</td>
+<td>2010</td>
+<td>5</td>
+<td>79</td>
+<td>3.95</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Books about SQL from ISBNdb</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>publisher</th>
+</tr></thead>
+<tbody><tr><td><a href="https://isbndb.com/book/9780324597684">A Guide to SQL (Available Titles Skills Assessment Manager (SAM) - Office 2010)</a></td>
+<td>Pratt, Philip J. and Last, Mary Z.</td>
+<td>2008</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781423903246">ASP .NET Programming with C# & SQL Server (Web Technologies)</a></td>
+<td>Gosselin, Don</td>
+<td>2009</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131497351">SQL for MySQL Developers: A Comprehensive Tutorial and Reference</a></td>
+<td>van der Lans, Rick</td>
+<td>2007</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781118102282">Beginning Microsoft SQL Server 2012 Programming</a></td>
+<td>Atkinson, Paul and Vieira, Robert</td>
+<td>2012</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937842314">SQL (Database Programming)</a></td>
+<td>Fehily, Chris</td>
+<td>2014</td>
+<td>Questing Vole Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735663862">Microsoft SQL Server 2012 Step by Step (Step by Step Developer)</a></td>
+<td>LeBlanc, Patrick</td>
+<td>2013</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763781385">Essential SQL on SQL Server 2008</a></td>
+<td>Bagui, Dr. Sikha and Earp, Dr. Richard</td>
+<td>2009</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430242000">SQL Server 2012 T-SQL Recipes: A Problem-Solution Approach (Expert's Voice in SQL Server)</a></td>
+<td>Brimhall, Jason and Dye, David and Roberts, Timothy and Sheffield, Wayne and Gennick, Jonathan and Sack, Joseph</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781499529593">SQL Server 2014 Design & Programming</a></td>
+<td>Toth, Kalman</td>
+<td>2014</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780078825361">Oracle Sql & Pl/sql Annotated Archives</a></td>
+<td>Kevin Loney and Rachel Carmichael</td>
+<td>1999</td>
+<td>Mcgraw-hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735626027">Inside Microsoft® SQL Server® 2008: T-SQL Programming (Developer Reference)</a></td>
+<td>Itzik Ben-Gan and Dejan Sarka and Roger Wolter and Greg Low and Ed Katibah and Isaac Kunen</td>
+<td>2009</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780619216740">A Guide to SQL</a></td>
+<td>Pratt, Philip J.</td>
+<td>2004</td>
+<td>Course Technology</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470119280">SQL All-in-One Desk Reference For Dummies</a></td>
+<td>Taylor, Allen G.</td>
+<td>2007</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764579554">Beginning Transact-SQL with SQL Server 2000 and 2005</a></td>
+<td>Turley, Paul</td>
+<td>2005</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430237501">Beginning SQL Server 2012 for Developers (Expert's Voice SQL Server)</a></td>
+<td>Dewson, Robin</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764543685">Professional SQL Server 2000 DTS (Data Transformation Services)</a></td>
+<td>Chaffin, Mark and Knight, Brian and Robinson, Todd</td>
+<td>2000</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764584336">Beginning SQL Server 2005 Programming</a></td>
+<td>Vieira, Robert</td>
+<td>2006</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470242018">Professional Microsoft SQL Server 2008 Reporting Services</a></td>
+<td>Turley, Paul and Silva, Thiago and Smith, Bryan C. and Withee, Ken</td>
+<td>2008</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764599576">Oracle PL / SQL For Dummies</a></td>
+<td>Michael Rosenblum and Paul Dorsey</td>
+<td>2006</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596007270">Learning SQL</a></td>
+<td>Beaulieu, Alan</td>
+<td>2005</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672328244">Microsoft SQL Server 2005 Unleashed</a></td>
+<td>Ray Rankins and Paul Bertucci and Chris Gallelli and Alex T. Silverstein</td>
+<td>2006</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735609983">Inside Microsoft SQL Server 2000</a></td>
+<td>Kalen Delaney</td>
+<td>2000</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735623132">Inside Microsoft SQL Server 2005: T-SQL Querying (Developer Reference)</a></td>
+<td>Itzik Ben-Gan and Lubor Kollar and Dejan Sarka</td>
+<td>2006</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590594773">Pro SQL Server 2005</a></td>
+<td>Thomas Rizzo and Adam Machanic and Robin Dewson and Rob Walters and Joseph Sack and Julian Skinner and Louis Davidson</td>
+<td>2005</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072228960">SQL Server 2000 Stored Procedure & XML Programming, Second Edition</a></td>
+<td>Dejan Sunderic</td>
+<td>2003</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672318993">Sams Teach Yourself SQL in 24 Hours (2nd Edition)</a></td>
+<td>Plew, Ronald R. and Stephens, Ryan K.</td>
+<td>2000</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072134896">Troubleshooting SQL</a></td>
+<td></td>
+<td>2001</td>
+<td>McGraw-Hill Companies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201700466">Guru's Guide to SQL Server Stored Procedures, XML, and HTML, The</a></td>
+<td>Henderson, Ken</td>
+<td>2001</td>
+<td>Addison-Wesley Professional</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780123693792">Joe Celko's SQL for Smarties: Advanced SQL Programming Third Edition (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2005</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430245964">Pro T-SQL 2012 Programmer's Guide (Expert's Voice in SQL Server)</a></td>
+<td>Coles, Michael and Shaw, Scott and Natarajan, Jay and Bruchez, Rudi</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780763766740">The Sql Programming Language</a></td>
+<td>Kirk Scott</td>
+<td>2009</td>
+<td>Jones & Bartlett Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672317095">SQL Unleashed</a></td>
+<td>Youness, Sakhr and Boutquin, Pierre and Ladanyi, Hans</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780123695123">Joe Celko's Analytics and OLAP in SQL (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2006</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780123741370">Joe Celko's Thinking in Sets: Auxiliary, Temporal, and Virtual Tables in SQL (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2008</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558604537">Joe Celko's SQL Puzzles and Answers (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>1997</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781566047609">The SQL Programmer's Reference: Windows 95/Nt & Unix</a></td>
+<td>Freeze, Wayne S.</td>
+<td>1998</td>
+<td>Ventana Pr</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596004798">Programming SQL Server 2005: Prepare for Deeper SQL Server Waters</a></td>
+<td>Bill Hamilton</td>
+<td>2006</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735612716">Data Mining with Microsoft SQL Server(TM) 2000 Technical Reference (Developer Reference)</a></td>
+<td>Seidman, Claude</td>
+<td>2001</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780749215750">The Database Language Sql</a></td>
+<td>Open University. Relational databases: theory and practice Course Team</td>
+<td>2007</td>
+<td>Open University Worldwide</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735625808">Smart Business Intelligence Solutions with Microsoft® SQL Server® 2008 (Developer Reference)</a></td>
+<td>Langit, Lynn and Goff, Kevin S.</td>
+<td>2009</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672312939">Microsoft SQL Server 7.0 Programming Unleashed (2nd Edition)</a></td>
+<td>John Papa and Matthew Shepker and Peter Debetta and Dave Martin and Randy Charles Morin</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072263213">MCTS SQL Server 2005 Implementation & Maintenance Study Guide (Exam 70-431)</a></td>
+<td>Carpenter, Tom</td>
+<td>2007</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764584978">Professional SQL Server 2005 Reporting Services</a></td>
+<td>Turley, Paul and Bryant, Todd and Counihan, James and DuVarney, Dave</td>
+<td>2006</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781259641800">Microsoft SQL Server 2016: A Beginner's Guide, Sixth Edition</a></td>
+<td>Petkovic, Dusan</td>
+<td>2016</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071736404">Hands-On Microsoft SQL Server 2008 Integration Services, Second Edition</a></td>
+<td>Nanda, Ashwani</td>
+<td>2010</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780972688895">The Rational Guide to: SQL Server Reporting Services (Rational Guides)</a></td>
+<td>Mann, A. T.</td>
+<td>2004</td>
+<td>Rational Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764597923">Professional SQL Server 2005 XML</a></td>
+<td>Klein, Scott</td>
+<td>2006</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072123753">SQL Server 2000 Design & T-SQL Programming</a></td>
+<td>Reilly, Michael and Poolet, Michelle</td>
+<td>2000</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781787283572">SQL Server 2017 Machine Learning Services with R: Data exploration, modeling, and advanced analytics</a></td>
+<td>Kastrun, Tomaz and Koesmarno, Julie</td>
+<td>2018</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780596523060">SQL and Relational Theory: How to Write Accurate SQL Code</a></td>
+<td>Date, C. J.</td>
+<td>2009</td>
+<td>O'Reilly Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071756235">Microsoft SQL Server 2008 R2 Master Data Services</a></td>
+<td>Graham, Tyler and Selhorn, Suzanne</td>
+<td>2011</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470289044">Mastering SQL Server 2008</a></td>
+<td>Lee, Michael and Bieker, Gentry</td>
+<td>2009</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471399513">Scripting XML and WMI for Microsoft(r) SQL Server 2000: Professional Developer's Guide</a></td>
+<td>Martinsson, Tobias</td>
+<td>2001</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780880223904">Sql Programmer's Guide (programming Series)</a></td>
+<td>Umang Gupta and William Gietz</td>
+<td>1989</td>
+<td>Que Pub</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937842475">SQL Database Programming (Fifth Edition)</a></td>
+<td>Fehily, Chris</td>
+<td>2020</td>
+<td>Questing Vole Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780201624250">Introduction to SQL (2nd Edition)</a></td>
+<td>Van Der Lans, Rick F. and Cools, Diane and Gray, Andrea</td>
+<td>1994</td>
+<td>Addison-Wesley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789701058930">Programacion avanzada con SQL Server 2005/ Advance Programming with SQL Server 2005 (Spanish Edition)</a></td>
+<td>Brust, Andrew J.</td>
+<td>2007</td>
+<td>McGraw-Hill Interamericana</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133038460">DB2 SQL Tuning Tips for z/OS Developers (IBM Press)</a></td>
+<td>Andrews, Tony</td>
+<td>2012</td>
+<td>IBM Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781906434458">Defensive Database Programming with SQL Server</a></td>
+<td></td>
+<td>2010</td>
+<td>Red Gate Books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470557419">SQL For Dummies</a></td>
+<td>Taylor, Allen G.</td>
+<td>2010</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780782129571">SQL Server Developer's Guide to OLAP with Analysis Services</a></td>
+<td>Mike Gunderloy and Tim Sneath</td>
+<td>2001</td>
+<td>Sybex</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781558605626">Understanding SQL and Java Together: A Guide to SQLJ, JDBC, and Related Technologies (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Melton, Jim and Eisenberg, Andrew</td>
+<td>2000</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735619234">Programming Microsoft SQL Server 2005</a></td>
+<td>Brust, Andrew and Forte, Stephen</td>
+<td>2006</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590595886">Beginning SQL Server 2005 for Developers: From Novice to Professional (Expert's Voice)</a></td>
+<td>Dewson, Robin</td>
+<td>2006</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780894353086">Embedded SQL for DB2: Application design and programming</a></td>
+<td>Sayles, Jonathan</td>
+<td>1990</td>
+<td>QED Information Sciences</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780764596322">Beginning SQL</a></td>
+<td>Paul Wilton and John Colby</td>
+<td>2005-03-04</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672312274">Microsoft SQL Server 7.0 Unleashed</a></td>
+<td>Bjeletich, Sharon and Gallagher, Simon and Minocha, Vipul and Mable, Greg</td>
+<td>1999</td>
+<td>Sams</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072133202">Instant SQL Server 2000 Applications</a></td>
+<td>Buczek, Greg</td>
+<td>2001</td>
+<td>McGraw-Hill Osborne Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470054031">Professional SQL Server 2005 CLR Programming: with Stored Procedures, Functions, Triggers, Aggregates and Types</a></td>
+<td>Derek Comingore and Douglas Hinson</td>
+<td>2006</td>
+<td>Wrox</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781590473344">Sas 9.1 Sql Procedure User's Guide</a></td>
+<td>Inc Sas Institute and Sas Institute</td>
+<td>2004</td>
+<td>Sas Institute</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735638198">Programming Microsoft® SQL Server® 2008</a></td>
+<td>Leonard Lobel and Andrew J. Brust and Stephen Forte</td>
+<td>2008</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735611757">Programming Sql Server With Xml [with 1]</a></td>
+<td>Sankar and Krishna</td>
+<td>2000</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780840031259">Asp.net Programming With C# And Sql Server</a></td>
+<td>Gosselin, Don</td>
+<td>2010</td>
+<td>Course Technology/cengage Learning,</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789388511759">Python Data Persistence: With SQL and NOSQL Databases</a></td>
+<td>Lathkar, Malhar</td>
+<td>2019</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781597491969">How to Cheat at Securing SQL Server 2005</a></td>
+<td>Timothy Blum and Kevvie Fowler and Raymond Arthur Gabriel and K. Brian Kelley and Matt Shepherd</td>
+<td>2007</td>
+<td>Syngress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119608608">SQL Server Database Programming with Visual Basic.NET: Concepts, Designs and Implementations</a></td>
+<td>Bai, Ying</td>
+<td>2020</td>
+<td>Wiley-IEEE Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788441521315">Bases de datos con SQL Server 2005 (Paso A Paso) (Spanish Edition)</a></td>
+<td>Solid Quality Learning</td>
+<td>2007</td>
+<td>ANAYA MULTIMEDIA</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781076176479">Sql</a></td>
+<td>Ryan Turner</td>
+<td>2019</td>
+<td></td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9788190133159">Database Programming Using Vb.net & Sql Server 2000 (secrets Of Developing An Accounting Package Revealed)</a></td>
+<td>Bharathi Krishna K. and Krishna K.</td>
+<td>2004</td>
+<td>Vk Publishers</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781572315679">Hitchhiker's Guide to Visual Basic and SQL Server: William R. Vaughn (Microsoft Programming Series)</a></td>
+<td>Vaughn, William</td>
+<td>1997</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484200612">SQL Server T-SQL Recipes</a></td>
+<td>Dye, David and Brimhall, Jason and Roberts, Timothy and Sheffield, Wayne and Sack, Joseph and Gennick, Jonathan</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781532716959">Sql: Learn Sql In 24 Hours Or Less - A Beginner's Guide To Learning Sql Programming Now (sql, Sql Programming, Sql Course)</a></td>
+<td>Robert Dwight</td>
+<td>2016</td>
+<td>Createspace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430200000">Mastering Oracle SQL and SQL*Plus</a></td>
+<td>Lex deHaan</td>
+<td>20061101</td>
+<td>Springer Nature</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071486729">SQL Demystified</a></td>
+<td>Oppel, Andrew</td>
+<td>2005</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781985732681">SQL: Simplified SQL Programming & Database Management For Beginners. Your Step-By-Step Guide to Learning The SQL Database (Simplified Programming- SQL)</a></td>
+<td>Gosling, Steve</td>
+<td>2018</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847196262">Oracle SQL Developer 2.1</a></td>
+<td>Harper,Sue</td>
+<td>2009</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430234890">Pro SQL Server 2012 BI Solutions (Expert's Voice in SQL Server)</a></td>
+<td>Root, Randal and Mason, Caryn</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780131915459">Power Programming With Sql Windows</a></td>
+<td>Rajesh Lalwani</td>
+<td>1994</td>
+<td>Gupta Corp</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861004482">Professional SQL Server 2000 Programming</a></td>
+<td>Rob Vieira</td>
+<td>2000</td>
+<td>Peer Information</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781861002310">Professional SQL Server 7.0 Programming</a></td>
+<td>Rob Vieira</td>
+<td>1999</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781937842338">Sql Short Course (database Programming)</a></td>
+<td>Chris Fehily</td>
+<td>2014</td>
+<td>Questing Vole Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781580255998">SAS SQL Procedure User's Guide,Version 8</a></td>
+<td>SAS Institute Staff and Publishing SAS Publishing and SAS Publishing</td>
+<td>2000</td>
+<td>SAS Institute,</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072125665">SQL Server 2000 Stored Procedure Programming</a></td>
+<td></td>
+<td>2000</td>
+<td>McGraw-Hill/OsborneMedia</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781850328605">Official Sybase SQL Anywhere Developer's Guide</a></td>
+<td>Richmond, Ian and Clayton, Steve and Ball, Derek</td>
+<td>1997</td>
+<td>Itp - Media</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789389898088">Learn SQL with MySQL: Retrieve and Manipulate Data Using SQL Commands with Ease (English Edition)</a></td>
+<td>Pajankar, Ashwin</td>
+<td>2020</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781658138703">Computer Programming: 4 Books In 1: Sql For Beginners, C# For Beginners, C# For Intermediate, Hacking With Kali Linux, Everything You Need For Mastering Programming & Cyber Security</a></td>
+<td>Sutherland, Andrew</td>
+<td>2020</td>
+<td>Independently Published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781708021979">Sql: The Ultimate Guide To Programming In Sql For Beginners, With Exercises For Learning Sql Languages And The Coding, Easily And In A Short Time (step-by-step Guide)</a></td>
+<td>Daniel Géron</td>
+<td>2019</td>
+<td>Independently Published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9787302141112">Sql Server 2005 Xml Advanced Programming(chinese Edition)</a></td>
+<td>(mei)ke Lin (klein.s.) / Wang Xin</td>
+<td>2000</td>
+<td>Tsinghua University Press Pub. Date :2007-01</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781572313316">Inside Microsoft SQL Server 6.5 (Microsoft Programming Series)</a></td>
+<td>Soukup, Ron</td>
+<td>1997</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781556159060">Hitchhiker's Guide to Visual Basic for SQL Server 95 (Solution developer series)</a></td>
+<td>Vaughn, William</td>
+<td>1996</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780471349204">Essential Sqlj Programming: The Complete Guide To The Ansi Standard For Embedded Sql In Java</a></td>
+<td>Julie Basu and Probal Shyamal Shome</td>
+<td>1999</td>
+<td>John Wiley & Sons</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780758061041">Microsoft Official Course 2073A: Programming a Microsoft SQL Server 2000 Database Course (Microsoft Official Course)</a></td>
+<td></td>
+<td>2021</td>
+<td>microsoft</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781512127287">Realizing Generic Data Warehouses by Generic SQL Programming: Teradata Edition (In the Age of Big Data: Generically Data Warehousing)</a></td>
+<td>Jiang, Bin</td>
+<td>2016</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9783949231407">Programming For Data Science: 2 Books in 1: Cyber Security, SQL Programming, Beginners Course for Kids, and Newbies (Crash Course 2021)</a></td>
+<td>Chan, Ben</td>
+<td>2020</td>
+<td>Ben Chan</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781945051838">SQL QuickStart Guide: The Simplified Beginner's Guide to Managing, Analyzing, and Manipulating Data With SQL</a></td>
+<td>Shields, Walter</td>
+<td>2019</td>
+<td>ClydeBank Media LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781111527273">A Guide to SQL</a></td>
+<td>Pratt, Philip J. and Last, Mary Z.</td>
+<td>2014</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798415220236">SQL: 2 Books in 1 - The Ultimate Beginner & Intermediate Guides To Mastering SQL Programming Quickly (Computer Programming)</a></td>
+<td>Reed, Mark</td>
+<td>2022</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781934356555">SQL Antipatterns: Avoiding the Pitfalls of Database Programming (Pragmatic Programmers)</a></td>
+<td>Karwin, Bill</td>
+<td>2017</td>
+<td>Pragmatic Programmers, LLC, The</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781285821139">MCSA Guide to Microsoft SQL Server 2012 (Exam 70-462) (Networking (Course Technology))</a></td>
+<td>Akkawi, Faisal and Akkawi, Kayed and Schofield</td>
+<td>2013</td>
+<td>Cengage Learning</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9798402491663">SQL: The Ultimate Intermediate Guide to Learning SQL Programming Step by Step (Computer Programming)</a></td>
+<td>Reed, Mark</td>
+<td>2022</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484254196">SQL Server 2019 Revealed: Including Big Data Clusters and Machine Learning</a></td>
+<td>Ward, Bob</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781259641497">Delivering Business Intelligence with Microsoft SQL Server 2016, Fourth Edition</a></td>
+<td>Larson, Brian</td>
+<td>2016</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838981709">Learn SQL Database Programming: Query and manipulate databases from popular relational database servers using SQL</a></td>
+<td>Bush, Josephine</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484255087">Beginning Database Programming Using ASP.NET Core 3: With MVC, Razor Pages, Web API, jQuery, Angular, SQL Server, and NoSQL</a></td>
+<td>Joshi, Bipin</td>
+<td>2019-12-13T00:00:01Z</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781981745982">SQL: Learn SQL In 2 Hours And Start Programming Today!</a></td>
+<td>Alvin, Cooper</td>
+<td>2017-12-15T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780977671540">SQL Design Patterns: The Expert Guide to SQL Programming (IT In-Focus) (Volume 4)</a></td>
+<td>Tropashko, Vadim</td>
+<td>2014</td>
+<td>Rampant TechPress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735658141">Microsoft SQL Server 2012 T-SQL Fundamentals (Developer Reference)</a></td>
+<td>Ben-Gan, Itzik</td>
+<td>2012</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838984762">Learn SQL Database Programming: Query and manipulate databases from popular relational database servers using SQL</a></td>
+<td>Bush, Josephine</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484263709">Practical Azure SQL Database for Modern Developers: Building Applications in the Microsoft Cloud</a></td>
+<td>Mauri, Davide and Coriani, Silvano and Hoffman, Anna and Mishra, Sanjay and Popovic, Jovan</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781840789027">SQL in easy steps</a></td>
+<td>McGrath, Mike</td>
+<td>2020</td>
+<td>In Easy Steps Limited</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781119669395">SQL for Data Scientists: A Beginner's Guide for Building Datasets for Analysis</a></td>
+<td>Teate, Renee M. P.</td>
+<td>2021</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781259584619">OCA Oracle Database SQL Exam Guide (Exam 1Z0-071) (Oracle Press)</a></td>
+<td>O'Hearn, Steve</td>
+<td>2017</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780128007617">Joe Celko's SQL for Smarties: Advanced SQL Programming (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2014</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484238882">SQL Server 2017 Query Performance Tuning: Troubleshoot and Optimize Query Performance</a></td>
+<td>Fritchey, Grant</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484234778">Beginning DAX with Power BI: The SQL Pro’s Guide to Better Business Intelligence</a></td>
+<td>Seamark, Philip</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484262139">SQL Server Data Automation Through Frameworks: Building Metadata-Driven Frameworks with T-SQL, SSIS, and Azure Data Factory</a></td>
+<td>Andy Leonard and Kent Bradshaw</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484264799">SQL Server 2019 AlwaysOn: Supporting 24x7 Applications with Continuous Uptime</a></td>
+<td>Carter, Peter A.</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781430242017">SQL Server 2012 T-SQL Recipes: A Problem-Solution Approach (Expert's Voice in SQL Server)</a></td>
+<td>Brimhall, Jason and Dye, David and Roberts, Timothy and Sheffield, Wayne and Gennick, Jonathan and Sack, Joseph</td>
+<td>2012</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072262247">SQL Demystified</a></td>
+<td>Oppel, Andrew</td>
+<td>2005</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781518662584">Programming: Computer Programming for Beginners: Learn the Basics of Java, SQL & C++ (Coding, C Programming, Java Programming, SQL Programming, JavaScript, Python, PHP)</a></td>
+<td>Connor, Joseph</td>
+<td>2015</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484241615">Securing SQL Server: DBAs Defending the Database</a></td>
+<td>Carter, Peter A.</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781840785432">SQL in easy steps</a></td>
+<td>McGrath, Mike</td>
+<td>2012</td>
+<td>In Easy Steps Limited</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470229064">SQL Bible</a></td>
+<td>Kriegel, Alex and Trukhnov, Boris M.</td>
+<td>2008</td>
+<td>Wiley</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735673953">Microsoft SQL Server 2012 T-SQL Fundamentals (Developer Reference)</a></td>
+<td>Ben-Gan, Itzik</td>
+<td>2012</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781793213433">SQL: Comprehensive Beginners Guide to SQL Programming with Exercises and Case Studies</a></td>
+<td>Jacobs, Paige</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781695283565">SQL For Beginners SQL Made Easy: A Step-By-Step Guide to SQL Programming for the Beginner, Intermediate and Advanced User (Including Projects and Exercises)</a></td>
+<td>Berg, Craig</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735670037">Microsoft SQL Server 2012 Step by Step (Step by Step Developer)</a></td>
+<td>LeBlanc, Patrick</td>
+<td>2013</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484206386">Extending SSIS with .NET Scripting: A Toolkit for SQL Server Integration Services</a></td>
+<td>van Rossum, Joost and Baccaro, Regis</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780071829427">Microsoft SQL Server 2014 Query Tuning & Optimization</a></td>
+<td>Nevarez, Benjamin</td>
+<td>2014</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780470179543">Microsoft SQL Server 2008 All-in-One Desk Reference For Dummies</a></td>
+<td>Schneider, Robert D. and Gibson, Darril</td>
+<td>2008</td>
+<td>For Dummies</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781671682191">SQL Programming: The Ultimate Guide with Exercises, Tips and Tricks to Learn SQL</a></td>
+<td>Parker, Damon</td>
+<td>2019</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781636100197">SQL Quickstart Guide: The Simplified Beginner's Guide to Managing, Analyzing, and Manipulating Data With SQL</a></td>
+<td>Shields, Walter</td>
+<td>2019</td>
+<td>Clydebank Media Llc</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484229408">Building Custom Tasks for SQL Server Integration Services</a></td>
+<td>Leonard, Andy</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780123877567">Joe Celko's Trees and Hierarchies in SQL for Smarties (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2012</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781539916055">SQL: Easy SQL Programming & Database Management For Beginners, Your Step-By-Step Guide To Learning The SQL Database (SQL Series)</a></td>
+<td>Alvaro, Felix</td>
+<td>2016-11-03T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781082841828">Coding by Doing: For Absolute Beginners – 2 Books in One – Learn SQL and Python Programming: Learn Programming Fast</a></td>
+<td>Coding Languages Academy</td>
+<td>2019-07-28T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484231173">XML and JSON Recipes for SQL Server: A Problem-Solution Approach</a></td>
+<td>Grinberg, Alex</td>
+<td>2017</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781838829827">Introducing Microsoft SQL Server 2019: Reliability, scalability, and security both on premises and in the cloud</a></td>
+<td>Gorman, Kellyn and Hirt, Allan and Noderer, Dave and Pearson, Mitchell and Rowland-Jones, James and Ryan, Dustin and Sirpal, Arun and Woody, Buck</td>
+<td>2020</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781847196279">Oracle SQL Developer 2.1</a></td>
+<td>Harper, Sue</td>
+<td>2009</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781786467997">SQL Server 2016 Reporting Services Cookbook</a></td>
+<td>Priyankara, Dinesh and Cain, Robert C.</td>
+<td>2016</td>
+<td>Packt Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484264973">Pro SQL Server Relational Database Design and Implementation: Best Practices for Scalability and Performance</a></td>
+<td>Davidson, Louis</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780120887972">Joe Celko's SQL Programming Style (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2005</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781671803763">SQL Computer Programming for Beginners: The Ultimate Guide To Learn SQL Programming Basics, SQL Languages, Queries and Practice Problems, SQL Server and Database, Coding Languages for Beginners</a></td>
+<td>Hack, Anthony</td>
+<td>2019-12-05T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781979683821">"SQL Programming & Database Management For Absolute Beginners SQL Server, Structured Query Language Fundamentals: ""Learn - By Doing"" Approach And Master SQL"</a></td>
+<td>Sullivan, William</td>
+<td>2017-11-13T00:00:01Z</td>
+<td>CreateSpace Independent Publishing Platform</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735638303">Inside Microsoft® SQL Server® 2008: T-SQL Querying</a></td>
+<td>Itzik Ben-Gan and Lubor Kollar and Dejan Sarka and Steve Kass</td>
+<td>2009</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780672330254">Sams Teach Yourself SQL in One Hour a Day</a></td>
+<td>Stephens, Ryan and Plew, Ron and Jones, Arie</td>
+<td>2009</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484250044">Query Store for SQL Server 2019: Identify and Fix Poorly Performing Queries</a></td>
+<td>Boggiano, Tracy and Fritchey, Grant</td>
+<td>2019</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735626034">Inside Microsoft® SQL Server® 2008: T-SQL Querying (Developer Reference)</a></td>
+<td>Itzik Ben-Gan and Lubor Kollar and Dejan Sarka and Steve Kass</td>
+<td>2009</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781906434496">Defensive Database Programming with SQL Server</a></td>
+<td>Kuznetsov, Alex</td>
+<td>2010-05-31T00:00:01Z</td>
+<td>Red gate books</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735626010">Microsoft® SQL Server® 2008 T-SQL Fundamentals (Developer Reference)</a></td>
+<td>Ben-Gan, Itzik</td>
+<td>2008</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9789391392413">Learn T-SQL From Scratch: An Easy-to-Follow Guide for Designing, Developing, and Deploying Databases in the SQL Server and Writing T-SQL Queries Efficiently (English Edition)</a></td>
+<td>Shukla, Brahmanand</td>
+<td>2021</td>
+<td>BPB Publications</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780735646476">Inside Microsoft SQL Server 2008 T-SQL Programming (Developer Reference)</a></td>
+<td>Ben-Gan, Itzik and Sarka, Dejan and Wolter, Roger and Low, Greg and Katibah, Ed and Kunen, Isaac</td>
+<td>2009</td>
+<td>Microsoft Press</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484200629">SQL Server T-SQL Recipes</a></td>
+<td>Dye, David and Brimhall, Jason and Roberts, Timothy and Sheffield, Wayne and Sack, Joseph and Gennick, Jonathan</td>
+<td>2015</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484255810">Refactoring Legacy T-SQL for Improved Performance: Modern Practices for SQL Server Applications</a></td>
+<td>Bohm, Lisa</td>
+<td>2020</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780123877338">Joe Celko's Trees and Hierarchies in SQL for Smarties (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2012</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484219553">Beginning SQL Queries: From Novice to Professional</a></td>
+<td>Churcher, Clare</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484236949">MySQL Connector/Python Revealed: SQL and NoSQL Data Storage Using MySQL for Python Programmers</a></td>
+<td>Krogh, Jesper Wisborg</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780133408515">Microsoft SQL Server 2012 Unleashed</a></td>
+<td>Rankins, Ray and Bertucci, Paul and Gallelli, Chris and Silverstein, Alex T.</td>
+<td>2013</td>
+<td>Sams Publishing</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780072262285">Microsoft SQL Server 2005 Stored Procedure Programming in T-SQL & .NET</a></td>
+<td>Sunderic, Dejan</td>
+<td>2006</td>
+<td>McGraw-Hill Education</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781647710804">SQL: 3 books in 1 - The Ultimate Beginners, Intermediate and Expert Guide to Master SQL Programming</a></td>
+<td>Turner, Ryan</td>
+<td>2020</td>
+<td>nelly B.L. International Consulting LTD.</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484241288">Pro SQL Server on Linux: Including Container-Based Deployment with Docker and Kubernetes</a></td>
+<td>Ward, Bob</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781692193959">SQL Programming: The Ultimate Step-By-Step Guide to Learning SQL for Beginners</a></td>
+<td>Johnson, Bryan</td>
+<td>2019-09-10T00:00:01Z</td>
+<td>Independently published</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484235768">SQL Primer: An Accelerated Introduction to SQL Basics</a></td>
+<td>Batra, Rahul</td>
+<td>2018</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9780123820228">Joe Celko's SQL for Smarties: Advanced SQL Programming (The Morgan Kaufmann Series in Data Management Systems)</a></td>
+<td>Celko, Joe</td>
+<td>2010</td>
+<td>Morgan Kaufmann</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484219546">Beginning SQL Queries: From Novice to Professional</a></td>
+<td>Churcher, Clare</td>
+<td>2016</td>
+<td>Apress</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781939666031">SQL Queries 2012 Joes 2 Pros (R) Volume 4: Query Programming Objects for SQL Server 2012 (SQL Exam Prep Series 70-461 Volume 4 of 5)</a></td>
+<td>Morelan, Rick and Dave, Pinal</td>
+<td>2012</td>
+<td>Joes 2 Pros International LLC</td>
+</tr>
+<tr><td><a href="https://isbndb.com/book/9781484264911">High Performance SQL Server: Consistent Response for Mission-Critical Applications</a></td>
+<td>Nevarez, Benjamin</td>
+<td>2021</td>
+<td>Apress</td>
+</tr></tbody></table>
+
+
+</div><div class="scrollFilePageComponent" style="column-width:70ch;column-count:1;max-width:90ch;">
+<h4 class="scrollSubsectionComponent">Publications about SQL from Semantic Scholar</h4>
+<table class="scrollTableComponent"><thead><tr><th>title</th>
+
+<th>authors</th>
+
+<th>year</th>
+
+<th>citations</th>
+
+<th>influentialCitations</th>
+</tr></thead>
+<tbody><tr><td><a href="https://www.semanticscholar.org/paper/8c7cf9c759dcca3195dea6e27c2e25ee9a05671c">Synthesizing highly expressive SQL queries from input-output examples</a></td>
+<td>Chenglong Wang and Alvin Cheung and R. Bodík</td>
+<td>2017</td>
+<td>127</td>
+<td>18</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/1f8a99790dd9124d528a718e55a0b27683685c77">Semantic Mapping between Natural Language Questions and SQL Queries via Syntactic Pairing</a></td>
+<td>A. Giordani and Alessandro Moschitti</td>
+<td>2009</td>
+<td>59</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c93c5db888d9d33b7834f9c791a390d65b2e9bf7">The Script-Writer's Dream: How to Write Great SQL in Your Own Language, and Be Sure It Will Succeed</a></td>
+<td>Ezra Cooper</td>
+<td>2009</td>
+<td>55</td>
+<td>12</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/6fbeb731108f983aa5899e5bd0ee190c7943bffb">A Formal Semantics of SQL Queries, Its Validation, and Applications</a></td>
+<td>P. Guagliardo and L. Libkin</td>
+<td>2017</td>
+<td>33</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/186e8be20c8f665ad61720389b7c0a7358e1a105">Efficiently Translating Complex SQL Query to MapReduce Jobflow on Cloud</a></td>
+<td>Zhiang Wu and Aibo Song and Jie Cao and Junzhou Luo and Lu Zhang</td>
+<td>2020</td>
+<td>24</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a9c2ff098f01a290a569b4cabaffe3210558c5ee">SQL language summary</a></td>
+<td>Jim Melton</td>
+<td>1996</td>
+<td>19</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d0a8f899cc206bcbc438b752b3e3667ef175b997">ML2SQL - Compiling a Declarative Machine Learning Language to SQL and Python</a></td>
+<td>Maximilian E. Schüle and Matthias Bungeroth and Dimitri Vorona and A. Kemper and Stephan Günnemann and Thomas Neumann</td>
+<td>2019</td>
+<td>15</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/75aac5614558f08595d4b737c075e89e47040337">SQLJ Part 1: SQL routines using the Java programming language</a></td>
+<td>A. Eisenberg and Jim Melton</td>
+<td>1999</td>
+<td>13</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/c8b92b0f91b4bbfbd1d591d2fec58626dd6abc38">The Power of SQL Lambda Functions</a></td>
+<td>Maximilian E. Schüle and Dimitri Vorona and Linnea Passing and Harald Lang and A. Kemper and Stephan Günnemann and Thomas Neumann</td>
+<td>2019</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/b1a57f8ed3084ba83cfcd896460777db15b638c8">Provenance for SQL through Abstract Interpretation: Value-less, but Worthwhile</a></td>
+<td>T. Müller and Torsten Grust</td>
+<td>2015</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ceb4ab8fb183838573b87cec5bd25c906949be24">Recommender system for learning SQL using hints</a></td>
+<td>D. Lavbic and Tadej Matek and Aljaz Zrnec</td>
+<td>2017</td>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/303cdd670ae8d664e6529b1bf6dfb443c077d2d8">Secured web application using combination of Query Tokenization and Adaptive Method in preventing SQL Injection Attacks</a></td>
+<td>Noor Ashitah Abu Othman and Fakariah Hani Mohd Ali and Mashyum Binti Mohd Noh</td>
+<td>2014</td>
+<td>9</td>
+<td>2</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a7954d5f57238a8dd66538407545cedbb3f67254">Automatic Grading System on SQL Programming</a></td>
+<td>Haifeng Ke and Gaoyan Zhang and Hui Yan</td>
+<td>2009</td>
+<td>9</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d7723ecfc43b0a6c4178f57ae53f8f4aabfd5f62">Duoquest: A Dual-Specification System for Expressive SQL Queries</a></td>
+<td>Christopher Baik and Zhongjun (Mark) Jin and Michael J. Cafarella and H. Jagadish</td>
+<td>2020</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/7bde5edcbcf2edf9ca50cda548d3ed43c2b6fd13">Functional SOL (FSOL), an SQL upward-compatible database programming language</a></td>
+<td>P. Valduriez and S. Danforth</td>
+<td>1992</td>
+<td>8</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3060d85dd740a8687b0834449c885d494be34db2">Big SQL systems: an experimental evaluation</a></td>
+<td>Victor Aluko and S. Sakr</td>
+<td>2019</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3b86d14de4a21a0c30bca827fa8b0dea4c0b9396">Meet cyrus: the query by voice mobile assistant for the tutoring and formative assessment of SQL learners</a></td>
+<td>Josue Espinosa Godinez and H. Jamil</td>
+<td>2018</td>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/8e0d0c73e91bb449ace38403402cd5713978c0c8">Explaining Causes Behind SQL Query Formulation Errors</a></td>
+<td>Toni Taipalus</td>
+<td>2020</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/0a0e2ef9f1cab6b872f84dc3d2af85f8abf41967">SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries</a></td>
+<td>Kai Presler-Marshall and S. Heckman and Kathryn T. Stolee</td>
+<td>2021</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/2621b328ec60ba6ac556b83f993ab28726027a94">Database Query Analyzer (DBQA): A Data-Oriented SQL Clause Visualization Tool</a></td>
+<td>Ryan Hardt and Esther Gutzmer</td>
+<td>2017</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/5d82136298dfca0da6c2ce808c87816696f14e40">An Evolutionary Method for Natural Language to SQL Translation</a></td>
+<td>A. Afonso and L. C. Brito and Oto Vale</td>
+<td>2008</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/588c66889c14e86166d8e41cd6ebadda5ff2da65">Perancangan Aplikasi Pendeteksi Kesalahan Perintah SQL Query Menggunakan Algoritma Knuth Morris Pratt</a></td>
+<td>G. L. Ginting and Dian Puspita Napitupulu and Pristiwanto Pristiwanto</td>
+<td>2018</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/d5067e3310269f48c6035eee6db9d4e0e52f7b6e">Information Technology. Programming Language. The SQL Ada Module Description Language (SAMeDL).</a></td>
+<td>M. Graham</td>
+<td>1995</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/ff489391a309473dbfdb856a6c0a8f3270040622">A Typeful Integration of SQL into Curry</a></td>
+<td>M. Hanus and Julian Kroné</td>
+<td>2017</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/e19bbcf1c7ec995207888a0e8120e7cf04bc6f1b">Investigation of SQL Clone on MVC-based Application</a></td>
+<td>Fawwaz Ali Akbar and S. Rochimah and R. J. Akbar</td>
+<td>2018</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/fd6f4d41bf848523ab01b02e0d3438a4aec0fa50">SWRL Parallel Reasoning Method with Spark SQL</a></td>
+<td>Wan Li and Huaai Kang and Dongbo Ma and Weiwei Wei</td>
+<td>2019</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/76973c38a22770272431ee4c2b1981dc4a5c4383">A Review on Methods for Prevention of SQL Injection Attack</a></td>
+<td>Sweta Raut and Akshay Nikhare and Yogesh Punde and Snehal Manerao and Shubham Choudhary</td>
+<td>2019</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/eab5621008e6eb7221a1fe51fd4091a9fcc870f1">SqlSol: An accurate SQL Query Synthesizer</a></td>
+<td>Lin Cheng</td>
+<td>2019</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/a84fa79f3f38fa34859e323e092d24b19467278b">SWRL Parallel Reasoning Implementation with Spark SQL</a></td>
+<td>Wan Li and Huaai Kang and Dongbo Ma and Weiwei Wei</td>
+<td>2020</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/50275fe35ff9889a681ac8f584fecc5b178f10a9">SQL Injection: The Longest Running Sequel in Programming History</a></td>
+<td>M. Horner and Thomas Hyslip</td>
+<td>2017</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/5ca3eadf08f8c40d6a9980beda942b95c5b57acb">S4J - Integrating SQL into Java at Compiler-Level</a></td>
+<td>Keven Richly and M. Lorenz and Sebastian Oergel</td>
+<td>2016</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/49244f6a94793935cd5c43c4165f41f55e006f30">SQL for data scientists</a></td>
+<td>Uwe Röhm and L. Brent and Tim Dawborn and Bryn Jeffries</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/3963e5801d6c2d0b051bd3519fb9c14d67f57b81">Detection of SQL Injection Vulnerability in Embedded SQL</a></td>
+<td>Young-Su Jang</td>
+<td>2020</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/234ba3a287178ddce5af915d5c16950d3e0a4064">Translation of Array-Based Loops to Spark SQL</a></td>
+<td>Md Hasanuzzaman Noor and L. Fegaras</td>
+<td>2020</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/826a68181bc2d39ab370bce1f48255ed0e97fcd2">Verification supported refactoring of embedded sql</a></td>
+<td>Mirko Spasic and Milena Vujosevic-Janicic</td>
+<td>2020</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/4695c4d9c2484935742a3974090cac1e4f95c984">Efficient dam management using SQL and GIS</a></td>
+<td>Mario Jancetić and N. Kranjčić and Milan Rezo</td>
+<td>2020</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr><td><a href="https://www.semanticscholar.org/paper/90dcbe721505cef84e7f4649dc2b4ccbbd4e3ba3">Data Transformation from SQL to NoSQL MongoDB Based on R Programming Language</a></td>
+<td>F. Hasan and Muhamad Shahbani Abu Bakar</td>
+<td>2021</td>
+<td>1</td>
+<td>0</td>
+</tr></tbody></table>
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="html.html">html.html</a> · sql.html · <a href="php.html">php.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/sql.pldb">View source</a></p></div>
+  <div class="pldbFooter">
+   <a href="../index.html" class="logoFont">PLDB</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558" href="https://github.com/breck7/pldb/commit/3b0fa48d52d37e6ee6ea46bd8ffc69b2fab82558">v2022</a> · </span>
+   <a href="../pages/about.html">Day 36</a>
+   <span>·</span>
+   <a href="../docs/csv.html">Docs</a>
+   <span>·</span>
+   <a href="https://build.pldb.com">Build</a>
+   <span>·</span>
+   <a href="../pages/acknowledgements.html">Acknowledgements</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDaily.html">Traffic Today</a>
+   <span>·</span>
+   <a href="https://pldb.com/nginxDailyAll.html">Traffic Trends</a>
+   <span>·</span>
+   <a href="../pages/mirrors.html">Mirrors</a>
+   <span>·</span>
+   <a href="https://github.com/breck7/pldb">GitHub</a>
+   <span>·</span>
+   <a href="mailto:feedback@pldb.com">feedback@pldb.com</a>
+</div>
+</body>
+</html>
