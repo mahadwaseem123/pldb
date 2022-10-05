@@ -90,7 +90,7 @@ replace KEYWORDS_TABLE
   override|11|11%|<a href='../languages/cpp.html'>C++</a> <a href='../languages/csharp.html'>C#</a> <a href='../languages/swift.html'>Swift</a> <a href='../languages/scala.html'>Scala</a> <a href='../languages/rust.html'>Rust</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/f-sharp.html'>F#</a> <a href='../languages/igor-pro.html'>IGOR Pro</a> <a href='../languages/apex.html'>Apex</a> <a href='../languages/jspp.html'>JS++</a> <a href='../languages/rigc.html'>RigC</a>
   fun|10|10%|<a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/erlang.html'>Erlang</a> <a href='../languages/reason.html'>Reason</a> <a href='../languages/crystal.html'>Crystal</a> <a href='../languages/f-sharp.html'>F#</a> <a href='../languages/ocaml.html'>OCaml</a> <a href='../languages/fstar.html'>F*</a> <a href='../languages/ats.html'>ATS</a> <a href='../languages/koka.html'>Koka</a> <a href='../languages/ligo.html'>Ligo</a>
   local|10|10%|<a href='../languages/lua.html'>Lua</a> <a href='../languages/julia.html'>Julia</a> <a href='../languages/chapel.html'>Chapel</a> <a href='../languages/abap.html'>ABAP</a> <a href='../languages/dylan.html'>Dylan</a> <a href='../languages/autoit.html'>AutoIt</a> <a href='../languages/systemverilog.html'>SystemVerilog</a> <a href='../languages/hcl.html'>HCL</a> <a href='../languages/ats.html'>ATS</a> <a href='../languages/eclipse-command-language.html'>Eclipse Command Language</a>
-  macro|10|10%|<a href='../languages/rust.html'>Rust</a> <a href='../languages/julia.html'>Julia</a> <a href='../languages/crystal.html'>Crystal</a> <a href='../languages/twig.html'>Twig</a> <a href='../languages/slope.html'>Slope</a> <a href='../languages/igor-pro.html'>IGOR Pro</a> <a href='../languages/blackcoffee.html'>BlackCoffee</a> <a href='../languages/eclipse-command-language.html'>Eclipse Command Language</a> <a href='../languages/nimrod.html'>nimrod</a> <a href='../languages/storymatic.html'>Storymatic</a>
+  macro|10|10%|<a href='../languages/rust.html'>Rust</a> <a href='../languages/julia.html'>Julia</a> <a href='../languages/crystal.html'>Crystal</a> <a href='../languages/twig.html'>Twig</a> <a href='../languages/igor-pro.html'>IGOR Pro</a> <a href='../languages/slope.html'>Slope</a> <a href='../languages/blackcoffee.html'>BlackCoffee</a> <a href='../languages/eclipse-command-language.html'>Eclipse Command Language</a> <a href='../languages/nimrod.html'>nimrod</a> <a href='../languages/storymatic.html'>Storymatic</a>
   RETURN|10|10%|<a href='../languages/fortran.html'>Fortran</a> <a href='../languages/mysql.html'>MySQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/modula-3.html'>Modula-3</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/transact-sql.html'>Transact-SQL</a> <a href='../languages/apex.html'>Apex</a> <a href='../languages/cypher.html'>Cypher Query Language</a> <a href='../languages/dax.html'>DAX</a>
   out|10|10%|<a href='../languages/csharp.html'>C#</a> <a href='../languages/ada.html'>Ada</a> <a href='../languages/kotlin.html'>Kotlin</a> <a href='../languages/objective-c.html'>Objective-C</a> <a href='../languages/crystal.html'>Crystal</a> <a href='../languages/vhdl.html'>VHDL</a> <a href='../languages/chapel.html'>Chapel</a> <a href='../languages/abap.html'>ABAP</a> <a href='../languages/angelscript.html'>Angelscript</a> <a href='../languages/nimrod.html'>nimrod</a>
   WITH|10|10%|<a href='../languages/sql.html'>SQL</a> <a href='../languages/mysql.html'>MySQL</a> <a href='../languages/cobol.html'>COBOL</a> <a href='../languages/postgresql.html'>PostgreSQL</a> <a href='../languages/modula-3.html'>Modula-3</a> <a href='../languages/sqlite.html'>SQLite</a> <a href='../languages/mariadb.html'>MariaDB</a> <a href='../languages/transact-sql.html'>Transact-SQL</a> <a href='../languages/cypher.html'>Cypher Query Language</a> <a href='../languages/redshift.html'>Amazon Redshift</a>
@@ -2031,6 +2031,11 @@ replace KEYWORDS_TABLE
   from*|1|1%|<a href='../languages/angelscript.html'>Angelscript</a>
   final*|1|1%|<a href='../languages/angelscript.html'>Angelscript</a>
   abstract*|1|1%|<a href='../languages/angelscript.html'>Angelscript</a>
+  coeval|1|1%|<a href='../languages/slope.html'>Slope</a>
+  begin0|1|1%|<a href='../languages/slope.html'>Slope</a>
+  usage|1|1%|<a href='../languages/slope.html'>Slope</a>
+  load-mod-file|1|1%|<a href='../languages/slope.html'>Slope</a>
+  load-mod|1|1%|<a href='../languages/slope.html'>Slope</a>
   SubMenu|1|1%|<a href='../languages/igor-pro.html'>IGOR Pro</a>
   Menu|1|1%|<a href='../languages/igor-pro.html'>IGOR Pro</a>
   DoPrompt|1|1%|<a href='../languages/igor-pro.html'>IGOR Pro</a>
@@ -2039,11 +2044,6 @@ replace KEYWORDS_TABLE
   Proc|1|1%|<a href='../languages/igor-pro.html'>IGOR Pro</a>
   MultiThread|1|1%|<a href='../languages/igor-pro.html'>IGOR Pro</a>
   ThreadSafe|1|1%|<a href='../languages/igor-pro.html'>IGOR Pro</a>
-  coeval|1|1%|<a href='../languages/slope.html'>Slope</a>
-  begin0|1|1%|<a href='../languages/slope.html'>Slope</a>
-  usage|1|1%|<a href='../languages/slope.html'>Slope</a>
-  load-mod-file|1|1%|<a href='../languages/slope.html'>Slope</a>
-  load-mod|1|1%|<a href='../languages/slope.html'>Slope</a>
   whilst|1|1%|<a href='../languages/felix.html'>Felix</a>
   upto|1|1%|<a href='../languages/felix.html'>Felix</a>
   typematch|1|1%|<a href='../languages/felix.html'>Felix</a>

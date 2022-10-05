@@ -9,7 +9,7 @@ paragraph
  albatross is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2015">2015</a>.
 
 kpiTable
- #2693 <span title="TotalRank: 3285 Jobs: 62 Users: 2273 Facts: 2733 Links: 950">on PLDB</span>
+ #2082 <span title="TotalRank: 2524 Jobs: 62 Users: 2291 Facts: 1512 Links: 950">on PLDB</span>
  7 Years Old
  0 <span title="Books about or leveraging albatross">Books</span>
  0 <span title="Academic publications about or leveraging albatross">Papers</span>
@@ -21,7 +21,7 @@ kpiTable
 
 
 paragraph
- 
+ Albatross is A Programming Language with Static Verification: You can develop programs and algorithms and prove them to be correct in Albatross
 
 list
  - the <a href="http://albatross-lang.sourceforge.net">albatross website</a>
@@ -31,7 +31,16 @@ list
 html
  <br>
 
-
+exampleCodeHeader Example from the web:
+code
+ use alba.base.boolean
+ end
+ all (a:BOOLEAN)
+ require
+     a
+ ensure
+     a
+ end
 
 
 
@@ -55,4 +64,4 @@ pipeTable
  title|titleLink|date|score|comments
  Albatross – A Programming Language with Static Verification|https://news.ycombinator.com/item?id=10034741|08/10/2015|15|7
 
-keyboardNav yinyang.html arturo.html
+keyboardNav kaml.html mathlingua.html
