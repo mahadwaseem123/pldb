@@ -436,6 +436,7 @@ replace TABLE
   <a name='https://darksi.de/' />https://darksi.de/|<a href='../languages/candor.html'>candor</a>|1
   <a name='Telemark_College_and_University_of_Oslo' />Telemark College and University of Oslo|<a href='../languages/abel.html'>ABEL</a>|1
   <a name='American_Microsystems,_Inc' />American Microsystems, Inc|<a href='../languages/bolt.html'>BOLT</a>|1
+  <a name='Infoblox_Inc' />Infoblox Inc|<a href='../languages/ccs.html'>CCS</a>|1
   <a name='Università_di_Genova_and_Università_di_Milano_and_University_of_Twente' />Università di Genova and Università di Milano and University of Twente|<a href='../languages/chimera.html'>Chimera</a>|1
   <a name='https://github.com/evacchi' />https://github.com/evacchi|<a href='../languages/clox.html'>clox</a>|1
   <a name='Blazify' />Blazify|<a href='../languages/blazex.html'>BlazeX</a>|1
@@ -471,7 +472,6 @@ replace TABLE
   <a name='Centrum_Wiskunde_&_Informatica_and_University_of_Amsterdam_and_Universit`a_di_Udine' />Centrum Wiskunde & Informatica and University of Amsterdam and Universit`a di Udine|<a href='../languages/alma.html'>Alma</a>|1
   <a name='Institut_de_Recherche_en_Informatique_et_Systèmes_Aléatoires_and_Colorado_State_University_and_CNET_or_France_telecom' />Institut de Recherche en Informatique et Systèmes Aléatoires and Colorado State University and CNET or France telecom|<a href='../languages/alphard.html'>AlpHard</a>|1
   <a name='University_of_Münster_and_Universidad_Politécnica_de_Madrid' />University of Münster and Universidad Politécnica de Madrid|<a href='../languages/babel.html'>BABEL</a>|1
-  <a name='Infoblox_Inc' />Infoblox Inc|<a href='../languages/ccs.html'>CCS</a>|1
   <a name='The_University_of_Adelaide' />The University of Adelaide|<a href='../languages/cope.html'>COPE</a>|1
   <a name='Novell' />Novell|<a href='../languages/perfectscript.html'>Perfectscript</a>|1
   <a name='Caseware,_Inc' />Caseware, Inc|<a href='../languages/accent.html'>ACCENT</a>|1
@@ -480,6 +480,7 @@ replace TABLE
   <a name='University_of_Oslo_and_Universität_Bremen_and_Stanford_University_and_Stanford_University' />University of Oslo and Universität Bremen and Stanford University and Stanford University|<a href='../languages/anna.html'>ANNA</a>|1
   <a name='Institute_for_Theoretical_Biology' />Institute for Theoretical Biology|<a href='../languages/apl-gpss.html'>APL-GPSS</a>|1
   <a name='Atos' />Atos|<a href='../languages/aqasm.html'>aQasm</a>|1
+  <a name='CZ.NIC' />CZ.NIC|<a href='../languages/bird.html'>BIRD</a>|1
   <a name='Leo_J._Cohen_Associates' />Leo J. Cohen Associates|<a href='../languages/commen.html'>COMMEN</a>|1
   <a name='The_University_of_Utah' />The University of Utah|<a href='../languages/able.html'>ABLE</a>|1
   <a name='Nokia_Bell_Labs' />Nokia Bell Labs|<a href='../languages/alpak.html'>ALPAK</a>|1
@@ -496,7 +497,6 @@ replace TABLE
   <a name='Westinghouse_Electric_Corporation' />Westinghouse Electric Corporation|<a href='../languages/beef-lang.html'>BEEF</a>|1
   <a name='USSR_Academy_of_Information_Sciences' />USSR Academy of Information Sciences|<a href='../languages/beta-project.html'>BETA Project</a>|1
   <a name='University_of_Colorado' />University of Colorado|<a href='../languages/bigmac.html'>BIGMAC</a>|1
-  <a name='CZ.NIC' />CZ.NIC|<a href='../languages/bird.html'>BIRD</a>|1
   <a name='Purdue_University_and_NASA' />Purdue University and NASA|<a href='../languages/blaze-2.html'>BLAZE 2</a>|1
   <a name='University_of_London,QueenMary_College' />University of London,QueenMary College|<a href='../languages/brouhaha.html'>BrouHaHa</a>|1
   <a name='Japan_Advanced_Institute_of_Science_and_Technology' />Japan Advanced Institute of Science and Technology|<a href='../languages/cafeobj.html'>CafeObj</a>|1
@@ -515,12 +515,12 @@ replace TABLE
   <a name='Texas_A_&_M_University_and_University_of_Utah' />Texas A & M University and University of Utah|<a href='../languages/consim.html'>CONSIM</a>|1
   <a name='University_of_Rochester' />University of Rochester|<a href='../languages/consul.html'>Consul</a>|1
   <a name='Toshiba_Corporation' />Toshiba Corporation|<a href='../languages/cooc.html'>cooC</a>|1
-  <a name='Péter_Gömöri' />Péter Gömöri|<a href='../languages/beam-bytecode.html'>BEAM Bytecode</a>|1
   <a name='KTH_Royal_Institute_of_Technology' />KTH Royal Institute of Technology|<a href='../languages/3rip.html'>3RIP</a>|1
   <a name='Institute_of_Sonology' />Institute of Sonology|<a href='../languages/ac-toolbox.html'>AC Toolbox</a>|1
   <a name='University_of_Pennsylvania_and_Radio_Corporation_of_America' />University of Pennsylvania and Radio Corporation of America|<a href='../languages/acsi-matic.html'>ACSI-Matic</a>|1
   <a name='Alambik_Limited' />Alambik Limited|<a href='../languages/alambik.html'>Alambik</a>|1
   <a name='Poltava_National_Technical_University' />Poltava National Technical University|<a href='../languages/almir.html'>ALMIR</a>|1
+  <a name='Péter_Gömöri' />Péter Gömöri|<a href='../languages/beam-bytecode.html'>BEAM Bytecode</a>|1
   <a name='Department_of_Computer_Science,_University_of_Oxford' />Department of Computer Science, University of Oxford|<a href='../languages/2obj.html'>2OBJ</a>|1
   <a name='The_University_of_Auckland' />The University of Auckland|<a href='../languages/3dcomposer.html'>3DComposer</a>|1
   <a name='Auburn_University' />Auburn University|<a href='../languages/abal.html'>ABAL</a>|1
