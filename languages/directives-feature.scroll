@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Directives include <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="perl.html">Perl</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="rust.html">Rust</a>, <a href="haskell.html">Haskell</a>, <a href="ada.html">Ada</a>, <a href="erlang.html">Erlang</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="f-sharp.html">F#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="x.html">Jule</a>, <a href="fml-lang.html">FML</a>, <a href="scriptease.html">ScriptEase</a>
+ Languages <b>with</b> Directives include <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="perl.html">Perl</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="ada.html">Ada</a>, <a href="rust.html">Rust</a>, <a href="haskell.html">Haskell</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="erlang.html">Erlang</a>, <a href="f-sharp.html">F#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="x.html">Jule</a>, <a href="fml-lang.html">FML</a>, <a href="scriptease.html">ScriptEase</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -123,6 +123,12 @@ exampleCodeHeader Example from <a href="haskell.html">Haskell</a>:
 code
  {-# INLINE foo #-}
 
+exampleCodeHeader Example from <a href="visual-basic.html">Visual Basic</a>:
+
+code
+ Option Explicit On|Off
+ Option Compare Binary
+
 exampleCodeHeader Example from <a href="erlang.html">Erlang</a>:
 
 code
@@ -131,12 +137,6 @@ code
  call(Request) -&gt;
     server:call(refserver, Request, ?TIMEOUT).
  -undef(Macro).
-
-exampleCodeHeader Example from <a href="visual-basic.html">Visual Basic</a>:
-
-code
- Option Explicit On|Off
- Option Compare Binary
 
 exampleCodeHeader Example from <a href="f-sharp.html">F#</a>:
 

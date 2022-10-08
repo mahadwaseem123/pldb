@@ -31,7 +31,7 @@ paragraph
  Languages <b>without</b> Increment and decrement operators include <a href="slope.html">Slope</a>
 
 paragraph
- Languages <b>with</b> Increment and decrement operators include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="php.html">PHP</a>, <a href="go.html">Go</a>
+ Languages <b>with</b> Increment and decrement operators include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="php.html">PHP</a>, <a href="go.html">Go</a>, <a href="x.html">Jule</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -46,6 +46,12 @@ code
  i := 0
  i++
  i--
+
+exampleCodeHeader Example from <a href="x.html">Jule</a>:
+
+code
+ ++
+ --
 
 
 

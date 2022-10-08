@@ -9,8 +9,8 @@ replace TOP_100
   C++|../languages/cpp.html|1985|pl|5
   HTML|../languages/html.html|1991|textMarkup|6
   SQL|../languages/sql.html|1974|queryLanguage|7
-  PHP|../languages/php.html|1995|pl|8
-  XML|../languages/xml.html|1996|dataNotation|9
+  XML|../languages/xml.html|1996|dataNotation|8
+  PHP|../languages/php.html|1995|pl|9
   Perl|../languages/perl.html|1987|pl|10
   MATLAB|../languages/matlab.html|1984|pl|11
   C#|../languages/csharp.html|2000|pl|12
@@ -19,17 +19,17 @@ replace TOP_100
   MySQL|../languages/mysql.html|1995|queryLanguage|15
   R|../languages/r.html|1993|pl|16
   JSON|../languages/json.html|2001|dataNotation|17
-  Go|../languages/go.html|2009|pl|18
+  Ada|../languages/ada.html|1980|pl|18
   COBOL|../languages/cobol.html|1959|pl|19
-  Swift|../languages/swift.html|2014|pl|20
-  Scala|../languages/scala.html|2004|pl|21
-  CSS|../languages/css.html|1996|stylesheetLanguage|22
-  Rust|../languages/rust.html|2010|pl|23
-  Haskell|../languages/haskell.html|1990|pl|24
+  Go|../languages/go.html|2009|pl|20
+  Swift|../languages/swift.html|2014|pl|21
+  Scala|../languages/scala.html|2004|pl|22
+  CSS|../languages/css.html|1996|stylesheetLanguage|23
+  Pascal|../languages/pascal.html|1970|pl|24
   PostgreSQL|../languages/postgresql.html|1986|queryLanguage|25
-  Lisp|../languages/lisp.html|1958|pl|26
-  Pascal|../languages/pascal.html|1970|pl|27
-  Ada|../languages/ada.html|1980|pl|28
+  Rust|../languages/rust.html|2010|pl|26
+  Haskell|../languages/haskell.html|1990|pl|27
+  Lisp|../languages/lisp.html|1958|pl|28
   Lua|../languages/lua.html|1993|pl|29
   TypeScript|../languages/typescript.html|2012|pl|30
   ARM|../languages/arm.html|1985|assembly|31
@@ -40,26 +40,26 @@ replace TOP_100
   ISBN|../languages/isbn.html|1970|schema|36
   PowerShell|../languages/powershell.html|2006|pl|37
   Elixir|../languages/elixir.html|2011|pl|38
-  Erlang|../languages/erlang.html|1986|pl|39
-  Mathematica|../languages/mathematica.html|1988|pl|40
-  Visual Basic|../languages/visual-basic.html|1991|pl|41
+  Mathematica|../languages/mathematica.html|1988|pl|39
+  Visual Basic|../languages/visual-basic.html|1991|pl|40
+  Erlang|../languages/erlang.html|1986|pl|41
   Objective-C|../languages/objective-c.html|1984|pl|42
   Julia|../languages/julia.html|2012|pl|43
   CUDA|../languages/cuda.html|2007|pl|44
   Assembly language|../languages/assembly-language.html|1960|assembly|45
-  Modula-2|../languages/modula-2.html|1978|pl|46
-  Tcl|../languages/tcl.html|1988|pl|47
-  Dart|../languages/dart.html|2011|pl|48
-  Scheme|../languages/scheme.html|1970|pl|49
-  Regular Expressions|../languages/regex.html|1951|queryLanguage|50
-  Reason|../languages/reason.html|2016|pl|51
-  Bash|../languages/bash.html|1989|pl|52
-  BASIC|../languages/basic.html|1964|pl|53
+  Node.js|../languages/nodejs.html|2009|pl|46
+  Modula-2|../languages/modula-2.html|1978|pl|47
+  Tcl|../languages/tcl.html|1988|pl|48
+  Dart|../languages/dart.html|2011|pl|49
+  Scheme|../languages/scheme.html|1970|pl|50
+  Regular Expressions|../languages/regex.html|1951|queryLanguage|51
+  Reason|../languages/reason.html|2016|pl|52
+  Bash|../languages/bash.html|1989|pl|53
   HTTP|../languages/http.html|1989|protocol|54
-  Crystal|../languages/crystal.html|2014|pl|55
-  Arduino|../languages/arduino.html|2005|pl|56
-  ActionScript|../languages/actionscript.html|1998|pl|57
-  Node.js|../languages/nodejs.html|2009|pl|58
+  BASIC|../languages/basic.html|1964|pl|55
+  Crystal|../languages/crystal.html|2014|pl|56
+  Arduino|../languages/arduino.html|2005|pl|57
+  ActionScript|../languages/actionscript.html|1998|pl|58
   awk|../languages/awk.html|1977|pl|59
   F#|../languages/f-sharp.html|2005|pl|60
   Delphi|../languages/delphi.html|1995|pl|61
@@ -67,12 +67,12 @@ replace TOP_100
   Verilog|../languages/verilog.html|1984|hardwareDescriptionLanguage|63
   Solidity|../languages/solidity.html|2014|contractLanguage|64
   DOI|../languages/doi.html|2000|schema|65
-  Modula-3|../languages/modula-3.html|1986|pl|66
-  OCaml|../languages/ocaml.html|1996|pl|67
-  Eiffel|../languages/eiffel.html|1986|pl|68
-  CoffeeScript|../languages/coffeescript.html|2009|pl|69
-  PowerPC|../languages/powerpc.html|1992|isa|70
-  Elm|../languages/elm.html|2012|pl|71
+  OCaml|../languages/ocaml.html|1996|pl|66
+  Eiffel|../languages/eiffel.html|1986|pl|67
+  CoffeeScript|../languages/coffeescript.html|2009|pl|68
+  Modula-3|../languages/modula-3.html|1986|pl|69
+  Elm|../languages/elm.html|2012|pl|70
+  PowerPC|../languages/powerpc.html|1992|isa|71
   Smalltalk|../languages/smalltalk.html|1972|pl|72
   X86|../languages/x86-isa.html|1978|isa|73
   FTP|../languages/ftp.html|1971|protocol|74
@@ -98,8 +98,8 @@ replace TOP_100
   ECMAScript|../languages/ecmascript.html|1997|pl|94
   PostScript|../languages/postscript.html|1982|textMarkup|95
   LLVM IR|../languages/llvmir.html|2003|ir|96
-  Red|../languages/red.html|2011|pl|97
-  OpenCL|../languages/opencl.html|2009|pl|98
+  OpenCL|../languages/opencl.html|2009|pl|97
+  Red|../languages/red.html|2011|pl|98
   Markdown|../languages/markdown.html|2004|textMarkup|99
   Chapel|../languages/chapel.html|2004|pl|100
 replace TOP_250
@@ -112,8 +112,8 @@ replace TOP_250
   C++|../languages/cpp.html|1985|pl|5
   HTML|../languages/html.html|1991|textMarkup|6
   SQL|../languages/sql.html|1974|queryLanguage|7
-  PHP|../languages/php.html|1995|pl|8
-  XML|../languages/xml.html|1996|dataNotation|9
+  XML|../languages/xml.html|1996|dataNotation|8
+  PHP|../languages/php.html|1995|pl|9
   Perl|../languages/perl.html|1987|pl|10
   MATLAB|../languages/matlab.html|1984|pl|11
   C#|../languages/csharp.html|2000|pl|12
@@ -122,17 +122,17 @@ replace TOP_250
   MySQL|../languages/mysql.html|1995|queryLanguage|15
   R|../languages/r.html|1993|pl|16
   JSON|../languages/json.html|2001|dataNotation|17
-  Go|../languages/go.html|2009|pl|18
+  Ada|../languages/ada.html|1980|pl|18
   COBOL|../languages/cobol.html|1959|pl|19
-  Swift|../languages/swift.html|2014|pl|20
-  Scala|../languages/scala.html|2004|pl|21
-  CSS|../languages/css.html|1996|stylesheetLanguage|22
-  Rust|../languages/rust.html|2010|pl|23
-  Haskell|../languages/haskell.html|1990|pl|24
+  Go|../languages/go.html|2009|pl|20
+  Swift|../languages/swift.html|2014|pl|21
+  Scala|../languages/scala.html|2004|pl|22
+  CSS|../languages/css.html|1996|stylesheetLanguage|23
+  Pascal|../languages/pascal.html|1970|pl|24
   PostgreSQL|../languages/postgresql.html|1986|queryLanguage|25
-  Lisp|../languages/lisp.html|1958|pl|26
-  Pascal|../languages/pascal.html|1970|pl|27
-  Ada|../languages/ada.html|1980|pl|28
+  Rust|../languages/rust.html|2010|pl|26
+  Haskell|../languages/haskell.html|1990|pl|27
+  Lisp|../languages/lisp.html|1958|pl|28
   Lua|../languages/lua.html|1993|pl|29
   TypeScript|../languages/typescript.html|2012|pl|30
   ARM|../languages/arm.html|1985|assembly|31
@@ -143,26 +143,26 @@ replace TOP_250
   ISBN|../languages/isbn.html|1970|schema|36
   PowerShell|../languages/powershell.html|2006|pl|37
   Elixir|../languages/elixir.html|2011|pl|38
-  Erlang|../languages/erlang.html|1986|pl|39
-  Mathematica|../languages/mathematica.html|1988|pl|40
-  Visual Basic|../languages/visual-basic.html|1991|pl|41
+  Mathematica|../languages/mathematica.html|1988|pl|39
+  Visual Basic|../languages/visual-basic.html|1991|pl|40
+  Erlang|../languages/erlang.html|1986|pl|41
   Objective-C|../languages/objective-c.html|1984|pl|42
   Julia|../languages/julia.html|2012|pl|43
   CUDA|../languages/cuda.html|2007|pl|44
   Assembly language|../languages/assembly-language.html|1960|assembly|45
-  Modula-2|../languages/modula-2.html|1978|pl|46
-  Tcl|../languages/tcl.html|1988|pl|47
-  Dart|../languages/dart.html|2011|pl|48
-  Scheme|../languages/scheme.html|1970|pl|49
-  Regular Expressions|../languages/regex.html|1951|queryLanguage|50
-  Reason|../languages/reason.html|2016|pl|51
-  Bash|../languages/bash.html|1989|pl|52
-  BASIC|../languages/basic.html|1964|pl|53
+  Node.js|../languages/nodejs.html|2009|pl|46
+  Modula-2|../languages/modula-2.html|1978|pl|47
+  Tcl|../languages/tcl.html|1988|pl|48
+  Dart|../languages/dart.html|2011|pl|49
+  Scheme|../languages/scheme.html|1970|pl|50
+  Regular Expressions|../languages/regex.html|1951|queryLanguage|51
+  Reason|../languages/reason.html|2016|pl|52
+  Bash|../languages/bash.html|1989|pl|53
   HTTP|../languages/http.html|1989|protocol|54
-  Crystal|../languages/crystal.html|2014|pl|55
-  Arduino|../languages/arduino.html|2005|pl|56
-  ActionScript|../languages/actionscript.html|1998|pl|57
-  Node.js|../languages/nodejs.html|2009|pl|58
+  BASIC|../languages/basic.html|1964|pl|55
+  Crystal|../languages/crystal.html|2014|pl|56
+  Arduino|../languages/arduino.html|2005|pl|57
+  ActionScript|../languages/actionscript.html|1998|pl|58
   awk|../languages/awk.html|1977|pl|59
   F#|../languages/f-sharp.html|2005|pl|60
   Delphi|../languages/delphi.html|1995|pl|61
@@ -170,12 +170,12 @@ replace TOP_250
   Verilog|../languages/verilog.html|1984|hardwareDescriptionLanguage|63
   Solidity|../languages/solidity.html|2014|contractLanguage|64
   DOI|../languages/doi.html|2000|schema|65
-  Modula-3|../languages/modula-3.html|1986|pl|66
-  OCaml|../languages/ocaml.html|1996|pl|67
-  Eiffel|../languages/eiffel.html|1986|pl|68
-  CoffeeScript|../languages/coffeescript.html|2009|pl|69
-  PowerPC|../languages/powerpc.html|1992|isa|70
-  Elm|../languages/elm.html|2012|pl|71
+  OCaml|../languages/ocaml.html|1996|pl|66
+  Eiffel|../languages/eiffel.html|1986|pl|67
+  CoffeeScript|../languages/coffeescript.html|2009|pl|68
+  Modula-3|../languages/modula-3.html|1986|pl|69
+  Elm|../languages/elm.html|2012|pl|70
+  PowerPC|../languages/powerpc.html|1992|isa|71
   Smalltalk|../languages/smalltalk.html|1972|pl|72
   X86|../languages/x86-isa.html|1978|isa|73
   FTP|../languages/ftp.html|1971|protocol|74
@@ -201,8 +201,8 @@ replace TOP_250
   ECMAScript|../languages/ecmascript.html|1997|pl|94
   PostScript|../languages/postscript.html|1982|textMarkup|95
   LLVM IR|../languages/llvmir.html|2003|ir|96
-  Red|../languages/red.html|2011|pl|97
-  OpenCL|../languages/opencl.html|2009|pl|98
+  OpenCL|../languages/opencl.html|2009|pl|97
+  Red|../languages/red.html|2011|pl|98
   Markdown|../languages/markdown.html|2004|textMarkup|99
   Chapel|../languages/chapel.html|2004|pl|100
   LabVIEW G|../languages/labview.html|1986|pl|101
@@ -227,8 +227,8 @@ replace TOP_250
   Visual Basic .NET|../languages/visual-basic.net.html|2001|pl|120
   SVG|../languages/svg.html|2001|textMarkup|121
   MediaWiki|../languages/mediawiki.html|2002|wikiMarkup|122
-  fish|../languages/fish.html|2005|pl|123
-  Oz|../languages/oz.html|1991|pl|124
+  Oz|../languages/oz.html|1991|pl|123
+  fish|../languages/fish.html|2005|pl|124
   Idris|../languages/idris.html|2014|pl|125
   Tex|../languages/tex.html|1978|pl|126
   Applescript|../languages/applescript.html|1993|pl|127
@@ -365,8 +365,8 @@ replace TOP_500
   C++|../languages/cpp.html|1985|pl|5
   HTML|../languages/html.html|1991|textMarkup|6
   SQL|../languages/sql.html|1974|queryLanguage|7
-  PHP|../languages/php.html|1995|pl|8
-  XML|../languages/xml.html|1996|dataNotation|9
+  XML|../languages/xml.html|1996|dataNotation|8
+  PHP|../languages/php.html|1995|pl|9
   Perl|../languages/perl.html|1987|pl|10
   MATLAB|../languages/matlab.html|1984|pl|11
   C#|../languages/csharp.html|2000|pl|12
@@ -375,17 +375,17 @@ replace TOP_500
   MySQL|../languages/mysql.html|1995|queryLanguage|15
   R|../languages/r.html|1993|pl|16
   JSON|../languages/json.html|2001|dataNotation|17
-  Go|../languages/go.html|2009|pl|18
+  Ada|../languages/ada.html|1980|pl|18
   COBOL|../languages/cobol.html|1959|pl|19
-  Swift|../languages/swift.html|2014|pl|20
-  Scala|../languages/scala.html|2004|pl|21
-  CSS|../languages/css.html|1996|stylesheetLanguage|22
-  Rust|../languages/rust.html|2010|pl|23
-  Haskell|../languages/haskell.html|1990|pl|24
+  Go|../languages/go.html|2009|pl|20
+  Swift|../languages/swift.html|2014|pl|21
+  Scala|../languages/scala.html|2004|pl|22
+  CSS|../languages/css.html|1996|stylesheetLanguage|23
+  Pascal|../languages/pascal.html|1970|pl|24
   PostgreSQL|../languages/postgresql.html|1986|queryLanguage|25
-  Lisp|../languages/lisp.html|1958|pl|26
-  Pascal|../languages/pascal.html|1970|pl|27
-  Ada|../languages/ada.html|1980|pl|28
+  Rust|../languages/rust.html|2010|pl|26
+  Haskell|../languages/haskell.html|1990|pl|27
+  Lisp|../languages/lisp.html|1958|pl|28
   Lua|../languages/lua.html|1993|pl|29
   TypeScript|../languages/typescript.html|2012|pl|30
   ARM|../languages/arm.html|1985|assembly|31
@@ -396,26 +396,26 @@ replace TOP_500
   ISBN|../languages/isbn.html|1970|schema|36
   PowerShell|../languages/powershell.html|2006|pl|37
   Elixir|../languages/elixir.html|2011|pl|38
-  Erlang|../languages/erlang.html|1986|pl|39
-  Mathematica|../languages/mathematica.html|1988|pl|40
-  Visual Basic|../languages/visual-basic.html|1991|pl|41
+  Mathematica|../languages/mathematica.html|1988|pl|39
+  Visual Basic|../languages/visual-basic.html|1991|pl|40
+  Erlang|../languages/erlang.html|1986|pl|41
   Objective-C|../languages/objective-c.html|1984|pl|42
   Julia|../languages/julia.html|2012|pl|43
   CUDA|../languages/cuda.html|2007|pl|44
   Assembly language|../languages/assembly-language.html|1960|assembly|45
-  Modula-2|../languages/modula-2.html|1978|pl|46
-  Tcl|../languages/tcl.html|1988|pl|47
-  Dart|../languages/dart.html|2011|pl|48
-  Scheme|../languages/scheme.html|1970|pl|49
-  Regular Expressions|../languages/regex.html|1951|queryLanguage|50
-  Reason|../languages/reason.html|2016|pl|51
-  Bash|../languages/bash.html|1989|pl|52
-  BASIC|../languages/basic.html|1964|pl|53
+  Node.js|../languages/nodejs.html|2009|pl|46
+  Modula-2|../languages/modula-2.html|1978|pl|47
+  Tcl|../languages/tcl.html|1988|pl|48
+  Dart|../languages/dart.html|2011|pl|49
+  Scheme|../languages/scheme.html|1970|pl|50
+  Regular Expressions|../languages/regex.html|1951|queryLanguage|51
+  Reason|../languages/reason.html|2016|pl|52
+  Bash|../languages/bash.html|1989|pl|53
   HTTP|../languages/http.html|1989|protocol|54
-  Crystal|../languages/crystal.html|2014|pl|55
-  Arduino|../languages/arduino.html|2005|pl|56
-  ActionScript|../languages/actionscript.html|1998|pl|57
-  Node.js|../languages/nodejs.html|2009|pl|58
+  BASIC|../languages/basic.html|1964|pl|55
+  Crystal|../languages/crystal.html|2014|pl|56
+  Arduino|../languages/arduino.html|2005|pl|57
+  ActionScript|../languages/actionscript.html|1998|pl|58
   awk|../languages/awk.html|1977|pl|59
   F#|../languages/f-sharp.html|2005|pl|60
   Delphi|../languages/delphi.html|1995|pl|61
@@ -423,12 +423,12 @@ replace TOP_500
   Verilog|../languages/verilog.html|1984|hardwareDescriptionLanguage|63
   Solidity|../languages/solidity.html|2014|contractLanguage|64
   DOI|../languages/doi.html|2000|schema|65
-  Modula-3|../languages/modula-3.html|1986|pl|66
-  OCaml|../languages/ocaml.html|1996|pl|67
-  Eiffel|../languages/eiffel.html|1986|pl|68
-  CoffeeScript|../languages/coffeescript.html|2009|pl|69
-  PowerPC|../languages/powerpc.html|1992|isa|70
-  Elm|../languages/elm.html|2012|pl|71
+  OCaml|../languages/ocaml.html|1996|pl|66
+  Eiffel|../languages/eiffel.html|1986|pl|67
+  CoffeeScript|../languages/coffeescript.html|2009|pl|68
+  Modula-3|../languages/modula-3.html|1986|pl|69
+  Elm|../languages/elm.html|2012|pl|70
+  PowerPC|../languages/powerpc.html|1992|isa|71
   Smalltalk|../languages/smalltalk.html|1972|pl|72
   X86|../languages/x86-isa.html|1978|isa|73
   FTP|../languages/ftp.html|1971|protocol|74
@@ -454,8 +454,8 @@ replace TOP_500
   ECMAScript|../languages/ecmascript.html|1997|pl|94
   PostScript|../languages/postscript.html|1982|textMarkup|95
   LLVM IR|../languages/llvmir.html|2003|ir|96
-  Red|../languages/red.html|2011|pl|97
-  OpenCL|../languages/opencl.html|2009|pl|98
+  OpenCL|../languages/opencl.html|2009|pl|97
+  Red|../languages/red.html|2011|pl|98
   Markdown|../languages/markdown.html|2004|textMarkup|99
   Chapel|../languages/chapel.html|2004|pl|100
   LabVIEW G|../languages/labview.html|1986|pl|101
@@ -480,8 +480,8 @@ replace TOP_500
   Visual Basic .NET|../languages/visual-basic.net.html|2001|pl|120
   SVG|../languages/svg.html|2001|textMarkup|121
   MediaWiki|../languages/mediawiki.html|2002|wikiMarkup|122
-  fish|../languages/fish.html|2005|pl|123
-  Oz|../languages/oz.html|1991|pl|124
+  Oz|../languages/oz.html|1991|pl|123
+  fish|../languages/fish.html|2005|pl|124
   Idris|../languages/idris.html|2014|pl|125
   Tex|../languages/tex.html|1978|pl|126
   Applescript|../languages/applescript.html|1993|pl|127
@@ -609,8 +609,8 @@ replace TOP_500
   Cython|../languages/cython.html|2007|pl|249
   Whitespace|../languages/whitespace.html|2003|esolang|250
   WSDL|../languages/wsdl.html|2000|xmlFormat|251
-  Multi-User Forth|../languages/muf.html|1995|pl|252
-  Office Open XML|../languages/ooxml.html|2006|xmlFormat|253
+  Office Open XML|../languages/ooxml.html|2006|xmlFormat|252
+  Multi-User Forth|../languages/muf.html|1995|pl|253
   AXIOM|../languages/axiom.html|1992|pl|254
   CSP|../languages/csp.html|1978|pl|255
   TLA|../languages/tla.html|1999|pl|256
@@ -653,8 +653,8 @@ replace TOP_500
   Base64|../languages/base64.html|1987|textEncodingFormat|293
   Dhall|../languages/dhall.html|2017|dataNotation|294
   Gnuplot|../languages/gnuplot.html|1986|pl|295
-  Alloy|../languages/alloy.html|1997|pl|296
-  FoxPRO|../languages/foxpro.html|1992|pl|297
+  FoxPRO|../languages/foxpro.html|1992|pl|296
+  Alloy|../languages/alloy.html|1997|pl|297
   INTERCAL|../languages/intercal.html|1972|pl|298
   JSON-LD|../languages/json-ld.html|2010|dataValidationLanguage|299
   Z notation|../languages/z-notation.html|1974|notation|300
@@ -669,8 +669,8 @@ replace TOP_500
   Bicep|../languages/bicep.html|2020|jsonFormat|309
   PEG.js|../languages/pegjs.html|2010|grammarLanguage|310
   halide|../languages/halide.html|2010|pl|311
-  wisp|../languages/wisp.html|2012|pl|312
-  GAMS|../languages/general-algebraic-modeling-system.html|1963|pl|313
+  GAMS|../languages/general-algebraic-modeling-system.html|1963|pl|312
+  wisp|../languages/wisp.html|2012|pl|313
   G-code|../languages/g-code.html|1950|pl|314
   ERB|../languages/erb.html|2004|template|315
   Clipper|../languages/clipper.html|1985|pl|316
@@ -732,8 +732,8 @@ replace TOP_500
   unison|../languages/unison.html|2015|pl|372
   Cap'n Proto|../languages/capn-proto.html|2013|idl|373
   SETL|../languages/setl.html|1969|pl|374
-  DTrace|../languages/dtrace.html|2005|pl|375
-  PRQL|../languages/prql.html|2022|queryLanguage|376
+  PRQL|../languages/prql.html|2022|queryLanguage|375
+  DTrace|../languages/dtrace.html|2005|pl|376
   Malbolge|../languages/malbolge.html|1998|pl|377
   XBase++|../languages/xbasepp.html|1997|pl|378
   LINQ|../languages/linq.html|2007|queryLanguage|379
@@ -809,8 +809,8 @@ replace TOP_500
   Eve|../languages/eve.html|2016|pl|449
   Caml|../languages/caml.html|1985|pl|450
   Nu|../languages/nu.html|2007|pl|451
-  Ragel|../languages/ragel.html|2007|pl|452
-  VRML|../languages/vrml.html|1994|pl|453
+  VRML|../languages/vrml.html|1994|pl|452
+  Ragel|../languages/ragel.html|2007|pl|453
   Qualcomm Hexagon|../languages/hexagon.html|2006|assembly|454
   Fortress|../languages/fortress.html|2004|pl|455
   Ghostscript|../languages/ghostscript.html|1988|pl|456
@@ -868,8 +868,8 @@ replace TOP_1000
   C++|../languages/cpp.html|1985|pl|5
   HTML|../languages/html.html|1991|textMarkup|6
   SQL|../languages/sql.html|1974|queryLanguage|7
-  PHP|../languages/php.html|1995|pl|8
-  XML|../languages/xml.html|1996|dataNotation|9
+  XML|../languages/xml.html|1996|dataNotation|8
+  PHP|../languages/php.html|1995|pl|9
   Perl|../languages/perl.html|1987|pl|10
   MATLAB|../languages/matlab.html|1984|pl|11
   C#|../languages/csharp.html|2000|pl|12
@@ -878,17 +878,17 @@ replace TOP_1000
   MySQL|../languages/mysql.html|1995|queryLanguage|15
   R|../languages/r.html|1993|pl|16
   JSON|../languages/json.html|2001|dataNotation|17
-  Go|../languages/go.html|2009|pl|18
+  Ada|../languages/ada.html|1980|pl|18
   COBOL|../languages/cobol.html|1959|pl|19
-  Swift|../languages/swift.html|2014|pl|20
-  Scala|../languages/scala.html|2004|pl|21
-  CSS|../languages/css.html|1996|stylesheetLanguage|22
-  Rust|../languages/rust.html|2010|pl|23
-  Haskell|../languages/haskell.html|1990|pl|24
+  Go|../languages/go.html|2009|pl|20
+  Swift|../languages/swift.html|2014|pl|21
+  Scala|../languages/scala.html|2004|pl|22
+  CSS|../languages/css.html|1996|stylesheetLanguage|23
+  Pascal|../languages/pascal.html|1970|pl|24
   PostgreSQL|../languages/postgresql.html|1986|queryLanguage|25
-  Lisp|../languages/lisp.html|1958|pl|26
-  Pascal|../languages/pascal.html|1970|pl|27
-  Ada|../languages/ada.html|1980|pl|28
+  Rust|../languages/rust.html|2010|pl|26
+  Haskell|../languages/haskell.html|1990|pl|27
+  Lisp|../languages/lisp.html|1958|pl|28
   Lua|../languages/lua.html|1993|pl|29
   TypeScript|../languages/typescript.html|2012|pl|30
   ARM|../languages/arm.html|1985|assembly|31
@@ -899,26 +899,26 @@ replace TOP_1000
   ISBN|../languages/isbn.html|1970|schema|36
   PowerShell|../languages/powershell.html|2006|pl|37
   Elixir|../languages/elixir.html|2011|pl|38
-  Erlang|../languages/erlang.html|1986|pl|39
-  Mathematica|../languages/mathematica.html|1988|pl|40
-  Visual Basic|../languages/visual-basic.html|1991|pl|41
+  Mathematica|../languages/mathematica.html|1988|pl|39
+  Visual Basic|../languages/visual-basic.html|1991|pl|40
+  Erlang|../languages/erlang.html|1986|pl|41
   Objective-C|../languages/objective-c.html|1984|pl|42
   Julia|../languages/julia.html|2012|pl|43
   CUDA|../languages/cuda.html|2007|pl|44
   Assembly language|../languages/assembly-language.html|1960|assembly|45
-  Modula-2|../languages/modula-2.html|1978|pl|46
-  Tcl|../languages/tcl.html|1988|pl|47
-  Dart|../languages/dart.html|2011|pl|48
-  Scheme|../languages/scheme.html|1970|pl|49
-  Regular Expressions|../languages/regex.html|1951|queryLanguage|50
-  Reason|../languages/reason.html|2016|pl|51
-  Bash|../languages/bash.html|1989|pl|52
-  BASIC|../languages/basic.html|1964|pl|53
+  Node.js|../languages/nodejs.html|2009|pl|46
+  Modula-2|../languages/modula-2.html|1978|pl|47
+  Tcl|../languages/tcl.html|1988|pl|48
+  Dart|../languages/dart.html|2011|pl|49
+  Scheme|../languages/scheme.html|1970|pl|50
+  Regular Expressions|../languages/regex.html|1951|queryLanguage|51
+  Reason|../languages/reason.html|2016|pl|52
+  Bash|../languages/bash.html|1989|pl|53
   HTTP|../languages/http.html|1989|protocol|54
-  Crystal|../languages/crystal.html|2014|pl|55
-  Arduino|../languages/arduino.html|2005|pl|56
-  ActionScript|../languages/actionscript.html|1998|pl|57
-  Node.js|../languages/nodejs.html|2009|pl|58
+  BASIC|../languages/basic.html|1964|pl|55
+  Crystal|../languages/crystal.html|2014|pl|56
+  Arduino|../languages/arduino.html|2005|pl|57
+  ActionScript|../languages/actionscript.html|1998|pl|58
   awk|../languages/awk.html|1977|pl|59
   F#|../languages/f-sharp.html|2005|pl|60
   Delphi|../languages/delphi.html|1995|pl|61
@@ -926,12 +926,12 @@ replace TOP_1000
   Verilog|../languages/verilog.html|1984|hardwareDescriptionLanguage|63
   Solidity|../languages/solidity.html|2014|contractLanguage|64
   DOI|../languages/doi.html|2000|schema|65
-  Modula-3|../languages/modula-3.html|1986|pl|66
-  OCaml|../languages/ocaml.html|1996|pl|67
-  Eiffel|../languages/eiffel.html|1986|pl|68
-  CoffeeScript|../languages/coffeescript.html|2009|pl|69
-  PowerPC|../languages/powerpc.html|1992|isa|70
-  Elm|../languages/elm.html|2012|pl|71
+  OCaml|../languages/ocaml.html|1996|pl|66
+  Eiffel|../languages/eiffel.html|1986|pl|67
+  CoffeeScript|../languages/coffeescript.html|2009|pl|68
+  Modula-3|../languages/modula-3.html|1986|pl|69
+  Elm|../languages/elm.html|2012|pl|70
+  PowerPC|../languages/powerpc.html|1992|isa|71
   Smalltalk|../languages/smalltalk.html|1972|pl|72
   X86|../languages/x86-isa.html|1978|isa|73
   FTP|../languages/ftp.html|1971|protocol|74
@@ -957,8 +957,8 @@ replace TOP_1000
   ECMAScript|../languages/ecmascript.html|1997|pl|94
   PostScript|../languages/postscript.html|1982|textMarkup|95
   LLVM IR|../languages/llvmir.html|2003|ir|96
-  Red|../languages/red.html|2011|pl|97
-  OpenCL|../languages/opencl.html|2009|pl|98
+  OpenCL|../languages/opencl.html|2009|pl|97
+  Red|../languages/red.html|2011|pl|98
   Markdown|../languages/markdown.html|2004|textMarkup|99
   Chapel|../languages/chapel.html|2004|pl|100
   LabVIEW G|../languages/labview.html|1986|pl|101
@@ -983,8 +983,8 @@ replace TOP_1000
   Visual Basic .NET|../languages/visual-basic.net.html|2001|pl|120
   SVG|../languages/svg.html|2001|textMarkup|121
   MediaWiki|../languages/mediawiki.html|2002|wikiMarkup|122
-  fish|../languages/fish.html|2005|pl|123
-  Oz|../languages/oz.html|1991|pl|124
+  Oz|../languages/oz.html|1991|pl|123
+  fish|../languages/fish.html|2005|pl|124
   Idris|../languages/idris.html|2014|pl|125
   Tex|../languages/tex.html|1978|pl|126
   Applescript|../languages/applescript.html|1993|pl|127
@@ -1112,8 +1112,8 @@ replace TOP_1000
   Cython|../languages/cython.html|2007|pl|249
   Whitespace|../languages/whitespace.html|2003|esolang|250
   WSDL|../languages/wsdl.html|2000|xmlFormat|251
-  Multi-User Forth|../languages/muf.html|1995|pl|252
-  Office Open XML|../languages/ooxml.html|2006|xmlFormat|253
+  Office Open XML|../languages/ooxml.html|2006|xmlFormat|252
+  Multi-User Forth|../languages/muf.html|1995|pl|253
   AXIOM|../languages/axiom.html|1992|pl|254
   CSP|../languages/csp.html|1978|pl|255
   TLA|../languages/tla.html|1999|pl|256
@@ -1156,8 +1156,8 @@ replace TOP_1000
   Base64|../languages/base64.html|1987|textEncodingFormat|293
   Dhall|../languages/dhall.html|2017|dataNotation|294
   Gnuplot|../languages/gnuplot.html|1986|pl|295
-  Alloy|../languages/alloy.html|1997|pl|296
-  FoxPRO|../languages/foxpro.html|1992|pl|297
+  FoxPRO|../languages/foxpro.html|1992|pl|296
+  Alloy|../languages/alloy.html|1997|pl|297
   INTERCAL|../languages/intercal.html|1972|pl|298
   JSON-LD|../languages/json-ld.html|2010|dataValidationLanguage|299
   Z notation|../languages/z-notation.html|1974|notation|300
@@ -1172,8 +1172,8 @@ replace TOP_1000
   Bicep|../languages/bicep.html|2020|jsonFormat|309
   PEG.js|../languages/pegjs.html|2010|grammarLanguage|310
   halide|../languages/halide.html|2010|pl|311
-  wisp|../languages/wisp.html|2012|pl|312
-  GAMS|../languages/general-algebraic-modeling-system.html|1963|pl|313
+  GAMS|../languages/general-algebraic-modeling-system.html|1963|pl|312
+  wisp|../languages/wisp.html|2012|pl|313
   G-code|../languages/g-code.html|1950|pl|314
   ERB|../languages/erb.html|2004|template|315
   Clipper|../languages/clipper.html|1985|pl|316
@@ -1235,8 +1235,8 @@ replace TOP_1000
   unison|../languages/unison.html|2015|pl|372
   Cap'n Proto|../languages/capn-proto.html|2013|idl|373
   SETL|../languages/setl.html|1969|pl|374
-  DTrace|../languages/dtrace.html|2005|pl|375
-  PRQL|../languages/prql.html|2022|queryLanguage|376
+  PRQL|../languages/prql.html|2022|queryLanguage|375
+  DTrace|../languages/dtrace.html|2005|pl|376
   Malbolge|../languages/malbolge.html|1998|pl|377
   XBase++|../languages/xbasepp.html|1997|pl|378
   LINQ|../languages/linq.html|2007|queryLanguage|379
@@ -1312,8 +1312,8 @@ replace TOP_1000
   Eve|../languages/eve.html|2016|pl|449
   Caml|../languages/caml.html|1985|pl|450
   Nu|../languages/nu.html|2007|pl|451
-  Ragel|../languages/ragel.html|2007|pl|452
-  VRML|../languages/vrml.html|1994|pl|453
+  VRML|../languages/vrml.html|1994|pl|452
+  Ragel|../languages/ragel.html|2007|pl|453
   Qualcomm Hexagon|../languages/hexagon.html|2006|assembly|454
   Fortress|../languages/fortress.html|2004|pl|455
   Ghostscript|../languages/ghostscript.html|1988|pl|456
@@ -1395,9 +1395,9 @@ replace TOP_1000
   TSV|../languages/tsv.html|1993|dataNotation|532
   MPS|../languages/mps.html|2010|grammarLanguage|533
   Plain English|../languages/plain-english.html|2018|pl|534
-  Advanced Message Queuing Protocol|../languages/amqp.html|2003|protocol|535
-  MDX|../languages/mdx.html|2017|textMarkup|536
-  Jule|../languages/x.html|2021|pl|537
+  Jule|../languages/x.html|2021|pl|535
+  Advanced Message Queuing Protocol|../languages/amqp.html|2003|protocol|536
+  MDX|../languages/mdx.html|2017|textMarkup|537
   Jakt|../languages/jakt.html|2022|pl|538
   OpenLisp|../languages/openlisp.html|1988|pl|539
   PCRE|../languages/pcre.html|1997|queryLanguage|540

@@ -38,12 +38,12 @@ replace TABLE
   Constructors|../languages/constructor-feature.html|PLDBFile { constructor() {} }|13|0|-
   Message Passing|../languages/message-passing-feature.html|"get pldb"|10|0|-
   Lists|../languages/lists-feature.html|[2, 3, 10]|10|0|-
+  Static Typing|../languages/static-typing-feature.html|int pldbRank = 100|8|0|-
   Single Dispatch|../languages/single-dispatch-feature.html|person.run()|8|0|-
   Regular Expression Syntax Sugar|../languages/regular-expressions-syntax-sugar-feature.html|/pldb/|8|4|-
+  Multiline Strings|../languages/multiline-strings-feature.html|hello = """Hello\nPLDB"""|8|1|-
   Bitwise Operators|../languages/bitwise-operaters-feature.html|3 == (2 &#124; 1)|8|0|-
-  Static Typing|../languages/static-typing-feature.html|int pldbRank = 100|7|0|-
   Pattern Matching|../languages/pattern-matching-feature.html|fib 0 = 1; fib 1 = 1|7|0|-
-  Multiline Strings|../languages/multiline-strings-feature.html|hello = """Hello\nPLDB"""|7|1|-
   Homoiconicity|../languages/homoiconic-feature.html|(list ())|7|0|-
   Fixed Point Numbers|../languages/fixed-point-feature.html|80766866.00|7|3|-
   Threads|../languages/threads-feature.html|thread1(); thread2();|6|0|-
@@ -52,6 +52,7 @@ replace TABLE
   Mixins|../languages/mixin-feature.html|extends pldbFile, diskFile|6|0|-
   Iterators|../languages/iterators-feature.html|for lang in pldb()|6|0|-
   Interfaces|../languages/interface-feature.html|interface PLDBFile|6|0|-
+  Increment and decrement operators|../languages/increment-and-decrement-operators-feature.html|i++|6|1|-
   Generics|../languages/generics-feature.html|function identity&lt;T>(arg: T): T|6|0|-
   Function Composition|../languages/function-composition-feature.html|o = (f, g) => x => f(g(x))|6|0|-
   Variadic Functions|../languages/variadic-functions-feature.html|args.map(doSomething)|5|0|-
@@ -61,11 +62,9 @@ replace TABLE
   Partial Application|../languages/partial-application-feature.html|add5 = num => addNumbers(10, num)|5|0|-
   Maps|../languages/maps-feature.html|{name: "PLDB"}|5|0|-
   Infix Notation|../languages/infix-notation-feature.html|1 + 2|5|0|-
-  Increment and decrement operators|../languages/increment-and-decrement-operators-feature.html|i++|5|1|-
   Disk Output|../languages/disk-output-feature.html|write("pldb.csv", "...")|5|4|-
   Case Insensitive Identifiers|../languages/case-insensitive-identifiers-feature.html|pLdB = "PLDB"|5|2|-
   Anonymous Functions|../languages/anonymous-functions-feature.html|() => printPldb()|5|0|-
-  Unicode Identifers|../languages/unicode-identifiers-feature.html|δ = 0.00001|4|0|-
   Typed Holes|../languages/typed-holes-feature.html|2 + _ => 2 + [int&#124;float]|4|0|-
   Range Operator|../languages/range-operator-feature.html|1 ... 10|4|0|-
   Polymorphism|../languages/polymorphism-feature.html|a + "b"; 1 + 2|4|1|-
@@ -76,6 +75,7 @@ replace TABLE
   Generators|../languages/generators-feature.html|yield 2|4|0|-
   Dependent types|../languages/dependent-types-feature.html|pldbSortedList // a list where is sorted is true|4|1|-
   Async Await|../languages/async-await-feature.html|async downloadPldb => await getFiles()|4|2|-
+  Unicode Identifers|../languages/unicode-identifiers-feature.html|δ = 0.00001|3|0|-
   Templates|../languages/templates-feature.html|template TCopy(T) {}|3|0|-
   Symbol Tables|../languages/symbol-table-feature.html|SymbolName&#124;Type&#124;Scope;bar&#124;function,double&#124;extern|3|0|-
   Structs|../languages/structs-feature.html|struct pldbFile { int rank; char *title; };|3|0|-

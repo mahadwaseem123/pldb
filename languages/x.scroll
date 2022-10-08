@@ -9,9 +9,9 @@ paragraph
  Jule is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2021">2021</a> by <a href="../lists/creators.html#Mertcan_Davulcu">Mertcan Davulcu</a>.
 
 kpiTable
- #537 <span title="TotalRank: 1052 Jobs: 62 Users: 1792 Facts: 40 Links: 950">on PLDB</span>
+ #535 <span title="TotalRank: 1053 Jobs: 65 Users: 1751 Facts: 38 Links: 950">on PLDB</span>
  1 Years Old
- 49 <span title="Crude user estimate from a linear model.">Users</span>
+ 51 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging Jule">Books</span>
  0 <span title="Academic publications about or leveraging Jule">Papers</span>
 
@@ -26,7 +26,7 @@ paragraph
 
 list
  - the <a href="https://jule.dev">Jule website</a>
- - Jule is developed on <a href="https://github.com/jule-lang/jule">GitHub</a> and has 32 stars
+ - Jule is developed on <a href="https://github.com/jule-lang/jule">GitHub</a> and has 34 stars
  - the <a href="https://jule.dev/pages/docs.html">Jule docs</a>
  - file extensions for Jule include .jule
  - Jule is written in <a href="go.html">Go</a> & <a href="cpp.html">C++</a>
@@ -71,7 +71,6 @@ code
  fn main() {
      outln(&quot;Hello World&quot;)
  }
- 
 
 exampleCodeHeader Example from the web:
 code
@@ -128,6 +127,26 @@ treeTable
    use std::mem::{size_of, align_of, self}
    use std::mem::*
   Token use
+ row
+  Feature Multiline Strings
+  FeatureLink ../languages/multiline-strings-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Static Typing
+  FeatureLink ../languages/static-typing-feature.html
+  Supported ✓
+  Example
+  Token 
+ row
+  Feature Increment and decrement operators
+  FeatureLink ../languages/increment-and-decrement-operators-feature.html
+  Supported ✓
+  Example
+   ++
+   --
+  Token 
  row
   Feature Conditionals
   FeatureLink ../languages/conditionals-feature.html
@@ -349,7 +368,7 @@ treeTable
   Example
    trait Person {
        fn full_name(self) str
-       fn age() byte
+       fn age(self) byte
    }
   Token 
  row
@@ -362,12 +381,6 @@ treeTable
        1: "Key 1",
        2: "Key 2",
    }
-  Token 
- row
-  Feature Unicode Identifers
-  FeatureLink ../languages/unicode-identifiers-feature.html
-  Supported ✓
-  Example
   Token 
  row
   Feature Methods
@@ -484,4 +497,4 @@ treeTable
 
 
 
-keyboardNav mdx.html jakt.html
+keyboardNav plain-english.html amqp.html

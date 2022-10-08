@@ -62,7 +62,7 @@ exampleCodeHeader Example from <a href="x.html">Jule</a>:
 code
  trait Person {
      fn full_name(self) str
-     fn age() byte
+     fn age(self) byte
  }
 
 
