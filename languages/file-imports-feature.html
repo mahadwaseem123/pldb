@@ -114,7 +114,7 @@
 
 <p class="scrollParagraphComponent">Languages <b>without</b> File Imports include <a href="html.html">HTML</a>, <a href="json.html">JSON</a></p>
 
-<p class="scrollParagraphComponent">Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="go.html">Go</a>, <a href="swift.html">Swift</a>, <a href="css.html">CSS</a>, <a href="rust.html">Rust</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="kotlin.html">Kotlin</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="nodejs.html">Node.js</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a></p>
+<p class="scrollParagraphComponent">Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="go.html">Go</a>, <a href="css.html">CSS</a>, <a href="swift.html">Swift</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="nodejs.html">Node.js</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a></p>
 
 <div class="exampleCodeHeader">Example from <a href="java.html">Java</a>:</div>
 
@@ -193,6 +193,10 @@ import _ &quot;io&quot;
 import log &quot;github.com/foo/bar&quot;
 import m &quot;math&quot;</code>
 
+<div class="exampleCodeHeader">Example from <a href="css.html">CSS</a>:</div>
+
+<code class="scrollCodeBlockComponent">@import &#39;custom.css&#39;;</code>
+
 <div class="exampleCodeHeader">Example from <a href="swift.html">Swift</a>:</div>
 
 <code class="scrollCodeBlockComponent">import UIKit
@@ -200,10 +204,6 @@ import UIKit.UITableViewController
 let tvc = UITableViewController()
 let vc = UIViewController()
 let label = UILabel()</code>
-
-<div class="exampleCodeHeader">Example from <a href="css.html">CSS</a>:</div>
-
-<code class="scrollCodeBlockComponent">@import &#39;custom.css&#39;;</code>
 
 <div class="exampleCodeHeader">Example from <a href="rust.html">Rust</a>:</div>
 
@@ -213,6 +213,12 @@ mod my;
 use self::foo::Zoo as _;
 #[path = &quot;foo.rs&quot;]
 mod c;</code>
+
+<div class="exampleCodeHeader">Example from <a href="kotlin.html">Kotlin</a>:</div>
+
+<code class="scrollCodeBlockComponent">import foo.Bar // Bar is now accessible without qualification
+import foo.* // everything in &#39;foo&#39; becomes accessible
+import bar.Bar as bBar // bBar stands for &#39;bar.Bar&#39;</code>
 
 <div class="exampleCodeHeader">Example from <a href="haskell.html">Haskell</a>:</div>
 
@@ -245,12 +251,6 @@ import moo = module(&#39;moo&#39;);
 (java.util.Date.)
 (require &#39;clojure.contrib.def &#39;clojure.contrib.except &#39;clojure.contrib.sql)
 (require &#39;(clojure.contrib def except sql))</code>
-
-<div class="exampleCodeHeader">Example from <a href="kotlin.html">Kotlin</a>:</div>
-
-<code class="scrollCodeBlockComponent">import foo.Bar // Bar is now accessible without qualification
-import foo.* // everything in &#39;foo&#39; becomes accessible
-import bar.Bar as bBar // bBar stands for &#39;bar.Bar&#39;</code>
 
 <div class="exampleCodeHeader">Example from <a href="elixir.html">Elixir</a>:</div>
 
@@ -385,8 +385,8 @@ use std::mem::*</code>
 <p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/file-imports-feature.pldb">View source</a></p></div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit ee02d1f1f96a78b1de9c1dd720b159829463c11a" href="https://github.com/breck7/pldb/commit/ee02d1f1f96a78b1de9c1dd720b159829463c11a">v2022</a> · </span>
-   <a href="../pages/about.html">Day 41</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 0b72ed9b1d9f8db1656651d4641f419c3ba7523c" href="https://github.com/breck7/pldb/commit/0b72ed9b1d9f8db1656651d4641f419c3ba7523c">v2022</a> · </span>
+   <a href="../pages/about.html">Day 45</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>
    <span>·</span>

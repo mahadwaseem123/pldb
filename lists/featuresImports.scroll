@@ -5,7 +5,7 @@ replace TABLE
  pipeTable
   feature|featureLink|pseudoExample|yes|no|percentage
   Comments|../languages/comment-feature.html|# Hello PLDB|611|3|100%
-  Line Comments|../languages/line-comments-feature.html|# Hello PLDB|514|21|96%
+  Line Comments|../languages/line-comments-feature.html|# Hello PLDB|515|21|96%
   Strings|../languages/strings-feature.html|"Hello PLDB"|352|0|100%
   Print() Debugging|../languages/print-debugging-feature.html|print "Hello PLDB"|312|0|100%
   MultiLine Comments|../languages/multiline-comments-feature.html|/* Hello PLDB */|214|18|92%
@@ -14,7 +14,7 @@ replace TABLE
   Booleans|../languages/booleans-feature.html|pldb = true|105|3|97%
   Hexadecimals|../languages/hexadecimals-feature.html|0x4D06792|102|0|100%
   Conditionals|../languages/conditionals-feature.html|if (isTrue) printPldb()|65|3|-
-  Semantic Indentation|../languages/semantic-indentation-feature.html|line0 if true line1  print "Hello PLDB"|57|517|10%
+  Semantic Indentation|../languages/semantic-indentation-feature.html|line0 if true line1  print "Hello PLDB"|57|518|10%
   Octals|../languages/octals-feature.html|0o464063622|49|0|-
   While Loops|../languages/while-loops-feature.html|while (pldb.pop()) loop()|44|1|-
   Binary Literals|../languages/binary-numbers-feature.html|0b100110100000110011110010010|44|0|-

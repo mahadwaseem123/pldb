@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Interfaces include <a href="java.html">Java</a>, <a href="swift.html">Swift</a>, <a href="typescript.html">TypeScript</a>, <a href="kotlin.html">Kotlin</a>, <a href="objective-c.html">Objective-C</a>, <a href="graphql.html">GraphQL</a>
+ Languages <b>with</b> Interfaces include <a href="java.html">Java</a>, <a href="swift.html">Swift</a>, <a href="kotlin.html">Kotlin</a>, <a href="typescript.html">TypeScript</a>, <a href="objective-c.html">Objective-C</a>, <a href="graphql.html">GraphQL</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -79,15 +79,6 @@ code
    }
  }
 
-exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
-
-code
- // https://www.typescriptlang.org/docs/handbook/interfaces.html
- interface SquareConfig {
-    color?: string;
-    width?: number;
- }
-
 exampleCodeHeader Example from <a href="kotlin.html">Kotlin</a>:
 
 code
@@ -99,6 +90,15 @@ code
      val lastName: String
      
      override val name: String get() = &quot;$firstName $lastName&quot;
+ }
+
+exampleCodeHeader Example from <a href="typescript.html">TypeScript</a>:
+
+code
+ // https://www.typescriptlang.org/docs/handbook/interfaces.html
+ interface SquareConfig {
+    color?: string;
+    width?: number;
  }
 
 exampleCodeHeader Example from <a href="objective-c.html">Objective-C</a>:

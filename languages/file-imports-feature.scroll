@@ -30,7 +30,7 @@ paragraph
  Languages <b>without</b> File Imports include <a href="html.html">HTML</a>, <a href="json.html">JSON</a>
 
 paragraph
- Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="go.html">Go</a>, <a href="swift.html">Swift</a>, <a href="css.html">CSS</a>, <a href="rust.html">Rust</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="kotlin.html">Kotlin</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="nodejs.html">Node.js</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a>
+ Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="go.html">Go</a>, <a href="css.html">CSS</a>, <a href="swift.html">Swift</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="nodejs.html">Node.js</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -121,6 +121,11 @@ code
  import log &quot;github.com/foo/bar&quot;
  import m &quot;math&quot;
 
+exampleCodeHeader Example from <a href="css.html">CSS</a>:
+
+code
+ @import &#39;custom.css&#39;;
+
 exampleCodeHeader Example from <a href="swift.html">Swift</a>:
 
 code
@@ -129,11 +134,6 @@ code
  let tvc = UITableViewController()
  let vc = UIViewController()
  let label = UILabel()
-
-exampleCodeHeader Example from <a href="css.html">CSS</a>:
-
-code
- @import &#39;custom.css&#39;;
 
 exampleCodeHeader Example from <a href="rust.html">Rust</a>:
 
@@ -144,6 +144,13 @@ code
  use self::foo::Zoo as _;
  #[path = &quot;foo.rs&quot;]
  mod c;
+
+exampleCodeHeader Example from <a href="kotlin.html">Kotlin</a>:
+
+code
+ import foo.Bar // Bar is now accessible without qualification
+ import foo.* // everything in &#39;foo&#39; becomes accessible
+ import bar.Bar as bBar // bBar stands for &#39;bar.Bar&#39;
 
 exampleCodeHeader Example from <a href="haskell.html">Haskell</a>:
 
@@ -179,13 +186,6 @@ code
  (java.util.Date.)
  (require &#39;clojure.contrib.def &#39;clojure.contrib.except &#39;clojure.contrib.sql)
  (require &#39;(clojure.contrib def except sql))
-
-exampleCodeHeader Example from <a href="kotlin.html">Kotlin</a>:
-
-code
- import foo.Bar // Bar is now accessible without qualification
- import foo.* // everything in &#39;foo&#39; becomes accessible
- import bar.Bar as bBar // bBar stands for &#39;bar.Bar&#39;
 
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 
