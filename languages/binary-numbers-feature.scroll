@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Binary Literals include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="perl.html">Perl</a>, <a href="mysql.html">MySQL</a>, <a href="swift.html">Swift</a>, <a href="haskell.html">Haskell</a>, <a href="prolog.html">Prolog</a>, <a href="elixir.html">Elixir</a>, <a href="julia.html">Julia</a>, <a href="reason.html">Reason</a>, <a href="f-sharp.html">F#</a>, <a href="verilog.html">Verilog</a>, <a href="ocaml.html">OCaml</a>, <a href="eiffel.html">Eiffel</a>, <a href="d.html">D</a>, <a href="vhdl.html">VHDL</a>, <a href="chapel.html">Chapel</a>, <a href="blitzbasic.html">BlitzBasic</a>, <a href="coq.html">Coq</a>, <a href="monkey.html">Monkey</a>, <a href="zig.html">Zig</a>, <a href="ceylon.html">Ceylon</a>, <a href="fstar.html">F*</a>, <a href="systemverilog.html">SystemVerilog</a>, <a href="opa.html">Opa</a>, <a href="isabelle.html">Isabelle</a>, <a href="minid.html">MiniD</a>, <a href="aspectj.html">AspectJ</a>, <a href="croc.html">Croc</a>, <a href="k.html">K</a>, <a href="felix.html">Felix</a>, <a href="x.html">Jule</a>, <a href="futhark.html">Futhark</a>, <a href="blitzmax.html">BlitzMax</a>, <a href="ooc.html">ooc</a>, <a href="whiley.html">Whiley</a>, <a href="logtalk.html">Logtalk</a>, <a href="earl-grey.html">Earl Grey</a>, <a href="parasail.html">parasail</a>, <a href="floscript.html">FloScript</a>, <a href="nimrod.html">nimrod</a>, <a href="savi.html">Savi</a>, <a href="cddl.html">CBOR data definition language</a>
+ Languages <b>with</b> Binary Literals include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="perl.html">Perl</a>, <a href="mysql.html">MySQL</a>, <a href="swift.html">Swift</a>, <a href="haskell.html">Haskell</a>, <a href="prolog.html">Prolog</a>, <a href="elixir.html">Elixir</a>, <a href="julia.html">Julia</a>, <a href="reason.html">Reason</a>, <a href="verilog.html">Verilog</a>, <a href="f-sharp.html">F#</a>, <a href="eiffel.html">Eiffel</a>, <a href="ocaml.html">OCaml</a>, <a href="d.html">D</a>, <a href="vhdl.html">VHDL</a>, <a href="chapel.html">Chapel</a>, <a href="blitzbasic.html">BlitzBasic</a>, <a href="coq.html">Coq</a>, <a href="monkey.html">Monkey</a>, <a href="zig.html">Zig</a>, <a href="ceylon.html">Ceylon</a>, <a href="fstar.html">F*</a>, <a href="systemverilog.html">SystemVerilog</a>, <a href="opa.html">Opa</a>, <a href="isabelle.html">Isabelle</a>, <a href="minid.html">MiniD</a>, <a href="aspectj.html">AspectJ</a>, <a href="croc.html">Croc</a>, <a href="k.html">K</a>, <a href="felix.html">Felix</a>, <a href="x.html">Jule</a>, <a href="futhark.html">Futhark</a>, <a href="blitzmax.html">BlitzMax</a>, <a href="ooc.html">ooc</a>, <a href="whiley.html">Whiley</a>, <a href="logtalk.html">Logtalk</a>, <a href="earl-grey.html">Earl Grey</a>, <a href="parasail.html">parasail</a>, <a href="floscript.html">FloScript</a>, <a href="nimrod.html">nimrod</a>, <a href="savi.html">Savi</a>, <a href="cddl.html">CBOR data definition language</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>, <a href="aspectj.html">AspectJ</a>:
 
@@ -86,15 +86,15 @@ exampleCodeHeader Example from <a href="reason.html">Reason</a>, <a href="minid.
 code
  // 0[bB][01][01_]*
 
-exampleCodeHeader Example from <a href="f-sharp.html">F#</a>:
-
-code
- // 0[bB][01][01_]*[uU]?[yslLn]?
-
 exampleCodeHeader Example from <a href="verilog.html">Verilog</a>:
 
 code
  // ([0-9]+)|(\&#39;b)[01]+
+
+exampleCodeHeader Example from <a href="f-sharp.html">F#</a>:
+
+code
+ // 0[bB][01][01_]*[uU]?[yslLn]?
 
 exampleCodeHeader Example from <a href="eiffel.html">Eiffel</a>:
 

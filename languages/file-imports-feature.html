@@ -114,7 +114,7 @@
 
 <p class="scrollParagraphComponent">Languages <b>without</b> File Imports include <a href="html.html">HTML</a>, <a href="json.html">JSON</a></p>
 
-<p class="scrollParagraphComponent">Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="go.html">Go</a>, <a href="css.html">CSS</a>, <a href="swift.html">Swift</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="nodejs.html">Node.js</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a></p>
+<p class="scrollParagraphComponent">Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="css.html">CSS</a>, <a href="go.html">Go</a>, <a href="swift.html">Swift</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="bash.html">Bash</a>, <a href="objective-c.html">Objective-C</a>, <a href="nodejs.html">Node.js</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="julia.html">Julia</a>, <a href="dart.html">Dart</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a></p>
 
 <div class="exampleCodeHeader">Example from <a href="java.html">Java</a>:</div>
 
@@ -182,6 +182,10 @@ require &#39;trig.rb&#39;</code>
 
 <code class="scrollCodeBlockComponent">source(&quot;filename.r&quot;)</code>
 
+<div class="exampleCodeHeader">Example from <a href="css.html">CSS</a>:</div>
+
+<code class="scrollCodeBlockComponent">@import &#39;custom.css&#39;;</code>
+
 <div class="exampleCodeHeader">Example from <a href="go.html">Go</a>:</div>
 
 <code class="scrollCodeBlockComponent">import (
@@ -192,10 +196,6 @@ import . &quot;fmt&quot;
 import _ &quot;io&quot;
 import log &quot;github.com/foo/bar&quot;
 import m &quot;math&quot;</code>
-
-<div class="exampleCodeHeader">Example from <a href="css.html">CSS</a>:</div>
-
-<code class="scrollCodeBlockComponent">@import &#39;custom.css&#39;;</code>
 
 <div class="exampleCodeHeader">Example from <a href="swift.html">Swift</a>:</div>
 
@@ -252,6 +252,21 @@ import moo = module(&#39;moo&#39;);
 (require &#39;clojure.contrib.def &#39;clojure.contrib.except &#39;clojure.contrib.sql)
 (require &#39;(clojure.contrib def except sql))</code>
 
+<div class="exampleCodeHeader">Example from <a href="bash.html">Bash</a>:</div>
+
+<code class="scrollCodeBlockComponent">source ./bash.sh</code>
+
+<div class="exampleCodeHeader">Example from <a href="objective-c.html">Objective-C</a>:</div>
+
+<code class="scrollCodeBlockComponent">// #import ensures that a file is only ever included once so that you never have a problem with recursive includes.
+#import &lt;Foundation/Foundation.h&gt;
+#include &lt;asl.h&gt;
+#include &lt;mach/mach.h&gt;</code>
+
+<div class="exampleCodeHeader">Example from <a href="nodejs.html">Node.js</a>:</div>
+
+<code class="scrollCodeBlockComponent">const jtree = require(&quot;jtree&quot;)</code>
+
 <div class="exampleCodeHeader">Example from <a href="elixir.html">Elixir</a>:</div>
 
 <code class="scrollCodeBlockComponent"># Alias the module so it can be called as Bar instead of Foo.Bar
@@ -274,13 +289,6 @@ use Foo</code>
 -include(&quot;$PROJ_ROOT/my_records.hrl&quot;).
 -include_lib(&quot;kernel/include/file.hrl&quot;).</code>
 
-<div class="exampleCodeHeader">Example from <a href="objective-c.html">Objective-C</a>:</div>
-
-<code class="scrollCodeBlockComponent">// #import ensures that a file is only ever included once so that you never have a problem with recursive includes.
-#import &lt;Foundation/Foundation.h&gt;
-#include &lt;asl.h&gt;
-#include &lt;mach/mach.h&gt;</code>
-
 <div class="exampleCodeHeader">Example from <a href="julia.html">Julia</a>:</div>
 
 <code class="scrollCodeBlockComponent"># Files and file names are mostly unrelated to modules; modules are associated only with module expressions.
@@ -295,18 +303,10 @@ include(&quot;file1.jl&quot;)
 include(&quot;file2.jl&quot;)
 end</code>
 
-<div class="exampleCodeHeader">Example from <a href="nodejs.html">Node.js</a>:</div>
-
-<code class="scrollCodeBlockComponent">const jtree = require(&quot;jtree&quot;)</code>
-
 <div class="exampleCodeHeader">Example from <a href="dart.html">Dart</a>:</div>
 
 <code class="scrollCodeBlockComponent">import &#39;file-system.dart&#39;;
 import &#39;dart:math&#39; as math;</code>
-
-<div class="exampleCodeHeader">Example from <a href="bash.html">Bash</a>:</div>
-
-<code class="scrollCodeBlockComponent">source ./bash.sh</code>
 
 <div class="exampleCodeHeader">Example from <a href="crystal.html">Crystal</a>:</div>
 
@@ -385,7 +385,7 @@ use std::mem::*</code>
 <p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/file-imports-feature.pldb">View source</a></p></div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 75cd9059a1224706c39f8cd77b119de6c1939b7b" href="https://github.com/breck7/pldb/commit/75cd9059a1224706c39f8cd77b119de6c1939b7b">v2022</a> · </span>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit f07d3e369ab03bf07d08a094788a60bde89f9112" href="https://github.com/breck7/pldb/commit/f07d3e369ab03bf07d08a094788a60bde89f9112">v2022</a> · </span>
    <a href="../pages/about.html">Day 46</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>

@@ -28,13 +28,18 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Pipes include <a href="r.html">R</a>, <a href="elixir.html">Elixir</a>, <a href="julia.html">Julia</a>, <a href="bash.html">Bash</a>
+ Languages <b>with</b> Pipes include <a href="r.html">R</a>, <a href="bash.html">Bash</a>, <a href="elixir.html">Elixir</a>, <a href="julia.html">Julia</a>
 
 exampleCodeHeader Example from <a href="r.html">R</a>:
 
 code
  # R has pipes via a library like dplyr
  starwars %&gt;% filter(species == &quot;Droid&quot;)
+
+exampleCodeHeader Example from <a href="bash.html">Bash</a>:
+
+code
+ echo &quot;Hello world&quot; &gt; output.txt
 
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 
@@ -45,11 +50,6 @@ exampleCodeHeader Example from <a href="julia.html">Julia</a>:
 
 code
  [1,2,3] |&gt; (y -&gt; f(3, y))
-
-exampleCodeHeader Example from <a href="bash.html">Bash</a>:
-
-code
- echo &quot;Hello world&quot; &gt; output.txt
 
 
 

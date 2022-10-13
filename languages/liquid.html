@@ -95,7 +95,7 @@
 
 <p class="scrollParagraphComponent">Liquid is a <a href="../lists/languages.html?filter=template">template</a> created in <a href="../lists/languages.html?filter=2008">2008</a> by <a href="../lists/creators.html#Tobias_Lütke">Tobias Lütke</a>.</p>
 
-<table class="scrollKpiTable"><tr><td>#111<span><span title="TotalRank: 314 Jobs: 69 Users: 93 Facts: 152 Links: 952">on PLDB</span></span></td>
+<table class="scrollKpiTable"><tr><td>#103<span><span title="TotalRank: 300 Jobs: 57 Users: 93 Facts: 150 Links: 952">on PLDB</span></span></td>
 <td>14<span>Years Old</span></td>
 <td>13.6k<span><span title="Crude user estimate from a linear model.">Users</span></span></td></tr>
 <tr><td>2<span><span title="Books about or leveraging Liquid">Books</span></span></td>
@@ -111,7 +111,7 @@
   require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
   require(["vs/editor/editor.main"], function() {
     monaco.editor.create(document.getElementById('monacoContainer'), {
-        value: `<h3>We have wonderful products!</h3>\n<ul id="products">\n  <div id="productpage">\n    <div id="productimages"><div id="productimages-top"><div id="productimages-bottom">\n      {% for image in product.images %}\n        {% if forloop.first %}\n          <a href="{{ image | product_img_url: 'large' }}" class="productimage" rel="lightbox">\n            <img src="{{ image | product_img_url: 'medium'}}" alt="{{product.title | escape }}" />\n          </a>\n        {% else %}\n          <a href="{{ image | product_img_url: 'large' }}" class="productimage-small" rel="lightbox">\n            <img src="{{ image | product_img_url: 'small'}}" alt="{{product.title | escape }}" />\n          </a>\n        {% endif %}\n      {% endfor %}\n    </div></div></div>\n\n    <h2>{{ product.title }}</h2>\n\n    <ul id="details" class="hlist">\n      <li>Vendor: {{ product.vendor | link_to_vendor }}</li>\n      <li>Type: {{ product.type | link_to_type }}</li>\n    </ul>\n\n    <small>{{ product.price_min | money }}{% if product.price_varies %} - {{ product.price_max | money }}{% endif %}</small>\n\n    <div id="variant-add">\n      <form action="/cart/add" method="post">\n\n        <select id="variant-select" name="id" class="product-info-options">\n          {% for variant in product.variants %}\n            <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>\n          {% endfor %}\n        </select>\n\n        <div id="price-field" class="price"></div>\n\n      <div style="text-align:center;"><input type="image" name="add" value="Add to Cart" id="add" src="{{ 'addtocart.gif' | asset_url }}" /></div>\n      </form>\n    </div>\n\n    <div class="description textile">\n      {{ product.description }}\n    </div>\n  </div>\n\n  <script type="text/javascript">\n  <!--\n    // prototype callback for multi variants dropdown selector\n    var selectCallback = function(variant, selector) {\n      if (variant && variant.available == true) {\n        // selected a valid variant\n        $('add').removeClassName('disabled'); // remove unavailable class from add-to-cart button\n        $('add').disabled = false;           // reenable add-to-cart button\n        $('price-field').innerHTML = Shopify.formatMoney(variant.price, "{{shop.money_with_currency_format}}");  // update price field\n      } else {\n        // variant doesn't exist\n        $('add').addClassName('disabled');      // set add-to-cart button to unavailable class\n        $('add').disabled = true;              // disable add-to-cart button\n        $('price-field').innerHTML = (variant) ? "Sold Out" : "Unavailable"; // update price-field message\n      }\n    };\n\n    // initialize multi selector for product\n    Event.observe(document, 'dom:loaded', function() {\n      new Shopify.OptionSelectors("variant-select", { product: {{ product | json }}, onVariantSelected: selectCallback });\n    });\n  -->\n  </script>\n</ul>\n`,
+        value: `<h3>We have wonderful products!</h3>\n<ul id="products">\n  <div id="productpage">\n    <div id="productimages"><div id="productimages-top"><div id="productimages-bottom">\n      {% for image in product.images %}\n        {% if forloop.first %}\n          <a href="{{ image | product_img_url: 'large' }}" class="productimage" rel="lightbox">\n            <img src="{{ image | product_img_url: 'medium'}}" alt="{{product.title | escape }}" />\n          </a>\n        {% else %}\n          <a href="{{ image | product_img_url: 'large' }}" class="productimage-small" rel="lightbox">\n            <img src="{{ image | product_img_url: 'small'}}" alt="{{product.title | escape }}" />\n          </a>\n        {% endif %}\n      {% endfor %}\n    </div></div></div>\n\n    <h2>{{ product.title }}</h2>\n\n    <ul id="details" class="hlist">\n      <li>Vendor: {{ product.vendor | link_to_vendor }}</li>\n      <li>Type: {{ product.type | link_to_type }}</li>\n    </ul>\n\n    <small>{{ product.price_min | money }}{% if product.price_varies %} - {{ product.price_max | money }}{% endif %}</small>\n\n    <div id="variant-add">\n      <form action="/cart/add" method="post">\n\n        <select id="variant-select" name="id" class="product-info-options">\n          {% for variant in product.variants %}\n            <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>\n          {% endfor %}\n        </select>\n\n        <div id="price-field" class="price"></div>\n\n      <div style="text-align:center;"><input type="image" name="add" value="Add to Cart" id="add" src="{{ 'addtocart.gif' | asset_url }}" /></div>\n      </form>\n    </div>\n\n    <div class="description textile">\n      {{ product.description }}\n    </div>\n  </div>\n\n  <script type="text/javascript">\n  <!--\n    // prototype callback for multi variants dropdown selector\n    var selectCallback = function(variant, selector) {\n      if (variant && variant.available == true) {\n        // selected a valid variant\n        $('add').removeClassName('disabled'); // remove unavailable class from add-to-cart button\n        $('add').disabled = false;           // reenable add-to-cart button\n        $('price-field').innerHTML = Shopify.formatMoney(variant.price, "{{shop.money_with_currency_format}}");  // update price field\n      } else {\n        // variant doesn't exist\n        $('add').addClassName('disabled');      // set add-to-cart button to unavailable class\n        $('add').disabled = true;              // disable add-to-cart button\n        $('price-field').innerHTML = (variant) ? "Sold Out" : "Unavailable"; // update price-field message\n      }\n    };\n\n    // initialize multi selector for product\n    Event.observe(document, 'dom:loaded', function() {\n      new Shopify.OptionSelectors("variant-select", { product: {{ product | json }}, onVariantSelected: selectCallback });\n    });\n  -->\n  </script>\n</ul>`,
         language: 'liquid',
         minimap: {
           enabled: false
@@ -143,11 +143,13 @@
 <li>the <a href="https://shopify.github.io/liquid/">Liquid website</a></li>
 <li>Liquid is developed on <a href="https://github.com/Shopify/liquid">GitHub</a> and has 9,596 stars</li>
 <li>There are at least 11,459 Liquid repos on <a href="https://github.com/search?q=language:Liquid">GitHub</a></li>
+<li>PLDB estimates there are currently 325 job openings for Liquid programmers.</li>
 <li>file extensions for Liquid include liquid</li>
 <li>The  Google BigQuery Public Dataset GitHub snapshot shows 947 users using Liquid in 1k repos on <a href="https://api.github.com/search/repositories?q=language:Liquid">GitHub</a></li>
 <li>There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/liquid">package</a> for syntax highlighting Liquid</li>
 <li><a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/templates.py">syntax highlighting</a> for Liquid</li>
 <li>GitHub supports <a href="https://github.com/bastilian/validcode-textmate-bundles" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Liquid</li>
+<li>Indeed.com has 325 matches for <a href="https://www.indeed.com/jobs?q=liquid engineer">"liquid engineer"</a>.</li>
 <li>HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a></li>
 <li><a href="https://build.pldb.com/edit/liquid">Improve our Liquid file</a></li>
 </ul>
@@ -224,8 +226,7 @@
     });
   --&gt;
   &lt;/script&gt;
-&lt;/ul&gt;
-</code>
+&lt;/ul&gt;</code>
 
 
 
@@ -382,7 +383,7 @@
 
 
 
-<div class="scrollKeyboardNav"><a href="nginx-config.html">nginx-config.html</a> · liquid.html · <a href="udp.html">udp.html</a><script>document.addEventListener('keydown', function(event) {
+<div class="scrollKeyboardNav"><a href="visual-basic.net.html">visual-basic.net.html</a> · liquid.html · <a href="xquery.html">xquery.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return
   const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
   if (event.key === "ArrowLeft")
@@ -393,7 +394,7 @@
 <p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/database/things/liquid.pldb">View source</a></p></div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 75cd9059a1224706c39f8cd77b119de6c1939b7b" href="https://github.com/breck7/pldb/commit/75cd9059a1224706c39f8cd77b119de6c1939b7b">v2022</a> · </span>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit f07d3e369ab03bf07d08a094788a60bde89f9112" href="https://github.com/breck7/pldb/commit/f07d3e369ab03bf07d08a094788a60bde89f9112">v2022</a> · </span>
    <a href="../pages/about.html">Day 46</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>

@@ -30,7 +30,7 @@ paragraph
  Languages <b>without</b> File Imports include <a href="html.html">HTML</a>, <a href="json.html">JSON</a>
 
 paragraph
- Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="go.html">Go</a>, <a href="css.html">CSS</a>, <a href="swift.html">Swift</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="objective-c.html">Objective-C</a>, <a href="julia.html">Julia</a>, <a href="nodejs.html">Node.js</a>, <a href="dart.html">Dart</a>, <a href="bash.html">Bash</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a>
+ Languages <b>with</b> File Imports include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="cpp.html">C++</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="matlab.html">MATLAB</a>, <a href="csharp.html">C#</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="css.html">CSS</a>, <a href="go.html">Go</a>, <a href="swift.html">Swift</a>, <a href="rust.html">Rust</a>, <a href="kotlin.html">Kotlin</a>, <a href="haskell.html">Haskell</a>, <a href="typescript.html">TypeScript</a>, <a href="clojure.html">Clojure</a>, <a href="bash.html">Bash</a>, <a href="objective-c.html">Objective-C</a>, <a href="nodejs.html">Node.js</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="julia.html">Julia</a>, <a href="dart.html">Dart</a>, <a href="crystal.html">Crystal</a>, <a href="f-sharp.html">F#</a>, <a href="racket.html">Racket</a>, <a href="ballerina.html">Ballerina</a>, <a href="x10.html">X10</a>, <a href="xtext.html">Xtext</a>, <a href="slope.html">Slope</a>, <a href="x.html">Jule</a>, <a href="flow9.html">Flow9</a>, <a href="dale.html">Dale</a>, <a href="scroll.html">Scroll</a>
 
 exampleCodeHeader Example from <a href="java.html">Java</a>:
 
@@ -109,6 +109,11 @@ exampleCodeHeader Example from <a href="r.html">R</a>:
 code
  source(&quot;filename.r&quot;)
 
+exampleCodeHeader Example from <a href="css.html">CSS</a>:
+
+code
+ @import &#39;custom.css&#39;;
+
 exampleCodeHeader Example from <a href="go.html">Go</a>:
 
 code
@@ -120,11 +125,6 @@ code
  import _ &quot;io&quot;
  import log &quot;github.com/foo/bar&quot;
  import m &quot;math&quot;
-
-exampleCodeHeader Example from <a href="css.html">CSS</a>:
-
-code
- @import &#39;custom.css&#39;;
 
 exampleCodeHeader Example from <a href="swift.html">Swift</a>:
 
@@ -187,6 +187,24 @@ code
  (require &#39;clojure.contrib.def &#39;clojure.contrib.except &#39;clojure.contrib.sql)
  (require &#39;(clojure.contrib def except sql))
 
+exampleCodeHeader Example from <a href="bash.html">Bash</a>:
+
+code
+ source ./bash.sh
+
+exampleCodeHeader Example from <a href="objective-c.html">Objective-C</a>:
+
+code
+ // #import ensures that a file is only ever included once so that you never have a problem with recursive includes.
+ #import &lt;Foundation/Foundation.h&gt;
+ #include &lt;asl.h&gt;
+ #include &lt;mach/mach.h&gt;
+
+exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
+
+code
+ const jtree = require(&quot;jtree&quot;)
+
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 
 code
@@ -211,14 +229,6 @@ code
  -include(&quot;$PROJ_ROOT/my_records.hrl&quot;).
  -include_lib(&quot;kernel/include/file.hrl&quot;).
 
-exampleCodeHeader Example from <a href="objective-c.html">Objective-C</a>:
-
-code
- // #import ensures that a file is only ever included once so that you never have a problem with recursive includes.
- #import &lt;Foundation/Foundation.h&gt;
- #include &lt;asl.h&gt;
- #include &lt;mach/mach.h&gt;
-
 exampleCodeHeader Example from <a href="julia.html">Julia</a>:
 
 code
@@ -234,21 +244,11 @@ code
  include(&quot;file2.jl&quot;)
  end
 
-exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
-
-code
- const jtree = require(&quot;jtree&quot;)
-
 exampleCodeHeader Example from <a href="dart.html">Dart</a>:
 
 code
  import &#39;file-system.dart&#39;;
  import &#39;dart:math&#39; as math;
-
-exampleCodeHeader Example from <a href="bash.html">Bash</a>:
-
-code
- source ./bash.sh
 
 exampleCodeHeader Example from <a href="crystal.html">Crystal</a>:
 
