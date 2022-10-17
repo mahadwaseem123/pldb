@@ -28,7 +28,7 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Lists include <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="json.html">JSON</a>, <a href="go.html">Go</a>, <a href="elixir.html">Elixir</a>, <a href="graphql.html">GraphQL</a>, <a href="rebol.html">REBOL</a>, <a href="edn.html">EDN</a>, <a href="ion.html">Ion</a>, <a href="boron.html">Boron</a>
+ Languages <b>with</b> Lists include <a href="javascript.html">JavaScript</a>, <a href="python.html">Python</a>, <a href="json.html">JSON</a>, <a href="go.html">Go</a>, <a href="elixir.html">Elixir</a>, <a href="graphql.html">GraphQL</a>, <a href="rebol.html">REBOL</a>, <a href="edn.html">EDN</a>, <a href="ion.html">Ion</a>, <a href="boron.html">Boron</a>, <a href="uxf.html">Uniform eXchange Format</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -70,6 +70,11 @@ code
  [a , [b]]         // Nested list
  [ 1.2, ]          // Trailing comma is legal in Ion (unlike JSON)
  [ 1, , 2 ]        // ERROR: missing element between commas
+
+exampleCodeHeader Example from <a href="uxf.html">Uniform eXchange Format</a>:
+
+code
+ [1 2]
 
 
 

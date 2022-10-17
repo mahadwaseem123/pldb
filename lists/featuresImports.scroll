@@ -4,14 +4,14 @@ replace COUNT
 replace TABLE
  pipeTable
   feature|featureLink|pseudoExample|yes|no|percentage
-  Comments|../languages/comment-feature.html|# Hello PLDB|611|3|100%
-  Line Comments|../languages/line-comments-feature.html|# Hello PLDB|515|21|96%
-  Strings|../languages/strings-feature.html|"Hello PLDB"|352|0|100%
+  Comments|../languages/comment-feature.html|# Hello PLDB|612|3|100%
+  Line Comments|../languages/line-comments-feature.html|# Hello PLDB|516|21|96%
+  Strings|../languages/strings-feature.html|"Hello PLDB"|353|0|100%
   Print() Debugging|../languages/print-debugging-feature.html|print "Hello PLDB"|312|0|100%
   MultiLine Comments|../languages/multiline-comments-feature.html|/* Hello PLDB */|214|18|92%
-  Integers|../languages/integers-feature.html|80766866|145|0|100%
+  Integers|../languages/integers-feature.html|80766866|146|0|100%
   Floats|../languages/floats-feature.html|80766866.0|126|0|100%
-  Booleans|../languages/booleans-feature.html|pldb = true|105|3|97%
+  Booleans|../languages/booleans-feature.html|pldb = true|106|3|97%
   Hexadecimals|../languages/hexadecimals-feature.html|0x4D06792|102|0|100%
   Conditionals|../languages/conditionals-feature.html|if (isTrue) printPldb()|65|3|-
   Semantic Indentation|../languages/semantic-indentation-feature.html|line0 if true line1  print "Hello PLDB"|57|518|10%
@@ -36,8 +36,8 @@ replace TABLE
   Multiple Inheritance|../languages/multiple-inheritance-feature.html|extends parentWhichExtendsSomethingElse|13|1|-
   Macros|../languages/macros-feature.html|#define pldbItems 4000|13|3|-
   Constructors|../languages/constructor-feature.html|PLDBFile { constructor() {} }|13|0|-
+  Lists|../languages/lists-feature.html|[2, 3, 10]|11|0|-
   Message Passing|../languages/message-passing-feature.html|"get pldb"|10|0|-
-  Lists|../languages/lists-feature.html|[2, 3, 10]|10|0|-
   Static Typing|../languages/static-typing-feature.html|int pldbRank = 100|8|0|-
   Single Dispatch|../languages/single-dispatch-feature.html|person.run()|8|0|-
   Regular Expression Syntax Sugar|../languages/regular-expressions-syntax-sugar-feature.html|/pldb/|8|4|-
