@@ -113,8 +113,8 @@ replace TABLE
   sed|../languages/sed.html|sed [gs]sed|2
   Standard ML|../languages/standard-ml.html|sml ml fun sig|4
   PicoLisp|../languages/picolisp.html|l|1
-  PL/SQL|../languages/pl-sql.html|pls bdy ddl fnc pck pkb pks plb plsql prc spc sql tpb tps trg vw|16
   Tex|../languages/tex.html|tex aux bbx cbx cls dtx ins lbx ltx mkii mkiv mkvi sty toc|14
+  PL/SQL|../languages/pl-sql.html|pls bdy ddl fnc pck pkb pks plb plsql prc spc sql tpb tps trg vw|16
   REBOL|../languages/rebol.html|r reb r2 r3 rebol|5
   PureScript|../languages/purescript.html|purs|1
   OWL|../languages/owl.html|owl|1
@@ -208,8 +208,8 @@ replace TABLE
   YANG|../languages/yang.html|yang|1
   RAML|../languages/raml.html|raml|1
   ATS|../languages/ats.html|dats hats sats|3
-  Csound|../languages/csound.html|csd sco orc udo|4
   F*|../languages/fstar.html|fst fsti|2
+  Csound|../languages/csound.html|csd sco orc udo|4
   Perl 6|../languages/perl-6.html|6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 t|11
   Sass|../languages/sass.html|sass scss|2
   ClojureScript|../languages/clojurescript.html|cljs|1
@@ -233,10 +233,10 @@ replace TABLE
   LiveScript|../languages/livescript.html|ls _ls|2
   Gradle|../languages/gradle.html|gradle|1
   Ini|../languages/ini.html|ini cfg dof lektorproject prefs pro properties url inf .editorconfig service socket device mount automount swap target path timer slice scope|21
+  ERB|../languages/erb.html|erb erbdeface rhtml|3
   B|../languages/b.html|b|1
   AsciiDoc|../languages/asciidoc.html|asciidoc adoc asc|3
   Batchfile|../languages/batch.html|bat cmd|2
-  ERB|../languages/erb.html|erb erbdeface rhtml|3
   GAMS|../languages/general-algebraic-modeling-system.html|gms|1
   Dafny|../languages/dafny.html|dfy|1
   Dhall|../languages/dhall.html|dhall|1
@@ -259,8 +259,8 @@ replace TABLE
   Bicep|../languages/bicep.html|bicep|1
   BibTeX|../languages/bibtex.html|bib bibtex|2
   PowerBuilder|../languages/powerbuilder.html|pbt sra sru srw|4
-  AutoHotkey|../languages/autohotkey.html|ahk ahkl|2
   Less|../languages/less.html|less|1
+  AutoHotkey|../languages/autohotkey.html|ahk ahkl|2
   Twig|../languages/twig.html|twig|1
   XS|../languages/xs.html|xs|1
   G-code|../languages/g-code.html|g cnc gco gcode mpt mpf nc|7
@@ -312,8 +312,8 @@ replace TABLE
   JCL|../languages/jcl.html|jcl|1
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli|5
   jq|../languages/jq.html|jq|1
-  Pure Data|../languages/puredata.html|pd|1
   mlir|../languages/mlir.html|mlir|1
+  Pure Data|../languages/puredata.html|pd|1
   Ring|../languages/ring.html|ring rh rform|3
   XSLT|../languages/xslt.html|xslt xsl xpl|3
   SIL|../languages/swift-il.html|sil|1
@@ -344,8 +344,8 @@ replace TABLE
   Java Properties|../languages/java-properties.html|properties|1
   Zip file format|../languages/zip-format.html|zip|1
   eC|../languages/ec.html|ec eh|2
-  CFML|../languages/cfml.html|cfm cfc|2
   PIR|../languages/parrot-internal-representation.html|pir|1
+  CFML|../languages/cfml.html|cfm cfc|2
   RUNOFF|../languages/runoff.html|rnh rno|2
   CWEB|../languages/cweb.html|w|1
   Velocity|../languages/apache-velocity.html|vm fhtml|2
@@ -378,8 +378,8 @@ replace TABLE
   kaitai|../languages/kaitai.html|ksy|1
   mustache|../languages/mustache.html|mustache|1
   LookML|../languages/lookml.html|lookml modellkml viewlkml|3
-  BBC BASIC|../languages/bbc-basic.html|bbc|1
   Z shell|../languages/z-shell.html|.ZSH|1
+  BBC BASIC|../languages/bbc-basic.html|bbc|1
   Literate CoffeeScript|../languages/literate-coffeescript.html|litcoffee coffeemd|2
   XProc|../languages/xproc.html|xpl xproc|2
   Cobra|../languages/cobra.html|cobra|1
@@ -395,8 +395,8 @@ replace TABLE
   DM|../languages/dm.html|dm dmf|2
   NCAR Command Language|../languages/ncl.html|ncl|1
   Linden Scripting Language|../languages/lsl.html|lsl lslp|2
-  BNF|../languages/bnf.html|bnf|1
   DIGITAL Command Language|../languages/digital-command-language.html|com|1
+  BNF|../languages/bnf.html|bnf|1
   GNU Assembler|../languages/gas.html|s S|2
   GDScript|../languages/gdscript.html|gd|1
   Eclipse Command Language|../languages/eclipse-command-language.html|ecl|1
@@ -430,9 +430,9 @@ replace TABLE
   BlackCoffee|../languages/blackcoffee.html|coffee|1
   Mu|../languages/mu.html|mu|1
   heap.coffee|../languages/heap.coffee.html|coffee|1
+  BlitzMax|../languages/blitzmax.html|bmx|1
   Jasmin|../languages/jasmin.html|j|1
   Literate Agda|../languages/literate-agda.html|lagda|1
-  BlitzMax|../languages/blitzmax.html|bmx|1
   UberScript|../languages/uberscript.html|coffee|1
   Caffeine|../languages/caffeine.html|coffee|1
   Game Maker Language|../languages/game-maker-language.html|gml|1
@@ -508,9 +508,9 @@ replace TABLE
   MXML|../languages/mxml.html|mxml|1
   Spline Font Database|../languages/spline-font-database.html|sfd|1
   Lux|../languages/lux.html|lux|1
-  Sweave|../languages/sweave.html|rnw|1
   JSX|../languages/jsx.html|jsx|1
   KRL|../languages/krl.html|krl|1
+  Sweave|../languages/sweave.html|rnw|1
   Object Rexx|../languages/object-rexx.html|rxs rex|2
   1C Enterprise Script|../languages/1c-enterprise.html|bsl os|2
   Q#|../languages/q-sharp.html|qs|1
@@ -567,11 +567,11 @@ replace TABLE
   Nymph|../languages/nymph.html|n|1
   Charity|../languages/charity.html|ch|1
   Jsonnet|../languages/jsonnet.html|jsonnet libsonnet|2
+  epsilon|../languages/epsilon.html|eol|1
   Z|../languages/z-expressions.html|zz|1
   JS++|../languages/jspp.html|jspp|1
   Ligo|../languages/ligo.html|religo|1
   Pawn|../languages/pawn-scripting-language.html|pwn inc sma p|4
-  epsilon|../languages/epsilon.html|eol|1
   MXF|../languages/material-exchange-format.html|mxf|1
   JSLT|../languages/jslt.html|jslt|1
   Grace|../languages/grace.html|grace|1
