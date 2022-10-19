@@ -28,17 +28,17 @@ html
  <br>
 
 paragraph
- Languages <b>with</b> Streams include <a href="nodejs.html">Node.js</a>, <a href="elixir.html">Elixir</a>
-
-exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
-
-code
- const stream = require(&#39;stream&#39;);
+ Languages <b>with</b> Streams include <a href="elixir.html">Elixir</a>, <a href="nodejs.html">Node.js</a>
 
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 
 code
  https://hexdocs.pm/elixir/Stream.html
+
+exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
+
+code
+ const stream = require(&#39;stream&#39;);
 
 
 

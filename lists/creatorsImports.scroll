@@ -53,11 +53,11 @@ replace TABLE
   <a name='Brian_Fox' />Brian Fox|<a href='../languages/bash.html'>Bash</a>|1|39
   <a name='Stephen_Wolfram' href='https://en.wikipedia.org/wiki/Stephen_Wolfram'>Stephen Wolfram</a>|<a href='../languages/mathematica.html'>Mathematica</a> - <a href='../languages/wolfram.html'>Wolfram Language</a>|2|41
   <a name='Brad_Cox' />Brad Cox|<a href='../languages/objective-c.html'>Objective-C</a>|1|43
-  <a name='Ryan_Dahl' href='https://en.wikipedia.org/wiki/Ryan_Dahl'>Ryan Dahl</a>|<a href='../languages/nodejs.html'>Node.js</a> - <a href='../languages/deno.html'>Deno</a>|2|44
-  <a name='José_Valim' />José Valim|<a href='../languages/elixir.html'>Elixir</a>|1|45
-  <a name='Joe_Armstrong' />Joe Armstrong|<a href='../languages/erlang.html'>Erlang</a>|1|47
-  <a name='Robert_Virding' />Robert Virding|<a href='../languages/erlang.html'>Erlang</a> - <a href='../languages/lfe.html'>LFE</a> - <a href='../languages/sophia.html'>Sophia</a>|3|47
-  <a name='Mike_Williams' />Mike Williams|<a href='../languages/erlang.html'>Erlang</a>|1|47
+  <a name='José_Valim' />José Valim|<a href='../languages/elixir.html'>Elixir</a>|1|44
+  <a name='Ryan_Dahl' href='https://en.wikipedia.org/wiki/Ryan_Dahl'>Ryan Dahl</a>|<a href='../languages/nodejs.html'>Node.js</a> - <a href='../languages/deno.html'>Deno</a>|2|45
+  <a name='Joe_Armstrong' />Joe Armstrong|<a href='../languages/erlang.html'>Erlang</a>|1|46
+  <a name='Robert_Virding' />Robert Virding|<a href='../languages/erlang.html'>Erlang</a> - <a href='../languages/lfe.html'>LFE</a> - <a href='../languages/sophia.html'>Sophia</a>|3|46
+  <a name='Mike_Williams' />Mike Williams|<a href='../languages/erlang.html'>Erlang</a>|1|46
   <a name='Jeff_Bezanson' />Jeff Bezanson|<a href='../languages/julia.html'>Julia</a> - <a href='../languages/femtolisp.html'>femtolisp</a>|2|48
   <a name='Alan_Edelman' />Alan Edelman|<a href='../languages/julia.html'>Julia</a>|1|48
   <a name='Stefan_Karpinski' />Stefan Karpinski|<a href='../languages/julia.html'>Julia</a>|1|48
@@ -77,7 +77,7 @@ replace TABLE
   <a name='Brian_Kernighan' />Brian Kernighan|<a href='../languages/awk.html'>awk</a> - <a href='../languages/ampl.html'>AMPL</a> - <a href='../languages/m4.html'>M4</a>|3|62
   <a name='Jeremy_Ashkenas' />Jeremy Ashkenas|<a href='../languages/coffeescript.html'>CoffeeScript</a> - <a href='../languages/livescript.html'>LiveScript</a>|2|64
   <a name='Don_Syme' />Don Syme|<a href='../languages/f-sharp.html'>F#</a>|1|65
-  <a name='Evan_Czaplicki' />Evan Czaplicki|<a href='../languages/elm.html'>Elm</a>|1|67
+  <a name='Evan_Czaplicki' />Evan Czaplicki|<a href='../languages/elm.html'>Elm</a>|1|66
   <a name='Bertrand_Meyer' />Bertrand Meyer|<a href='../languages/eiffel.html'>Eiffel</a>|1|69
   <a name='Xavier_Leroy' href='https://en.wikipedia.org/wiki/Xavier_Leroy'>Xavier Leroy</a>|<a href='../languages/ocaml.html'>OCaml</a>|1|73
   <a name='Alan_Kay' href='https://en.wikipedia.org/wiki/Alan_Kay'>Alan Kay</a>|<a href='../languages/smalltalk.html'>Smalltalk</a> - <a href='../languages/etoys.html'>Etoys</a> - <a href='../languages/flex-lang.html'>Flex language</a>|3|76
@@ -97,7 +97,7 @@ replace TABLE
   <a name='Dan_Weinreb' />Dan Weinreb|<a href='../languages/common-lisp.html'>Common Lisp</a> - <a href='../languages/corman-common-lisp.html'>Corman Common Lisp</a>|2|88
   <a name='Kenneth_E._Iverson' href='https://en.wikipedia.org/wiki/Kenneth_E._Iverson'>Kenneth E. Iverson</a>|<a href='../languages/apl.html'>APL</a> - <a href='../languages/j.html'>J</a>|2|93
   <a name='Andreas_Rumpf' />Andreas Rumpf|<a href='../languages/nim.html'>Nim</a> - <a href='../languages/nimskull.html'>Nimskull</a>|2|100
-  <a name='Tobias_Lütke' />Tobias Lütke|<a href='../languages/liquid.html'>Liquid</a>|1|103
+  <a name='Tobias_Lütke' />Tobias Lütke|<a href='../languages/liquid.html'>Liquid</a>|1|102
   <a name='John_Warnock' />John Warnock|<a href='../languages/postscript.html'>PostScript</a>|1|105
   <a name='Chuck_Geschke' />Chuck Geschke|<a href='../languages/postscript.html'>PostScript</a>|1|105
   <a name='Doug_Brotz' />Doug Brotz|<a href='../languages/postscript.html'>PostScript</a>|1|105
@@ -119,28 +119,28 @@ replace TABLE
   <a name='Kyle_Jessup' />Kyle Jessup|<a href='../languages/lasso.html'>Lasso</a>|1|125
   <a name='Gert_Smolka' />Gert Smolka|<a href='../languages/oz.html'>Oz</a>|1|126
   <a name='Edwin_Brady' />Edwin Brady|<a href='../languages/idris.html'>Idris</a>|1|131
-  <a name='Phil_Freeman' />Phil Freeman|<a href='../languages/purescript.html'>PureScript</a>|1|135
-  <a name='Ole-Johan_Dahl' />Ole-Johan Dahl|<a href='../languages/simula.html'>Simula</a>|1|136
-  <a name='Robert_Fourer' />Robert Fourer|<a href='../languages/ampl.html'>AMPL</a>|1|137
-  <a name='David_Gay' />David Gay|<a href='../languages/ampl.html'>AMPL</a>|1|137
-  <a name='Vern_Paxson' />Vern Paxson|<a href='../languages/flex.html'>FLEX</a>|1|138
-  <a name='Lee_E._McMahon' href='https://en.wikipedia.org/wiki/Lee_E._McMahon'>Lee E. McMahon</a>|<a href='../languages/sed.html'>sed</a>|1|140
-  <a name='Alexander_Burger' />Alexander Burger|<a href='../languages/picolisp.html'>PicoLisp</a>|1|141
-  <a name='Alexander_Medvednikov' />Alexander Medvednikov|<a href='../languages/v.html'>V</a>|1|142
-  <a name='Martin_Richards' href='https://en.wikipedia.org/wiki/Martin_Richards_(computer_scientist)'>Martin Richards</a>|<a href='../languages/bcpl.html'>BCPL</a>|1|144
-  <a name='Urban_Müller' />Urban Müller|<a href='../languages/brainfuck.html'>Brainfuck</a>|1|146
-  <a name='Carl_Sassenrath' />Carl Sassenrath|<a href='../languages/rebol.html'>REBOL</a>|1|150
-  <a name='Hampton_Catlin' />Hampton Catlin|<a href='../languages/haml.html'>HAML</a> - <a href='../languages/sass.html'>Sass</a> - <a href='../languages/scss.html'>SCSS</a>|3|151
-  <a name='Julien_Verlaguet' />Julien Verlaguet|<a href='../languages/hack.html'>Hack</a> - <a href='../languages/linearml.html'>LinearML</a>|2|153
-  <a name='Alok_Menghrajani' />Alok Menghrajani|<a href='../languages/hack.html'>Hack</a>|1|153
-  <a name='Drew_Paroski' />Drew Paroski|<a href='../languages/hack.html'>Hack</a>|1|153
-  <a name='Nathaniel_Borenstein' />Nathaniel Borenstein|<a href='../languages/mime.html'>MIME</a>|1|154
-  <a name='Ned_Freed' />Ned Freed|<a href='../languages/mime.html'>MIME</a>|1|154
-  <a name='Paul_O’Shannessy' />Paul O’Shannessy|<a href='../languages/flux.html'>FLUX</a>|1|159
-  <a name='Armin_Ronacher' />Armin Ronacher|<a href='../languages/jinja.html'>Jinja</a>|1|165
-  <a name='Alberto_Demichelis' />Alberto Demichelis|<a href='../languages/squirrel.html'>Squirrel</a>|1|166
-  <a name='Ulf_Norell' />Ulf Norell|<a href='../languages/agda.html'>Agda</a>|1|172
-  <a name='Catarina_Coquand' />Catarina Coquand|<a href='../languages/agda.html'>Agda</a>|1|172
+  <a name='Ole-Johan_Dahl' />Ole-Johan Dahl|<a href='../languages/simula.html'>Simula</a>|1|134
+  <a name='Phil_Freeman' />Phil Freeman|<a href='../languages/purescript.html'>PureScript</a>|1|136
+  <a name='Robert_Fourer' />Robert Fourer|<a href='../languages/ampl.html'>AMPL</a>|1|138
+  <a name='David_Gay' />David Gay|<a href='../languages/ampl.html'>AMPL</a>|1|138
+  <a name='Alexander_Medvednikov' />Alexander Medvednikov|<a href='../languages/v.html'>V</a>|1|139
+  <a name='Vern_Paxson' />Vern Paxson|<a href='../languages/flex.html'>FLEX</a>|1|140
+  <a name='Lee_E._McMahon' href='https://en.wikipedia.org/wiki/Lee_E._McMahon'>Lee E. McMahon</a>|<a href='../languages/sed.html'>sed</a>|1|141
+  <a name='Alexander_Burger' />Alexander Burger|<a href='../languages/picolisp.html'>PicoLisp</a>|1|142
+  <a name='Martin_Richards' href='https://en.wikipedia.org/wiki/Martin_Richards_(computer_scientist)'>Martin Richards</a>|<a href='../languages/bcpl.html'>BCPL</a>|1|145
+  <a name='Urban_Müller' />Urban Müller|<a href='../languages/brainfuck.html'>Brainfuck</a>|1|147
+  <a name='Hampton_Catlin' />Hampton Catlin|<a href='../languages/haml.html'>HAML</a> - <a href='../languages/sass.html'>Sass</a> - <a href='../languages/scss.html'>SCSS</a>|3|148
+  <a name='Carl_Sassenrath' />Carl Sassenrath|<a href='../languages/rebol.html'>REBOL</a>|1|149
+  <a name='Julien_Verlaguet' />Julien Verlaguet|<a href='../languages/hack.html'>Hack</a> - <a href='../languages/linearml.html'>LinearML</a>|2|152
+  <a name='Alok_Menghrajani' />Alok Menghrajani|<a href='../languages/hack.html'>Hack</a>|1|152
+  <a name='Drew_Paroski' />Drew Paroski|<a href='../languages/hack.html'>Hack</a>|1|152
+  <a name='Paul_O’Shannessy' />Paul O’Shannessy|<a href='../languages/flux.html'>FLUX</a>|1|155
+  <a name='Nathaniel_Borenstein' />Nathaniel Borenstein|<a href='../languages/mime.html'>MIME</a>|1|156
+  <a name='Ned_Freed' />Ned Freed|<a href='../languages/mime.html'>MIME</a>|1|156
+  <a name='Armin_Ronacher' />Armin Ronacher|<a href='../languages/jinja.html'>Jinja</a>|1|163
+  <a name='Alberto_Demichelis' />Alberto Demichelis|<a href='../languages/squirrel.html'>Squirrel</a>|1|167
+  <a name='Ulf_Norell' />Ulf Norell|<a href='../languages/agda.html'>Agda</a>|1|173
+  <a name='Catarina_Coquand' />Catarina Coquand|<a href='../languages/agda.html'>Agda</a>|1|173
   <a name='Sanjiva_Weerawarana' />Sanjiva Weerawarana|<a href='../languages/ballerina.html'>Ballerina</a>|1|175
   <a name='James_Clark' />James Clark|<a href='../languages/ballerina.html'>Ballerina</a> - <a href='../languages/trex.html'>Trex</a>|2|175
   <a name='Joseph_J._Allaire' href='https://en.wikipedia.org/wiki/Joseph_J._Allaire'>Joseph J. Allaire</a>|<a href='../languages/coldfusion.html'>ColdFusion</a>|1|177
@@ -161,15 +161,15 @@ replace TABLE
   <a name='Ralph_Griswold' href='https://en.wikipedia.org/wiki/Ralph_Griswold'>Ralph Griswold</a>|<a href='../languages/icon.html'>Icon</a>|1|198
   <a name='Ric_Holt' />Ric Holt|<a href='../languages/turing.html'>Turing</a> - <a href='../languages/sp-k.html'>SP/k</a>|2|199
   <a name='Tj_Holowaychuk' />Tj Holowaychuk|<a href='../languages/pug.html'>Pug</a> - <a href='../languages/ejs.html'>EJS</a>|2|200
-  <a name='Stuart_Feldman' />Stuart Feldman|<a href='../languages/makefile.html'>Makefile</a>|1|202
+  <a name='Stuart_Feldman' />Stuart Feldman|<a href='../languages/makefile.html'>Makefile</a>|1|203
   <a name='Lutz_Mueller' />Lutz Mueller|<a href='../languages/newlisp.html'>NewLisp</a>|1|208
   <a name='David_Stern' />David Stern|<a href='../languages/idl.html'>IDL</a>|1|213
   <a name='Steve_Dekorte' />Steve Dekorte|<a href='../languages/io.html'>Io</a>|1|216
   <a name='Rodrigo_B._De_Oliveira' />Rodrigo B. De Oliveira|<a href='../languages/boo.html'>Boo</a>|1|217
-  <a name='Zoltan_Somogyi' />Zoltan Somogyi|<a href='../languages/mercury.html'>Mercury</a>|1|218
+  <a name='Zoltan_Somogyi' />Zoltan Somogyi|<a href='../languages/mercury.html'>Mercury</a>|1|219
   <a name='Gavin_King' />Gavin King|<a href='../languages/ceylon.html'>Ceylon</a>|1|220
-  <a name='Aseem_Kishore' />Aseem Kishore|<a href='../languages/json5.html'>JSON5</a>|1|225
-  <a name='Roger_Hui' href='https://en.wikipedia.org/wiki/Roger_Hui'>Roger Hui</a>|<a href='../languages/j.html'>J</a>|1|226
+  <a name='Aseem_Kishore' />Aseem Kishore|<a href='../languages/json5.html'>JSON5</a>|1|224
+  <a name='Roger_Hui' href='https://en.wikipedia.org/wiki/Roger_Hui'>Roger Hui</a>|<a href='../languages/j.html'>J</a>|1|225
   <a name='Adam_Lindsay' />Adam Lindsay|<a href='../languages/lolcode.html'>LOLCODE</a>|1|227
   <a name='William_Gould' />William Gould|<a href='../languages/stata.html'>Stata</a>|1|235
   <a name='Friedrich_L._Bauer' href='https://en.wikipedia.org/wiki/Friedrich_L._Bauer'>Friedrich L. Bauer</a>|<a href='../languages/algol-60.html'>ALGOL 60</a>|1|238
@@ -200,24 +200,24 @@ replace TABLE
   <a name='Victor_M._Alvarez' />Victor M. Alvarez|<a href='../languages/yara.html'>YARA</a>|1|281
   <a name='Uri_Wilensky' />Uri Wilensky|<a href='../languages/netlogo.html'>NetLogo</a>|1|282
   <a name='Slava_Pestov' />Slava Pestov|<a href='../languages/factor.html'>Factor</a>|1|287
-  <a name='Evan_Martin' />Evan Martin|<a href='../languages/ninja.html'>Ninja</a> - <a href='../languages/bucklescript.html'>Bucklescript</a>|2|291
-  <a name='Mark_S._Miller' href='https://en.wikipedia.org/wiki/Mark_S._Miller'>Mark S. Miller</a>|<a href='../languages/e.html'>E</a> - <a href='../languages/yedalog.html'>Yedalog</a>|2|298
+  <a name='Evan_Martin' />Evan Martin|<a href='../languages/ninja.html'>Ninja</a> - <a href='../languages/bucklescript.html'>Bucklescript</a>|2|290
+  <a name='Mark_S._Miller' href='https://en.wikipedia.org/wiki/Mark_S._Miller'>Mark S. Miller</a>|<a href='../languages/e.html'>E</a> - <a href='../languages/yedalog.html'>Yedalog</a>|2|297
   <a name='Dave_Longley' />Dave Longley|<a href='../languages/json-ld.html'>JSON-LD</a>|1|302
   <a name='Satoshi_Murakami' />Satoshi Murakami|<a href='../languages/livescript.html'>LiveScript</a> - <a href='../languages/coco.html'>Coco</a>|2|307
   <a name='George_Zahariev' />George Zahariev|<a href='../languages/livescript.html'>LiveScript</a>|1|307
   <a name='Ola_Bini' />Ola Bini|<a href='../languages/ioke.html'>Ioke</a>|1|308
   <a name='Anthony_Martin' />Anthony Martin|<a href='../languages/bicep.html'>Bicep</a>|1|310
   <a name='David_Majda' />David Majda|<a href='../languages/pegjs.html'>PEG.js</a>|1|312
-  <a name='Santosh_Rajan' />Santosh Rajan|<a href='../languages/wisp.html'>wisp</a> - <a href='../languages/lispyscript.html'>lispyscript</a> - <a href='../languages/cleanlang.html'>cleanlang</a>|3|316
-  <a name='Irakli_Gozalishvili' />Irakli Gozalishvili|<a href='../languages/wisp.html'>wisp</a>|1|316
-  <a name='LeXofLeviafan' />LeXofLeviafan|<a href='../languages/wisp.html'>wisp</a>|1|316
-  <a name='Chris_McCormick' />Chris McCormick|<a href='../languages/wisp.html'>wisp</a> - <a href='../languages/fleck.html'>fleck</a>|2|316
+  <a name='Santosh_Rajan' />Santosh Rajan|<a href='../languages/wisp.html'>wisp</a> - <a href='../languages/lispyscript.html'>lispyscript</a> - <a href='../languages/cleanlang.html'>cleanlang</a>|3|315
+  <a name='Irakli_Gozalishvili' />Irakli Gozalishvili|<a href='../languages/wisp.html'>wisp</a>|1|315
+  <a name='LeXofLeviafan' />LeXofLeviafan|<a href='../languages/wisp.html'>wisp</a>|1|315
+  <a name='Chris_McCormick' />Chris McCormick|<a href='../languages/wisp.html'>wisp</a> - <a href='../languages/fleck.html'>fleck</a>|2|315
   <a name='Paul_Graham' href='https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'>Paul Graham</a>|<a href='../languages/arc.html'>Arc</a> - <a href='../languages/bel.html'>Bel</a>|2|325
   <a name='Robert_Morris' />Robert Morris|<a href='../languages/arc.html'>Arc</a>|1|325
   <a name='Arthur_Whitney' href='https://en.wikipedia.org/wiki/Arthur_Whitney_(computer_scientist)'>Arthur Whitney</a>|<a href='../languages/q.html'>Q</a> - <a href='../languages/k.html'>K</a> - <a href='../languages/aplus.html'>A+</a>|3|333
-  <a name='Benoît_Minisini' />Benoît Minisini|<a href='../languages/gambas.html'>Gambas</a>|1|336
-  <a name='Kris_Zyp' />Kris Zyp|<a href='../languages/json-schema.html'>JSON Schema</a>|1|337
-  <a name='Dan_Winkler' />Dan Winkler|<a href='../languages/hypertalk.html'>HyperTalk</a>|1|338
+  <a name='Kris_Zyp' />Kris Zyp|<a href='../languages/json-schema.html'>JSON Schema</a>|1|336
+  <a name='Dan_Winkler' />Dan Winkler|<a href='../languages/hypertalk.html'>HyperTalk</a>|1|337
+  <a name='Benoît_Minisini' />Benoît Minisini|<a href='../languages/gambas.html'>Gambas</a>|1|338
   <a name='Alexis_Sellier' />Alexis Sellier|<a href='../languages/less.html'>Less</a>|1|340
   <a name='Chris_Pressey' />Chris Pressey|<a href='../languages/befunge.html'>Befunge</a>|1|341
   <a name='Thomas_Mertes' />Thomas Mertes|<a href='../languages/seed7.html'>Seed7</a>|1|344
@@ -228,11 +228,11 @@ replace TABLE
   <a name='Andre_Victor' />Andre Victor|<a href='../languages/freebasic.html'>FreeBASIC</a>|1|361
   <a name='Alexander_Aiken' />Alexander Aiken|<a href='../languages/cool.html'>Classroom Object Oriented Language</a>|1|363
   <a name='David_Grudl' />David Grudl|<a href='../languages/latte.html'>Latte</a>|1|364
-  <a name='Chris_Hinsley' />Chris Hinsley|<a href='../languages/chrysalisp.html'>chrysaLisp</a>|1|369
-  <a name='Laurent_Le_Brun' />Laurent Le Brun|<a href='../languages/starlark.html'>starlark</a>|1|370
+  <a name='Laurent_Le_Brun' />Laurent Le Brun|<a href='../languages/starlark.html'>starlark</a>|1|369
+  <a name='Chris_Hinsley' />Chris Hinsley|<a href='../languages/chrysalisp.html'>chrysaLisp</a>|1|370
   <a name='Jacob_T._Schwartz' />Jacob T. Schwartz|<a href='../languages/setl.html'>SETL</a> - <a href='../languages/isetl.html'>ISETL</a>|2|374
   <a name='Ben_Olmstead' />Ben Olmstead|<a href='../languages/malbolge.html'>Malbolge</a>|1|376
-  <a name='Jamie_McCracken' />Jamie McCracken|<a href='../languages/genie.html'>Genie</a>|1|380
+  <a name='Jamie_McCracken' />Jamie McCracken|<a href='../languages/genie.html'>Genie</a>|1|379
   <a name='Kenton_Varda' />Kenton Varda|<a href='../languages/capn-proto.html'>Cap'n Proto</a>|1|381
   <a name='Barbara_Liskov' href='https://en.wikipedia.org/wiki/Barbara_Liskov'>Barbara Liskov</a>|<a href='../languages/clu.html'>CLU</a>|1|382
   <a name='Maximilian_Roos' />Maximilian Roos|<a href='../languages/prql.html'>PRQL</a>|1|383
@@ -246,32 +246,32 @@ replace TABLE
   <a name='Luka_Stojanovic' />Luka Stojanovic|<a href='../languages/common-workflow-language.html'>CWL</a>|1|411
   <a name='Calvin_Rose' />Calvin Rose|<a href='../languages/fennel.html'>Fennel</a>|1|415
   <a name='Zach_Bruggeman' />Zach Bruggeman|<a href='../languages/dogescript.html'>Dogescript</a>|1|419
-  <a name='Steve_Omohundro' href='https://en.wikipedia.org/wiki/Steve_Omohundro'>Steve Omohundro</a>|<a href='../languages/sather.html'>Sather</a>|1|422
-  <a name='James_Cordy' />James Cordy|<a href='../languages/txl.html'>TXL</a> - <a href='../languages/sp-k.html'>SP/k</a>|2|424
+  <a name='James_Cordy' />James Cordy|<a href='../languages/txl.html'>TXL</a> - <a href='../languages/sp-k.html'>SP/k</a>|2|422
+  <a name='Steve_Omohundro' href='https://en.wikipedia.org/wiki/Steve_Omohundro'>Steve Omohundro</a>|<a href='../languages/sather.html'>Sather</a>|1|424
   <a name='Wojciech_Danilo' />Wojciech Danilo|<a href='../languages/enso.html'>Enso</a> - <a href='../languages/luna.html'>Luna</a>|2|425
-  <a name='Marcel_van_Lohuizen' />Marcel van Lohuizen|<a href='../languages/cuelang.html'>Cue</a>|1|426
+  <a name='Marcel_van_Lohuizen' />Marcel van Lohuizen|<a href='../languages/cuelang.html'>Cue</a>|1|427
   <a name='Dennis_Allison' />Dennis Allison|<a href='../languages/tiny-basic.html'>Tiny BASIC</a>|1|429
-  <a name='Brian_Fiete' />Brian Fiete|<a href='../languages/beef.html'>beef-lang</a>|1|430
-  <a name='Hanspeter_Mössenböck' />Hanspeter Mössenböck|<a href='../languages/oberon-2.html'>Oberon-2</a>|1|435
-  <a name='Monte_Ohrt' />Monte Ohrt|<a href='../languages/smarty.html'>Smarty</a>|1|437
-  <a name='Messju_Mohr' />Messju Mohr|<a href='../languages/smarty.html'>Smarty</a>|1|437
-  <a name='Uwe_Tews' />Uwe Tews|<a href='../languages/smarty.html'>Smarty</a>|1|437
+  <a name='Brian_Fiete' />Brian Fiete|<a href='../languages/beef.html'>beef-lang</a>|1|431
+  <a name='Hanspeter_Mössenböck' />Hanspeter Mössenböck|<a href='../languages/oberon-2.html'>Oberon-2</a>|1|434
+  <a name='Monte_Ohrt' />Monte Ohrt|<a href='../languages/smarty.html'>Smarty</a>|1|436
+  <a name='Messju_Mohr' />Messju Mohr|<a href='../languages/smarty.html'>Smarty</a>|1|436
+  <a name='Uwe_Tews' />Uwe Tews|<a href='../languages/smarty.html'>Smarty</a>|1|436
   <a name='Sven_Efftinge' />Sven Efftinge|<a href='../languages/xtend.html'>Xtend</a>|1|442
   <a name='Sebastian_Zarnekow' />Sebastian Zarnekow|<a href='../languages/xtend.html'>Xtend</a>|1|442
   <a name='Daan_Leijen' />Daan Leijen|<a href='../languages/koka.html'>Koka</a>|1|448
   <a name='Tim_Burks' />Tim Burks|<a href='../languages/nu.html'>Nu</a>|1|453
-  <a name='Gérard_Huet' />Gérard Huet|<a href='../languages/caml.html'>Caml</a>|1|455
-  <a name='Guy_Cousineau' />Guy Cousineau|<a href='../languages/caml.html'>Caml</a>|1|455
-  <a name='Ascánder_Suárez' />Ascánder Suárez|<a href='../languages/caml.html'>Caml</a>|1|455
-  <a name='Pierre_Weis' />Pierre Weis|<a href='../languages/caml.html'>Caml</a>|1|455
-  <a name='Michel_Mauny' />Michel Mauny|<a href='../languages/caml.html'>Caml</a>|1|455
-  <a name='Stepan_Mitkin' />Stepan Mitkin|<a href='../languages/drakon.html'>DRAKON</a>|1|456
+  <a name='Stepan_Mitkin' />Stepan Mitkin|<a href='../languages/drakon.html'>DRAKON</a>|1|455
+  <a name='Gérard_Huet' />Gérard Huet|<a href='../languages/caml.html'>Caml</a>|1|456
+  <a name='Guy_Cousineau' />Guy Cousineau|<a href='../languages/caml.html'>Caml</a>|1|456
+  <a name='Ascánder_Suárez' />Ascánder Suárez|<a href='../languages/caml.html'>Caml</a>|1|456
+  <a name='Pierre_Weis' />Pierre Weis|<a href='../languages/caml.html'>Caml</a>|1|456
+  <a name='Michel_Mauny' />Michel Mauny|<a href='../languages/caml.html'>Caml</a>|1|456
   <a name='Clint_Jeffery' />Clint Jeffery|<a href='../languages/unicon.html'>Unicon</a>|1|461
-  <a name='Stephen_Dolan' />Stephen Dolan|<a href='../languages/jq.html'>jq</a>|1|466
+  <a name='Stephen_Dolan' />Stephen Dolan|<a href='../languages/jq.html'>jq</a>|1|464
   <a name='Jérôme_Jacovella-St-Louis' />Jérôme Jacovella-St-Louis|<a href='../languages/ec.html'>eC</a>|1|467
   <a name='Mahmoud_Fayed' />Mahmoud Fayed|<a href='../languages/ring.html'>Ring</a>|1|468
   <a name='Ian_Keough' />Ian Keough|<a href='../languages/dynamo-visual-language.html'>dynamo-visual-language</a>|1|472
-  <a name='Erik_Svedäng' />Erik Svedäng|<a href='../languages/carp.html'>carp</a>|1|474
+  <a name='Erik_Svedäng' />Erik Svedäng|<a href='../languages/carp.html'>carp</a>|1|476
   <a name='Michael_Hanus' />Michael Hanus|<a href='../languages/curry.html'>Curry</a>|1|484
   <a name='Sergio_Antoy' />Sergio Antoy|<a href='../languages/curry.html'>Curry</a>|1|484
   <a name='Christian_Zangl' />Christian Zangl|<a href='../languages/hjson.html'>Hjson</a>|1|486
@@ -280,18 +280,18 @@ replace TABLE
   <a name='Birger_Møller-Pedersen' />Birger Møller-Pedersen|<a href='../languages/beta.html'>BETA</a>|1|487
   <a name='Kristen_Nygaard' />Kristen Nygaard|<a href='../languages/beta.html'>BETA</a>|1|487
   <a name='Yuanming_Hu' />Yuanming Hu|<a href='../languages/taichi.html'>Taichi</a>|1|496
-  <a name='David_Madore' />David Madore|<a href='../languages/unlambda.html'>UNLAMBDA</a>|1|500
+  <a name='Theo_Weidmann' />Theo Weidmann|<a href='../languages/emojicode.html'>Emojicode</a>|1|498
+  <a name='David_Madore' />David Madore|<a href='../languages/unlambda.html'>UNLAMBDA</a>|1|501
   <a name='Rob_Gordon' />Rob Gordon|<a href='../languages/flowchart-fun.html'>flowchart.fun</a>|1|502
-  <a name='John_Skaller' />John Skaller|<a href='../languages/felix.html'>Felix</a>|1|503
-  <a name='Benjamin_Lupton' />Benjamin Lupton|<a href='../languages/cson.html'>CSON</a>|1|505
-  <a name='Theo_Weidmann' />Theo Weidmann|<a href='../languages/emojicode.html'>Emojicode</a>|1|512
+  <a name='John_Skaller' />John Skaller|<a href='../languages/felix.html'>Felix</a>|1|504
+  <a name='Benjamin_Lupton' />Benjamin Lupton|<a href='../languages/cson.html'>CSON</a>|1|506
   <a name='Jeremy_Allaire' />Jeremy Allaire|<a href='../languages/cfml.html'>CFML</a>|1|513
   <a name='Sloum' />Sloum|<a href='../languages/slope.html'>Slope</a>|1|514
-  <a name='Aubrey_Jaffer' />Aubrey Jaffer|<a href='../languages/guile.html'>Guile</a> - <a href='../languages/scm.html'>SCM</a>|2|515
-  <a name='Tom_Lord' />Tom Lord|<a href='../languages/guile.html'>Guile</a>|1|515
-  <a name='Miles_Bader' />Miles Bader|<a href='../languages/guile.html'>Guile</a>|1|515
-  <a name='Jonathan_Blow' />Jonathan Blow|<a href='../languages/jai.html'>JAI</a>|1|519
-  <a name='Superstar64' />Superstar64|<a href='../languages/aith.html'>Aith</a>|1|521
+  <a name='Aubrey_Jaffer' />Aubrey Jaffer|<a href='../languages/guile.html'>Guile</a> - <a href='../languages/scm.html'>SCM</a>|2|516
+  <a name='Tom_Lord' />Tom Lord|<a href='../languages/guile.html'>Guile</a>|1|516
+  <a name='Miles_Bader' />Miles Bader|<a href='../languages/guile.html'>Guile</a>|1|516
+  <a name='Superstar64' />Superstar64|<a href='../languages/aith.html'>Aith</a>|1|520
+  <a name='Jonathan_Blow' />Jonathan Blow|<a href='../languages/jai.html'>JAI</a>|1|521
   <a name='Andreas_Jönsson' />Andreas Jönsson|<a href='../languages/angelscript.html'>Angelscript</a>|1|522
   <a name='Lars_Pensjö' href='https://en.wikipedia.org/wiki/Lars_Pensjö'>Lars Pensjö</a>|<a href='../languages/lpc.html'>LPC</a>|1|524
   <a name='Pavel_Avgustinov' />Pavel Avgustinov|<a href='../languages/codeql.html'>CodeQL</a>|1|530
@@ -310,7 +310,7 @@ replace TABLE
   <a name='Mikhail_Yakshin' />Mikhail Yakshin|<a href='../languages/kaitai.html'>kaitai</a>|1|560
   <a name='Walter_Smith' />Walter Smith|<a href='../languages/newtonscript.html'>NewtonScript</a>|1|565
   <a name='Lépine_Kong' />Lépine Kong|<a href='../languages/readable.html'>Readable</a>|1|566
-  <a name='James_Shubin' />James Shubin|<a href='../languages/mgmt.html'>mgmt</a>|1|569
+  <a name='James_Shubin' />James Shubin|<a href='../languages/mgmt.html'>mgmt</a>|1|568
   <a name='Christopher_Strachey' />Christopher Strachey|<a href='../languages/cpl.html'>CPL</a>|1|570
   <a name='Chris_Wanstrath' />Chris Wanstrath|<a href='../languages/mustache.html'>mustache</a>|1|573
   <a name='Xavier_Badosa' />Xavier Badosa|<a href='../languages/json-stat.html'>JSON-stat</a>|1|575
@@ -332,7 +332,7 @@ replace TABLE
   <a name='Maxim_Kim' />Maxim Kim|<a href='../languages/vimwiki.html'>Vimwiki</a>|1|605
   <a name='Joe_Gibbs_Politz' />Joe Gibbs Politz|<a href='../languages/pyret.html'>pyret</a> - <a href='../languages/pyret-lang.html'>Pyret</a>|2|608
   <a name='Eli_Luberoff' />Eli Luberoff|<a href='../languages/desmos.html'>Desmos</a>|1|609
-  <a name='Mike_Jenkins' />Mike Jenkins|<a href='../languages/nial.html'>Nial</a>|1|611
+  <a name='Mike_Jenkins' />Mike Jenkins|<a href='../languages/nial.html'>Nial</a>|1|614
   <a name='Charles_Goldfarb' href='https://en.wikipedia.org/wiki/Charles_Goldfarb'>Charles Goldfarb</a>|<a href='../languages/ibm-gml.html'>GML</a>|1|620
   <a name='Edward_Mosher' />Edward Mosher|<a href='../languages/ibm-gml.html'>GML</a>|1|620
   <a name='Raymond_Lorie' />Raymond Lorie|<a href='../languages/ibm-gml.html'>GML</a>|1|620
@@ -343,28 +343,28 @@ replace TABLE
   <a name='James_Davenport' />James Davenport|<a href='../languages/aldor.html'>Aldor</a>|1|637
   <a name='Robert_Sutor' />Robert Sutor|<a href='../languages/aldor.html'>Aldor</a>|1|637
   <a name='Scott_Morrison' />Scott Morrison|<a href='../languages/aldor.html'>Aldor</a>|1|637
-  <a name='Amos_Wenger' />Amos Wenger|<a href='../languages/ooc.html'>ooc</a>|1|638
+  <a name='Amos_Wenger' />Amos Wenger|<a href='../languages/ooc.html'>ooc</a>|1|639
   <a name='Max_Krohn' />Max Krohn|<a href='../languages/icedcoffeescript.html'>IcedCoffeeScript</a>|1|640
   <a name='Michael_F._King' />Michael F. King|<a href='../languages/providex.html'>ProvideX</a>|1|644
-  <a name='Charles_Esterbrook' />Charles Esterbrook|<a href='../languages/cobra.html'>Cobra</a>|1|646
-  <a name='Kartik_K._Agaram' />Kartik K. Agaram|<a href='../languages/mu.html'>Mu</a> - <a href='../languages/wart.html'>Wart</a> - <a href='../languages/subx.html'>SubX</a>|3|647
-  <a name='KS_Sreeram' />KS Sreeram|<a href='../languages/clay.html'>clay</a>|1|648
-  <a name='Joe_Groff' />Joe Groff|<a href='../languages/clay.html'>clay</a> - <a href='../languages/fml-lang.html'>FML</a> - <a href='../languages/newclay.html'>newclay</a>|3|648
-  <a name='John_MacFarlane' />John MacFarlane|<a href='../languages/commonmark.html'>commonmark</a>|1|650
-  <a name='Jean_Privat' />Jean Privat|<a href='../languages/nit.html'>Nit</a>|1|652
-  <a name='Tim_Disney' />Tim Disney|<a href='../languages/contracts.coffee.html'>contracts.coffee</a> - <a href='../languages/sweetjs.html'>Sweet.js</a>|2|654
-  <a name='Damien_P._George' />Damien P. George|<a href='../languages/micropython.html'>MicroPython</a>|1|656
-  <a name='Miao_Jiang' />Miao Jiang|<a href='../languages/toffeescript.html'>ToffeeScript</a>|1|661
-  <a name='Frank_van_Viegen' />Frank van Viegen|<a href='../languages/blackcoffee.html'>BlackCoffee</a>|1|663
-  <a name='Roman_I._Kuzmin' />Roman I. Kuzmin|<a href='../languages/heap.coffee.html'>heap.coffee</a> - <a href='../languages/caffeine.html'>Caffeine</a>|2|664
-  <a name='Evgeny_Skvortsov' />Evgeny Skvortsov|<a href='../languages/logica.html'>Logica</a>|1|665
-  <a name='Michael_Ficarra' />Michael Ficarra|<a href='../languages/emberscript.html'>EmberScript</a>|1|666
-  <a name='Gordon_L._Hempton' />Gordon L. Hempton|<a href='../languages/emberscript.html'>EmberScript</a>|1|666
+  <a name='Kartik_K._Agaram' />Kartik K. Agaram|<a href='../languages/mu.html'>Mu</a> - <a href='../languages/wart.html'>Wart</a> - <a href='../languages/subx.html'>SubX</a>|3|645
+  <a name='Michael_Ficarra' />Michael Ficarra|<a href='../languages/emberscript.html'>EmberScript</a>|1|646
+  <a name='Gordon_L._Hempton' />Gordon L. Hempton|<a href='../languages/emberscript.html'>EmberScript</a>|1|646
+  <a name='Charles_Esterbrook' />Charles Esterbrook|<a href='../languages/cobra.html'>Cobra</a>|1|648
+  <a name='KS_Sreeram' />KS Sreeram|<a href='../languages/clay.html'>clay</a>|1|649
+  <a name='Joe_Groff' />Joe Groff|<a href='../languages/clay.html'>clay</a> - <a href='../languages/fml-lang.html'>FML</a> - <a href='../languages/newclay.html'>newclay</a>|3|649
+  <a name='John_MacFarlane' />John MacFarlane|<a href='../languages/commonmark.html'>commonmark</a>|1|651
+  <a name='Jean_Privat' />Jean Privat|<a href='../languages/nit.html'>Nit</a>|1|653
+  <a name='Tim_Disney' />Tim Disney|<a href='../languages/contracts.coffee.html'>contracts.coffee</a> - <a href='../languages/sweetjs.html'>Sweet.js</a>|2|655
+  <a name='Damien_P._George' />Damien P. George|<a href='../languages/micropython.html'>MicroPython</a>|1|657
+  <a name='Miao_Jiang' />Miao Jiang|<a href='../languages/toffeescript.html'>ToffeeScript</a>|1|662
+  <a name='Frank_van_Viegen' />Frank van Viegen|<a href='../languages/blackcoffee.html'>BlackCoffee</a>|1|664
+  <a name='Roman_I._Kuzmin' />Roman I. Kuzmin|<a href='../languages/heap.coffee.html'>heap.coffee</a> - <a href='../languages/caffeine.html'>Caffeine</a>|2|665
+  <a name='Evgeny_Skvortsov' />Evgeny Skvortsov|<a href='../languages/logica.html'>Logica</a>|1|666
   <a name='Maxim_Gumin' />Maxim Gumin|<a href='../languages/markovjunior.html'>MarkovJunior</a>|1|667
   <a name='Alexandre_Plateau' />Alexandre Plateau|<a href='../languages/arkscript.html'>ArkScript</a>|1|677
   <a name='Pierre_Pharel' />Pierre Pharel|<a href='../languages/arkscript.html'>ArkScript</a>|1|677
   <a name='Natendrtfm' />Natendrtfm|<a href='../languages/arkscript.html'>ArkScript</a>|1|677
-  <a name='Scott_Graham' />Scott Graham|<a href='../languages/skulpt.html'>skulpt</a>|1|679
+  <a name='Scott_Graham' />Scott Graham|<a href='../languages/skulpt.html'>skulpt</a>|1|678
   <a name='Richard_E._Pattis' />Richard E. Pattis|<a href='../languages/karel.html'>Karel</a>|1|680
   <a name='Ryan_Stewart' />Ryan Stewart|<a href='../languages/hasklig.html'>hasklig</a>|1|683
   <a name='Manfred_von_Thun' />Manfred von Thun|<a href='../languages/joy.html'>Joy</a>|1|685
@@ -378,7 +378,7 @@ replace TABLE
   <a name='Jake_Fecher' />Jake Fecher|<a href='../languages/ante.html'>Ante</a>|1|704
   <a name='Gottfried_Leibniz' />Gottfried Leibniz|<a href='../languages/binary-notation.html'>Binary notation</a>|1|710
   <a name='Antonio_Linares' />Antonio Linares|<a href='../languages/harbour.html'>Harbour</a>|1|711
-  <a name='Louis_Pilfold' />Louis Pilfold|<a href='../languages/gleam.html'>gleam</a>|1|713
+  <a name='Louis_Pilfold' />Louis Pilfold|<a href='../languages/gleam.html'>gleam</a>|1|712
   <a name='Johan_Johansson' />Johan Johansson|<a href='../languages/carth.html'>carth</a>|1|719
   <a name='Yoav_Lavi' />Yoav Lavi|<a href='../languages/melody.html'>Melody</a>|1|722
   <a name='Christophe_de_Dinechin' />Christophe de Dinechin|<a href='../languages/xl-lang.html'>XL</a> - <a href='../languages/tao3d.html'>tao3d</a> - <a href='../languages/elfe.html'>ELFE</a>|3|727
@@ -388,7 +388,7 @@ replace TABLE
   <a name='Dan_Onoshko' />Dan Onoshko|<a href='../languages/colascript.html'>ColaScript</a>|1|745
   <a name='Jovansonlee_Cesar' />Jovansonlee Cesar|<a href='../languages/svgbob.html'>svgbob</a>|1|755
   <a name='Valentin_Turchin' />Valentin Turchin|<a href='../languages/refal.html'>Refal</a>|1|756
-  <a name='Arvid_E._Picciani' />Arvid E. Picciani|<a href='../languages/zz.html'>zz</a>|1|761
+  <a name='Arvid_E._Picciani' />Arvid E. Picciani|<a href='../languages/zz.html'>zz</a>|1|760
   <a name='Phil_Winterbottom' />Phil Winterbottom|<a href='../languages/alef.html'>ALEF</a>|1|762
   <a name='David_Tarditi' />David Tarditi|<a href='../languages/checked-c.html'>checked-c</a>|1|765
   <a name='Jakob_Olesen' />Jakob Olesen|<a href='../languages/cranelift-ir.html'>Cranelift</a>|1|769
@@ -423,13 +423,13 @@ replace TABLE
   <a name='Shunsuke_Shibayama' />Shunsuke Shibayama|<a href='../languages/erg.html'>erg</a>|1|854
   <a name='Charles_Loomis' />Charles Loomis|<a href='../languages/pan.html'>Pan</a>|1|855
   <a name='Martin_Šošić' />Martin Šošić|<a href='../languages/wasp-lang.html'>Wasp</a>|1|858
-  <a name='Axel_Liljencrantz' />Axel Liljencrantz|<a href='../languages/crush.html'>crush</a>|1|860
-  <a name='Conor_McBride' />Conor McBride|<a href='../languages/epigram.html'>Epigram</a> - <a href='../languages/frank-lang.html'>Frank</a>|2|861
+  <a name='Axel_Liljencrantz' />Axel Liljencrantz|<a href='../languages/crush.html'>crush</a>|1|859
+  <a name='Conor_McBride' />Conor McBride|<a href='../languages/epigram.html'>Epigram</a> - <a href='../languages/frank-lang.html'>Frank</a>|2|862
   <a name='Rijnard_van_Tonder' />Rijnard van Tonder|<a href='../languages/comby.html'>comby</a>|1|863
   <a name='Cliff_Shaw' />Cliff Shaw|<a href='../languages/joss.html'>JOSS</a>|1|866
-  <a name='Corey_Montella' />Corey Montella|<a href='../languages/mech-lang.html'>Mech</a>|1|868
-  <a name='Muthu_Annamalai' />Muthu Annamalai|<a href='../languages/ezhil.html'>Ezhil</a>|1|869
-  <a name='Richard_Merrill' />Richard Merrill|<a href='../languages/focal.html'>Formulating On-Line Calculations in Algebraic Language</a>|1|872
+  <a name='Corey_Montella' />Corey Montella|<a href='../languages/mech-lang.html'>Mech</a>|1|867
+  <a name='Muthu_Annamalai' />Muthu Annamalai|<a href='../languages/ezhil.html'>Ezhil</a>|1|868
+  <a name='Richard_Merrill' />Richard Merrill|<a href='../languages/focal.html'>Formulating On-Line Calculations in Algebraic Language</a>|1|871
   <a name='Paulo_Moura' />Paulo Moura|<a href='../languages/logtalk.html'>Logtalk</a>|1|875
   <a name='Saptak' />Saptak|<a href='../languages/swallow.html'>Swallow</a>|1|878
   <a name='Steve_Vickers' />Steve Vickers|<a href='../languages/sinclair-basic.html'>Sinclair BASIC</a>|1|880
@@ -450,10 +450,10 @@ replace TABLE
   <a name='Sean_Baxter' />Sean Baxter|<a href='../languages/circle-lang.html'>circle-lang</a>|1|931
   <a name='Qichao_Lan' />Qichao Lan|<a href='../languages/glicol.html'>Glicol</a>|1|935
   <a name='Peter_Landin' />Peter Landin|<a href='../languages/iswim.html'>ISWIM</a>|1|936
-  <a name='Wouter_Van_Oortmerssen' />Wouter Van Oortmerssen|<a href='../languages/sheep-lang.html'>Sheep</a> - <a href='../languages/amiga-e.html'>Amiga E</a> - <a href='../languages/bla.html'>Bla</a> - <a href='../languages/false.html'>False</a> - <a href='../languages/aardappel.html'>Aardappel</a>|5|939
-  <a name='Aurelio_Jargas' />Aurelio Jargas|<a href='../languages/txt2tags.html'>Txt2tags</a>|1|940
-  <a name='Florent_Gallaire' />Florent Gallaire|<a href='../languages/txt2tags.html'>Txt2tags</a>|1|940
-  <a name='Jendrik_Seipp' />Jendrik Seipp|<a href='../languages/txt2tags.html'>Txt2tags</a>|1|940
+  <a name='Wouter_Van_Oortmerssen' />Wouter Van Oortmerssen|<a href='../languages/sheep-lang.html'>Sheep</a> - <a href='../languages/amiga-e.html'>Amiga E</a> - <a href='../languages/bla.html'>Bla</a> - <a href='../languages/false.html'>False</a> - <a href='../languages/aardappel.html'>Aardappel</a>|5|941
+  <a name='Aurelio_Jargas' />Aurelio Jargas|<a href='../languages/txt2tags.html'>Txt2tags</a>|1|942
+  <a name='Florent_Gallaire' />Florent Gallaire|<a href='../languages/txt2tags.html'>Txt2tags</a>|1|942
+  <a name='Jendrik_Seipp' />Jendrik Seipp|<a href='../languages/txt2tags.html'>Txt2tags</a>|1|942
   <a name='Microsoft' />Microsoft|<a href='../languages/al.html'>AL</a>|1|946
   <a name='Christoffer_Lerno' />Christoffer Lerno|<a href='../languages/c3.html'>c3</a>|1|948
   <a name='Elucian_Moise' />Elucian Moise|<a href='../languages/bee.html'>bee</a>|1|949
@@ -461,7 +461,7 @@ replace TABLE
   <a name='Alex_Browne' />Alex Browne|<a href='../languages/fo.html'>fo</a>|1|952
   <a name='Federico_Ramirez' />Federico Ramirez|<a href='../languages/pasukon.html'>pasukon</a>|1|954
   <a name='David_Olofson' />David Olofson|<a href='../languages/extensible-embeddable-language.html'>Extensible Embeddable Language</a>|1|955
-  <a name='Ben_Lerner' />Ben Lerner|<a href='../languages/pyret-lang.html'>Pyret</a>|1|961
+  <a name='Ben_Lerner' />Ben Lerner|<a href='../languages/pyret-lang.html'>Pyret</a>|1|960
   <a name='Dean_Mao' />Dean Mao|<a href='../languages/yawl.html'>YAWL</a>|1|964
   <a name='David_Szafranski' />David Szafranski|<a href='../languages/xblite.html'>XBLite</a>|1|966
   <a name='Doug_Moen' />Doug Moen|<a href='../languages/curv.html'>curv</a>|1|967
@@ -476,8 +476,8 @@ replace TABLE
   <a name='Victor_Nakoryakov' />Victor Nakoryakov|<a href='../languages/xodio.html'>xodio</a>|1|997
   <a name='Ben_Morris' />Ben Morris|<a href='../languages/kitlang.html'>kitlang</a>|1|1001
   <a name='Isaac_Cayton_(slightknack)' />Isaac Cayton (slightknack)|<a href='../languages/passerine.html'>Passerine</a>|1|1002
-  <a name='Leandro_Ostera' />Leandro Ostera|<a href='../languages/caramel.html'>Caramel</a>|1|1010
-  <a name='Brian_Harvey' />Brian Harvey|<a href='../languages/snap.html'>Snap!</a>|1|1011
+  <a name='Leandro_Ostera' />Leandro Ostera|<a href='../languages/caramel.html'>Caramel</a>|1|1011
+  <a name='Brian_Harvey' />Brian Harvey|<a href='../languages/snap.html'>Snap!</a>|1|1012
   <a name='Rohan_Singh' />Rohan Singh|<a href='../languages/mond.html'>Mond</a>|1|1019
   <a name='Denis_Stebunov' />Denis Stebunov|<a href='../languages/djangoql.html'>djangoql</a>|1|1021
   <a name='Daniel_G._Bobrow' />Daniel G. Bobrow|<a href='../languages/krl.html'>KRL</a> - <a href='../languages/interlisp.html'>Interlisp</a>|2|1023
@@ -487,10 +487,10 @@ replace TABLE
   <a name='Ben_Greenman' />Ben Greenman|<a href='../languages/turnstile.html'>turnstile</a>|1|1025
   <a name='Milo_Turner' />Milo Turner|<a href='../languages/turnstile.html'>turnstile</a>|1|1025
   <a name='Michael_Ballantyne' />Michael Ballantyne|<a href='../languages/turnstile.html'>turnstile</a>|1|1025
-  <a name='Yoann_Padioleau' />Yoann Padioleau|<a href='../languages/smpl.html'>Semantic Patch Language</a>|1|1028
-  <a name='Martin_F._Johansen' />Martin F. Johansen|<a href='../languages/progsbase.html'>progsbase</a>|1|1029
-  <a name='Simon_C._Nash' />Simon C. Nash|<a href='../languages/object-rexx.html'>Object Rexx</a>|1|1037
-  <a name='Denis_Merigoux' />Denis Merigoux|<a href='../languages/catala.html'>Catala</a>|1|1040
+  <a name='Martin_F._Johansen' />Martin F. Johansen|<a href='../languages/progsbase.html'>progsbase</a>|1|1028
+  <a name='Yoann_Padioleau' />Yoann Padioleau|<a href='../languages/smpl.html'>Semantic Patch Language</a>|1|1029
+  <a name='Denis_Merigoux' />Denis Merigoux|<a href='../languages/catala.html'>Catala</a>|1|1037
+  <a name='Simon_C._Nash' />Simon C. Nash|<a href='../languages/object-rexx.html'>Object Rexx</a>|1|1038
   <a name='Philippe_Mougin' />Philippe Mougin|<a href='../languages/f-script.html'>F-Script</a>|1|1042
   <a name='Warren_Teitelman' />Warren Teitelman|<a href='../languages/interlisp.html'>Interlisp</a>|1|1044
   <a name='Ronald_Kaplan' />Ronald Kaplan|<a href='../languages/interlisp.html'>Interlisp</a>|1|1044
@@ -504,25 +504,25 @@ replace TABLE
   <a name='Chris_Hawblitzel' />Chris Hawblitzel|<a href='../languages/vale-assembly.html'>Vale</a>|1|1061
   <a name='David_Gelernter' />David Gelernter|<a href='../languages/linda.html'>Linda</a>|1|1070
   <a name='Felix_Angell' />Felix Angell|<a href='../languages/jayfor.html'>jayfor</a>|1|1072
-  <a name='Amit_Kapoor' />Amit Kapoor|<a href='../languages/visdown.html'>visdown</a>|1|1073
-  <a name='Makoto_Murata' />Makoto Murata|<a href='../languages/relax.html'>relax</a>|1|1077
-  <a name='Gilad_Bracha' />Gilad Bracha|<a href='../languages/newspeak.html'>Newspeak</a>|1|1080
-  <a name='Jürg_Gutknecht' />Jürg Gutknecht|<a href='../languages/zonnon.html'>Zonnon</a>|1|1083
-  <a name='Olle_Fredriksson' />Olle Fredriksson|<a href='../languages/sixten.html'>sixten</a>|1|1091
-  <a name='Khaled_Mardam-Bey' />Khaled Mardam-Bey|<a href='../languages/mirc.html'>MIRC scripting language</a>|1|1092
-  <a name='Alexey_Krivonogov' />Alexey Krivonogov|<a href='../languages/gentee.html'>gentee</a>|1|1093
-  <a name='Todd_Davies' />Todd Davies|<a href='../languages/executable-json.html'>Executable JSON</a>|1|1096
-  <a name='Tom_Duff' />Tom Duff|<a href='../languages/rc.html'>Rc</a>|1|1099
-  <a name='Carl_Hewitt' />Carl Hewitt|<a href='../languages/planner.html'>PLANNER</a>|1|1100
-  <a name='Børge_R._Christensen' />Børge R. Christensen|<a href='../languages/comal.html'>COMAL</a>|1|1101
-  <a name='Benedict_Løfstedt' />Benedict Løfstedt|<a href='../languages/comal.html'>COMAL</a>|1|1101
-  <a name='Konrad_Zuse' href='https://en.wikipedia.org/wiki/Konrad_Zuse'>Konrad Zuse</a>|<a href='../languages/plankalkul.html'>Plankalkul</a>|1|1103
-  <a name='Viktor_Turskyi' />Viktor Turskyi|<a href='../languages/livr.html'>Livr</a>|1|1108
-  <a name='Andrey_Ershov' />Andrey Ershov|<a href='../languages/rapira.html'>Rapira</a>|1|1113
-  <a name='Isaac_Shelton' />Isaac Shelton|<a href='../languages/adept.html'>Adept</a>|1|1115
-  <a name='Konstantin_Morshnev' />Konstantin Morshnev|<a href='../languages/parser.html'>Parser 3</a>|1|1116
-  <a name='Ethan_Nicholas' />Ethan Nicholas|<a href='../languages/frost.html'>Frost</a>|1|1117
-  <a name='Lars_Marius_Garshol' />Lars Marius Garshol|<a href='../languages/jslt.html'>JSLT</a>|1|1119
+  <a name='Amit_Kapoor' />Amit Kapoor|<a href='../languages/visdown.html'>visdown</a>|1|1075
+  <a name='Makoto_Murata' />Makoto Murata|<a href='../languages/relax.html'>relax</a>|1|1078
+  <a name='Gilad_Bracha' />Gilad Bracha|<a href='../languages/newspeak.html'>Newspeak</a>|1|1081
+  <a name='Jürg_Gutknecht' />Jürg Gutknecht|<a href='../languages/zonnon.html'>Zonnon</a>|1|1084
+  <a name='Olle_Fredriksson' />Olle Fredriksson|<a href='../languages/sixten.html'>sixten</a>|1|1092
+  <a name='Khaled_Mardam-Bey' />Khaled Mardam-Bey|<a href='../languages/mirc.html'>MIRC scripting language</a>|1|1095
+  <a name='Alexey_Krivonogov' />Alexey Krivonogov|<a href='../languages/gentee.html'>gentee</a>|1|1096
+  <a name='Todd_Davies' />Todd Davies|<a href='../languages/executable-json.html'>Executable JSON</a>|1|1099
+  <a name='Tom_Duff' />Tom Duff|<a href='../languages/rc.html'>Rc</a>|1|1100
+  <a name='Carl_Hewitt' />Carl Hewitt|<a href='../languages/planner.html'>PLANNER</a>|1|1101
+  <a name='Børge_R._Christensen' />Børge R. Christensen|<a href='../languages/comal.html'>COMAL</a>|1|1102
+  <a name='Benedict_Løfstedt' />Benedict Løfstedt|<a href='../languages/comal.html'>COMAL</a>|1|1102
+  <a name='Konrad_Zuse' href='https://en.wikipedia.org/wiki/Konrad_Zuse'>Konrad Zuse</a>|<a href='../languages/plankalkul.html'>Plankalkul</a>|1|1104
+  <a name='Viktor_Turskyi' />Viktor Turskyi|<a href='../languages/livr.html'>Livr</a>|1|1109
+  <a name='Lars_Marius_Garshol' />Lars Marius Garshol|<a href='../languages/jslt.html'>JSLT</a>|1|1114
+  <a name='Andrey_Ershov' />Andrey Ershov|<a href='../languages/rapira.html'>Rapira</a>|1|1115
+  <a name='Isaac_Shelton' />Isaac Shelton|<a href='../languages/adept.html'>Adept</a>|1|1117
+  <a name='Konstantin_Morshnev' />Konstantin Morshnev|<a href='../languages/parser.html'>Parser 3</a>|1|1118
+  <a name='Ethan_Nicholas' />Ethan Nicholas|<a href='../languages/frost.html'>Frost</a>|1|1119
   <a name='Alessandro_Nadalin' />Alessandro Nadalin|<a href='../languages/abs.html'>abs</a>|1|1121
   <a name='Egil_Möller' />Egil Möller|<a href='../languages/i-expressions.html'>I-expressions</a>|1|1124
   <a name='Vasiliy_Tereshkov' />Vasiliy Tereshkov|<a href='../languages/umka.html'>Umka</a>|1|1125
@@ -536,8 +536,8 @@ replace TABLE
   <a name='Vincent_Cecil_Secades' />Vincent Cecil Secades|<a href='../languages/cms-2.html'>CMS-2</a>|1|1171
   <a name='David_Clark_Rummler' />David Clark Rummler|<a href='../languages/cms-2.html'>CMS-2</a>|1|1171
   <a name='James_McGraw' />James McGraw|<a href='../languages/sisal.html'>SISAL</a>|1|1172
-  <a name='Edward_A._Ashcroft' />Edward A. Ashcroft|<a href='../languages/lucid.html'>LUCID</a>|1|1173
-  <a name='William_W._Wadge' />William W. Wadge|<a href='../languages/lucid.html'>LUCID</a>|1|1173
+  <a name='Edward_A._Ashcroft' />Edward A. Ashcroft|<a href='../languages/lucid.html'>LUCID</a>|1|1174
+  <a name='William_W._Wadge' />William W. Wadge|<a href='../languages/lucid.html'>LUCID</a>|1|1174
   <a name='Brendan_Zabarauskas' />Brendan Zabarauskas|<a href='../languages/pikelet.html'>pikelet</a>|1|1176
   <a name='Jayadev_Misra' />Jayadev Misra|<a href='../languages/orc-lang.html'>Orc</a>|1|1180
   <a name='Linus_Lee' />Linus Lee|<a href='../languages/ink-lang.html'>ink-lang</a> - <a href='../languages/tabloid.html'>Tabloid</a>|2|1185
@@ -562,8 +562,8 @@ replace TABLE
   <a name='Michael_Droettboom' />Michael Droettboom|<a href='../languages/asdf.html'>ASDF</a>|1|1223
   <a name='Erik_M._Bray' />Erik M. Bray|<a href='../languages/asdf.html'>ASDF</a>|1|1223
   <a name='Juan_Batiz-Benet' />Juan Batiz-Benet|<a href='../languages/multiaddr.html'>multiaddr</a>|1|1227
-  <a name='Jacob_Torrey' />Jacob Torrey|<a href='../languages/crema.html'>Crema</a>|1|1228
-  <a name='Jared_Wright' />Jared Wright|<a href='../languages/crema.html'>Crema</a>|1|1228
+  <a name='Jacob_Torrey' />Jacob Torrey|<a href='../languages/crema.html'>Crema</a>|1|1229
+  <a name='Jared_Wright' />Jared Wright|<a href='../languages/crema.html'>Crema</a>|1|1229
   <a name='Michael_Stonebraker' />Michael Stonebraker|<a href='../languages/quel.html'>QUEL</a>|1|1233
   <a name='Jacob_Rothstein' />Jacob Rothstein|<a href='../languages/sibilant.html'>Sibilant</a>|1|1236
   <a name='Dave_Cunningham' />Dave Cunningham|<a href='../languages/jsonnet.html'>Jsonnet</a>|1|1244
@@ -585,9 +585,9 @@ replace TABLE
   <a name='David_Crawshaw' />David Crawshaw|<a href='../languages/hujson.html'>HuJSON</a>|1|1289
   <a name='Marcus_Westin' />Marcus Westin|<a href='../languages/fun.html'>Fun</a>|1|1296
   <a name='Mark_Summerfield' />Mark Summerfield|<a href='../languages/uxf.html'>Uniform eXchange Format</a>|1|1297
-  <a name='Marc_Schellens' />Marc Schellens|<a href='../languages/gdl.html'>GNU Data Language</a>|1|1301
-  <a name='Calvin_Mooers' />Calvin Mooers|<a href='../languages/trac.html'>TRAC</a>|1|1303
-  <a name='Yoichi_Hirai' />Yoichi Hirai|<a href='../languages/bamboo.html'>bamboo</a>|1|1304
+  <a name='Yoichi_Hirai' />Yoichi Hirai|<a href='../languages/bamboo.html'>bamboo</a>|1|1300
+  <a name='Marc_Schellens' />Marc Schellens|<a href='../languages/gdl.html'>GNU Data Language</a>|1|1302
+  <a name='Calvin_Mooers' />Calvin Mooers|<a href='../languages/trac.html'>TRAC</a>|1|1304
   <a name='niql' />niql|<a href='../languages/wu.html'>Wu</a>|1|1305
   <a name='John_Carmack' />John Carmack|<a href='../languages/quakec.html'>QuakeC</a>|1|1314
   <a name='Ken_Kahn' />Ken Kahn|<a href='../languages/toontalk.html'>ToonTalk</a> - <a href='../languages/janus-programming-language.html'>Janus</a>|2|1315
@@ -627,8 +627,8 @@ replace TABLE
   <a name='Marko_A._Rodriguez' />Marko A. Rodriguez|<a href='../languages/gremlin.html'>Gremlin</a>|1|1387
   <a name='Sascha-Oliver_Prolic' />Sascha-Oliver Prolic|<a href='../languages/fpp.html'>Functional PHP Preprocessor</a>|1|1393
   <a name='Dejan_Muhamedagic' />Dejan Muhamedagic|<a href='../languages/crmsh.html'>crmsh</a>|1|1395
-  <a name='Bill_Gates' />Bill Gates|<a href='../languages/color-basic.html'>Color BASIC</a>|1|1396
-  <a name='Christopher_Goes' />Christopher Goes|<a href='../languages/juvix.html'>juvix</a>|1|1397
+  <a name='Christopher_Goes' />Christopher Goes|<a href='../languages/juvix.html'>juvix</a>|1|1396
+  <a name='Bill_Gates' />Bill Gates|<a href='../languages/color-basic.html'>Color BASIC</a>|1|1397
   <a name='John_Barnes' />John Barnes|<a href='../languages/rtl-2.html'>RTL/2</a>|1|1403
   <a name='K._Lange' />K. Lange|<a href='../languages/kuroko.html'>Kuroko</a>|1|1406
   <a name='Manuel_Odendahl' />Manuel Odendahl|<a href='../languages/parenscript.html'>Parenscript</a>|1|1408
@@ -646,65 +646,65 @@ replace TABLE
   <a name='Martín_del_Río' />Martín del Río|<a href='../languages/ldpl.html'>ldpl</a>|1|1437
   <a name='Ian_Ward' />Ian Ward|<a href='../languages/ld-json.html'>JSON Lines</a>|1|1439
   <a name='Deian_Stefan' />Deian Stefan|<a href='../languages/fact-lang.html'>FaCT</a>|1|1440
-  <a name='Cameron_McKinnon' />Cameron McKinnon|<a href='../languages/parenthetic.html'>parenthetic</a>|1|1443
-  <a name='Steven_Pemberton' />Steven Pemberton|<a href='../languages/ixml.html'>Invisible XML</a>|1|1448
-  <a name='Michael_Allan' />Michael Allan|<a href='../languages/breccia.html'>Breccia</a>|1|1449
-  <a name='Seth_Tucker_Taft' />Seth Tucker Taft|<a href='../languages/parasail.html'>parasail</a>|1|1450
-  <a name='E._Dean_Tribble' />E. Dean Tribble|<a href='../languages/joule.html'>Joule</a>|1|1453
-  <a name='Victor_Yngve' />Victor Yngve|<a href='../languages/comit.html'>COMIT</a>|1|1455
-  <a name='Erel_Uziel' />Erel Uziel|<a href='../languages/basic4ppc.html'>Basic4ppc</a>|1|1456
+  <a name='Alex_Rakov' />Alex Rakov|<a href='../languages/elena.html'>elena</a>|1|1442
+  <a name='Cameron_McKinnon' />Cameron McKinnon|<a href='../languages/parenthetic.html'>parenthetic</a>|1|1444
+  <a name='Steven_Pemberton' />Steven Pemberton|<a href='../languages/ixml.html'>Invisible XML</a>|1|1449
+  <a name='Michael_Allan' />Michael Allan|<a href='../languages/breccia.html'>Breccia</a>|1|1450
+  <a name='Seth_Tucker_Taft' />Seth Tucker Taft|<a href='../languages/parasail.html'>parasail</a>|1|1451
+  <a name='E._Dean_Tribble' />E. Dean Tribble|<a href='../languages/joule.html'>Joule</a>|1|1454
+  <a name='Victor_Yngve' />Victor Yngve|<a href='../languages/comit.html'>COMIT</a>|1|1456
+  <a name='Erel_Uziel' />Erel Uziel|<a href='../languages/basic4ppc.html'>Basic4ppc</a>|1|1457
   <a name='Tamreen_Khan' />Tamreen Khan|<a href='../languages/pharen.html'>Pharen</a>|1|1462
-  <a name='Jens_Haase' />Jens Haase|<a href='../languages/phel.html'>Phel</a>|1|1467
-  <a name='Avery_N._Nortonsmith' />Avery N. Nortonsmith|<a href='../languages/pointless.html'>pointless</a>|1|1479
-  <a name='John_Lloyd' />John Lloyd|<a href='../languages/godel.html'>Gödel</a>|1|1481
-  <a name='Patricia_Hill' />Patricia Hill|<a href='../languages/godel.html'>Gödel</a>|1|1481
-  <a name='Nicholas_Bollweg' />Nicholas Bollweg|<a href='../languages/tangledown.html'>tangledown</a>|1|1483
-  <a name='Richard_Newman' />Richard Newman|<a href='../languages/project-mentat.html'>Project Mentat</a>|1|1484
-  <a name='Lucas_de_Sena' />Lucas de Sena|<a href='../languages/incipit.html'>Incipit</a>|1|1486
-  <a name='m-schm' />m-schm|<a href='../languages/topaz-lang.html'>Topaz</a>|1|1487
-  <a name='Martin_Büttner' />Martin Büttner|<a href='../languages/hexagony.html'>hexagony</a>|1|1491
-  <a name='Jonathan_Sterling' />Jonathan Sterling|<a href='../languages/redprl.html'>redprl</a> - <a href='../languages/jonprl.html'>jonprl</a>|2|1498
-  <a name='Butler_Lampson' />Butler Lampson|<a href='../languages/euclid.html'>Euclid</a>|1|1503
-  <a name='Alex_Rakov' />Alex Rakov|<a href='../languages/elena.html'>elena</a>|1|1506
-  <a name='Robert_Fratto' />Robert Fratto|<a href='../languages/orange.html'>orange</a>|1|1507
-  <a name='Manuel_Simoni' />Manuel Simoni|<a href='../languages/taf.html'>taf</a> - <a href='../languages/edgelisp.html'>edgelisp</a>|2|1508
-  <a name='Anthony_M._Cook' />Anthony M. Cook|<a href='../languages/blacklight.html'>Blacklight</a>|1|1509
-  <a name='Brooke_Boering' />Brooke Boering|<a href='../languages/ceemac.html'>CEEMAC</a>|1|1511
-  <a name='Robert_Swierczek' />Robert Swierczek|<a href='../languages/swizzle.html'>swizzle</a>|1|1512
-  <a name='Mehmet_Hakan_Satman' />Mehmet Hakan Satman|<a href='../languages/fuzuli.html'>Fuzuli</a>|1|1513
-  <a name='Hannah_Ritchie' />Hannah Ritchie|<a href='../languages/explorer.html'>Explorer</a>|1|1517
-  <a name='Shahid_Ahmad' />Shahid Ahmad|<a href='../languages/explorer.html'>Explorer</a>|1|1517
+  <a name='Jens_Haase' />Jens Haase|<a href='../languages/phel.html'>Phel</a>|1|1468
+  <a name='Martin_Büttner' />Martin Büttner|<a href='../languages/hexagony.html'>hexagony</a>|1|1478
+  <a name='Avery_N._Nortonsmith' />Avery N. Nortonsmith|<a href='../languages/pointless.html'>pointless</a>|1|1481
+  <a name='John_Lloyd' />John Lloyd|<a href='../languages/godel.html'>Gödel</a>|1|1483
+  <a name='Patricia_Hill' />Patricia Hill|<a href='../languages/godel.html'>Gödel</a>|1|1483
+  <a name='Nicholas_Bollweg' />Nicholas Bollweg|<a href='../languages/tangledown.html'>tangledown</a>|1|1485
+  <a name='Richard_Newman' />Richard Newman|<a href='../languages/project-mentat.html'>Project Mentat</a>|1|1486
+  <a name='Lucas_de_Sena' />Lucas de Sena|<a href='../languages/incipit.html'>Incipit</a>|1|1488
+  <a name='m-schm' />m-schm|<a href='../languages/topaz-lang.html'>Topaz</a>|1|1489
+  <a name='Jonathan_Sterling' />Jonathan Sterling|<a href='../languages/redprl.html'>redprl</a> - <a href='../languages/jonprl.html'>jonprl</a>|2|1499
+  <a name='Butler_Lampson' />Butler Lampson|<a href='../languages/euclid.html'>Euclid</a>|1|1504
+  <a name='Robert_Fratto' />Robert Fratto|<a href='../languages/orange.html'>orange</a>|1|1509
+  <a name='Manuel_Simoni' />Manuel Simoni|<a href='../languages/taf.html'>taf</a> - <a href='../languages/edgelisp.html'>edgelisp</a>|2|1510
+  <a name='Anthony_M._Cook' />Anthony M. Cook|<a href='../languages/blacklight.html'>Blacklight</a>|1|1511
+  <a name='Brooke_Boering' />Brooke Boering|<a href='../languages/ceemac.html'>CEEMAC</a>|1|1513
+  <a name='Robert_Swierczek' />Robert Swierczek|<a href='../languages/swizzle.html'>swizzle</a>|1|1514
+  <a name='Mehmet_Hakan_Satman' />Mehmet Hakan Satman|<a href='../languages/fuzuli.html'>Fuzuli</a>|1|1515
+  <a name='Hannah_Ritchie' />Hannah Ritchie|<a href='../languages/explorer.html'>Explorer</a>|1|1519
+  <a name='Shahid_Ahmad' />Shahid Ahmad|<a href='../languages/explorer.html'>Explorer</a>|1|1519
   <a name='Tomoya_Matsuura' />Tomoya Matsuura|<a href='../languages/mimium.html'>mimium</a>|1|1525
   <a name='Felix_Winkelmann' />Felix Winkelmann|<a href='../languages/chicken.html'>CHICKEN</a>|1|1532
-  <a name='Yutaka_Saito' />Yutaka Saito|<a href='../languages/gura.html'>gura</a>|1|1533
-  <a name='Spydr06' />Spydr06|<a href='../languages/cspydr.html'>CSpydr</a> - <a href='../languages/astatine.html'>Astatine</a>|2|1534
-  <a name='Aliaksandr_Zahatski' />Aliaksandr Zahatski|<a href='../languages/pod6.html'>Pod6</a>|1|1535
-  <a name='Christopher_Lutz' />Christopher Lutz|<a href='../languages/janus-lang.html'>Janus</a>|1|1539
-  <a name='Howard_Derby' />Howard Derby|<a href='../languages/janus-lang.html'>Janus</a>|1|1539
-  <a name='Tetsuo_Yokoyama' />Tetsuo Yokoyama|<a href='../languages/janus-lang.html'>Janus</a>|1|1539
-  <a name='and_Robert_Glück' />and Robert Glück|<a href='../languages/janus-lang.html'>Janus</a>|1|1539
-  <a name='Sven-Bodo_Scholz' />Sven-Bodo Scholz|<a href='../languages/sac-programming-language.html'>SAC</a>|1|1542
-  <a name='Clemens_Grelck' />Clemens Grelck|<a href='../languages/sac-programming-language.html'>SAC</a>|1|1542
-  <a name='Sam_Lindley' />Sam Lindley|<a href='../languages/frank-lang.html'>Frank</a>|1|1544
-  <a name='Craig_McLaughlin' />Craig McLaughlin|<a href='../languages/frank-lang.html'>Frank</a>|1|1544
-  <a name='Lukas_Convent' />Lukas Convent|<a href='../languages/frank-lang.html'>Frank</a>|1|1544
-  <a name='Nicolaas_Govert_de_Bruijn' />Nicolaas Govert de Bruijn|<a href='../languages/de-bruijn-index-notation.html'>De Bruijn index</a>|1|1548
-  <a name='Samuel_Smith' />Samuel Smith|<a href='../languages/floscript.html'>FloScript</a>|1|1550
-  <a name='Han_Tuzun' />Han Tuzun|<a href='../languages/hr-code.html'>hr-code</a>|1|1551
-  <a name='Josh_Huelsman' />Josh Huelsman|<a href='../languages/jiyu.html'>jiyu</a>|1|1560
-  <a name='Compl_Yue' />Compl Yue|<a href='../languages/edh.html'>Đ</a>|1|1563
-  <a name='BBK' />BBK|<a href='../languages/bebasic.html'>BeBasic</a>|1|1565
-  <a name='Hg0428' />Hg0428|<a href='../languages/aardvark.html'>Aardvark</a> - <a href='../languages/fardlang.html'>Fardlang</a>|2|1566
-  <a name='JustCoding123' />JustCoding123|<a href='../languages/aardvark.html'>Aardvark</a> - <a href='../languages/fardlang.html'>Fardlang</a>|2|1566
-  <a name='CompilingCoder' />CompilingCoder|<a href='../languages/aardvark.html'>Aardvark</a> - <a href='../languages/fardlang.html'>Fardlang</a>|2|1566
-  <a name='TheBoys619' />TheBoys619|<a href='../languages/aardvark.html'>Aardvark</a>|1|1566
-  <a name='PlasDev' />PlasDev|<a href='../languages/aardvark.html'>Aardvark</a>|1|1566
-  <a name='ZDev1' />ZDev1|<a href='../languages/aardvark.html'>Aardvark</a>|1|1566
-  <a name='Christian_Neumanns' />Christian Neumanns|<a href='../languages/pml.html'>PML</a>|1|1568
-  <a name='Jonah_Fox' />Jonah Fox|<a href='../languages/kaffeine.html'>Kaffeine</a>|1|1571
-  <a name='Seth_Robinson' />Seth Robinson|<a href='../languages/dinkc.html'>Dink Smallwood</a>|1|1576
-  <a name='kujirahand' />kujirahand|<a href='../languages/nadesiko.html'>Nadesiko</a>|1|1577
-  <a name='Fedor_Indutny' />Fedor Indutny|<a href='../languages/candor.html'>candor</a>|1|1582
+  <a name='Yutaka_Saito' />Yutaka Saito|<a href='../languages/gura.html'>gura</a>|1|1534
+  <a name='Spydr06' />Spydr06|<a href='../languages/cspydr.html'>CSpydr</a> - <a href='../languages/astatine.html'>Astatine</a>|2|1535
+  <a name='Aliaksandr_Zahatski' />Aliaksandr Zahatski|<a href='../languages/pod6.html'>Pod6</a>|1|1536
+  <a name='Christopher_Lutz' />Christopher Lutz|<a href='../languages/janus-lang.html'>Janus</a>|1|1540
+  <a name='Howard_Derby' />Howard Derby|<a href='../languages/janus-lang.html'>Janus</a>|1|1540
+  <a name='Tetsuo_Yokoyama' />Tetsuo Yokoyama|<a href='../languages/janus-lang.html'>Janus</a>|1|1540
+  <a name='and_Robert_Glück' />and Robert Glück|<a href='../languages/janus-lang.html'>Janus</a>|1|1540
+  <a name='Sven-Bodo_Scholz' />Sven-Bodo Scholz|<a href='../languages/sac-programming-language.html'>SAC</a>|1|1543
+  <a name='Clemens_Grelck' />Clemens Grelck|<a href='../languages/sac-programming-language.html'>SAC</a>|1|1543
+  <a name='Sam_Lindley' />Sam Lindley|<a href='../languages/frank-lang.html'>Frank</a>|1|1545
+  <a name='Craig_McLaughlin' />Craig McLaughlin|<a href='../languages/frank-lang.html'>Frank</a>|1|1545
+  <a name='Lukas_Convent' />Lukas Convent|<a href='../languages/frank-lang.html'>Frank</a>|1|1545
+  <a name='Nicolaas_Govert_de_Bruijn' />Nicolaas Govert de Bruijn|<a href='../languages/de-bruijn-index-notation.html'>De Bruijn index</a>|1|1549
+  <a name='Samuel_Smith' />Samuel Smith|<a href='../languages/floscript.html'>FloScript</a>|1|1551
+  <a name='Han_Tuzun' />Han Tuzun|<a href='../languages/hr-code.html'>hr-code</a>|1|1552
+  <a name='Josh_Huelsman' />Josh Huelsman|<a href='../languages/jiyu.html'>jiyu</a>|1|1562
+  <a name='Compl_Yue' />Compl Yue|<a href='../languages/edh.html'>Đ</a>|1|1565
+  <a name='BBK' />BBK|<a href='../languages/bebasic.html'>BeBasic</a>|1|1567
+  <a name='Hg0428' />Hg0428|<a href='../languages/aardvark.html'>Aardvark</a> - <a href='../languages/fardlang.html'>Fardlang</a>|2|1568
+  <a name='JustCoding123' />JustCoding123|<a href='../languages/aardvark.html'>Aardvark</a> - <a href='../languages/fardlang.html'>Fardlang</a>|2|1568
+  <a name='CompilingCoder' />CompilingCoder|<a href='../languages/aardvark.html'>Aardvark</a> - <a href='../languages/fardlang.html'>Fardlang</a>|2|1568
+  <a name='TheBoys619' />TheBoys619|<a href='../languages/aardvark.html'>Aardvark</a>|1|1568
+  <a name='PlasDev' />PlasDev|<a href='../languages/aardvark.html'>Aardvark</a>|1|1568
+  <a name='ZDev1' />ZDev1|<a href='../languages/aardvark.html'>Aardvark</a>|1|1568
+  <a name='Christian_Neumanns' />Christian Neumanns|<a href='../languages/pml.html'>PML</a>|1|1570
+  <a name='Jonah_Fox' />Jonah Fox|<a href='../languages/kaffeine.html'>Kaffeine</a>|1|1572
+  <a name='Seth_Robinson' />Seth Robinson|<a href='../languages/dinkc.html'>Dink Smallwood</a>|1|1577
+  <a name='kujirahand' />kujirahand|<a href='../languages/nadesiko.html'>Nadesiko</a>|1|1578
+  <a name='Fedor_Indutny' />Fedor Indutny|<a href='../languages/candor.html'>candor</a>|1|1580
   <a name='Yuya_Watari' />Yuya Watari|<a href='../languages/ripple.html'>Ripple</a> - <a href='../languages/calc4.html'>Calc4</a>|2|1589
   <a name='Jon_Whitehead' />Jon Whitehead|<a href='../languages/maraca-lang.html'>maraca-lang</a>|1|1590
   <a name='Emina_Torlak' />Emina Torlak|<a href='../languages/rosette-lang.html'>rosette-lang</a>|1|1593
@@ -712,8 +712,8 @@ replace TABLE
   <a name='James_Henri_Haydon' />James Henri Haydon|<a href='../languages/lawvere.html'>Lawvere</a>|1|1597
   <a name='Alex_Gamburg' />Alex Gamburg|<a href='../languages/margin.html'>Margin</a>|1|1598
   <a name='Yorick_Peterse' />Yorick Peterse|<a href='../languages/inko.html'>inko</a>|1|1602
-  <a name='D.B._Wortman' />D.B. Wortman|<a href='../languages/sp-k.html'>SP/k</a>|1|1603
-  <a name='D.T._Barnard' />D.T. Barnard|<a href='../languages/sp-k.html'>SP/k</a>|1|1603
+  <a name='D.B._Wortman' />D.B. Wortman|<a href='../languages/sp-k.html'>SP/k</a>|1|1604
+  <a name='D.T._Barnard' />D.T. Barnard|<a href='../languages/sp-k.html'>SP/k</a>|1|1604
   <a name='Iikka_Hauhio' />Iikka Hauhio|<a href='../languages/tampio.html'>tampio</a>|1|1605
   <a name='John_D._Hobby' />John D. Hobby|<a href='../languages/metapost.html'>METAPOST</a>|1|1609
   <a name='Claude_Roux' />Claude Roux|<a href='../languages/tamgu.html'>tamgu</a>|1|1612
@@ -744,9 +744,9 @@ replace TABLE
   <a name='Zef_Hemel' />Zef Hemel|<a href='../languages/mobl-lang.html'>Mobl</a>|1|1717
   <a name='Reini_Urban' />Reini Urban|<a href='../languages/cperl.html'>cperl</a>|1|1720
   <a name='Wong_Jia_Hau' />Wong Jia Hau|<a href='../languages/keli.html'>keli</a>|1|1721
-  <a name='Þorvaldur_Rúnarsson' />Þorvaldur Rúnarsson|<a href='../languages/zolang.html'>zolang</a>|1|1724
-  <a name='John_Tromp' />John Tromp|<a href='../languages/blc.html'>Binary Lambda Calculus</a> - <a href='../languages/tromp-diagrams.html'>Lambda Diagrams</a>|2|1735
-  <a name='Caden_Haustein' />Caden Haustein|<a href='../languages/mlatu.html'>mlatu</a>|1|1742
+  <a name='Caden_Haustein' />Caden Haustein|<a href='../languages/mlatu.html'>mlatu</a>|1|1723
+  <a name='Þorvaldur_Rúnarsson' />Þorvaldur Rúnarsson|<a href='../languages/zolang.html'>zolang</a>|1|1725
+  <a name='John_Tromp' />John Tromp|<a href='../languages/blc.html'>Binary Lambda Calculus</a> - <a href='../languages/tromp-diagrams.html'>Lambda Diagrams</a>|2|1736
   <a name='Thomas_Bradford' />Thomas Bradford|<a href='../languages/ale.html'>a Lisp Environment</a>|1|1743
   <a name='Tom_MacWright' />Tom MacWright|<a href='../languages/wah.html'>wah</a>|1|1746
   <a name='Steven_Ericsson-Zenith' />Steven Ericsson-Zenith|<a href='../languages/ease.html'>Ease</a>|1|1747
@@ -772,56 +772,56 @@ replace TABLE
   <a name='S.O._Ivanov' />S.O. Ivanov|<a href='../languages/pascal-abc.net.html'>PascalABC.NET</a>|1|1819
   <a name='Tiago_Campos' />Tiago Campos|<a href='../languages/kei.html'>kei</a>|1|1821
   <a name='Florian_Rappl' />Florian Rappl|<a href='../languages/mages.html'>mages</a>|1|1822
-  <a name='Paul_Stansifer' />Paul Stansifer|<a href='../languages/unseemly.html'>unseemly</a>|1|1846
-  <a name='Ward_Cunningham' />Ward Cunningham|<a href='../languages/txtzyme.html'>txtzyme</a>|1|1848
-  <a name='Laurent_Prud'hon' />Laurent Prud'hon|<a href='../languages/typecobol.html'>typecobol</a>|1|1849
-  <a name='Anand_Rao' />Anand Rao|<a href='../languages/agentspeak.html'>AgentSpeak</a>|1|1853
-  <a name='Radon_Rosborough' />Radon Rosborough|<a href='../languages/kalyn.html'>Kalyn</a>|1|1858
-  <a name='Ron_Garret' />Ron Garret|<a href='../languages/ciel.html'>Ciel</a>|1|1861
-  <a name='Ricci_Adams' />Ricci Adams|<a href='../languages/nilscript.html'>NilScript</a>|1|1864
-  <a name='John_Judnich' />John Judnich|<a href='../languages/tuplemarkup.html'>tuplemarkup</a>|1|1869
-  <a name='Anssi_Halmeaho' />Anssi Halmeaho|<a href='../languages/funl.html'>funl</a>|1|1872
-  <a name='zplusfour' />zplusfour|<a href='../languages/fardlang.html'>Fardlang</a>|1|1875
-  <a name='Diarmuid_Pigott' />Diarmuid Pigott|<a href='../languages/protium.html'>protium</a>|1|1879
-  <a name='Martijn_Koster' />Martijn Koster|<a href='../languages/robots.txt.html'>Robots.txt</a>|1|1883
-  <a name='Andrew_Stein' />Andrew Stein|<a href='../languages/forml.html'>Forml</a>|1|1884
-  <a name='DJMcMayhem' />DJMcMayhem|<a href='../languages/brain-flak.html'>Brain-Flak</a> - <a href='../languages/v-golf.html'>V</a>|2|1885
-  <a name='Arjun_Nair' />Arjun Nair|<a href='../languages/ircis.html'>ircis</a>|1|1907
-  <a name='Michael_Dvorkin' />Michael Dvorkin|<a href='../languages/ante-esolang.html'>Ante</a>|1|1910
-  <a name='Vaughan_Ronald_Pratt' />Vaughan Ronald Pratt|<a href='../languages/cgol.html'>CGOL</a>|1|1913
-  <a name='Martin_Dørum' />Martin Dørum|<a href='../languages/jcof.html'>JCOF</a>|1|1918
-  <a name='Johan_Georg_Granström' />Johan Georg Granström|<a href='../languages/intuitionistic.html'>IPL</a>|1|1920
-  <a name='Emanuel_Rylke' />Emanuel Rylke|<a href='../languages/jasper.html'>jasper</a>|1|1922
+  <a name='Paul_Stansifer' />Paul Stansifer|<a href='../languages/unseemly.html'>unseemly</a>|1|1847
+  <a name='Ward_Cunningham' />Ward Cunningham|<a href='../languages/txtzyme.html'>txtzyme</a>|1|1849
+  <a name='Laurent_Prud'hon' />Laurent Prud'hon|<a href='../languages/typecobol.html'>typecobol</a>|1|1850
+  <a name='Anand_Rao' />Anand Rao|<a href='../languages/agentspeak.html'>AgentSpeak</a>|1|1854
+  <a name='Radon_Rosborough' />Radon Rosborough|<a href='../languages/kalyn.html'>Kalyn</a>|1|1859
+  <a name='Ron_Garret' />Ron Garret|<a href='../languages/ciel.html'>Ciel</a>|1|1862
+  <a name='Ricci_Adams' />Ricci Adams|<a href='../languages/nilscript.html'>NilScript</a>|1|1865
+  <a name='John_Judnich' />John Judnich|<a href='../languages/tuplemarkup.html'>tuplemarkup</a>|1|1870
+  <a name='Anssi_Halmeaho' />Anssi Halmeaho|<a href='../languages/funl.html'>funl</a>|1|1873
+  <a name='zplusfour' />zplusfour|<a href='../languages/fardlang.html'>Fardlang</a>|1|1876
+  <a name='Diarmuid_Pigott' />Diarmuid Pigott|<a href='../languages/protium.html'>protium</a>|1|1880
+  <a name='Martijn_Koster' />Martijn Koster|<a href='../languages/robots.txt.html'>Robots.txt</a>|1|1884
+  <a name='Andrew_Stein' />Andrew Stein|<a href='../languages/forml.html'>Forml</a>|1|1885
+  <a name='DJMcMayhem' />DJMcMayhem|<a href='../languages/brain-flak.html'>Brain-Flak</a> - <a href='../languages/v-golf.html'>V</a>|2|1886
+  <a name='Arjun_Nair' />Arjun Nair|<a href='../languages/ircis.html'>ircis</a>|1|1908
+  <a name='Michael_Dvorkin' />Michael Dvorkin|<a href='../languages/ante-esolang.html'>Ante</a>|1|1911
+  <a name='Vaughan_Ronald_Pratt' />Vaughan Ronald Pratt|<a href='../languages/cgol.html'>CGOL</a>|1|1914
+  <a name='Martin_Dørum' />Martin Dørum|<a href='../languages/jcof.html'>JCOF</a>|1|1919
+  <a name='Johan_Georg_Granström' />Johan Georg Granström|<a href='../languages/intuitionistic.html'>IPL</a>|1|1921
+  <a name='Emanuel_Rylke' />Emanuel Rylke|<a href='../languages/jasper.html'>jasper</a>|1|1923
   <a name='Marco_Lavoie' />Marco Lavoie|<a href='../languages/larp.html'>LARP</a>|1|1924
-  <a name='Holger_H._Hoos' />Holger H. Hoos|<a href='../languages/guido-music-notation.html'>GUIDO music notation</a>|1|1943
-  <a name='Keith_Hamel' />Keith Hamel|<a href='../languages/guido-music-notation.html'>GUIDO music notation</a>|1|1943
-  <a name='Valentin_Heun' />Valentin Heun|<a href='../languages/hrqr.html'>hrqr</a>|1|1948
-  <a name='Robert_M._McClure' />Robert M. McClure|<a href='../languages/tmg.html'>TMG</a>|1|1965
-  <a name='G._Stewart_von_Itzstein' />G. Stewart von Itzstein|<a href='../languages/join-java.html'>Join Java</a>|1|1975
-  <a name='Caleb_Helbling' />Caleb Helbling|<a href='../languages/juniper.html'>juniper</a>|1|1978
-  <a name='Ulrich_Hecht' />Ulrich Hecht|<a href='../languages/dragonbasic.html'>DragonBASIC</a>|1|1979
-  <a name='Marcin_Konarski' />Marcin Konarski|<a href='../languages/huginn.html'>huginn</a>|1|1982
-  <a name='Jeff_Walker' />Jeff Walker|<a href='../languages/adamant.html'>adamant</a>|1|1983
-  <a name='Joao_Marcelo_Brito' />Joao Marcelo Brito|<a href='../languages/jlang.html'>JLang</a>|1|1986
-  <a name='John_E._Davis' />John E. Davis|<a href='../languages/s-lang.html'>s-lang</a>|1|1994
-  <a name='David_A._Wheeler' />David A. Wheeler|<a href='../languages/sweet-expressions.html'>Sweet Expressions</a>|1|1995
-  <a name='Alan_Manuel_K._Gloria' />Alan Manuel K. Gloria|<a href='../languages/sweet-expressions.html'>Sweet Expressions</a>|1|1995
-  <a name='Krishna_Subramanian' />Krishna Subramanian|<a href='../languages/statsplorer.html'>Statsplorer</a>|1|2003
-  <a name='Chat_Wacharamanotham' />Chat Wacharamanotham|<a href='../languages/statsplorer.html'>Statsplorer</a>|1|2003
-  <a name='ALANVF' />ALANVF|<a href='../languages/star.html'>Star</a>|1|2012
-  <a name='playXE' />playXE|<a href='../languages/jazz.html'>Jazz</a>|1|2013
-  <a name='Frank_Pfenning' />Frank Pfenning|<a href='../languages/twelf.html'>Twelf</a>|1|2014
-  <a name='Carsten_Schürmann' />Carsten Schürmann|<a href='../languages/twelf.html'>Twelf</a>|1|2014
-  <a name='Šarūnas_Navickas' />Šarūnas Navickas|<a href='../languages/rita.html'>Rita</a>|1|2037
-  <a name='Kevin_Atkinson' />Kevin Atkinson|<a href='../languages/zl.html'>zl</a>|1|2040
-  <a name='P._J._Plauger' href='https://en.wikipedia.org/wiki/P._J._Plauger'>P. J. Plauger</a>|<a href='../languages/lil.html'>Little Implementation Language</a>|1|2042
-  <a name='Richard_Brodie' />Richard Brodie|<a href='../languages/rtf.html'>RTF</a>|1|2046
-  <a name='Charles_Simonyi' />Charles Simonyi|<a href='../languages/rtf.html'>RTF</a>|1|2046
-  <a name='David_Luebbert' />David Luebbert|<a href='../languages/rtf.html'>RTF</a>|1|2046
-  <a name='Christine_Dodrill' />Christine Dodrill|<a href='../languages/h-lang.html'>h</a>|1|2047
-  <a name='Zaven_Muradyan' />Zaven Muradyan|<a href='../languages/awl.html'>awl</a>|1|2049
-  <a name='Peter_Graf' />Peter Graf|<a href='../languages/pinto.html'>pinto</a>|1|2050
-  <a name='Lance_Pollard' />Lance Pollard|<a href='../languages/link.html'>Link</a>|1|2053
+  <a name='Holger_H._Hoos' />Holger H. Hoos|<a href='../languages/guido-music-notation.html'>GUIDO music notation</a>|1|1944
+  <a name='Keith_Hamel' />Keith Hamel|<a href='../languages/guido-music-notation.html'>GUIDO music notation</a>|1|1944
+  <a name='Valentin_Heun' />Valentin Heun|<a href='../languages/hrqr.html'>hrqr</a>|1|1949
+  <a name='Robert_M._McClure' />Robert M. McClure|<a href='../languages/tmg.html'>TMG</a>|1|1966
+  <a name='G._Stewart_von_Itzstein' />G. Stewart von Itzstein|<a href='../languages/join-java.html'>Join Java</a>|1|1976
+  <a name='Caleb_Helbling' />Caleb Helbling|<a href='../languages/juniper.html'>juniper</a>|1|1979
+  <a name='Ulrich_Hecht' />Ulrich Hecht|<a href='../languages/dragonbasic.html'>DragonBASIC</a>|1|1980
+  <a name='Marcin_Konarski' />Marcin Konarski|<a href='../languages/huginn.html'>huginn</a>|1|1983
+  <a name='Jeff_Walker' />Jeff Walker|<a href='../languages/adamant.html'>adamant</a>|1|1984
+  <a name='Joao_Marcelo_Brito' />Joao Marcelo Brito|<a href='../languages/jlang.html'>JLang</a>|1|1987
+  <a name='John_E._Davis' />John E. Davis|<a href='../languages/s-lang.html'>s-lang</a>|1|1995
+  <a name='David_A._Wheeler' />David A. Wheeler|<a href='../languages/sweet-expressions.html'>Sweet Expressions</a>|1|1996
+  <a name='Alan_Manuel_K._Gloria' />Alan Manuel K. Gloria|<a href='../languages/sweet-expressions.html'>Sweet Expressions</a>|1|1996
+  <a name='Krishna_Subramanian' />Krishna Subramanian|<a href='../languages/statsplorer.html'>Statsplorer</a>|1|2004
+  <a name='Chat_Wacharamanotham' />Chat Wacharamanotham|<a href='../languages/statsplorer.html'>Statsplorer</a>|1|2004
+  <a name='ALANVF' />ALANVF|<a href='../languages/star.html'>Star</a>|1|2013
+  <a name='playXE' />playXE|<a href='../languages/jazz.html'>Jazz</a>|1|2014
+  <a name='Frank_Pfenning' />Frank Pfenning|<a href='../languages/twelf.html'>Twelf</a>|1|2015
+  <a name='Carsten_Schürmann' />Carsten Schürmann|<a href='../languages/twelf.html'>Twelf</a>|1|2015
+  <a name='Šarūnas_Navickas' />Šarūnas Navickas|<a href='../languages/rita.html'>Rita</a>|1|2038
+  <a name='Kevin_Atkinson' />Kevin Atkinson|<a href='../languages/zl.html'>zl</a>|1|2041
+  <a name='P._J._Plauger' href='https://en.wikipedia.org/wiki/P._J._Plauger'>P. J. Plauger</a>|<a href='../languages/lil.html'>Little Implementation Language</a>|1|2043
+  <a name='Richard_Brodie' />Richard Brodie|<a href='../languages/rtf.html'>RTF</a>|1|2047
+  <a name='Charles_Simonyi' />Charles Simonyi|<a href='../languages/rtf.html'>RTF</a>|1|2047
+  <a name='David_Luebbert' />David Luebbert|<a href='../languages/rtf.html'>RTF</a>|1|2047
+  <a name='Christine_Dodrill' />Christine Dodrill|<a href='../languages/h-lang.html'>h</a>|1|2048
+  <a name='Zaven_Muradyan' />Zaven Muradyan|<a href='../languages/awl.html'>awl</a>|1|2050
+  <a name='Peter_Graf' />Peter Graf|<a href='../languages/pinto.html'>pinto</a>|1|2051
+  <a name='Lance_Pollard' />Lance Pollard|<a href='../languages/link.html'>Link</a>|1|2054
   <a name='Magnus_Holm' />Magnus Holm|<a href='../languages/glush.html'>glush</a>|1|2064
   <a name='Bastian_Müller' />Bastian Müller|<a href='../languages/ralph.html'>ralph</a>|1|2065
   <a name='Simeon_Chaos' />Simeon Chaos|<a href='../languages/taijilang.html'>Taijilang</a> - <a href='../languages/daonode.html'>daonode</a>|2|2066
@@ -834,63 +834,63 @@ replace TABLE
   <a name='Andrzej_Gasienica-Samek' />Andrzej Gasienica-Samek|<a href='../languages/nianiolang.html'>nianiolang</a>|1|2105
   <a name='Andrew_Yoon' />Andrew Yoon|<a href='../languages/blur-markup-language.html'>blur-markup-language</a>|1|2106
   <a name='Stephan_Bruny' />Stephan Bruny|<a href='../languages/corescript.html'>corescript</a>|1|2108
-  <a name='Yassen_Bantchev' />Yassen Bantchev|<a href='../languages/u.html'>U</a>|1|2109
-  <a name='Katie_Ampersand' />Katie Ampersand|<a href='../languages/kami.html'>Kami</a>|1|2111
-  <a name='Nathan_Merrill' />Nathan Merrill|<a href='../languages/elegance.html'>elegance</a>|1|2112
-  <a name='Kye_W._Shi' />Kye W. Shi|<a href='../languages/slick.html'>Slick</a>|1|2116
-  <a name='Cameron_McEfee' />Cameron McEfee|<a href='../languages/grid-notation.html'>grid-notation</a>|1|2122
-  <a name='Chris_Clark' />Chris Clark|<a href='../languages/lambda-zero.html'>lambda-zero</a>|1|2124
-  <a name='Palash_Bauri' />Palash Bauri|<a href='../languages/mewmew.html'>MewMew</a> - <a href='../languages/mewl.html'>Mewl</a>|2|2125
-  <a name='Matt_Bierner' />Matt Bierner|<a href='../languages/khepri.html'>Khepri</a>|1|2126
-  <a name='Douglas_Hofstadter' />Douglas Hofstadter|<a href='../languages/typographical-number-theory.html'>Typographical Number Theory</a>|1|2134
-  <a name='elucent' />elucent|<a href='../languages/scheme-2-d.html'>Scheme 2-D</a>|1|2138
-  <a name='W._Stanley_Brown' />W. Stanley Brown|<a href='../languages/altran.html'>ALTRAN</a>|1|2142
-  <a name='Sander_Mertens' />Sander Mertens|<a href='../languages/y-lang.html'>y-lang</a>|1|2144
-  <a name='ThePuzzlemaker' />ThePuzzlemaker|<a href='../languages/calypso.html'>Calypso</a>|1|2145
-  <a name='Emil_Post' />Emil Post|<a href='../languages/post-canonical-system.html'>Post production</a>|1|2147
-  <a name='Ulrich_Hoffmann' />Ulrich Hoffmann|<a href='../languages/preforth.html'>preforth</a>|1|2161
-  <a name='Onchere_Bironga' />Onchere Bironga|<a href='../languages/whack.html'>whack</a>|1|2163
-  <a name='James_Keane' />James Keane|<a href='../languages/ham.html'>Ham</a> - <a href='../languages/lamderp.html'>lamderp</a>|2|2175
-  <a name='Tim_Bray' />Tim Bray|<a href='../languages/json-url.html'>json->url</a>|1|2177
-  <a name='Jonathan_Avery' />Jonathan Avery|<a href='../languages/juicy.html'>juicy</a>|1|2179
-  <a name='Kevin_Lawler' />Kevin Lawler|<a href='../languages/kerf.html'>kerf</a>|1|2181
-  <a name='lorentzj' />lorentzj|<a href='../languages/serious.html'>Serious</a>|1|2182
-  <a name='Matthew_Steel' />Matthew Steel|<a href='../languages/6gunz.html'>6gunz</a>|1|2183
-  <a name='Konstantin_Knizhnik' />Konstantin Knizhnik|<a href='../languages/c-talk.html'>c-talk</a>|1|2185
-  <a name='Sam_Westerman' />Sam Westerman|<a href='../languages/squire.html'>Squire</a> - <a href='../languages/knight.html'>Knight</a>|2|2200
-  <a name='RoMeAh' />RoMeAh|<a href='../languages/blazex.html'>BlazeX</a>|1|2220
-  <a name='Mark_Hahn' />Mark Hahn|<a href='../languages/fjs.html'>fjs</a>|1|2221
-  <a name='Fabio_de_Souza_Villaca_Medeiros' />Fabio de Souza Villaca Medeiros|<a href='../languages/hook.html'>Hook</a>|1|2225
-  <a name='Charles_A._Grant' />Charles A. Grant|<a href='../languages/northstar-basic.html'>NorthStar BASIC</a>|1|2238
-  <a name='Mark_Greenberg' />Mark Greenberg|<a href='../languages/northstar-basic.html'>NorthStar BASIC</a>|1|2238
-  <a name='Dylan_Madisetti' />Dylan Madisetti|<a href='../languages/toki-sona.html'>toki sona</a>|1|2241
-  <a name='Joe_Jevnik' />Joe Jevnik|<a href='../languages/phorth.html'>phorth</a>|1|2242
-  <a name='Carlos_Christensen' />Carlos Christensen|<a href='../languages/ambit.html'>AMBIT</a>|1|2248
-  <a name='Jack_Clarke' />Jack Clarke|<a href='../languages/cane.html'>Cane</a>|1|2251
-  <a name='Dennis_Griffith' />Dennis Griffith|<a href='../languages/sill.html'>sill</a>|1|2252
-  <a name='Christian_Budde_Christensen' />Christian Budde Christensen|<a href='../languages/gintonic.html'>gintonic</a>|1|2258
-  <a name='James_Edwards' />James Edwards|<a href='../languages/jedlang.html'>jedlang</a>|1|2259
-  <a name='Victor_Maia' />Victor Maia|<a href='../languages/formality.html'>formality</a>|1|2262
-  <a name='Cedric_Cellier' />Cedric Cellier|<a href='../languages/ramen.html'>ramen</a>|1|2263
-  <a name='Patrick' />Patrick|<a href='../languages/chika.html'>Chika</a>|1|2267
-  <a name='Marijn_Haverbeke' />Marijn Haverbeke|<a href='../languages/lezer.html'>lezer</a>|1|2269
-  <a name='Dan_Motzenbecker' />Dan Motzenbecker|<a href='../languages/taxa.html'>taxa</a>|1|2271
-  <a name='Zachary_Sakowitz' />Zachary Sakowitz|<a href='../languages/storymatic.html'>Storymatic</a>|1|2277
-  <a name='Adam_Dullage' />Adam Dullage|<a href='../languages/workfl.html'>Workfl</a>|1|2278
-  <a name='Andrew_McKinlay' />Andrew McKinlay|<a href='../languages/suneido.html'>Suneido</a>|1|2286
-  <a name='Alexander_Okhotin' />Alexander Okhotin|<a href='../languages/whalecalf.html'>whalecalf</a>|1|2287
-  <a name='Haruo_Hosoya' />Haruo Hosoya|<a href='../languages/xduce.html'>xduce</a>|1|2295
-  <a name='Benjamin_C._Pierce' />Benjamin C. Pierce|<a href='../languages/xduce.html'>xduce</a>|1|2295
-  <a name='Batiste_Bieler' />Batiste Bieler|<a href='../languages/cokescript.html'>CokeScript</a>|1|2297
-  <a name='David_A._Wagner' />David A. Wagner|<a href='../languages/joe-e.html'>Joe-E</a>|1|2302
-  <a name='Dave_Bayer' href='https://en.wikipedia.org/wiki/Dave_Bayer'>Dave Bayer</a>|<a href='../languages/bayer-expressions.html'>Bayer Expressions</a>|1|2309
-  <a name='Weird_Constructor' />Weird Constructor|<a href='../languages/wlambda.html'>WLambda</a>|1|2311
-  <a name='Michael_Chance' />Michael Chance|<a href='../languages/tlc.html'>Tag Line Commands</a>|1|2326
-  <a name='Sam_Auciello' />Sam Auciello|<a href='../languages/hotcocoalisp.html'>Hot Cocoa Lisp</a>|1|2327
-  <a name='jenra' />jenra|<a href='../languages/curly.html'>Curly</a>|1|2338
-  <a name='Mikail_Khan' />Mikail Khan|<a href='../languages/rustscript.html'>RustScript</a>|1|2343
-  <a name='Gabe' />Gabe|<a href='../languages/bizubee.html'>Bizubee</a> - <a href='../languages/bizubee.html'>Bizubee</a>|2|2347
-  <a name='Zach_Perkitny' />Zach Perkitny|<a href='../languages/emerald-lang.html'>emerald-lang</a>|1|2348
+  <a name='Yassen_Bantchev' />Yassen Bantchev|<a href='../languages/u.html'>U</a>|1|2110
+  <a name='Katie_Ampersand' />Katie Ampersand|<a href='../languages/kami.html'>Kami</a>|1|2112
+  <a name='Nathan_Merrill' />Nathan Merrill|<a href='../languages/elegance.html'>elegance</a>|1|2113
+  <a name='Kye_W._Shi' />Kye W. Shi|<a href='../languages/slick.html'>Slick</a>|1|2117
+  <a name='Cameron_McEfee' />Cameron McEfee|<a href='../languages/grid-notation.html'>grid-notation</a>|1|2123
+  <a name='Chris_Clark' />Chris Clark|<a href='../languages/lambda-zero.html'>lambda-zero</a>|1|2125
+  <a name='Palash_Bauri' />Palash Bauri|<a href='../languages/mewmew.html'>MewMew</a> - <a href='../languages/mewl.html'>Mewl</a>|2|2126
+  <a name='Matt_Bierner' />Matt Bierner|<a href='../languages/khepri.html'>Khepri</a>|1|2127
+  <a name='Douglas_Hofstadter' />Douglas Hofstadter|<a href='../languages/typographical-number-theory.html'>Typographical Number Theory</a>|1|2135
+  <a name='elucent' />elucent|<a href='../languages/scheme-2-d.html'>Scheme 2-D</a>|1|2139
+  <a name='W._Stanley_Brown' />W. Stanley Brown|<a href='../languages/altran.html'>ALTRAN</a>|1|2143
+  <a name='Sander_Mertens' />Sander Mertens|<a href='../languages/y-lang.html'>y-lang</a>|1|2145
+  <a name='ThePuzzlemaker' />ThePuzzlemaker|<a href='../languages/calypso.html'>Calypso</a>|1|2146
+  <a name='Emil_Post' />Emil Post|<a href='../languages/post-canonical-system.html'>Post production</a>|1|2148
+  <a name='Ulrich_Hoffmann' />Ulrich Hoffmann|<a href='../languages/preforth.html'>preforth</a>|1|2162
+  <a name='Onchere_Bironga' />Onchere Bironga|<a href='../languages/whack.html'>whack</a>|1|2164
+  <a name='James_Keane' />James Keane|<a href='../languages/ham.html'>Ham</a> - <a href='../languages/lamderp.html'>lamderp</a>|2|2176
+  <a name='Zach_Perkitny' />Zach Perkitny|<a href='../languages/emerald-lang.html'>emerald-lang</a>|1|2178
+  <a name='Tim_Bray' />Tim Bray|<a href='../languages/json-url.html'>json->url</a>|1|2179
+  <a name='Jonathan_Avery' />Jonathan Avery|<a href='../languages/juicy.html'>juicy</a>|1|2181
+  <a name='Kevin_Lawler' />Kevin Lawler|<a href='../languages/kerf.html'>kerf</a>|1|2183
+  <a name='lorentzj' />lorentzj|<a href='../languages/serious.html'>Serious</a>|1|2184
+  <a name='Matthew_Steel' />Matthew Steel|<a href='../languages/6gunz.html'>6gunz</a>|1|2185
+  <a name='Konstantin_Knizhnik' />Konstantin Knizhnik|<a href='../languages/c-talk.html'>c-talk</a>|1|2187
+  <a name='Sam_Westerman' />Sam Westerman|<a href='../languages/squire.html'>Squire</a> - <a href='../languages/knight.html'>Knight</a>|2|2202
+  <a name='RoMeAh' />RoMeAh|<a href='../languages/blazex.html'>BlazeX</a>|1|2222
+  <a name='Mark_Hahn' />Mark Hahn|<a href='../languages/fjs.html'>fjs</a>|1|2223
+  <a name='Fabio_de_Souza_Villaca_Medeiros' />Fabio de Souza Villaca Medeiros|<a href='../languages/hook.html'>Hook</a>|1|2227
+  <a name='Charles_A._Grant' />Charles A. Grant|<a href='../languages/northstar-basic.html'>NorthStar BASIC</a>|1|2240
+  <a name='Mark_Greenberg' />Mark Greenberg|<a href='../languages/northstar-basic.html'>NorthStar BASIC</a>|1|2240
+  <a name='Dylan_Madisetti' />Dylan Madisetti|<a href='../languages/toki-sona.html'>toki sona</a>|1|2243
+  <a name='Joe_Jevnik' />Joe Jevnik|<a href='../languages/phorth.html'>phorth</a>|1|2244
+  <a name='Carlos_Christensen' />Carlos Christensen|<a href='../languages/ambit.html'>AMBIT</a>|1|2250
+  <a name='Jack_Clarke' />Jack Clarke|<a href='../languages/cane.html'>Cane</a>|1|2253
+  <a name='Dennis_Griffith' />Dennis Griffith|<a href='../languages/sill.html'>sill</a>|1|2254
+  <a name='Christian_Budde_Christensen' />Christian Budde Christensen|<a href='../languages/gintonic.html'>gintonic</a>|1|2260
+  <a name='James_Edwards' />James Edwards|<a href='../languages/jedlang.html'>jedlang</a>|1|2261
+  <a name='Victor_Maia' />Victor Maia|<a href='../languages/formality.html'>formality</a>|1|2264
+  <a name='Cedric_Cellier' />Cedric Cellier|<a href='../languages/ramen.html'>ramen</a>|1|2265
+  <a name='Patrick' />Patrick|<a href='../languages/chika.html'>Chika</a>|1|2269
+  <a name='Marijn_Haverbeke' />Marijn Haverbeke|<a href='../languages/lezer.html'>lezer</a>|1|2271
+  <a name='Dan_Motzenbecker' />Dan Motzenbecker|<a href='../languages/taxa.html'>taxa</a>|1|2272
+  <a name='Zachary_Sakowitz' />Zachary Sakowitz|<a href='../languages/storymatic.html'>Storymatic</a>|1|2278
+  <a name='Adam_Dullage' />Adam Dullage|<a href='../languages/workfl.html'>Workfl</a>|1|2279
+  <a name='Andrew_McKinlay' />Andrew McKinlay|<a href='../languages/suneido.html'>Suneido</a>|1|2287
+  <a name='Alexander_Okhotin' />Alexander Okhotin|<a href='../languages/whalecalf.html'>whalecalf</a>|1|2288
+  <a name='Haruo_Hosoya' />Haruo Hosoya|<a href='../languages/xduce.html'>xduce</a>|1|2296
+  <a name='Benjamin_C._Pierce' />Benjamin C. Pierce|<a href='../languages/xduce.html'>xduce</a>|1|2296
+  <a name='Batiste_Bieler' />Batiste Bieler|<a href='../languages/cokescript.html'>CokeScript</a>|1|2298
+  <a name='David_A._Wagner' />David A. Wagner|<a href='../languages/joe-e.html'>Joe-E</a>|1|2303
+  <a name='Dave_Bayer' href='https://en.wikipedia.org/wiki/Dave_Bayer'>Dave Bayer</a>|<a href='../languages/bayer-expressions.html'>Bayer Expressions</a>|1|2310
+  <a name='Weird_Constructor' />Weird Constructor|<a href='../languages/wlambda.html'>WLambda</a>|1|2312
+  <a name='Michael_Chance' />Michael Chance|<a href='../languages/tlc.html'>Tag Line Commands</a>|1|2327
+  <a name='Sam_Auciello' />Sam Auciello|<a href='../languages/hotcocoalisp.html'>Hot Cocoa Lisp</a>|1|2328
+  <a name='jenra' />jenra|<a href='../languages/curly.html'>Curly</a>|1|2339
+  <a name='Mikail_Khan' />Mikail Khan|<a href='../languages/rustscript.html'>RustScript</a>|1|2344
+  <a name='Gabe' />Gabe|<a href='../languages/bizubee.html'>Bizubee</a> - <a href='../languages/bizubee.html'>Bizubee</a>|2|2348
   <a name='Poeta_Kodu' />Poeta Kodu|<a href='../languages/rigc.html'>RigC</a>|1|2350
   <a name='Daniel_Zaradny' />Daniel Zaradny|<a href='../languages/rigc.html'>RigC</a>|1|2350
   <a name='Mado_Nanika' />Mado Nanika|<a href='../languages/cotton.html'>Cotton</a>|1|2351
@@ -920,9 +920,9 @@ replace TABLE
   <a name='phunanon' />phunanon|<a href='../languages/insitux.html'>Insitux</a>|1|2392
   <a name='KyleLin921021' />KyleLin921021|<a href='../languages/yakou-lang.html'>Yakou Lang</a>|1|2395
   <a name='Bishop_Zareh' />Bishop Zareh|<a href='../languages/typecastjs.html'>Typecast.js</a>|1|2396
-  <a name='Andrew_S._Grimshaw' />Andrew S. Grimshaw|<a href='../languages/mentat.html'>Mentat</a>|1|2409
-  <a name='Jane_W.S._Liu' />Jane W.S. Liu|<a href='../languages/mentat.html'>Mentat</a>|1|2409
-  <a name='Pablo_H._Reda' />Pablo H. Reda|<a href='../languages/r3.html'>r3</a>|1|2410
+  <a name='Pablo_H._Reda' />Pablo H. Reda|<a href='../languages/r3.html'>r3</a>|1|2409
+  <a name='Andrew_S._Grimshaw' />Andrew S. Grimshaw|<a href='../languages/mentat.html'>Mentat</a>|1|2410
+  <a name='Jane_W.S._Liu' />Jane W.S. Liu|<a href='../languages/mentat.html'>Mentat</a>|1|2410
   <a name='Yoshiki_Ohshima' />Yoshiki Ohshima|<a href='../languages/shadama.html'>shadama</a>|1|2412
   <a name='Dan_Amelang' />Dan Amelang|<a href='../languages/shadama.html'>shadama</a>|1|2412
   <a name='Bert_Freudenberg' />Bert Freudenberg|<a href='../languages/shadama.html'>shadama</a>|1|2412
@@ -981,11 +981,11 @@ replace TABLE
   <a name='Yanis_Zafirópulos' />Yanis Zafirópulos|<a href='../languages/arturo.html'>Arturo</a>|1|2720
   <a name='Robert_Kiesling' />Robert Kiesling|<a href='../languages/ctalk.html'>ctalk</a>|1|2726
   <a name='Herman_Venter' />Herman Venter|<a href='../languages/slim-pl.html'>slim-pl</a>|1|2755
-  <a name='Enrico_Tassi' />Enrico Tassi|<a href='../languages/elpi.html'>Elpi</a>|1|2773
-  <a name='Jakob_Hain' />Jakob Hain|<a href='../languages/descript.html'>Descript</a>|1|2821
-  <a name='Daniel_Smith' />Daniel Smith|<a href='../languages/dpp.html'>D++</a>|1|2822
-  <a name='Dan_Swirsky' />Dan Swirsky|<a href='../languages/hilltop-lang.html'>Hilltop</a>|1|2827
-  <a name='David_Broderick' />David Broderick|<a href='../languages/kayia.html'>kayia</a>|1|2828
+  <a name='Jakob_Hain' />Jakob Hain|<a href='../languages/descript.html'>Descript</a>|1|2820
+  <a name='Daniel_Smith' />Daniel Smith|<a href='../languages/dpp.html'>D++</a>|1|2821
+  <a name='Dan_Swirsky' />Dan Swirsky|<a href='../languages/hilltop-lang.html'>Hilltop</a>|1|2826
+  <a name='David_Broderick' />David Broderick|<a href='../languages/kayia.html'>kayia</a>|1|2827
+  <a name='Enrico_Tassi' />Enrico Tassi|<a href='../languages/elpi.html'>Elpi</a>|1|2856
   <a name='Evan_Wallace' />Evan Wallace|<a href='../languages/skew.html'>skew</a>|1|2890
   <a name='Richard_Hipp' />Richard Hipp|<a href='../languages/unql-lang.html'>UnQL</a>|1|2909
   <a name='Damien_Katz' />Damien Katz|<a href='../languages/unql-lang.html'>UnQL</a>|1|2909
@@ -1000,13 +1000,13 @@ replace TABLE
   <a name='Kathleen_Booth' />Kathleen Booth|<a href='../languages/arc-assembly.html'>Arc Assembly</a> - <a href='../languages/birkbeck-assembly.html'>Birkbeck Assembly</a>|2|2937
   <a name='Vesa_Karvonen' />Vesa Karvonen|<a href='../languages/order.html'>order</a>|1|2947
   <a name='Sturm_Mabie' />Sturm Mabie|<a href='../languages/xs-lang.html'>xs</a>|1|2958
-  <a name='Ioi_K._Lam' />Ioi K. Lam|<a href='../languages/jacl.html'>JACL</a>|1|3035
-  <a name='Brian_Smith' />Brian Smith|<a href='../languages/jacl.html'>JACL</a>|1|3035
-  <a name='Gael_de_La_Croix_Vaubois' />Gael de La Croix Vaubois|<a href='../languages/n.html'>N</a>|1|3097
-  <a name='Catherine_Moulinoux' />Catherine Moulinoux|<a href='../languages/n.html'>N</a>|1|3097
-  <a name='BenoIt_Derot' />BenoIt Derot|<a href='../languages/n.html'>N</a>|1|3097
-  <a name='Mike_Welch' />Mike Welch|<a href='../languages/rbasic.html'>rbasic</a>|1|3118
-  <a name='Gottlob_Frege' />Gottlob Frege|<a href='../languages/concept-script.html'>concept-script</a>|1|3149
+  <a name='Ioi_K._Lam' />Ioi K. Lam|<a href='../languages/jacl.html'>JACL</a>|1|3037
+  <a name='Brian_Smith' />Brian Smith|<a href='../languages/jacl.html'>JACL</a>|1|3037
+  <a name='Gael_de_La_Croix_Vaubois' />Gael de La Croix Vaubois|<a href='../languages/n.html'>N</a>|1|3099
+  <a name='Catherine_Moulinoux' />Catherine Moulinoux|<a href='../languages/n.html'>N</a>|1|3099
+  <a name='BenoIt_Derot' />BenoIt Derot|<a href='../languages/n.html'>N</a>|1|3099
+  <a name='Mike_Welch' />Mike Welch|<a href='../languages/rbasic.html'>rbasic</a>|1|3120
+  <a name='Gottlob_Frege' />Gottlob Frege|<a href='../languages/concept-script.html'>concept-script</a>|1|3151
   <a name='John_D._Leidel' />John D. Leidel|<a href='../languages/stonecutter.html'>StoneCutter</a>|1|3627
   <a name='David_Donofrio' />David Donofrio|<a href='../languages/stonecutter.html'>StoneCutter</a>|1|3627
   <a name='Frank_Conlon' />Frank Conlon|<a href='../languages/stonecutter.html'>StoneCutter</a>|1|3627
@@ -1018,22 +1018,22 @@ replace TABLE
   <a name='Letizia_Tanca' />Letizia Tanca|<a href='../languages/xml-gl.html'>XML-GL</a>|1|3712
   <a name='Paul_Walsh' />Paul Walsh|<a href='../languages/datapackage.html'>Data Package</a>|1|3797
   <a name='Rufus_Pollock' />Rufus Pollock|<a href='../languages/datapackage.html'>Data Package</a>|1|3797
-  <a name='Erann_Gat' />Erann Gat|<a href='../languages/flownet.html'>FlowNet</a>|1|3808
-  <a name='Mike_Ciholas' />Mike Ciholas|<a href='../languages/flownet.html'>FlowNet</a>|1|3808
-  <a name='Bruno_Blanchet' />Bruno Blanchet|<a href='../languages/proverif-lang.html'>proverif-lang</a>|1|3908
-  <a name='Wayne_Citrin' />Wayne Citrin|<a href='../languages/vex.html'>VEX</a>|1|3977
-  <a name='Richard_Hall' />Richard Hall|<a href='../languages/vex.html'>VEX</a>|1|3977
-  <a name='Benjamin_Zorn' />Benjamin Zorn|<a href='../languages/vex.html'>VEX</a>|1|3977
-  <a name='Trevor_Blackwell' />Trevor Blackwell|<a href='../languages/yoga.html'>yoga</a>|1|3981
-  <a name='Tony_Locke' />Tony Locke|<a href='../languages/zish.html'>zish</a>|1|3983
-  <a name='Glenn_Culler' />Glenn Culler|<a href='../languages/culler-fried-system.html'>Culler-Fried System</a>|1|4130
-  <a name='Burton_Fried' />Burton Fried|<a href='../languages/culler-fried-system.html'>Culler-Fried System</a>|1|4130
-  <a name='Mariana_Marasoiu' />Mariana Marasoiu|<a href='../languages/cuscus.html'>cuscus</a>|1|4132
-  <a name='Detlef_Nauck' />Detlef Nauck|<a href='../languages/cuscus.html'>cuscus</a>|1|4132
-  <a name='Alan_F._Blackwell' />Alan F. Blackwell|<a href='../languages/cuscus.html'>cuscus</a>|1|4132
-  <a name='David_Wheeler' />David Wheeler|<a href='../languages/edsac-initial-orders.html'>EDSAC Initial Orders</a>|1|4171
-  <a name='Maurice_Wilkes' />Maurice Wilkes|<a href='../languages/edsac-initial-orders.html'>EDSAC Initial Orders</a>|1|4171
-  <a name='Stanley_Gill' />Stanley Gill|<a href='../languages/edsac-initial-orders.html'>EDSAC Initial Orders</a>|1|4171
+  <a name='Erann_Gat' />Erann Gat|<a href='../languages/flownet.html'>FlowNet</a>|1|3806
+  <a name='Mike_Ciholas' />Mike Ciholas|<a href='../languages/flownet.html'>FlowNet</a>|1|3806
+  <a name='Bruno_Blanchet' />Bruno Blanchet|<a href='../languages/proverif-lang.html'>proverif-lang</a>|1|3906
+  <a name='Wayne_Citrin' />Wayne Citrin|<a href='../languages/vex.html'>VEX</a>|1|3975
+  <a name='Richard_Hall' />Richard Hall|<a href='../languages/vex.html'>VEX</a>|1|3975
+  <a name='Benjamin_Zorn' />Benjamin Zorn|<a href='../languages/vex.html'>VEX</a>|1|3975
+  <a name='Trevor_Blackwell' />Trevor Blackwell|<a href='../languages/yoga.html'>yoga</a>|1|3979
+  <a name='Tony_Locke' />Tony Locke|<a href='../languages/zish.html'>zish</a>|1|3981
+  <a name='Glenn_Culler' />Glenn Culler|<a href='../languages/culler-fried-system.html'>Culler-Fried System</a>|1|4128
+  <a name='Burton_Fried' />Burton Fried|<a href='../languages/culler-fried-system.html'>Culler-Fried System</a>|1|4128
+  <a name='Mariana_Marasoiu' />Mariana Marasoiu|<a href='../languages/cuscus.html'>cuscus</a>|1|4130
+  <a name='Detlef_Nauck' />Detlef Nauck|<a href='../languages/cuscus.html'>cuscus</a>|1|4130
+  <a name='Alan_F._Blackwell' />Alan F. Blackwell|<a href='../languages/cuscus.html'>cuscus</a>|1|4130
+  <a name='David_Wheeler' />David Wheeler|<a href='../languages/edsac-initial-orders.html'>EDSAC Initial Orders</a>|1|4169
+  <a name='Maurice_Wilkes' />Maurice Wilkes|<a href='../languages/edsac-initial-orders.html'>EDSAC Initial Orders</a>|1|4169
+  <a name='Stanley_Gill' />Stanley Gill|<a href='../languages/edsac-initial-orders.html'>EDSAC Initial Orders</a>|1|4169
   <a name='Linus_Torvalds' />Linus Torvalds|<a href='../languages/gitignore.html'>gitignore</a>|1|4182
   <a name='Niels_Houbak' />Niels Houbak|<a href='../languages/sil.html'>SIL</a>|1|4204
   <a name='Garry_Shannon' />Garry Shannon|<a href='../languages/vtl.html'>Very Tiny Language</a>|1|4209

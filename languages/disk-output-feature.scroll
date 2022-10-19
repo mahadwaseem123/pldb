@@ -30,7 +30,7 @@ paragraph
  Languages <b>without</b> Disk Output include <a href="xml.html">XML</a>, <a href="json.html">JSON</a>, <a href="css.html">CSS</a>, <a href="haml.html">HAML</a>
 
 paragraph
- Languages <b>with</b> Disk Output include <a href="python.html">Python</a>, <a href="nodejs.html">Node.js</a>, <a href="elixir.html">Elixir</a>, <a href="rebol.html">REBOL</a>, <a href="boron.html">Boron</a>
+ Languages <b>with</b> Disk Output include <a href="python.html">Python</a>, <a href="elixir.html">Elixir</a>, <a href="nodejs.html">Node.js</a>, <a href="rebol.html">REBOL</a>, <a href="boron.html">Boron</a>
 
 exampleCodeHeader Example from <a href="python.html">Python</a>:
 
@@ -38,15 +38,15 @@ code
  with open(&#39;helloworld.txt&#39;, &#39;w&#39;) as filehandle:
   filehandle.write(&#39;Hello, world!\n&#39;)
 
-exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
-
-code
- require(&quot;fs&quot;).writeFileSync(&quot;foo.txt&quot;, &quot;foo&quot;, &quot;utf8&quot;)
-
 exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
 
 code
  File.write!(&quot;helloworld.txt&quot;, &quot;Hello, world!\n&quot;)
+
+exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
+
+code
+ require(&quot;fs&quot;).writeFileSync(&quot;foo.txt&quot;, &quot;foo&quot;, &quot;utf8&quot;)
 
 exampleCodeHeader Example from <a href="rebol.html">REBOL</a>, <a href="boron.html">Boron</a>:
 
