@@ -103,9 +103,19 @@
 
 <table class="scrollTableComponent"><thead><tr><th>site</th>
 </tr></thead>
-<tbody><tr><td><a href="https://www.craigslist.org/">Craigslist</a></td>
+<tbody><tr><td><a href="https://arc.dev/">Arc</a></td>
+</tr>
+<tr><td><a href="https://berlinstartupjobs.com/">Berlinstartupjobs</a></td>
+</tr>
+<tr><td><a href="https://www.usebraintrust.com/">Braintrust</a></td>
+</tr>
+<tr><td><a href="https://www.craigslist.org/">Craigslist</a></td>
 </tr>
 <tr><td><a href="https://www.dice.com/">Dice</a></td>
+</tr>
+<tr><td><a href="https://dribbble.com/jobs?location=Anywhere">Dribbble</a></td>
+</tr>
+<tr><td><a href="https://www.flexjobs.com/ ">Flexjobs</a></td>
 </tr>
 <tr><td><a href="https://jobs.github.com/">GitHub Jobs</a></td>
 </tr>
@@ -113,9 +123,19 @@
 </tr>
 <tr><td><a href="https://news.ycombinator.com/jobs">Hacker News Jobs</a></td>
 </tr>
+<tr><td><a href="https://talent.hubstaff.com/">Hubstaff</a></td>
+</tr>
 <tr><td><a href="http://indeed.com/">Indeed</a></td>
 </tr>
+<tr><td><a href="https://jobspresso.co/">Jobspresso</a></td>
+</tr>
 <tr><td><a href="https://www.linkedin.com/">LinkedIn</a></td>
+</tr>
+<tr><td><a href="https://www.monster.com/">Monster</a></td>
+</tr>
+<tr><td><a href="https://otta.com/">Otta</a></td>
+</tr>
+<tr><td><a href="https://powertofly.com/jobs/">Powertofly</a></td>
 </tr>
 <tr><td><a href="https://www.producthunt.com/jobs">Product Hunt</a></td>
 </tr>
@@ -123,11 +143,19 @@
 </tr>
 <tr><td><a href="https://remote.com/">Remote.com</a></td>
 </tr>
+<tr><td><a href="https://www.remotejobs.com/">Remotejobs</a></td>
+</tr>
+<tr><td><a href="https://remotive.com/">Remotive</a></td>
+</tr>
 <tr><td><a href="https://www.simplyhired.com/">SimplyHired</a></td>
 </tr>
 <tr><td><a href="https://stackoverflow.com/jobs">StackOverflow</a></td>
 </tr>
 <tr><td><a href="https://triplebyte.com/">TripleByte</a></td>
+</tr>
+<tr><td><a href="https://www.upwork.com/">Upwork</a></td>
+</tr>
+<tr><td><a href="https://vanhack.com/jobs">Vanhack</a></td>
 </tr>
 <tr><td><a href="https://weworkremotely.com/">We Work Remotely</a></td>
 </tr>
@@ -136,27 +164,23 @@
 <tr><td><a href="https://www.workingnomads.co/jobs">Working Nomads</a></td>
 </tr>
 <tr><td><a href="https://www.ziprecruiter.com/">ZipRecruiter</a></td>
-</tr>
-<tr><td><a href="https://otta.com/">Otta</a></td>
-</tr>
-<tr><td><a href="https://talent.hubstaff.com/">Hubstaff</a></td>
-</tr>
-<tr><td><a href="https://berlinstartupjobs.com/">Berlinstartupjobs</a></td>
-</tr>
-<tr><td><a href="https://vanhack.com/jobs">Vanhack</a></td>
-</tr>
-<tr><td><a href="https://www.usebraintrust.com/">Braintrust</a></td>
-</tr>
-<tr><td><a href="https://www.monster.com/">Monster</a></td>
 </tr></tbody></table>
 
 
 
 
-<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/lists/jobs.scroll">View source</a></p></div>
+  <script src="../jquery-3.4.1.min.js"></script>
+  <script src="../jquery.dataTables.min.js"></script>
+  <script>
+    $(document).ready( function () {
+    const urlSearchParams = new URLSearchParams(window.location.search)
+    const params = Object.fromEntries(urlSearchParams.entries())
+    $('table').DataTable({"order": [],"paging": false,search:{ search: params.filter || ""}});
+  } );
+  </script><p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/lists/jobs.scroll">View source</a></p></div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 5658fcfff1333917fa6c091c2b2efe0b9cd3e836" href="https://github.com/breck7/pldb/commit/5658fcfff1333917fa6c091c2b2efe0b9cd3e836">v2022</a> · </span>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit 42932411fdcca5a161fcb64488bb27863a7ab31f" href="https://github.com/breck7/pldb/commit/42932411fdcca5a161fcb64488bb27863a7ab31f">v2022</a> · </span>
    <a href="../pages/about.html">Day 53</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>

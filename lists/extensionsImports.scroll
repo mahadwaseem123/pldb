@@ -109,8 +109,8 @@ replace TABLE
   Protocol Buffers|../languages/protobuf.html|proto|1
   Idris|../languages/idris.html|idr lidr|2
   AMPL|../languages/ampl.html|ampl mod run dat|4
-  V|../languages/v.html|v|1
   sed|../languages/sed.html|sed [gs]sed|2
+  V|../languages/v.html|v|1
   PicoLisp|../languages/picolisp.html|l|1
   Standard ML|../languages/standard-ml.html|sml ml fun sig|4
   Tex|../languages/tex.html|tex aux bbx cbx cls dtx ins lbx ltx mkii mkiv mkvi sty toc|14
@@ -297,19 +297,19 @@ replace TABLE
   RMarkdown|../languages/rmarkdown.html|rmd qmd|2
   Smarty|../languages/smarty.html|tpl|1
   Graph Modeling Language|../languages/graph-modeling-language.html|gml|1
-  Parrot|../languages/parrot-vm.html|parrot|1
   AspectJ|../languages/aspectj.html|aj|1
+  Parrot|../languages/parrot-vm.html|parrot|1
   DTrace|../languages/dtrace.html|d|1
   Xtend|../languages/xtend.html|xtend|1
   Max|../languages/max.html|maxpat maxhelp maxproj mxt pat|5
   Nu|../languages/nu.html|nu|1
   Diff|../languages/diff.html|diff patch|2
   Ragel|../languages/ragel.html|rl|1
-  muPad|../languages/mupad.html|mu|1
   Unicon|../languages/unicon.html|icn|1
   Slash|../languages/slash.html|sl sla|2
-  JCL|../languages/jcl.html|jcl|1
+  muPad|../languages/mupad.html|mu|1
   NSIS|../languages/nsis.html|nsi nsh|2
+  JCL|../languages/jcl.html|jcl|1
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli|5
   jq|../languages/jq.html|jq|1
   mlir|../languages/mlir.html|mlir|1
@@ -345,8 +345,8 @@ replace TABLE
   Zip file format|../languages/zip-format.html|zip|1
   eC|../languages/ec.html|ec eh|2
   PIR|../languages/parrot-internal-representation.html|pir|1
-  CFML|../languages/cfml.html|cfm cfc|2
   RUNOFF|../languages/runoff.html|rnh rno|2
+  CFML|../languages/cfml.html|cfm cfc|2
   CWEB|../languages/cweb.html|w|1
   Velocity|../languages/apache-velocity.html|vm fhtml|2
   Jule|../languages/x.html|.jule|1
@@ -356,8 +356,8 @@ replace TABLE
   beads-lang|../languages/beads-lang.html|beads|1
   CSV|../languages/csv.html|csv|1
   CodeQL|../languages/codeql.html|ql qll|2
-  CSON|../languages/cson.html|cson|1
   Euphoria|../languages/euphoria.html|e ex exw edb|4
+  CSON|../languages/cson.html|cson|1
   Spin|../languages/spin.html|spin|1
   SQLPL|../languages/sqlpl.html|sql db2|2
   PAWN|../languages/pawn.html|pwn inc|2
@@ -370,8 +370,8 @@ replace TABLE
   Felix|../languages/felix.html|flx flxh|2
   X BitMap|../languages/x-bitmap.html|xbm|1
   NetLinx|../languages/netlinx.html|axserb axierb axs axi|4
-  Slope|../languages/slope.html|slo|1
   P4|../languages/p4.html|p4|1
+  Slope|../languages/slope.html|slo|1
   FIGlet Font|../languages/figlet-font.html|flf|1
   Textile|../languages/textile.html|textile|1
   Shapefile|../languages/shapefile.html|shp shx dbf|3
@@ -381,9 +381,9 @@ replace TABLE
   Z shell|../languages/z-shell.html|.ZSH|1
   BBC BASIC|../languages/bbc-basic.html|bbc|1
   Literate CoffeeScript|../languages/literate-coffeescript.html|litcoffee coffeemd|2
+  Angelscript|../languages/angelscript.html|as angelscript|2
   XProc|../languages/xproc.html|xpl xproc|2
   Cobra|../languages/cobra.html|cobra|1
-  Angelscript|../languages/angelscript.html|as angelscript|2
   Apex|../languages/apex.html|cls|1
   chaiscript|../languages/chaiscript.html|chai|1
   QMake|../languages/qmake.html|pro pri|2
@@ -558,8 +558,8 @@ replace TABLE
   holyc|../languages/holyc.html|hc|1
   TextMate Language|../languages/tmlanguage.html|tmLanguage|1
   Snap!|../languages/snap.html|ypr ysp xml|3
-  Redcode|../languages/redcode.html|cw|1
   Egison|../languages/egison.html|egi|1
+  Redcode|../languages/redcode.html|cw|1
   Adobe Font Metrics|../languages/adobe-font-metrics.html|afm|1
   NWScript|../languages/nwscript.html|nss|1
   Genero Business Development Language|../languages/genero.html|4gl|1
@@ -571,8 +571,8 @@ replace TABLE
   Z|../languages/z-expressions.html|zz|1
   JS++|../languages/jspp.html|jspp|1
   Ligo|../languages/ligo.html|religo|1
-  Pawn|../languages/pawn-scripting-language.html|pwn inc sma p|4
   MXF|../languages/material-exchange-format.html|mxf|1
+  Pawn|../languages/pawn-scripting-language.html|pwn inc sma p|4
   JSLT|../languages/jslt.html|jslt|1
   Grace|../languages/grace.html|grace|1
   Kit|../languages/kit.html|kit|1
@@ -585,9 +585,9 @@ replace TABLE
   Aheui|../languages/aheui.html|aheui|1
   verifpal|../languages/verifpal.html|vp|1
   Coco|../languages/coco.html|co|1
+  Bro|../languages/bro.html|bro|1
   Wavefront Material|../languages/wavefront-material.html|mtl|1
   Fjölnir|../languages/fjolnir.html|fjo fjv sma ein|4
-  Bro|../languages/bro.html|bro|1
   OpenType Feature File|../languages/opentype-feature-file.html|fea|1
   zenscript|../languages/zenscript.html|zs|1
   UCG|../languages/ucg.html|ucg|1
@@ -696,18 +696,19 @@ replace TABLE
   Public Key File|../languages/public-key-file.html|asc pub|2
   REALBasic (now Xojo)|../languages/realbasic.html|rbbas rbfrm rbmnu rbres rbtbar rbuistate|6
   WebAssembly Text Format|../languages/wast.html|wast|1
+  Autoconf|../languages/autoconf.html|ac|1
   Bizubee|../languages/bizubee.html|jsl|1
   RigC|../languages/rigc.html|rigc|1
   Freefem|../languages/freefem.html|edp|1
   Pickle|../languages/pickle-format.html|pkl|1
   Nasal|../languages/nasal.html|nas|1
   ObjectScript|../languages/objectscript.html|cls|1
-  Autoconf|../languages/autoconf.html|ac|1
   Hot Cocoa Lisp|../languages/hotcocoalisp.html|hcl|1
   arrow|../languages/arrow.html|arw|1
   DUEL|../languages/duel.html|duel jbst|2
   Parasolid|../languages/parasolid.html|x_t x_b|2
   bag-format|../languages/bag-format.html|bag|1
+  Extempore|../languages/extempore.html|xtm|1
   juttle|../languages/juttle.html|juttle|1
   RAISE Specification Language|../languages/rsl.html|rsl|1
   Statement List|../languages/stl.html|stl|1
@@ -727,7 +728,6 @@ replace TABLE
   RQL|../languages/rql.html|rql|1
   Smithy|../languages/smithy.html|smithy|1
   Elpi|../languages/elpi.html|elpi|1
-  Extempore|../languages/extempore.html|xtm|1
   JMESPath|../languages/jmespath.html|jp|1
   PacmanConf|../languages/pacmanconf.html|pacman.conf|1
   PkgConfig|../languages/pkgconfig.html|pc|1
