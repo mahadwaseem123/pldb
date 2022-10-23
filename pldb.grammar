@@ -366,10 +366,6 @@ githubDescriptionNode
  extends descriptionNode
  crux description
  description Description of the repo on GitHub.
-wikipediaSummaryNode
- description What is the text summary of the language from the Wikipedia page?
- extends descriptionNode
- crux summary
 abstractCodeNode
  catchAllNodeType lineOfCodeNode
  extends abstractFactNode
@@ -964,6 +960,13 @@ domainNameNode
  single
  contentKey name
  inScope domainRegisteredNode awisRankNode
+wikipediaSummaryNode
+ description What is the text summary of the language from the Wikipedia page?
+ extends abstractFactNode
+ baseNodeType blobNode
+ boolean includeChildrenInCsv false
+ single
+ crux summary
 dblpPublicationsHitsNode
  crux hits
  cells keywordCell intCell

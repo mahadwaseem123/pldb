@@ -9,7 +9,7 @@ paragraph
  Bucardo is an <a href="../lists/languages.html?filter=application">object object</a> by <a href="../lists/creators.html#Jon_Jensen">Jon Jensen</a>.
 
 kpiTable
- #1402 on PLDB
+ #1403 on PLDB
  911 <span title="Crude user estimate from a linear model.">Users</span>
 
 
@@ -19,7 +19,7 @@ kpiTable
 
 
 paragraph
- Bucardo is an asynchronous PostgreSQL replication system, allowing for multi-source, multi-target operations.
+ Bucardo is an asynchronous PostgreSQL replication system, allowing for multi-source, multi-target operations. Bucardo is a replication system for Postgres that supports any number of sources and targets (aka masters and slaves). It is asynchronous and trigger based.
 
 list
  - the <a href="https://bucardo.org/Bucardo/">Bucardo website</a>
@@ -54,4 +54,4 @@ html
 
 
 
-keyboardNav lisp-machine-lisp.html symbol-table-feature.html
+keyboardNav scribe.html ags-script.html
