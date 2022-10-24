@@ -1,6 +1,6 @@
 importOnly
 replace EXTENSION_COUNT
- 1,543
+ 1,542
 replace TABLE
  pipeTable
   name|nameLink|extensions|numberOfExtensions
@@ -103,9 +103,9 @@ replace TABLE
   LLVM IR|../languages/llvmir.html|ll|1
   Applescript|../languages/applescript.html|scpt scptd AppleScript applescript|4
   Oz|../languages/oz.html|oz|1
+  fish|../languages/fish.html|fish load|2
   Red|../languages/red.html|red reds|2
   Lasso|../languages/lasso.html|lasso LassoApp las lasso8 lasso9 lasso[89]|6
-  fish|../languages/fish.html|fish load|2
   Protocol Buffers|../languages/protobuf.html|proto|1
   Idris|../languages/idris.html|idr lidr|2
   AMPL|../languages/ampl.html|ampl mod run dat|4
@@ -301,8 +301,8 @@ replace TABLE
   Graph Modeling Language|../languages/graph-modeling-language.html|gml|1
   Parrot|../languages/parrot-vm.html|parrot|1
   AspectJ|../languages/aspectj.html|aj|1
-  DTrace|../languages/dtrace.html|d|1
   Xtend|../languages/xtend.html|xtend|1
+  DTrace|../languages/dtrace.html|d|1
   Max|../languages/max.html|maxpat maxhelp maxproj mxt pat|5
   Nu|../languages/nu.html|nu|1
   Ragel|../languages/ragel.html|rl|1
@@ -312,8 +312,8 @@ replace TABLE
   Slash|../languages/slash.html|sl sla|2
   JCL|../languages/jcl.html|jcl|1
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli|5
-  jq|../languages/jq.html|jq|1
   Fennel|../languages/fennel.html|fnl|1
+  jq|../languages/jq.html|jq|1
   NSIS|../languages/nsis.html|nsi nsh|2
   Pure Data|../languages/puredata.html|pd|1
   Ring|../languages/ring.html|ring rh rform|3
@@ -372,8 +372,8 @@ replace TABLE
   X BitMap|../languages/x-bitmap.html|xbm|1
   NetLinx|../languages/netlinx.html|axserb axierb axs axi|4
   FIGlet Font|../languages/figlet-font.html|flf|1
-  P4|../languages/p4.html|p4|1
   Slope|../languages/slope.html|slo|1
+  P4|../languages/p4.html|p4|1
   Textile|../languages/textile.html|textile|1
   Shapefile|../languages/shapefile.html|shp shx dbf|3
   kaitai|../languages/kaitai.html|ksy|1
@@ -402,15 +402,15 @@ replace TABLE
   Eclipse Command Language|../languages/eclipse-command-language.html|ecl|1
   GNU Assembler|../languages/gas.html|s S|2
   Tea|../languages/tea.html|tea|1
+  Filebench WML|../languages/filebench-wml.html|f|1
   PIC|../languages/pic.html|pic chem|2
   ShaderLab|../languages/shaderlab.html|shader|1
   DNS Zone|../languages/zone.html|zone arpa|2
-  Filebench WML|../languages/filebench-wml.html|f|1
   TSV|../languages/tsv.html|tsv|1
   JSONiq|../languages/jsoniq.html|jq|1
   Nix|../languages/nix.html|nix|1
-  UPC|../languages/unified-parallel-c.html|upc|1
   Creole|../languages/creole.html|creole|1
+  UPC|../languages/unified-parallel-c.html|upc|1
   Cryptol|../languages/cryptol.html|cry|1
   COLLADA|../languages/collada.html|dae|1
   Easybuild|../languages/easybuild.html|eb|1
@@ -583,10 +583,10 @@ replace TABLE
   Groovy Server Pages|../languages/groovy-server-pages.html|gsp|1
   Augeas|../languages/augeas.html|aug|1
   Aheui|../languages/aheui.html|aheui|1
+  Fjölnir|../languages/fjolnir.html|fjo fjv sma ein|4
   verifpal|../languages/verifpal.html|vp|1
   Coco|../languages/coco.html|co|1
   Wavefront Material|../languages/wavefront-material.html|mtl|1
-  Fjölnir|../languages/fjolnir.html|fjo fjv sma ein|4
   Bro|../languages/bro.html|bro|1
   OpenType Feature File|../languages/opentype-feature-file.html|fea|1
   zenscript|../languages/zenscript.html|zs|1
@@ -699,7 +699,6 @@ replace TABLE
   Autoconf|../languages/autoconf.html|ac|1
   Bizubee|../languages/bizubee.html|jsl|1
   RigC|../languages/rigc.html|rigc|1
-  Fern|../languages/fern.html|https://github.com/Spencer-Comin/Fern/issues|1
   Freefem|../languages/freefem.html|edp|1
   Pickle|../languages/pickle-format.html|pkl|1
   Nasal|../languages/nasal.html|nas|1
@@ -746,4 +745,4 @@ replace TABLE
   proverif-lang|../languages/proverif-lang.html|pv|1
   rdata-format|../languages/rdata-format.html|Rdata rdata rda RData|4
 replace LANG_WITH_DATA_COUNT
- 741
+ 740
