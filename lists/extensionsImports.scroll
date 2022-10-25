@@ -169,56 +169,56 @@ replace TABLE
   PostCSS|../languages/postcss.html|pcss postcss|2
   Hy|../languages/hy.html|hy|1
   Zephir|../languages/zephir.html|zep|1
+  Object Pascal|../languages/object-pascal.html|p pp pas|3
   Nemerle|../languages/nemerle.html|n|1
   Ceylon|../languages/ceylon.html|ceylon ceyloncite web|3
-  Object Pascal|../languages/object-pascal.html|p pp pas|3
   SPARQL|../languages/sparql.html|sparql rq|2
-  Lean|../languages/lean.html|lean hlean|2
   LOLCODE|../languages/lolcode.html|lol|1
   Clean|../languages/clean.html|icl dcl abc sapl|4
   SuperCollider|../languages/supercollider.html|sc scd|2
+  Lean|../languages/lean.html|lean hlean|2
   SystemVerilog|../languages/systemverilog.html|sv svh vh header file|5
   Opa|../languages/opa.html|opa|1
-  QBasic|../languages/qbasic.html|BAS bas|2
   SNOBOL|../languages/snobol.html|snobol|1
+  QBasic|../languages/qbasic.html|BAS bas|2
   J|../languages/j.html|ijs|1
   Cython|../languages/cython.html|pyx pxd pxi|3
   Bison|../languages/bison.html|bison|1
-  CLIPS|../languages/clips.html|clp|1
   Inform|../languages/inform.html|ni i7x|2
+  CLIPS|../languages/clips.html|clp|1
   KiCad Legacy Layout|../languages/kicad.html|sch lib brd kicad_pcb kicad_wks kicad_mod|6
   RobotFramework|../languages/robotframework.html|robot resource|2
   CMake|../languages/cmake.html|cmake cmakein CMakeLists.txt|3
   Stata|../languages/stata.html|do ado doh ihlp mata matah sthlp|7
-  Nextflow|../languages/nextflow.html|nf|1
   JSON5|../languages/json5.html|json5|1
+  Nextflow|../languages/nextflow.html|nf|1
   Self|../languages/self.html|self|1
   reStructuredText|../languages/restructuredtext.html|rst rest resttxt rsttxt|4
   Multi-User Forth|../languages/muf.html|muf m|2
   PL/pgSQL|../languages/plpgsql.html|pgsql sql|2
   EDN|../languages/edn.html|edn|1
-  Metal|../languages/metal.html|metal|1
   NumPy|../languages/numpy.html|numpy numpyw numsc|3
-  Isabelle|../languages/isabelle.html|ROOT thy|2
+  Metal|../languages/metal.html|metal|1
   API Blueprint|../languages/api-blueprint.html|apib|1
   Click|../languages/click.html|click|1
   MiniD|../languages/minid.html|minid|1
-  Pike|../languages/pike.html|pike pmod|2
+  Isabelle|../languages/isabelle.html|ROOT thy|2
   HCL|../languages/hcl.html|hcl nomad tf tfvars workflow|5
-  YANG|../languages/yang.html|yang|1
+  Pike|../languages/pike.html|pike pmod|2
   RAML|../languages/raml.html|raml|1
+  YANG|../languages/yang.html|yang|1
   ATS|../languages/ats.html|dats hats sats|3
   Csound|../languages/csound.html|csd sco orc udo|4
   F*|../languages/fstar.html|fst fsti|2
   Factor|../languages/factor.html|factor|1
+  AGC|../languages/apollo-guidance-computer.html|agc|1
   Perl 6|../languages/perl-6.html|6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 t|11
+  NetLogo|../languages/netlogo.html|nlogo nlogo3d nls|3
   Xojo|../languages/xojo.html|xojo_code xojo_menu xojo_report xojo_script xojo_toolbar xojo_window|6
   Sass|../languages/sass.html|sass scss|2
-  NetLogo|../languages/netlogo.html|nlogo nlogo3d nls|3
   ClojureScript|../languages/clojurescript.html|cljs|1
   Turtle|../languages/turtle.html|ttl|1
   Lex|../languages/lex.html|l lex|2
-  AGC|../languages/apollo-guidance-computer.html|agc|1
   Gnuplot|../languages/gnuplot.html|gp gnu gnuplot p plot plt|6
   FoxPRO|../languages/foxpro.html|PRG prg|2
   Embedded Crystal|../languages/ecr.html|ecr|1
@@ -241,8 +241,8 @@ replace TABLE
   Batchfile|../languages/batch.html|bat cmd|2
   Dafny|../languages/dafny.html|dfy|1
   Dhall|../languages/dhall.html|dhall|1
-  M4|../languages/m4.html|m4 mc|2
   Arc|../languages/arc.html|arc|1
+  M4|../languages/m4.html|m4 mc|2
   Objective-J|../languages/objective-j.html|j sj|2
   Pod|../languages/pod.html|pod|1
   Marko|../languages/marko.html|marko|1
@@ -274,8 +274,8 @@ replace TABLE
   Maxima|../languages/maxima.html|mac max|2
   Transact-SQL|../languages/transact-sql.html|sql|1
   wisp|../languages/wisp.html|wisp|1
-  Netwide Assembler|../languages/nasm.html|asm ASM|2
   ASN.1|../languages/asn-1.html|asn asn1|2
+  Netwide Assembler|../languages/nasm.html|asm ASM|2
   Cap'n Proto|../languages/capn-proto.html|capnp|1
   YASnippet|../languages/yasnippet.html|yasnippet|1
   EJS|../languages/ejs.html|ejs ect ejst jst|4
@@ -312,8 +312,8 @@ replace TABLE
   Slash|../languages/slash.html|sl sla|2
   JCL|../languages/jcl.html|jcl|1
   HLSL|../languages/hlsl.html|hlsl cginc fx fxh hlsli|5
-  jq|../languages/jq.html|jq|1
   Fennel|../languages/fennel.html|fnl|1
+  jq|../languages/jq.html|jq|1
   NSIS|../languages/nsis.html|nsi nsh|2
   Pure Data|../languages/puredata.html|pd|1
   Ring|../languages/ring.html|ring rh rform|3
@@ -372,8 +372,8 @@ replace TABLE
   X BitMap|../languages/x-bitmap.html|xbm|1
   NetLinx|../languages/netlinx.html|axserb axierb axs axi|4
   FIGlet Font|../languages/figlet-font.html|flf|1
-  Slope|../languages/slope.html|slo|1
   P4|../languages/p4.html|p4|1
+  Slope|../languages/slope.html|slo|1
   Textile|../languages/textile.html|textile|1
   Shapefile|../languages/shapefile.html|shp shx dbf|3
   kaitai|../languages/kaitai.html|ksy|1
@@ -418,8 +418,8 @@ replace TABLE
   Meson|../languages/meson.html|meson.build meson_options.txt|2
   COMPONENT PASCAL|../languages/component-pascal.html|cp cps|2
   POV-Ray SDL|../languages/pov-ray-sdl.html|pov inc|2
-  CartoCSS|../languages/cartocss.html|mss|1
   IcedCoffeeScript|../languages/icedcoffeescript.html|coffee|1
+  CartoCSS|../languages/cartocss.html|mss|1
   Gettext Catalog|../languages/gettext.html|po pot|2
   Mask|../languages/maskjs.html|mask|1
   Omgrofl|../languages/omgrofl.html|omgrofl|1
