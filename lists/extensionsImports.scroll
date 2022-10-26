@@ -121,10 +121,10 @@ replace TABLE
   Hack|../languages/hack.html|hack hh hhi php|4
   Processing|../languages/processing.html|pde|1
   SVG|../languages/svg.html|svg|1
+  FLUX|../languages/flux.html|fx flux|2
   Org|../languages/org.html|org|1
   Dylan|../languages/dylan.html|dylan dyl intr lid|4
   DOT|../languages/dot.html|dot gv|2
-  FLUX|../languages/flux.html|fx flux|2
   Brainfuck|../languages/brainfuck.html|b bf|2
   Fantom|../languages/fantom.html|fan|1
   Squirrel|../languages/squirrel.html|nut|1
@@ -195,8 +195,8 @@ replace TABLE
   Self|../languages/self.html|self|1
   reStructuredText|../languages/restructuredtext.html|rst rest resttxt rsttxt|4
   Multi-User Forth|../languages/muf.html|muf m|2
-  PL/pgSQL|../languages/plpgsql.html|pgsql sql|2
   EDN|../languages/edn.html|edn|1
+  PL/pgSQL|../languages/plpgsql.html|pgsql sql|2
   NumPy|../languages/numpy.html|numpy numpyw numsc|3
   Metal|../languages/metal.html|metal|1
   API Blueprint|../languages/api-blueprint.html|apib|1
@@ -216,8 +216,8 @@ replace TABLE
   NetLogo|../languages/netlogo.html|nlogo nlogo3d nls|3
   Xojo|../languages/xojo.html|xojo_code xojo_menu xojo_report xojo_script xojo_toolbar xojo_window|6
   Sass|../languages/sass.html|sass scss|2
-  ClojureScript|../languages/clojurescript.html|cljs|1
   Turtle|../languages/turtle.html|ttl|1
+  ClojureScript|../languages/clojurescript.html|cljs|1
   Lex|../languages/lex.html|l lex|2
   Gnuplot|../languages/gnuplot.html|gp gnu gnuplot p plot plt|6
   FoxPRO|../languages/foxpro.html|PRG prg|2
@@ -291,8 +291,8 @@ replace TABLE
   Vim script|../languages/vim-script.html|vim vba vimrc vmb .vimrc .exrc .gvimrc _vimrc _exrc _gvimrc gvimrc|11
   EML|../languages/mbox.html|eml mbox|2
   CIL|../languages/cilk.html|cil|1
-  Latte|../languages/latte.html|latte|1
   TXL|../languages/txl.html|txl|1
+  Latte|../languages/latte.html|latte|1
   FreeBASIC|../languages/freebasic.html|bi bas|2
   DTD|../languages/dtd.html|dtd|1
   RMarkdown|../languages/rmarkdown.html|rmd qmd|2
@@ -328,8 +328,8 @@ replace TABLE
   OpenVera|../languages/openvera.html|vr|1
   Dogescript|../languages/dogescript.html|djs|1
   PEG|../languages/peg.html|peg|1
-  Closure Templates|../languages/closure-templates.html|soy|1
   Hierarchical Data Format|../languages/hdf.html|hdf h4 hdf4 he2 h5 hdf5 he5|7
+  Closure Templates|../languages/closure-templates.html|soy|1
   WDL|../languages/wdl.html|wdl|1
   GLSL|../languages/glsl.html|glsl fp frag frg fs fsh fshader geo geom glslf glslv gs gshader rchit rmiss shader tesc tese vert vrx vsh vshader|22
   CWL|../languages/common-workflow-language.html|cwl|1
@@ -426,8 +426,8 @@ replace TABLE
   Yorick|../languages/yorick.html|i|1
   RenderScript|../languages/renderscript.html|rs rsh|2
   contracts.coffee|../languages/contracts.coffee.html|coffee|1
-  OpenSCAD|../languages/openscad.html|scad|1
   ToffeeScript|../languages/toffeescript.html|toffee|1
+  OpenSCAD|../languages/openscad.html|scad|1
   BlackCoffee|../languages/blackcoffee.html|coffee|1
   Jasmin|../languages/jasmin.html|j|1
   Literate Agda|../languages/literate-agda.html|lagda|1
@@ -443,8 +443,8 @@ replace TABLE
   ooc|../languages/ooc.html|ooc|1
   Objective C++|../languages/objective-cpp.html|mm hh|2
   Slice|../languages/slice.html|ice|1
-  EmberScript|../languages/emberscript.html|em emberscript|2
   Blender|../languages/blender-app.html|blend|1
+  EmberScript|../languages/emberscript.html|em emberscript|2
   clay|../languages/clay.html|clay|1
   Mirah|../languages/mirah.html|druby duby mirah|3
   Nit|../languages/nit.html|nit|1
@@ -469,8 +469,8 @@ replace TABLE
   SMT|../languages/smt.html|smt2 smt|2
   Ezhil|../languages/ezhil.html|n|1
   WebIDL|../languages/web-idl.html|webidl|1
-  GraphIt|../languages/graph-it.html|gt|1
   PogoScript|../languages/pogoscript.html|pogo|1
+  GraphIt|../languages/graph-it.html|gt|1
   TI Program|../languages/ti-basic-assembly.html|8xp 8xk 8xktxt 8xptxt|4
   Logtalk|../languages/logtalk.html|lgt logtalk|2
   SRecode Template|../languages/srecode-template.html|srt|1
@@ -636,6 +636,7 @@ replace TABLE
   Linker Script|../languages/linker-script.html|ld lds x|3
   rbs|../languages/rbs.html|rbs|1
   Zork Implementation Language|../languages/zil.html|zil mud|2
+  FloScript|../languages/floscript.html|flo|1
   Literate Haskell|../languages/literate-haskell.html|lhs|1
   RHTML|../languages/rhtml.html|rhtml|1
   Unity3D Asset|../languages/unity3d-asset.html|anim asset mask mat meta prefab unity|7
@@ -643,7 +644,6 @@ replace TABLE
   Macchiato|../languages/macchiato.html|at|1
   4th Dimension|../languages/4th-dimension.html|4dm|1
   Frank|../languages/frank-lang.html|fk|1
-  FloScript|../languages/floscript.html|flo|1
   Glyph|../languages/glyph.html|glf|1
   TI-89 series|../languages/ti-89-basic.html|89p|1
   nimrod|../languages/nimrod.html|nim nimrod|2

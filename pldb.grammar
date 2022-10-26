@@ -56,45 +56,14 @@ domainNameCell
  extends stringCell
 abstractFactNode
  cells keywordCell
-abstractUrlGuidNode
- cells keywordCell urlCell
- extends abstractFactNode
-antlrNode
- extends abstractUrlGuidNode
- description A link to the ANTLR grammar for this language (https://github.com/antlr/grammars-v4/tree/master/LANGUAGE)
- cruxFromId
- string sourceDomain antlr.org
-hoplNode
- cruxFromId
- extends abstractUrlGuidNode
- cells keywordCell urlCell
- description The matching language on Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site (https://hopl.info/)
- string sourceDomain hopl.info
-jupyterKernelNode
- extends abstractUrlGuidNode
- single false
- description A link to a Jupyter Kernel for this language.
- cruxFromId
- string sourceDomain jupyter.org
-subredditNode
- extends abstractUrlGuidNode
- inScope subredditMemberCountNode
- string sourceDomain reddit.com
- contentKey url
- single false
- cruxFromId
- description Url of a subreddit(s) for this language.
- example
-  subreddit php
-twitterNode
- extends abstractUrlGuidNode
- description Official Twitter handle of the entity, if any.
- inScope twitterFollowersNode
- string sourceDomain twitter.com
- cruxFromId
 abstractUrlNode
  cells keywordCell urlCell
  extends abstractFactNode
+annualReportsNode
+ extends abstractUrlNode
+ cruxFromId
+ description URL to the annual reports for this language.
+ single false
 cheatSheetUrlNode
  extends abstractUrlNode
  cruxFromId
@@ -184,6 +153,42 @@ websiteNode
 webReplNode
  extends abstractUrlNode
  description An online repl for the project.
+ cruxFromId
+abstractUrlGuidNode
+ cells keywordCell urlCell
+ extends abstractFactNode
+antlrNode
+ extends abstractUrlGuidNode
+ description A link to the ANTLR grammar for this language (https://github.com/antlr/grammars-v4/tree/master/LANGUAGE)
+ cruxFromId
+ string sourceDomain antlr.org
+hoplNode
+ cruxFromId
+ extends abstractUrlGuidNode
+ cells keywordCell urlCell
+ description The matching language on Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site (https://hopl.info/)
+ string sourceDomain hopl.info
+jupyterKernelNode
+ extends abstractUrlGuidNode
+ single false
+ description A link to a Jupyter Kernel for this language.
+ cruxFromId
+ string sourceDomain jupyter.org
+subredditNode
+ extends abstractUrlGuidNode
+ inScope subredditMemberCountNode
+ string sourceDomain reddit.com
+ contentKey url
+ single false
+ cruxFromId
+ description Url of a subreddit(s) for this language.
+ example
+  subreddit php
+twitterNode
+ extends abstractUrlGuidNode
+ description Official Twitter handle of the entity, if any.
+ inScope twitterFollowersNode
+ string sourceDomain twitter.com
  cruxFromId
 abstractOneWordGuidNode
  todo Remove if we can in favor of URL guids
@@ -1469,7 +1474,7 @@ pldbNode
  description A database about programming languages and related concepts.
  catchAllNodeType errorNode
  todo Should not have to manually list each node type here, but should be able to mark some tag as inscope. Should be fixed upstream in Jtree.
- inScope blankLineNode descriptionNode wikipediaNode equationNode exampleNode fileExtensionsNode githubLanguageNode abstractGitRepoUrlNode helloWorldCollectionNode creatorsNode appearedNode announcementUrlNode countryNode titleNode wordRankNode standsForNode akaNode pseudoExampleNode abstractFeatureGrammarLinkNode featuresNode referenceNode replitNode tryItOnlineNode twitterNode typeNode websiteNode fileTypeNode linguistGrammarRepoNode tiobeNode meetupNode webReplNode linkedInSkillNode projectEulerNode hoplNode subredditNode redditDiscussionNode quineRelayNode ubuntuPackageNode codeMirrorNode monacoNode rosettaCodeNode antlrNode originCommunityNode cheatSheetUrlNode isOpenSourceNode indeedJobsNode hackerNewsDiscussionsNode firstAnnouncementNode announcementMethodNode abstractRelationshipNode packageCountNode packageInstallsNode packageRepositoryNode packageAuthorsNode packagesIncludingVersionsNode forLanguagesNode conferenceNode abstractCommonTokenNode languageServerProtocolProjectNode abstractParadigmNode latestReleaseNode nativeLanguageNode jupyterKernelNode keywordsNode stackOverflowSurveyNode centralPackageRepositoryCountNode gdbSupportNode rijuReplNode esolangNode goodreadsNode dblpNode abstractFlagNode oldNameNode pygmentsHighlighterNode leachim6Node domainNameNode isbndbNode semanticScholarNode githubBigQueryNode compilerExplorerNode pyplNode documentationNode screenshotNode demoVideoNode funFactNode factSponsorsNode photoNode
+ inScope blankLineNode descriptionNode wikipediaNode equationNode exampleNode fileExtensionsNode githubLanguageNode abstractGitRepoUrlNode helloWorldCollectionNode creatorsNode appearedNode announcementUrlNode countryNode titleNode wordRankNode standsForNode akaNode pseudoExampleNode abstractFeatureGrammarLinkNode featuresNode referenceNode replitNode tryItOnlineNode twitterNode typeNode websiteNode fileTypeNode linguistGrammarRepoNode tiobeNode meetupNode webReplNode linkedInSkillNode projectEulerNode hoplNode subredditNode redditDiscussionNode quineRelayNode ubuntuPackageNode codeMirrorNode monacoNode rosettaCodeNode antlrNode originCommunityNode cheatSheetUrlNode isOpenSourceNode indeedJobsNode hackerNewsDiscussionsNode firstAnnouncementNode announcementMethodNode abstractRelationshipNode packageCountNode packageInstallsNode packageRepositoryNode packageAuthorsNode packagesIncludingVersionsNode forLanguagesNode conferenceNode abstractCommonTokenNode languageServerProtocolProjectNode abstractParadigmNode latestReleaseNode nativeLanguageNode jupyterKernelNode keywordsNode stackOverflowSurveyNode annualReportsNode centralPackageRepositoryCountNode gdbSupportNode rijuReplNode esolangNode goodreadsNode dblpNode abstractFlagNode oldNameNode pygmentsHighlighterNode leachim6Node domainNameNode isbndbNode semanticScholarNode githubBigQueryNode compilerExplorerNode pyplNode documentationNode screenshotNode demoVideoNode funFactNode factSponsorsNode photoNode
  cells fileNameCell
  string fileExtension pldb
  example
