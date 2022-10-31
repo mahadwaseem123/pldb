@@ -1,12 +1,14 @@
 title Perl
 
 import settings.scroll
-htmlTitle Perl - Pl
+htmlTitle Perl - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/perl.pldb
 
-paragraph
- Perl is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1987">1987</a> by <a href="../lists/creators.html#Larry_Wall">Larry Wall</a>.
+* Perl is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1987 by Larry Wall.
+ link ../lists/languages.html?filter=1987 1987
+ link ../lists/creators.html#Larry_Wall Larry Wall
+ 
 
 kpiTable
  #10 <span title="TotalRank: 28 Jobs: 17 Users: 15 Facts: 7 Links: 6">on PLDB</span>
@@ -16,46 +18,43 @@ kpiTable
  9 <span title="Academic publications about or leveraging Perl">Papers</span>
  170k <span title="Perl repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/perl">Riju</a> · <a href="https://tio.run/#perl6">TIO</a>
+* Try now: <a href="https://riju.codes/perl">Riju</a> · <a href="https://tio.run/#perl6">TIO</a>
 
 monacoEditor perl
  print("Hello, world!\n");
  
 
+* Perl is a family of high-level, general-purpose, interpreted, dynamic programming languages. The languages in this family include Perl 5 and Perl 6. Though Perl is not officially an acronym, there are various backronyms in use, including "Practical Extraction and Reporting Language". <a href="https://en.wikipedia.org/wiki/Perl">Read more on Wikipedia...</a>
 
-
-paragraph
- Perl is a family of high-level, general-purpose, interpreted, dynamic programming languages. The languages in this family include Perl 5 and Perl 6. Though Perl is not officially an acronym, there are various backronyms in use, including "Practical Extraction and Reporting Language". <a href="https://en.wikipedia.org/wiki/Perl">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://www.perl.org">Perl website</a>
- - the <a href="https://en.wikipedia.org/wiki/Perl">Perl Wikipedia page</a>
- - the <a href="https://perldoc.perl.org/">Perl docs</a>
- - There are at least 169,830 Perl repos on <a href="https://github.com/search?q=language:Perl">GitHub</a>
- - Perl first developed in <a href="../lists/originCommunities.html#Unisys">Unisys</a>
- - PLDB estimates there are currently 13k job openings for Perl programmers.
- - file extensions for Perl include pl, pm, t, pod, al, cgi, fcgi, perl, ph, plx and psgi
- - The  Google BigQuery Public Dataset GitHub snapshot shows 69k users using Perl in 102k repos on <a href="https://api.github.com/search/repositories?q=language:Perl">GitHub</a>
- - Check out the 83 <a href="https://www.meetup.com/topics/perl/">Perl meetup groups</a> on Meetup.com.
- - There are 15,510 members in the <a href="https://reddit.com/r/perl">Perl subreddit</a>
- - There are 2,433 <a href="https://projecteuler.net/language=Perl">Project Euler</a> users using Perl
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Perl programmers reported a median salary of $80,000. 2% of respondents reported using Perl. 2,028 programmers reported using Perl, and 1,175 said they wanted to use it
- - Explore Perl snippets on <a href="http://www.rosettacode.org/wiki/Category:Perl">Rosetta Code</a>
- - Perl is listed on <a href="https://hopl.info/showlanguage.prx?exp=2355">HOPL</a>
- - Perl ranks #15 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/perl">package</a> for syntax highlighting Perl
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/perl">package</a> for syntax highlighting Perl
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/perl.py">syntax highlighting</a> for Perl
- - GitHub supports <a href="https://github.com/textmate/perl.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Perl
- - PLDB has 4 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Perl: <a href="https://metacpan.org/release/Devel-IPerl">metacpan.org</a>, <a href="https://github.com/gabrielash/p6-net-jupyter">github.com</a>, <a href="https://github.com/timo/iperl6kernel">github.com</a>, <a href="https://github.com/bduggan/p6-jupyter-kernel">github.com</a>
- - There is a <a href="https://www.cpan.org/">central package repository</a> for Perl
- - Annual Reports for Perl<a href="http://blogs.perl.org/users/mohammad_s_anwar/2022/01/">(Link)</a>
- - Indeed.com has 8,795 matches for <a href="https://www.indeed.com/jobs?q=perl engineer">"perl engineer"</a>.
- - <a href="https://www.perl.org">perl.org</a> was registered in 1995
- - See also: (38 related languages)<a href="pearl.html">PEARL</a>, <a href="c.html">C</a>, <a href="lisp.html">Lisp</a>, <a href="pascal.html">Pascal</a>, <a href="sed.html">sed</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="falcon.html">Falcon</a>, <a href="groovy.html">Groovy</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="lpc.html">LPC</a>, <a href="perl-6.html">Perl 6</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="powershell.html">PowerShell</a>, <a href="unix.html">Unix</a>, <a href="bourne-shell.html">Bourne shell</a>, <a href="regex.html">Regular Expressions</a>, <a href="unicode.html">Unicode</a>, <a href="haskell.html">Haskell</a>, <a href="parrot-vm.html">Parrot</a>, <a href="dtrace.html">DTrace</a>, <a href="json.html">JSON</a>, <a href="awk.html">awk</a>, <a href="fortran.html">Fortran</a>, <a href="s-expressions.html">S-expressions</a>, <a href="yacc.html">Yacc</a>, <a href="bison.html">Bison</a>, <a href="sql.html">SQL</a>, <a href="html.html">HTML</a>, <a href="xs.html">XS</a>, <a href="rfc.html">RFC</a>, <a href="jvm.html">JVM</a>, <a href="apl.html">APL</a>, <a href="perl-data-language.html">Perl Data Language</a>, <a href="pod.html">Pod</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/perl">Improve our Perl file</a>
+- the <a href="https://www.perl.org">Perl website</a>
+- the <a href="https://en.wikipedia.org/wiki/Perl">Perl Wikipedia page</a>
+- the <a href="https://perldoc.perl.org/">Perl docs</a>
+- There are at least 169,830 Perl repos on <a href="https://github.com/search?q=language:Perl">GitHub</a>
+- Perl first developed in <a href="../lists/originCommunities.html#Unisys">Unisys</a>
+- PLDB estimates there are currently 13k job openings for Perl programmers.
+- file extensions for Perl include pl, pm, t, pod, al, cgi, fcgi, perl, ph, plx and psgi
+- The  Google BigQuery Public Dataset GitHub snapshot shows 69k users using Perl in 102k repos on <a href="https://api.github.com/search/repositories?q=language:Perl">GitHub</a>
+- Check out the 83 <a href="https://www.meetup.com/topics/perl/">Perl meetup groups</a> on Meetup.com.
+- There are 15,510 members in the <a href="https://reddit.com/r/perl">Perl subreddit</a>
+- There are 2,433 <a href="https://projecteuler.net/language=Perl">Project Euler</a> users using Perl
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Perl programmers reported a median salary of $80,000. 2% of respondents reported using Perl. 2,028 programmers reported using Perl, and 1,175 said they wanted to use it
+- Explore Perl snippets on <a href="http://www.rosettacode.org/wiki/Category:Perl">Rosetta Code</a>
+- Perl is listed on <a href="https://hopl.info/showlanguage.prx?exp=2355">HOPL</a>
+- Perl ranks #15 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/perl">package</a> for syntax highlighting Perl
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/perl">package</a> for syntax highlighting Perl
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/perl.py">syntax highlighting</a> for Perl
+- GitHub supports <a href="https://github.com/textmate/perl.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Perl
+- PLDB has 4 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Perl: <a href="https://metacpan.org/release/Devel-IPerl">metacpan.org</a>, <a href="https://github.com/gabrielash/p6-net-jupyter">github.com</a>, <a href="https://github.com/timo/iperl6kernel">github.com</a>, <a href="https://github.com/bduggan/p6-jupyter-kernel">github.com</a>
+- There is a <a href="https://www.cpan.org/">central package repository</a> for Perl
+- Annual Reports for Perl<a href="http://blogs.perl.org/users/mohammad_s_anwar/2022/01/">(Link)</a>
+- Release Notes for Perl<a href="https://dev.perl.org/perl5/news/">(Link)</a>
+- Events page for Perl<a href="https://www.perl.org/events.html">(Link)</a>
+- Indeed.com has 8,795 matches for <a href="https://www.indeed.com/jobs?q=perl engineer">"perl engineer"</a>.
+- <a href="https://www.perl.org">perl.org</a> was registered in 1995
+- See also: (38 related languages)<a href="pearl.html">PEARL</a>, <a href="c.html">C</a>, <a href="lisp.html">Lisp</a>, <a href="pascal.html">Pascal</a>, <a href="sed.html">sed</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="falcon.html">Falcon</a>, <a href="groovy.html">Groovy</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="lpc.html">LPC</a>, <a href="perl-6.html">Perl 6</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="powershell.html">PowerShell</a>, <a href="unix.html">Unix</a>, <a href="bourne-shell.html">Bourne shell</a>, <a href="regex.html">Regular Expressions</a>, <a href="unicode.html">Unicode</a>, <a href="haskell.html">Haskell</a>, <a href="parrot-vm.html">Parrot</a>, <a href="dtrace.html">DTrace</a>, <a href="json.html">JSON</a>, <a href="awk.html">awk</a>, <a href="fortran.html">Fortran</a>, <a href="s-expressions.html">S-expressions</a>, <a href="yacc.html">Yacc</a>, <a href="bison.html">Bison</a>, <a href="sql.html">SQL</a>, <a href="html.html">HTML</a>, <a href="xs.html">XS</a>, <a href="rfc.html">RFC</a>, <a href="jvm.html">JVM</a>, <a href="apl.html">APL</a>, <a href="perl-data-language.html">Perl Data Language</a>, <a href="pod.html">Pod</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/perl">Improve our Perl file</a>
 
 html
  <br>
@@ -104,14 +103,11 @@ code
  
  print &quot;\n&quot;;
 
-
-
-subsection <a href="../lists/keywords.html?filter=perl">Keywords</a> in Perl
-paragraph
- __DATA__ else lock qw __END__ elsif lt qx __FILE__ eq m s __LINE__ exp ne sub __PACKAGE__ for no tr and foreach or unless cmp ge package until continue gt q while CORE if qq xor do le qr y
+## <a href="../lists/keywords.html?filter=perl">Keywords</a> in Perl
+* __DATA__ else lock qw __END__ elsif lt qx __FILE__ eq m s __LINE__ exp ne sub __PACKAGE__ for no tr and foreach or unless cmp ge package until continue gt q while CORE if qq xor do le qr y
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -266,10 +262,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Perl on goodreads
+## Books about Perl on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Programming Perl|https://www.goodreads.com/search?q=Programming Perl Tom Christiansen|Tom Christiansen|1991|52|2104|4.04
@@ -279,9 +273,8 @@ pipeTable
  The Perl CD Bookshelf: Perl in a Nutshell/Programming Perl, 2nd Edition/Perl Cookbook/Advanced Perl Programming/Learning Perl, 2nd Edition/Learning Perl on WIN32 Systems|https://www.goodreads.com/search?q=The Perl CD Bookshelf: Perl in a Nutshell/Programming Perl, 2nd Edition/Perl Cookbook/Advanced Perl Programming/Learning Perl, 2nd Edition/Learning Perl on WIN32 Systems O'Reilly Media Inc.|O'Reilly Media Inc.|1999|0|27|4.11
  Programming the Perl DBI|https://www.goodreads.com/search?q=Programming the Perl DBI Tim Bunce|Tim Bunce|2000|3|77|3.47
 
-
 foldBreak
-subsection Books about Perl from ISBNdb
+## Books about Perl from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Perl by Example (4th Edition)|https://isbndb.com/book/9780132381826|Quigley, Ellie|2007|Prentice Hall
@@ -555,9 +548,8 @@ pipeTable
  Array Programming Languages: FORTRAN, APL, Gnu Octave, J, Mathematica, MATLAB, Nial, Scilab, IDL, Supercollider, K, Numpy, Perl Data Language|https://isbndb.com/book/9781157458708|Books and LLC and Group|2010|
  An Introduction To Language Processing With Perl And Prolog: An Outline Of Theories, Implementation, And Application With Special Consideration Of English, French, And German|https://isbndb.com/book/9783540250319|Nugues, Pierre M. (author.)||Springer Berlin Heidelberg,
 
-
 foldBreak
-subsection Publications about Perl from Semantic Scholar
+## Publications about Perl from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Programming for Linguists: Perl for Language Researchers|https://www.semanticscholar.org/paper/008fce82b00d157447e1432559aa9193d8986bf9|Michael Hammond|2002|20|0
@@ -569,10 +561,5 @@ pipeTable
  Running Perl 6|https://www.semanticscholar.org/paper/2146c6d9a24fd20503e7db406799eefa6ff0ae47|J. Merelo|2019|1|0
  PERL PROGRAMMING FOR BIOLOGISTS, by D. Curtis Jamison, Wiley, Hoboken, 2003, ISBN 0-471-43059-5, ix + 191 pp. (Pbk, £27.95)|https://www.semanticscholar.org/paper/014606001ea7425a185967570b2c8711ed3fb42d|A. Andrew|2004|1|0
  A Study on Perl Programming Language Aided Informetrics|https://www.semanticscholar.org/paper/c01b9d1786913352f097df4f480d04d5d8a9b222|Chen Xin Chen Tun|2006|1|0
-
-
-
-
-
 
 keyboardNav php.html matlab.html

@@ -1,12 +1,14 @@
 title JavaScript
 
 import settings.scroll
-htmlTitle JavaScript - Pl
+htmlTitle JavaScript - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/javascript.pldb
 
-paragraph
- JavaScript is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1995">1995</a> by <a href="../lists/creators.html#Brendan_Eich">Brendan Eich</a>.
+* JavaScript is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1995 by Brendan Eich.
+ link ../lists/languages.html?filter=1995 1995
+ link ../lists/creators.html#Brendan_Eich Brendan Eich
+ 
 
 kpiTable
  #2 <span title="TotalRank: 5 Jobs: 4 Users: 1 Facts: 1 Links: 3">on PLDB</span>
@@ -16,48 +18,43 @@ kpiTable
  48 <span title="Academic publications about or leveraging JavaScript">Papers</span>
  16m <span title="JavaScript repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://playcode.io/javascript/">Web</a> · <a href="https://riju.codes/javascript">Riju</a> · <a href="https://repl.it/languages/javascript">Replit</a>
+* Try now: <a href="https://playcode.io/javascript/">Web</a> · <a href="https://riju.codes/javascript">Riju</a> · <a href="https://repl.it/languages/javascript">Replit</a>
 
 monacoEditor javascript
  console.log("Hello, world!");
  
 
+* JavaScript (), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. <a href="https://en.wikipedia.org/wiki/JavaScript">Read more on Wikipedia...</a>
 
-
-paragraph
- JavaScript (), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. <a href="https://en.wikipedia.org/wiki/JavaScript">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript Wikipedia page</a>
- - the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript docs</a>
- - There are at least 16,046,489 JavaScript repos on <a href="https://github.com/search?q=language:JavaScript">GitHub</a>
- - JavaScript first developed in <a href="../lists/originCommunities.html#Netscape">Netscape</a>
- - PLDB estimates there are currently 64k job openings for JavaScript programmers.
- - file extensions for JavaScript include js, _js, bones, cjs, es, es6, frag, gs, jake, javascript, jsb, jscad, jsfl, jslib, jsm, jspre, jss, jsx, mjs, njs, pac, sjs, ssjs, xsjs and xsjslib
- - The  Google BigQuery Public Dataset GitHub snapshot shows 566k users using JavaScript in 1m repos on <a href="https://api.github.com/search/repositories?q=language:JavaScript">GitHub</a>
- - Check out the 5,270 <a href="https://www.meetup.com/topics/javascript/">JavaScript meetup groups</a> on Meetup.com.
- - There are 2,113,371 members in the <a href="https://reddit.com/r/javascript">JavaScript subreddit</a>
- - There are 2,478 <a href="https://projecteuler.net/language=ECMAScript">Project Euler</a> users using JavaScript
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> JavaScript programmers reported a median salary of $54,049. 64% of respondents reported using JavaScript. 53,587 programmers reported using JavaScript, and 37,008 said they wanted to use it
- - Explore JavaScript snippets on <a href="http://www.rosettacode.org/wiki/Category:JavaScript">Rosetta Code</a>
- - JavaScript is listed on <a href="https://hopl.info/showlanguage.prx?exp=2133">HOPL</a>
- - JavaScript ranks #6 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/nodejs">Ubuntu package</a> for JavaScript
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/javascript">grammar</a> for JavaScript
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/javascript">package</a> for syntax highlighting JavaScript
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/javascript">package</a> for syntax highlighting JavaScript
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for JavaScript
- - GitHub supports <a href="https://github.com/atom/language-javascript" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for JavaScript
- - JavaScript appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/n-riesco/ijavascript">Kernel</a> for JavaScript
- - There is a <a href="http://npmjs.org">central package repository</a> for JavaScript
- - Annual Reports for JavaScript<a href="https://stateofjs.com/en-us/">(Link)</a>
- - Indeed.com has 25,726 matches for <a href="https://www.indeed.com/jobs?q=javascript developer">"javascript developer"</a>.
- - See also: (50 related languages)<a href="java.html">Java</a>, <a href="lua.html">Lua</a>, <a href="scheme.html">Scheme</a>, <a href="perl.html">Perl</a>, <a href="self.html">Self</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="awk.html">awk</a>, <a href="hypertalk.html">HyperTalk</a>, <a href="actionscript.html">ActionScript</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="dart.html">Dart</a>, <a href="livescript.html">LiveScript</a>, <a href="objective-j.html">Objective-J</a>, <a href="opa.html">Opa</a>, <a href="perl-6.html">Perl 6</a>, <a href="qml.html">QML</a>, <a href="typescript.html">TypeScript</a>, <a href="json.html">JSON</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="html.html">HTML</a>, <a href="regex.html">Regular Expressions</a>, <a href="pdf.html">PDF</a>, <a href="tcl.html">Tcl</a>, <a href="c--.html">C--</a>, <a href="vbscript.html">VBScript</a>, <a href="jscript.html">JScript</a>, <a href="jquery.html">JQuery</a>, <a href="npm-pm.html">npm</a>, <a href="mongodb.html">MongoDB</a>, <a href="sql.html">SQL</a>, <a href="max.html">Max</a>, <a href="unity-engine.html">Unity</a>, <a href="google-apps-script.html">Google Apps Script</a>, <a href="objective-c.html">Objective-C</a>, <a href="applescript.html">Applescript</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="asmjs.html">Asm.js</a>, <a href="processing.html">Processing</a>, <a href="oberon.html">Oberon</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="scala.html">Scala</a>, <a href="racket.html">Racket</a>, <a href="llvmir.html">LLVM IR</a>, <a href="fantom.html">Fantom</a>, <a href="haxe.html">Haxe</a>, <a href="clojure.html">Clojure</a>, <a href="kotlin.html">Kotlin</a>, <a href="squeak.html">Squeak</a>, <a href="wasm.html">WebAssembly</a>
- - Read more about JavaScript on the web: <a href="https://www.w3schools.com/js/js_reserved.asp">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/javascript">Improve our JavaScript file</a>
+- the <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript Wikipedia page</a>
+- the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript docs</a>
+- There are at least 16,046,489 JavaScript repos on <a href="https://github.com/search?q=language:JavaScript">GitHub</a>
+- JavaScript first developed in <a href="../lists/originCommunities.html#Netscape">Netscape</a>
+- PLDB estimates there are currently 64k job openings for JavaScript programmers.
+- file extensions for JavaScript include js, _js, bones, cjs, es, es6, frag, gs, jake, javascript, jsb, jscad, jsfl, jslib, jsm, jspre, jss, jsx, mjs, njs, pac, sjs, ssjs, xsjs and xsjslib
+- The  Google BigQuery Public Dataset GitHub snapshot shows 566k users using JavaScript in 1m repos on <a href="https://api.github.com/search/repositories?q=language:JavaScript">GitHub</a>
+- Check out the 5,270 <a href="https://www.meetup.com/topics/javascript/">JavaScript meetup groups</a> on Meetup.com.
+- There are 2,113,371 members in the <a href="https://reddit.com/r/javascript">JavaScript subreddit</a>
+- There are 2,478 <a href="https://projecteuler.net/language=ECMAScript">Project Euler</a> users using JavaScript
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> JavaScript programmers reported a median salary of $54,049. 64% of respondents reported using JavaScript. 53,587 programmers reported using JavaScript, and 37,008 said they wanted to use it
+- Explore JavaScript snippets on <a href="http://www.rosettacode.org/wiki/Category:JavaScript">Rosetta Code</a>
+- JavaScript is listed on <a href="https://hopl.info/showlanguage.prx?exp=2133">HOPL</a>
+- JavaScript ranks #6 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/nodejs">Ubuntu package</a> for JavaScript
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/javascript">grammar</a> for JavaScript
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/javascript">package</a> for syntax highlighting JavaScript
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/javascript">package</a> for syntax highlighting JavaScript
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for JavaScript
+- GitHub supports <a href="https://github.com/atom/language-javascript" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for JavaScript
+- JavaScript appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/n-riesco/ijavascript">Kernel</a> for JavaScript
+- There is a <a href="http://npmjs.org">central package repository</a> for JavaScript
+- Annual Reports for JavaScript<a href="https://stateofjs.com/en-us/">(Link)</a>
+- Indeed.com has 25,726 matches for <a href="https://www.indeed.com/jobs?q=javascript developer">"javascript developer"</a>.
+- See also: (50 related languages)<a href="java.html">Java</a>, <a href="lua.html">Lua</a>, <a href="scheme.html">Scheme</a>, <a href="perl.html">Perl</a>, <a href="self.html">Self</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="awk.html">awk</a>, <a href="hypertalk.html">HyperTalk</a>, <a href="actionscript.html">ActionScript</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="dart.html">Dart</a>, <a href="livescript.html">LiveScript</a>, <a href="objective-j.html">Objective-J</a>, <a href="opa.html">Opa</a>, <a href="perl-6.html">Perl 6</a>, <a href="qml.html">QML</a>, <a href="typescript.html">TypeScript</a>, <a href="json.html">JSON</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="html.html">HTML</a>, <a href="regex.html">Regular Expressions</a>, <a href="pdf.html">PDF</a>, <a href="tcl.html">Tcl</a>, <a href="c--.html">C--</a>, <a href="vbscript.html">VBScript</a>, <a href="jscript.html">JScript</a>, <a href="jquery.html">JQuery</a>, <a href="npm-pm.html">npm</a>, <a href="mongodb.html">MongoDB</a>, <a href="sql.html">SQL</a>, <a href="max.html">Max</a>, <a href="unity-engine.html">Unity</a>, <a href="google-apps-script.html">Google Apps Script</a>, <a href="objective-c.html">Objective-C</a>, <a href="applescript.html">Applescript</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="asmjs.html">Asm.js</a>, <a href="processing.html">Processing</a>, <a href="oberon.html">Oberon</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="scala.html">Scala</a>, <a href="racket.html">Racket</a>, <a href="llvmir.html">LLVM IR</a>, <a href="fantom.html">Fantom</a>, <a href="haxe.html">Haxe</a>, <a href="clojure.html">Clojure</a>, <a href="kotlin.html">Kotlin</a>, <a href="squeak.html">Squeak</a>, <a href="wasm.html">WebAssembly</a>
+- Read more about JavaScript on the web: <a href="https://www.w3schools.com/js/js_reserved.asp">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/javascript">Improve our JavaScript file</a>
 
 html
  <br>
@@ -146,12 +143,11 @@ exampleCodeHeader <a href='https://www.youtube.com/watch?v=XOmhtfTrRxc&t=125s&ab
 code
  The name Java in JavaScript was pure marketing: &quot;At the time, the dot-com boom had begun and Java was the hot new language, so Eich considered the JavaScript name a marketing ploy by Netscape&quot;
 
-subsection <a href="../lists/keywords.html?filter=javascript">Keywords</a> in JavaScript
-paragraph
- abstract arguments await boolean break byte case catch char class const continue debugger default delete do double else enum eval export extends false final finally float for function goto if implements import in instanceof int interface let long native new null package private protected public return short static super switch synchronized this throw throws transient true try typeof var void volatile while with yield
+## <a href="../lists/keywords.html?filter=javascript">Keywords</a> in JavaScript
+* abstract arguments await boolean break byte case catch char class const continue debugger default delete do double else enum eval export extends false final finally float for function goto if implements import in instanceof int interface let long native new null package private protected public return short static super switch synchronized this throw throws transient true try typeof var void volatile while with yield
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -712,18 +708,15 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about JavaScript on goodreads
+## Books about JavaScript on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Eloquent JavaScript: A Modern Introduction to Programming|https://www.goodreads.com/search?q=Eloquent JavaScript: A Modern Introduction to Programming Marijn Haverbeke|Marijn Haverbeke|2010|141|1721|4.12
  Professional JavaScript for Web Developers|https://www.goodreads.com/search?q=Professional JavaScript for Web Developers Nicholas C. Zakas|Nicholas C. Zakas|2005|31|559|4.14
 
-
 foldBreak
-subsection Books about JavaScript from ISBNdb
+## Books about JavaScript from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  JavaScript and JQuery: Interactive Front-End Web Development|https://isbndb.com/book/9781118531648|Duckett, Jon|2014|Wiley
@@ -1076,9 +1069,8 @@ pipeTable
  Scriptin' with JavaScript and Ajax: A Designer's Guide (Voices That Matter)|https://isbndb.com/book/9780132104760|Wyke-Smith, Charles|2010|New Riders
  JavaScript for Gurus: Use JavaScript programming features, techniques and modules to solve everyday problems (English Edition)|https://isbndb.com/book/9789389423655|Preez, Ockert J. du|2020|BPB Publications
 
-
 foldBreak
-subsection Publications about JavaScript from Semantic Scholar
+## Publications about JavaScript from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  The application/json Media Type for JavaScript Object Notation (JSON)|https://www.semanticscholar.org/paper/cc4e39f219e384df97109a36b80875791fdd8d30|D. Crockford|2006|1178|151
@@ -1129,10 +1121,5 @@ pipeTable
  JavaScript language extension for non-professional programmers: Sharable own variables|https://www.semanticscholar.org/paper/568d2f0e2d7415523cce127ce25bab8b3dff455e|M. Oya and Ayumu Kashiwakura|2016|1|0
  State-of-the-Art Javascript Language for Internet of Things|https://www.semanticscholar.org/paper/146ce6bb1be347a7afe095f0f8c6b4d9068b4572|Fernando Luis Oliveira and J. Mattos|2019|1|0
  Functional Programming Patterns in JavaScript|https://www.semanticscholar.org/paper/7817b9bfa35c5ea2aad9e8c8050c5d23cc5705a8|A. Sobolev and S. Zykov|2019|1|0
-
-
-
-
-
 
 keyboardNav java.html c.html

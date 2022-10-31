@@ -1,12 +1,14 @@
 title Rust
 
 import settings.scroll
-htmlTitle Rust - Pl
+htmlTitle Rust - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rust.pldb
 
-paragraph
- Rust is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2010">2010</a> by <a href="../lists/creators.html#Graydon_Hoare">Graydon Hoare</a>.
+* Rust is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2010 by Graydon Hoare.
+ link ../lists/languages.html?filter=2010 2010
+ link ../lists/creators.html#Graydon_Hoare Graydon Hoare
+ 
 
 kpiTable
  #26 <span title="TotalRank: 81 Jobs: 69 Users: 25 Facts: 29 Links: 27">on PLDB</span>
@@ -16,8 +18,7 @@ kpiTable
  36 <span title="Academic publications about or leveraging Rust">Papers</span>
  357k <span title="Rust repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/rust">Riju</a> · <a href="https://tio.run/#rust">TIO</a> · <a href="https://repl.it/languages/rust">Replit</a>
+* Try now: <a href="https://riju.codes/rust">Riju</a> · <a href="https://tio.run/#rust">TIO</a> · <a href="https://repl.it/languages/rust">Replit</a>
 
 monacoEditor rust
  // Type your code here, or load an example.
@@ -29,43 +30,39 @@ monacoEditor rust
  // pub fn main() { ... }
  
 
+* Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language," supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance. Rust is an open source programming language. <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language," supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance. Rust is an open source programming language. <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://www.rust-lang.org">Rust website</a>
- - the <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Rust Wikipedia page</a>
- - PLDB has 2 documentation sites for Rust: <a href="https://www.rust-lang.org/learn">www.rust-lang.org</a>, <a href="https://devdocs.io/rust/">devdocs.io</a>
- - There are at least 356,891 Rust repos on <a href="https://github.com/search?q=language:Rust">GitHub</a>
- - Rust first developed in <a href="../lists/originCommunities.html#Mozilla">Mozilla</a>
- - PLDB estimates there are currently 141 job openings for Rust programmers.
- - file extensions for Rust include rs, rlib, rsin and rs.in
- - the Rust team is on <a href="https://twitter.com/rustlang">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Rust in 16k repos on <a href="https://api.github.com/search/repositories?q=language:Rust">GitHub</a>
- - Check out the 122 <a href="https://www.meetup.com/topics/rust/">Rust meetup groups</a> on Meetup.com.
- - There are 186,942 members in the <a href="https://reddit.com/r/rust">Rust subreddit</a>
- - There are 1,227 <a href="https://projecteuler.net/language=Rust">Project Euler</a> users using Rust
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Rust programmers reported a median salary of $77,530. 7% of respondents reported using Rust. 5,799 programmers reported using Rust, and 15,865 said they wanted to use it
- - Explore Rust snippets on <a href="http://www.rosettacode.org/wiki/Category:Rust">Rosetta Code</a>
- - Rust is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
- - Rust ranks #31 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/rustc">Ubuntu package</a> for Rust
- - Here is a Rust <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/rust-lang-nursery/rls">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/rust">package</a> for syntax highlighting Rust
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/rust">package</a> for syntax highlighting Rust
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rust.py">syntax highlighting</a> for Rust
- - GitHub supports <a href="https://github.com/zargony/atom-language-rust" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Rust
- - Rust appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/google/evcxr/tree/master/evcxr_jupyter">Kernel</a> for Rust
- - There is a <a href="https://crates.io/">central package repository</a> for Rust
- - Indeed.com has 141 matches for <a href="https://www.indeed.com/jobs?q=rust engineer">"rust engineer"</a>.
- - <a href="https://www.rust-lang.org">rust-lang.org</a> was registered in 2010
- - See also: (28 related languages)<a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="android.html">Android</a>, <a href="ios.html">iOS</a>, <a href="alef.html">ALEF</a>, <a href="csharp.html">C#</a>, <a href="cyclone.html">Cyclone</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="haxe.html">Haxe</a>, <a href="limbo.html">Limbo</a>, <a href="newsqueak.html">Newsqueak</a>, <a href="ruby.html">Ruby</a>, <a href="scheme.html">Scheme</a>, <a href="standard-ml.html">Standard ML</a>, <a href="swift.html">Swift</a>, <a href="crystal.html">Crystal</a>, <a href="elm.html">Elm</a>, <a href="idris.html">Idris</a>, <a href="c.html">C</a>, <a href="ml.html">ML</a>, <a href="go.html">Go</a>, <a href="java.html">Java</a>, <a href="ocaml.html">OCaml</a>, <a href="llvmir.html">LLVM IR</a>, <a href="d.html">D</a>, <a href="nim.html">Nim</a>, <a href="emacs-editor.html">Emacs</a>
- - Read more about Rust on the web: <a href="https://blog.rust-lang.org/2018/11/27/Rust-survey-2018.html">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/rust">Improve our Rust file</a>
+- the <a href="https://www.rust-lang.org">Rust website</a>
+- the <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Rust Wikipedia page</a>
+- PLDB has 2 documentation sites for Rust: <a href="https://www.rust-lang.org/learn">www.rust-lang.org</a>, <a href="https://devdocs.io/rust/">devdocs.io</a>
+- There are at least 356,891 Rust repos on <a href="https://github.com/search?q=language:Rust">GitHub</a>
+- Rust first developed in <a href="../lists/originCommunities.html#Mozilla">Mozilla</a>
+- PLDB estimates there are currently 141 job openings for Rust programmers.
+- file extensions for Rust include rs, rlib, rsin and rs.in
+- the Rust team is on <a href="https://twitter.com/rustlang">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Rust in 16k repos on <a href="https://api.github.com/search/repositories?q=language:Rust">GitHub</a>
+- Check out the 122 <a href="https://www.meetup.com/topics/rust/">Rust meetup groups</a> on Meetup.com.
+- There are 186,942 members in the <a href="https://reddit.com/r/rust">Rust subreddit</a>
+- There are 1,227 <a href="https://projecteuler.net/language=Rust">Project Euler</a> users using Rust
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Rust programmers reported a median salary of $77,530. 7% of respondents reported using Rust. 5,799 programmers reported using Rust, and 15,865 said they wanted to use it
+- Explore Rust snippets on <a href="http://www.rosettacode.org/wiki/Category:Rust">Rosetta Code</a>
+- Rust is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
+- Rust ranks #31 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/rustc">Ubuntu package</a> for Rust
+- Here is a Rust <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/rust-lang-nursery/rls">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/rust">package</a> for syntax highlighting Rust
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/rust">package</a> for syntax highlighting Rust
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rust.py">syntax highlighting</a> for Rust
+- GitHub supports <a href="https://github.com/zargony/atom-language-rust" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Rust
+- Rust appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/google/evcxr/tree/master/evcxr_jupyter">Kernel</a> for Rust
+- There is a <a href="https://crates.io/">central package repository</a> for Rust
+- Indeed.com has 141 matches for <a href="https://www.indeed.com/jobs?q=rust engineer">"rust engineer"</a>.
+- <a href="https://www.rust-lang.org">rust-lang.org</a> was registered in 2010
+- See also: (28 related languages)<a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="android.html">Android</a>, <a href="ios.html">iOS</a>, <a href="alef.html">ALEF</a>, <a href="csharp.html">C#</a>, <a href="cyclone.html">Cyclone</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="haxe.html">Haxe</a>, <a href="limbo.html">Limbo</a>, <a href="newsqueak.html">Newsqueak</a>, <a href="ruby.html">Ruby</a>, <a href="scheme.html">Scheme</a>, <a href="standard-ml.html">Standard ML</a>, <a href="swift.html">Swift</a>, <a href="crystal.html">Crystal</a>, <a href="elm.html">Elm</a>, <a href="idris.html">Idris</a>, <a href="c.html">C</a>, <a href="ml.html">ML</a>, <a href="go.html">Go</a>, <a href="java.html">Java</a>, <a href="ocaml.html">OCaml</a>, <a href="llvmir.html">LLVM IR</a>, <a href="d.html">D</a>, <a href="nim.html">Nim</a>, <a href="emacs-editor.html">Emacs</a>
+- Read more about Rust on the web: <a href="https://blog.rust-lang.org/2018/11/27/Rust-survey-2018.html">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/rust">Improve our Rust file</a>
 
 html
  <br>
@@ -119,14 +116,11 @@ code
  }
  
 
-
-
-subsection <a href="../lists/keywords.html?filter=rust">Keywords</a> in Rust
-paragraph
- abstract alignof as become box break const continue crate do else enum extern false final fn for if impl in let loop macro match mod move mut offsetof override priv proc pub pure ref return Self self sizeof static struct super trait true type typeof unsafe unsized use virtual where while yield
+## <a href="../lists/keywords.html?filter=rust">Keywords</a> in Rust
+* abstract alignof as become box break const continue crate do else enum extern false final fn for if impl in let loop macro match mod move mut offsetof override priv proc pub pure ref return Self self sizeof static struct super trait true type typeof unsafe unsized use virtual where while yield
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -267,12 +261,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Rust from ISBNdb
+## Books about Rust from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  The Rust Programming Language|https://isbndb.com/book/9781593278281|Klabnik, Steve and Nichols, Carol|2018|No Starch Press
@@ -341,9 +331,8 @@ pipeTable
  Speed Up Your Python with Rust|https://isbndb.com/book/9781801812320|Maxwell Flitton|21-01-2022|Packt Publishing
  Hands-On Data Structures and Algorithms with Rust|https://isbndb.com/book/9781788991490|Claus Matzinger|25-01-2019|Packt Publishing
 
-
 foldBreak
-subsection Publications about Rust from Semantic Scholar
+## Publications about Rust from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  The rust language|https://www.semanticscholar.org/paper/50eba68089cf51323d95631c2f59ff916848863f|Nicholas D. Matsakis and Felix S. Klock|2014|238|25
@@ -382,10 +371,5 @@ pipeTable
  Translating C to safer Rust|https://www.semanticscholar.org/paper/d0fb133db727fc51913e623041a6e86eb99e8c6c|Mehmet Emre and Ryan Schroeder and Kyle Dewey and B. Hardekopf|2021|1|0
  Performance vs Programming Effort between Rust and C on Multicore Architectures: Case Study in N-Body|https://www.semanticscholar.org/paper/74dfb86326be51d0cc2d0aee69d3266d8994ea31|Manuel Costanzo and Enzo Rucci and M. Naiouf and A. D. Giusti|2021|1|0
  On Evaluating Rust as a Programming Language for the Future of Massive Agent-Based Simulations|https://www.semanticscholar.org/paper/f57083b736fa347d6e48d09bdc09a308df017eeb|Alessia Antelmi and G. Cordasco and Matteo D'Auria and Daniele De Vinco and A. Negro and Carmine Spagnuolo|2019|1|0
-
-
-
-
-
 
 keyboardNav powershell.html kotlin.html

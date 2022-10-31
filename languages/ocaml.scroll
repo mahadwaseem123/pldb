@@ -1,12 +1,14 @@
 title OCaml
 
 import settings.scroll
-htmlTitle OCaml - Pl
+htmlTitle OCaml - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/ocaml.pldb
 
-paragraph
- OCaml is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1996">1996</a> by <a href="../lists/creators.html#Xavier_Leroy">Xavier Leroy</a>.
+* OCaml is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1996 by Xavier Leroy.
+ link ../lists/languages.html?filter=1996 1996
+ link ../lists/creators.html#Xavier_Leroy Xavier Leroy
+ 
 
 kpiTable
  #71 <span title="TotalRank: 252 Jobs: 101 Users: 258 Facts: 102 Links: 49">on PLDB</span>
@@ -16,39 +18,32 @@ kpiTable
  14 <span title="Academic publications about or leveraging OCaml">Papers</span>
  27k <span title="OCaml repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/ocaml">Riju</a> · <a href="https://tio.run/#ocaml">TIO</a>
+* Try now: <a href="https://riju.codes/ocaml">Riju</a> · <a href="https://tio.run/#ocaml">TIO</a>
 
+* OCaml ( oh-KAM-əl), originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs. OCaml's toolset includes an interactive top-level interpreter, a bytecode compiler, a reversible debugger, a package manager (OPAM), and an optimizing native code compiler. <a href="https://en.wikipedia.org/wiki/OCaml">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- OCaml ( oh-KAM-əl), originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs. OCaml's toolset includes an interactive top-level interpreter, a bytecode compiler, a reversible debugger, a package manager (OPAM), and an optimizing native code compiler. <a href="https://en.wikipedia.org/wiki/OCaml">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://ocaml.org">OCaml website</a>
- - the <a href="https://en.wikipedia.org/wiki/OCaml">OCaml Wikipedia page</a>
- - PLDB has 2 documentation sites for OCaml: <a href="https://ocaml.org/docs">ocaml.org</a>, <a href="https://devdocs.io/ocaml/">devdocs.io</a>
- - There are at least 27,376 OCaml repos on <a href="https://github.com/search?q=language:OCaml">GitHub</a>
- - file extensions for OCaml include ml, mli, eliom, eliomi, ml4, mll and mly
- - the OCaml team is on <a href="https://twitter.com/ocamllang">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 4k users using OCaml in 6k repos on <a href="https://api.github.com/search/repositories?q=language:OCaml">GitHub</a>
- - Check out the 87 <a href="https://www.meetup.com/topics/ocaml-programming/">OCaml meetup groups</a> on Meetup.com.
- - There are 219 <a href="https://projecteuler.net/language=OCaml">Project Euler</a> users using OCaml
- - Explore OCaml snippets on <a href="http://www.rosettacode.org/wiki/Category:OCaml">Rosetta Code</a>
- - OCaml is listed on <a href="https://hopl.info/showlanguage.prx?exp=2294">HOPL</a>
- - OCaml appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/ocaml">Ubuntu package</a> for OCaml
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ml.py">syntax highlighting</a> for OCaml
- - GitHub supports <a href="https://github.com/textmate/ocaml.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for OCaml
- - OCaml appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for OCaml: <a href="https://github.com/andrewray/iocaml">github.com</a>, <a href="https://github.com/akabe/ocaml-jupyter">github.com</a>
- - There is a <a href="https://opam.ocaml.org/">central package repository</a> for OCaml
- - <a href="http://ocaml.org">ocaml.org</a> was registered in 2000
- - See also: (36 related languages)<a href="occam.html">Occam</a>, <a href="c.html">C</a>, <a href="ia-32.html">IA-32</a>, <a href="sparc.html">SPARC</a>, <a href="arm.html">ARM</a>, <a href="unix.html">Unix</a>, <a href="f-sharp.html">F#</a>, <a href="caml.html">Caml</a>, <a href="cool.html">Classroom Object Oriented Language</a>, <a href="standard-ml.html">Standard ML</a>, <a href="ats.html">ATS</a>, <a href="elm.html">Elm</a>, <a href="fstar.html">F*</a>, <a href="haxe.html">Haxe</a>, <a href="opa.html">Opa</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="ml.html">ML</a>, <a href="python.html">Python</a>, <a href="perl.html">Perl</a>, <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="fortran.html">Fortran</a>, <a href="javascript.html">JavaScript</a>, <a href="jvm.html">JVM</a>, <a href="pic-microcontroller.html">PIC microcontroller</a>, <a href="emacs-editor.html">Emacs</a>, <a href="vim-editor.html">Vim</a>, <a href="opengl.html">OpenGL</a>, <a href="hack.html">Hack</a>, <a href="php.html">PHP</a>, <a href="ios.html">iOS</a>, <a href="android.html">Android</a>, <a href="coq.html">Coq</a>, <a href="wasm.html">WebAssembly</a>, <a href="haskell.html">Haskell</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/ocaml">Improve our OCaml file</a>
+- the <a href="http://ocaml.org">OCaml website</a>
+- the <a href="https://en.wikipedia.org/wiki/OCaml">OCaml Wikipedia page</a>
+- PLDB has 2 documentation sites for OCaml: <a href="https://ocaml.org/docs">ocaml.org</a>, <a href="https://devdocs.io/ocaml/">devdocs.io</a>
+- There are at least 27,376 OCaml repos on <a href="https://github.com/search?q=language:OCaml">GitHub</a>
+- file extensions for OCaml include ml, mli, eliom, eliomi, ml4, mll and mly
+- the OCaml team is on <a href="https://twitter.com/ocamllang">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 4k users using OCaml in 6k repos on <a href="https://api.github.com/search/repositories?q=language:OCaml">GitHub</a>
+- Check out the 87 <a href="https://www.meetup.com/topics/ocaml-programming/">OCaml meetup groups</a> on Meetup.com.
+- There are 219 <a href="https://projecteuler.net/language=OCaml">Project Euler</a> users using OCaml
+- Explore OCaml snippets on <a href="http://www.rosettacode.org/wiki/Category:OCaml">Rosetta Code</a>
+- OCaml is listed on <a href="https://hopl.info/showlanguage.prx?exp=2294">HOPL</a>
+- OCaml appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/ocaml">Ubuntu package</a> for OCaml
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ml.py">syntax highlighting</a> for OCaml
+- GitHub supports <a href="https://github.com/textmate/ocaml.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for OCaml
+- OCaml appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for OCaml: <a href="https://github.com/andrewray/iocaml">github.com</a>, <a href="https://github.com/akabe/ocaml-jupyter">github.com</a>
+- There is a <a href="https://opam.ocaml.org/">central package repository</a> for OCaml
+- <a href="http://ocaml.org">ocaml.org</a> was registered in 2000
+- See also: (36 related languages)<a href="occam.html">Occam</a>, <a href="c.html">C</a>, <a href="ia-32.html">IA-32</a>, <a href="sparc.html">SPARC</a>, <a href="arm.html">ARM</a>, <a href="unix.html">Unix</a>, <a href="f-sharp.html">F#</a>, <a href="caml.html">Caml</a>, <a href="cool.html">Classroom Object Oriented Language</a>, <a href="standard-ml.html">Standard ML</a>, <a href="ats.html">ATS</a>, <a href="elm.html">Elm</a>, <a href="fstar.html">F*</a>, <a href="haxe.html">Haxe</a>, <a href="opa.html">Opa</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="ml.html">ML</a>, <a href="python.html">Python</a>, <a href="perl.html">Perl</a>, <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="fortran.html">Fortran</a>, <a href="javascript.html">JavaScript</a>, <a href="jvm.html">JVM</a>, <a href="pic-microcontroller.html">PIC microcontroller</a>, <a href="emacs-editor.html">Emacs</a>, <a href="vim-editor.html">Vim</a>, <a href="opengl.html">OpenGL</a>, <a href="hack.html">Hack</a>, <a href="php.html">PHP</a>, <a href="ios.html">iOS</a>, <a href="android.html">Android</a>, <a href="coq.html">Coq</a>, <a href="wasm.html">WebAssembly</a>, <a href="haskell.html">Haskell</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/ocaml">Improve our OCaml file</a>
 
 html
  <br>
@@ -97,14 +92,11 @@ code
           in (y_2 * y_2)
       in (y_3 * y_3))
 
-
-
-subsection <a href="../lists/keywords.html?filter=ocaml">Keywords</a> in OCaml
-paragraph
- as assert begin class constraint do done downto else end exception external false for fun function functor if in include inherit initializer lazy let match method module mutable new object of open private raise rec sig struct then to true try type value val virtual when while with
+## <a href="../lists/keywords.html?filter=ocaml">Keywords</a> in OCaml
+* as assert begin class constraint do done downto else end exception external false for fun function functor if in include inherit initializer lazy let match method module mutable new object of open private raise rec sig struct then to true try type value val virtual when while with
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -222,10 +214,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about OCaml on goodreads
+## Books about OCaml on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Real World OCaml: Functional programming for the masses|https://www.goodreads.com/search?q=Real World OCaml: Functional programming for the masses Yaron Minsky|Yaron Minsky|2013|7|88|4.28
@@ -234,9 +224,8 @@ pipeTable
  Using, Understanding, and Unraveling The OCaml Language: From Practice to Theory and vice versa|https://www.goodreads.com/search?q=Using, Understanding, and Unraveling The OCaml Language: From Practice to Theory and vice versa Didier Rémy|Didier Rémy||0|1|5.00
  Apprendre à programmer avec OCaml: Algorithmes et structures de données (Noire)|https://www.goodreads.com/search?q=Apprendre à programmer avec OCaml: Algorithmes et structures de données (Noire) Jean-Christophe Filliatre|Jean-Christophe Filliatre||0|0|0.0
 
-
 foldBreak
-subsection Books about OCaml from ISBNdb
+## Books about OCaml from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Concepts and Semantics of Programming Languages 1: A Semantical Approach with OCaml and Python|https://isbndb.com/book/9781786305305|Hardin, The¿re¿se and Jaume, Mathieu and Pessaux, François and Viguie Donzeau-Gouge, Ve¿ronique|2021|Wiley-ISTE
@@ -246,9 +235,8 @@ pipeTable
  OCaml Scientific Computing|https://isbndb.com/book/9783030976453|Liang Wang; Jianxin Zhao; Richard Mortier|20220526|Springer Nature
  Ocaml Programming Language Family: Ocaml Software, Objective Caml, Marionnet, Fftw, Mldonkey, Unison, Frama-c, Hol Light, Coq, Geneweb|https://isbndb.com/book/9781158073269|Books Llc and Books and LLC|2010|
 
-
 foldBreak
-subsection Publications about OCaml from Semantic Scholar
+## Publications about OCaml from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Using, Understanding, and Unraveling the OCaml Language. From Practice to Theory and Vice Versa|https://www.semanticscholar.org/paper/dbf92034106f3c26488946a043a48c9187bc0821|Didier Rémy|2000|42|2
@@ -265,10 +253,5 @@ pipeTable
  WCET of OCaml Bytecode on Microcontrollers: An Automated Method and Its Formalisation|https://www.semanticscholar.org/paper/8b3c59637fb8f5c4d181125aa03b9fe48792a4c8|S. Varoumas and T. Crolard|2019|2|0
  Using camlp4 for presenting dynamic mathematics on the web: DynaMoW, an OCaml language extension for the run-time generation of mathematical contents and their presentation on the web|https://www.semanticscholar.org/paper/2fbcc662edca887550e0ce0463695b3ecfcf0381|F. Chyzak and Alexis Darrasse|2011|1|0
  Cameleer: a Deductive Verification Tool for OCaml|https://www.semanticscholar.org/paper/00ba0130dc4666ce2b3aa584dbf32ec325cbd0ba|Mário Pereira and A. Ravara|2021|1|0
-
-
-
-
-
 
 keyboardNav asp.html doi.html

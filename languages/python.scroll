@@ -1,12 +1,14 @@
 title Python
 
 import settings.scroll
-htmlTitle Python - Pl
+htmlTitle Python - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/python.pldb
 
-paragraph
- Python is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1991">1991</a> by <a href="../lists/creators.html#Guido_van_Rossum">Guido van Rossum</a>.
+* Python is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1991 by Guido van Rossum.
+ link ../lists/languages.html?filter=1991 1991
+ link ../lists/creators.html#Guido_van_Rossum Guido van Rossum
+ 
 
 kpiTable
  #4 <span title="TotalRank: 11 Jobs: 8 Users: 7 Facts: 2 Links: 2">on PLDB</span>
@@ -16,51 +18,47 @@ kpiTable
  52 <span title="Academic publications about or leveraging Python">Papers</span>
  9m <span title="Python repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/python">Riju</a> · <a href="https://repl.it/languages/python">Replit</a>
+* Try now: <a href="https://riju.codes/python">Riju</a> · <a href="https://repl.it/languages/python">Replit</a>
 
 monacoEditor python
  def square(num):
      return num * num
  
 
+* Python is a widely used high-level programming language for general-purpose programming, created by Guido van Rossum and first released in 1991. An interpreted language, Python has a design philosophy that emphasizes code readability (notably using whitespace indentation to delimit code blocks rather than curly brackets or keywords), and a syntax that allows programmers to express concepts in fewer lines of code than might be used in languages such as C++ or Java. It provides constructs that enable clear programming on both small and large scales. <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Python is a widely used high-level programming language for general-purpose programming, created by Guido van Rossum and first released in 1991. An interpreted language, Python has a design philosophy that emphasizes code readability (notably using whitespace indentation to delimit code blocks rather than curly brackets or keywords), and a syntax that allows programmers to express concepts in fewer lines of code than might be used in languages such as C++ or Java. It provides constructs that enable clear programming on both small and large scales. <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://www.python.org/">Python website</a>
- - the <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python Wikipedia page</a>
- - the <a href="https://docs.python.org/3/">Python docs</a>
- - There are at least 9,300,725 Python repos on <a href="https://github.com/search?q=language:Python">GitHub</a>
- - Python first developed in <a href="../lists/originCommunities.html#Centrum_Wiskunde_&_Informatica">Centrum Wiskunde & Informatica</a>
- - PLDB estimates there are currently 47k job openings for Python programmers.
- - file extensions for Python include py, pyc, pyd, pyo, cgi, fcgi, gyp, gypi, lmi, py3, pyde, pyi, pyp, pyt, pyw, rpy, smk, spec, tac, wsgi, xpy, jy, sage, sc, SConstruct, SConscript, bzl, BUCK, BUILD, BUILD.bazel and WORKSPACE
- - The  Google BigQuery Public Dataset GitHub snapshot shows 297k users using Python in 550k repos on <a href="https://api.github.com/search/repositories?q=language:Python">GitHub</a>
- - Check out the 1,964 <a href="https://www.meetup.com/topics/python/">Python meetup groups</a> on Meetup.com.
- - There are 979,629 members in the <a href="https://reddit.com/r/Python">Python subreddit</a>
- - There are 60,791 <a href="https://projecteuler.net/language=Python">Project Euler</a> users using Python
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Python programmers reported a median salary of $59,454. 48% of respondents reported using Python. 39,792 programmers reported using Python, and 34,929 said they wanted to use it
- - Explore Python snippets on <a href="http://www.rosettacode.org/wiki/Category:Python">Rosetta Code</a>
- - Python is listed on <a href="https://hopl.info/showlanguage.prx?exp=1658">HOPL</a>
- - Python ranks #1 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/python">Ubuntu package</a> for Python
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/python">grammar</a> for Python
- - Here is a Python <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/Microsoft/python-language-server">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/python">package</a> for syntax highlighting Python
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/python">package</a> for syntax highlighting Python
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/python.py">syntax highlighting</a> for Python
- - GitHub supports <a href="https://github.com/tree-sitter/tree-sitter-python" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Python
- - Python appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is a <a href="https://pypi.python.org/pypi">central package repository</a> for Python
- - Annual Reports for Python<a href="https://www.python.org/psf-landing/">(Link)</a>
- - Indeed.com has 28,965 matches for <a href="https://www.indeed.com/jobs?q=python engineer">"python engineer"</a>.
- - <a href="https://www.python.org/">python.org</a> was registered in 1995
- - See also: (60 related languages)<a href="jython.html">Jython</a>, <a href="micropython.html">MicroPython</a>, <a href="stackless-python.html">Stackless Python</a>, <a href="cython.html">Cython</a>, <a href="abc.html">ABC</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="c.html">C</a>, <a href="dylan.html">Dylan</a>, <a href="haskell.html">Haskell</a>, <a href="icon.html">Icon</a>, <a href="java.html">Java</a>, <a href="lisp.html">Lisp</a>, <a href="modula-3.html">Modula-3</a>, <a href="perl.html">Perl</a>, <a href="boo.html">Boo</a>, <a href="cobra.html">Cobra</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="d.html">D</a>, <a href="f-sharp.html">F#</a>, <a href="falcon.html">Falcon</a>, <a href="genie.html">Genie</a>, <a href="go.html">Go</a>, <a href="groovy.html">Groovy</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="nim.html">Nim</a>, <a href="ruby.html">Ruby</a>, <a href="swift.html">Swift</a>, <a href="setl.html">SETL</a>, <a href="unix.html">Unix</a>, <a href="unicode.html">Unicode</a>, <a href="standard-ml.html">Standard ML</a>, <a href="pascal.html">Pascal</a>, <a href="regex.html">Regular Expressions</a>, <a href="csharp.html">C#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="scheme.html">Scheme</a>, <a href="objective-c.html">Objective-C</a>, <a href="numpy.html">NumPy</a>, <a href="mime.html">MIME</a>, <a href="http.html">HTTP</a>, <a href="sagemath.html">Sage</a>, <a href="llvmir.html">LLVM IR</a>, <a href="jvm.html">JVM</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="cil.html">CIL</a>, <a href="pyrex.html">Pyrex</a>, <a href="mercurial.html">Mercurial</a>, <a href="python-for-s60.html">Python for S60</a>, <a href="qt.html">Qt</a>, <a href="django.html">Django</a>, <a href="scipy.html">SciPy</a>, <a href="matplotlib.html">Matplotlib</a>, <a href="gdb.html">GDB</a>, <a href="freebsd.html">FreeBSD</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="ocaml.html">OCaml</a>, <a href="tcl.html">Tcl</a>, <a href="erlang.html">Erlang</a>, <a href="pandas.html">Pandas</a>
- - Read more about Python on the web: <a href="https://www.programiz.com/python-programming/keyword-list">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/python">Improve our Python file</a>
+- the <a href="https://www.python.org/">Python website</a>
+- the <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python Wikipedia page</a>
+- the <a href="https://docs.python.org/3/">Python docs</a>
+- There are at least 9,300,725 Python repos on <a href="https://github.com/search?q=language:Python">GitHub</a>
+- Python first developed in <a href="../lists/originCommunities.html#Centrum_Wiskunde_&_Informatica">Centrum Wiskunde & Informatica</a>
+- PLDB estimates there are currently 47k job openings for Python programmers.
+- file extensions for Python include py, pyc, pyd, pyo, cgi, fcgi, gyp, gypi, lmi, py3, pyde, pyi, pyp, pyt, pyw, rpy, smk, spec, tac, wsgi, xpy, jy, sage, sc, SConstruct, SConscript, bzl, BUCK, BUILD, BUILD.bazel and WORKSPACE
+- The  Google BigQuery Public Dataset GitHub snapshot shows 297k users using Python in 550k repos on <a href="https://api.github.com/search/repositories?q=language:Python">GitHub</a>
+- Check out the 1,964 <a href="https://www.meetup.com/topics/python/">Python meetup groups</a> on Meetup.com.
+- There are 979,629 members in the <a href="https://reddit.com/r/Python">Python subreddit</a>
+- There are 60,791 <a href="https://projecteuler.net/language=Python">Project Euler</a> users using Python
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Python programmers reported a median salary of $59,454. 48% of respondents reported using Python. 39,792 programmers reported using Python, and 34,929 said they wanted to use it
+- Explore Python snippets on <a href="http://www.rosettacode.org/wiki/Category:Python">Rosetta Code</a>
+- Python is listed on <a href="https://hopl.info/showlanguage.prx?exp=1658">HOPL</a>
+- Python ranks #1 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/python">Ubuntu package</a> for Python
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/python">grammar</a> for Python
+- Here is a Python <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/Microsoft/python-language-server">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/python">package</a> for syntax highlighting Python
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/python">package</a> for syntax highlighting Python
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/python.py">syntax highlighting</a> for Python
+- GitHub supports <a href="https://github.com/tree-sitter/tree-sitter-python" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Python
+- Python appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is a <a href="https://pypi.python.org/pypi">central package repository</a> for Python
+- Annual Reports for Python<a href="https://www.python.org/psf-landing/">(Link)</a>
+- Release Notes for Python<a href="https://docs.python.org/3/whatsnew/">(Link)</a>
+- Indeed.com has 28,965 matches for <a href="https://www.indeed.com/jobs?q=python engineer">"python engineer"</a>.
+- <a href="https://www.python.org/">python.org</a> was registered in 1995
+- See also: (60 related languages)<a href="jython.html">Jython</a>, <a href="micropython.html">MicroPython</a>, <a href="stackless-python.html">Stackless Python</a>, <a href="cython.html">Cython</a>, <a href="abc.html">ABC</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="c.html">C</a>, <a href="dylan.html">Dylan</a>, <a href="haskell.html">Haskell</a>, <a href="icon.html">Icon</a>, <a href="java.html">Java</a>, <a href="lisp.html">Lisp</a>, <a href="modula-3.html">Modula-3</a>, <a href="perl.html">Perl</a>, <a href="boo.html">Boo</a>, <a href="cobra.html">Cobra</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="d.html">D</a>, <a href="f-sharp.html">F#</a>, <a href="falcon.html">Falcon</a>, <a href="genie.html">Genie</a>, <a href="go.html">Go</a>, <a href="groovy.html">Groovy</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="nim.html">Nim</a>, <a href="ruby.html">Ruby</a>, <a href="swift.html">Swift</a>, <a href="setl.html">SETL</a>, <a href="unix.html">Unix</a>, <a href="unicode.html">Unicode</a>, <a href="standard-ml.html">Standard ML</a>, <a href="pascal.html">Pascal</a>, <a href="regex.html">Regular Expressions</a>, <a href="csharp.html">C#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="scheme.html">Scheme</a>, <a href="objective-c.html">Objective-C</a>, <a href="numpy.html">NumPy</a>, <a href="mime.html">MIME</a>, <a href="http.html">HTTP</a>, <a href="sagemath.html">Sage</a>, <a href="llvmir.html">LLVM IR</a>, <a href="jvm.html">JVM</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="cil.html">CIL</a>, <a href="pyrex.html">Pyrex</a>, <a href="mercurial.html">Mercurial</a>, <a href="python-for-s60.html">Python for S60</a>, <a href="qt.html">Qt</a>, <a href="django.html">Django</a>, <a href="scipy.html">SciPy</a>, <a href="matplotlib.html">Matplotlib</a>, <a href="gdb.html">GDB</a>, <a href="freebsd.html">FreeBSD</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="ocaml.html">OCaml</a>, <a href="tcl.html">Tcl</a>, <a href="erlang.html">Erlang</a>, <a href="pandas.html">Pandas</a>
+- Read more about Python on the web: <a href="https://www.programiz.com/python-programming/keyword-list">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/python">Improve our Python file</a>
 
 html
  <br>
@@ -82,14 +80,11 @@ code
  print &quot;Python&quot;
  
 
-
-
-subsection <a href="../lists/keywords.html?filter=python">Keywords</a> in Python
-paragraph
- and as assert break class continue def del elif else except False finally for from global if import in is lambda None nonlocal not or pass raise return True try while with yield
+## <a href="../lists/keywords.html?filter=python">Keywords</a> in Python
+* and as assert break class continue def del elif else except False finally for from global if import in is lambda None nonlocal not or pass raise return True try while with yield
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -444,19 +439,16 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Python on goodreads
+## Books about Python on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Python: Programming: Your Step By Step Guide To Easily Learn Python in 7 Days (Python for Beginners, Python Programming for Beginners, Learn Python, Python Language)|https://www.goodreads.com/search?q=Python: Programming: Your Step By Step Guide To Easily Learn Python in 7 Days (Python for Beginners, Python Programming for Beginners, Learn Python, Python Language) iCode Academy|iCode Academy||6|126|3.76
  Programming Python|https://www.goodreads.com/search?q=Programming Python Mark Lutz|Mark Lutz|1996|23|898|3.96
  Natural Language Processing with Python|https://www.goodreads.com/search?q=Natural Language Processing with Python Steven    Bird|Steven    Bird|2009|34|389|4.14
 
-
 foldBreak
-subsection Books about Python from ISBNdb
+## Books about Python from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Black Hat Python: Python Programming for Hackers and Pentesters|https://isbndb.com/book/9781593275907|Seitz, Justin|2014|No Starch Press
@@ -799,9 +791,8 @@ pipeTable
  Python for Biologists: A complete programming course for beginners|https://isbndb.com/book/9781492346135|Jones, Dr Martin|2013-09-07T00:00:01Z|CreateSpace Independent Publishing Platform
  Mastering Python Design Patterns: A guide to creating smart, efficient, and reusable software, 2nd Edition|https://isbndb.com/book/9781788832069|Ayeva, Kamon and Kasampalis, Sakis|2018|Packt Publishing
 
-
 foldBreak
-subsection Publications about Python from Semantic Scholar
+## Publications about Python from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  SciPy 1.0: fundamental algorithms for scientific computing in Python|https://www.semanticscholar.org/paper/f0d35b37fec26c3f1ed09253cbb9304fb62208d1|Pauli Virtanen and R. Gommers and T. Oliphant and Matt Haberland and Tyler Reddy and D. Cournapeau and Evgeni Burovski and Pearu Peterson and Warren Weckesser and Jonathan Bright and Stéfan J. van der Walt and M. Brett and Joshua Wilson and K. Millman and N. Mayorov and Andrew R. J. Nelson and E. Jones and Robert Kern and Eric Larson and C. J. Carey and Ilhan Polat and Yu Feng and Eric W. Moore and J. Vanderplas and D. Laxalde and Josef Perktold and R. Cimrman and I. Henriksen and E. Quintero and Charles R. Harris and A. Archibald and Antônio H. Ribeiro and Fabian Pedregosa and P. van Mulbregt and Aditya Alessandro Pietro Alex Andreas Andreas Anthony Ant Vijaykumar Bardelli Rothberg Hilboll Kloeckner Sco and A. Vijaykumar and Alessandro Pietro Bardelli and Alex Rothberg and A. Hilboll and Andre Kloeckner and A. Scopatz and Antony Lee and A. Rokem and C. N. Woods and Chad Fulton and Charles Masson and C. Häggström and Clark Fitzgerald and D. Nicholson and David R. Hagen and D. Pasechnik and E. Olivetti and Eric Martin and Eric Wieser and Fabrice Silva and F. Lenders and Florian Wilhelm and G. Young and Gavin A. Price and G. Ingold and Gregory E. Allen and Gregory R. Lee and H. Audren and I. Probst and J. Dietrich and J. Silterra and James T. Webber and J. Slavič and J. Nothman and J. Buchner and Johannes Kulick and Johannes L. Schönberger and J. V. de Miranda Cardoso and J. Reimer and J. Harrington and Juan Rodríguez and Juan Nunez-Iglesias and Justin Kuczynski and K. Tritz and M. Thoma and M. Newville and Matthias Kümmerer and Maximilian Bolingbroke and Michael Tartre and M. Pak and Nathaniel J. Smith and N. Nowaczyk and Nikolay Shebanov and O. Pavlyk and P. A. Brodtkorb and Perry Lee and R. McGibbon and Roman Feldbauer and Sam Lewis and S. Tygier and Scott Sievert and S. Vigna and Stefan Peterson and S. More and Tadeusz Pudlik and T. Oshima and T. Pingel and T. Robitaille and Thomas Spura and T. Jones and T. Cera and Tim Leslie and Tiziano Zito and Tom Krauss and U. Upadhyay and Y. Halchenko and Y. Vázquez-Baeza|2019|8661|421
@@ -856,10 +847,5 @@ pipeTable
  The Core Python Language I|https://www.semanticscholar.org/paper/1e843d30863753566df0bf4da1d07b8dd7074916|Christian Hill|2016|3|0
  Application of python programming language in measurements|https://www.semanticscholar.org/paper/9d6fef95807c0caf7da9c58d309bf77010a66c40|P. Pejovic|2019|3|0
  An Analysis on Python Programming Language Demand and Its Recent Trend in Bangladesh|https://www.semanticscholar.org/paper/82f771befdb6a7d06abb4496cd6b4fb08bef6eb7|Aaquib Javed and Monika Zaman and Mohammad Monir Uddin and Tasnova Nusrat|2019|3|0
-
-
-
-
-
 
 keyboardNav c.html sql.html

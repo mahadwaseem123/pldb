@@ -1,12 +1,14 @@
 title Dart
 
 import settings.scroll
-htmlTitle Dart - Pl
+htmlTitle Dart - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/dart.pldb
 
-paragraph
- Dart is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2011">2011</a> by <a href="../lists/creators.html#Lars_Bak">Lars Bak</a>.
+* Dart is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2011 by Lars Bak.
+ link ../lists/languages.html?filter=2011 2011
+ link ../lists/creators.html#Lars_Bak Lars Bak
+ 
 
 kpiTable
  #49 <span title="TotalRank: 160 Jobs: 65 Users: 48 Facts: 47 Links: 97">on PLDB</span>
@@ -16,8 +18,7 @@ kpiTable
  6 <span title="Academic publications about or leveraging Dart">Papers</span>
  738k <span title="Dart repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/dart">Riju</a> · <a href="https://tio.run/#dart">TIO</a>
+* Try now: <a href="https://riju.codes/dart">Riju</a> · <a href="https://tio.run/#dart">TIO</a>
 
 monacoEditor dart
  // Type your code here, or load an example.
@@ -30,37 +31,33 @@ monacoEditor dart
  }
  
 
+* Dart is a general-purpose programming language originally developed by Google and later approved as a standard by Ecma (ECMA-408). It is used to build web, server and mobile applications, and for Internet of Things (IoT) devices. It is open-source software under a permissive free software license (modified BSD license). <a href="https://en.wikipedia.org/wiki/Dart_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Dart is a general-purpose programming language originally developed by Google and later approved as a standard by Ecma (ECMA-408). It is used to build web, server and mobile applications, and for Internet of Things (IoT) devices. It is open-source software under a permissive free software license (modified BSD license). <a href="https://en.wikipedia.org/wiki/Dart_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://www.dartlang.org">Dart website</a>
- - the <a href="https://en.wikipedia.org/wiki/Dart_(programming_language)">Dart Wikipedia page</a>
- - the <a href="https://dart.dev/guides">Dart docs</a>
- - There are at least 737,948 Dart repos on <a href="https://github.com/search?q=language:Dart">GitHub</a>
- - Dart first developed in <a href="../lists/originCommunities.html#Google">Google</a>
- - PLDB estimates there are currently 208 job openings for Dart programmers.
- - file extensions for Dart include dart
- - the Dart team is on <a href="https://twitter.com/dart_lang">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 3k users using Dart in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Dart">GitHub</a>
- - There are 35,109 members in the <a href="https://reddit.com/r/dartlang">Dart subreddit</a>
- - There are 54 <a href="https://projecteuler.net/language=Dart">Project Euler</a> users using Dart
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Dart programmers reported a median salary of $32,986. 6% of respondents reported using Dart. 4,965 programmers reported using Dart, and 7,018 said they wanted to use it
- - Explore Dart snippets on <a href="http://www.rosettacode.org/wiki/Category:Dart">Rosetta Code</a>
- - Dart ranks #22 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - Here is a Dart <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/natebosch/dart_language_server">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/dart">package</a> for syntax highlighting Dart
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/dart">package</a> for syntax highlighting Dart
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for Dart
- - GitHub supports <a href="https://github.com/dart-atom/dartlang" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Dart
- - There is a <a href="https://pub.dartlang.org/">central package repository</a> for Dart
- - Indeed.com has 208 matches for <a href="https://www.indeed.com/jobs?q=dart developer">"dart developer"</a>.
- - <a href="http://www.dartlang.org">dartlang.org</a> was registered in 2011
- - See also: (24 related languages)<a href="csharp.html">C#</a>, <a href="erlang.html">Erlang</a>, <a href="javascript.html">JavaScript</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="strongtalk.html">Strongtalk</a>, <a href="c.html">C</a>, <a href="android.html">Android</a>, <a href="ios.html">iOS</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="linux.html">Linux</a>, <a href="sublime-editor.html">Sublime Text</a>, <a href="emacs-editor.html">Emacs</a>, <a href="vim-editor.html">Vim</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="algol.html">Algol</a>, <a href="ruby.html">Ruby</a>, <a href="self.html">Self</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="elm.html">Elm</a>, <a href="fantom.html">Fantom</a>, <a href="go.html">Go</a>, <a href="haxe.html">Haxe</a>, <a href="opa.html">Opa</a>, <a href="typescript.html">TypeScript</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/dart">Improve our Dart file</a>
+- the <a href="http://www.dartlang.org">Dart website</a>
+- the <a href="https://en.wikipedia.org/wiki/Dart_(programming_language)">Dart Wikipedia page</a>
+- the <a href="https://dart.dev/guides">Dart docs</a>
+- There are at least 737,948 Dart repos on <a href="https://github.com/search?q=language:Dart">GitHub</a>
+- Dart first developed in <a href="../lists/originCommunities.html#Google">Google</a>
+- PLDB estimates there are currently 208 job openings for Dart programmers.
+- file extensions for Dart include dart
+- the Dart team is on <a href="https://twitter.com/dart_lang">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 3k users using Dart in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Dart">GitHub</a>
+- There are 35,109 members in the <a href="https://reddit.com/r/dartlang">Dart subreddit</a>
+- There are 54 <a href="https://projecteuler.net/language=Dart">Project Euler</a> users using Dart
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Dart programmers reported a median salary of $32,986. 6% of respondents reported using Dart. 4,965 programmers reported using Dart, and 7,018 said they wanted to use it
+- Explore Dart snippets on <a href="http://www.rosettacode.org/wiki/Category:Dart">Rosetta Code</a>
+- Dart ranks #22 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- Here is a Dart <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/natebosch/dart_language_server">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/dart">package</a> for syntax highlighting Dart
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/dart">package</a> for syntax highlighting Dart
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for Dart
+- GitHub supports <a href="https://github.com/dart-atom/dartlang" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Dart
+- There is a <a href="https://pub.dartlang.org/">central package repository</a> for Dart
+- Indeed.com has 208 matches for <a href="https://www.indeed.com/jobs?q=dart developer">"dart developer"</a>.
+- <a href="http://www.dartlang.org">dartlang.org</a> was registered in 2011
+- See also: (24 related languages)<a href="csharp.html">C#</a>, <a href="erlang.html">Erlang</a>, <a href="javascript.html">JavaScript</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="strongtalk.html">Strongtalk</a>, <a href="c.html">C</a>, <a href="android.html">Android</a>, <a href="ios.html">iOS</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="linux.html">Linux</a>, <a href="sublime-editor.html">Sublime Text</a>, <a href="emacs-editor.html">Emacs</a>, <a href="vim-editor.html">Vim</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="algol.html">Algol</a>, <a href="ruby.html">Ruby</a>, <a href="self.html">Self</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="elm.html">Elm</a>, <a href="fantom.html">Fantom</a>, <a href="go.html">Go</a>, <a href="haxe.html">Haxe</a>, <a href="opa.html">Opa</a>, <a href="typescript.html">TypeScript</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/dart">Improve our Dart file</a>
 
 html
  <br>
@@ -162,14 +159,11 @@ code
    print(distance);
  }
 
-
-
-subsection <a href="../lists/keywords.html?filter=dart">Keywords</a> in Dart
-paragraph
- abstract as assert async await break case catch class const continue covariant default deferred do dynamic else enum export extends external factory false final finally for get if implements import in is library new null operator part rethrow return set static super switch sync this throw true try typedef var void while with yield
+## <a href="../lists/keywords.html?filter=dart">Keywords</a> in Dart
+* abstract as assert async await break case catch class const continue covariant default deferred do dynamic else enum export extends external factory false final finally for get if implements import in is library new null operator part rethrow return set static super switch sync this throw true try typedef var void while with yield
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -296,12 +290,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Dart from ISBNdb
+## Books about Dart from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Dart for Absolute Beginners|https://isbndb.com/book/9781430264811|Kopec, David|2014|Apress
@@ -335,9 +325,8 @@ pipeTable
  Modern App Development With Dart And Flutter 2|https://isbndb.com/book/9783110721331|Dieter Meiller|2021|Walter De Gruyter Gmbh & Co Kg
  Modern App Development with Dart and Flutter 2|https://isbndb.com/book/9783110721607|Dieter Meiller|20210621|De Gruyter
 
-
 foldBreak
-subsection Publications about Dart from Semantic Scholar
+## Publications about Dart from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Spicing Up Dart with Side Effects|https://www.semanticscholar.org/paper/a3cd2932e0511bc9603395791a8f14e1fb78ecda|E. Meijer and K. Millikin and Gilad Bracha|2015|8|2
@@ -346,10 +335,5 @@ pipeTable
  A Freights Status Management System Based on Dart and Flutter Programming Language|https://www.semanticscholar.org/paper/6a772efe74fee9b0c1f8194e3337666a80b11e8f|Ghusoon Idan Arb and K. Al-Majdi|2020|3|0
  JAVA and DART programming languages: conceptual comparison|https://www.semanticscholar.org/paper/4aa90271fcb9625127f1aa3c280ecee1d40a35ea|A. M. Hassan|2020|2|0
  Ensuring that your dart will hit the mark: An introduction to dart contracts|https://www.semanticscholar.org/paper/e42a5d2cb0beb083db8236809b3105f98ad274eb|Patrice Chalin|2014|1|0
-
-
-
-
-
 
 keyboardNav julia.html arduino.html

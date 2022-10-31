@@ -1,12 +1,16 @@
 title Go
 
 import settings.scroll
-htmlTitle Go - Pl
+htmlTitle Go - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/go.pldb
 
-paragraph
- Go is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2009">2009</a> by <a href="../lists/creators.html#Rob_Pike">Rob Pike</a> and <a href="../lists/creators.html#Ken_Thompson">Ken Thompson</a> and <a href="../lists/creators.html#Robert_Griesemer">Robert Griesemer</a>.
+* Go is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2009 by Rob Pike and Ken Thompson and Robert Griesemer.
+ link ../lists/languages.html?filter=2009 2009
+ link ../lists/creators.html#Rob_Pike Rob Pike
+ link ../lists/creators.html#Ken_Thompson Ken Thompson
+ link ../lists/creators.html#Robert_Griesemer Robert Griesemer
+ 
 
 kpiTable
  #19 <span title="TotalRank: 67 Jobs: 26 Users: 14 Facts: 30 Links: 27">on PLDB</span>
@@ -16,8 +20,7 @@ kpiTable
  26 <span title="Academic publications about or leveraging Go">Papers</span>
  1m <span title="Go repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://go.dev/play">Web</a> · <a href="https://riju.codes/go">Riju</a> · <a href="https://tio.run/#go">TIO</a> · <a href="https://repl.it/languages/go">Replit</a>
+* Try now: <a href="https://go.dev/play">Web</a> · <a href="https://riju.codes/go">Riju</a> · <a href="https://tio.run/#go">TIO</a> · <a href="https://repl.it/languages/go">Replit</a>
 
 monacoEditor go
  // Type your code here, or load an example.
@@ -31,40 +34,36 @@ monacoEditor go
  func main() {}
  
 
+* Go (often referred to as golang) is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added. The compiler and other language tools originally developed by Google are all free and open source.. <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Go (often referred to as golang) is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added. The compiler and other language tools originally developed by Google are all free and open source.. <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://go.dev/">Go website</a>
- - the <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go Wikipedia page</a>
- - the <a href="https://devdocs.io/go/">Go docs</a>
- - There are at least 1,083,789 Go repos on <a href="https://github.com/search?q=language:Go">GitHub</a>
- - Go first developed in <a href="../lists/originCommunities.html#Google">Google</a>
- - PLDB estimates there are currently 6k job openings for Go programmers.
- - file extensions for Go include go
- - the Go team is on <a href="https://twitter.com/golang">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 45k users using Go in 91k repos on <a href="https://api.github.com/search/repositories?q=language:Go">GitHub</a>
- - Check out the 315 <a href="https://www.meetup.com/topics/golang/">Go meetup groups</a> on Meetup.com.
- - There are 1,768 <a href="https://projecteuler.net/language=Go">Project Euler</a> users using Go
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Go programmers reported a median salary of $75,669. 9% of respondents reported using Go. 7,879 programmers reported using Go, and 15,788 said they wanted to use it
- - Explore Go snippets on <a href="http://www.rosettacode.org/wiki/Category:Go">Rosetta Code</a>
- - Go is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
- - Go ranks #14 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/golang">Ubuntu package</a> for Go
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/golang">grammar</a> for Go
- - Here is a Go <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/sourcegraph/go-langserver">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/go">package</a> for syntax highlighting Go
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/go">package</a> for syntax highlighting Go
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/go.py">syntax highlighting</a> for Go
- - GitHub supports <a href="https://github.com/AlanQuatermain/go-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Go
- - Go appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - PLDB has 4 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Go: <a href="https://github.com/yunabe/lgo">github.com</a>, <a href="https://github.com/takluyver/igo">github.com</a>, <a href="https://github.com/fabian-z/gopherlab">github.com</a>, <a href="https://github.com/gopherdata/gophernotes">github.com</a>
- - Indeed.com has 1,284 matches for <a href="https://www.indeed.com/jobs?q=go engineer">"go engineer"</a>.
- - See also: (33 related languages)<a href="assembly-language.html">Assembly language</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="solaris.html">Solaris</a>, <a href="alef.html">ALEF</a>, <a href="apl.html">APL</a>, <a href="bcpl.html">BCPL</a>, <a href="c.html">C</a>, <a href="csp.html">CSP</a>, <a href="limbo.html">Limbo</a>, <a href="modula.html">Modula</a>, <a href="newsqueak.html">Newsqueak</a>, <a href="oberon.html">Oberon</a>, <a href="occam.html">Occam</a>, <a href="pascal.html">Pascal</a>, <a href="python.html">Python</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="crystal.html">Crystal</a>, <a href="algol.html">Algol</a>, <a href="unix.html">Unix</a>, <a href="java.html">Java</a>, <a href="utf-8.html">UTF-8</a>, <a href="csharp.html">C#</a>, <a href="rust.html">Rust</a>, <a href="erlang.html">Erlang</a>, <a href="chapel.html">Chapel</a>, <a href="cilk.html">CIL</a>, <a href="mongodb.html">MongoDB</a>, <a href="standard-ml.html">Standard ML</a>, <a href="cobol.html">COBOL</a>, <a href="fortran.html">Fortran</a>, <a href="scala.html">Scala</a>, <a href="dart.html">Dart</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/go">Improve our Go file</a>
+- the <a href="https://go.dev/">Go website</a>
+- the <a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go Wikipedia page</a>
+- the <a href="https://devdocs.io/go/">Go docs</a>
+- There are at least 1,083,789 Go repos on <a href="https://github.com/search?q=language:Go">GitHub</a>
+- Go first developed in <a href="../lists/originCommunities.html#Google">Google</a>
+- PLDB estimates there are currently 6k job openings for Go programmers.
+- file extensions for Go include go
+- the Go team is on <a href="https://twitter.com/golang">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 45k users using Go in 91k repos on <a href="https://api.github.com/search/repositories?q=language:Go">GitHub</a>
+- Check out the 315 <a href="https://www.meetup.com/topics/golang/">Go meetup groups</a> on Meetup.com.
+- There are 1,768 <a href="https://projecteuler.net/language=Go">Project Euler</a> users using Go
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Go programmers reported a median salary of $75,669. 9% of respondents reported using Go. 7,879 programmers reported using Go, and 15,788 said they wanted to use it
+- Explore Go snippets on <a href="http://www.rosettacode.org/wiki/Category:Go">Rosetta Code</a>
+- Go is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
+- Go ranks #14 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/golang">Ubuntu package</a> for Go
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/golang">grammar</a> for Go
+- Here is a Go <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/sourcegraph/go-langserver">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/go">package</a> for syntax highlighting Go
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/go">package</a> for syntax highlighting Go
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/go.py">syntax highlighting</a> for Go
+- GitHub supports <a href="https://github.com/AlanQuatermain/go-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Go
+- Go appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- PLDB has 4 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Go: <a href="https://github.com/yunabe/lgo">github.com</a>, <a href="https://github.com/takluyver/igo">github.com</a>, <a href="https://github.com/fabian-z/gopherlab">github.com</a>, <a href="https://github.com/gopherdata/gophernotes">github.com</a>
+- Indeed.com has 1,284 matches for <a href="https://www.indeed.com/jobs?q=go engineer">"go engineer"</a>.
+- See also: (33 related languages)<a href="assembly-language.html">Assembly language</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="solaris.html">Solaris</a>, <a href="alef.html">ALEF</a>, <a href="apl.html">APL</a>, <a href="bcpl.html">BCPL</a>, <a href="c.html">C</a>, <a href="csp.html">CSP</a>, <a href="limbo.html">Limbo</a>, <a href="modula.html">Modula</a>, <a href="newsqueak.html">Newsqueak</a>, <a href="oberon.html">Oberon</a>, <a href="occam.html">Occam</a>, <a href="pascal.html">Pascal</a>, <a href="python.html">Python</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="crystal.html">Crystal</a>, <a href="algol.html">Algol</a>, <a href="unix.html">Unix</a>, <a href="java.html">Java</a>, <a href="utf-8.html">UTF-8</a>, <a href="csharp.html">C#</a>, <a href="rust.html">Rust</a>, <a href="erlang.html">Erlang</a>, <a href="chapel.html">Chapel</a>, <a href="cilk.html">CIL</a>, <a href="mongodb.html">MongoDB</a>, <a href="standard-ml.html">Standard ML</a>, <a href="cobol.html">COBOL</a>, <a href="fortran.html">Fortran</a>, <a href="scala.html">Scala</a>, <a href="dart.html">Dart</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/go">Improve our Go file</a>
 
 html
  <br>
@@ -171,14 +170,11 @@ code
      }
  }
 
-
-
-subsection <a href="../lists/keywords.html?filter=go">Keywords</a> in Go
-paragraph
- break case chan const continue default defer else fallthrough for func go goto if import interface map package range return select struct switch type var
+## <a href="../lists/keywords.html?filter=go">Keywords</a> in Go
+* break case chan const continue default defer else fallthrough for func go goto if import interface map package range return select struct switch type var
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -368,12 +364,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Go from ISBNdb
+## Books about Go from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  The Way To Go: A Thorough Introduction To The Go Programming Language|https://isbndb.com/book/9781469769165|Balbaert, Ivo|2012|iUniverse
@@ -382,9 +374,8 @@ pipeTable
  Go Web Programming|https://isbndb.com/book/9781617292569|Chang, Sau Sheong|2016|Manning Publications
  Go Programming Blueprints|https://isbndb.com/book/9781783988020|Ryer, Mat|2015|Packt Publishing
 
-
 foldBreak
-subsection Publications about Go from Semantic Scholar
+## Publications about Go from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Structured Programming with go to Statements|https://www.semanticscholar.org/paper/3fdae4603265209ddf420cfaa9cbd0286c567c6c|D. Knuth|1974|685|25
@@ -413,10 +404,5 @@ pipeTable
  Overview of the Go Language|https://www.semanticscholar.org/paper/e8230750cd61b5972228841186cacfdb856fa4d1|J. Newmarch|2017|3|1
  Pattern matching for object-like structures in the Go programming language|https://www.semanticscholar.org/paper/1787cbbc350b8f812633b14dba353cc4659bccfa|Chanwit Kaewkasi and Pitchaya Kaewkasi|2011|2|0
  Evaluating the GO Programming Language with Design Patterns|https://www.semanticscholar.org/paper/ab5a1cf83194c5180bf9d0d992fe2514dfd54fe3|Frank Schmager|null|1|0
-
-
-
-
-
 
 keyboardNav css.html cobol.html

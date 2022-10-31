@@ -1,12 +1,14 @@
 title Mathematica
 
 import settings.scroll
-htmlTitle Mathematica - Pl
+htmlTitle Mathematica - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/mathematica.pldb
 
-paragraph
- Mathematica is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1988">1988</a> by <a href="../lists/creators.html#Stephen_Wolfram">Stephen Wolfram</a>.
+* Mathematica is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1988 by Stephen Wolfram.
+ link ../lists/languages.html?filter=1988 1988
+ link ../lists/creators.html#Stephen_Wolfram Stephen Wolfram
+ 
 
 kpiTable
  #41 <span title="TotalRank: 144 Jobs: 41 Users: 28 Facts: 82 Links: 75">on PLDB</span>
@@ -16,37 +18,30 @@ kpiTable
  21 <span title="Academic publications about or leveraging Mathematica">Papers</span>
  22k <span title="Mathematica repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://tio.run/#mathematica">TIO</a>
+* Try now: <a href="https://tio.run/#mathematica">TIO</a>
 
+* Wolfram Mathematica (usually termed Mathematica) is a modern technical computing system spanning most areas of technical computing — including neural networks, machine learning, image processing, geometry, data science, visualizations, and others. The system is used in many technical, scientific, engineering, mathematical, and computing fields. It was conceived by Stephen Wolfram and is developed by Wolfram Research of Champaign, Illinois. <a href="https://en.wikipedia.org/wiki/Mathematica">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Wolfram Mathematica (usually termed Mathematica) is a modern technical computing system spanning most areas of technical computing — including neural networks, machine learning, image processing, geometry, data science, visualizations, and others. The system is used in many technical, scientific, engineering, mathematical, and computing fields. It was conceived by Stephen Wolfram and is developed by Wolfram Research of Champaign, Illinois. <a href="https://en.wikipedia.org/wiki/Mathematica">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://www.wolfram.com/mathematica">Mathematica website</a>
- - the <a href="https://en.wikipedia.org/wiki/Mathematica">Mathematica Wikipedia page</a>
- - the <a href="https://reference.wolfram.com/language/">Mathematica docs</a>
- - There are at least 22,012 Mathematica repos on <a href="https://github.com/search?q=language:Mathematica">GitHub</a>
- - Mathematica first developed in <a href="../lists/originCommunities.html#Wolfram_Research">Wolfram Research</a>
- - PLDB estimates there are currently 2k job openings for Mathematica programmers.
- - file extensions for Mathematica include mathematica, cdf, m, ma, mt, nb, nbp, wl and wlt
- - The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using Mathematica in 3k repos on <a href="https://api.github.com/search/repositories?q=language:Mathematica">GitHub</a>
- - Check out the 11 <a href="https://www.meetup.com/topics/mathematica/">Mathematica meetup groups</a> on Meetup.com.
- - There are 1,757 <a href="https://projecteuler.net/language=Mathematica">Project Euler</a> users using Mathematica
- - Explore Mathematica snippets on <a href="http://www.rosettacode.org/wiki/Category:Mathematica">Rosetta Code</a>
- - Mathematica is listed on <a href="https://hopl.info/showlanguage.prx?exp=1410">HOPL</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/mathematica">package</a> for syntax highlighting Mathematica
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/algebra.py">syntax highlighting</a> for Mathematica
- - GitHub supports <a href="https://github.com/shadanan/mathematica-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Mathematica
- - There is a <a href="http://packagedata.net/">central package repository</a> for Mathematica
- - Indeed.com has 90 matches for <a href="https://www.indeed.com/jobs?q=mathematica engineer">"mathematica engineer"</a>.
- - See also: (24 related languages)<a href="wolfram.html">Wolfram Language</a>, <a href="linux.html">Linux</a>, <a href="c.html">C</a>, <a href="java.html">Java</a>, <a href="modelica.html">Modelica</a>, <a href="sql.html">SQL</a>, <a href="fortran.html">Fortran</a>, <a href="cuda.html">CUDA</a>, <a href="opencl.html">OpenCL</a>, <a href="http.html">HTTP</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="haskell.html">Haskell</a>, <a href="applescript.html">Applescript</a>, <a href="racket.html">Racket</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="python.html">Python</a>, <a href="clojure.html">Clojure</a>, <a href="excel-app.html">Microsoft Excel</a>, <a href="matlab.html">MATLAB</a>, <a href="sagemath.html">Sage</a>, <a href="mongodb.html">MongoDB</a>, <a href="wsdl.html">WSDL</a>, <a href="labview.html">LabVIEW G</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/mathematica">Improve our Mathematica file</a>
+- the <a href="http://www.wolfram.com/mathematica">Mathematica website</a>
+- the <a href="https://en.wikipedia.org/wiki/Mathematica">Mathematica Wikipedia page</a>
+- the <a href="https://reference.wolfram.com/language/">Mathematica docs</a>
+- There are at least 22,012 Mathematica repos on <a href="https://github.com/search?q=language:Mathematica">GitHub</a>
+- Mathematica first developed in <a href="../lists/originCommunities.html#Wolfram_Research">Wolfram Research</a>
+- PLDB estimates there are currently 2k job openings for Mathematica programmers.
+- file extensions for Mathematica include mathematica, cdf, m, ma, mt, nb, nbp, wl and wlt
+- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using Mathematica in 3k repos on <a href="https://api.github.com/search/repositories?q=language:Mathematica">GitHub</a>
+- Check out the 11 <a href="https://www.meetup.com/topics/mathematica/">Mathematica meetup groups</a> on Meetup.com.
+- There are 1,757 <a href="https://projecteuler.net/language=Mathematica">Project Euler</a> users using Mathematica
+- Explore Mathematica snippets on <a href="http://www.rosettacode.org/wiki/Category:Mathematica">Rosetta Code</a>
+- Mathematica is listed on <a href="https://hopl.info/showlanguage.prx?exp=1410">HOPL</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/mathematica">package</a> for syntax highlighting Mathematica
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/algebra.py">syntax highlighting</a> for Mathematica
+- GitHub supports <a href="https://github.com/shadanan/mathematica-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Mathematica
+- There is a <a href="http://packagedata.net/">central package repository</a> for Mathematica
+- Indeed.com has 90 matches for <a href="https://www.indeed.com/jobs?q=mathematica engineer">"mathematica engineer"</a>.
+- See also: (24 related languages)<a href="wolfram.html">Wolfram Language</a>, <a href="linux.html">Linux</a>, <a href="c.html">C</a>, <a href="java.html">Java</a>, <a href="modelica.html">Modelica</a>, <a href="sql.html">SQL</a>, <a href="fortran.html">Fortran</a>, <a href="cuda.html">CUDA</a>, <a href="opencl.html">OpenCL</a>, <a href="http.html">HTTP</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="haskell.html">Haskell</a>, <a href="applescript.html">Applescript</a>, <a href="racket.html">Racket</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="python.html">Python</a>, <a href="clojure.html">Clojure</a>, <a href="excel-app.html">Microsoft Excel</a>, <a href="matlab.html">MATLAB</a>, <a href="sagemath.html">Sage</a>, <a href="mongodb.html">MongoDB</a>, <a href="wsdl.html">WSDL</a>, <a href="labview.html">LabVIEW G</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/mathematica">Improve our Mathematica file</a>
 
 html
  <br>
@@ -68,12 +63,8 @@ code
  Test[1 + 2, 3, TestID -&gt; &quot;One plus two&quot;]
  
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -128,19 +119,16 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Mathematica on goodreads
+## Books about Mathematica on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Mathematica: A System for Doing Mathematics by Computer|https://www.goodreads.com/search?q=Mathematica: A System for Doing Mathematics by Computer Stephen Wolfram|Stephen Wolfram|1988|0|19|3.79
  An Introduction to Programming with Mathematica(r)|https://www.goodreads.com/search?q=An Introduction to Programming with Mathematica(r) Paul R. Wellin|Paul R. Wellin|2005|0|15|3.67
  Programming in Mathematica|https://www.goodreads.com/search?q=Programming in Mathematica Roman E. Maeder|Roman E. Maeder|1989|1|12|4.25
 
-
 foldBreak
-subsection Books about Mathematica from ISBNdb
+## Books about Mathematica from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Programming in Mathematica|https://isbndb.com/book/9780201854497|Maeder, Roman E.|1996|Addison-Wesley Professional
@@ -213,9 +201,8 @@ pipeTable
  Differential Equations with Mathematica|https://isbndb.com/book/9780323984362|Martha L. Abell; James P. Braselton|20220118|Elsevier S & T
  Illustrating Evolutionary Computation with Mathematica|https://isbndb.com/book/9780080508450|Christian Jacob|20010223|Elsevier S & T
 
-
 foldBreak
-subsection Publications about Mathematica from Semantic Scholar
+## Publications about Mathematica from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  A 99 line code for discretized Michell truss optimization written in Mathematica|https://www.semanticscholar.org/paper/a251bde86d0b6e4f377acd820812c9abdfa6705d|T. Sokół|2011|101|2
@@ -239,10 +226,5 @@ pipeTable
  Short Introduction to Wolfram’s Mathematica|https://www.semanticscholar.org/paper/d649b954d1f945739077ab40c3e0b57fead15456|Y. Vetyukov|2014|1|0
  A Simple Way for Estimating Mechanical Properties from Stress-Strain Diagram using MATLAB and Mathematica|https://www.semanticscholar.org/paper/662fabd1a23db95bd9f9e1bd5b7bb06273b6dc78|E. Yılmaz and S. Yavuz|2019|1|0
  Computational Mathematics with the Wolfram Language and Mathematica|https://www.semanticscholar.org/paper/dfddef679a3c8fceb2e16fb969204a90e03e7a7f|Agus Kurniawan|2018|1|0
-
-
-
-
-
 
 keyboardNav isbn.html visual-basic.html

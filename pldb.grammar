@@ -59,7 +59,7 @@ abstractFactNode
 abstractUrlNode
  cells keywordCell urlCell
  extends abstractFactNode
-annualReportsNode
+annualReportsUrlNode
  extends abstractUrlNode
  cruxFromId
  description URL to the annual reports for this language.
@@ -83,6 +83,11 @@ esolangNode
  cruxFromId
  string sourceDomain esolangs.org
  single
+eventsPageUrlNode
+ extends abstractUrlNode
+ cruxFromId
+ description URL to the events pages of this language.
+ single false
 abstractGitRepoUrlNode
  extends abstractUrlNode
  single
@@ -121,6 +126,11 @@ languageServerProtocolProjectNode
  description A link to a project implementing LSP for this language.
  cruxFromId
  string sourceDomain langserver.org
+officialBlogUrlNode
+ extends abstractUrlNode
+ cruxFromId
+ description URL to the official blog for this language.
+ single false
 packageRepositoryNode
  extends abstractUrlNode
  cruxFromId
@@ -137,6 +147,11 @@ referenceNode
  cruxFromId
  description A link to more info about this entity. You can add raw links and then auto "upgrade" them using some of the importer code.
  single false
+releaseNotesUrlNode
+ extends abstractUrlNode
+ cruxFromId
+ description URL to the release notes for this language.
+ single false
 rijuReplNode
  extends abstractUrlNode
  description A link to try this language on riju.codes
@@ -145,6 +160,10 @@ rijuReplNode
  single
  contentKey id
  inScope fileExtensionsNode descriptionNode websiteNode githubRepoNode exampleNode
+specNode
+ extends abstractUrlNode
+ description Link to the official spec for a language.
+ cruxFromId
 websiteNode
  description URL of the official homepage for the language project.
  extends abstractUrlNode
@@ -1474,7 +1493,7 @@ pldbNode
  description A database about programming languages and related concepts.
  catchAllNodeType errorNode
  todo Should not have to manually list each node type here, but should be able to mark some tag as inscope. Should be fixed upstream in Jtree.
- inScope blankLineNode descriptionNode wikipediaNode equationNode exampleNode fileExtensionsNode githubLanguageNode abstractGitRepoUrlNode helloWorldCollectionNode creatorsNode appearedNode announcementUrlNode countryNode titleNode wordRankNode standsForNode akaNode pseudoExampleNode abstractFeatureGrammarLinkNode featuresNode referenceNode replitNode tryItOnlineNode twitterNode typeNode websiteNode fileTypeNode linguistGrammarRepoNode tiobeNode meetupNode webReplNode linkedInSkillNode projectEulerNode hoplNode subredditNode redditDiscussionNode quineRelayNode ubuntuPackageNode codeMirrorNode monacoNode rosettaCodeNode antlrNode originCommunityNode cheatSheetUrlNode isOpenSourceNode indeedJobsNode hackerNewsDiscussionsNode firstAnnouncementNode announcementMethodNode abstractRelationshipNode packageCountNode packageInstallsNode packageRepositoryNode packageAuthorsNode packagesIncludingVersionsNode forLanguagesNode conferenceNode abstractCommonTokenNode languageServerProtocolProjectNode abstractParadigmNode latestReleaseNode nativeLanguageNode jupyterKernelNode keywordsNode stackOverflowSurveyNode annualReportsNode centralPackageRepositoryCountNode gdbSupportNode rijuReplNode esolangNode goodreadsNode dblpNode abstractFlagNode oldNameNode pygmentsHighlighterNode leachim6Node domainNameNode isbndbNode semanticScholarNode githubBigQueryNode compilerExplorerNode pyplNode documentationNode screenshotNode demoVideoNode funFactNode factSponsorsNode photoNode
+ inScope blankLineNode descriptionNode wikipediaNode equationNode exampleNode fileExtensionsNode githubLanguageNode abstractGitRepoUrlNode helloWorldCollectionNode creatorsNode appearedNode announcementUrlNode countryNode titleNode wordRankNode standsForNode akaNode pseudoExampleNode abstractFeatureGrammarLinkNode featuresNode referenceNode replitNode tryItOnlineNode twitterNode typeNode websiteNode fileTypeNode linguistGrammarRepoNode tiobeNode meetupNode webReplNode linkedInSkillNode projectEulerNode hoplNode subredditNode redditDiscussionNode quineRelayNode ubuntuPackageNode codeMirrorNode monacoNode rosettaCodeNode antlrNode originCommunityNode cheatSheetUrlNode isOpenSourceNode indeedJobsNode hackerNewsDiscussionsNode firstAnnouncementNode announcementMethodNode abstractRelationshipNode packageCountNode packageInstallsNode packageRepositoryNode packageAuthorsNode packagesIncludingVersionsNode forLanguagesNode conferenceNode abstractCommonTokenNode languageServerProtocolProjectNode abstractParadigmNode latestReleaseNode nativeLanguageNode jupyterKernelNode keywordsNode stackOverflowSurveyNode annualReportsUrlNode releaseNotesUrlNode officialBlogUrlNode eventsPageUrlNode centralPackageRepositoryCountNode gdbSupportNode rijuReplNode esolangNode goodreadsNode dblpNode abstractFlagNode oldNameNode pygmentsHighlighterNode leachim6Node domainNameNode isbndbNode semanticScholarNode githubBigQueryNode compilerExplorerNode pyplNode documentationNode specNode screenshotNode demoVideoNode funFactNode factSponsorsNode photoNode
  cells fileNameCell
  string fileExtension pldb
  example

@@ -1,12 +1,14 @@
 title REBOL
 
 import settings.scroll
-htmlTitle REBOL - Pl
+htmlTitle REBOL - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rebol.pldb
 
-paragraph
- REBOL, aka Relative Expression-Based Object Language, is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1997">1997</a> by <a href="../lists/creators.html#Carl_Sassenrath">Carl Sassenrath</a>.
+* REBOL, aka Relative Expression-Based Object Language, is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1997 by Carl Sassenrath.
+ link ../lists/languages.html?filter=1997 1997
+ link ../lists/creators.html#Carl_Sassenrath Carl Sassenrath
+ 
 
 kpiTable
  #149 <span title="TotalRank: 432 Jobs: 101 Users: 884 Facts: 212 Links: 119">on PLDB</span>
@@ -16,35 +18,28 @@ kpiTable
  0 <span title="Academic publications about or leveraging REBOL">Papers</span>
  30k <span title="REBOL repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/rebol">Riju</a> · <a href="https://tio.run/#rebol">TIO</a>
+* Try now: <a href="https://riju.codes/rebol">Riju</a> · <a href="https://tio.run/#rebol">TIO</a>
 
+* Rebol ( REB-əl; historically REBOL) is a cross-platform data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data, which is also the most notable property of the language according to its designer Carl Sassenrath:  Although it can be used for programming, writing functions, and performing processes, its greatest strength is the ability to easily create domain-specific languages or dialects  Douglas Crockford, known for his involvement in the development of JavaScript, has described Rebol as "a more modern language, but with some very similar ideas to Lisp, in that it's all built upon a representation of data which is then executable as programs" and as one of JSON's influences. Originally, the language and its official implementation were proprietary and closed source, developed by REBOL Technologies. <a href="https://en.wikipedia.org/wiki/REBOL">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Rebol ( REB-əl; historically REBOL) is a cross-platform data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data, which is also the most notable property of the language according to its designer Carl Sassenrath:  Although it can be used for programming, writing functions, and performing processes, its greatest strength is the ability to easily create domain-specific languages or dialects  Douglas Crockford, known for his involvement in the development of JavaScript, has described Rebol as "a more modern language, but with some very similar ideas to Lisp, in that it's all built upon a representation of data which is then executable as programs" and as one of JSON's influences. Originally, the language and its official implementation were proprietary and closed source, developed by REBOL Technologies. <a href="https://en.wikipedia.org/wiki/REBOL">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://www.rebol.com">REBOL website</a>
- - the <a href="https://en.wikipedia.org/wiki/REBOL">REBOL Wikipedia page</a>
- - the <a href="http://www.rebol.com/docs.html">REBOL docs</a>
- - There are at least 30,469 REBOL repos on <a href="https://github.com/search?q=language:Rebol">GitHub</a>
- - REBOL first developed in <a href="../lists/originCommunities.html#REBOL_Technologies">REBOL Technologies</a>
- - file extensions for REBOL include r, reb, r2, r3 and rebol
- - The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using REBOL in 2k repos on <a href="https://api.github.com/search/repositories?q=language:Rebol">GitHub</a>
- - There are 15 <a href="https://projecteuler.net/language=REBOL">Project Euler</a> users using REBOL
- - Explore REBOL snippets on <a href="http://www.rosettacode.org/wiki/Category:REBOL">Rosetta Code</a>
- - REBOL is listed on <a href="https://hopl.info/showlanguage.prx?exp=2438">HOPL</a>
- - REBOL appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rebol.py">syntax highlighting</a> for REBOL
- - GitHub supports <a href="https://github.com/Oldes/Sublime-REBOL" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for REBOL
- - Indeed.com has 0 matches for <a href="https://www.indeed.com/jobs?q=rebol developer">"rebol developer"</a>.
- - <a href="http://www.rebol.com">rebol.com</a> was registered in 1997
- - See also: (11 related languages)<a href="self.html">Self</a>, <a href="forth.html">Forth</a>, <a href="lisp.html">Lisp</a>, <a href="logo.html">Logo</a>, <a href="json.html">JSON</a>, <a href="red.html">Red</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="algol.html">Algol</a>, <a href="s-expressions.html">S-expressions</a>, <a href="peg.html">PEG</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/rebol">Improve our REBOL file</a>
+- the <a href="http://www.rebol.com">REBOL website</a>
+- the <a href="https://en.wikipedia.org/wiki/REBOL">REBOL Wikipedia page</a>
+- the <a href="http://www.rebol.com/docs.html">REBOL docs</a>
+- There are at least 30,469 REBOL repos on <a href="https://github.com/search?q=language:Rebol">GitHub</a>
+- REBOL first developed in <a href="../lists/originCommunities.html#REBOL_Technologies">REBOL Technologies</a>
+- file extensions for REBOL include r, reb, r2, r3 and rebol
+- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using REBOL in 2k repos on <a href="https://api.github.com/search/repositories?q=language:Rebol">GitHub</a>
+- There are 15 <a href="https://projecteuler.net/language=REBOL">Project Euler</a> users using REBOL
+- Explore REBOL snippets on <a href="http://www.rosettacode.org/wiki/Category:REBOL">Rosetta Code</a>
+- REBOL is listed on <a href="https://hopl.info/showlanguage.prx?exp=2438">HOPL</a>
+- REBOL appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rebol.py">syntax highlighting</a> for REBOL
+- GitHub supports <a href="https://github.com/Oldes/Sublime-REBOL" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for REBOL
+- Indeed.com has 0 matches for <a href="https://www.indeed.com/jobs?q=rebol developer">"rebol developer"</a>.
+- <a href="http://www.rebol.com">rebol.com</a> was registered in 1997
+- See also: (11 related languages)<a href="self.html">Self</a>, <a href="forth.html">Forth</a>, <a href="lisp.html">Lisp</a>, <a href="logo.html">Logo</a>, <a href="json.html">JSON</a>, <a href="red.html">Red</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="algol.html">Algol</a>, <a href="s-expressions.html">S-expressions</a>, <a href="peg.html">PEG</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/rebol">Improve our REBOL file</a>
 
 html
  <br>
@@ -84,12 +79,8 @@ code
  Expr: Sum
  parse/all &quot;12+13&quot; Expr
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -161,27 +152,17 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about REBOL on goodreads
+## Books about REBOL on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Rebol for Dummies [With Rebol for 37 Systems]|https://www.goodreads.com/search?q=Rebol for Dummies [With Rebol for 37 Systems] Ralph Roberts|Ralph Roberts|2000|0|5|3.00
  Rebol Programming|https://www.goodreads.com/search?q=Rebol Programming Olivier Auverlot|Olivier Auverlot||0|0|0.0
 
-
 foldBreak
-subsection Books about REBOL from ISBNdb
+## Books about REBOL from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Rebol Programming|https://isbndb.com/book/9780470846759|Olivier Auverlot||Wiley Technology Publishing
-
-
-
-
-
-
-
 
 keyboardNav flux.html processing.html

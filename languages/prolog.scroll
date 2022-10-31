@@ -1,12 +1,14 @@
 title Prolog
 
 import settings.scroll
-htmlTitle Prolog - Pl
+htmlTitle Prolog - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/prolog.pldb
 
-paragraph
- Prolog is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1972">1972</a> by <a href="../lists/creators.html#Alain_Colmerauer">Alain Colmerauer</a>.
+* Prolog is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1972 by Alain Colmerauer.
+ link ../lists/languages.html?filter=1972 1972
+ link ../lists/creators.html#Alain_Colmerauer Alain Colmerauer
+ 
 
 kpiTable
  #37 <span title="TotalRank: 128 Jobs: 55 Users: 43 Facts: 53 Links: 32">on PLDB</span>
@@ -16,40 +18,33 @@ kpiTable
  23 <span title="Academic publications about or leveraging Prolog">Papers</span>
  23k <span title="Prolog repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/prolog">Riju</a>
+* Try now: <a href="https://riju.codes/prolog">Riju</a>
 
+* Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended as primarily a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations. <a href="https://en.wikipedia.org/wiki/Prolog">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended as primarily a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations. <a href="https://en.wikipedia.org/wiki/Prolog">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://en.wikipedia.org/wiki/Prolog">Prolog Wikipedia page</a>
- - the <a href="https://www.swi-prolog.org/pldoc/index.html">Prolog docs</a>
- - There are at least 22,512 Prolog repos on <a href="https://github.com/search?q=language:Prolog">GitHub</a>
- - PLDB estimates there are currently 446 job openings for Prolog programmers.
- - file extensions for Prolog include pl, pro, P, prolog, yap and ecl
- - The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Prolog in 11k repos on <a href="https://api.github.com/search/repositories?q=language:Prolog">GitHub</a>
- - Check out the 8 <a href="https://www.meetup.com/topics/prolog/">Prolog meetup groups</a> on Meetup.com.
- - There are 7,884 members in the <a href="https://reddit.com/r/prolog">Prolog subreddit</a>
- - There are 156 <a href="https://projecteuler.net/language=Prolog">Project Euler</a> users using Prolog
- - Explore Prolog snippets on <a href="http://www.rosettacode.org/wiki/Category:Prolog">Rosetta Code</a>
- - Prolog is listed on <a href="https://hopl.info/showlanguage.prx?exp=562">HOPL</a>
- - Prolog ranks #41 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/swi-prolog">Ubuntu package</a> for Prolog
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/prolog">grammar</a> for Prolog
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/prolog.py">syntax highlighting</a> for Prolog
- - GitHub supports <a href="https://github.com/alnkpa/sublimeprolog" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Prolog
- - Prolog appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/Calysto/calysto_prolog">Kernel</a> for Prolog
- - There is a <a href="http://www.swi-prolog.org/pldoc/doc/_SWI_/library/prolog_pack.pl">central package repository</a> for Prolog
- - Indeed.com has 79 matches for <a href="https://www.indeed.com/jobs?q=prolog developer">"prolog developer"</a>.
- - See also: (17 related languages)<a href="poplog.html">POPLOG</a>, <a href="swi-prolog.html">SWI-Prolog</a>, <a href="visual-prolog.html">Visual Prolog</a>, <a href="mercury.html">Mercury</a>, <a href="oz.html">Oz</a>, <a href="erlang.html">Erlang</a>, <a href="datalog.html">Datalog</a>, <a href="unicode.html">Unicode</a>, <a href="lambda-prolog.html">ΛProlog</a>, <a href="html.html">HTML</a>, <a href="xml.html">XML</a>, <a href="rdf.html">RDF</a>, <a href="owl.html">OWL</a>, <a href="actionscript.html">ActionScript</a>, <a href="lisp.html">Lisp</a>, <a href="planner.html">PLANNER</a>, <a href="agentspeak.html">AgentSpeak</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/prolog">Improve our Prolog file</a>
+- the <a href="https://en.wikipedia.org/wiki/Prolog">Prolog Wikipedia page</a>
+- the <a href="https://www.swi-prolog.org/pldoc/index.html">Prolog docs</a>
+- There are at least 22,512 Prolog repos on <a href="https://github.com/search?q=language:Prolog">GitHub</a>
+- PLDB estimates there are currently 446 job openings for Prolog programmers.
+- file extensions for Prolog include pl, pro, P, prolog, yap and ecl
+- The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Prolog in 11k repos on <a href="https://api.github.com/search/repositories?q=language:Prolog">GitHub</a>
+- Check out the 8 <a href="https://www.meetup.com/topics/prolog/">Prolog meetup groups</a> on Meetup.com.
+- There are 7,884 members in the <a href="https://reddit.com/r/prolog">Prolog subreddit</a>
+- There are 156 <a href="https://projecteuler.net/language=Prolog">Project Euler</a> users using Prolog
+- Explore Prolog snippets on <a href="http://www.rosettacode.org/wiki/Category:Prolog">Rosetta Code</a>
+- Prolog is listed on <a href="https://hopl.info/showlanguage.prx?exp=562">HOPL</a>
+- Prolog ranks #41 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/swi-prolog">Ubuntu package</a> for Prolog
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/prolog">grammar</a> for Prolog
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/prolog.py">syntax highlighting</a> for Prolog
+- GitHub supports <a href="https://github.com/alnkpa/sublimeprolog" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Prolog
+- Prolog appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/Calysto/calysto_prolog">Kernel</a> for Prolog
+- There is a <a href="http://www.swi-prolog.org/pldoc/doc/_SWI_/library/prolog_pack.pl">central package repository</a> for Prolog
+- Indeed.com has 79 matches for <a href="https://www.indeed.com/jobs?q=prolog developer">"prolog developer"</a>.
+- See also: (17 related languages)<a href="poplog.html">POPLOG</a>, <a href="swi-prolog.html">SWI-Prolog</a>, <a href="visual-prolog.html">Visual Prolog</a>, <a href="mercury.html">Mercury</a>, <a href="oz.html">Oz</a>, <a href="erlang.html">Erlang</a>, <a href="datalog.html">Datalog</a>, <a href="unicode.html">Unicode</a>, <a href="lambda-prolog.html">ΛProlog</a>, <a href="html.html">HTML</a>, <a href="xml.html">XML</a>, <a href="rdf.html">RDF</a>, <a href="owl.html">OWL</a>, <a href="actionscript.html">ActionScript</a>, <a href="lisp.html">Lisp</a>, <a href="planner.html">PLANNER</a>, <a href="agentspeak.html">AgentSpeak</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/prolog">Improve our Prolog file</a>
 
 html
  <br>
@@ -91,12 +86,8 @@ code
  rule(q0, 1, q0, 1, right).
  rule(q0, b, qf, 1, stay).
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -181,10 +172,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Prolog on goodreads
+## Books about Prolog on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  PROLOG: Programming for Artificial Intelligence|https://www.goodreads.com/search?q=PROLOG: Programming for Artificial Intelligence Ivan Bratko|Ivan Bratko|1986|4|166|3.75
@@ -193,9 +182,8 @@ pipeTable
  The Art Of Prolog: Advanced Programming Techniques|https://www.goodreads.com/search?q=The Art Of Prolog: Advanced Programming Techniques Leon Sterling|Leon Sterling|1986|2|43|3.79
  Logic Programming with PROLOG|https://www.goodreads.com/search?q=Logic Programming with PROLOG Max Bramer|Max Bramer|2005|0|16|3.56
 
-
 foldBreak
-subsection Books about Prolog from ISBNdb
+## Books about Prolog from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Learn Prolog Now! (Texts in Computing, Vol. 7)|https://isbndb.com/book/9781904987178|Patrick Blackburn and Johan Bos and Kristina Striegnitz|2006|College Publications
@@ -294,9 +282,8 @@ pipeTable
  The Techniques Of Prolog Programming With Implementation Of Logical Negation And Quantified Goals|https://isbndb.com/book/9780471599708|T. Van Le|1993|John Wiley And Sons Ltd
  Logic Programming: Prolog And Stream Parallel Languages (prentice Hall Advances In Computer Science Series)|https://isbndb.com/book/9780135398425|J. D. Newmarch|1990|Prentice Hall
 
-
 foldBreak
-subsection Publications about Prolog from Semantic Scholar
+## Publications about Prolog from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Programming in Prolog|https://www.semanticscholar.org/paper/ec74eaf722b5fb9c49e3fe38fe30ddf3dda61d72|W. Clocksin and C. Mellish|1987|1301|102
@@ -322,10 +309,5 @@ pipeTable
  Enhancing Prolog to Support Prolog Programming Environments|https://www.semanticscholar.org/paper/281a193b8fcd79442cd54d98e8e95ccaed15d162|A. Martelli and G. Rossi|1988|4|0
  An adaptive prolog programming language with machine learning|https://www.semanticscholar.org/paper/a22535f08ebba5e76633ceb8a321cbb156727dfc|Benjie Lu and Zhiqing Liu and Hui Gao|2012|1|0
  Design an Arm Robot through Prolog Programming Language|https://www.semanticscholar.org/paper/1e2d636b3b4df2802b0815122ba551c001f7235a|A. Azad and T. Rashid|2013|1|0
-
-
-
-
-
 
 keyboardNav assembly-language.html clojure.html

@@ -1,12 +1,14 @@
 title Scala
 
 import settings.scroll
-htmlTitle Scala - Pl
+htmlTitle Scala - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/scala.pldb
 
-paragraph
- Scala is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2004">2004</a> by <a href="../lists/creators.html#Martin_Odersky">Martin Odersky</a>.
+* Scala is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2004 by Martin Odersky.
+ link ../lists/languages.html?filter=2004 2004
+ link ../lists/creators.html#Martin_Odersky Martin Odersky
+ 
 
 kpiTable
  #23 <span title="TotalRank: 74 Jobs: 30 Users: 29 Facts: 15 Links: 30">on PLDB</span>
@@ -16,8 +18,7 @@ kpiTable
  26 <span title="Academic publications about or leveraging Scala">Papers</span>
  219k <span title="Scala repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://scastie.scala-lang.org/">Web</a> · <a href="https://riju.codes/scala">Riju</a> · <a href="https://tio.run/#scala">TIO</a>
+* Try now: <a href="https://scastie.scala-lang.org/">Web</a> · <a href="https://riju.codes/scala">Riju</a> · <a href="https://tio.run/#scala">TIO</a>
 
 monacoEditor scala
  // Type your code here, or load an example.
@@ -27,42 +28,38 @@ monacoEditor scala
  }
  
 
+* Scala ( SKAH-lah) is a general-purpose programming language providing support for functional programming and a strong static type system. Designed to be concise, many of Scala's design decisions aimed to address criticisms of Java. Scala source code is intended to be compiled to Java bytecode, so that the resulting executable code runs on a Java virtual machine. <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Scala ( SKAH-lah) is a general-purpose programming language providing support for functional programming and a strong static type system. Designed to be concise, many of Scala's design decisions aimed to address criticisms of Java. Scala source code is intended to be compiled to Java bytecode, so that the resulting executable code runs on a Java virtual machine. <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://www.scala-lang.org">Scala website</a>
- - the <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Scala Wikipedia page</a>
- - the <a href="https://docs.scala-lang.org/">Scala docs</a>
- - There are at least 219,084 Scala repos on <a href="https://github.com/search?q=language:Scala">GitHub</a>
- - Scala first developed in <a href="../lists/originCommunities.html#École_Polytechnique_Fédérale_de_Lausanne">École Polytechnique Fédérale de Lausanne</a>
- - PLDB estimates there are currently 5k job openings for Scala programmers.
- - file extensions for Scala include scala, sc, kojo and sbt
- - the Scala team is on <a href="https://twitter.com/scala_lang">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 21k users using Scala in 35k repos on <a href="https://api.github.com/search/repositories?q=language:Scala">GitHub</a>
- - Check out the 624 <a href="https://www.meetup.com/topics/scala/">Scala meetup groups</a> on Meetup.com.
- - There are 46,218 members in the <a href="https://reddit.com/r/scala">Scala subreddit</a>
- - There are 1,985 <a href="https://projecteuler.net/language=Scala">Project Euler</a> users using Scala
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Scala programmers reported a median salary of $77,832. 3% of respondents reported using Scala. 2,148 programmers reported using Scala, and 3,165 said they wanted to use it
- - Explore Scala snippets on <a href="http://www.rosettacode.org/wiki/Category:Scala">Rosetta Code</a>
- - Scala is listed on <a href="https://hopl.info/showlanguage.prx?exp=6814">HOPL</a>
- - Scala ranks #39 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/scala">Ubuntu package</a> for Scala
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/scala">grammar</a> for Scala
- - Here is a Scala <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/scalameta/metals">implementation</a>
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/scala">package</a> for syntax highlighting Scala
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Scala
- - GitHub supports <a href="https://github.com/scala/vscode-scala-syntax" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Scala
- - Scala appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Scala: <a href="https://github.com/mattpap/IScala">github.com</a>, <a href="https://github.com/alexarchambault/jupyter-scala">github.com</a>
- - There is a <a href="https://index.scala-lang.org/">central package repository</a> for Scala
- - Indeed.com has 3,679 matches for <a href="https://www.indeed.com/jobs?q=scala engineer">"scala engineer"</a>.
- - <a href="http://www.scala-lang.org">scala-lang.org</a> was registered in 2007
- - See also: (32 related languages)<a href="jvm.html">JVM</a>, <a href="javascript.html">JavaScript</a>, <a href="llvmir.html">LLVM IR</a>, <a href="eiffel.html">Eiffel</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="java.html">Java</a>, <a href="lisp.html">Lisp</a>, <a href="pizza.html">Pizza</a>, <a href="standard-ml.html">Standard ML</a>, <a href="ocaml.html">OCaml</a>, <a href="scheme.html">Scheme</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="oz.html">Oz</a>, <a href="ceylon.html">Ceylon</a>, <a href="fantom.html">Fantom</a>, <a href="f-sharp.html">F#</a>, <a href="kotlin.html">Kotlin</a>, <a href="lasso.html">Lasso</a>, <a href="red.html">Red</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="c.html">C</a>, <a href="android.html">Android</a>, <a href="pascal.html">Pascal</a>, <a href="csharp.html">C#</a>, <a href="python.html">Python</a>, <a href="ml.html">ML</a>, <a href="csp.html">CSP</a>, <a href="groovy.html">Groovy</a>, <a href="clojure.html">Clojure</a>, <a href="php.html">PHP</a>, <a href="ruby.html">Ruby</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/scala">Improve our Scala file</a>
+- the <a href="http://www.scala-lang.org">Scala website</a>
+- the <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Scala Wikipedia page</a>
+- the <a href="https://docs.scala-lang.org/">Scala docs</a>
+- There are at least 219,084 Scala repos on <a href="https://github.com/search?q=language:Scala">GitHub</a>
+- Scala first developed in <a href="../lists/originCommunities.html#École_Polytechnique_Fédérale_de_Lausanne">École Polytechnique Fédérale de Lausanne</a>
+- PLDB estimates there are currently 5k job openings for Scala programmers.
+- file extensions for Scala include scala, sc, kojo and sbt
+- the Scala team is on <a href="https://twitter.com/scala_lang">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 21k users using Scala in 35k repos on <a href="https://api.github.com/search/repositories?q=language:Scala">GitHub</a>
+- Check out the 624 <a href="https://www.meetup.com/topics/scala/">Scala meetup groups</a> on Meetup.com.
+- There are 46,218 members in the <a href="https://reddit.com/r/scala">Scala subreddit</a>
+- There are 1,985 <a href="https://projecteuler.net/language=Scala">Project Euler</a> users using Scala
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Scala programmers reported a median salary of $77,832. 3% of respondents reported using Scala. 2,148 programmers reported using Scala, and 3,165 said they wanted to use it
+- Explore Scala snippets on <a href="http://www.rosettacode.org/wiki/Category:Scala">Rosetta Code</a>
+- Scala is listed on <a href="https://hopl.info/showlanguage.prx?exp=6814">HOPL</a>
+- Scala ranks #39 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/scala">Ubuntu package</a> for Scala
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/scala">grammar</a> for Scala
+- Here is a Scala <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/scalameta/metals">implementation</a>
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/scala">package</a> for syntax highlighting Scala
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Scala
+- GitHub supports <a href="https://github.com/scala/vscode-scala-syntax" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Scala
+- Scala appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Scala: <a href="https://github.com/mattpap/IScala">github.com</a>, <a href="https://github.com/alexarchambault/jupyter-scala">github.com</a>
+- There is a <a href="https://index.scala-lang.org/">central package repository</a> for Scala
+- Indeed.com has 3,679 matches for <a href="https://www.indeed.com/jobs?q=scala engineer">"scala engineer"</a>.
+- <a href="http://www.scala-lang.org">scala-lang.org</a> was registered in 2007
+- See also: (32 related languages)<a href="jvm.html">JVM</a>, <a href="javascript.html">JavaScript</a>, <a href="llvmir.html">LLVM IR</a>, <a href="eiffel.html">Eiffel</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="java.html">Java</a>, <a href="lisp.html">Lisp</a>, <a href="pizza.html">Pizza</a>, <a href="standard-ml.html">Standard ML</a>, <a href="ocaml.html">OCaml</a>, <a href="scheme.html">Scheme</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="oz.html">Oz</a>, <a href="ceylon.html">Ceylon</a>, <a href="fantom.html">Fantom</a>, <a href="f-sharp.html">F#</a>, <a href="kotlin.html">Kotlin</a>, <a href="lasso.html">Lasso</a>, <a href="red.html">Red</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="c.html">C</a>, <a href="android.html">Android</a>, <a href="pascal.html">Pascal</a>, <a href="csharp.html">C#</a>, <a href="python.html">Python</a>, <a href="ml.html">ML</a>, <a href="csp.html">CSP</a>, <a href="groovy.html">Groovy</a>, <a href="clojure.html">Clojure</a>, <a href="php.html">PHP</a>, <a href="ruby.html">Ruby</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/scala">Improve our Scala file</a>
 
 html
  <br>
@@ -120,14 +117,11 @@ code
  urls.par.map(fromURL(_))
  println(&quot;time: &quot; + (System.currentTimeMillis - t) + &quot;ms&quot;)
 
-
-
-subsection <a href="../lists/keywords.html?filter=scala">Keywords</a> in Scala
-paragraph
- abstract case catch class def do else extends false final finally for forSome if implicit import lazy match new null object override package private protected return sealed super this throw trait try true type val var while with yield
+## <a href="../lists/keywords.html?filter=scala">Keywords</a> in Scala
+* abstract case catch class def do else extends false final finally for forSome if implicit import lazy match new null object override package private protected return sealed super this throw trait try true type val var while with yield
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -264,10 +258,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Scala on goodreads
+## Books about Scala on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Programming in Scala|https://www.goodreads.com/search?q=Programming in Scala Martin Odersky|Martin Odersky|2008|87|1325|4.19
@@ -275,9 +267,8 @@ pipeTable
  Programming Scala|https://www.goodreads.com/search?q=Programming Scala Venkat Subramaniam|Venkat Subramaniam|2009|10|100|3.29
  Programming Scala: Scalability = Functional Programming + Objects|https://www.goodreads.com/search?q=Programming Scala: Scalability = Functional Programming + Objects Dean Wampler|Dean Wampler|2009|21|204|3.68
 
-
 foldBreak
-subsection Books about Scala from ISBNdb
+## Books about Scala from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Programming in Scala: Updated for Scala 2.12|https://isbndb.com/book/9780981531687|Odersky, Martin and Spoon, Lex and Venners, Bill|2016|Artima Press
@@ -407,9 +398,8 @@ pipeTable
  Object-Orientation, Abstraction, and Data Structures Using Scala|https://isbndb.com/book/9781498732192|Mark C. Lewis; Lisa L. Lacher|20170106|Taylor & Francis
  Introduction to the Art of Programming Using Scala|https://isbndb.com/book/9781498759687|Mark C. Lewis|20121105|Taylor & Francis
 
-
 foldBreak
-subsection Publications about Scala from Semantic Scholar
+## Publications about Scala from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Chisel: Constructing hardware in a Scala embedded language|https://www.semanticscholar.org/paper/021464b67bb87cf6132b2eb5b0c4a61f31ec2775|J. Bachrach and H. Vo and B. Richards and Yunsup Lee and Andrew Waterman and R. Avizienis and J. Wawrzynek and K. Asanović|2012|597|85
@@ -438,10 +428,5 @@ pipeTable
  Programming in Scala|https://www.semanticscholar.org/paper/c70cd8d8c27808f6118bdd1bfd1d52fa13b8a6e8|M. Guller|2015|1|0
  Programming Behavioral Test Models for SMT Solving in Scala|https://www.semanticscholar.org/paper/d5130df1d0dffd54c5eba84255ef93804324de92|B. Aichernig and Benedikt Maderbacher and Stefan Tiran|2019|1|0
  Implementation of a MIX Emulator: A Case Study of the Scala Programming Language Facilities|https://www.semanticscholar.org/paper/9d0840c9135fb1092d4ef9f0c59aaee46e371964|R. Batdalov and O. Ņikiforova|2017|1|0
-
-
-
-
-
 
 keyboardNav swift.html postgresql.html

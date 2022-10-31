@@ -1,12 +1,14 @@
 title Clojure
 
 import settings.scroll
-htmlTitle Clojure - Pl
+htmlTitle Clojure - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/clojure.pldb
 
-paragraph
- Clojure is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2007">2007</a> by <a href="../lists/creators.html#Rich_Hickey">Rich Hickey</a>.
+* Clojure is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2007 by Rich Hickey.
+ link ../lists/languages.html?filter=2007 2007
+ link ../lists/creators.html#Rich_Hickey Rich Hickey
+ 
 
 kpiTable
  #38 <span title="TotalRank: 138 Jobs: 54 Users: 45 Facts: 53 Links: 40">on PLDB</span>
@@ -16,50 +18,45 @@ kpiTable
  7 <span title="Academic publications about or leveraging Clojure">Papers</span>
  82k <span title="Clojure repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/clojure">Riju</a> · <a href="https://tio.run/#clojure">TIO</a> · <a href="https://repl.it/languages/clojure">Replit</a>
+* Try now: <a href="https://riju.codes/clojure">Riju</a> · <a href="https://tio.run/#clojure">TIO</a> · <a href="https://repl.it/languages/clojure">Replit</a>
 
 monacoEditor clojure
  (println "Hello, world!")
  
 
+* Clojure ( , like "closure") is a dialect of the Lisp programming language. Clojure is a general-purpose programming language with an emphasis on functional programming. It runs on the Java virtual machine and the Common Language Runtime. <a href="https://en.wikipedia.org/wiki/Clojure">Read more on Wikipedia...</a>
 
-
-paragraph
- Clojure ( , like "closure") is a dialect of the Lisp programming language. Clojure is a general-purpose programming language with an emphasis on functional programming. It runs on the Java virtual machine and the Common Language Runtime. <a href="https://en.wikipedia.org/wiki/Clojure">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://clojure.org">Clojure website</a>
- - the <a href="https://en.wikipedia.org/wiki/Clojure">Clojure Wikipedia page</a>
- - PLDB has 2 documentation sites for Clojure: <a href="https://clojuredocs.org/">clojuredocs.org</a>, <a href="https://clojure-doc.org/">clojure-doc.org</a>
- - There are at least 82,125 Clojure repos on <a href="https://github.com/search?q=language:Clojure">GitHub</a>
- - Clojure first developed in <a href="../lists/originCommunities.html#Cognitect,_Inc">Cognitect, Inc</a>
- - PLDB estimates there are currently 469 job openings for Clojure programmers.
- - file extensions for Clojure include clj, cljs, cljc, edn, bb, boot, cl2, cljshl, cljscm, cljx and hic
- - The  Google BigQuery Public Dataset GitHub snapshot shows 14k users using Clojure in 26k repos on <a href="https://api.github.com/search/repositories?q=language:Clojure">GitHub</a>
- - Check out the 378 <a href="https://www.meetup.com/topics/clojure/">Clojure meetup groups</a> on Meetup.com.
- - There are 29,258 members in the <a href="https://reddit.com/r/Clojure">Clojure subreddit</a>
- - There are 1,655 <a href="https://projecteuler.net/language=Clojure">Project Euler</a> users using Clojure
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Clojure programmers reported a median salary of $95,000. 2% of respondents reported using Clojure. 1,552 programmers reported using Clojure, and 2,413 said they wanted to use it
- - Explore Clojure snippets on <a href="http://www.rosettacode.org/wiki/Category:Clojure">Rosetta Code</a>
- - Clojure ranks #42 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/clojure">Ubuntu package</a> for Clojure
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/clojure">grammar</a> for Clojure
- - Here is a Clojure <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/snoe/clojure-lsp">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/clojure">package</a> for syntax highlighting Clojure
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/clojure">package</a> for syntax highlighting Clojure
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Clojure
- - GitHub supports <a href="https://github.com/atom/language-clojure" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Clojure
- - Clojure appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Clojure: <a href="https://github.com/roryk/clojupyter">github.com</a>, <a href="https://github.com/achesnais/clj-jupyter">github.com</a>
- - There is a <a href="https://clojars.org/">central package repository</a> for Clojure
- - Clojure <a href="http://web.csulb.edu/~artg/524/clojure-cheat-sheet-a4-grey.pdf">cheat sheet</a>
- - Indeed.com has 355 matches for <a href="https://www.indeed.com/jobs?q=clojure engineer">"clojure engineer"</a>.
- - <a href="https://clojure.org">clojure.org</a> was registered in 2005
- - See also: (20 related languages)<a href="jvm.html">JVM</a>, <a href="csharp.html">C#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="mathematica.html">Mathematica</a>, <a href="ml.html">ML</a>, <a href="prolog.html">Prolog</a>, <a href="scheme.html">Scheme</a>, <a href="java.html">Java</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="elixir.html">Elixir</a>, <a href="lisp.html">Lisp</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="s-expressions.html">S-expressions</a>, <a href="csp.html">CSP</a>, <a href="actionscript.html">ActionScript</a>, <a href="python.html">Python</a>, <a href="unicode.html">Unicode</a>
- - Read more about Clojure on the web: <a href="https://download.clojure.org/papers/clojure-hopl-iv-final.pdf">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/clojure">Improve our Clojure file</a>
+- the <a href="https://clojure.org">Clojure website</a>
+- the <a href="https://en.wikipedia.org/wiki/Clojure">Clojure Wikipedia page</a>
+- PLDB has 2 documentation sites for Clojure: <a href="https://clojuredocs.org/">clojuredocs.org</a>, <a href="https://clojure-doc.org/">clojure-doc.org</a>
+- There are at least 82,125 Clojure repos on <a href="https://github.com/search?q=language:Clojure">GitHub</a>
+- Clojure first developed in <a href="../lists/originCommunities.html#Cognitect,_Inc">Cognitect, Inc</a>
+- PLDB estimates there are currently 469 job openings for Clojure programmers.
+- file extensions for Clojure include clj, cljs, cljc, edn, bb, boot, cl2, cljshl, cljscm, cljx and hic
+- The  Google BigQuery Public Dataset GitHub snapshot shows 14k users using Clojure in 26k repos on <a href="https://api.github.com/search/repositories?q=language:Clojure">GitHub</a>
+- Check out the 378 <a href="https://www.meetup.com/topics/clojure/">Clojure meetup groups</a> on Meetup.com.
+- There are 29,258 members in the <a href="https://reddit.com/r/Clojure">Clojure subreddit</a>
+- There are 1,655 <a href="https://projecteuler.net/language=Clojure">Project Euler</a> users using Clojure
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Clojure programmers reported a median salary of $95,000. 2% of respondents reported using Clojure. 1,552 programmers reported using Clojure, and 2,413 said they wanted to use it
+- Explore Clojure snippets on <a href="http://www.rosettacode.org/wiki/Category:Clojure">Rosetta Code</a>
+- Clojure ranks #42 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/clojure">Ubuntu package</a> for Clojure
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/clojure">grammar</a> for Clojure
+- Here is a Clojure <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/snoe/clojure-lsp">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/clojure">package</a> for syntax highlighting Clojure
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/clojure">package</a> for syntax highlighting Clojure
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Clojure
+- GitHub supports <a href="https://github.com/atom/language-clojure" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Clojure
+- Clojure appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Clojure: <a href="https://github.com/roryk/clojupyter">github.com</a>, <a href="https://github.com/achesnais/clj-jupyter">github.com</a>
+- There is a <a href="https://clojars.org/">central package repository</a> for Clojure
+- Clojure <a href="http://web.csulb.edu/~artg/524/clojure-cheat-sheet-a4-grey.pdf">cheat sheet</a>
+- Indeed.com has 355 matches for <a href="https://www.indeed.com/jobs?q=clojure engineer">"clojure engineer"</a>.
+- <a href="https://clojure.org">clojure.org</a> was registered in 2005
+- See also: (20 related languages)<a href="jvm.html">JVM</a>, <a href="csharp.html">C#</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="mathematica.html">Mathematica</a>, <a href="ml.html">ML</a>, <a href="prolog.html">Prolog</a>, <a href="scheme.html">Scheme</a>, <a href="java.html">Java</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="elixir.html">Elixir</a>, <a href="lisp.html">Lisp</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="s-expressions.html">S-expressions</a>, <a href="csp.html">CSP</a>, <a href="actionscript.html">ActionScript</a>, <a href="python.html">Python</a>, <a href="unicode.html">Unicode</a>
+- Read more about Clojure on the web: <a href="https://download.clojure.org/papers/clojure-hopl-iv-final.pdf">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/clojure">Improve our Clojure file</a>
 
 html
  <br>
@@ -99,12 +96,8 @@ code
    [&amp; args] ; (variable) parameters
    (println &quot;Hello, World!&quot;)) ; body
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -216,10 +209,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Clojure on goodreads
+## Books about Clojure on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Programming Clojure|https://www.goodreads.com/search?q=Programming Clojure Stuart Halloway|Stuart Halloway|2009|45|559|3.82
@@ -228,9 +219,8 @@ pipeTable
  Clojure Cookbook: Recipes for Functional Programming|https://www.goodreads.com/search?q=Clojure Cookbook: Recipes for Functional Programming Luke VanderHart|Luke VanderHart|2014|5|55|3.75
  Clojure High Performance Programming|https://www.goodreads.com/search?q=Clojure High Performance Programming Shantanu Kumar|Shantanu Kumar|2013|4|19|2.84
 
-
 foldBreak
-subsection Books about Clojure from ISBNdb
+## Books about Clojure from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Clojure Reactive Programming|https://isbndb.com/book/9781783986668|Borges, Leonardo|2015|Packt Publishing
@@ -289,9 +279,8 @@ pipeTable
  Clojure 134 Success Secrets - 134 Most Asked Questions On Clojure - What You Need To Know|https://isbndb.com/book/9781488813016|Cynthia Harmon|20141030|Emereo
  Hands-On Reactive Programming with Clojure|https://isbndb.com/book/9781789341966|Konrad Szydlo; Leonardo Borges|25-01-2019|Packt Publishing
 
-
 foldBreak
-subsection Publications about Clojure from Semantic Scholar
+## Publications about Clojure from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  The Clojure programming language|https://www.semanticscholar.org/paper/d9567af818aae84bae7ec340aff4a7a664e1777a|R. Hickey|2008|187|20
@@ -301,10 +290,5 @@ pipeTable
  cljRobust - Clojure Programming API for Lego Mindstorms NXT|https://www.semanticscholar.org/paper/452889551382a4ba973482d6ac70599a1c889e02|K. Kułakowski|2010|4|0
  An open source implementation of an intuitionistic fuzzy inference system in Clojure|https://www.semanticscholar.org/paper/3a851fc47e922137f1829ca3fcce286982784a2f|Amaury Hernández-Águila and Mario García Valdez and O. Castillo and J. J. M. Guervós|2017|2|0
  Towards Static Verification of Clojure Contract-Based Programs|https://www.semanticscholar.org/paper/26132abec6e92e8df28cdea73b9b5f0411edf17d|Gheorghe Pinzaru and V. Rivera|2019|2|0
-
-
-
-
-
 
 keyboardNav prolog.html bash.html

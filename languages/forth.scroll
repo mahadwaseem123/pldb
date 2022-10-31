@@ -1,12 +1,14 @@
 title Forth
 
 import settings.scroll
-htmlTitle Forth - Pl
+htmlTitle Forth - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/forth.pldb
 
-paragraph
- Forth is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1970">1970</a> by <a href="../lists/creators.html#Charles_H._Moore">Charles H. Moore</a>.
+* Forth is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1970 by Charles H. Moore.
+ link ../lists/languages.html?filter=1970 1970
+ link ../lists/creators.html#Charles_H._Moore Charles H. Moore
+ 
 
 kpiTable
  #117 <span title="TotalRank: 349 Jobs: 101 Users: 265 Facts: 187 Links: 61">on PLDB</span>
@@ -16,37 +18,30 @@ kpiTable
  16 <span title="Academic publications about or leveraging Forth">Papers</span>
  2k <span title="Forth repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/forth">Riju</a> · <a href="https://repl.it/languages/forth">Replit</a>
+* Try now: <a href="https://riju.codes/forth">Riju</a> · <a href="https://repl.it/languages/forth">Replit</a>
 
+* Forth is an imperative stack-based computer programming language and environment originally designed by Charles "Chuck" Moore. Language features include structured programming, reflection (the ability to modify the program structure during program execution), concatenative programming (functions are composed with juxtaposition) and extensibility (the programmer can create new commands). Although not an acronym, the language's name is sometimes spelled with all capital letters as FORTH, following the customary usage during its earlier years. <a href="https://en.wikipedia.org/wiki/Forth_(programming_language)">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Forth is an imperative stack-based computer programming language and environment originally designed by Charles "Chuck" Moore. Language features include structured programming, reflection (the ability to modify the program structure during program execution), concatenative programming (functions are composed with juxtaposition) and extensibility (the programmer can create new commands). Although not an acronym, the language's name is sometimes spelled with all capital letters as FORTH, following the customary usage during its earlier years. <a href="https://en.wikipedia.org/wiki/Forth_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://en.wikipedia.org/wiki/Forth_(programming_language)">Forth Wikipedia page</a>
- - the <a href="https://www.forth.com/starting-forth/">Forth docs</a>
- - There are at least 1,537 Forth repos on <a href="https://github.com/search?q=language:Forth">GitHub</a>
- - file extensions for Forth include fth, 4th, f, for, forth, fr, frt and fs
- - The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using Forth in 2k repos on <a href="https://api.github.com/search/repositories?q=language:Forth">GitHub</a>
- - There are 63 <a href="https://projecteuler.net/language=Forth">Project Euler</a> users using Forth
- - Explore Forth snippets on <a href="http://www.rosettacode.org/wiki/Category:Forth">Rosetta Code</a>
- - Forth is listed on <a href="https://hopl.info/showlanguage.prx?exp=182">HOPL</a>
- - Forth appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/gforth">Ubuntu package</a> for Forth
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/forth">package</a> for syntax highlighting Forth
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/forth.py">syntax highlighting</a> for Forth
- - GitHub supports <a href="https://github.com/textmate/forth.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Forth
- - Forth appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Forth: <a href="https://github.com/jdfreder/iforth">github.com</a>, <a href="https://github.com/hcchengithub/peforth">github.com</a>
- - There is a <a href="https://theforth.net/">central package repository</a> for Forth
- - Indeed.com has 0 matches for <a href="https://www.indeed.com/jobs?q=forth developer">"forth developer"</a>.
- - See also: (15 related languages)<a href="lisp.html">Lisp</a>, <a href="apl.html">APL</a>, <a href="factor.html">Factor</a>, <a href="postscript.html">PostScript</a>, <a href="rpl.html">RPL</a>, <a href="rebol.html">REBOL</a>, <a href="reverse-polish-notation.html">Reverse Polish notation</a>, <a href="freebsd.html">FreeBSD</a>, <a href="c.html">C</a>, <a href="linux.html">Linux</a>, <a href="unix.html">Unix</a>, <a href="atmel-avr.html">Atmel AVR</a>, <a href="msp430.html">TI MSP430</a>, <a href="ascii.html">ASCII</a>, <a href="joy.html">Joy</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/forth">Improve our Forth file</a>
+- the <a href="https://en.wikipedia.org/wiki/Forth_(programming_language)">Forth Wikipedia page</a>
+- the <a href="https://www.forth.com/starting-forth/">Forth docs</a>
+- There are at least 1,537 Forth repos on <a href="https://github.com/search?q=language:Forth">GitHub</a>
+- file extensions for Forth include fth, 4th, f, for, forth, fr, frt and fs
+- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using Forth in 2k repos on <a href="https://api.github.com/search/repositories?q=language:Forth">GitHub</a>
+- There are 63 <a href="https://projecteuler.net/language=Forth">Project Euler</a> users using Forth
+- Explore Forth snippets on <a href="http://www.rosettacode.org/wiki/Category:Forth">Rosetta Code</a>
+- Forth is listed on <a href="https://hopl.info/showlanguage.prx?exp=182">HOPL</a>
+- Forth appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/gforth">Ubuntu package</a> for Forth
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/forth">package</a> for syntax highlighting Forth
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/forth.py">syntax highlighting</a> for Forth
+- GitHub supports <a href="https://github.com/textmate/forth.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Forth
+- Forth appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Forth: <a href="https://github.com/jdfreder/iforth">github.com</a>, <a href="https://github.com/hcchengithub/peforth">github.com</a>
+- There is a <a href="https://theforth.net/">central package repository</a> for Forth
+- Indeed.com has 0 matches for <a href="https://www.indeed.com/jobs?q=forth developer">"forth developer"</a>.
+- See also: (15 related languages)<a href="lisp.html">Lisp</a>, <a href="apl.html">APL</a>, <a href="factor.html">Factor</a>, <a href="postscript.html">PostScript</a>, <a href="rpl.html">RPL</a>, <a href="rebol.html">REBOL</a>, <a href="reverse-polish-notation.html">Reverse Polish notation</a>, <a href="freebsd.html">FreeBSD</a>, <a href="c.html">C</a>, <a href="linux.html">Linux</a>, <a href="unix.html">Unix</a>, <a href="atmel-avr.html">Atmel AVR</a>, <a href="msp430.html">TI MSP430</a>, <a href="ascii.html">ASCII</a>, <a href="joy.html">Joy</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/forth">Improve our Forth file</a>
 
 html
  <br>
@@ -84,12 +79,8 @@ code
  AKey 5 rc4_init
  2C F9 4C EE DC  5 test   \ output should be: F1 38 29 C9 DE
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -152,12 +143,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Forth from ISBNdb
+## Books about Forth from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Forth Programmer's Handbook (3rd Edition)|https://isbndb.com/book/9781419675492|Elizabeth D. Rather and Edward K. Conklin|2007|BookSurge Publishing
@@ -168,9 +155,8 @@ pipeTable
  Embedded Controller Forth For The 8051 Family|https://isbndb.com/book/9780125475709|Payne, William H.|1990|Academic Press
  Pocket Guide to Forth (Addison-Wesley Programming Pocket Guides)|https://isbndb.com/book/9780201101034|Baker, Linda and Derick, Mitch|1987|Addison Wesley Publishing Company
 
-
 foldBreak
-subsection Publications about Forth from Semantic Scholar
+## Publications about Forth from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  The evolution of Forth|https://www.semanticscholar.org/paper/1b2340b9390b6dc5cdc8c096911bc03475979076|E. D. Rather and Donald R. Colburn and C. H. Moore|1993|38|1
@@ -189,10 +175,5 @@ pipeTable
  Forth sorts fruit down under|https://www.semanticscholar.org/paper/d59a56e2664d9b1ce25d4b3e98a263395ce65805|P. Frenger|2005|2|0
  Real-time multi-task simulation in Forth|https://www.semanticscholar.org/paper/2b7027db923cc7f75683733021204e0e5361a2c7|S. Baranov|2016|2|0
  The FORTH Programming Language for Control Systems: Potential Advantages|https://www.semanticscholar.org/paper/ff662aa6d90c57a82096bec9062d649895ec9965|C. McCurdy|1987|1|0
-
-
-
-
-
 
 keyboardNav purebasic.html antlr.html

@@ -1,12 +1,14 @@
 title Nim
 
 import settings.scroll
-htmlTitle Nim - Pl
+htmlTitle Nim - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/nim.pldb
 
-paragraph
- Nim is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2008">2008</a> by <a href="../lists/creators.html#Andreas_Rumpf">Andreas Rumpf</a>.
+* Nim is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2008 by Andreas Rumpf.
+ link ../lists/languages.html?filter=2008 2008
+ link ../lists/creators.html#Andreas_Rumpf Andreas Rumpf
+ 
 
 kpiTable
  #99 <span title="TotalRank: 299 Jobs: 101 Users: 79 Facts: 137 Links: 119">on PLDB</span>
@@ -16,40 +18,33 @@ kpiTable
  0 <span title="Academic publications about or leveraging Nim">Papers</span>
  8k <span title="Nim repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/nim">Riju</a> · <a href="https://tio.run/#nim">TIO</a>
+* Try now: <a href="https://riju.codes/nim">Riju</a> · <a href="https://tio.run/#nim">TIO</a>
 
+* Nim (formerly named Nimrod) is an imperative, multi-paradigm, compiled programming language designed and developed by Andreas Rumpf. It is designed to be "efficient, expressive, and elegant", supporting metaprogramming, functional, message passing, procedural, and object-oriented programming styles by providing several features such as compile time code generation, algebraic data types, a foreign function interface (FFI) with C and compiling to JavaScript, C and C++.. <a href="https://en.wikipedia.org/wiki/Nim_(programming_language)">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Nim (formerly named Nimrod) is an imperative, multi-paradigm, compiled programming language designed and developed by Andreas Rumpf. It is designed to be "efficient, expressive, and elegant", supporting metaprogramming, functional, message passing, procedural, and object-oriented programming styles by providing several features such as compile time code generation, algebraic data types, a foreign function interface (FFI) with C and compiling to JavaScript, C and C++.. <a href="https://en.wikipedia.org/wiki/Nim_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://nim-lang.org/">Nim website</a>
- - the <a href="https://en.wikipedia.org/wiki/Nim_(programming_language)">Nim Wikipedia page</a>
- - Nim is developed on <a href="https://github.com/nim-lang/Nim">GitHub</a> and has 13,062 stars
- - the <a href="https://nim-lang.org/documentation.html">Nim docs</a>
- - There are at least 8,018 Nim repos on <a href="https://github.com/search?q=language:Nim">GitHub</a>
- - file extensions for Nim include nim, nimcfg, nimble, nimrod and nims
- - Nim compiles to <a href="c.html">C</a> or <a href="cpp.html">C++</a> or <a href="objective-c.html">Objective-C</a> or <a href="javascript.html">JavaScript</a>
- - Nim is written in <a href="nim.html">Nim</a>
- - the Nim team is on <a href="https://twitter.com/nim_lang">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 299 users using Nim in 472 repos on <a href="https://api.github.com/search/repositories?q=language:Nim">GitHub</a>
- - There are 36 <a href="https://projecteuler.net/language=Nim">Project Euler</a> users using Nim
- - Explore Nim snippets on <a href="http://www.rosettacode.org/wiki/Category:Nim">Rosetta Code</a>
- - Nim appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/nim">Ubuntu package</a> for Nim
- - Here is a Nim <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/PMunch/nimlsp">implementation</a>
- - GitHub supports <a href="https://github.com/Varriount/NimLime" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Nim
- - Nim appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is a <a href="https://nimble.directory/">central package repository</a> for Nim
- - <a href="https://nim-lang.org/">nim-lang.org</a> was registered in 2014
- - See also: (25 related languages)<a href="ada.html">Ada</a>, <a href="modula-3.html">Modula-3</a>, <a href="lisp.html">Lisp</a>, <a href="object-pascal.html">Object Pascal</a>, <a href="python.html">Python</a>, <a href="oberon.html">Oberon</a>, <a href="c.html">C</a>, <a href="javascript.html">JavaScript</a>, <a href="pascal.html">Pascal</a>, <a href="delphi.html">Delphi</a>, <a href="csharp.html">C#</a>, <a href="go.html">Go</a>, <a href="objective-c.html">Objective-C</a>, <a href="ios.html">iOS</a>, <a href="android.html">Android</a>, <a href="git.html">Git</a>, <a href="json.html">JSON</a>, <a href="opengl.html">OpenGL</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="mysql.html">MySQL</a>, <a href="sqlite.html">SQLite</a>, <a href="lua.html">Lua</a>, <a href="scala.html">Scala</a>, <a href="d.html">D</a>, <a href="rust.html">Rust</a>
- - Read more about Nim on the web: <a href="https://irclogs.nim-lang.org/01-07-2012.html">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/nim">Improve our Nim file</a>
+- the <a href="https://nim-lang.org/">Nim website</a>
+- the <a href="https://en.wikipedia.org/wiki/Nim_(programming_language)">Nim Wikipedia page</a>
+- Nim is developed on <a href="https://github.com/nim-lang/Nim">GitHub</a> and has 13,062 stars
+- the <a href="https://nim-lang.org/documentation.html">Nim docs</a>
+- There are at least 8,018 Nim repos on <a href="https://github.com/search?q=language:Nim">GitHub</a>
+- file extensions for Nim include nim, nimcfg, nimble, nimrod and nims
+- Nim compiles to <a href="c.html">C</a> or <a href="cpp.html">C++</a> or <a href="objective-c.html">Objective-C</a> or <a href="javascript.html">JavaScript</a>
+- Nim is written in <a href="nim.html">Nim</a>
+- the Nim team is on <a href="https://twitter.com/nim_lang">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 299 users using Nim in 472 repos on <a href="https://api.github.com/search/repositories?q=language:Nim">GitHub</a>
+- There are 36 <a href="https://projecteuler.net/language=Nim">Project Euler</a> users using Nim
+- Explore Nim snippets on <a href="http://www.rosettacode.org/wiki/Category:Nim">Rosetta Code</a>
+- Nim appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/nim">Ubuntu package</a> for Nim
+- Here is a Nim <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/PMunch/nimlsp">implementation</a>
+- GitHub supports <a href="https://github.com/Varriount/NimLime" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Nim
+- Nim appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is a <a href="https://nimble.directory/">central package repository</a> for Nim
+- <a href="https://nim-lang.org/">nim-lang.org</a> was registered in 2014
+- See also: (25 related languages)<a href="ada.html">Ada</a>, <a href="modula-3.html">Modula-3</a>, <a href="lisp.html">Lisp</a>, <a href="object-pascal.html">Object Pascal</a>, <a href="python.html">Python</a>, <a href="oberon.html">Oberon</a>, <a href="c.html">C</a>, <a href="javascript.html">JavaScript</a>, <a href="pascal.html">Pascal</a>, <a href="delphi.html">Delphi</a>, <a href="csharp.html">C#</a>, <a href="go.html">Go</a>, <a href="objective-c.html">Objective-C</a>, <a href="ios.html">iOS</a>, <a href="android.html">Android</a>, <a href="git.html">Git</a>, <a href="json.html">JSON</a>, <a href="opengl.html">OpenGL</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="mysql.html">MySQL</a>, <a href="sqlite.html">SQLite</a>, <a href="lua.html">Lua</a>, <a href="scala.html">Scala</a>, <a href="d.html">D</a>, <a href="rust.html">Rust</a>
+- Read more about Nim on the web: <a href="https://irclogs.nim-lang.org/01-07-2012.html">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/nim">Improve our Nim file</a>
 
 html
  <br>
@@ -106,12 +101,8 @@ code
  
  printf(&quot;%s %d\n&quot;, &quot;foo&quot;, 5)
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -194,23 +185,12 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Nim from ISBNdb
+## Books about Nim from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
   Mastering Nim |https://isbndb.com/book/979-8836539412|Rumpf, Andreas|2022|Independently published 
  Nim in Action|https://isbndb.com/book/9781617293436|Picheta, Dominik|2017|Manning Publications
  Nim in Action|https://isbndb.com/book/9781638352297|Picheta, Dominik|2017|Manning
-
-
-
-
-
-
-
 
 keyboardNav labview.html llvmir.html

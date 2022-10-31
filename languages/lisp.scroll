@@ -1,12 +1,14 @@
 title Lisp
 
 import settings.scroll
-htmlTitle Lisp - Pl
+htmlTitle Lisp - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/lisp.pldb
 
-paragraph
- Lisp is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1958">1958</a> by <a href="../lists/creators.html#John_McCarthy">John McCarthy</a>.
+* Lisp is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1958 by John McCarthy.
+ link ../lists/languages.html?filter=1958 1958
+ link ../lists/creators.html#John_McCarthy John McCarthy
+ 
 
 kpiTable
  #31 <span title="TotalRank: 104 Jobs: 59 Users: 38 Facts: 106 Links: 7">on PLDB</span>
@@ -15,32 +17,24 @@ kpiTable
  75 <span title="Books about or leveraging Lisp">Books</span>
  25 <span title="Academic publications about or leveraging Lisp">Papers</span>
 
+* Lisp (historically, LISP) is a family of computer programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Only Fortran is older, by one year. <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Read more on Wikipedia...</a>
 
-
-
-
-
-
-paragraph
- Lisp (historically, LISP) is a family of computer programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Only Fortran is older, by one year. <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp Wikipedia page</a>
- - the <a href="https://common-lisp.net/documentation">Lisp docs</a>
- - Lisp first developed in <a href="../lists/originCommunities.html#Massachusetts_Institute_of_Technology">Massachusetts Institute of Technology</a>
- - PLDB estimates there are currently 303 job openings for Lisp programmers.
- - Recurring conference about Lisp: <a href="https://www.european-lisp-symposium.org">The,European,Lisp,Symposium</a>
- - Check out the 232 <a href="https://www.meetup.com/topics/lisp/">Lisp meetup groups</a> on Meetup.com.
- - There are 34,743 members in the <a href="https://reddit.com/r/lisp">Lisp subreddit</a>
- - There are 1,372 <a href="https://projecteuler.net/language=LISP">Project Euler</a> users using Lisp
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Lisp programmers reported a median salary of $75,669. 1% of respondents reported using Lisp. 1,096 programmers reported using Lisp, and 1,513 said they wanted to use it
- - Explore Lisp snippets on <a href="http://www.rosettacode.org/wiki/Category:Lisp">Rosetta Code</a>
- - Lisp is listed on <a href="https://hopl.info/showlanguage.prx?exp=14">HOPL</a>
- - Lisp ranks #38 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - Indeed.com has 112 matches for <a href="https://www.indeed.com/jobs?q=lisp engineer">"lisp engineer"</a>.
- - See also: (64 related languages)<a href="arc.html">Arc</a>, <a href="autolisp.html">AutoLISP</a>, <a href="clojure.html">Clojure</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="emacs-lisp.html">Emacs Lisp</a>, <a href="eulisp.html">EuLisp</a>, <a href="interlisp.html">Interlisp</a>, <a href="islisp.html">ISLISP</a>, <a href="lfe.html">LFE</a>, <a href="newlisp.html">NewLisp</a>, <a href="portable-standard-lisp.html">Portable Standard Lisp</a>, <a href="racket.html">Racket</a>, <a href="rpl.html">RPL</a>, <a href="scheme.html">Scheme</a>, <a href="cadence-skill.html">Cadence SKILL</a>, <a href="spice-lisp.html">Spice Lisp</a>, <a href="t.html">T</a>, <a href="information-processing-language.html">Information Processing Language</a>, <a href="clips.html">CLIPS</a>, <a href="clu.html">CLU</a>, <a href="cowsel.html">COWSEL</a>, <a href="dylan.html">Dylan</a>, <a href="elixir.html">Elixir</a>, <a href="falcon.html">Falcon</a>, <a href="forth.html">Forth</a>, <a href="haskell.html">Haskell</a>, <a href="io.html">Io</a>, <a href="ioke.html">Ioke</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="logo.html">Logo</a>, <a href="lua.html">Lua</a>, <a href="ml.html">ML</a>, <a href="nim.html">Nim</a>, <a href="nu.html">Nu</a>, <a href="ops5.html">OPS5</a>, <a href="perl.html">Perl</a>, <a href="pop-2.html">POP-2</a>, <a href="pop-11.html">Pop-11</a>, <a href="python.html">Python</a>, <a href="r.html">R</a>, <a href="ruby.html">Ruby</a>, <a href="scala.html">Scala</a>, <a href="swift.html">Swift</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="tcl.html">Tcl</a>, <a href="wolfram.html">Wolfram Language</a>, <a href="fortran.html">Fortran</a>, <a href="s-expressions.html">S-expressions</a>, <a href="lisp-machine-lisp.html">Lisp Machine Lisp</a>, <a href="openlisp.html">OpenLisp</a>, <a href="picolisp.html">PicoLisp</a>, <a href="lisp-2.html">LISP 2</a>, <a href="multics.html">Multics</a>, <a href="acl2.html">ACL2</a>, <a href="jvm.html">JVM</a>, <a href="yarv.html">YARV</a>, <a href="emacs-editor.html">Emacs</a>, <a href="autocad-app.html">AUTOCAD</a>, <a href="lilypond.html">LilyPond</a>, <a href="algol.html">Algol</a>, <a href="flavors.html">Flavors</a>, <a href="c.html">C</a>, <a href="xml.html">XML</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/lisp">Improve our Lisp file</a>
+- the <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp Wikipedia page</a>
+- the <a href="https://common-lisp.net/documentation">Lisp docs</a>
+- Lisp first developed in <a href="../lists/originCommunities.html#Massachusetts_Institute_of_Technology">Massachusetts Institute of Technology</a>
+- PLDB estimates there are currently 303 job openings for Lisp programmers.
+- Recurring conference about Lisp: <a href="https://www.european-lisp-symposium.org">The,European,Lisp,Symposium</a>
+- Check out the 232 <a href="https://www.meetup.com/topics/lisp/">Lisp meetup groups</a> on Meetup.com.
+- There are 34,743 members in the <a href="https://reddit.com/r/lisp">Lisp subreddit</a>
+- There are 1,372 <a href="https://projecteuler.net/language=LISP">Project Euler</a> users using Lisp
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Lisp programmers reported a median salary of $75,669. 1% of respondents reported using Lisp. 1,096 programmers reported using Lisp, and 1,513 said they wanted to use it
+- Explore Lisp snippets on <a href="http://www.rosettacode.org/wiki/Category:Lisp">Rosetta Code</a>
+- Lisp is listed on <a href="https://hopl.info/showlanguage.prx?exp=14">HOPL</a>
+- Lisp ranks #38 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- Indeed.com has 112 matches for <a href="https://www.indeed.com/jobs?q=lisp engineer">"lisp engineer"</a>.
+- See also: (64 related languages)<a href="arc.html">Arc</a>, <a href="autolisp.html">AutoLISP</a>, <a href="clojure.html">Clojure</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="emacs-lisp.html">Emacs Lisp</a>, <a href="eulisp.html">EuLisp</a>, <a href="interlisp.html">Interlisp</a>, <a href="islisp.html">ISLISP</a>, <a href="lfe.html">LFE</a>, <a href="newlisp.html">NewLisp</a>, <a href="portable-standard-lisp.html">Portable Standard Lisp</a>, <a href="racket.html">Racket</a>, <a href="rpl.html">RPL</a>, <a href="scheme.html">Scheme</a>, <a href="cadence-skill.html">Cadence SKILL</a>, <a href="spice-lisp.html">Spice Lisp</a>, <a href="t.html">T</a>, <a href="information-processing-language.html">Information Processing Language</a>, <a href="clips.html">CLIPS</a>, <a href="clu.html">CLU</a>, <a href="cowsel.html">COWSEL</a>, <a href="dylan.html">Dylan</a>, <a href="elixir.html">Elixir</a>, <a href="falcon.html">Falcon</a>, <a href="forth.html">Forth</a>, <a href="haskell.html">Haskell</a>, <a href="io.html">Io</a>, <a href="ioke.html">Ioke</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="logo.html">Logo</a>, <a href="lua.html">Lua</a>, <a href="ml.html">ML</a>, <a href="nim.html">Nim</a>, <a href="nu.html">Nu</a>, <a href="ops5.html">OPS5</a>, <a href="perl.html">Perl</a>, <a href="pop-2.html">POP-2</a>, <a href="pop-11.html">Pop-11</a>, <a href="python.html">Python</a>, <a href="r.html">R</a>, <a href="ruby.html">Ruby</a>, <a href="scala.html">Scala</a>, <a href="swift.html">Swift</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="tcl.html">Tcl</a>, <a href="wolfram.html">Wolfram Language</a>, <a href="fortran.html">Fortran</a>, <a href="s-expressions.html">S-expressions</a>, <a href="lisp-machine-lisp.html">Lisp Machine Lisp</a>, <a href="openlisp.html">OpenLisp</a>, <a href="picolisp.html">PicoLisp</a>, <a href="lisp-2.html">LISP 2</a>, <a href="multics.html">Multics</a>, <a href="acl2.html">ACL2</a>, <a href="jvm.html">JVM</a>, <a href="yarv.html">YARV</a>, <a href="emacs-editor.html">Emacs</a>, <a href="autocad-app.html">AUTOCAD</a>, <a href="lilypond.html">LilyPond</a>, <a href="algol.html">Algol</a>, <a href="flavors.html">Flavors</a>, <a href="c.html">C</a>, <a href="xml.html">XML</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/lisp">Improve our Lisp file</a>
 
 html
  <br>
@@ -62,12 +56,8 @@ code
      (dolist (e list) (push e return-value))
      return-value))
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -89,10 +79,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Lisp on goodreads
+## Books about Lisp on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Common LISP: The Language|https://www.goodreads.com/search?q=Common LISP: The Language Guy L. Steele Jr.|Guy L. Steele Jr.|1984|3|78|4.28
@@ -102,9 +90,8 @@ pipeTable
  LISP 1.5 Programmer's Manual|https://www.goodreads.com/search?q=LISP 1.5 Programmer's Manual John McCarthy|John McCarthy|1962|2|28|4.43
  Lisp, Lore, and Logic: An Algebraic View of LISP Programming, Foundations, and Applications|https://www.goodreads.com/search?q=Lisp, Lore, and Logic: An Algebraic View of LISP Programming, Foundations, and Applications W. Richard Stark|W. Richard Stark|1990|0|4|3.50
 
-
 foldBreak
-subsection Books about Lisp from ISBNdb
+## Books about Lisp from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  ANSI Common LISP|https://isbndb.com/book/9780133708752|Graham, Paul|1995|Pearson
@@ -177,9 +164,8 @@ pipeTable
  Proceedings of the 1988 ACM Conference on Lisp and Functional Programming|https://isbndb.com/book/9780897912730|the Association for Computing Machinery and SIGPLAN and SIGACT and SIGART||New York, N.Y. : ACM Press, c1988.
  Vlisp A Verified Implementation Of Scheme: A Special Issue Of Lisp And Symbolic Computation, An International Journal Vol. 8, Nos. 1 & 2 March 1995|https://isbndb.com/book/9780792395669|Guttman, Joshua D. and Wand, Mitchell.|1995|Springer
 
-
 foldBreak
-subsection Publications about Lisp from Semantic Scholar
+## Publications about Lisp from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Prolog - the language and its implementation compared with Lisp|https://www.semanticscholar.org/paper/57f796c1bb843b65ba45c42aa00c1068c529eae0|D. Warren and L. Pereira and Fernando C Pereira|1977|157|6
@@ -207,10 +193,5 @@ pipeTable
  Programming in Lisp|https://www.semanticscholar.org/paper/59b941c01b3b90799f25915750195e2002a7c092|L. Tierney|2008|2|0
  LISP, Lore, and Logic: An Algebraic View of LISP Programming, Foundations, and Applications|https://www.semanticscholar.org/paper/519c91b4125277c48fe6108cea5c73fc9e4fcd8f|W. R. Stark|1990|2|0
  An Algorithm for Translating Lisp Programs into Reduction Language Programs|https://www.semanticscholar.org/paper/4b4930dac0835b0b396274c1ac1321560b807845|Alexis Koster|1980|1|0
-
-
-
-
-
 
 keyboardNav haskell.html lua.html

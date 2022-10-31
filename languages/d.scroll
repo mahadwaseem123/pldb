@@ -1,12 +1,15 @@
 title D
 
 import settings.scroll
-htmlTitle D - Pl
+htmlTitle D - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/d.pldb
 
-paragraph
- D is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2001">2001</a> by <a href="../lists/creators.html#Walter_Bright">Walter Bright</a> and <a href="../lists/creators.html#Andrei_Alexandrescu">Andrei Alexandrescu</a>.
+* D is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2001 by Walter Bright and Andrei Alexandrescu.
+ link ../lists/languages.html?filter=2001 2001
+ link ../lists/creators.html#Walter_Bright Walter Bright
+ link ../lists/creators.html#Andrei_Alexandrescu Andrei Alexandrescu
+ 
 
 kpiTable
  #83 <span title="TotalRank: 269 Jobs: 101 Users: 154 Facts: 114 Links: 54">on PLDB</span>
@@ -16,42 +19,35 @@ kpiTable
  4 <span title="Academic publications about or leveraging D">Papers</span>
  13k <span title="D repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/d">Riju</a> · <a href="https://tio.run/#d">TIO</a>
+* Try now: <a href="https://riju.codes/d">Riju</a> · <a href="https://tio.run/#d">TIO</a>
 
+* The D programming language is an object-oriented, imperative, multi-paradigm system programming language created by Walter Bright of Digital Mars and released in 2001. Bright was joined in the design and development effort in 2007 by Andrei Alexandrescu. Though it originated as a re-engineering of C++, D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably Java, Python, Ruby, C#, and Eiffel. <a href="https://en.wikipedia.org/wiki/D_(programming_language)">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- The D programming language is an object-oriented, imperative, multi-paradigm system programming language created by Walter Bright of Digital Mars and released in 2001. Bright was joined in the design and development effort in 2007 by Andrei Alexandrescu. Though it originated as a re-engineering of C++, D is a distinct language, having redesigned some core C++ features while also taking inspiration from other languages, notably Java, Python, Ruby, C#, and Eiffel. <a href="https://en.wikipedia.org/wiki/D_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://dlang.org">D website</a>
- - the <a href="https://en.wikipedia.org/wiki/D_(programming_language)">D Wikipedia page</a>
- - the <a href="https://dlang.org/documentation.html">D docs</a>
- - There are at least 13,224 D repos on <a href="https://github.com/search?q=language:D">GitHub</a>
- - D first developed in <a href="../lists/originCommunities.html#Digital_Mars">Digital Mars</a>
- - file extensions for D include d and di
- - the D team is on <a href="https://twitter.com/d_programming">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 6k users using D in 7k repos on <a href="https://api.github.com/search/repositories?q=language:D">GitHub</a>
- - Check out the 7 <a href="https://www.meetup.com/topics/dpl/">D meetup groups</a> on Meetup.com.
- - There are 243 <a href="https://projecteuler.net/language=D">Project Euler</a> users using D
- - Explore D snippets on <a href="http://www.rosettacode.org/wiki/Category:D">Rosetta Code</a>
- - D is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
- - D is listed on <a href="https://hopl.info/showlanguage.prx?exp=3173">HOPL</a>
- - D ranks #26 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/gdc">Ubuntu package</a> for D
- - Here is a D <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/d-language-server/dls">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/d">package</a> for syntax highlighting D
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/d.py">syntax highlighting</a> for D
- - GitHub supports <a href="https://github.com/textmate/d.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for D
- - D appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is a <a href="https://code.dlang.org/">central package repository</a> for D
- - <a href="https://dlang.org">dlang.org</a> was registered in 2010
- - See also: (23 related languages)<a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="c.html">C</a>, <a href="csharp.html">C#</a>, <a href="eiffel.html">Eiffel</a>, <a href="java.html">Java</a>, <a href="python.html">Python</a>, <a href="minid.html">MiniD</a>, <a href="vala.html">Vala</a>, <a href="swift.html">Swift</a>, <a href="genie.html">Genie</a>, <a href="ruby.html">Ruby</a>, <a href="assembly-language.html">Assembly language</a>, <a href="llvmir.html">LLVM IR</a>, <a href="cil.html">CIL</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="emacs-editor.html">Emacs</a>, <a href="vim-editor.html">Vim</a>, <a href="textmate-editor.html">TextMate</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="gdb.html">GDB</a>, <a href="utf-8.html">UTF-8</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/d">Improve our D file</a>
+- the <a href="https://dlang.org">D website</a>
+- the <a href="https://en.wikipedia.org/wiki/D_(programming_language)">D Wikipedia page</a>
+- the <a href="https://dlang.org/documentation.html">D docs</a>
+- There are at least 13,224 D repos on <a href="https://github.com/search?q=language:D">GitHub</a>
+- D first developed in <a href="../lists/originCommunities.html#Digital_Mars">Digital Mars</a>
+- file extensions for D include d and di
+- the D team is on <a href="https://twitter.com/d_programming">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 6k users using D in 7k repos on <a href="https://api.github.com/search/repositories?q=language:D">GitHub</a>
+- Check out the 7 <a href="https://www.meetup.com/topics/dpl/">D meetup groups</a> on Meetup.com.
+- There are 243 <a href="https://projecteuler.net/language=D">Project Euler</a> users using D
+- Explore D snippets on <a href="http://www.rosettacode.org/wiki/Category:D">Rosetta Code</a>
+- D is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
+- D is listed on <a href="https://hopl.info/showlanguage.prx?exp=3173">HOPL</a>
+- D ranks #26 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/gdc">Ubuntu package</a> for D
+- Here is a D <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/d-language-server/dls">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/d">package</a> for syntax highlighting D
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/d.py">syntax highlighting</a> for D
+- GitHub supports <a href="https://github.com/textmate/d.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for D
+- D appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is a <a href="https://code.dlang.org/">central package repository</a> for D
+- <a href="https://dlang.org">dlang.org</a> was registered in 2010
+- See also: (23 related languages)<a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="c.html">C</a>, <a href="csharp.html">C#</a>, <a href="eiffel.html">Eiffel</a>, <a href="java.html">Java</a>, <a href="python.html">Python</a>, <a href="minid.html">MiniD</a>, <a href="vala.html">Vala</a>, <a href="swift.html">Swift</a>, <a href="genie.html">Genie</a>, <a href="ruby.html">Ruby</a>, <a href="assembly-language.html">Assembly language</a>, <a href="llvmir.html">LLVM IR</a>, <a href="cil.html">CIL</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="emacs-editor.html">Emacs</a>, <a href="vim-editor.html">Vim</a>, <a href="textmate-editor.html">TextMate</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="gdb.html">GDB</a>, <a href="utf-8.html">UTF-8</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/d">Improve our D file</a>
 
 html
  <br>
@@ -113,12 +109,8 @@ code
  16             writefln(words.join(&quot; &quot;));
  17 }
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -224,30 +216,20 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about D from ISBNdb
+## Books about D from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  The D Programming Language|https://isbndb.com/book/9780321635365|Alexandrescu, Andrei|2010|Addison-Wesley Professional
  D Cookbook|https://isbndb.com/book/9781783287215|Ruppe, Adam D.|2014|Packt Publishing
 
-
 foldBreak
-subsection Publications about D from Semantic Scholar
+## Publications about D from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Implementation of a Compressible-Flow Simulation Code in the D Programming Language|https://www.semanticscholar.org/paper/4a2307395444e248678c23e1fec141fc94adf8e7|P. Jacobs and R. Gollan|2016|32|1
  Incorporation Of A 3 D Interactive Graphics Programming Language Into An Introductory Engineering Course|https://www.semanticscholar.org/paper/373be4fc8edbef8d94f798f1421f3220a7d1b906|J. Snook and V. Lohani and J. Lo and Kishore Sirvole and Jennifer Mullins and J. Kaeli and H. Griffin|2005|11|0
  Origins of the D programming language|https://www.semanticscholar.org/paper/fe48fe677461e2e7c9ff850ab12123ef684715d3|W. Bright and Andrei Alexandrescu and M. Parker|2020|6|1
  Parallelizing power system contingency analysis using D programming language|https://www.semanticscholar.org/paper/785686884b47bed2f4bb0574477b46ef204752fc|S. Khaitan and J. McCalley|2013|5|0
-
-
-
-
-
 
 keyboardNav sagemath.html racket.html

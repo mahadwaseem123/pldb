@@ -1,12 +1,14 @@
 title Kotlin
 
 import settings.scroll
-htmlTitle Kotlin - Pl
+htmlTitle Kotlin - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/kotlin.pldb
 
-paragraph
- Kotlin is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2011">2011</a> by <a href="../lists/creators.html#Andrey_Breslav">Andrey Breslav</a>.
+* Kotlin is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2011 by Andrey Breslav.
+ link ../lists/languages.html?filter=2011 2011
+ link ../lists/creators.html#Andrey_Breslav Andrey Breslav
+ 
 
 kpiTable
  #27 <span title="TotalRank: 85 Jobs: 27 Users: 35 Facts: 23 Links: 119">on PLDB</span>
@@ -16,47 +18,42 @@ kpiTable
  16 <span title="Academic publications about or leveraging Kotlin">Papers</span>
  901k <span title="Kotlin repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/kotlin">Riju</a> · <a href="https://tio.run/#kotlin">TIO</a> · <a href="https://repl.it/languages/kotlin">Replit</a>
+* Try now: <a href="https://riju.codes/kotlin">Riju</a> · <a href="https://tio.run/#kotlin">TIO</a> · <a href="https://repl.it/languages/kotlin">Replit</a>
 
 monacoEditor kotlin
  // Type your code here, or load an example.
  fun square(num: Int): Int = num * num
  
 
+* Kotlin is a statically-typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia. While the syntax is not compatible with Java, Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework. <a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Kotlin is a statically-typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia. While the syntax is not compatible with Java, Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework. <a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://kotlinlang.org">Kotlin website</a>
- - the <a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Kotlin Wikipedia page</a>
- - PLDB has 2 documentation sites for Kotlin: <a href="https://kotlinlang.org/docs/home.html">kotlinlang.org</a>, <a href="https://devdocs.io/kotlin/">devdocs.io</a>
- - There are at least 901,474 Kotlin repos on <a href="https://github.com/search?q=language:Kotlin">GitHub</a>
- - Kotlin first developed in <a href="../lists/originCommunities.html#JetBrains">JetBrains</a>
- - PLDB estimates there are currently 5k job openings for Kotlin programmers.
- - file extensions for Kotlin include kt, kts and ktm
- - the Kotlin team is on <a href="https://twitter.com/kotlin">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 6k users using Kotlin in 8k repos on <a href="https://api.github.com/search/repositories?q=language:Kotlin">GitHub</a>
- - Check out the 138 <a href="https://www.meetup.com/topics/kotlin/">Kotlin meetup groups</a> on Meetup.com.
- - There are 61,654 members in the <a href="https://reddit.com/r/Kotlin">Kotlin subreddit</a>
- - There are 275 <a href="https://projecteuler.net/language=Kotlin">Project Euler</a> users using Kotlin
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Kotlin programmers reported a median salary of $55,071. 8% of respondents reported using Kotlin. 6,866 programmers reported using Kotlin, and 10,691 said they wanted to use it
- - Explore Kotlin snippets on <a href="http://www.rosettacode.org/wiki/Category:Kotlin">Rosetta Code</a>
- - Kotlin ranks #48 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/kotlin">grammar</a> for Kotlin
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/kotlin">package</a> for syntax highlighting Kotlin
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Kotlin
- - GitHub supports <a href="https://github.com/nishtahir/language-kotlin" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Kotlin
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/ligee/kotlin-jupyter">Kernel</a> for Kotlin
- - Kotlin <a href="https://www.ekito.fr/people/wp-content/uploads/2016/11/Kotlin-Cheat-Sheet-by-ekito-1.2.pdf">cheat sheet</a>
- - Indeed.com has 5,276 matches for <a href="https://www.indeed.com/jobs?q=kotlin developer">"kotlin developer"</a>.
- - <a href="https://kotlinlang.org">kotlinlang.org</a> was registered in 2013
- - See also: (16 related languages)<a href="jvm.html">JVM</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="javascript.html">JavaScript</a>, <a href="java.html">Java</a>, <a href="scala.html">Scala</a>, <a href="groovy.html">Groovy</a>, <a href="csharp.html">C#</a>, <a href="gosu.html">Gosu</a>, <a href="swift.html">Swift</a>, <a href="llvmir.html">LLVM IR</a>, <a href="android.html">Android</a>, <a href="pascal.html">Pascal</a>, <a href="perl.html">Perl</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="emacs-editor.html">Emacs</a>
- - Read more about Kotlin on the web: <a href="https://steve-yegge.blogspot.co.nz/2017/05/why-kotlin-is-better-than-whatever-dumb.html">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/kotlin">Improve our Kotlin file</a>
+- the <a href="https://kotlinlang.org">Kotlin website</a>
+- the <a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Kotlin Wikipedia page</a>
+- PLDB has 2 documentation sites for Kotlin: <a href="https://kotlinlang.org/docs/home.html">kotlinlang.org</a>, <a href="https://devdocs.io/kotlin/">devdocs.io</a>
+- There are at least 901,474 Kotlin repos on <a href="https://github.com/search?q=language:Kotlin">GitHub</a>
+- Kotlin first developed in <a href="../lists/originCommunities.html#JetBrains">JetBrains</a>
+- PLDB estimates there are currently 5k job openings for Kotlin programmers.
+- file extensions for Kotlin include kt, kts and ktm
+- the Kotlin team is on <a href="https://twitter.com/kotlin">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 6k users using Kotlin in 8k repos on <a href="https://api.github.com/search/repositories?q=language:Kotlin">GitHub</a>
+- Check out the 138 <a href="https://www.meetup.com/topics/kotlin/">Kotlin meetup groups</a> on Meetup.com.
+- There are 61,654 members in the <a href="https://reddit.com/r/Kotlin">Kotlin subreddit</a>
+- There are 275 <a href="https://projecteuler.net/language=Kotlin">Project Euler</a> users using Kotlin
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Kotlin programmers reported a median salary of $55,071. 8% of respondents reported using Kotlin. 6,866 programmers reported using Kotlin, and 10,691 said they wanted to use it
+- Explore Kotlin snippets on <a href="http://www.rosettacode.org/wiki/Category:Kotlin">Rosetta Code</a>
+- Kotlin ranks #48 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/kotlin">grammar</a> for Kotlin
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/kotlin">package</a> for syntax highlighting Kotlin
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Kotlin
+- GitHub supports <a href="https://github.com/nishtahir/language-kotlin" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Kotlin
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/ligee/kotlin-jupyter">Kernel</a> for Kotlin
+- Kotlin <a href="https://www.ekito.fr/people/wp-content/uploads/2016/11/Kotlin-Cheat-Sheet-by-ekito-1.2.pdf">cheat sheet</a>
+- Indeed.com has 5,276 matches for <a href="https://www.indeed.com/jobs?q=kotlin developer">"kotlin developer"</a>.
+- <a href="https://kotlinlang.org">kotlinlang.org</a> was registered in 2013
+- See also: (16 related languages)<a href="jvm.html">JVM</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="javascript.html">JavaScript</a>, <a href="java.html">Java</a>, <a href="scala.html">Scala</a>, <a href="groovy.html">Groovy</a>, <a href="csharp.html">C#</a>, <a href="gosu.html">Gosu</a>, <a href="swift.html">Swift</a>, <a href="llvmir.html">LLVM IR</a>, <a href="android.html">Android</a>, <a href="pascal.html">Pascal</a>, <a href="perl.html">Perl</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="emacs-editor.html">Emacs</a>
+- Read more about Kotlin on the web: <a href="https://steve-yegge.blogspot.co.nz/2017/05/why-kotlin-is-better-than-whatever-dumb.html">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/kotlin">Improve our Kotlin file</a>
 
 html
  <br>
@@ -146,14 +143,11 @@ code
    // vice versa, return value is non-null if and only if foo(), bar() and baz() are non-null
    foo()?.bar()?.baz()
 
-
-
-subsection <a href="../lists/keywords.html?filter=kotlin">Keywords</a> in Kotlin
-paragraph
- as as? break class continue do else false for fun if in !in interface is !is null object package return super this throw true try typealias val var when while by catch constructor delegate dynamic field file finally get import init param property receiver set setparam where actual abstract annotation companion const crossinline data enum expect external final infix inline inner internal lateinit noinline open operator out override private protected public reified sealed suspend tailrec vararg field it + - * / % * = += -= *= /= %= ++ -- && || ! == != === !== < > <= >= [ ] !! ?. ?: :: .. : ? ->; @ ; $ _
+## <a href="../lists/keywords.html?filter=kotlin">Keywords</a> in Kotlin
+* as as? break class continue do else false for fun if in !in interface is !is null object package return super this throw true try typealias val var when while by catch constructor delegate dynamic field file finally get import init param property receiver set setparam where actual abstract annotation companion const crossinline data enum expect external final infix inline inner internal lateinit noinline open operator out override private protected public reified sealed suspend tailrec vararg field it + - * / % * = += -= *= /= %= ++ -- && || ! == != === !== < > <= >= [ ] !! ?. ?: :: .. : ? ->; @ ; $ _
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -280,10 +274,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Kotlin on goodreads
+## Books about Kotlin on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Kotlin for Android Developers: Learn Kotlin the easy way while developing an Android App|https://www.goodreads.com/search?q=Kotlin for Android Developers: Learn Kotlin the easy way while developing an Android App Antonio Leiva|Antonio Leiva||17|117|3.81
@@ -293,9 +285,8 @@ pipeTable
  Programming Kotlin|https://www.goodreads.com/search?q=Programming Kotlin Venkat Subramaniam|Venkat Subramaniam||0|1|5.00
  Kotlin Programming: The Big Nerd Ranch Guide|https://www.goodreads.com/search?q=Kotlin Programming: The Big Nerd Ranch Guide Matthew Mathias|Matthew Mathias||0|0|0.0
 
-
 foldBreak
-subsection Books about Kotlin from ISBNdb
+## Books about Kotlin from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Reactive Programming with Kotlin (First Edition): Learn Rx with RxJava, RxKotlin, and RXAndroid|https://isbndb.com/book/9781942878797|Tutorial Team, raywenderlich and Sullivan, Alex|2019|Razeware LLC
@@ -392,9 +383,8 @@ pipeTable
  Cracking Kotlin Interview: Solutions to Your Basic to Advanced Programming Questions|https://isbndb.com/book/9789389845266|Swati Saxena|04/2020|BPB Publications
  Kotlin In-depth [Vol-II]: A comprehensive guide to modern multi-paradigm language|https://isbndb.com/book/9789389423228|Aleksei Sedunov|03/2020|BPB Publications
 
-
 foldBreak
-subsection Publications about Kotlin from Semantic Scholar
+## Publications about Kotlin from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  An empirical study on quality of Android applications written in Kotlin language|https://www.semanticscholar.org/paper/3b5a5ef67d8a888fa8dd00ab532ed2a8a80fbc49|Bruno Góis Mateus and Matias Martinez|2018|26|5
@@ -413,10 +403,5 @@ pipeTable
  Kotlin coroutines: design and implementation|https://www.semanticscholar.org/paper/0113bac81892215e87a7fd47f89fa30dadabc9e8|Roman Elizarov and Mikhail A. Belyaev and M. Akhin and Ilmir Usmanov|2021|1|0
  Why did developers migrate Android Applications from Java to Kotlin|https://www.semanticscholar.org/paper/a1c938db94cfd9b971081b8a7cc0ef677ba8b12d|Matias Martinez and B. Mateus|2020|1|0
  Type-Centric Kotlin Compiler Fuzzing: Preserving Test Program Correctness by Preserving Types|https://www.semanticscholar.org/paper/854efa7220f72835a789b2826eaaa4e4ec3b3c95|Daniil Stepanov and M. Akhin and Mikhail A. Belyaev|2020|1|0
-
-
-
-
-
 
 keyboardNav rust.html pascal.html

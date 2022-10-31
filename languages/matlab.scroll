@@ -1,12 +1,14 @@
 title MATLAB
 
 import settings.scroll
-htmlTitle MATLAB - Pl
+htmlTitle MATLAB - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/matlab.pldb
 
-paragraph
- MATLAB is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1984">1984</a> by <a href="../lists/creators.html#Cleve_Moler">Cleve Moler</a>.
+* MATLAB is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1984 by Cleve Moler.
+ link ../lists/languages.html?filter=1984 1984
+ link ../lists/creators.html#Cleve_Moler Cleve Moler
+ 
 
 kpiTable
  #11 <span title="TotalRank: 36 Jobs: 11 Users: 8 Facts: 17 Links: 37">on PLDB</span>
@@ -16,40 +18,32 @@ kpiTable
  35 <span title="Academic publications about or leveraging MATLAB">Papers</span>
  312k <span title="MATLAB repos on GitHub.">Repos</span>
 
+* MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python. Although MATLAB is intended primarily for numerical computing, an optional toolbox uses the MuPAD symbolic engine, allowing access to symbolic computing abilities. <a href="https://en.wikipedia.org/wiki/MATLAB">Read more on Wikipedia...</a>
 
-
-
-
-
-
-paragraph
- MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python. Although MATLAB is intended primarily for numerical computing, an optional toolbox uses the MuPAD symbolic engine, allowing access to symbolic computing abilities. <a href="https://en.wikipedia.org/wiki/MATLAB">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://mathworks.com/products/matlab">MATLAB website</a>
- - the <a href="https://en.wikipedia.org/wiki/MATLAB">MATLAB Wikipedia page</a>
- - the <a href="https://www.mathworks.com/help/matlab/">MATLAB docs</a>
- - There are at least 311,901 MATLAB repos on <a href="https://github.com/search?q=language:Matlab">GitHub</a>
- - MATLAB first developed in <a href="../lists/originCommunities.html#University_of_New_Mexico">University of New Mexico</a>
- - PLDB estimates there are currently 32k job openings for MATLAB programmers.
- - file extensions for MATLAB include matlab and m
- - the MATLAB team is on <a href="https://twitter.com/matlab">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using MATLAB in 3k repos on <a href="https://api.github.com/search/repositories?q=language:MATLAB">GitHub</a>
- - Check out the 25 <a href="https://www.meetup.com/topics/matlab/">MATLAB meetup groups</a> on Meetup.com.
- - There are 46,296 members in the <a href="https://reddit.com/r/matlab">MATLAB subreddit</a>
- - There are 3,252 <a href="https://projecteuler.net/language=Matlab">Project Euler</a> users using MATLAB
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> MATLAB programmers reported a median salary of $43,948. 5% of respondents reported using MATLAB. 3,846 programmers reported using MATLAB, and 1,562 said they wanted to use it
- - Explore MATLAB snippets on <a href="http://www.rosettacode.org/wiki/Category:MATLAB">Rosetta Code</a>
- - MATLAB is listed on <a href="https://hopl.info/showlanguage.prx?exp=2216">HOPL</a>
- - MATLAB ranks #12 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/matlab.py">syntax highlighting</a> for MATLAB
- - GitHub supports <a href="https://github.com/mathworks/MATLAB-Language-grammar" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for MATLAB
- - PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for MATLAB: <a href="https://github.com/imatlab/imatlab">github.com</a>, <a href="https://github.com/calysto/matlab_kernel">github.com</a>
- - There is a <a href="https://www.mathworks.com/matlabcentral/fileexchange/">central package repository</a> for MATLAB
- - Indeed.com has 6,204 matches for <a href="https://www.indeed.com/jobs?q=matlab engineer">"matlab engineer"</a>.
- - See also: (40 related languages)<a href="mathlab.html">MATHLAB</a>, <a href="c.html">C</a>, <a href="java.html">Java</a>, <a href="linux.html">Linux</a>, <a href="ia-32.html">IA-32</a>, <a href="apl.html">APL</a>, <a href="pl-0.html">PL/0</a>, <a href="speakeasy.html">Speakeasy</a>, <a href="julia.html">Julia</a>, <a href="octave.html">GNU Octave</a>, <a href="scilab.html">Scilab</a>, <a href="csharp.html">C#</a>, <a href="fortran.html">Fortran</a>, <a href="python.html">Python</a>, <a href="mupad.html">muPad</a>, <a href="simulink.html">Simulink</a>, <a href="r.html">R</a>, <a href="perl.html">Perl</a>, <a href="xml.html">XML</a>, <a href="sql.html">SQL</a>, <a href="maple.html">Maple</a>, <a href="mathematica.html">Mathematica</a>, <a href="idl.html">IDL</a>, <a href="sagemath.html">Sage</a>, <a href="s.html">S</a>, <a href="perl-data-language.html">Perl Data Language</a>, <a href="numpy.html">NumPy</a>, <a href="scipy.html">SciPy</a>, <a href="matplotlib.html">Matplotlib</a>, <a href="lua.html">Lua</a>, <a href="ruby.html">Ruby</a>, <a href="javascript.html">JavaScript</a>, <a href="jvm.html">JVM</a>, <a href="hdf.html">Hierarchical Data Format</a>, <a href="powerpc.html">PowerPC</a>, <a href="solaris.html">Solaris</a>, <a href="sparc.html">SPARC</a>, <a href="subversion.html">Subversion</a>, <a href="json.html">JSON</a>, <a href="isbn.html">ISBN</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/matlab">Improve our MATLAB file</a>
+- the <a href="http://mathworks.com/products/matlab">MATLAB website</a>
+- the <a href="https://en.wikipedia.org/wiki/MATLAB">MATLAB Wikipedia page</a>
+- the <a href="https://www.mathworks.com/help/matlab/">MATLAB docs</a>
+- There are at least 311,901 MATLAB repos on <a href="https://github.com/search?q=language:Matlab">GitHub</a>
+- MATLAB first developed in <a href="../lists/originCommunities.html#University_of_New_Mexico">University of New Mexico</a>
+- PLDB estimates there are currently 32k job openings for MATLAB programmers.
+- file extensions for MATLAB include matlab and m
+- the MATLAB team is on <a href="https://twitter.com/matlab">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using MATLAB in 3k repos on <a href="https://api.github.com/search/repositories?q=language:MATLAB">GitHub</a>
+- Check out the 25 <a href="https://www.meetup.com/topics/matlab/">MATLAB meetup groups</a> on Meetup.com.
+- There are 46,296 members in the <a href="https://reddit.com/r/matlab">MATLAB subreddit</a>
+- There are 3,252 <a href="https://projecteuler.net/language=Matlab">Project Euler</a> users using MATLAB
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> MATLAB programmers reported a median salary of $43,948. 5% of respondents reported using MATLAB. 3,846 programmers reported using MATLAB, and 1,562 said they wanted to use it
+- Explore MATLAB snippets on <a href="http://www.rosettacode.org/wiki/Category:MATLAB">Rosetta Code</a>
+- MATLAB is listed on <a href="https://hopl.info/showlanguage.prx?exp=2216">HOPL</a>
+- MATLAB ranks #12 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/matlab.py">syntax highlighting</a> for MATLAB
+- GitHub supports <a href="https://github.com/mathworks/MATLAB-Language-grammar" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for MATLAB
+- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for MATLAB: <a href="https://github.com/imatlab/imatlab">github.com</a>, <a href="https://github.com/calysto/matlab_kernel">github.com</a>
+- There is a <a href="https://www.mathworks.com/matlabcentral/fileexchange/">central package repository</a> for MATLAB
+- Indeed.com has 6,204 matches for <a href="https://www.indeed.com/jobs?q=matlab engineer">"matlab engineer"</a>.
+- See also: (40 related languages)<a href="mathlab.html">MATHLAB</a>, <a href="c.html">C</a>, <a href="java.html">Java</a>, <a href="linux.html">Linux</a>, <a href="ia-32.html">IA-32</a>, <a href="apl.html">APL</a>, <a href="pl-0.html">PL/0</a>, <a href="speakeasy.html">Speakeasy</a>, <a href="julia.html">Julia</a>, <a href="octave.html">GNU Octave</a>, <a href="scilab.html">Scilab</a>, <a href="csharp.html">C#</a>, <a href="fortran.html">Fortran</a>, <a href="python.html">Python</a>, <a href="mupad.html">muPad</a>, <a href="simulink.html">Simulink</a>, <a href="r.html">R</a>, <a href="perl.html">Perl</a>, <a href="xml.html">XML</a>, <a href="sql.html">SQL</a>, <a href="maple.html">Maple</a>, <a href="mathematica.html">Mathematica</a>, <a href="idl.html">IDL</a>, <a href="sagemath.html">Sage</a>, <a href="s.html">S</a>, <a href="perl-data-language.html">Perl Data Language</a>, <a href="numpy.html">NumPy</a>, <a href="scipy.html">SciPy</a>, <a href="matplotlib.html">Matplotlib</a>, <a href="lua.html">Lua</a>, <a href="ruby.html">Ruby</a>, <a href="javascript.html">JavaScript</a>, <a href="jvm.html">JVM</a>, <a href="hdf.html">Hierarchical Data Format</a>, <a href="powerpc.html">PowerPC</a>, <a href="solaris.html">Solaris</a>, <a href="sparc.html">SPARC</a>, <a href="subversion.html">Subversion</a>, <a href="json.html">JSON</a>, <a href="isbn.html">ISBN</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/matlab">Improve our MATLAB file</a>
 
 html
  <br>
@@ -86,12 +80,8 @@ code
  ylabel(&#39;{\bfy}&#39;)
  zlabel(&#39;{\bfsinc} ({\bfR})&#39;)
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -183,10 +173,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about MATLAB on goodreads
+## Books about MATLAB on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  MATLAB Programming for Engineers|https://www.goodreads.com/search?q=MATLAB Programming for Engineers Stephen J. Chapman|Stephen J. Chapman|1999|6|114|4.10
@@ -200,9 +188,8 @@ pipeTable
  Essentials of MATLAB Programming|https://www.goodreads.com/search?q=Essentials of MATLAB Programming Stephen J. Chapman|Stephen J. Chapman|2005|0|17|4.00
  Getting Started with MATLAB 7: A Quick Introduction for Scientists and Engineers|https://www.goodreads.com/search?q=Getting Started with MATLAB 7: A Quick Introduction for Scientists and Engineers Rudra Pratap|Rudra Pratap|2005|5|105|4.03
 
-
 foldBreak
-subsection Books about MATLAB from ISBNdb
+## Books about MATLAB from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Introduction to MATLAB for Engineers|https://isbndb.com/book/9780073534879|Palm, William|2010|McGraw-Hill Education
@@ -373,9 +360,8 @@ pipeTable
  Exercises in Computational Mathematics with MATLAB (Problem Books in Mathematics)|https://isbndb.com/book/9783662435106|Lyche, Tom and Merrien, Jean-Louis|2014|Springer
  Computational Intelligence Paradigms: Theory & Applications using MATLAB|https://isbndb.com/book/9781439809037|Sumathi, S. and Sumathi|2010|CRC Press
 
-
 foldBreak
-subsection Publications about MATLAB from Semantic Scholar
+## Publications about MATLAB from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  The Eyelink Toolbox: Eye tracking with MATLAB and the Psychophysics Toolbox|https://www.semanticscholar.org/paper/d0ed7b7fad72097d327cc5fd946cbd1a4e74b7e3|F. Cornelissen and Enno M Peters and J. Palmer|2002|848|47
@@ -413,10 +399,5 @@ pipeTable
  GELAB - A Matlab Toolbox for Grammatical Evolution|https://www.semanticscholar.org/paper/d5d94e191b27846bb4f06cc01d72b5ed9b869aa7|Muhammad Adil Raja and C. Ryan|2018|3|0
  McLAB: enabling programming language, compiler and software engineering research for matlab|https://www.semanticscholar.org/paper/54603028d353893ad2b357771b6a1e2f7b11ca5b|L. Hendren and Jesse Doherty and Anton Dubrau and R. Garg and Nurudeen Lameed and Soroush Radpour and Amina Aslam and Toheed Aslam and Andrew Casey and Maxime Chevalier-Boisvert and Jun Li and Clark Verbrugge and Olivier Savary Bélanger|2011|2|0
  Supporting image algebra in the Matlab programming language for compression research|https://www.semanticscholar.org/paper/cea8433a106f0ffa807ac00d02972a7d34c2d0eb|M. Schmalz and G. Ritter and Joseph N. Wilson and Eric T. Hayden|2009|1|0
-
-
-
-
-
 
 keyboardNav perl.html csharp.html

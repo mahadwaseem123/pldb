@@ -1,12 +1,14 @@
 title PHP
 
 import settings.scroll
-htmlTitle PHP - Pl
+htmlTitle PHP - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/php.pldb
 
-paragraph
- PHP, aka Personal Home Page, is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1995">1995</a> by <a href="../lists/creators.html#Rasmus_Lerdorf">Rasmus Lerdorf</a>.
+* PHP, aka Personal Home Page, is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1995 by Rasmus Lerdorf.
+ link ../lists/languages.html?filter=1995 1995
+ link ../lists/creators.html#Rasmus_Lerdorf Rasmus Lerdorf
+ 
 
 kpiTable
  #9 <span title="TotalRank: 26 Jobs: 12 Users: 10 Facts: 4 Links: 14">on PLDB</span>
@@ -16,8 +18,7 @@ kpiTable
  26 <span title="Academic publications about or leveraging PHP">Papers</span>
  3m <span title="PHP repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/php">Riju</a> · <a href="https://tio.run/#php">TIO</a> · <a href="https://repl.it/languages/php">Replit</a>
+* Try now: <a href="https://riju.codes/php">Riju</a> · <a href="https://tio.run/#php">TIO</a> · <a href="https://repl.it/languages/php">Replit</a>
 
 monacoEditor php
  <?php
@@ -25,46 +26,42 @@ monacoEditor php
  echo "Hello, world!\n";
  
 
+* PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Development Team. PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor. <a href="https://en.wikipedia.org/wiki/PHP">Read more on Wikipedia...</a>
 
-
-paragraph
- PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Development Team. PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor. <a href="https://en.wikipedia.org/wiki/PHP">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://php.net">PHP website</a>
- - the <a href="https://en.wikipedia.org/wiki/PHP">PHP Wikipedia page</a>
- - PHP is developed on <a href="https://github.com/php/php-src">GitHub</a> and has 33,991 stars
- - PLDB has 2 documentation sites for PHP: <a href="https://devdocs.io/php/">devdocs.io</a>, <a href="https://www.php.net/docs.php.">www.php.net</a>
- - There are at least 3,479,326 PHP repos on <a href="https://github.com/search?q=language:PHP">GitHub</a>
- - PHP first developed in <a href="../lists/originCommunities.html#Zend">Zend</a>
- - PLDB estimates there are currently 30k job openings for PHP programmers.
- - file extensions for PHP include php, phtml, php3, php4, php5, php7, phps, aw, ctp, fcgi, inc, phpt and php[345]
- - the PHP team is on <a href="https://twitter.com/official_php">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 202k users using PHP in 340k repos on <a href="https://api.github.com/search/repositories?q=language:PHP">GitHub</a>
- - Check out the 2,012 <a href="https://www.meetup.com/topics/php/">PHP meetup groups</a> on Meetup.com.
- - There are 150,168 members in the <a href="https://reddit.com/r/PHP">PHP subreddit</a>
- - There are 3,210 <a href="https://projecteuler.net/language=PHP">Project Euler</a> users using PHP
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> PHP programmers reported a median salary of $38,916. 22% of respondents reported using PHP. 18,130 programmers reported using PHP, and 8,852 said they wanted to use it
- - Explore PHP snippets on <a href="http://www.rosettacode.org/wiki/Category:PHP">Rosetta Code</a>
- - PHP is listed on <a href="https://hopl.info/showlanguage.prx?exp=2361">HOPL</a>
- - PHP ranks #10 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/php-cli">Ubuntu package</a> for PHP
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/php">grammar</a> for PHP
- - Here is a PHP <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/phan/phan">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/php">package</a> for syntax highlighting PHP
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/php">package</a> for syntax highlighting PHP
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/php.py">syntax highlighting</a> for PHP
- - GitHub supports <a href="https://github.com/textmate/php.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PHP
- - PHP appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for PHP: <a href="https://github.com/dawehner/ipython-php">github.com</a>, <a href="https://github.com/Litipk/Jupyter-PHP">github.com</a>
- - There is a <a href="https://packagist.org/">central package repository</a> for PHP
- - Annual Reports for PHP<a href="https://www.zend.com/blog/state-php-2022">(Link)</a>
- - Indeed.com has 9,017 matches for <a href="https://www.indeed.com/jobs?q=php developer">"php developer"</a>.
- - <a href="https://php.net">php.net</a> was registered in 1997
- - See also: (28 related languages)<a href="c.html">C</a>, <a href="hhvm.html">HHVM</a>, <a href="parrot-vm.html">Parrot</a>, <a href="java.html">Java</a>, <a href="perl.html">Perl</a>, <a href="tcl.html">Tcl</a>, <a href="falcon.html">Falcon</a>, <a href="hack.html">Hack</a>, <a href="html.html">HTML</a>, <a href="x86-isa.html">X86</a>, <a href="unicode.html">Unicode</a>, <a href="wordpress.html">WordPress</a>, <a href="json.html">JSON</a>, <a href="mysql.html">MySQL</a>, <a href="mime.html">MIME</a>, <a href="javascript.html">JavaScript</a>, <a href="xml.html">XML</a>, <a href="parrot-internal-representation.html">PIR</a>, <a href="cil.html">CIL</a>, <a href="ftp.html">FTP</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="sqlite.html">SQLite</a>, <a href="aws.html">AWS</a>, <a href="java-server-pages.html">JSP</a>, <a href="linux.html">Linux</a>, <a href="python.html">Python</a>, <a href="mediawiki.html">MediaWiki</a>, <a href="drupal.html">Drupal</a>
- - Read more about PHP on the web: <a href="http://php.net/manual/en/reserved.keywords.php">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/php">Improve our PHP file</a>
+- the <a href="https://php.net">PHP website</a>
+- the <a href="https://en.wikipedia.org/wiki/PHP">PHP Wikipedia page</a>
+- PHP is developed on <a href="https://github.com/php/php-src">GitHub</a> and has 33,991 stars
+- PLDB has 2 documentation sites for PHP: <a href="https://devdocs.io/php/">devdocs.io</a>, <a href="https://www.php.net/docs.php.">www.php.net</a>
+- There are at least 3,479,326 PHP repos on <a href="https://github.com/search?q=language:PHP">GitHub</a>
+- PHP first developed in <a href="../lists/originCommunities.html#Zend">Zend</a>
+- PLDB estimates there are currently 30k job openings for PHP programmers.
+- file extensions for PHP include php, phtml, php3, php4, php5, php7, phps, aw, ctp, fcgi, inc, phpt and php[345]
+- the PHP team is on <a href="https://twitter.com/official_php">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 202k users using PHP in 340k repos on <a href="https://api.github.com/search/repositories?q=language:PHP">GitHub</a>
+- Check out the 2,012 <a href="https://www.meetup.com/topics/php/">PHP meetup groups</a> on Meetup.com.
+- There are 150,168 members in the <a href="https://reddit.com/r/PHP">PHP subreddit</a>
+- There are 3,210 <a href="https://projecteuler.net/language=PHP">Project Euler</a> users using PHP
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> PHP programmers reported a median salary of $38,916. 22% of respondents reported using PHP. 18,130 programmers reported using PHP, and 8,852 said they wanted to use it
+- Explore PHP snippets on <a href="http://www.rosettacode.org/wiki/Category:PHP">Rosetta Code</a>
+- PHP is listed on <a href="https://hopl.info/showlanguage.prx?exp=2361">HOPL</a>
+- PHP ranks #10 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/php-cli">Ubuntu package</a> for PHP
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/php">grammar</a> for PHP
+- Here is a PHP <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/phan/phan">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/php">package</a> for syntax highlighting PHP
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/php">package</a> for syntax highlighting PHP
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/php.py">syntax highlighting</a> for PHP
+- GitHub supports <a href="https://github.com/textmate/php.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PHP
+- PHP appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for PHP: <a href="https://github.com/dawehner/ipython-php">github.com</a>, <a href="https://github.com/Litipk/Jupyter-PHP">github.com</a>
+- There is a <a href="https://packagist.org/">central package repository</a> for PHP
+- Annual Reports for PHP<a href="https://www.zend.com/blog/state-php-2022">(Link)</a>
+- Indeed.com has 9,017 matches for <a href="https://www.indeed.com/jobs?q=php developer">"php developer"</a>.
+- <a href="https://php.net">php.net</a> was registered in 1997
+- See also: (28 related languages)<a href="c.html">C</a>, <a href="hhvm.html">HHVM</a>, <a href="parrot-vm.html">Parrot</a>, <a href="java.html">Java</a>, <a href="perl.html">Perl</a>, <a href="tcl.html">Tcl</a>, <a href="falcon.html">Falcon</a>, <a href="hack.html">Hack</a>, <a href="html.html">HTML</a>, <a href="x86-isa.html">X86</a>, <a href="unicode.html">Unicode</a>, <a href="wordpress.html">WordPress</a>, <a href="json.html">JSON</a>, <a href="mysql.html">MySQL</a>, <a href="mime.html">MIME</a>, <a href="javascript.html">JavaScript</a>, <a href="xml.html">XML</a>, <a href="parrot-internal-representation.html">PIR</a>, <a href="cil.html">CIL</a>, <a href="ftp.html">FTP</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="sqlite.html">SQLite</a>, <a href="aws.html">AWS</a>, <a href="java-server-pages.html">JSP</a>, <a href="linux.html">Linux</a>, <a href="python.html">Python</a>, <a href="mediawiki.html">MediaWiki</a>, <a href="drupal.html">Drupal</a>
+- Read more about PHP on the web: <a href="http://php.net/manual/en/reserved.keywords.php">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/php">Improve our PHP file</a>
 
 html
  <br>
@@ -134,14 +131,11 @@ code
  
  echo Person::staticGreet(&#39;Jane&#39;, &#39;Doe&#39;); // prints &quot;Hello, my name is Jane Doe.&quot;
 
-
-
-subsection <a href="../lists/keywords.html?filter=php">Keywords</a> in PHP
-paragraph
- __CLASS__ __DIR__ __FILE__ __FUNCTION__ __halt_compiler() __LINE__ __METHOD__ __NAMESPACE__ __TRAIT__ abstract and array() as break callable case catch class clone const continue declare default die() do echo else elseif empty() enddeclare endfor endforeach endif endswitch endwhile eval() exit() extends final finally for foreach function global goto if implements include include_once instanceof insteadof interface isset() list() namespace new or print private protected public require require_once return static switch throw trait try unset() use var while xor yield
+## <a href="../lists/keywords.html?filter=php">Keywords</a> in PHP
+* __CLASS__ __DIR__ __FILE__ __FUNCTION__ __halt_compiler() __LINE__ __METHOD__ __NAMESPACE__ __TRAIT__ abstract and array() as break callable case catch class clone const continue declare default die() do echo else elseif empty() enddeclare endfor endforeach endif endswitch endwhile eval() exit() extends final finally for foreach function global goto if implements include include_once instanceof insteadof interface isset() list() namespace new or print private protected public require require_once return static switch throw trait try unset() use var while xor yield
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -356,10 +350,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about PHP on goodreads
+## Books about PHP on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Programming PHP|https://www.goodreads.com/search?q=Programming PHP Rasmus Lerdorf|Rasmus Lerdorf|2002|36|642|3.92
@@ -368,9 +360,8 @@ pipeTable
  Professional PHP Programming|https://www.goodreads.com/search?q=Professional PHP Programming Sascha Schumann|Sascha Schumann|1999|5|150|3.95
  Advanced PHP Programming|https://www.goodreads.com/search?q=Advanced PHP Programming George Schlossnagle|George Schlossnagle|2004|11|116|3.86
 
-
 foldBreak
-subsection Books about PHP from ISBNdb
+## Books about PHP from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Head First PHP & MySQL: A Brain-Friendly Guide|https://isbndb.com/book/9780596006303|Lynn Beighley and Michael Morrison|2009|O'Reilly Media
@@ -643,9 +634,8 @@ pipeTable
  PHP 7: Real World Application Development|https://isbndb.com/book/9781787129009|Doug Bierer and Altaf Hussain and Branko Ajzele|2016-09-30|Packt Publishing
  PHP Fast & Easy Web Development, 2nd Edition|https://isbndb.com/book/9781931841870|Meloni, Julie C.|2002|Muska & Lipman/Premier-Trade
 
-
 foldBreak
-subsection Publications about PHP from Semantic Scholar
+## Publications about PHP from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Efficient and Flexible Discovery of PHP Application Vulnerabilities|https://www.semanticscholar.org/paper/4eb7e810e2aa6e9547dc3a12daae53ef70accd38|M. Backes and K. Rieck and Malte Skoruppa and Ben Stock and Fabian Yamaguchi|2017|42|6
@@ -674,10 +664,5 @@ pipeTable
  Mutation Testing for Evaluating PHP Web Applications|https://www.semanticscholar.org/paper/e870a0eebcd0ce3ac4d41f93531a1904f9f3e66c|A. Saifan and M. Ata|2019|1|0
  Analisis Perbandingan Bahasa Pemrograman PHP Laravel dengan PHP Native pada Pengembangan Website|https://www.semanticscholar.org/paper/0a1a7f81189724590b1d1b73e2f85b59616414d7|R. Endra and Yuthsi Aprilinda and Yanuar Dharmawan and Wahyu Ramadhan|2021|1|0
  The PHP Language: Types of Statement|https://www.semanticscholar.org/paper/d1ced82bbe63acf677f5f0e5327cfb97b00da35d|M. Bramer|2015|1|0
-
-
-
-
-
 
 keyboardNav xml.html perl.html

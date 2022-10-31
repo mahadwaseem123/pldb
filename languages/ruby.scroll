@@ -1,12 +1,14 @@
 title Ruby
 
 import settings.scroll
-htmlTitle Ruby - Pl
+htmlTitle Ruby - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/ruby.pldb
 
-paragraph
- Ruby is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1995">1995</a> by <a href="../lists/creators.html#Yukihiro_Matsumoto">Yukihiro Matsumoto</a>.
+* Ruby is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1995 by Yukihiro Matsumoto.
+ link ../lists/languages.html?filter=1995 1995
+ link ../lists/creators.html#Yukihiro_Matsumoto Yukihiro Matsumoto
+ 
 
 kpiTable
  #14 <span title="TotalRank: 48 Jobs: 19 Users: 19 Facts: 22 Links: 10">on PLDB</span>
@@ -16,8 +18,7 @@ kpiTable
  13 <span title="Academic publications about or leveraging Ruby">Papers</span>
  3m <span title="Ruby repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/ruby">Riju</a> · <a href="https://tio.run/#ruby">TIO</a> · <a href="https://repl.it/languages/ruby">Replit</a>
+* Try now: <a href="https://riju.codes/ruby">Riju</a> · <a href="https://tio.run/#ruby">TIO</a> · <a href="https://repl.it/languages/ruby">Replit</a>
 
 monacoEditor ruby
  # Type your code here, or load an example.
@@ -25,42 +26,38 @@ monacoEditor ruby
    num * num
  end
 
+* Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. According to its creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. According to its creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://www.ruby-lang.org">Ruby website</a>
- - the <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby Wikipedia page</a>
- - the <a href="https://www.ruby-lang.org/en/documentation/">Ruby docs</a>
- - There are at least 2,659,551 Ruby repos on <a href="https://github.com/search?q=language:Ruby">GitHub</a>
- - PLDB estimates there are currently 11k job openings for Ruby programmers.
- - file extensions for Ruby include rb, builder, eye, fcgi, gemspec, god, jbuilder, mspec, pluginspec, podspec, prawn, rabl, rake, rbi, rbuild, rbw, rbx, ru, ruby, spec, thor, watchr, Rakefile, duby, Gemfile and Vagrantfile
- - Recurring conference about Ruby: <a href="https://rubyconf.org">RubyConf</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 186k users using Ruby in 374k repos on <a href="https://api.github.com/search/repositories?q=language:Ruby">GitHub</a>
- - Check out the 932 <a href="https://www.meetup.com/topics/ruby/">Ruby meetup groups</a> on Meetup.com.
- - There are 75,926 members in the <a href="https://reddit.com/r/ruby">Ruby subreddit</a>
- - There are 5,435 <a href="https://projecteuler.net/language=Ruby">Project Euler</a> users using Ruby
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Ruby programmers reported a median salary of $80,000. 7% of respondents reported using Ruby. 5,569 programmers reported using Ruby, and 4,942 said they wanted to use it
- - Explore Ruby snippets on <a href="http://www.rosettacode.org/wiki/Category:Ruby">Rosetta Code</a>
- - Ruby is listed on <a href="https://hopl.info/showlanguage.prx?exp=2458">HOPL</a>
- - Ruby ranks #13 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/ruby">Ubuntu package</a> for Ruby
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/ruby">grammar</a> for Ruby
- - Here is a Ruby <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/kwerle/ruby_language_server">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/ruby">package</a> for syntax highlighting Ruby
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/ruby">package</a> for syntax highlighting Ruby
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ruby.py">syntax highlighting</a> for Ruby
- - GitHub supports <a href="https://github.com/atom/language-ruby" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Ruby
- - Ruby appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/SciRuby/iruby">Kernel</a> for Ruby
- - There is a <a href="https://rubygems.org/">central package repository</a> for Ruby
- - Indeed.com has 8,719 matches for <a href="https://www.indeed.com/jobs?q=ruby engineer">"ruby engineer"</a>.
- - See also: (40 related languages)<a href="rails.html">Ruby on Rails</a>, <a href="c.html">C</a>, <a href="yarv.html">YARV</a>, <a href="jruby.html">JRuby</a>, <a href="ada.html">Ada</a>, <a href="clu.html">CLU</a>, <a href="dylan.html">Dylan</a>, <a href="eiffel.html">Eiffel</a>, <a href="lisp.html">Lisp</a>, <a href="lua.html">Lua</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="clojure.html">Clojure</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="crystal.html">Crystal</a>, <a href="d.html">D</a>, <a href="elixir.html">Elixir</a>, <a href="falcon.html">Falcon</a>, <a href="groovy.html">Groovy</a>, <a href="ioke.html">Ioke</a>, <a href="julia.html">Julia</a>, <a href="mirah.html">Mirah</a>, <a href="nu.html">Nu</a>, <a href="rust.html">Rust</a>, <a href="swift.html">Swift</a>, <a href="unicode.html">Unicode</a>, <a href="regex.html">Regular Expressions</a>, <a href="yaml.html">YAML</a>, <a href="json.html">JSON</a>, <a href="xml.html">XML</a>, <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="jvm.html">JVM</a>, <a href="llvmir.html">LLVM IR</a>, <a href="javascript.html">JavaScript</a>, <a href="objective-c.html">Objective-C</a>, <a href="parrot-vm.html">Parrot</a>, <a href="linux.html">Linux</a>, <a href="solaris.html">Solaris</a>
- - Read more about Ruby on the web: <a href="https://stackoverflow.com/questions/9446150/where-are-keywords-defined-in-ruby">1</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/ruby">Improve our Ruby file</a>
+- the <a href="https://www.ruby-lang.org">Ruby website</a>
+- the <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby Wikipedia page</a>
+- the <a href="https://www.ruby-lang.org/en/documentation/">Ruby docs</a>
+- There are at least 2,659,551 Ruby repos on <a href="https://github.com/search?q=language:Ruby">GitHub</a>
+- PLDB estimates there are currently 11k job openings for Ruby programmers.
+- file extensions for Ruby include rb, builder, eye, fcgi, gemspec, god, jbuilder, mspec, pluginspec, podspec, prawn, rabl, rake, rbi, rbuild, rbw, rbx, ru, ruby, spec, thor, watchr, Rakefile, duby, Gemfile and Vagrantfile
+- Recurring conference about Ruby: <a href="https://rubyconf.org">RubyConf</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 186k users using Ruby in 374k repos on <a href="https://api.github.com/search/repositories?q=language:Ruby">GitHub</a>
+- Check out the 932 <a href="https://www.meetup.com/topics/ruby/">Ruby meetup groups</a> on Meetup.com.
+- There are 75,926 members in the <a href="https://reddit.com/r/ruby">Ruby subreddit</a>
+- There are 5,435 <a href="https://projecteuler.net/language=Ruby">Project Euler</a> users using Ruby
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Ruby programmers reported a median salary of $80,000. 7% of respondents reported using Ruby. 5,569 programmers reported using Ruby, and 4,942 said they wanted to use it
+- Explore Ruby snippets on <a href="http://www.rosettacode.org/wiki/Category:Ruby">Rosetta Code</a>
+- Ruby is listed on <a href="https://hopl.info/showlanguage.prx?exp=2458">HOPL</a>
+- Ruby ranks #13 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/ruby">Ubuntu package</a> for Ruby
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/ruby">grammar</a> for Ruby
+- Here is a Ruby <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/kwerle/ruby_language_server">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/ruby">package</a> for syntax highlighting Ruby
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/ruby">package</a> for syntax highlighting Ruby
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ruby.py">syntax highlighting</a> for Ruby
+- GitHub supports <a href="https://github.com/atom/language-ruby" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Ruby
+- Ruby appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/SciRuby/iruby">Kernel</a> for Ruby
+- There is a <a href="https://rubygems.org/">central package repository</a> for Ruby
+- Indeed.com has 8,719 matches for <a href="https://www.indeed.com/jobs?q=ruby engineer">"ruby engineer"</a>.
+- See also: (40 related languages)<a href="rails.html">Ruby on Rails</a>, <a href="c.html">C</a>, <a href="yarv.html">YARV</a>, <a href="jruby.html">JRuby</a>, <a href="ada.html">Ada</a>, <a href="clu.html">CLU</a>, <a href="dylan.html">Dylan</a>, <a href="eiffel.html">Eiffel</a>, <a href="lisp.html">Lisp</a>, <a href="lua.html">Lua</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="clojure.html">Clojure</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="crystal.html">Crystal</a>, <a href="d.html">D</a>, <a href="elixir.html">Elixir</a>, <a href="falcon.html">Falcon</a>, <a href="groovy.html">Groovy</a>, <a href="ioke.html">Ioke</a>, <a href="julia.html">Julia</a>, <a href="mirah.html">Mirah</a>, <a href="nu.html">Nu</a>, <a href="rust.html">Rust</a>, <a href="swift.html">Swift</a>, <a href="unicode.html">Unicode</a>, <a href="regex.html">Regular Expressions</a>, <a href="yaml.html">YAML</a>, <a href="json.html">JSON</a>, <a href="xml.html">XML</a>, <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="jvm.html">JVM</a>, <a href="llvmir.html">LLVM IR</a>, <a href="javascript.html">JavaScript</a>, <a href="objective-c.html">Objective-C</a>, <a href="parrot-vm.html">Parrot</a>, <a href="linux.html">Linux</a>, <a href="solaris.html">Solaris</a>
+- Read more about Ruby on the web: <a href="https://stackoverflow.com/questions/9446150/where-are-keywords-defined-in-ruby">1</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/ruby">Improve our Ruby file</a>
 
 html
  <br>
@@ -100,14 +97,11 @@ code
  &quot;Hello, World!&quot;.in_blue
   =&gt; &quot;&lt;span style=\&quot;color: #00f\&quot;&gt;Hello, World!&lt;/span&gt;&quot;
 
-
-
-subsection <a href="../lists/keywords.html?filter=ruby">Keywords</a> in Ruby
-paragraph
- __ENCODING__ __FILE__ __LINE__ alias and BEGIN begin break case class def defined do else elsif END end ensure false for if in module next nil not or redo rescue retry return self super then true undef unless until when while yield
+## <a href="../lists/keywords.html?filter=ruby">Keywords</a> in Ruby
+* __ENCODING__ __FILE__ __LINE__ alias and BEGIN begin break case class def defined do else elsif END end ensure false for if in module next nil not or redo rescue retry return self super then true undef unless until when while yield
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -380,12 +374,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Ruby from ISBNdb
+## Books about Ruby from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Computer Science Programming Basics in Ruby: Exploring Concepts and Curriculum with Ruby|https://isbndb.com/book/9781449355975|Frieder, Ophir and Frieder, Gideon and Grossman, David|2013|O'Reilly Media
@@ -454,9 +444,8 @@ pipeTable
  The Ruby Way, Second Edition: Solutions and Techniques in Ruby Programming (2nd Edition)|https://isbndb.com/book/9780672328848|Fulton, Hal|2006|Addison-Wesley Professional
  Ruby for Rails: Ruby Techniques for Rails Developers|https://isbndb.com/book/9781932394696|David Black|2006|Manning Publications
 
-
 foldBreak
-subsection Publications about Ruby from Semantic Scholar
+## Publications about Ruby from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  BioRuby: bioinformatics software for the Ruby programming language|https://www.semanticscholar.org/paper/6806fe4a47310f6961cdaeca17fca6aed513d33f|Naohisa Goto and P. Prins and M. Nakao and R. Bonnal and J. Aerts and Toshiaki Katayama|2010|186|10
@@ -472,10 +461,5 @@ pipeTable
  Specializing ropes for ruby|https://www.semanticscholar.org/paper/6fcf92f1bf8a95512a01c0fef1236ac2610299db|Kevin Menard and Chris Seaton and Benoit Daloze|2018|2|0
  Let’s Get It Started: Installing Ruby|https://www.semanticscholar.org/paper/56bfb401cd9a9183005b3aae84ec7ed4c8c6b49f|Pete Cooper|2020|1|0
  A machine vision extension to the Ruby programming language using OpenCV and FFI|https://www.semanticscholar.org/paper/07e2461bccbd4a17609d022518a82bdba691c21d|A. Marburg and M. Hayes and A. Bainbridge-Smith|2013|1|0
-
-
-
-
-
 
 keyboardNav fortran.html mysql.html

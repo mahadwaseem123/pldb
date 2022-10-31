@@ -5,44 +5,43 @@ htmlTitle PostgreSQL - Query language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/postgresql.pldb
 
-paragraph
- PostgreSQL is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in <a href="../lists/languages.html?filter=1986">1986</a> by <a href="../lists/creators.html#Marc_G._Fournier">Marc G. Fournier</a>.
+* PostgreSQL is a <a href="../lists/languages.html?filter=queryLanguage">query language</a> created in 1986 by Marc G. Fournier.
+ link ../lists/languages.html?filter=1986 1986
+ link ../lists/creators.html#Marc_G._Fournier Marc G. Fournier
+ 
 
 kpiTable
- #24 <span title="TotalRank: 74 Jobs: 18 Users: 21 Facts: 191 Links: 35">on PLDB</span>
+ #24 <span title="TotalRank: 74 Jobs: 18 Users: 21 Facts: 187 Links: 35">on PLDB</span>
  36 Years Old
  340.8k <span title="Crude user estimate from a linear model.">Users</span>
  40 <span title="Books about or leveraging PostgreSQL">Books</span>
  3 <span title="Academic publications about or leveraging PostgreSQL">Papers</span>
 
-paragraph
- Try now: <a href="https://riju.codes/postgresql">Riju</a>
+* Try now: <a href="https://riju.codes/postgresql">Riju</a>
 
 monacoEditor pgsql
  SELECT 'Hello, world!';
  
 
+* PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance. As a database server, its primary functions are to store data securely and return that data in response to requests from other software applications. It can handle workloads ranging from small single-machine applications to large Internet-facing applications (or for data warehousing) with many concurrent users; on macOS Server, PostgreSQL is the default database; and it is also available for Microsoft Windows and Linux (supplied in most distributions). <a href="https://en.wikipedia.org/wiki/PostgreSQL">Read more on Wikipedia...</a>
 
-
-paragraph
- PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance. As a database server, its primary functions are to store data securely and return that data in response to requests from other software applications. It can handle workloads ranging from small single-machine applications to large Internet-facing applications (or for data warehousing) with many concurrent users; on macOS Server, PostgreSQL is the default database; and it is also available for Microsoft Windows and Linux (supplied in most distributions). <a href="https://en.wikipedia.org/wiki/PostgreSQL">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://www.postgresql.org/">PostgreSQL website</a>
- - the <a href="https://en.wikipedia.org/wiki/PostgreSQL">PostgreSQL Wikipedia page</a>
- - PostgreSQL is developed on <a href="https://github.com/postgres/postgres">GitHub</a> and has 10,491 stars
- - the <a href="https://www.postgresql.org/docs/">PostgreSQL docs</a>
- - PostgreSQL first developed in <a href="../lists/originCommunities.html#University_of_California">University of California</a>
- - PLDB estimates there are currently 13k job openings for PostgreSQL programmers.
- - PostgreSQL is written in <a href="c.html">C</a>
- - the PostgreSQL team is on <a href="https://twitter.com/postgresql">Twitter</a>
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/pgsql">package</a> for syntax highlighting PostgreSQL
- - Annual Reports for PostgreSQL<a href="https://www.postgresql.org/about/policies/coc/">(Link)</a>
- - Indeed.com has 9,946 matches for <a href="https://www.indeed.com/jobs?q=postgresql developer">"postgresql developer"</a>.
- - <a href="https://www.postgresql.org/">postgresql.org</a> was registered in 1996
- - See also: (34 related languages)<a href="c.html">C</a>, <a href="linux.html">Linux</a>, <a href="sql.html">SQL</a>, <a href="gist.html">Gist</a>, <a href="xml.html">XML</a>, <a href="xpath.html">XPath</a>, <a href="json.html">JSON</a>, <a href="julia.html">Julia</a>, <a href="go.html">Go</a>, <a href="r.html">R</a>, <a href="d.html">D</a>, <a href="erlang.html">Erlang</a>, <a href="plpgsql.html">PL/pgSQL</a>, <a href="pl-sql.html">PL/SQL</a>, <a href="sql-psm.html">SQL/PSM</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="tcl.html">Tcl</a>, <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="ruby.html">Ruby</a>, <a href="regex.html">Regular Expressions</a>, <a href="tls.html">TLS</a>, <a href="freebsd.html">FreeBSD</a>, <a href="solaris.html">Solaris</a>, <a href="x86-isa.html">X86</a>, <a href="powerpc.html">PowerPC</a>, <a href="systemz.html">IBM System z</a>, <a href="sparc.html">SPARC</a>, <a href="arm.html">ARM</a>, <a href="mips.html">MIPS architecture</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="mysql.html">MySQL</a>, <a href="aws.html">AWS</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/postgresql">Improve our PostgreSQL file</a>
+- the <a href="https://www.postgresql.org/">PostgreSQL website</a>
+- the <a href="https://en.wikipedia.org/wiki/PostgreSQL">PostgreSQL Wikipedia page</a>
+- PostgreSQL is developed on <a href="https://github.com/postgres/postgres">GitHub</a> and has 10,491 stars
+- the <a href="https://www.postgresql.org/docs/">PostgreSQL docs</a>
+- PostgreSQL first developed in <a href="../lists/originCommunities.html#University_of_California">University of California</a>
+- PLDB estimates there are currently 13k job openings for PostgreSQL programmers.
+- PostgreSQL is written in <a href="c.html">C</a>
+- the PostgreSQL team is on <a href="https://twitter.com/postgresql">Twitter</a>
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/pgsql">package</a> for syntax highlighting PostgreSQL
+- Annual Reports for PostgreSQL<a href="https://www.postgresql.org/about/policies/coc/">(Link)</a>
+- Official Blog page for PostgreSQL<a href="https://www.postgresql.org/about/newsarchive/">(Link)</a>
+- Events page for PostgreSQL<a href="https://www.postgresql.org/about/events/">(Link)</a>
+- Indeed.com has 9,946 matches for <a href="https://www.indeed.com/jobs?q=postgresql developer">"postgresql developer"</a>.
+- <a href="https://www.postgresql.org/">postgresql.org</a> was registered in 1996
+- See also: (34 related languages)<a href="c.html">C</a>, <a href="linux.html">Linux</a>, <a href="sql.html">SQL</a>, <a href="gist.html">Gist</a>, <a href="xml.html">XML</a>, <a href="xpath.html">XPath</a>, <a href="json.html">JSON</a>, <a href="julia.html">Julia</a>, <a href="go.html">Go</a>, <a href="r.html">R</a>, <a href="d.html">D</a>, <a href="erlang.html">Erlang</a>, <a href="plpgsql.html">PL/pgSQL</a>, <a href="pl-sql.html">PL/SQL</a>, <a href="sql-psm.html">SQL/PSM</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="tcl.html">Tcl</a>, <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="ruby.html">Ruby</a>, <a href="regex.html">Regular Expressions</a>, <a href="tls.html">TLS</a>, <a href="freebsd.html">FreeBSD</a>, <a href="solaris.html">Solaris</a>, <a href="x86-isa.html">X86</a>, <a href="powerpc.html">PowerPC</a>, <a href="systemz.html">IBM System z</a>, <a href="sparc.html">SPARC</a>, <a href="arm.html">ARM</a>, <a href="mips.html">MIPS architecture</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="mysql.html">MySQL</a>, <a href="aws.html">AWS</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/postgresql">Improve our PostgreSQL file</a>
 
 html
  <br>
@@ -66,14 +65,11 @@ code
  SELECT hello_world();
  
 
-
-
-subsection <a href="../lists/keywords.html?filter=postgresql">Keywords</a> in PostgreSQL
-paragraph
- ABORT ABS ABSOLUTE ACCESS ACTION ADA ADD ADMIN AFTER AGGREGATE ALIAS ALL ALLOCATE ALTER ANALYSE ANALYZE AND ANY ARE ARRAY AS ASC ASENSITIVE ASSERTION ASSIGNMENT ASYMMETRIC AT ATOMIC AUTHORIZATION AVG BACKWARD BEFORE BEGIN BETWEEN BIGINT BINARY BIT BITVAR BIT_LENGTH BLOB BOOLEAN BOTH BREADTH BY CACHE CALL CALLED CARDINALITY CASCADE CASCADED CASE CAST CATALOG CATALOG_NAME CHAIN CHAR CHARACTER CHARACTERISTICS CHARACTER_LENGTH CHARACTER_SET_CATALOG CHARACTER_SET_NAME CHARACTER_SET_SCHEMA CHAR_LENGTH CHECK CHECKED CHECKPOINT CLASS CLASS_ORIGIN CLOB CLOSE CLUSTER COALESCE COBOL COLLATE COLLATION COLLATION_CATALOG COLLATION_NAME COLLATION_SCHEMA COLUMN COLUMN_NAME COMMAND_FUNCTION COMMAND_FUNCTION_CODE COMMENT COMMIT COMMITTED COMPLETION CONDITION_NUMBER CONNECT CONNECTION CONNECTION_NAME CONSTRAINT CONSTRAINTS CONSTRAINT_CATALOG CONSTRAINT_NAME CONSTRAINT_SCHEMA CONSTRUCTOR CONTAINS CONTINUE CONVERSION CONVERT COPY CORRESPONDING COUNT CREATE CREATEDB CREATEUSER CROSS CUBE CURRENT CURRENT_DATE CURRENT_PATH CURRENT_ROLE CURRENT_TIME CURRENT_TIMESTAMP CURRENT_USER CURSOR CURSOR_NAME CYCLE DATA DATABASE DATE DATETIME_INTERVAL_CODE DATETIME_INTERVAL_PRECISION DAY DEALLOCATE DEC DECIMAL DECLARE DEFAULT DEFERRABLE DEFERRED DEFINED DEFINER DELETE DELIMITER DELIMITERS DEPTH DEREF DESC DESCRIBE DESCRIPTOR DESTROY DESTRUCTOR DETERMINISTIC DIAGNOSTICS DICTIONARY DISCONNECT DISPATCH DISTINCT DO DOMAIN DOUBLE DROP DYNAMIC DYNAMIC_FUNCTION DYNAMIC_FUNCTION_CODE EACH ELSE ENCODING ENCRYPTED END END-EXEC EQUALS ESCAPE EVERY EXCEPT EXCEPTION EXCLUSIVE EXEC EXECUTE EXISTING EXISTS EXPLAIN EXTERNAL EXTRACT FALSE FETCH FINAL FIRST FLOAT FOR FORCE FOREIGN FORTRAN FORWARD FOUND FREE FREEZE FROM FULL FUNCTION GENERAL GENERATED GET GLOBAL GO GOTO GRANT GRANTED GROUP GROUPING HANDLER HAVING HIERARCHY HOLD HOST HOUR IDENTITY IGNORE ILIKE IMMEDIATE IMMUTABLE IMPLEMENTATION IMPLICIT IN INCREMENT INDEX INDICATOR INFIX INHERITS INITIALIZE INITIALLY INNER INOUT INPUT INSENSITIVE INSERT INSTANCE INSTANTIABLE INSTEAD INT INTEGER INTERSECT INTERVAL INTO INVOKER IS ISNULL ISOLATION ITERATE JOIN KEY KEY_MEMBER KEY_TYPE LANCOMPILER LANGUAGE LARGE LAST LATERAL LEADING LEFT LENGTH LESS LEVEL LIKE LIMIT LISTEN LOAD LOCAL LOCALTIME LOCALTIMESTAMP LOCATION LOCATOR LOCK LOWER MAP MATCH MAX MAXVALUE MESSAGE_LENGTH MESSAGE_OCTET_LENGTH MESSAGE_TEXT METHOD MIN MINUTE MINVALUE MOD MODE MODIFIES MODIFY MODULE MONTH MORE MOVE MUMPS NAME NAMES NATIONAL NATURAL NCHAR NCLOB NEW NEXT NO NOCREATEDB NOCREATEUSER NONE NOT NOTHING NOTIFY NOTNULL NULL NULLABLE NULLIF NUMBER NUMERIC - 0 OBJECT OCTET_LENGTH OF OFF OFFSET OIDS OLD ON ONLY OPEN OPERATION OPERATOR OPTION OPTIONS OR ORDER ORDINALITY OUT OUTER OUTPUT OVERLAPS OVERLAY OVERRIDING OWNER PAD PARAMETER PARAMETERS PARAMETER_MODE PARAMETER_NAME PARAMETER_ORDINAL_POSITION PARAMETER_SPECIFIC_CATALOG PARAMETER_SPECIFIC_NAME PARAMETER_SPECIFIC_SCHEMA PARTIAL PASCAL PASSWORD PATH PENDANT PLACING PLI POSITION POSTFIX PRECISION PREFIX PREORDER PREPARE PRESERVE PRIMARY PRIOR PRIVILEGES PROCEDURAL PROCEDURE PUBLIC READ READS REAL RECHECK RECURSIVE REF REFERENCES REFERENCING REINDEX RELATIVE RENAME REPEATABLE REPLACE RESET RESTRICT RESULT RETURN RETURNED_LENGTH RETURNED_OCTET_LENGTH RETURNED_SQLSTATE RETURNS REVOKE RIGHT ROLE ROLLBACK ROLLUP ROUTINE ROUTINE_CATALOG ROUTINE_NAME ROUTINE_SCHEMA ROW ROWS ROW_COUNT RULE SAVEPOINT SCALE SCHEMA SCHEMA_NAME SCOPE SCROLL SEARCH SECOND SECTION SECURITY SELECT SELF SENSITIVE SEQUENCE SERIALIZABLE SERVER_NAME SESSION SESSION_USER SET SETOF SETS SHARE SHOW SIMILAR SIMPLE SIZE SMALLINT SOME SOURCE SPACE SPECIFIC SPECIFICTYPE SPECIFIC_NAME SQL SQLCODE SQLERROR SQLEXCEPTION SQLSTATE SQLWARNING STABLE START STATE STATEMENT STATIC STATISTICS STDIN STDOUT STORAGE STRICT STRUCTURE STYLE SUBCLASS_ORIGIN SUBLIST SUBSTRING SUM SYMMETRIC SYSID SYSTEM SYSTEM_USER TABLE TABLE_NAME TEMP TEMPLATE TEMPORARY TERMINATE THAN THEN TIME TIMESTAMP TIMEZONE_HOUR TIMEZONE_MINUTE TO TOAST TRAILING TRANSACTION TRANSACTIONS_COMMITTED TRANSACTIONS_ROLLED_BACK TRANSACTION_ACTIVE TRANSFORM TRANSFORMS TRANSLATE TRANSLATION TREAT TRIGGER TRIGGER_CATALOG TRIGGER_NAME TRIGGER_SCHEMA TRIM TRUE TRUNCATE TRUSTED TYPE UNCOMMITTED UNDER UNENCRYPTED UNION UNIQUE UNKNOWN UNLISTEN UNNAMED UNNEST UNTIL UPDATE UPPER USAGE USER USER_DEFINED_TYPE_CATALOG USER_DEFINED_TYPE_NAME USER_DEFINED_TYPE_SCHEMA USING VACUUM VALID VALIDATOR VALUE VALUES VARCHAR VARIABLE VARYING VERBOSE VERSION VIEW VOLATILE WHEN WHENEVER WHERE WITH WITHOUT WORK WRITE YEAR ZONE
+## <a href="../lists/keywords.html?filter=postgresql">Keywords</a> in PostgreSQL
+* ABORT ABS ABSOLUTE ACCESS ACTION ADA ADD ADMIN AFTER AGGREGATE ALIAS ALL ALLOCATE ALTER ANALYSE ANALYZE AND ANY ARE ARRAY AS ASC ASENSITIVE ASSERTION ASSIGNMENT ASYMMETRIC AT ATOMIC AUTHORIZATION AVG BACKWARD BEFORE BEGIN BETWEEN BIGINT BINARY BIT BITVAR BIT_LENGTH BLOB BOOLEAN BOTH BREADTH BY CACHE CALL CALLED CARDINALITY CASCADE CASCADED CASE CAST CATALOG CATALOG_NAME CHAIN CHAR CHARACTER CHARACTERISTICS CHARACTER_LENGTH CHARACTER_SET_CATALOG CHARACTER_SET_NAME CHARACTER_SET_SCHEMA CHAR_LENGTH CHECK CHECKED CHECKPOINT CLASS CLASS_ORIGIN CLOB CLOSE CLUSTER COALESCE COBOL COLLATE COLLATION COLLATION_CATALOG COLLATION_NAME COLLATION_SCHEMA COLUMN COLUMN_NAME COMMAND_FUNCTION COMMAND_FUNCTION_CODE COMMENT COMMIT COMMITTED COMPLETION CONDITION_NUMBER CONNECT CONNECTION CONNECTION_NAME CONSTRAINT CONSTRAINTS CONSTRAINT_CATALOG CONSTRAINT_NAME CONSTRAINT_SCHEMA CONSTRUCTOR CONTAINS CONTINUE CONVERSION CONVERT COPY CORRESPONDING COUNT CREATE CREATEDB CREATEUSER CROSS CUBE CURRENT CURRENT_DATE CURRENT_PATH CURRENT_ROLE CURRENT_TIME CURRENT_TIMESTAMP CURRENT_USER CURSOR CURSOR_NAME CYCLE DATA DATABASE DATE DATETIME_INTERVAL_CODE DATETIME_INTERVAL_PRECISION DAY DEALLOCATE DEC DECIMAL DECLARE DEFAULT DEFERRABLE DEFERRED DEFINED DEFINER DELETE DELIMITER DELIMITERS DEPTH DEREF DESC DESCRIBE DESCRIPTOR DESTROY DESTRUCTOR DETERMINISTIC DIAGNOSTICS DICTIONARY DISCONNECT DISPATCH DISTINCT DO DOMAIN DOUBLE DROP DYNAMIC DYNAMIC_FUNCTION DYNAMIC_FUNCTION_CODE EACH ELSE ENCODING ENCRYPTED END END-EXEC EQUALS ESCAPE EVERY EXCEPT EXCEPTION EXCLUSIVE EXEC EXECUTE EXISTING EXISTS EXPLAIN EXTERNAL EXTRACT FALSE FETCH FINAL FIRST FLOAT FOR FORCE FOREIGN FORTRAN FORWARD FOUND FREE FREEZE FROM FULL FUNCTION GENERAL GENERATED GET GLOBAL GO GOTO GRANT GRANTED GROUP GROUPING HANDLER HAVING HIERARCHY HOLD HOST HOUR IDENTITY IGNORE ILIKE IMMEDIATE IMMUTABLE IMPLEMENTATION IMPLICIT IN INCREMENT INDEX INDICATOR INFIX INHERITS INITIALIZE INITIALLY INNER INOUT INPUT INSENSITIVE INSERT INSTANCE INSTANTIABLE INSTEAD INT INTEGER INTERSECT INTERVAL INTO INVOKER IS ISNULL ISOLATION ITERATE JOIN KEY KEY_MEMBER KEY_TYPE LANCOMPILER LANGUAGE LARGE LAST LATERAL LEADING LEFT LENGTH LESS LEVEL LIKE LIMIT LISTEN LOAD LOCAL LOCALTIME LOCALTIMESTAMP LOCATION LOCATOR LOCK LOWER MAP MATCH MAX MAXVALUE MESSAGE_LENGTH MESSAGE_OCTET_LENGTH MESSAGE_TEXT METHOD MIN MINUTE MINVALUE MOD MODE MODIFIES MODIFY MODULE MONTH MORE MOVE MUMPS NAME NAMES NATIONAL NATURAL NCHAR NCLOB NEW NEXT NO NOCREATEDB NOCREATEUSER NONE NOT NOTHING NOTIFY NOTNULL NULL NULLABLE NULLIF NUMBER NUMERIC - 0 OBJECT OCTET_LENGTH OF OFF OFFSET OIDS OLD ON ONLY OPEN OPERATION OPERATOR OPTION OPTIONS OR ORDER ORDINALITY OUT OUTER OUTPUT OVERLAPS OVERLAY OVERRIDING OWNER PAD PARAMETER PARAMETERS PARAMETER_MODE PARAMETER_NAME PARAMETER_ORDINAL_POSITION PARAMETER_SPECIFIC_CATALOG PARAMETER_SPECIFIC_NAME PARAMETER_SPECIFIC_SCHEMA PARTIAL PASCAL PASSWORD PATH PENDANT PLACING PLI POSITION POSTFIX PRECISION PREFIX PREORDER PREPARE PRESERVE PRIMARY PRIOR PRIVILEGES PROCEDURAL PROCEDURE PUBLIC READ READS REAL RECHECK RECURSIVE REF REFERENCES REFERENCING REINDEX RELATIVE RENAME REPEATABLE REPLACE RESET RESTRICT RESULT RETURN RETURNED_LENGTH RETURNED_OCTET_LENGTH RETURNED_SQLSTATE RETURNS REVOKE RIGHT ROLE ROLLBACK ROLLUP ROUTINE ROUTINE_CATALOG ROUTINE_NAME ROUTINE_SCHEMA ROW ROWS ROW_COUNT RULE SAVEPOINT SCALE SCHEMA SCHEMA_NAME SCOPE SCROLL SEARCH SECOND SECTION SECURITY SELECT SELF SENSITIVE SEQUENCE SERIALIZABLE SERVER_NAME SESSION SESSION_USER SET SETOF SETS SHARE SHOW SIMILAR SIMPLE SIZE SMALLINT SOME SOURCE SPACE SPECIFIC SPECIFICTYPE SPECIFIC_NAME SQL SQLCODE SQLERROR SQLEXCEPTION SQLSTATE SQLWARNING STABLE START STATE STATEMENT STATIC STATISTICS STDIN STDOUT STORAGE STRICT STRUCTURE STYLE SUBCLASS_ORIGIN SUBLIST SUBSTRING SUM SYMMETRIC SYSID SYSTEM SYSTEM_USER TABLE TABLE_NAME TEMP TEMPLATE TEMPORARY TERMINATE THAN THEN TIME TIMESTAMP TIMEZONE_HOUR TIMEZONE_MINUTE TO TOAST TRAILING TRANSACTION TRANSACTIONS_COMMITTED TRANSACTIONS_ROLLED_BACK TRANSACTION_ACTIVE TRANSFORM TRANSFORMS TRANSLATE TRANSLATION TREAT TRIGGER TRIGGER_CATALOG TRIGGER_NAME TRIGGER_SCHEMA TRIM TRUE TRUNCATE TRUSTED TYPE UNCOMMITTED UNDER UNENCRYPTED UNION UNIQUE UNKNOWN UNLISTEN UNNAMED UNNEST UNTIL UPDATE UPPER USAGE USER USER_DEFINED_TYPE_CATALOG USER_DEFINED_TYPE_NAME USER_DEFINED_TYPE_SCHEMA USING VACUUM VALID VALIDATOR VALUE VALUES VARCHAR VARIABLE VARYING VERBOSE VERSION VIEW VOLATILE WHEN WHENEVER WHERE WITH WITHOUT WORK WRITE YEAR ZONE
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -117,19 +113,16 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about PostgreSQL on goodreads
+## Books about PostgreSQL on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  PostgreSQL Developer's Handbook|https://www.goodreads.com/search?q=PostgreSQL Developer's Handbook Ewald Geschwinde|Ewald Geschwinde|2001|0|6|3.17
  PostgreSQL Server Programming|https://www.goodreads.com/search?q=PostgreSQL Server Programming Hannu Krosing|Hannu Krosing|2012|3|15|3.87
  PostgreSQL Developer's Guide|https://www.goodreads.com/search?q=PostgreSQL Developer's Guide Ibrar Ahmed|Ibrar Ahmed|2015|2|8|3.75
 
-
 foldBreak
-subsection Books about PostgreSQL from ISBNdb
+## Books about PostgreSQL from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  PHP and PostgreSQL Advanced Web Programming|https://isbndb.com/book/9780672323829|Geschwinde, Ewald and Schoenig, Hans-Juergen|2002|Sams Publishing
@@ -170,18 +163,12 @@ pipeTable
  The Postgresql Reference Manual Volume 2: Programming Guide|https://isbndb.com/book/9780954612030|The Postgresql Global Development Group|2007|Network Theory Ltd.
  Postgresql 9.0 Reference Manual - Volume 2: Programming Guide|https://isbndb.com/book/9781906966065|Postgresql Global Development Group|2010|Network Theory Ltd.
 
-
 foldBreak
-subsection Publications about PostgreSQL from Semantic Scholar
+## Publications about PostgreSQL from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Implementasi JSON untuk Minimasi Penggunaan Jumlah Kolom Suatu Tabel Pada Database PostgreSQL|https://www.semanticscholar.org/paper/6b6d9197323171c9e0b36379319b941a133908fe|M. A. Rosid|2017|5|1
  Penerapan Replikasi Data pada Aplikasi Ticketing Menggunakan Slony PostgreSQL|https://www.semanticscholar.org/paper/3e756dc9289583f7046a3a3685f2721e56c3f565|Defriyanuar Dhining and Yeni Rokhayati and D. Kurniawan|2017|4|0
  Query compilation in PostgreSQL by specialization of the DBMS source code|https://www.semanticscholar.org/paper/fbbd9fec8f42fb1aa2608ecd5d757002e62d8609|E. Sharygin and R. Buchatskiy and Roman Zhuykov and A. Sher|2017|2|0
-
-
-
-
-
 
 keyboardNav scala.html powershell.html

@@ -1,12 +1,17 @@
 title Julia
 
 import settings.scroll
-htmlTitle Julia - Pl
+htmlTitle Julia - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/julia.pldb
 
-paragraph
- Julia is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2012">2012</a> by <a href="../lists/creators.html#Jeff_Bezanson">Jeff Bezanson</a> and <a href="../lists/creators.html#Alan_Edelman">Alan Edelman</a> and <a href="../lists/creators.html#Stefan_Karpinski">Stefan Karpinski</a> and <a href="../lists/creators.html#Viral_B._Shah">Viral B. Shah</a>.
+* Julia is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2012 by Jeff Bezanson and Alan Edelman and Stefan Karpinski and Viral B. Shah.
+ link ../lists/languages.html?filter=2012 2012
+ link ../lists/creators.html#Jeff_Bezanson Jeff Bezanson
+ link ../lists/creators.html#Alan_Edelman Alan Edelman
+ link ../lists/creators.html#Stefan_Karpinski Stefan Karpinski
+ link ../lists/creators.html#Viral_B._Shah Viral B. Shah
+ 
 
 kpiTable
  #48 <span title="TotalRank: 156 Jobs: 75 Users: 67 Facts: 35 Links: 54">on PLDB</span>
@@ -16,46 +21,41 @@ kpiTable
  36 <span title="Academic publications about or leveraging Julia">Papers</span>
  54k <span title="Julia repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/julia">Riju</a> · <a href="https://tio.run/#julia">TIO</a>
+* Try now: <a href="https://riju.codes/julia">Riju</a> · <a href="https://tio.run/#julia">TIO</a>
 
 monacoEditor julia
  println("Hello, world!")
  
 
+* Julia is a high-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science, without the typical need of separate compilation to be fast, while also being effective for general-purpose programming, web use or as a specification language. Distinctive aspects of Julia's design include a type system with parametric polymorphism and types in a fully dynamic programming language and multiple dispatch as its core programming paradigm. It allows concurrent, parallel and distributed computing, and direct calling of C and Fortran libraries without glue code. <a href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Julia is a high-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science, without the typical need of separate compilation to be fast, while also being effective for general-purpose programming, web use or as a specification language. Distinctive aspects of Julia's design include a type system with parametric polymorphism and types in a fully dynamic programming language and multiple dispatch as its core programming paradigm. It allows concurrent, parallel and distributed computing, and direct calling of C and Fortran libraries without glue code. <a href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://julialang.org/">Julia website</a>
- - the <a href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Julia Wikipedia page</a>
- - the <a href="https://docs.julialang.org/en/v1/">Julia docs</a>
- - There are at least 53,507 Julia repos on <a href="https://github.com/search?q=language:Julia">GitHub</a>
- - PLDB estimates there are currently 85 job openings for Julia programmers.
- - file extensions for Julia include jl
- - the Julia team is on <a href="https://twitter.com/julialanguage">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 3k users using Julia in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Julia">GitHub</a>
- - Check out the 36 <a href="https://www.meetup.com/topics/julia/">Julia meetup groups</a> on Meetup.com.
- - There are 20,624 members in the <a href="https://reddit.com/r/Julia">Julia subreddit</a>
- - There are 700 <a href="https://projecteuler.net/language=Julia">Project Euler</a> users using Julia
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Julia programmers reported a median salary of $65,228. 1% of respondents reported using Julia. 1,068 programmers reported using Julia, and 2,445 said they wanted to use it
- - Explore Julia snippets on <a href="http://www.rosettacode.org/wiki/Category:Julia">Rosetta Code</a>
- - Julia ranks #35 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/julia">Ubuntu package</a> for Julia
- - Here is a Julia <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/JuliaEditorSupport/LanguageServer.jl">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/julia">package</a> for syntax highlighting Julia
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/julia">package</a> for syntax highlighting Julia
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/julia.py">syntax highlighting</a> for Julia
- - GitHub supports <a href="https://github.com/JuliaEditorSupport/atom-language-julia" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Julia
- - Julia appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/JuliaLang/IJulia.jl">Kernel</a> for Julia
- - There is a <a href="https://pkg.julialang.org/">central package repository</a> for Julia
- - Indeed.com has 85 matches for <a href="https://www.indeed.com/jobs?q=julia engineer">"julia engineer"</a>.
- - See also: (28 related languages)<a href="c.html">C</a>, <a href="scheme.html">Scheme</a>, <a href="llvmir.html">LLVM IR</a>, <a href="fortran.html">Fortran</a>, <a href="ia-32.html">IA-32</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="lisp.html">Lisp</a>, <a href="lua.html">Lua</a>, <a href="mathematica.html">Mathematica</a>, <a href="wolfram.html">Wolfram Language</a>, <a href="matlab.html">MATLAB</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="r.html">R</a>, <a href="ruby.html">Ruby</a>, <a href="regex.html">Regular Expressions</a>, <a href="unicode.html">Unicode</a>, <a href="utf-8.html">UTF-8</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="dylan.html">Dylan</a>, <a href="algol.html">Algol</a>, <a href="fortress.html">Fortress</a>, <a href="html.html">HTML</a>, <a href="xml.html">XML</a>, <a href="json.html">JSON</a>, <a href="arm.html">ARM</a>, <a href="powerpc.html">PowerPC</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/julia">Improve our Julia file</a>
+- the <a href="http://julialang.org/">Julia website</a>
+- the <a href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Julia Wikipedia page</a>
+- the <a href="https://docs.julialang.org/en/v1/">Julia docs</a>
+- There are at least 53,507 Julia repos on <a href="https://github.com/search?q=language:Julia">GitHub</a>
+- PLDB estimates there are currently 85 job openings for Julia programmers.
+- file extensions for Julia include jl
+- the Julia team is on <a href="https://twitter.com/julialanguage">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 3k users using Julia in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Julia">GitHub</a>
+- Check out the 36 <a href="https://www.meetup.com/topics/julia/">Julia meetup groups</a> on Meetup.com.
+- There are 20,624 members in the <a href="https://reddit.com/r/Julia">Julia subreddit</a>
+- There are 700 <a href="https://projecteuler.net/language=Julia">Project Euler</a> users using Julia
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Julia programmers reported a median salary of $65,228. 1% of respondents reported using Julia. 1,068 programmers reported using Julia, and 2,445 said they wanted to use it
+- Explore Julia snippets on <a href="http://www.rosettacode.org/wiki/Category:Julia">Rosetta Code</a>
+- Julia ranks #35 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/julia">Ubuntu package</a> for Julia
+- Here is a Julia <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/JuliaEditorSupport/LanguageServer.jl">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/julia">package</a> for syntax highlighting Julia
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/julia">package</a> for syntax highlighting Julia
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/julia.py">syntax highlighting</a> for Julia
+- GitHub supports <a href="https://github.com/JuliaEditorSupport/atom-language-julia" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Julia
+- Julia appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/JuliaLang/IJulia.jl">Kernel</a> for Julia
+- There is a <a href="https://pkg.julialang.org/">central package repository</a> for Julia
+- Indeed.com has 85 matches for <a href="https://www.indeed.com/jobs?q=julia engineer">"julia engineer"</a>.
+- See also: (28 related languages)<a href="c.html">C</a>, <a href="scheme.html">Scheme</a>, <a href="llvmir.html">LLVM IR</a>, <a href="fortran.html">Fortran</a>, <a href="ia-32.html">IA-32</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="lisp.html">Lisp</a>, <a href="lua.html">Lua</a>, <a href="mathematica.html">Mathematica</a>, <a href="wolfram.html">Wolfram Language</a>, <a href="matlab.html">MATLAB</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="r.html">R</a>, <a href="ruby.html">Ruby</a>, <a href="regex.html">Regular Expressions</a>, <a href="unicode.html">Unicode</a>, <a href="utf-8.html">UTF-8</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="dylan.html">Dylan</a>, <a href="algol.html">Algol</a>, <a href="fortress.html">Fortress</a>, <a href="html.html">HTML</a>, <a href="xml.html">XML</a>, <a href="json.html">JSON</a>, <a href="arm.html">ARM</a>, <a href="powerpc.html">PowerPC</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/julia">Improve our Julia file</a>
 
 html
  <br>
@@ -146,14 +146,11 @@ code
  julia&gt; println(&quot;Hello world!&quot;, &quot; I&#39;m on cloud &quot;, f(0, 4), &quot; as Julia supports recognizable syntax!&quot;)
  Hello world! I&#39;m on cloud 9 as Julia supports recognizable syntax!
 
-
-
-subsection <a href="../lists/keywords.html?filter=julia">Keywords</a> in Julia
-paragraph
- begin while if for try return break continue function macro quote let local global const do struct abstract typealias bitstype type immutable module baremodule using import export importall end else catch finally true false
+## <a href="../lists/keywords.html?filter=julia">Keywords</a> in Julia
+* begin while if for try return break continue function macro quote let local global const do struct abstract typealias bitstype type immutable module baremodule using import export importall end else catch finally true false
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -351,12 +348,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Julia from ISBNdb
+## Books about Julia from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  The Little Book of Julia Algorithms: A workbook to develop fluency in Julia programming|https://isbndb.com/book/9781838173609|Sengupta, Ahan and Lau, William|2020|SAV Publishing
@@ -382,9 +375,8 @@ pipeTable
  Beginning Julia Programming: For Engineers and Scientists|https://isbndb.com/book/9781484231708|Nagar, Sandeep|2017-11-27T00:00:01Z|Apress
  Numerical Linear Algebra: A Concise Introduction with MATLAB and Julia (Springer Undergraduate Mathematics Series)|https://isbndb.com/book/9783319742229|Bornemann, Folkmar|2018|Springer
 
-
 foldBreak
-subsection Publications about Julia from Semantic Scholar
+## Publications about Julia from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Optim: A mathematical optimization package for Julia|https://www.semanticscholar.org/paper/5b9beb63591876dc225ea00e04d77498fc28a5ea|P. K. Mogensen and A. N. Riseth|2018|198|8
@@ -423,10 +415,5 @@ pipeTable
  Julia Language in Computational Mechanics: A New Competitor|https://www.semanticscholar.org/paper/1ef389a28b48ff11e8da8bb26a79ce7c0853e841|Lei Xiao and Gang Mei and Ning Xi and F. Piccialli|2021|1|0
  The Usage of Julia Programming in Grounding Grids Simulations : An alternative to MATLAB and Python|https://www.semanticscholar.org/paper/183303bc57f9f6b3c05c5828dd34a02b19a4784b|Rodolfo A. R. Moura and M. Schroeder and S. J. S. Silva and E. Nepomuceno and P. H. N. Vieira and A. Lima|2019|1|0
  An Overview of the Julia Programming Language|https://www.semanticscholar.org/paper/3e62ce30a835230fa8d51c053e4bd2541cfc5fb8|Tyler A. Cabutto and Sean P. Heeney and S. Ault and Guifen Mao and Jin Wang|2018|1|0
-
-
-
-
-
 
 keyboardNav cuda.html dart.html

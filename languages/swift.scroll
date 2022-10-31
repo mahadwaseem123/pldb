@@ -1,23 +1,24 @@
 title Swift
 
 import settings.scroll
-htmlTitle Swift - Pl
+htmlTitle Swift - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/swift.pldb
 
-paragraph
- Swift is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2014">2014</a> by <a href="../lists/creators.html#Chris_Lattner">Chris Lattner</a>.
+* Swift is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2014 by Chris Lattner.
+ link ../lists/languages.html?filter=2014 2014
+ link ../lists/creators.html#Chris_Lattner Chris Lattner
+ 
 
 kpiTable
- #22 <span title="TotalRank: 73 Jobs: 32 Users: 17 Facts: 24 Links: 57">on PLDB</span>
+ #22 <span title="TotalRank: 73 Jobs: 32 Users: 17 Facts: 24 Links: 58">on PLDB</span>
  8 Years Old
  362.6k <span title="Crude user estimate from a linear model.">Users</span>
  125 <span title="Books about or leveraging Swift">Books</span>
  19 <span title="Academic publications about or leveraging Swift">Papers</span>
  1m <span title="Swift repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/swift">Riju</a> · <a href="https://repl.it/languages/swift">Replit</a>
+* Try now: <a href="https://riju.codes/swift">Riju</a> · <a href="https://repl.it/languages/swift">Replit</a>
 
 monacoEditor swift
  // Type your code here, or load an example.
@@ -25,38 +26,34 @@ monacoEditor swift
      return n * n
  }
 
+* Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C (ObjC) code written for Apple products. <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C (ObjC) code written for Apple products. <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://swift.org">Swift website</a>
- - the <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Swift Wikipedia page</a>
- - Swift is developed on <a href="https://github.com/apple/swift">GitHub</a> and has 60,145 stars
- - the <a href="https://www.swift.org/documentation/">Swift docs</a>
- - There are at least 1,044,892 Swift repos on <a href="https://github.com/search?q=language:Swift">GitHub</a>
- - Swift first developed in <a href="../lists/originCommunities.html#Apple">Apple</a>
- - PLDB estimates there are currently 4k job openings for Swift programmers.
- - file extensions for Swift include swift
- - the Swift team is on <a href="https://twitter.com/swiftlang">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 25k users using Swift in 43k repos on <a href="https://api.github.com/search/repositories?q=language:Swift">GitHub</a>
- - Check out the 375 <a href="https://www.meetup.com/topics/swift-language/">Swift meetup groups</a> on Meetup.com.
- - There are 93,491 members in the <a href="https://reddit.com/r/swift">Swift subreddit</a>
- - There are 690 <a href="https://projecteuler.net/language=Swift">Project Euler</a> users using Swift
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Swift programmers reported a median salary of $58,911. 5% of respondents reported using Swift. 4,204 programmers reported using Swift, and 6,353 said they wanted to use it
- - Explore Swift snippets on <a href="http://www.rosettacode.org/wiki/Category:Swift">Rosetta Code</a>
- - Swift ranks #20 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - Here is a Swift <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/apple/sourcekit-lsp">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/swift">package</a> for syntax highlighting Swift
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/swift">package</a> for syntax highlighting Swift
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/objective.py">syntax highlighting</a> for Swift
- - GitHub supports <a href="https://github.com/textmate/swift.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Swift
- - There is a <a href="https://cocoapods.org/">central package repository</a> for Swift
- - Indeed.com has 2,043 matches for <a href="https://www.indeed.com/jobs?q=swift developer">"swift developer"</a>.
- - See also: (18 related languages)<a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="csharp.html">C#</a>, <a href="clu.html">CLU</a>, <a href="d.html">D</a>, <a href="haskell.html">Haskell</a>, <a href="objective-c.html">Objective-C</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="rust.html">Rust</a>, <a href="ios.html">iOS</a>, <a href="llvmir.html">LLVM IR</a>, <a href="c.html">C</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="java.html">Java</a>, <a href="unicode.html">Unicode</a>, <a href="android.html">Android</a>, <a href="kotlin.html">Kotlin</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/swift">Improve our Swift file</a>
+- the <a href="https://swift.org">Swift website</a>
+- the <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Swift Wikipedia page</a>
+- Swift is developed on <a href="https://github.com/apple/swift">GitHub</a> and has 60,145 stars
+- the <a href="https://www.swift.org/documentation/">Swift docs</a>
+- There are at least 1,044,892 Swift repos on <a href="https://github.com/search?q=language:Swift">GitHub</a>
+- Swift first developed in <a href="../lists/originCommunities.html#Apple">Apple</a>
+- PLDB estimates there are currently 4k job openings for Swift programmers.
+- file extensions for Swift include swift
+- the Swift team is on <a href="https://twitter.com/swiftlang">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 25k users using Swift in 43k repos on <a href="https://api.github.com/search/repositories?q=language:Swift">GitHub</a>
+- Check out the 375 <a href="https://www.meetup.com/topics/swift-language/">Swift meetup groups</a> on Meetup.com.
+- There are 93,491 members in the <a href="https://reddit.com/r/swift">Swift subreddit</a>
+- There are 690 <a href="https://projecteuler.net/language=Swift">Project Euler</a> users using Swift
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Swift programmers reported a median salary of $58,911. 5% of respondents reported using Swift. 4,204 programmers reported using Swift, and 6,353 said they wanted to use it
+- Explore Swift snippets on <a href="http://www.rosettacode.org/wiki/Category:Swift">Rosetta Code</a>
+- Swift ranks #20 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- Here is a Swift <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/apple/sourcekit-lsp">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/swift">package</a> for syntax highlighting Swift
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/swift">package</a> for syntax highlighting Swift
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/objective.py">syntax highlighting</a> for Swift
+- GitHub supports <a href="https://github.com/textmate/swift.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Swift
+- There is a <a href="https://cocoapods.org/">central package repository</a> for Swift
+- Indeed.com has 2,043 matches for <a href="https://www.indeed.com/jobs?q=swift developer">"swift developer"</a>.
+- See also: (18 related languages)<a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="csharp.html">C#</a>, <a href="clu.html">CLU</a>, <a href="d.html">D</a>, <a href="haskell.html">Haskell</a>, <a href="objective-c.html">Objective-C</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="rust.html">Rust</a>, <a href="ios.html">iOS</a>, <a href="llvmir.html">LLVM IR</a>, <a href="c.html">C</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="java.html">Java</a>, <a href="unicode.html">Unicode</a>, <a href="android.html">Android</a>, <a href="kotlin.html">Kotlin</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/swift">Improve our Swift file</a>
 
 html
  <br>
@@ -95,14 +92,11 @@ code
  ...
  print(someSortOfPrintableObject.toString())
 
-
-
-subsection <a href="../lists/keywords.html?filter=swift">Keywords</a> in Swift
-paragraph
- associatedtype class deinit enum extension func import init inout internal let operator private protocol public static struct subscript typealias var break case continue default defer do else fallthrough for guard if in repeat return switch where while as catch dynamicType false is nil rethrows super self Self throw throws true try #column #file #function #line #available #column #else#elseif #endif #file #function #if #line #selector associativity convenience dynamic didSet final get infix indirect lazy left mutating none nonmutating optional override postfix precedence prefix Protocol required right set Type unowned weak willSet
+## <a href="../lists/keywords.html?filter=swift">Keywords</a> in Swift
+* associatedtype class deinit enum extension func import init inout internal let operator private protocol public static struct subscript typealias var break case continue default defer do else fallthrough for guard if in repeat return switch where while as catch dynamicType false is nil rethrows super self Self throw throws true try #column #file #function #line #available #column #else#elseif #endif #file #function #if #line #selector associativity convenience dynamic didSet final get infix indirect lazy left mutating none nonmutating optional override postfix precedence prefix Protocol required right set Type unowned weak willSet
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -270,12 +264,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Swift from ISBNdb
+## Books about Swift from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Swift for Beginners: Develop and Design|https://isbndb.com/book/9780134044705|Pitre, Boisy G.|2014|Peachpit Press
@@ -404,9 +394,8 @@ pipeTable
  Introducing iOS 8: Swift Programming from Idea to App Store|https://isbndb.com/book/9781491908617|Derico, Steve|2014|O'Reilly Media
  Pro iPhone Development with Swift 4: Design and Manage Top Quality Apps|https://isbndb.com/book/9781484233818|Maskrey, Molly and Wang, Wallace|2018|Apress
 
-
 foldBreak
-subsection Publications about Swift from Semantic Scholar
+## Publications about Swift from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  The Swift Programming Language|https://www.semanticscholar.org/paper/adcd58959ad2a95ba8aa1bb09326d3ed066aa9e8|James Goodwill and Wesley Matlock|2015|46|4
@@ -428,10 +417,5 @@ pipeTable
  Introducing Automatic Time Stamping (ATS) with a Reference Implementation in Swift|https://www.semanticscholar.org/paper/de6f049ff887591e8445247c752a0bea1a03b278|Sean Hamilton and Dhiman Sengupta and Rajesh E. Gupta|2018|1|0
  The Swift Language|https://www.semanticscholar.org/paper/587238b49d4bf004dc20bac441ebbc692e69a144|A. Egges|2015|1|0
  Promotion of Educational Effectiveness by Translation-based Programming Language Learning Using Java and Swift|https://www.semanticscholar.org/paper/06a96400093f770fc2ec6e978e89adec99321162|Juhua Li and Kazunori Sakamoto and H. Washizaki and Y. Fukazawa|2017|1|0
-
-
-
-
-
 
 keyboardNav ada.html scala.html

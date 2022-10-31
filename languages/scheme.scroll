@@ -1,12 +1,15 @@
 title Scheme
 
 import settings.scroll
-htmlTitle Scheme - Pl
+htmlTitle Scheme - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/scheme.pldb
 
-paragraph
- Scheme is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1970">1970</a> by <a href="../lists/creators.html#Guy_Steele">Guy Steele</a> and <a href="../lists/creators.html#Gerald_Jay_Sussman">Gerald Jay Sussman</a>.
+* Scheme is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1970 by Guy Steele and Gerald Jay Sussman.
+ link ../lists/languages.html?filter=1970 1970
+ link ../lists/creators.html#Guy_Steele Guy Steele
+ link ../lists/creators.html#Gerald_Jay_Sussman Gerald Jay Sussman
+ 
 
 kpiTable
  #51 <span title="TotalRank: 173 Jobs: 44 Users: 234 Facts: 110 Links: 19">on PLDB</span>
@@ -16,43 +19,38 @@ kpiTable
  23 <span title="Academic publications about or leveraging Scheme">Papers</span>
  17k <span title="Scheme repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/scheme">Riju</a> · <a href="https://repl.it/languages/scheme">Replit</a>
+* Try now: <a href="https://riju.codes/scheme">Riju</a> · <a href="https://repl.it/languages/scheme">Replit</a>
 
 monacoEditor scheme
  (display "Hello, world!")
  (newline)
  
 
+* Scheme is a functional programming language and one of the two main dialects of the programming language Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension. Scheme was created during the 1970s at the MIT AI Lab and released by its developers, Guy L. <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Read more on Wikipedia...</a>
 
-
-paragraph
- Scheme is a functional programming language and one of the two main dialects of the programming language Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension. Scheme was created during the 1970s at the MIT AI Lab and released by its developers, Guy L. <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://www.scheme-reports.org/">Scheme website</a>
- - the <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme Wikipedia page</a>
- - the <a href="https://docs.scheme.org/">Scheme docs</a>
- - There are at least 16,742 Scheme repos on <a href="https://github.com/search?q=language:Scheme">GitHub</a>
- - PLDB estimates there are currently 1k job openings for Scheme programmers.
- - file extensions for Scheme include scm, ss, sch, sld, sls, sps and 
- - The  Google BigQuery Public Dataset GitHub snapshot shows 5k users using Scheme in 7k repos on <a href="https://api.github.com/search/repositories?q=language:Scheme">GitHub</a>
- - There are 817 <a href="https://projecteuler.net/language=Scheme">Project Euler</a> users using Scheme
- - Explore Scheme snippets on <a href="http://www.rosettacode.org/wiki/Category:Scheme">Rosetta Code</a>
- - Scheme is listed on <a href="https://hopl.info/showlanguage.prx?exp=694">HOPL</a>
- - Scheme appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/guile-2.0">Ubuntu package</a> for Scheme
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/scheme">package</a> for syntax highlighting Scheme
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/scheme">package</a> for syntax highlighting Scheme
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/lisp.py">syntax highlighting</a> for Scheme
- - GitHub supports <a href="https://github.com/textmate/scheme.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Scheme
- - Scheme appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/Calysto/calysto_scheme">Kernel</a> for Scheme
- - Indeed.com has 1,174 matches for <a href="https://www.indeed.com/jobs?q=scheme engineer">"scheme engineer"</a>.
- - <a href="http://www.scheme-reports.org/">scheme-reports.org</a> was registered in 2009
- - See also: (27 related languages)<a href="t.html">T</a>, <a href="lisp.html">Lisp</a>, <a href="algol.html">Algol</a>, <a href="clojure.html">Clojure</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="dylan.html">Dylan</a>, <a href="eulisp.html">EuLisp</a>, <a href="haskell.html">Haskell</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="lua.html">Lua</a>, <a href="r.html">R</a>, <a href="s.html">S</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="planner.html">PLANNER</a>, <a href="ikarus.html">Ikarus Scheme implementation</a>, <a href="larceny.html">Larceny Scheme implementation</a>, <a href="unicode.html">Unicode</a>, <a href="s-expressions.html">S-expressions</a>, <a href="fortran.html">Fortran</a>, <a href="c.html">C</a>, <a href="guile.html">Guile</a>, <a href="emacs-lisp.html">Emacs Lisp</a>, <a href="android.html">Android</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/scheme">Improve our Scheme file</a>
+- the <a href="http://www.scheme-reports.org/">Scheme website</a>
+- the <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme Wikipedia page</a>
+- the <a href="https://docs.scheme.org/">Scheme docs</a>
+- There are at least 16,742 Scheme repos on <a href="https://github.com/search?q=language:Scheme">GitHub</a>
+- PLDB estimates there are currently 1k job openings for Scheme programmers.
+- file extensions for Scheme include scm, ss, sch, sld, sls, sps and 
+- The  Google BigQuery Public Dataset GitHub snapshot shows 5k users using Scheme in 7k repos on <a href="https://api.github.com/search/repositories?q=language:Scheme">GitHub</a>
+- There are 817 <a href="https://projecteuler.net/language=Scheme">Project Euler</a> users using Scheme
+- Explore Scheme snippets on <a href="http://www.rosettacode.org/wiki/Category:Scheme">Rosetta Code</a>
+- Scheme is listed on <a href="https://hopl.info/showlanguage.prx?exp=694">HOPL</a>
+- Scheme appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/guile-2.0">Ubuntu package</a> for Scheme
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/scheme">package</a> for syntax highlighting Scheme
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/scheme">package</a> for syntax highlighting Scheme
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/lisp.py">syntax highlighting</a> for Scheme
+- GitHub supports <a href="https://github.com/textmate/scheme.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Scheme
+- Scheme appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/Calysto/calysto_scheme">Kernel</a> for Scheme
+- Indeed.com has 1,174 matches for <a href="https://www.indeed.com/jobs?q=scheme engineer">"scheme engineer"</a>.
+- <a href="http://www.scheme-reports.org/">scheme-reports.org</a> was registered in 2009
+- See also: (27 related languages)<a href="t.html">T</a>, <a href="lisp.html">Lisp</a>, <a href="algol.html">Algol</a>, <a href="clojure.html">Clojure</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="dylan.html">Dylan</a>, <a href="eulisp.html">EuLisp</a>, <a href="haskell.html">Haskell</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="lua.html">Lua</a>, <a href="r.html">R</a>, <a href="s.html">S</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="planner.html">PLANNER</a>, <a href="ikarus.html">Ikarus Scheme implementation</a>, <a href="larceny.html">Larceny Scheme implementation</a>, <a href="unicode.html">Unicode</a>, <a href="s-expressions.html">S-expressions</a>, <a href="fortran.html">Fortran</a>, <a href="c.html">C</a>, <a href="guile.html">Guile</a>, <a href="emacs-lisp.html">Emacs Lisp</a>, <a href="android.html">Android</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/scheme">Improve our Scheme file</a>
 
 html
  <br>
@@ -99,14 +97,11 @@ code
  (+ &quot;1&quot; &quot;2&quot; &quot;3&quot;)
  ===&gt; &quot;123&quot;
 
-
-
-subsection <a href="../lists/keywords.html?filter=scheme">Keywords</a> in Scheme
-paragraph
- case do let loop if else when cons car cdr cond lambda lambda* syntax-rules format set! quote eval append list list? member? load
+## <a href="../lists/keywords.html?filter=scheme">Keywords</a> in Scheme
+* case do let loop if else when cons car cdr cond lambda lambda* syntax-rules format set! quote eval append list list? member? load
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -176,12 +171,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about Scheme from ISBNdb
+## Books about Scheme from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Programming And Meta-programming In Scheme|https://isbndb.com/book/9780387983202|Jon Pearce and D. Gries and F. B. Schneider|1997|Springer-verlag New York Inc.
@@ -209,9 +200,8 @@ pipeTable
  IEEE Standard for the Scheme Programming Language/Std 1178-1990|https://isbndb.com/book/9781559371254||1991-05-01T00:00:01Z|Inst of Elect & Electronic
  Subcarrier/Power allocation Scheme for OFDMA Networks: Load Adaptive, Decentralized and Time Efficient|https://isbndb.com/book/9783659804083|Shahzad, Muhammad Adil and Hasan Ali, Aamir|2015|LAP LAMBERT Academic Publishing
 
-
 foldBreak
-subsection Publications about Scheme from Semantic Scholar
+## Publications about Scheme from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Revised5 Report on the Algorithmic Language Scheme|https://www.semanticscholar.org/paper/cb447a69faf544c9047492fdb44e4c47c1cfdee1|H. Abelson and R. K. Dybvig and C. T. Haynes and G. Rozas and IV N.I.Adams and D. Friedman and E. Kohlbecker and G. Steele and D. H. Bartley and R. Halstead and D. Oxley and G. Sussman and G. Brooks and C. Hanson and K. Pitman and M. Wand|1986|570|60
@@ -237,10 +227,5 @@ pipeTable
  Bringing Scheme programming to the iPhone—Experience|https://www.semanticscholar.org/paper/e4fafba1a9b6cceb6900afbe58b7d2fe0e5dfef9|Engineer Bainomugisha and Jorge Vallejos and E. G. Boix and Pascal Costanza and T. D'Hondt and W. Meuter|2012|4|0
  Programming graphical user interfaces with Scheme|https://www.semanticscholar.org/paper/412762582c8b78d290f9a7a6a17de3e904b89249|Erick Gallesio and M. Serrano|2003|3|0
  The Scheme Programming Language|https://www.semanticscholar.org/paper/e7273e4b345308eebaecead6e8306215da661ebe|J. Franco and D. Friedman and O. Danvy|1992|1|0
-
-
-
-
-
 
 keyboardNav arduino.html modula-2.html

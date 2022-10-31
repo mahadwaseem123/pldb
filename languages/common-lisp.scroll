@@ -1,12 +1,19 @@
 title Common Lisp
 
 import settings.scroll
-htmlTitle Common Lisp - Pl
+htmlTitle Common Lisp - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/common-lisp.pldb
 
-paragraph
- Common Lisp is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1984">1984</a> by <a href="../lists/creators.html#Scott_Fahlman">Scott Fahlman</a> and <a href="../lists/creators.html#Richard_P._Gabriel">Richard P. Gabriel</a> and <a href="../lists/creators.html#David_A._Moon">David A. Moon</a> and <a href="../lists/creators.html#Kent_Pitman">Kent Pitman</a> and <a href="../lists/creators.html#Guy_Steele">Guy Steele</a> and <a href="../lists/creators.html#Dan_Weinreb">Dan Weinreb</a>.
+* Common Lisp is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1984 by Scott Fahlman and Richard P. Gabriel and David A. Moon and Kent Pitman and Guy Steele and Dan Weinreb.
+ link ../lists/languages.html?filter=1984 1984
+ link ../lists/creators.html#Scott_Fahlman Scott Fahlman
+ link ../lists/creators.html#Richard_P._Gabriel Richard P. Gabriel
+ link ../lists/creators.html#David_A._Moon David A. Moon
+ link ../lists/creators.html#Kent_Pitman Kent Pitman
+ link ../lists/creators.html#Guy_Steele Guy Steele
+ link ../lists/creators.html#Dan_Weinreb Dan Weinreb
+ 
 
 kpiTable
  #88 <span title="TotalRank: 276 Jobs: 84 Users: 359 Facts: 168 Links: 24">on PLDB</span>
@@ -16,37 +23,30 @@ kpiTable
  0 <span title="Academic publications about or leveraging Common Lisp">Papers</span>
  24k <span title="Common Lisp repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/commonlisp">Riju</a>
+* Try now: <a href="https://riju.codes/commonlisp">Riju</a>
 
+* Common Lisp (CL) is a dialect of the Lisp programming language, published in ANSI standard document ANSI INCITS 226-1994 (R2004) (formerly X3.226-1994 (R1999)). The Common Lisp HyperSpec, a hyperlinked HTML version, has been derived from the ANSI Common Lisp standard. The Common Lisp language was developed as a standardized and improved successor of Maclisp. <a href="https://en.wikipedia.org/wiki/Common_Lisp">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Common Lisp (CL) is a dialect of the Lisp programming language, published in ANSI standard document ANSI INCITS 226-1994 (R2004) (formerly X3.226-1994 (R1999)). The Common Lisp HyperSpec, a hyperlinked HTML version, has been derived from the ANSI Common Lisp standard. The Common Lisp language was developed as a standardized and improved successor of Maclisp. <a href="https://en.wikipedia.org/wiki/Common_Lisp">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://common-lisp.net/">Common Lisp website</a>
- - the <a href="https://en.wikipedia.org/wiki/Common_Lisp">Common Lisp Wikipedia page</a>
- - the <a href="https://common-lisp.net/documentation">Common Lisp docs</a>
- - There are at least 24,262 Common Lisp repos on <a href="https://github.com/search?q=language:Common Lisp">GitHub</a>
- - Common Lisp first developed in <a href="../lists/originCommunities.html#American_National_Standards_Institute">American National Standards Institute</a>
- - PLDB estimates there are currently 24 job openings for Common Lisp programmers.
- - file extensions for Common Lisp include lisp, lsp, l, cl, fasl, asd, ny, podsl and sexp
- - The  Google BigQuery Public Dataset GitHub snapshot shows 4k users using Common Lisp in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Common Lisp">GitHub</a>
- - Common Lisp is listed on <a href="https://hopl.info/showlanguage.prx?exp=946">HOPL</a>
- - Common Lisp appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/clisp">Ubuntu package</a> for Common Lisp
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/lisp.py">syntax highlighting</a> for Common Lisp
- - GitHub supports <a href="https://github.com/textmate/lisp.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Common Lisp
- - Common Lisp appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/fredokun/cl-jupyter">Kernel</a> for Common Lisp
- - Indeed.com has 24 matches for <a href="https://www.indeed.com/jobs?q="common lisp"">""common lisp""</a>.
- - <a href="http://common-lisp.net/">common-lisp.net</a> was registered in 2003
- - See also: (38 related languages)<a href="lisp.html">Lisp</a>, <a href="clisp.html">CLISP</a>, <a href="lispworks.html">LispWorks</a>, <a href="lisp-machine-lisp.html">Lisp Machine Lisp</a>, <a href="scheme.html">Scheme</a>, <a href="interlisp.html">Interlisp</a>, <a href="clojure.html">Clojure</a>, <a href="dylan.html">Dylan</a>, <a href="emacs-lisp.html">Emacs Lisp</a>, <a href="eulisp.html">EuLisp</a>, <a href="islisp.html">ISLISP</a>, <a href="julia.html">Julia</a>, <a href="r.html">R</a>, <a href="cadence-skill.html">Cadence SKILL</a>, <a href="spice-lisp.html">Spice Lisp</a>, <a href="s-expressions.html">S-expressions</a>, <a href="ascii.html">ASCII</a>, <a href="unicode.html">Unicode</a>, <a href="c.html">C</a>, <a href="pascal.html">Pascal</a>, <a href="java.html">Java</a>, <a href="autolisp.html">AutoLISP</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="ada.html">Ada</a>, <a href="perl.html">Perl</a>, <a href="unix.html">Unix</a>, <a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="solaris.html">Solaris</a>, <a href="x86-isa.html">X86</a>, <a href="corman-common-lisp.html">Corman Common Lisp</a>, <a href="maxima.html">Maxima</a>, <a href="acl2.html">ACL2</a>, <a href="poplog.html">POPLOG</a>, <a href="pop-11.html">Pop-11</a>, <a href="prolog.html">Prolog</a>, <a href="standard-ml.html">Standard ML</a>, <a href="emacs-editor.html">Emacs</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/common-lisp">Improve our Common Lisp file</a>
+- the <a href="http://common-lisp.net/">Common Lisp website</a>
+- the <a href="https://en.wikipedia.org/wiki/Common_Lisp">Common Lisp Wikipedia page</a>
+- the <a href="https://common-lisp.net/documentation">Common Lisp docs</a>
+- There are at least 24,262 Common Lisp repos on <a href="https://github.com/search?q=language:Common Lisp">GitHub</a>
+- Common Lisp first developed in <a href="../lists/originCommunities.html#American_National_Standards_Institute">American National Standards Institute</a>
+- PLDB estimates there are currently 24 job openings for Common Lisp programmers.
+- file extensions for Common Lisp include lisp, lsp, l, cl, fasl, asd, ny, podsl and sexp
+- The  Google BigQuery Public Dataset GitHub snapshot shows 4k users using Common Lisp in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Common Lisp">GitHub</a>
+- Common Lisp is listed on <a href="https://hopl.info/showlanguage.prx?exp=946">HOPL</a>
+- Common Lisp appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/clisp">Ubuntu package</a> for Common Lisp
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/lisp.py">syntax highlighting</a> for Common Lisp
+- GitHub supports <a href="https://github.com/textmate/lisp.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Common Lisp
+- Common Lisp appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/fredokun/cl-jupyter">Kernel</a> for Common Lisp
+- Indeed.com has 24 matches for <a href="https://www.indeed.com/jobs?q="common lisp"">""common lisp""</a>.
+- <a href="http://common-lisp.net/">common-lisp.net</a> was registered in 2003
+- See also: (38 related languages)<a href="lisp.html">Lisp</a>, <a href="clisp.html">CLISP</a>, <a href="lispworks.html">LispWorks</a>, <a href="lisp-machine-lisp.html">Lisp Machine Lisp</a>, <a href="scheme.html">Scheme</a>, <a href="interlisp.html">Interlisp</a>, <a href="clojure.html">Clojure</a>, <a href="dylan.html">Dylan</a>, <a href="emacs-lisp.html">Emacs Lisp</a>, <a href="eulisp.html">EuLisp</a>, <a href="islisp.html">ISLISP</a>, <a href="julia.html">Julia</a>, <a href="r.html">R</a>, <a href="cadence-skill.html">Cadence SKILL</a>, <a href="spice-lisp.html">Spice Lisp</a>, <a href="s-expressions.html">S-expressions</a>, <a href="ascii.html">ASCII</a>, <a href="unicode.html">Unicode</a>, <a href="c.html">C</a>, <a href="pascal.html">Pascal</a>, <a href="java.html">Java</a>, <a href="autolisp.html">AutoLISP</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="ada.html">Ada</a>, <a href="perl.html">Perl</a>, <a href="unix.html">Unix</a>, <a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="solaris.html">Solaris</a>, <a href="x86-isa.html">X86</a>, <a href="corman-common-lisp.html">Corman Common Lisp</a>, <a href="maxima.html">Maxima</a>, <a href="acl2.html">ACL2</a>, <a href="poplog.html">POPLOG</a>, <a href="pop-11.html">Pop-11</a>, <a href="prolog.html">Prolog</a>, <a href="standard-ml.html">Standard ML</a>, <a href="emacs-editor.html">Emacs</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/common-lisp">Improve our Common Lisp file</a>
 
 html
  <br>
@@ -75,12 +75,8 @@ code
  CL-USER &gt; (available-shells)
  (#P&quot;/bin/bash&quot; #P&quot;/bin/csh&quot; #P&quot;/bin/ksh&quot; #P&quot;/bin/sh&quot; #P&quot;/bin/tcsh&quot; #P&quot;/bin/zsh&quot;)
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -156,10 +152,8 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Common Lisp on goodreads
+## Books about Common Lisp on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Paradigms of Artificial Intelligence Programming: Case Studies in Common LISP|https://www.goodreads.com/search?q=Paradigms of Artificial Intelligence Programming: Case Studies in Common LISP Peter Norvig|Peter Norvig|1991|9|439|4.33
@@ -168,14 +162,5 @@ pipeTable
  A Programmer's Guide To Common Lisp|https://www.goodreads.com/search?q=A Programmer's Guide To Common Lisp Deborough G. Tatar|Deborough G. Tatar|1987|0|0|0.0
  Common Lisp Programming|https://www.goodreads.com/search?q=Common Lisp Programming Steve Howard|Steve Howard|2012|0|4|3.25
  Object-Oriented Programming in Common LISP: A Programmer's Guide to Clos|https://www.goodreads.com/search?q=Object-Oriented Programming in Common LISP: A Programmer's Guide to Clos Sonya E. Keene|Sonya E. Keene|1989|4|48|4.02
-
-
-
-
-
-
-
-
-
 
 keyboardNav latex.html vhdl.html

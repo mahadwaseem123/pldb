@@ -1,12 +1,14 @@
 title PowerShell
 
 import settings.scroll
-htmlTitle PowerShell - Pl
+htmlTitle PowerShell - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/powershell.pldb
 
-paragraph
- PowerShell is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2006">2006</a> by <a href="../lists/creators.html#Jeffrey_Snover">Jeffrey Snover</a>.
+* PowerShell is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2006 by Jeffrey Snover.
+ link ../lists/languages.html?filter=2006 2006
+ link ../lists/creators.html#Jeffrey_Snover Jeffrey Snover
+ 
 
 kpiTable
  #25 <span title="TotalRank: 80 Jobs: 15 Users: 23 Facts: 42 Links: 105">on PLDB</span>
@@ -16,43 +18,38 @@ kpiTable
  3 <span title="Academic publications about or leveraging PowerShell">Papers</span>
  161k <span title="PowerShell repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/powershell">Riju</a> · <a href="https://tio.run/#powershell">TIO</a>
+* Try now: <a href="https://riju.codes/powershell">Riju</a> · <a href="https://tio.run/#powershell">TIO</a>
 
 monacoEditor powershell
  Write-Host "Hello, world!"
  
 
+* PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language. Initially a Windows component only, known as Windows PowerShell, it was made open-source and cross-platform on 18 August 2016 with the introduction of PowerShell Core. The former is built on .NET Framework while the latter on .NET Core. <a href="https://en.wikipedia.org/wiki/PowerShell">Read more on Wikipedia...</a>
 
-
-paragraph
- PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language. Initially a Windows component only, known as Windows PowerShell, it was made open-source and cross-platform on 18 August 2016 with the introduction of PowerShell Core. The former is built on .NET Framework while the latter on .NET Core. <a href="https://en.wikipedia.org/wiki/PowerShell">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://microsoft.com/powershell">PowerShell website</a>
- - the <a href="https://en.wikipedia.org/wiki/PowerShell">PowerShell Wikipedia page</a>
- - the <a href="https://learn.microsoft.com/en-us/powershell/">PowerShell docs</a>
- - There are at least 161,144 PowerShell repos on <a href="https://github.com/search?q=language:PowerShell">GitHub</a>
- - PowerShell first developed in <a href="../lists/originCommunities.html#Microsoft">Microsoft</a>
- - PLDB estimates there are currently 20k job openings for PowerShell programmers.
- - file extensions for PowerShell include ps1, psd1 and psm1
- - the PowerShell team is on <a href="https://twitter.com/powershell_team">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 25k users using PowerShell in 33k repos on <a href="https://api.github.com/search/repositories?q=language:PowerShell">GitHub</a>
- - There are 201,622 members in the <a href="https://reddit.com/r/PowerShell">PowerShell subreddit</a>
- - There are 159 <a href="https://projecteuler.net/language=PowerShell">Project Euler</a> users using PowerShell
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> PowerShell programmers reported a median salary of $68,824. 11% of respondents reported using PowerShell. 8,871 programmers reported using PowerShell, and 4,896 said they wanted to use it
- - Explore PowerShell snippets on <a href="http://www.rosettacode.org/wiki/Category:PowerShell">Rosetta Code</a>
- - PowerShell appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - Here is a PowerShell <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/PowerShell/PowerShellEditorServices">implementation</a>
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/powershell">package</a> for syntax highlighting PowerShell
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/shell.py">syntax highlighting</a> for PowerShell
- - GitHub supports <a href="https://github.com/PowerShell/EditorSyntax" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PowerShell
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/vors/jupyter-powershell">Kernel</a> for PowerShell
- - There is a <a href="https://www.powershellgallery.com/">central package repository</a> for PowerShell
- - Indeed.com has 19,576 matches for <a href="https://www.indeed.com/jobs?q=powershell developer">"powershell developer"</a>.
- - See also: (17 related languages)<a href="perl.html">Perl</a>, <a href="csharp.html">C#</a>, <a href="digital-command-language.html">DIGITAL Command Language</a>, <a href="sql.html">SQL</a>, <a href="tcl.html">Tcl</a>, <a href="puppet.html">Puppet</a>, <a href="jscript.html">JScript</a>, <a href="vbscript.html">VBScript</a>, <a href="linux.html">Linux</a>, <a href="ascii.html">ASCII</a>, <a href="awk.html">awk</a>, <a href="grep.html">grep</a>, <a href="sed.html">sed</a>, <a href="xml.html">XML</a>, <a href="cli-assembly.html">Assembly CLI</a>, <a href="ooxml.html">Office Open XML</a>, <a href="bash.html">Bash</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/powershell">Improve our PowerShell file</a>
+- the <a href="http://microsoft.com/powershell">PowerShell website</a>
+- the <a href="https://en.wikipedia.org/wiki/PowerShell">PowerShell Wikipedia page</a>
+- the <a href="https://learn.microsoft.com/en-us/powershell/">PowerShell docs</a>
+- There are at least 161,144 PowerShell repos on <a href="https://github.com/search?q=language:PowerShell">GitHub</a>
+- PowerShell first developed in <a href="../lists/originCommunities.html#Microsoft">Microsoft</a>
+- PLDB estimates there are currently 20k job openings for PowerShell programmers.
+- file extensions for PowerShell include ps1, psd1 and psm1
+- the PowerShell team is on <a href="https://twitter.com/powershell_team">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 25k users using PowerShell in 33k repos on <a href="https://api.github.com/search/repositories?q=language:PowerShell">GitHub</a>
+- There are 201,622 members in the <a href="https://reddit.com/r/PowerShell">PowerShell subreddit</a>
+- There are 159 <a href="https://projecteuler.net/language=PowerShell">Project Euler</a> users using PowerShell
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> PowerShell programmers reported a median salary of $68,824. 11% of respondents reported using PowerShell. 8,871 programmers reported using PowerShell, and 4,896 said they wanted to use it
+- Explore PowerShell snippets on <a href="http://www.rosettacode.org/wiki/Category:PowerShell">Rosetta Code</a>
+- PowerShell appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- Here is a PowerShell <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/PowerShell/PowerShellEditorServices">implementation</a>
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/powershell">package</a> for syntax highlighting PowerShell
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/shell.py">syntax highlighting</a> for PowerShell
+- GitHub supports <a href="https://github.com/PowerShell/EditorSyntax" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PowerShell
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/vors/jupyter-powershell">Kernel</a> for PowerShell
+- There is a <a href="https://www.powershellgallery.com/">central package repository</a> for PowerShell
+- Indeed.com has 19,576 matches for <a href="https://www.indeed.com/jobs?q=powershell developer">"powershell developer"</a>.
+- See also: (17 related languages)<a href="perl.html">Perl</a>, <a href="csharp.html">C#</a>, <a href="digital-command-language.html">DIGITAL Command Language</a>, <a href="sql.html">SQL</a>, <a href="tcl.html">Tcl</a>, <a href="puppet.html">Puppet</a>, <a href="jscript.html">JScript</a>, <a href="vbscript.html">VBScript</a>, <a href="linux.html">Linux</a>, <a href="ascii.html">ASCII</a>, <a href="awk.html">awk</a>, <a href="grep.html">grep</a>, <a href="sed.html">sed</a>, <a href="xml.html">XML</a>, <a href="cli-assembly.html">Assembly CLI</a>, <a href="ooxml.html">Office Open XML</a>, <a href="bash.html">Bash</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/powershell">Improve our PowerShell file</a>
 
 html
  <br>
@@ -104,14 +101,11 @@ code
  name value1 value2
  name -Param1 value1 -Param2 value2
 
-
-
-subsection <a href="../lists/keywords.html?filter=powershell">Keywords</a> in PowerShell
-paragraph
- begin break catch class continue data define do dynamicparam else elseif end exit filter finally for foreach from function if in param process return switch throw trap try until using var while workflow parallel sequence inlinescript configuration
+## <a href="../lists/keywords.html?filter=powershell">Keywords</a> in PowerShell
+* begin break catch class continue data define do dynamicparam else elseif end exit filter finally for foreach from function if in param process return switch throw trap try until using var while workflow parallel sequence inlinescript configuration
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -196,19 +190,16 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about PowerShell on goodreads
+## Books about PowerShell on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Windows PowerShell for Developers|https://www.goodreads.com/search?q=Windows PowerShell for Developers Douglas Finke|Douglas Finke|2012|7|64|3.70
  Powershell: Comprehensive Beginner's Guide to Learn Powershell Programming|https://www.goodreads.com/search?q=Powershell: Comprehensive Beginner's Guide to Learn Powershell Programming Daniel Jones|Daniel Jones||0|2|1.00
  Windows PowerShell 2 for Dummies|https://www.goodreads.com/search?q=Windows PowerShell 2 for Dummies Steve Seguis|Steve Seguis|2009|1|18|3.94
 
-
 foldBreak
-subsection Books about PowerShell from ISBNdb
+## Books about PowerShell from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Windows PowerShell Programming for the Absolute Beginner, 3rd|https://isbndb.com/book/9781305260344|Ford, Jr.   Jerry Lee|2014|Cengage Learning PTR
@@ -316,18 +307,12 @@ pipeTable
  Automating Active Directory Administration With Windows Powershell 2. 0|https://isbndb.com/book/9781118118542|Ken St. Cyr and Laura E. Hunter|2011|Wiley & Sons, Incorporated, John
  Powershell: The Complete 3 Books In 1 For Beginners, Intermediate And 21 Sample Codings And Advance Crash Course Guide In Powershell Programming|https://isbndb.com/book/9781730803901|Zach Webber|2018-11-03|Independently Published
 
-
 foldBreak
-subsection Publications about PowerShell from Semantic Scholar
+## Publications about PowerShell from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Detecting Malicious PowerShell Commands using Deep Neural Networks|https://www.semanticscholar.org/paper/2ce5684b7b0a14e3ea3c1f281c8f1f9e1db56b7f|Danny Hendler and Shay Kels and Amir Rubin|2018|54|8
  AST-Based Deep Learning for Detecting Malicious PowerShell|https://www.semanticscholar.org/paper/77369f12dd131a755129b1b5b923b1d479eff5db|Gili Rusak and Abdullah Al-Dujaili and Una-May O’Reilly|2018|21|0
  Working with PowerShell|https://www.semanticscholar.org/paper/e0390ca20fd2572a1f6e41898fdd39e030649bf6|R. Garrett|2013|1|0
-
-
-
-
-
 
 keyboardNav postgresql.html rust.html

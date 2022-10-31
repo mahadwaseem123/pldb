@@ -5,8 +5,10 @@ htmlTitle XML - Data notation
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/xml.pldb
 
-paragraph
- XML, aka Extensible Markup Language, is a <a href="../lists/languages.html?filter=dataNotation">data notation</a> created in <a href="../lists/languages.html?filter=1996">1996</a>.
+* XML, aka Extensible Markup Language, is a <a href="../lists/languages.html?filter=dataNotation">data notation</a> created in 1996.
+ link ../lists/languages.html?filter=1996 1996
+
+ 
 
 kpiTable
  #8 <span title="TotalRank: 25 Jobs: 10 Users: 11 Facts: 44 Links: 4">on PLDB</span>
@@ -16,35 +18,29 @@ kpiTable
  37 <span title="Academic publications about or leveraging XML">Papers</span>
  3k <span title="XML repos on GitHub.">Repos</span>
 
-
-
 monacoEditor xml
  <?xml version="1.0" encoding="UTF-8"?>
  <text><![CDATA[Hello World]]></text>
 
+* In computing, Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The W3C's XML 1.0 Specification and several other related specifications—all of them free open standards—define XML. The design goals of XML emphasize simplicity, generality, and usability across the Internet. <a href="https://en.wikipedia.org/wiki/XML">Read more on Wikipedia...</a>
 
-
-paragraph
- In computing, Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The W3C's XML 1.0 Specification and several other related specifications—all of them free open standards—define XML. The design goals of XML emphasize simplicity, generality, and usability across the Internet. <a href="https://en.wikipedia.org/wiki/XML">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://en.wikipedia.org/wiki/XML">XML Wikipedia page</a>
- - the <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">XML docs</a>
- - There are at least 3,258 XML repos on <a href="https://github.com/search?q=language:XML">GitHub</a>
- - PLDB estimates there are currently 42k job openings for XML programmers.
- - file extensions for XML include xml, adml, admx, ant, axaml, axml, builds, ccproj, ccxml, clixml, cproject, cscfg, csdef, csl, csproj, ct, depproj, dita, ditamap, ditaval, dllconfig, dotsettings, filters, fsproj, fxml, glade, gml, gmx, grxml, gst, hzp, iml, ivy, jelly, jsproj, kml, launch, mdpolicy, mjml, mm, mod, mxml, natvis, ncl, ndproj, nproj, nuspec, odd, osm, pkgproj, pluginspec, proj, props, ps1xml, psc1, pt, qhelp, rdf, res, resx, rs, rss, sch, scxml, sfproj, shproj, srdf, storyboard, sublime-snippet, targets, tml, ts, tsx, ui, urdf, ux, vbproj, vcxproj, vsixmanifest, vssettings, vstemplate, vxml, wixproj, workflow, wsdl, wsf, wxi, wxl, wxs, x3d, xacro, xaml, xib, xlf, xliff, xmi, xmldist, xmp, xproj, xsd, xspec, xul, zcml, xsl and xslt
- - The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using XML in 3k repos on <a href="https://api.github.com/search/repositories?q=language:XML">GitHub</a>
- - XML is listed on <a href="https://hopl.info/showlanguage.prx?exp=2626">HOPL</a>
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/xml">grammar</a> for XML
- - Here is a XML <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/angelozerr/lsp4xml/tree/master/org.eclipse.lsp4xml">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/xml">package</a> for syntax highlighting XML
- - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/xml">package</a> for syntax highlighting XML
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/html.py">syntax highlighting</a> for XML
- - GitHub supports <a href="https://github.com/textmate/xml.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for XML
- - Indeed.com has 23,248 matches for <a href="https://www.indeed.com/jobs?q=xml developer">"xml developer"</a>.
- - See also: (22 related languages)<a href="sgml.html">SGML</a>, <a href="unicode.html">Unicode</a>, <a href="soap.html">SOAP</a>, <a href="ooxml.html">Office Open XML</a>, <a href="utf-8.html">UTF-8</a>, <a href="ascii.html">ASCII</a>, <a href="html.html">HTML</a>, <a href="regex.html">Regular Expressions</a>, <a href="xpath.html">XPath</a>, <a href="xquery.html">XQuery</a>, <a href="scala.html">Scala</a>, <a href="java.html">Java</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="rdf.html">RDF</a>, <a href="javascript.html">JavaScript</a>, <a href="hytime.html">HyTime</a>, <a href="json.html">JSON</a>, <a href="yaml.html">YAML</a>, <a href="s-expressions.html">S-expressions</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/xml">Improve our XML file</a>
+- the <a href="https://en.wikipedia.org/wiki/XML">XML Wikipedia page</a>
+- the <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">XML docs</a>
+- There are at least 3,258 XML repos on <a href="https://github.com/search?q=language:XML">GitHub</a>
+- PLDB estimates there are currently 42k job openings for XML programmers.
+- file extensions for XML include xml, adml, admx, ant, axaml, axml, builds, ccproj, ccxml, clixml, cproject, cscfg, csdef, csl, csproj, ct, depproj, dita, ditamap, ditaval, dllconfig, dotsettings, filters, fsproj, fxml, glade, gml, gmx, grxml, gst, hzp, iml, ivy, jelly, jsproj, kml, launch, mdpolicy, mjml, mm, mod, mxml, natvis, ncl, ndproj, nproj, nuspec, odd, osm, pkgproj, pluginspec, proj, props, ps1xml, psc1, pt, qhelp, rdf, res, resx, rs, rss, sch, scxml, sfproj, shproj, srdf, storyboard, sublime-snippet, targets, tml, ts, tsx, ui, urdf, ux, vbproj, vcxproj, vsixmanifest, vssettings, vstemplate, vxml, wixproj, workflow, wsdl, wsf, wxi, wxl, wxs, x3d, xacro, xaml, xib, xlf, xliff, xmi, xmldist, xmp, xproj, xsd, xspec, xul, zcml, xsl and xslt
+- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using XML in 3k repos on <a href="https://api.github.com/search/repositories?q=language:XML">GitHub</a>
+- XML is listed on <a href="https://hopl.info/showlanguage.prx?exp=2626">HOPL</a>
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/xml">grammar</a> for XML
+- Here is a XML <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/angelozerr/lsp4xml/tree/master/org.eclipse.lsp4xml">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/xml">package</a> for syntax highlighting XML
+- There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/xml">package</a> for syntax highlighting XML
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/html.py">syntax highlighting</a> for XML
+- GitHub supports <a href="https://github.com/textmate/xml.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for XML
+- Indeed.com has 23,248 matches for <a href="https://www.indeed.com/jobs?q=xml developer">"xml developer"</a>.
+- See also: (22 related languages)<a href="sgml.html">SGML</a>, <a href="unicode.html">Unicode</a>, <a href="soap.html">SOAP</a>, <a href="ooxml.html">Office Open XML</a>, <a href="utf-8.html">UTF-8</a>, <a href="ascii.html">ASCII</a>, <a href="html.html">HTML</a>, <a href="regex.html">Regular Expressions</a>, <a href="xpath.html">XPath</a>, <a href="xquery.html">XQuery</a>, <a href="scala.html">Scala</a>, <a href="java.html">Java</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="rdf.html">RDF</a>, <a href="javascript.html">JavaScript</a>, <a href="hytime.html">HyTime</a>, <a href="json.html">JSON</a>, <a href="yaml.html">YAML</a>, <a href="s-expressions.html">S-expressions</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/xml">Improve our XML file</a>
 
 html
  <br>
@@ -67,12 +63,8 @@ code
  &lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; ?&gt;
  &lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;/xs:schema&gt;
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -114,12 +106,8 @@ treeTable
   Example
   Token 
 
-
-
-
-
 foldBreak
-subsection Books about XML from ISBNdb
+## Books about XML from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Designing XML Internet Applications|https://isbndb.com/book/9780136168225|Leventhal, Michael and Lewis, David and Fuchs, Matthew|1998|Prentice Hall Ptr
@@ -274,9 +262,8 @@ pipeTable
  XML and InDesign|https://isbndb.com/book/9781449344146|Dorothy J. Hoskins|20130111|O'Reilly Media, Inc.
  Perl and XML|https://isbndb.com/book/9780596516406|Erik T. Ray|20020425|O'Reilly Media, Inc.
 
-
 foldBreak
-subsection Publications about XML from Semantic Scholar
+## Publications about XML from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  LINQ: reconciling object, relations and XML in the .NET framework|https://www.semanticscholar.org/paper/8ad190feef8bc7744f6b3f155661f5a1c3389ab5|E. Meijer and B. Beckman and G. Bierman|2006|434|58
@@ -316,10 +303,5 @@ pipeTable
  XIVD: Runtime Detection of XPath Injection Vulnerabilities in XML Databases through Aspect Oriented Programming|https://www.semanticscholar.org/paper/3c616070af9a536db1c9245e647dc707715e5c15|V. Shanmughaneethi and Ra. Yagna Pravin and S. Swamynathan|2011|4|0
  XML Programming Using the Microsoft XML Parser|https://www.semanticscholar.org/paper/29fae73cdcb21b1c8e3b874f2d3fa21e99b42b69|S. M. Foo and W. Lee|2002|2|1
  Embedding XML processing toolkit on general purpose programming language|https://www.semanticscholar.org/paper/a9a62d49806cadb8ce937e853c231e94fac86cff|T. Kamina and T. Tamai|2002|2|0
-
-
-
-
-
 
 keyboardNav html.html php.html

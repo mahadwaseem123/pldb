@@ -1872,12 +1872,6 @@
     "url": "/languages/perl-6.html"
   },
   {
-    "label": "NetLogo",
-    "appeared": 1999,
-    "id": "netlogo",
-    "url": "/languages/netlogo.html"
-  },
-  {
     "label": "Xojo",
     "appeared": 1996,
     "id": "xojo",
@@ -1888,6 +1882,12 @@
     "appeared": 2006,
     "id": "sass",
     "url": "/languages/sass.html"
+  },
+  {
+    "label": "NetLogo",
+    "appeared": 1999,
+    "id": "netlogo",
+    "url": "/languages/netlogo.html"
   },
   {
     "label": "Subversion",
@@ -2202,12 +2202,6 @@
     "url": "/languages/ninja.html"
   },
   {
-    "label": "TLA",
-    "appeared": 1999,
-    "id": "tla",
-    "url": "/languages/tla.html"
-  },
-  {
     "label": "Wolfram Language",
     "appeared": 1988,
     "id": "wolfram",
@@ -2218,6 +2212,12 @@
     "appeared": 1987,
     "id": "base64",
     "url": "/languages/base64.html"
+  },
+  {
+    "label": "TLA",
+    "appeared": 1999,
+    "id": "tla",
+    "url": "/languages/tla.html"
   },
   {
     "label": "JSON-LD",
@@ -3582,6 +3582,12 @@
     "url": "/languages/yii.html"
   },
   {
+    "label": "Jule",
+    "appeared": 2021,
+    "id": "x",
+    "url": "/languages/x.html"
+  },
+  {
     "label": "PIC microcontroller",
     "appeared": 1975,
     "id": "pic-microcontroller",
@@ -3592,12 +3598,6 @@
     "appeared": 2018,
     "id": "plain-english",
     "url": "/languages/plain-english.html"
-  },
-  {
-    "label": "Jule",
-    "appeared": 2021,
-    "id": "x",
-    "url": "/languages/x.html"
   },
   {
     "label": "Microsoft Macro Assembler",
@@ -18934,6 +18934,12 @@
     "appeared": 1998,
     "id": "xql-lang",
     "url": "/languages/xql-lang.html"
+  },
+  {
+    "label": "Om",
+    "appeared": 2012,
+    "id": "om",
+    "url": "/languages/om.html"
   },
   {
     "label": "multihash-hash-function",

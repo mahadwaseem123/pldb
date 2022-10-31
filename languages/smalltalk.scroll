@@ -1,12 +1,16 @@
 title Smalltalk
 
 import settings.scroll
-htmlTitle Smalltalk - Pl
+htmlTitle Smalltalk - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/smalltalk.pldb
 
-paragraph
- Smalltalk is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1972">1972</a> by <a href="../lists/creators.html#Alan_Kay">Alan Kay</a> and <a href="../lists/creators.html#Dan_Ingalls">Dan Ingalls</a> and <a href="../lists/creators.html#Adele_Goldberg">Adele Goldberg</a>.
+* Smalltalk is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1972 by Alan Kay and Dan Ingalls and Adele Goldberg.
+ link ../lists/languages.html?filter=1972 1972
+ link ../lists/creators.html#Alan_Kay Alan Kay
+ link ../lists/creators.html#Dan_Ingalls Dan Ingalls
+ link ../lists/creators.html#Adele_Goldberg Adele Goldberg
+ 
 
 kpiTable
  #76 <span title="TotalRank: 259 Jobs: 101 Users: 192 Facts: 141 Links: 17">on PLDB</span>
@@ -16,36 +20,29 @@ kpiTable
  16 <span title="Academic publications about or leveraging Smalltalk">Papers</span>
  9k <span title="Smalltalk repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/smalltalk">Riju</a>
+* Try now: <a href="https://riju.codes/smalltalk">Riju</a>
 
+* Smalltalk is an object-oriented, dynamically typed, reflective programming language. Smalltalk was created as the language to underpin the "new world" of computing exemplified by "human–computer symbiosis." It was designed and created in part for educational use, more so for constructionist learning, at the Learning Research Group (LRG) of Xerox PARC by Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Scott Wallace, and others during the 1970s. The language was first generally released as Smalltalk-80. <a href="https://en.wikipedia.org/wiki/Smalltalk">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Smalltalk is an object-oriented, dynamically typed, reflective programming language. Smalltalk was created as the language to underpin the "new world" of computing exemplified by "human–computer symbiosis." It was designed and created in part for educational use, more so for constructionist learning, at the Learning Research Group (LRG) of Xerox PARC by Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Scott Wallace, and others during the 1970s. The language was first generally released as Smalltalk-80. <a href="https://en.wikipedia.org/wiki/Smalltalk">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://en.wikipedia.org/wiki/Smalltalk">Smalltalk Wikipedia page</a>
- - the <a href="https://www.gnu.org/software/smalltalk/manual/html_node/">Smalltalk docs</a>
- - There are at least 9,336 Smalltalk repos on <a href="https://github.com/search?q=language:Smalltalk">GitHub</a>
- - file extensions for Smalltalk include st and cs
- - The  Google BigQuery Public Dataset GitHub snapshot shows 5k users using Smalltalk in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Smalltalk">GitHub</a>
- - There are 111 <a href="https://projecteuler.net/language=Smalltalk">Project Euler</a> users using Smalltalk
- - Explore Smalltalk snippets on <a href="http://www.rosettacode.org/wiki/Category:Smalltalk">Rosetta Code</a>
- - Smalltalk is listed on <a href="https://hopl.info/showlanguage.prx?exp=828">HOPL</a>
- - Smalltalk appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/gnu-smalltalk">Ubuntu package</a> for Smalltalk
- - Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/smalltalk">grammar</a> for Smalltalk
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/smalltalk">package</a> for syntax highlighting Smalltalk
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/smalltalk.py">syntax highlighting</a> for Smalltalk
- - GitHub supports <a href="https://github.com/tomas-stefano/smalltalk-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Smalltalk
- - Smalltalk appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is a <a href="http://smalltalkhub.com/">central package repository</a> for Smalltalk
- - See also: (42 related languages)<a href="pharo.html">Pharo</a>, <a href="squeak.html">Squeak</a>, <a href="visualworks.html">VisualWorks</a>, <a href="lisp.html">Lisp</a>, <a href="simula.html">Simula</a>, <a href="euler.html">Euler</a>, <a href="imp.html">IMP</a>, <a href="planner.html">PLANNER</a>, <a href="logo.html">Logo</a>, <a href="applescript.html">Applescript</a>, <a href="dart.html">Dart</a>, <a href="dylan.html">Dylan</a>, <a href="erlang.html">Erlang</a>, <a href="etoys.html">Etoys</a>, <a href="falcon.html">Falcon</a>, <a href="go.html">Go</a>, <a href="groovy.html">Groovy</a>, <a href="io.html">Io</a>, <a href="ioke.html">Ioke</a>, <a href="java.html">Java</a>, <a href="lasso.html">Lasso</a>, <a href="lisaac.html">Lisaac</a>, <a href="newtonscript.html">NewtonScript</a>, <a href="object-rexx.html">Object Rexx</a>, <a href="objective-c.html">Objective-C</a>, <a href="php.html">PHP</a>, <a href="perl-6.html">Perl 6</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="scala.html">Scala</a>, <a href="scratch.html">Scratch</a>, <a href="self.html">Self</a>, <a href="sql.html">SQL</a>, <a href="flavors.html">Flavors</a>, <a href="clos.html">CLOS</a>, <a href="prolog.html">Prolog</a>, <a href="ascii.html">ASCII</a>, <a href="javascript.html">JavaScript</a>, <a href="visual-smalltalk-enterprise.html">Visual Smalltalk Enterprise</a>, <a href="smalltalk-mt.html">Smalltalk MT</a>, <a href="jvm.html">JVM</a>, <a href="strongtalk.html">Strongtalk</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/smalltalk">Improve our Smalltalk file</a>
+- the <a href="https://en.wikipedia.org/wiki/Smalltalk">Smalltalk Wikipedia page</a>
+- the <a href="https://www.gnu.org/software/smalltalk/manual/html_node/">Smalltalk docs</a>
+- There are at least 9,336 Smalltalk repos on <a href="https://github.com/search?q=language:Smalltalk">GitHub</a>
+- file extensions for Smalltalk include st and cs
+- The  Google BigQuery Public Dataset GitHub snapshot shows 5k users using Smalltalk in 6k repos on <a href="https://api.github.com/search/repositories?q=language:Smalltalk">GitHub</a>
+- There are 111 <a href="https://projecteuler.net/language=Smalltalk">Project Euler</a> users using Smalltalk
+- Explore Smalltalk snippets on <a href="http://www.rosettacode.org/wiki/Category:Smalltalk">Rosetta Code</a>
+- Smalltalk is listed on <a href="https://hopl.info/showlanguage.prx?exp=828">HOPL</a>
+- Smalltalk appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/gnu-smalltalk">Ubuntu package</a> for Smalltalk
+- Here is an <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/smalltalk">grammar</a> for Smalltalk
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/smalltalk">package</a> for syntax highlighting Smalltalk
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/smalltalk.py">syntax highlighting</a> for Smalltalk
+- GitHub supports <a href="https://github.com/tomas-stefano/smalltalk-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Smalltalk
+- Smalltalk appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is a <a href="http://smalltalkhub.com/">central package repository</a> for Smalltalk
+- See also: (42 related languages)<a href="pharo.html">Pharo</a>, <a href="squeak.html">Squeak</a>, <a href="visualworks.html">VisualWorks</a>, <a href="lisp.html">Lisp</a>, <a href="simula.html">Simula</a>, <a href="euler.html">Euler</a>, <a href="imp.html">IMP</a>, <a href="planner.html">PLANNER</a>, <a href="logo.html">Logo</a>, <a href="applescript.html">Applescript</a>, <a href="dart.html">Dart</a>, <a href="dylan.html">Dylan</a>, <a href="erlang.html">Erlang</a>, <a href="etoys.html">Etoys</a>, <a href="falcon.html">Falcon</a>, <a href="go.html">Go</a>, <a href="groovy.html">Groovy</a>, <a href="io.html">Io</a>, <a href="ioke.html">Ioke</a>, <a href="java.html">Java</a>, <a href="lasso.html">Lasso</a>, <a href="lisaac.html">Lisaac</a>, <a href="newtonscript.html">NewtonScript</a>, <a href="object-rexx.html">Object Rexx</a>, <a href="objective-c.html">Objective-C</a>, <a href="php.html">PHP</a>, <a href="perl-6.html">Perl 6</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="scala.html">Scala</a>, <a href="scratch.html">Scratch</a>, <a href="self.html">Self</a>, <a href="sql.html">SQL</a>, <a href="flavors.html">Flavors</a>, <a href="clos.html">CLOS</a>, <a href="prolog.html">Prolog</a>, <a href="ascii.html">ASCII</a>, <a href="javascript.html">JavaScript</a>, <a href="visual-smalltalk-enterprise.html">Visual Smalltalk Enterprise</a>, <a href="smalltalk-mt.html">Smalltalk MT</a>, <a href="jvm.html">JVM</a>, <a href="strongtalk.html">Strongtalk</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/smalltalk">Improve our Smalltalk file</a>
 
 html
  <br>
@@ -74,12 +71,8 @@ code
      mul := i1 * i2.
      ^mul * 4
 
-
-
-
-
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -152,19 +145,16 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Smalltalk on goodreads
+## Books about Smalltalk on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  SmallTalk 80: The Language|https://www.goodreads.com/search?q=SmallTalk 80: The Language Adele Goldberg|Adele Goldberg|1989|3|40|4.20
  SmallTalk 80 Language: The Language and Its Implementation|https://www.goodreads.com/search?q=SmallTalk 80 Language: The Language and Its Implementation Adele Goldberg|Adele Goldberg|1983|0|37|4.68
  SmallTalk-80: The Interactive Programming Environment|https://www.goodreads.com/search?q=SmallTalk-80: The Interactive Programming Environment Adele Goldberg|Adele Goldberg|1983|0|6|4.33
 
-
 foldBreak
-subsection Books about Smalltalk from ISBNdb
+## Books about Smalltalk from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  On to Smalltalk|https://isbndb.com/book/9780201498271|Winston, Patrick Henry|1997|Addison-Wesley
@@ -197,9 +187,8 @@ pipeTable
  Developing Visual Programming Applications Using Smalltalk (sigs: Advances In Object Technology)|https://isbndb.com/book/9781884842283|Michael Linderman|1996|Sigs
  Smalltalk Programming For Windows (prima Practical Programming Series/book And 3 1/2 Disk)|https://isbndb.com/book/9781559582377|Dan Shafer and Scott Herndon and Laurence Rozier|1992|Premier Pr
 
-
 foldBreak
-subsection Publications about Smalltalk from Semantic Scholar
+## Publications about Smalltalk from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Making smalltalk a database system|https://www.semanticscholar.org/paper/959baa1fe387cbabdcc729411be7bb935f56d8cb|G. Copeland and D. Maier|1984|420|14
@@ -218,10 +207,5 @@ pipeTable
  Programming For Pre College Education Using Squeak Smalltalk|https://www.semanticscholar.org/paper/6a372109ad0086d5d32e3c4121884520cfd8fa4e|Kathryn N. Rodhouse and Benjamin Cooper and S. Watkins|2010|3|1
  Refactoring support for Smalltalk using static type inference|https://www.semanticscholar.org/paper/fe3d3fd09a89d96f1340e656cda2fb4550080e85|Martin Unterholzner|2012|1|0
  A Smalltalk implementation of Exil, a component-based programming language|https://www.semanticscholar.org/paper/1097d8c549654b2308a6ae2c559da511b00b6f1e|P. Spacek and C. Dony and Chouki Tibermacine and L. Fabresse|2011|1|1
-
-
-
-
-
 
 keyboardNav yacc.html rest.html

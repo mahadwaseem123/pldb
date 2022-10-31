@@ -1,55 +1,50 @@
 title Groovy
 
 import settings.scroll
-htmlTitle Groovy - Pl
+htmlTitle Groovy - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/groovy.pldb
 
-paragraph
- Groovy is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=2003">2003</a> by <a href="../lists/creators.html#James_Strachan">James Strachan</a>.
+* Groovy is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 2003 by James Strachan.
+ link ../lists/languages.html?filter=2003 2003
+ link ../lists/creators.html#James_Strachan James Strachan
+ 
 
 kpiTable
- #85 <span title="TotalRank: 272 Jobs: 101 Users: 170 Facts: 114 Links: 57">on PLDB</span>
+ #86 <span title="TotalRank: 273 Jobs: 101 Users: 170 Facts: 114 Links: 58">on PLDB</span>
  19 Years Old
  6.1k <span title="Crude user estimate from a linear model.">Users</span>
  22 <span title="Books about or leveraging Groovy">Books</span>
  7 <span title="Academic publications about or leveraging Groovy">Papers</span>
  76k <span title="Groovy repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/groovy">Riju</a> · <a href="https://tio.run/#groovy">TIO</a>
+* Try now: <a href="https://riju.codes/groovy">Riju</a> · <a href="https://tio.run/#groovy">TIO</a>
 
+* Apache Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries. <a href="https://en.wikipedia.org/wiki/Groovy_(programming_language)">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Apache Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries. <a href="https://en.wikipedia.org/wiki/Groovy_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="http://groovy-lang.org/">Groovy website</a>
- - the <a href="https://en.wikipedia.org/wiki/Groovy_(programming_language)">Groovy Wikipedia page</a>
- - PLDB has 2 documentation sites for Groovy: <a href="https://groovy-lang.org/documentation.html">groovy-lang.org</a>, <a href="https://devdocs.io/groovy~3.0/">devdocs.io</a>
- - There are at least 76,001 Groovy repos on <a href="https://github.com/search?q=language:Groovy">GitHub</a>
- - file extensions for Groovy include groovy, grt, gtpl, gvy and gradle
- - the Groovy team is on <a href="https://twitter.com/apachegroovy">Twitter</a>
- - The  Google BigQuery Public Dataset GitHub snapshot shows 20k users using Groovy in 27k repos on <a href="https://api.github.com/search/repositories?q=language:Groovy">GitHub</a>
- - Check out the 49 <a href="https://www.meetup.com/topics/groovy-programming-language/">Groovy meetup groups</a> on Meetup.com.
- - There are 2,900 members in the <a href="https://reddit.com/r/groovy">Groovy subreddit</a>
- - There are 121 <a href="https://projecteuler.net/language=Groovy">Project Euler</a> users using Groovy
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Groovy programmers reported a median salary of $75,002. 3% of respondents reported using Groovy. 2,479 programmers reported using Groovy, and 1,177 said they wanted to use it
- - Explore Groovy snippets on <a href="http://www.rosettacode.org/wiki/Category:Groovy">Rosetta Code</a>
- - Groovy ranks #29 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/groovy">Ubuntu package</a> for Groovy
- - Here is a Groovy <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/palantir/groovy-language-server/">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/groovy">package</a> for syntax highlighting Groovy
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Groovy
- - GitHub supports <a href="https://github.com/textmate/groovy.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Groovy
- - Groovy appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - <a href="http://groovy-lang.org/">groovy-lang.org</a> was registered in 2011
- - See also: (18 related languages)<a href="java.html">Java</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="perl.html">Perl</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="objective-c.html">Objective-C</a>, <a href="kotlin.html">Kotlin</a>, <a href="jvm.html">JVM</a>, <a href="regex.html">Regular Expressions</a>, <a href="xml.html">XML</a>, <a href="html.html">HTML</a>, <a href="json.html">JSON</a>, <a href="android.html">Android</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="emacs-editor.html">Emacs</a>, <a href="textmate-editor.html">TextMate</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="javascript.html">JavaScript</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/groovy">Improve our Groovy file</a>
+- the <a href="http://groovy-lang.org/">Groovy website</a>
+- the <a href="https://en.wikipedia.org/wiki/Groovy_(programming_language)">Groovy Wikipedia page</a>
+- PLDB has 2 documentation sites for Groovy: <a href="https://groovy-lang.org/documentation.html">groovy-lang.org</a>, <a href="https://devdocs.io/groovy~3.0/">devdocs.io</a>
+- There are at least 76,001 Groovy repos on <a href="https://github.com/search?q=language:Groovy">GitHub</a>
+- file extensions for Groovy include groovy, grt, gtpl, gvy and gradle
+- the Groovy team is on <a href="https://twitter.com/apachegroovy">Twitter</a>
+- The  Google BigQuery Public Dataset GitHub snapshot shows 20k users using Groovy in 27k repos on <a href="https://api.github.com/search/repositories?q=language:Groovy">GitHub</a>
+- Check out the 49 <a href="https://www.meetup.com/topics/groovy-programming-language/">Groovy meetup groups</a> on Meetup.com.
+- There are 2,900 members in the <a href="https://reddit.com/r/groovy">Groovy subreddit</a>
+- There are 121 <a href="https://projecteuler.net/language=Groovy">Project Euler</a> users using Groovy
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Groovy programmers reported a median salary of $75,002. 3% of respondents reported using Groovy. 2,479 programmers reported using Groovy, and 1,177 said they wanted to use it
+- Explore Groovy snippets on <a href="http://www.rosettacode.org/wiki/Category:Groovy">Rosetta Code</a>
+- Groovy ranks #29 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/groovy">Ubuntu package</a> for Groovy
+- Here is a Groovy <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/palantir/groovy-language-server/">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/groovy">package</a> for syntax highlighting Groovy
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Groovy
+- GitHub supports <a href="https://github.com/textmate/groovy.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Groovy
+- Groovy appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- <a href="http://groovy-lang.org/">groovy-lang.org</a> was registered in 2011
+- See also: (18 related languages)<a href="java.html">Java</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="perl.html">Perl</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="objective-c.html">Objective-C</a>, <a href="kotlin.html">Kotlin</a>, <a href="jvm.html">JVM</a>, <a href="regex.html">Regular Expressions</a>, <a href="xml.html">XML</a>, <a href="html.html">HTML</a>, <a href="json.html">JSON</a>, <a href="android.html">Android</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="emacs-editor.html">Emacs</a>, <a href="textmate-editor.html">TextMate</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="javascript.html">JavaScript</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/groovy">Improve our Groovy file</a>
 
 html
  <br>
@@ -83,14 +78,11 @@ code
  def bird = new Bird() /* instantiate a new Bird */
  assert bird.fly() == &quot;I&#39;m flying!&quot; /* the Bird class automatically gets the behavior of the FlyingAbility trait */
 
-
-
-subsection <a href="../lists/keywords.html?filter=groovy">Keywords</a> in Groovy
-paragraph
- as assert break case catch class const continue def default do else enum extends false finally for goto if implements import in instanceof interface new null package return super switch this throw throws trait true try while
+## <a href="../lists/keywords.html?filter=groovy">Keywords</a> in Groovy
+* as assert break case catch class const continue def default do else enum extends false finally for goto if implements import in instanceof interface new null package return super switch this throw throws trait true try while
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -195,17 +187,14 @@ treeTable
   Example
   Token 
 
-
-
 foldBreak
-subsection Books about Groovy on goodreads
+## Books about Groovy on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Programming Groovy|https://www.goodreads.com/search?q=Programming Groovy Venkat Subramaniam|Venkat Subramaniam|2008|13|121|3.81
 
-
 foldBreak
-subsection Books about Groovy from ISBNdb
+## Books about Groovy from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Scripting in Java: Integrating with Groovy and JavaScript|https://isbndb.com/book/9781484207147|Sharan, Kishori|2014|Apress
@@ -230,9 +219,8 @@ pipeTable
  Programming Groovy 2: dynamic productivity for the Java developer|https://isbndb.com/book/9781937785307|Subramaniam, Venkat.||The Pragmatic Programmers
  Unity 4.x Game Development By Example Beginner's Guide: A Seat-of-your-pants Manual For Building Fun, Groovy Little Games Quickly With Unity 4.x|https://isbndb.com/book/9781849695268|Creighton, Ryan Henson.||Packt Pub.
 
-
 foldBreak
-subsection Publications about Groovy from Semantic Scholar
+## Publications about Groovy from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Groovy package templates: supporting reuse and runtime adaption of class hierarchies|https://www.semanticscholar.org/paper/6d32b1e21b79b56e6970eca79df12539a7090851|Eyvind W. Axelsen and S. Krogdahl|2009|14|2
@@ -243,9 +231,4 @@ pipeTable
  A history of the Groovy programming language|https://www.semanticscholar.org/paper/87b32a739617b59dee229021e92709b399426c47|Paul King|2020|2|0
  Feature oriented programming in Groovy|https://www.semanticscholar.org/paper/61d2c11296a483800dea25917c23e878a87097cb|G. T. Assis and Gustavo Vale and Eduardo Figueiredo|2017|1|0
 
-
-
-
-
-
-keyboardNav racket.html graphql.html
+keyboardNav graphql.html latex.html

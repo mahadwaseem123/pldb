@@ -1,58 +1,54 @@
 title Haskell
 
 import settings.scroll
-htmlTitle Haskell - Pl
+htmlTitle Haskell - Programming language
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/haskell.pldb
 
-paragraph
- Haskell is a <a href="../lists/languages.html?filter=pl">pl</a> created in <a href="../lists/languages.html?filter=1990">1990</a> by <a href="../lists/creators.html#Paul_Hudak">Paul Hudak</a> and <a href="../lists/creators.html#John_Hughes">John Hughes</a>.
+* Haskell is a <a href="../lists/languages.html?filter=pl">programming language</a> created in 1990 by Paul Hudak and John Hughes.
+ link ../lists/languages.html?filter=1990 1990
+ link ../lists/creators.html#Paul_Hudak Paul Hudak
+ link ../lists/creators.html#John_Hughes John Hughes
+ 
 
 kpiTable
- #30 <span title="TotalRank: 99 Jobs: 53 Users: 49 Facts: 36 Links: 14">on PLDB</span>
+ #30 <span title="TotalRank: 100 Jobs: 53 Users: 49 Facts: 37 Links: 14">on PLDB</span>
  32 Years Old
  37.6k <span title="Crude user estimate from a linear model.">Users</span>
  70 <span title="Books about or leveraging Haskell">Books</span>
  34 <span title="Academic publications about or leveraging Haskell">Papers</span>
  127k <span title="Haskell repos on GitHub.">Repos</span>
 
-paragraph
- Try now: <a href="https://riju.codes/haskell">Riju</a> · <a href="https://tio.run/#haskell">TIO</a> · <a href="https://repl.it/languages/haskell">Replit</a>
+* Try now: <a href="https://riju.codes/haskell">Riju</a> · <a href="https://tio.run/#haskell">TIO</a> · <a href="https://repl.it/languages/haskell">Replit</a>
 
+* Haskell  is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry. The latest standard of Haskell is Haskell 2010. <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Read more on Wikipedia...</a>
 
-
-
-
-paragraph
- Haskell  is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry. The latest standard of Haskell is Haskell 2010. <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Read more on Wikipedia...</a>
-
-list
- - the <a href="https://www.haskell.org">Haskell website</a>
- - the <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell Wikipedia page</a>
- - PLDB has 2 documentation sites for Haskell: <a href="https://www.haskell.org/documentation/">www.haskell.org</a>, <a href="https://devdocs.io/haskell/">devdocs.io</a>
- - There are at least 126,924 Haskell repos on <a href="https://github.com/search?q=language:Haskell">GitHub</a>
- - PLDB estimates there are currently 495 job openings for Haskell programmers.
- - file extensions for Haskell include hs, lhs, hs-boot and hsc
- - The  Google BigQuery Public Dataset GitHub snapshot shows 13k users using Haskell in 30k repos on <a href="https://api.github.com/search/repositories?q=language:Haskell">GitHub</a>
- - Check out the 311 <a href="https://www.meetup.com/topics/haskell/">Haskell meetup groups</a> on Meetup.com.
- - There are 7,098 <a href="https://projecteuler.net/language=Haskell">Project Euler</a> users using Haskell
- - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Haskell programmers reported a median salary of $67,021. 2% of respondents reported using Haskell. 1,749 programmers reported using Haskell, and 3,453 said they wanted to use it
- - Explore Haskell snippets on <a href="http://www.rosettacode.org/wiki/Category:Haskell">Rosetta Code</a>
- - Haskell is listed on <a href="https://hopl.info/showlanguage.prx?exp=1555">HOPL</a>
- - Haskell appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
- - There is an <a href="https://packages.ubuntu.com/jammy/ghc">Ubuntu package</a> for Haskell
- - Here is a Haskell <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/haskell/haskell-ide-engine">implementation</a>
- - There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/haskell">package</a> for syntax highlighting Haskell
- - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Haskell
- - GitHub supports <a href="https://github.com/atom-haskell/language-haskell" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Haskell
- - Haskell appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
- - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/gibiansky/IHaskell">Kernel</a> for Haskell
- - There is a <a href="https://hackage.haskell.org/">central package repository</a> for Haskell
- - Indeed.com has 190 matches for <a href="https://www.indeed.com/jobs?q=haskell developer">"haskell developer"</a>.
- - <a href="https://www.haskell.org">haskell.org</a> was registered in 1996
- - See also: (43 related languages)<a href="clean.html">Clean</a>, <a href="fp.html">FP</a>, <a href="hope.html">HOPE</a>, <a href="id.html">Irvine Dataflow</a>, <a href="iswim.html">ISWIM</a>, <a href="krc.html">KRC</a>, <a href="lisp.html">Lisp</a>, <a href="miranda.html">Miranda</a>, <a href="ml.html">ML</a>, <a href="standard-ml.html">Standard ML</a>, <a href="scheme.html">Scheme</a>, <a href="sisal.html">SISAL</a>, <a href="agda.html">Agda</a>, <a href="csharp.html">C#</a>, <a href="linq.html">LINQ</a>, <a href="cayenne.html">Cayenne</a>, <a href="clojure.html">Clojure</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="curry.html">Curry</a>, <a href="elm.html">Elm</a>, <a href="epigram.html">Epigram</a>, <a href="f-sharp.html">F#</a>, <a href="frege.html">Frege</a>, <a href="hack.html">Hack</a>, <a href="idris.html">Idris</a>, <a href="java.html">Java</a>, <a href="livescript.html">LiveScript</a>, <a href="mercury.html">Mercury</a>, <a href="perl-6.html">Perl 6</a>, <a href="python.html">Python</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="swift.html">Swift</a>, <a href="visual-basic.net.html">Visual Basic .NET</a>, <a href="c.html">C</a>, <a href="c--.html">C--</a>, <a href="llvmir.html">LLVM IR</a>, <a href="opengl.html">OpenGL</a>, <a href="javascript.html">JavaScript</a>, <a href="lazyml.html">Lazy ML</a>, <a href="pandoc-app.html">Pandoc</a>, <a href="cryptol.html">Cryptol</a>, <a href="jvm.html">JVM</a>
- - HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
- - <a href="https://build.pldb.com/edit/haskell">Improve our Haskell file</a>
+- the <a href="https://www.haskell.org">Haskell website</a>
+- the <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell Wikipedia page</a>
+- PLDB has 2 documentation sites for Haskell: <a href="https://www.haskell.org/documentation/">www.haskell.org</a>, <a href="https://devdocs.io/haskell/">devdocs.io</a>
+- There are at least 126,924 Haskell repos on <a href="https://github.com/search?q=language:Haskell">GitHub</a>
+- PLDB estimates there are currently 495 job openings for Haskell programmers.
+- file extensions for Haskell include hs, lhs, hs-boot and hsc
+- The  Google BigQuery Public Dataset GitHub snapshot shows 13k users using Haskell in 30k repos on <a href="https://api.github.com/search/repositories?q=language:Haskell">GitHub</a>
+- Check out the 311 <a href="https://www.meetup.com/topics/haskell/">Haskell meetup groups</a> on Meetup.com.
+- There are 7,098 <a href="https://projecteuler.net/language=Haskell">Project Euler</a> users using Haskell
+- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Haskell programmers reported a median salary of $67,021. 2% of respondents reported using Haskell. 1,749 programmers reported using Haskell, and 3,453 said they wanted to use it
+- Explore Haskell snippets on <a href="http://www.rosettacode.org/wiki/Category:Haskell">Rosetta Code</a>
+- Haskell is listed on <a href="https://hopl.info/showlanguage.prx?exp=1555">HOPL</a>
+- Haskell appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
+- There is an <a href="https://packages.ubuntu.com/jammy/ghc">Ubuntu package</a> for Haskell
+- Here is a Haskell <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/haskell/haskell-ide-engine">implementation</a>
+- There is a <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/haskell">package</a> for syntax highlighting Haskell
+- <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Haskell
+- GitHub supports <a href="https://github.com/atom-haskell/language-haskell" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Haskell
+- Haskell appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
+- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/gibiansky/IHaskell">Kernel</a> for Haskell
+- There is a <a href="https://hackage.haskell.org/">central package repository</a> for Haskell
+- Indeed.com has 190 matches for <a href="https://www.indeed.com/jobs?q=haskell developer">"haskell developer"</a>.
+- <a href="https://www.haskell.org">haskell.org</a> was registered in 1996
+- See also: (43 related languages)<a href="clean.html">Clean</a>, <a href="fp.html">FP</a>, <a href="hope.html">HOPE</a>, <a href="id.html">Irvine Dataflow</a>, <a href="iswim.html">ISWIM</a>, <a href="krc.html">KRC</a>, <a href="lisp.html">Lisp</a>, <a href="miranda.html">Miranda</a>, <a href="ml.html">ML</a>, <a href="standard-ml.html">Standard ML</a>, <a href="scheme.html">Scheme</a>, <a href="sisal.html">SISAL</a>, <a href="agda.html">Agda</a>, <a href="csharp.html">C#</a>, <a href="linq.html">LINQ</a>, <a href="cayenne.html">Cayenne</a>, <a href="clojure.html">Clojure</a>, <a href="coffeescript.html">CoffeeScript</a>, <a href="curry.html">Curry</a>, <a href="elm.html">Elm</a>, <a href="epigram.html">Epigram</a>, <a href="f-sharp.html">F#</a>, <a href="frege.html">Frege</a>, <a href="hack.html">Hack</a>, <a href="idris.html">Idris</a>, <a href="java.html">Java</a>, <a href="livescript.html">LiveScript</a>, <a href="mercury.html">Mercury</a>, <a href="perl-6.html">Perl 6</a>, <a href="python.html">Python</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="swift.html">Swift</a>, <a href="visual-basic.net.html">Visual Basic .NET</a>, <a href="c.html">C</a>, <a href="c--.html">C--</a>, <a href="llvmir.html">LLVM IR</a>, <a href="opengl.html">OpenGL</a>, <a href="javascript.html">JavaScript</a>, <a href="lazyml.html">Lazy ML</a>, <a href="pandoc-app.html">Pandoc</a>, <a href="cryptol.html">Cryptol</a>, <a href="jvm.html">JVM</a>
+- HTML of this page generated by <a href="https://github.com/breck7/pldb/blob/main/code/LanguagePage.ts">LanguagePage.ts</a>
+- <a href="https://build.pldb.com/edit/haskell">Improve our Haskell file</a>
 
 html
  <br>
@@ -106,14 +102,11 @@ code
  Prelude Data.Int&gt; fromInteger (2^64 :: Integer) :: Int32
  0
 
-
-
-subsection <a href="../lists/keywords.html?filter=haskell">Keywords</a> in Haskell
-paragraph
- ! ' '' - -< -<< -> :: ; <- , = => > ? # \* @ [|, |] \ \_ ` {, } {-, -} | ~ as case of class data family instance default deriving do forall foreign hiding if then else import infix infixl infixr let in mdo module newtype proc qualified rec type where
+## <a href="../lists/keywords.html?filter=haskell">Keywords</a> in Haskell
+* ! ' '' - -< -<< -> :: ; <- , = => > ? # \* @ [|, |] \ \_ ` {, } {-, -} | ~ as case of class data family instance default deriving do forall foreign hiding if then else import infix infixl infixr let in mdo module newtype proc qualified rec type where
 
 foldBreak
-subsection Language <a href="../lists/features.html">features</a>
+## Language <a href="../lists/features.html">features</a>
 
 treeTable
  row
@@ -316,10 +309,8 @@ treeTable
    "hello world"
   Token "
 
-
-
 foldBreak
-subsection Books about Haskell on goodreads
+## Books about Haskell on goodreads
 pipeTable
  title|titleLink|author|year|reviews|ratings|rating
  Programming in Haskell|https://www.goodreads.com/search?q=Programming in Haskell Graham  Hutton|Graham  Hutton|2006|28|306|3.98
@@ -327,9 +318,8 @@ pipeTable
  Haskell: The Craft of Functional Programming|https://www.goodreads.com/search?q=Haskell: The Craft of Functional Programming Simon Thompson|Simon Thompson|1996|8|159|3.53
  The Haskell Road to Logic, Maths and Programming|https://www.goodreads.com/search?q=The Haskell Road to Logic, Maths and Programming Kees Doets|Kees Doets|2004|5|110|3.67
 
-
 foldBreak
-subsection Books about Haskell from ISBNdb
+## Books about Haskell from ISBNdb
 pipeTable
  title|titleLink|authors|year|publisher
  Programming in Haskell|https://isbndb.com/book/9781316626221|Hutton, Graham|2016|Cambridge University Press
@@ -399,9 +389,8 @@ pipeTable
  Introduction To Functional Programming Systems Using Haskell (cambridge Computer Science Texts)|https://isbndb.com/book/9780521258302|Antony J. T. Davie|1992|Cambridge University Press
  JAVA BY DISSECTION The Essentials of Java Programming - Javaplace Edition with Haskell - The Craft of Functional Programming|https://isbndb.com/book/9780582849426|Pohl and Ira||
 
-
 foldBreak
-subsection Publications about Haskell from Semantic Scholar
+## Publications about Haskell from Semantic Scholar
 pipeTable
  title|titleLink|authors|year|citations|influentialCitations
  Template meta-programming for Haskell|https://www.semanticscholar.org/paper/9cf2790a364e5c14fb37bbd8026902712ac6b2aa|T. Sheard and S. Jones|2002|527|62
@@ -438,10 +427,5 @@ pipeTable
  A Purely Functional Computer Algebra System Embedded in Haskell|https://www.semanticscholar.org/paper/313e883a7f66075b6573704768f7790e568c1ded|Hiromi Ishii|2018|3|0
  Learn Physics by Programming in Haskell|https://www.semanticscholar.org/paper/f7a8926d40dada932192f465709deb970f245d3f|S. Walck|2014|3|0
  Towards secure IoT programming in Haskell|https://www.semanticscholar.org/paper/19aa46db9aca26b92d479332dab89584e61ef93a|Nachiappan Valliappan and Robert Krook and Alejandro Russo and K. Claessen|2020|2|0
-
-
-
-
-
 
 keyboardNav arm.html lisp.html
