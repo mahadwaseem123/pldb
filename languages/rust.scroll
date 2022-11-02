@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/rust.pldb
  
 
 kpiTable
- #26 <span title="TotalRank: 81 Jobs: 69 Users: 25 Facts: 29 Links: 27">on PLDB</span>
+ #25 <span title="TotalRank: 80 Jobs: 69 Users: 25 Facts: 28 Links: 27">on PLDB</span>
  12 Years Old
  194.0k <span title="Crude user estimate from a linear model.">Users</span>
  65 <span title="Books about or leveraging Rust">Books</span>
@@ -41,7 +41,7 @@ monacoEditor rust
 - file extensions for Rust include rs, rlib, rsin and rs.in
 - the Rust team is on <a href="https://twitter.com/rustlang">Twitter</a>
 - The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Rust in 16k repos on <a href="https://api.github.com/search/repositories?q=language:Rust">GitHub</a>
-- Check out the 122 <a href="https://www.meetup.com/topics/rust/">Rust meetup groups</a> on Meetup.com.
+- Check out the 122 <a href="rust/">Rust meetup groups</a> on Meetup.com.
 - There are 186,942 members in the <a href="https://reddit.com/r/rust">Rust subreddit</a>
 - There are 1,227 <a href="https://projecteuler.net/language=Rust">Project Euler</a> users using Rust
 - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Rust programmers reported a median salary of $77,530. 7% of respondents reported using Rust. 5,799 programmers reported using Rust, and 15,865 said they wanted to use it
@@ -57,6 +57,7 @@ monacoEditor rust
 - Rust appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
 - There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/google/evcxr/tree/master/evcxr_jupyter">Kernel</a> for Rust
 - There is a <a href="https://crates.io/">central package repository</a> for Rust
+- Official Blog page for Rust<a href="https://blog.rust-lang.org/">(Link)</a>
 - Indeed.com has 141 matches for <a href="https://www.indeed.com/jobs?q=rust engineer">"rust engineer"</a>.
 - <a href="https://www.rust-lang.org">rust-lang.org</a> was registered in 2010
 - See also: (28 related languages)<a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="android.html">Android</a>, <a href="ios.html">iOS</a>, <a href="alef.html">ALEF</a>, <a href="csharp.html">C#</a>, <a href="cyclone.html">Cyclone</a>, <a href="erlang.html">Erlang</a>, <a href="haskell.html">Haskell</a>, <a href="haxe.html">Haxe</a>, <a href="limbo.html">Limbo</a>, <a href="newsqueak.html">Newsqueak</a>, <a href="ruby.html">Ruby</a>, <a href="scheme.html">Scheme</a>, <a href="standard-ml.html">Standard ML</a>, <a href="swift.html">Swift</a>, <a href="crystal.html">Crystal</a>, <a href="elm.html">Elm</a>, <a href="idris.html">Idris</a>, <a href="c.html">C</a>, <a href="ml.html">ML</a>, <a href="go.html">Go</a>, <a href="java.html">Java</a>, <a href="ocaml.html">OCaml</a>, <a href="llvmir.html">LLVM IR</a>, <a href="d.html">D</a>, <a href="nim.html">Nim</a>, <a href="emacs-editor.html">Emacs</a>
@@ -372,4 +373,4 @@ pipeTable
  Performance vs Programming Effort between Rust and C on Multicore Architectures: Case Study in N-Body|https://www.semanticscholar.org/paper/74dfb86326be51d0cc2d0aee69d3266d8994ea31|Manuel Costanzo and Enzo Rucci and M. Naiouf and A. D. Giusti|2021|1|0
  On Evaluating Rust as a Programming Language for the Future of Massive Agent-Based Simulations|https://www.semanticscholar.org/paper/f57083b736fa347d6e48d09bdc09a308df017eeb|Alessia Antelmi and G. Cordasco and Matteo D'Auria and Daniele De Vinco and A. Negro and Carmine Spagnuolo|2019|1|0
 
-keyboardNav powershell.html kotlin.html
+keyboardNav postgresql.html powershell.html

@@ -193,6 +193,13 @@ jupyterKernelNode
  description A link to a Jupyter Kernel for this language.
  cruxFromId
  string sourceDomain jupyter.org
+meetupNode
+ description Some languages have active meetup groups on Meetup.com 
+ extends abstractUrlGuidNode
+ contentKey url
+ inScope meetupMemberCountNode meetupGroupCountNode
+ string sourceDomain meetup.com
+ cruxFromId
 subredditNode
  extends abstractUrlGuidNode
  inScope subredditMemberCountNode
@@ -219,12 +226,6 @@ codeMirrorNode
  extends abstractOneWordGuidNode
  description A link to a CodeMirror syntax highlighting package for this language (https://github.com/codemirror/codemirror5/tree/master/mode/LANGUAGE)
  string sourceDomain codemirror.net
-meetupNode
- description Some languages have active meetup groups on Meetup.com 
- extends abstractOneWordGuidNode
- contentKey id
- inScope meetupMemberCountNode meetupGroupCountNode
- string sourceDomain meetup.com
 monacoNode
  extends abstractOneWordGuidNode
  description A link to a Monaco syntax highlighting package for this language.

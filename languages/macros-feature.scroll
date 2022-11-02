@@ -21,7 +21,7 @@ html
 
 * Languages *without* Macros include <a href="java.html">Java</a>, <a href="javascript.html">JavaScript</a>, <a href="kotlin.html">Kotlin</a>
 
-* Languages *with* Macros include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="rust.html">Rust</a>, <a href="clojure.html">Clojure</a>, <a href="elixir.html">Elixir</a>, <a href="erlang.html">Erlang</a>, <a href="scheme.html">Scheme</a>, <a href="racket.html">Racket</a>, <a href="nim.html">Nim</a>, <a href="factor.html">Factor</a>, <a href="slope.html">Slope</a>, <a href="gerbil.html">Gerbil Scheme</a>, <a href="honu.html">honu</a>
+* Languages *with* Macros include <a href="c.html">C</a>, <a href="cpp.html">C++</a>, <a href="rust.html">Rust</a>, <a href="clojure.html">Clojure</a>, <a href="erlang.html">Erlang</a>, <a href="elixir.html">Elixir</a>, <a href="scheme.html">Scheme</a>, <a href="racket.html">Racket</a>, <a href="nim.html">Nim</a>, <a href="factor.html">Factor</a>, <a href="slope.html">Slope</a>, <a href="gerbil.html">Gerbil Scheme</a>, <a href="honu.html">honu</a>
 
 exampleCodeHeader Example from <a href="c.html">C</a>:
 
@@ -43,16 +43,16 @@ exampleCodeHeader Example from <a href="clojure.html">Clojure</a>:
 code
  https://clojure.org/reference/macros
 
-exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
-
-code
- https://hexdocs.pm/elixir/Macro.html
-
 exampleCodeHeader Example from <a href="erlang.html">Erlang</a>:
 
 code
  -define(Const, Replacement).
  -define(Func(Var1,...,VarN), Replacement).
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ https://hexdocs.pm/elixir/Macro.html
 
 exampleCodeHeader Example from <a href="scheme.html">Scheme</a>:
 

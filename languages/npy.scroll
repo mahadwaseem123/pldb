@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/npy.pldb
  
 
 kpiTable
- #4735 on PLDB
+ #4736 on PLDB
  14 Years Old
 
 * A simple format for saving numpy arrays to disk with the full information about them. The .npy format is the standard binary file format in NumPy for persisting a single arbitrary NumPy array on disk.

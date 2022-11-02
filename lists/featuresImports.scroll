@@ -6,7 +6,7 @@ replace TABLE
   feature|featureLink|pseudoExample|yes|no|percentage
   Comments|../languages/comment-feature.html|# Hello PLDB|612|3|100%
   Line Comments|../languages/line-comments-feature.html|# Hello PLDB|516|21|96%
-  Strings|../languages/strings-feature.html|"Hello PLDB"|353|0|100%
+  Strings|../languages/strings-feature.html|"Hello PLDB"|354|0|100%
   Print() Debugging|../languages/print-debugging-feature.html|print "Hello PLDB"|312|0|100%
   MultiLine Comments|../languages/multiline-comments-feature.html|/* Hello PLDB */|214|18|92%
   Integers|../languages/integers-feature.html|80766866|146|0|100%
@@ -36,7 +36,7 @@ replace TABLE
   Multiple Inheritance|../languages/multiple-inheritance-feature.html|extends parentWhichExtendsSomethingElse|13|1|-
   Macros|../languages/macros-feature.html|#define pldbItems 4000|13|3|-
   Constructors|../languages/constructor-feature.html|PLDBFile { constructor() {} }|13|0|-
-  Lists|../languages/lists-feature.html|[2, 3, 10]|11|0|-
+  Lists|../languages/lists-feature.html|[2, 3, 10]|12|0|-
   Message Passing|../languages/message-passing-feature.html|"get pldb"|10|0|-
   Static Typing|../languages/static-typing-feature.html|int pldbRank = 100|8|0|-
   Single Dispatch|../languages/single-dispatch-feature.html|person.run()|8|0|-

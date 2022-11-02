@@ -11,16 +11,16 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/x.pldb
  
 
 kpiTable
- #534 <span title="TotalRank: 1090 Jobs: 101 Users: 1779 Facts: 36 Links: 953">on PLDB</span>
+ #533 <span title="TotalRank: 1089 Jobs: 101 Users: 1730 Facts: 35 Links: 953">on PLDB</span>
  1 Years Old
- 52 <span title="Crude user estimate from a linear model.">Users</span>
+ 59 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging Jule">Books</span>
  0 <span title="Academic publications about or leveraging Jule">Papers</span>
 
 * Jule is the simple, efficient, statically typed and compiled system programming language.
 
 - the <a href="https://jule.dev">Jule website</a>
-- Jule is developed on <a href="https://github.com/julelang/jule">GitHub</a> and has 35 stars
+- Jule is developed on <a href="https://github.com/julelang/jule">GitHub</a> and has 39 stars
 - the <a href="https://jule.dev/pages/docs.html">Jule docs</a>
 - file extensions for Jule include .jule
 - Jule is written in <a href="go.html">Go</a> & <a href="cpp.html">C++</a>
@@ -141,6 +141,9 @@ treeTable
   FeatureLink ../languages/conditionals-feature.html
   Supported ✓
   Example
+   if BOOLEAN_EXPRESSION {
+     outln(""Condition is true)
+   }
   Token 
  row
   Feature Manual Memory Management
@@ -484,4 +487,4 @@ treeTable
   Example
   Token 
 
-keyboardNav cweb.html codeql.html
+keyboardNav parrot-internal-representation.html cweb.html

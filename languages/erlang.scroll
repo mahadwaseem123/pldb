@@ -13,7 +13,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/erlang.pl
  
 
 kpiTable
- #46 <span title="TotalRank: 150 Jobs: 58 Users: 60 Facts: 50 Links: 42">on PLDB</span>
+ #44 <span title="TotalRank: 149 Jobs: 58 Users: 60 Facts: 49 Links: 42">on PLDB</span>
  36 Years Old
  27.1k <span title="Crude user estimate from a linear model.">Users</span>
  29 <span title="Books about or leveraging Erlang">Books</span>
@@ -33,7 +33,7 @@ kpiTable
 - file extensions for Erlang include erl, hrl, appsrc, es, escript, xrl and yrl
 - the Erlang team is on <a href="https://twitter.com/erlang_org">Twitter</a>
 - The  Google BigQuery Public Dataset GitHub snapshot shows 9k users using Erlang in 15k repos on <a href="https://api.github.com/search/repositories?q=language:Erlang">GitHub</a>
-- Check out the 306 <a href="https://www.meetup.com/topics/erlang-programming/">Erlang meetup groups</a> on Meetup.com.
+- Check out the 306 <a href="erlang-programming/">Erlang meetup groups</a> on Meetup.com.
 - There are 9,057 members in the <a href="https://reddit.com/r/erlang">Erlang subreddit</a>
 - There are 618 <a href="https://projecteuler.net/language=Erlang">Project Euler</a> users using Erlang
 - In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Erlang programmers reported a median salary of $80,077. 1% of respondents reported using Erlang. 651 programmers reported using Erlang, and 1,379 said they wanted to use it
@@ -49,6 +49,7 @@ kpiTable
 - Erlang appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
 - PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Erlang: <a href="https://github.com/robbielynch/ierlang">github.com</a>, <a href="https://github.com/filmor/ierl">github.com</a>
 - There is a <a href="https://hex.pm/">central package repository</a> for Erlang
+- Release Notes for Erlang<a href="https://www.erlang.org/news">(Link)</a>
 - Indeed.com has 183 matches for <a href="https://www.indeed.com/jobs?q=erlang engineer">"erlang engineer"</a>.
 - <a href="https://www.erlang.org">erlang.org</a> was registered in 1998
 - See also: (17 related languages)<a href="prolog.html">Prolog</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="plex.html">PLEX</a>, <a href="f-sharp.html">F#</a>, <a href="clojure.html">Clojure</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="opa.html">Opa</a>, <a href="elixir.html">Elixir</a>, <a href="dart.html">Dart</a>, <a href="oz.html">Oz</a>, <a href="java.html">Java</a>, <a href="ascii.html">ASCII</a>, <a href="occam.html">Occam</a>, <a href="csp.html">CSP</a>, <a href="lfe.html">LFE</a>, <a href="lisp.html">Lisp</a>
@@ -323,4 +324,4 @@ pipeTable
  Bidirectional typing for Erlang|https://www.semanticscholar.org/paper/2dae5bb95f2ba11afa4ffc598c1ce663a7a29331|Nithin Vadukkumchery Rajendrakumar and Annette Bieniusa|2021|1|0
  Supporting cloud computing using Erlang Programming Language|https://www.semanticscholar.org/paper/7d8e01ca6dda72b0d179099826a30a65effc5953|Abd El-Fattah Hussein and O. Ibrahim|2012|1|1
 
-keyboardNav nodejs.html cuda.html
+keyboardNav objective-c.html elixir.html
