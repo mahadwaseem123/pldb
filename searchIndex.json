@@ -228,16 +228,16 @@
     "url": "/languages/http.html"
   },
   {
-    "label": "Prolog",
-    "appeared": 1972,
-    "id": "prolog",
-    "url": "/languages/prolog.html"
-  },
-  {
     "label": "Node.js",
     "appeared": 2009,
     "id": "nodejs",
     "url": "/languages/nodejs.html"
+  },
+  {
+    "label": "Prolog",
+    "appeared": 1972,
+    "id": "prolog",
+    "url": "/languages/prolog.html"
   },
   {
     "label": "Objective-C",
@@ -294,10 +294,10 @@
     "url": "/languages/elixir.html"
   },
   {
-    "label": "CUDA",
-    "appeared": 2007,
-    "id": "cuda",
-    "url": "/languages/cuda.html"
+    "label": "Scheme",
+    "appeared": 1970,
+    "id": "scheme",
+    "url": "/languages/scheme.html"
   },
   {
     "label": "Julia",
@@ -306,22 +306,22 @@
     "url": "/languages/julia.html"
   },
   {
-    "label": "Scheme",
-    "appeared": 1970,
-    "id": "scheme",
-    "url": "/languages/scheme.html"
-  },
-  {
-    "label": "Dart",
-    "appeared": 2011,
-    "id": "dart",
-    "url": "/languages/dart.html"
+    "label": "CUDA",
+    "appeared": 2007,
+    "id": "cuda",
+    "url": "/languages/cuda.html"
   },
   {
     "label": "Arduino",
     "appeared": 2005,
     "id": "arduino",
     "url": "/languages/arduino.html"
+  },
+  {
+    "label": "Dart",
+    "appeared": 2011,
+    "id": "dart",
+    "url": "/languages/dart.html"
   },
   {
     "label": "Emacs",
@@ -372,16 +372,16 @@
     "url": "/languages/vim-editor.html"
   },
   {
-    "label": "BASIC",
-    "appeared": 1964,
-    "id": "basic",
-    "url": "/languages/basic.html"
-  },
-  {
     "label": "Ruby on Rails",
     "appeared": 2005,
     "id": "rails",
     "url": "/languages/rails.html"
+  },
+  {
+    "label": "BASIC",
+    "appeared": 1964,
+    "id": "basic",
+    "url": "/languages/basic.html"
   },
   {
     "label": "WordPress",
@@ -1326,12 +1326,6 @@
     "url": "/languages/icon.html"
   },
   {
-    "label": "X10",
-    "appeared": 2004,
-    "id": "x10",
-    "url": "/languages/x10.html"
-  },
-  {
     "label": "Scilab",
     "appeared": 1990,
     "id": "scilab",
@@ -1342,6 +1336,12 @@
     "appeared": 1976,
     "id": "makefile",
     "url": "/languages/makefile.html"
+  },
+  {
+    "label": "X10",
+    "appeared": 2004,
+    "id": "x10",
+    "url": "/languages/x10.html"
   },
   {
     "label": "Scikit-learn",
@@ -3492,6 +3492,12 @@
     "url": "/languages/cfml.html"
   },
   {
+    "label": "dynamo-visual-language",
+    "appeared": 2011,
+    "id": "dynamo-visual-language",
+    "url": "/languages/dynamo-visual-language.html"
+  },
+  {
     "label": "RUNOFF",
     "appeared": 1965,
     "id": "runoff",
@@ -3502,12 +3508,6 @@
     "appeared": 2020,
     "id": "aith",
     "url": "/languages/aith.html"
-  },
-  {
-    "label": "dynamo-visual-language",
-    "appeared": 2011,
-    "id": "dynamo-visual-language",
-    "url": "/languages/dynamo-visual-language.html"
   },
   {
     "label": "CWEB",
@@ -3576,16 +3576,16 @@
     "url": "/languages/hexagon.html"
   },
   {
-    "label": "Jule",
-    "appeared": 2021,
-    "id": "x",
-    "url": "/languages/x.html"
-  },
-  {
     "label": "Yes It Is",
     "appeared": 2006,
     "id": "yii",
     "url": "/languages/yii.html"
+  },
+  {
+    "label": "Jule",
+    "appeared": 2021,
+    "id": "x",
+    "url": "/languages/x.html"
   },
   {
     "label": "PIC microcontroller",
@@ -4050,12 +4050,6 @@
     "url": "/languages/jai.html"
   },
   {
-    "label": "FIGlet Font",
-    "appeared": 1991,
-    "id": "figlet-font",
-    "url": "/languages/figlet-font.html"
-  },
-  {
     "label": "Nushell",
     "appeared": 2019,
     "id": "nushell",
@@ -4066,6 +4060,12 @@
     "appeared": 1981,
     "id": "nial",
     "url": "/languages/nial.html"
+  },
+  {
+    "label": "FIGlet Font",
+    "appeared": 1991,
+    "id": "figlet-font",
+    "url": "/languages/figlet-font.html"
   },
   {
     "label": "S3",

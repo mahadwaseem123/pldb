@@ -42,8 +42,8 @@ replace TABLE
   TypeScript|../languages/typescript.html|pl|2012|36
   Lua|../languages/lua.html|pl|1993|37
   HTTP|../languages/http.html|protocol|1989|38
-  Prolog|../languages/prolog.html|pl|1972|39
-  Node.js|../languages/nodejs.html|pl|2009|40
+  Node.js|../languages/nodejs.html|pl|2009|39
+  Prolog|../languages/prolog.html|pl|1972|40
   Objective-C|../languages/objective-c.html|pl|1984|41
   Assembly language|../languages/assembly-language.html|assembly|1960|42
   Clojure|../languages/clojure.html|pl|2007|43
@@ -53,11 +53,11 @@ replace TABLE
   ISBN|../languages/isbn.html|schema|1970|47
   Bash|../languages/bash.html|pl|1989|48
   Elixir|../languages/elixir.html|pl|2011|49
-  CUDA|../languages/cuda.html|pl|2007|50
+  Scheme|../languages/scheme.html|pl|1970|50
   Julia|../languages/julia.html|pl|2012|51
-  Scheme|../languages/scheme.html|pl|1970|52
-  Dart|../languages/dart.html|pl|2011|53
-  Arduino|../languages/arduino.html|pl|2005|54
+  CUDA|../languages/cuda.html|pl|2007|52
+  Arduino|../languages/arduino.html|pl|2005|53
+  Dart|../languages/dart.html|pl|2011|54
   Emacs|../languages/emacs-editor.html|editor|1976|55
   Modula-2|../languages/modula-2.html|pl|1978|56
   Visual Basic|../languages/visual-basic.html|pl|1991|57
@@ -66,8 +66,8 @@ replace TABLE
   VBA|../languages/vba.html|pl|1993|60
   ActionScript|../languages/actionscript.html|pl|1998|61
   Vim|../languages/vim-editor.html|editor|1991|62
-  BASIC|../languages/basic.html|pl|1964|63
-  Ruby on Rails|../languages/rails.html|framework|2005|64
+  Ruby on Rails|../languages/rails.html|framework|2005|63
+  BASIC|../languages/basic.html|pl|1964|64
   WordPress|../languages/wordpress.html|application|2003|65
   Verilog|../languages/verilog.html|hardwareDescriptionLanguage|1984|66
   Solidity|../languages/solidity.html|contractLanguage|2014|67
@@ -225,9 +225,9 @@ replace TABLE
   Flow|../languages/flow.html|pl|2014|219
   Ballerina|../languages/ballerina.html|pl|2015|220
   Icon|../languages/icon.html|pl|1977|221
-  X10|../languages/x10.html|pl|2004|222
-  Scilab|../languages/scilab.html|pl|1990|223
-  Makefile|../languages/makefile.html|pl|1976|224
+  Scilab|../languages/scilab.html|pl|1990|222
+  Makefile|../languages/makefile.html|pl|1976|223
+  X10|../languages/x10.html|pl|2004|224
   Scikit-learn|../languages/scikit-learn.html|library|2007|225
   idyll|../languages/idyll.html|pl|2017|226
   Pug|../languages/pug.html|template|2010|227
@@ -586,9 +586,9 @@ replace TABLE
   Hjson|../languages/hjson.html|dataNotation|2014|580
   PIR|../languages/parrot-internal-representation.html|pl|2006|581
   CFML|../languages/cfml.html|pl|1995|582
-  RUNOFF|../languages/runoff.html|textMarkup|1965|583
-  Aith|../languages/aith.html|pl|2020|584
-  dynamo-visual-language|../languages/dynamo-visual-language.html|visual|2011|585
+  dynamo-visual-language|../languages/dynamo-visual-language.html|visual|2011|583
+  RUNOFF|../languages/runoff.html|textMarkup|1965|584
+  Aith|../languages/aith.html|pl|2020|585
   CWEB|../languages/cweb.html|textMarkup|1987|586
   Emojicode|../languages/emojicode.html|pl|2016|587
   Velocity|../languages/apache-velocity.html|template|2003|588
@@ -600,8 +600,8 @@ replace TABLE
   GeoJSON|../languages/geojson.html|jsonFormat|2008|594
   Velato|../languages/velato.html|esolang|2009|595
   Qualcomm Hexagon|../languages/hexagon.html|assembly|2006|596
-  Jule|../languages/x.html|pl|2021|597
-  Yes It Is|../languages/yii.html|framework|2006|598
+  Yes It Is|../languages/yii.html|framework|2006|597
+  Jule|../languages/x.html|pl|2021|598
   PIC microcontroller|../languages/pic-microcontroller.html|pl|1975|599
   Plain English|../languages/plain-english.html|pl|2018|600
   Microsoft Macro Assembler|../languages/microsoft-macro-assembler.html|assembly|1981|601
@@ -679,9 +679,9 @@ replace TABLE
   Fuzzy Markup Language|../languages/fml.html|xmlFormat|2004|673
   USB|../languages/usb-standard.html|standard|1996|674
   JAI|../languages/jai.html|pl|2014|675
-  FIGlet Font|../languages/figlet-font.html|application|1991|676
-  Nushell|../languages/nushell.html|pl|2019|677
-  Nial|../languages/nial.html|pl|1981|678
+  Nushell|../languages/nushell.html|pl|2019|676
+  Nial|../languages/nial.html|pl|1981|677
+  FIGlet Font|../languages/figlet-font.html|application|1991|678
   S3|../languages/s3.html|pl|1986|679
   Curl|../languages/curl.html|pl|1998|680
   Visual Prolog|../languages/visual-prolog.html|pl|1996|681

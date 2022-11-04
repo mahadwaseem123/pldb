@@ -42,4 +42,4 @@ code
            select sink.getNode().(UnsafeDeserializationSink).getMethodAccess(), source, sink,
        &quot;Unsafe deserialization of $@.&quot;, source.getNode(), &quot;user input&quot;
 
-keyboardNav cweb.html euphoria.html
+keyboardNav x.html euphoria.html
