@@ -13,10 +13,10 @@ replace TABLE
   Floats|../languages/floats-feature.html|80766866.0|126|0|100%
   Booleans|../languages/booleans-feature.html|pldb = true|106|3|97%
   Hexadecimals|../languages/hexadecimals-feature.html|0x4D06792|102|0|100%
-  Conditionals|../languages/conditionals-feature.html|if (isTrue) printPldb()|65|3|-
+  Conditionals|../languages/conditionals-feature.html|if (isTrue) printPldb()|66|3|-
   Semantic Indentation|../languages/semantic-indentation-feature.html|line0 if true line1  print "Hello PLDB"|57|518|10%
   Octals|../languages/octals-feature.html|0o464063622|49|0|-
-  While Loops|../languages/while-loops-feature.html|while (pldb.pop()) loop()|44|1|-
+  While Loops|../languages/while-loops-feature.html|while (pldb.pop()) loop()|45|1|-
   Binary Literals|../languages/binary-numbers-feature.html|0b100110100000110011110010010|44|0|-
   Assignment|../languages/assignment-feature.html|name = "PLDB"|38|0|-
   File Imports|../languages/file-imports-feature.html|import pldb|37|2|-
@@ -35,8 +35,8 @@ replace TABLE
   Scientific Notation|../languages/scientific-notation-feature.html|8076686.6e1|13|0|-
   Multiple Inheritance|../languages/multiple-inheritance-feature.html|extends parentWhichExtendsSomethingElse|13|1|-
   Macros|../languages/macros-feature.html|#define pldbItems 4000|13|3|-
+  Lists|../languages/lists-feature.html|[2, 3, 10]|13|0|-
   Constructors|../languages/constructor-feature.html|PLDBFile { constructor() {} }|13|0|-
-  Lists|../languages/lists-feature.html|[2, 3, 10]|12|0|-
   Message Passing|../languages/message-passing-feature.html|"get pldb"|10|0|-
   Static Typing|../languages/static-typing-feature.html|int pldbRank = 100|8|0|-
   Single Dispatch|../languages/single-dispatch-feature.html|person.run()|8|0|-
@@ -45,6 +45,7 @@ replace TABLE
   Bitwise Operators|../languages/bitwise-operaters-feature.html|3 == (2 &#124; 1)|8|0|-
   Pattern Matching|../languages/pattern-matching-feature.html|fib 0 = 1; fib 1 = 1|7|0|-
   Homoiconicity|../languages/homoiconic-feature.html|(list ())|7|0|-
+  Function Composition|../languages/function-composition-feature.html|o = (f, g) => x => f(g(x))|7|0|-
   Fixed Point Numbers|../languages/fixed-point-feature.html|80766866.00|7|3|-
   Threads|../languages/threads-feature.html|thread1(); thread2();|6|0|-
   Namespaces|../languages/namespace-feature.html|namespace PLDB {}|6|0|-
@@ -54,7 +55,6 @@ replace TABLE
   Interfaces|../languages/interface-feature.html|interface PLDBFile|6|0|-
   Increment and decrement operators|../languages/increment-and-decrement-operators-feature.html|i++|6|1|-
   Generics|../languages/generics-feature.html|function identity&lt;T>(arg: T): T|6|0|-
-  Function Composition|../languages/function-composition-feature.html|o = (f, g) => x => f(g(x))|6|0|-
   Variadic Functions|../languages/variadic-functions-feature.html|args.map(doSomething)|5|0|-
   Units of Measure|../languages/units-of-measure-feature.html|42cm|5|4|-
   Type Casting|../languages/type-casting-feature.html|(float)pldbRank;|5|0|-

@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/flowgorit
  
 
 kpiTable
- #1094 <span title="TotalRank: 1627 Jobs: 101 Users: 1040 Facts: 1625 Links: 486">on PLDB</span>
+ #1096 <span title="TotalRank: 1630 Jobs: 102 Users: 1042 Facts: 1627 Links: 486">on PLDB</span>
  8 Years Old
  221 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging Flowgorithm">Books</span>
@@ -19,7 +19,8 @@ kpiTable
 
 openGraphImage image
 image ../screenshots/flowgorithm.png
- caption A screenshot of the <a href="../lists/languages.html?filter=visual">visual language</a> Flowgorithm.
+ caption A screenshot of the visual language Flowgorithm.
+  link ../lists/languages.html?filter=visual visual language
 
 * Flowgorithm is a free beginner's programming language that is based on simple graphical flowcharts.
 
@@ -35,4 +36,4 @@ image ../screenshots/flowgorithm.png
 html
  <br>
 
-keyboardNav vale.html tsquery.html
+keyboardNav tsquery.html macro.html

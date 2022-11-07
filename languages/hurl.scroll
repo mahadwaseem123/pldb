@@ -11,13 +11,14 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/hurl.pldb
  
 
 kpiTable
- #1090 on PLDB
+ #1098 on PLDB
  2 Years Old
  2.2k <span title="Crude user estimate from a linear model.">Users</span>
 
 openGraphImage image
 image https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/assets/img/hurl-html-file.png
- caption A screenshot of the <a href="../lists/languages.html?filter=visual">visual language</a> hurl.
+ caption A screenshot of the visual language hurl.
+  link ../lists/languages.html?filter=visual visual language
 
 * Hurl is a command line tool that runs HTTP requests defined in a simple plain text format. It can perform requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for both fetching data and testing HTTP sessions
 
@@ -36,4 +37,4 @@ image https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/asset
 html
  <br>
 
-keyboardNav neko.html gfa-basic.html
+keyboardNav fml-lang.html nexus-format.html

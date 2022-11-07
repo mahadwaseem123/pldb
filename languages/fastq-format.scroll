@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/fastq-for
  
 
 kpiTable
- #369 <span title="TotalRank: 827 Jobs: 101 Users: 338 Facts: 1272 Links: 388">on PLDB</span>
+ #369 <span title="TotalRank: 829 Jobs: 102 Users: 339 Facts: 1273 Links: 388">on PLDB</span>
  22 Years Old
  2.1k <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging FASTQ">Books</span>
@@ -39,4 +39,4 @@ exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/FASTQ_form
 code
  sed -e &#39;n;n;n;y/!&quot;#$%&amp;&#39;\&#39;&#39;()*+,-.\/0123456789:;&lt;=&gt;?@ABCDEFGHIJKL/▁▁▁▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇██████/&#39; myfile.fastq   # add -i to save the result to the same input file
 
-keyboardNav scala-js.html thrift.html
+keyboardNav max.html thrift.html

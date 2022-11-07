@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/object-qu
  
 
 kpiTable
- #1556 <span title="TotalRank: 2054 Jobs: 101 Users: 1000 Facts: 1888 Links: 953">on PLDB</span>
+ #1558 <span title="TotalRank: 2057 Jobs: 102 Users: 1002 Facts: 1890 Links: 953">on PLDB</span>
  36 Years Old
  245 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging OQL">Books</span>
@@ -34,4 +34,4 @@ code
  from Persons p, p.children c
  where p.address.street = &quot;Main Street&quot; and count(p.children) &gt;= 2 and c.address.city != p.address.city
 
-keyboardNav esc-p.html sequencel.html
+keyboardNav esc-p.html reforth.html

@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/zone.pldb
  
 
 kpiTable
- #770 on PLDB
+ #771 on PLDB
  21 Years Old
  1.7k <span title="Crude user estimate from a linear model.">Users</span>
  30k <span title="DNS Zone repos on GitHub.">Repos</span>
@@ -50,4 +50,4 @@ exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Zone_file'
 code
  zone &quot;0.0.127.in-addr.arpa&quot;  IN { type master; file &quot;r.local&quot;; };
 
-keyboardNav dat-protocol.html docopt.html
+keyboardNav dat-protocol.html cloud-firestore-security-rules.html

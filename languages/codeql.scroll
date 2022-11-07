@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/codeql.pl
  
 
 kpiTable
- #535 <span title="TotalRank: 1091 Jobs: 101 Users: 126 Facts: 864 Links: 953">on PLDB</span>
+ #536 <span title="TotalRank: 1093 Jobs: 102 Users: 126 Facts: 865 Links: 953">on PLDB</span>
  4 Years Old
  8.3k <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging CodeQL">Books</span>
@@ -42,4 +42,4 @@ code
            select sink.getNode().(UnsafeDeserializationSink).getMethodAccess(), source, sink,
        &quot;Unsafe deserialization of $@.&quot;, source.getNode(), &quot;user input&quot;
 
-keyboardNav x.html euphoria.html
+keyboardNav euphoria.html ncl.html

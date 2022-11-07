@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/kona.pldb
  
 
 kpiTable
- #886 <span title="TotalRank: 1437 Jobs: 101 Users: 383 Facts: 1272 Links: 953">on PLDB</span>
+ #887 <span title="TotalRank: 1439 Jobs: 102 Users: 384 Facts: 1273 Links: 953">on PLDB</span>
  12 Years Old
  1.7k <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging kona">Books</span>
@@ -37,4 +37,4 @@ code
  primes_to_n_sieve:{2_&amp;{:[x@y;x&amp;@[1,-1_ z#(1_ y#1),0;y;:;1];x]}/[x#1;2_!__ceil_sqrt x;x]}
  primes_to_n_sieve2:{:[x&lt;4;,2;r,1_&amp;~|/x#&#39;~!:&#39;r: _f[_ _ceil _sqrt x]]}
 
-keyboardNav creative-basic.html lux.html
+keyboardNav sinclair-basic.html lux.html

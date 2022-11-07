@@ -19,7 +19,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/function-
 html
  <br>
 
-* Languages *with* Function Composition include <a href="javascript.html">JavaScript</a>, <a href="csharp.html">C#</a>, <a href="haskell.html">Haskell</a>, <a href="apl.html">APL</a>, <a href="coconut.html">Coconut</a>, <a href="raku.html">Raku</a>
+* Languages *with* Function Composition include <a href="javascript.html">JavaScript</a>, <a href="csharp.html">C#</a>, <a href="haskell.html">Haskell</a>, <a href="apl.html">APL</a>, <a href="coconut.html">Coconut</a>, <a href="raku.html">Raku</a>, <a href="fp3.html">fp</a>
 
 exampleCodeHeader Example from <a href="javascript.html">JavaScript</a>:
 
@@ -60,5 +60,10 @@ exampleCodeHeader Example from <a href="raku.html">Raku</a>:
 
 code
  my &amp;foo = &amp;f ∘ &amp;g;
+
+exampleCodeHeader Example from <a href="fp3.html">fp</a>:
+
+code
+ /+∘α(bu + 1):&lt;1,2,3,4,5,6,7,8,9,10&gt;
 
 keyboardNav duck-typing-feature.html infix-notation-feature.html
