@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/gams.pldb
  
 
 kpiTable
- #541 <span title="TotalRank: 1098 Jobs: 102 Users: 2341 Facts: 608 Links: 388">on PLDB</span>
+ #527 <span title="TotalRank: 1081 Jobs: 102 Users: 2341 Facts: 591 Links: 388">on PLDB</span>
  34 Years Old
  4 <span title="Books about or leveraging GAMS">Books</span>
  0 <span title="Academic publications about or leveraging GAMS">Papers</span>
@@ -19,6 +19,7 @@ kpiTable
 * The General Algebraic Modeling System (GAMS) is a high-level modeling system for mathematical programming and optimization. It consists of a language compiler and a stable of integrated high-performance solvers. GAMS is tailored for complex, large scale modeling applications, and allows you to build large maintainable models that can be adapted quickly to new situations. GAMS is specifically designed for modeling linear, nonlinear and mixed integer optimization problems.
 
 - the <a href="https://www.gams.com/products/introduction/">GAMS website</a>
+- GAMS first developed in <a href="../lists/originCommunities.html#GAMS_Development_Corp">GAMS Development Corp</a>
 - There are 3 <a href="https://projecteuler.net/language=GAMS">Project Euler</a> users using GAMS
 - GAMS is listed on <a href="https://hopl.info/showlanguage.prx?exp=4914">HOPL</a>
 - Read more about GAMS on Semantic Scholar: <a href="https://semanticscholar.org/paper/cb3e367dc06962b67e543cf02481ac804e85234e">1</a>
@@ -72,4 +73,4 @@ pipeTable
  Continuous Nonlinear Optimization For Engineering Applications In Gams Technology|https://isbndb.com/book/9783319583563|Andrei, Neculai (author.)||Springer International Publishing :
  Nonlinear Optimization Applications Using The Gams Technology (springer Optimization And Its Applications)|https://isbndb.com/book/9781461467960|Neculai Andrei|2013|Springer
 
-keyboardNav apache-velocity.html amqp.html
+keyboardNav java-ee-version-history.html jai.html

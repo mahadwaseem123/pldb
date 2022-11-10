@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/game-make
  
 
 kpiTable
- #756 <span title="TotalRank: 1306 Jobs: 102 Users: 1100 Facts: 251 Links: 953">on PLDB</span>
+ #747 <span title="TotalRank: 1297 Jobs: 102 Users: 1100 Facts: 242 Links: 953">on PLDB</span>
  23 Years Old
  200 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging Game Maker Language">Books</span>
@@ -21,6 +21,7 @@ kpiTable
 * The language historically tries to accommodate different programming backgrounds and styles - BASIC/Lua style "and" / "or" keywords can be used interchangeably with C-style "&&" / "||" operators; parentheses around conditions in if-statements and loops can be omitted; semicolons are largely optional[26] (insertion happens at the end of statement; compile error is raised in case of ambiguity). The language's default mode of operation on native platforms is via a stack machine; it can also be source-to-source compiled to C++ via LLVM for higher performance.[27] On HTML5, GML is source-to-source compiled to JavaScript with optimizations and minification applied in non-debug builds.
 
 - There are at least 278 Game Maker Language repos on <a href="https://github.com/search?q=language:Game Maker Language">GitHub</a>
+- Game Maker Language first developed in <a href="../lists/originCommunities.html#YoYo_Games_Ltd">YoYo Games Ltd</a>
 - file extensions for Game Maker Language include gml
 - The  Google BigQuery Public Dataset GitHub snapshot shows 394 users using Game Maker Language in 430 repos on <a href="https://api.github.com/search/repositories?q=language:Game Maker Language">GitHub</a>
 - There are 2 <a href="https://projecteuler.net/language=Game Maker Language">Project Euler</a> users using Game Maker Language
@@ -139,4 +140,4 @@ treeTable
   Example
   Token 
 
-keyboardNav kodu-game-lab.html refal.html
+keyboardNav colascript.html sql-psm.html

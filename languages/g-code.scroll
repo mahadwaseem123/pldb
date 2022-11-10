@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/g-code.pl
  
 
 kpiTable
- #313 <span title="TotalRank: 732 Jobs: 102 Users: 144 Facts: 578 Links: 486">on PLDB</span>
+ #314 <span title="TotalRank: 732 Jobs: 102 Users: 144 Facts: 553 Links: 486">on PLDB</span>
  72 Years Old
  6.9k <span title="Crude user estimate from a linear model.">Users</span>
  1 <span title="Books about or leveraging G-code">Books</span>
@@ -22,6 +22,7 @@ kpiTable
 
 - the <a href="https://en.wikipedia.org/wiki/G-code">G-code Wikipedia page</a>
 - There are at least 4,457 G-code repos on <a href="https://github.com/search?q=language:G-code">GitHub</a>
+- G-code first developed in <a href="../lists/originCommunities.html#Massachusetts_Institute_of_Technology">Massachusetts Institute of Technology</a>
 - file extensions for G-code include g, cnc, gco, gcode, mpt, mpf and nc
 - The  Google BigQuery Public Dataset GitHub snapshot shows 106 users using G-code in 107 repos on <a href="https://api.github.com/search/repositories?q=language:G-code">GitHub</a>
 - <a href="languages/pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/gcodelexer.py">syntax highlighting</a> for G-code
@@ -56,4 +57,4 @@ pipeTable
  title|titleLink|authors|year|publisher
  CNC LATHE G-CODE & M-CODE ILLUSTRATIVE HANDBOOK|https://isbndb.com/book/9780557648368|Talverdi, Patrick|2010|Lulu.com
 
-keyboardNav erb.html general-algebraic-modeling-system.html
+keyboardNav erb.html bicep.html
