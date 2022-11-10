@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/csp.pldb
  
 
 kpiTable
- #255 <span title="TotalRank: 634 Jobs: 102 Users: 427 Facts: 528 Links: 105">on PLDB</span>
+ #256 <span title="TotalRank: 635 Jobs: 102 Users: 428 Facts: 514 Links: 105">on PLDB</span>
  44 Years Old
  1.4k <span title="Crude user estimate from a linear model.">Users</span>
  7 <span title="Books about or leveraging CSP">Books</span>
@@ -23,6 +23,7 @@ monacoEditor csp
 * In computer science, communicating sequential processes (CSP) is a formal language for describing patterns of interaction in concurrent systems. It is a member of the family of mathematical theories of concurrency known as process algebras, or process calculi, based on message passing via channels. CSP was highly influential in the design of the occam programming language, and also influenced the design of programming languages such as Limbo, RaftLib, Go, Crystal, and Clojure's core.async. <a href="https://en.wikipedia.org/wiki/Communicating_sequential_processes">Read more on Wikipedia...</a>
 
 - the <a href="https://en.wikipedia.org/wiki/Communicating_sequential_processes">CSP Wikipedia page</a>
+- the <a href="https://aiochan.readthedocs.io/en/latest/csp.html">CSP docs</a>
 - CSP first developed in <a href="../lists/originCommunities.html#Oxford_University">Oxford University</a>
 - CSP is listed on <a href="https://hopl.info/showlanguage.prx?exp=795">HOPL</a>
 - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/csp">package</a> for syntax highlighting CSP
@@ -80,4 +81,4 @@ pipeTable
  Tools for teaching CCRs, monitors, and CSP concurrent programming concepts|https://www.semanticscholar.org/paper/bf4178c1fa36ea3d87ede0d1960c41582c1670b1|R. Olsson and Carole M. McNamee|1995|1|0
  CSP for Parallelising Brzozowski's DFA Construction Algorithm|https://www.semanticscholar.org/paper/528fadf6dff50aef434ed6a4d2ff4f884d9830ef|Tinus Strauss and B. Watson and D. Kourie and L. Cleophas|2017|1|0
 
-keyboardNav whitespace.html mariadb.html
+keyboardNav api-blueprint.html mariadb.html

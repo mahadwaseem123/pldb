@@ -54,4 +54,4 @@ code
   &lt;rule-name&gt;      ::= &lt;letter&gt; | &lt;rule-name&gt; &lt;rule-char&gt;
   &lt;rule-char&gt;      ::= &lt;letter&gt; | &lt;digit&gt; | &quot;-&quot;
 
-keyboardNav pharo.html bbc-basic.html
+keyboardNav blitzplus.html alice.html

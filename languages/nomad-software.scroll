@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/nomad-sof
  
 
 kpiTable
- #1910 <span title="TotalRank: 2396 Jobs: 102 Users: 1341 Facts: 1627 Links: 953">on PLDB</span>
+ #1903 <span title="TotalRank: 2398 Jobs: 102 Users: 1343 Facts: 1633 Links: 953">on PLDB</span>
  46 Years Old
  115 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging Nomad software">Books</span>
@@ -32,4 +32,4 @@ exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/Nomad_soft
 code
  CHANGE ALL SALARY=SALARY*1.06 WHERE POSITION=&#39;ENG&#39; AND AVG(INSTANCE(RATING)) GE 7
 
-keyboardNav spip.html scriptbasic.html
+keyboardNav spip.html basicode.html

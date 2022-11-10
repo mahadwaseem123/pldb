@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/plpgsql.p
  
 
 kpiTable
- #263 <span title="TotalRank: 648 Jobs: 102 Users: 724 Facts: 383 Links: 163">on PLDB</span>
+ #260 <span title="TotalRank: 641 Jobs: 102 Users: 725 Facts: 376 Links: 163">on PLDB</span>
  24 Years Old
  490 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging PL/pgSQL">Books</span>
@@ -21,6 +21,7 @@ kpiTable
 * PL/pgSQL (Procedural Language/PostgreSQL) is a procedural programming language supported by the PostgreSQL ORDBMS.  It closely resembles Oracle's PL/SQL language. Implemented by Jan Wieck, PL/pgSQL first appeared with PostgreSQL 6.4, released on October 30, 1998. <a href="https://en.wikipedia.org/wiki/PL/pgSQL">Read more on Wikipedia...</a>
 
 - the <a href="https://en.wikipedia.org/wiki/PL/pgSQL">PL/pgSQL Wikipedia page</a>
+- the <a href="https://www.postgresql.org/docs/current/plpgsql.html">PL/pgSQL docs</a>
 - There are at least 24,919 PL/pgSQL repos on <a href="https://github.com/search?q=language:PLpgSQL">GitHub</a>
 - file extensions for PL/pgSQL include pgsql and sql
 - The  Google BigQuery Public Dataset GitHub snapshot shows 8k users using PL/pgSQL in 9k repos on <a href="https://api.github.com/search/repositories?q=language:PLpgSQL">GitHub</a>
@@ -103,4 +104,4 @@ treeTable
   Example
   Token 
 
-keyboardNav self.html odin.html
+keyboardNav self.html deno.html

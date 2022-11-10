@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/restructu
  
 
 kpiTable
- #257 <span title="TotalRank: 638 Jobs: 102 Users: 508 Facts: 265 Links: 271">on PLDB</span>
+ #258 <span title="TotalRank: 635 Jobs: 102 Users: 509 Facts: 262 Links: 271">on PLDB</span>
  20 Years Old
  1.0k <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging reStructuredText">Books</span>
@@ -27,6 +27,7 @@ monacoEditor restructuredtext
 * reStructuredText (sometimes abbreviated as RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation. It is part of the Docutils project of the Python Doc-SIG (Documentation Special Interest Group), aimed at creating a set of tools for Python similar to Javadoc for Java or POD for Perl. Docutils can extract comments and information from Python programs, and format them into various forms of program documentation. <a href="https://en.wikipedia.org/wiki/ReStructuredText">Read more on Wikipedia...</a>
 
 - the <a href="https://en.wikipedia.org/wiki/ReStructuredText">reStructuredText Wikipedia page</a>
+- the <a href="https://docutils.sourceforge.io/rst.html">reStructuredText docs</a>
 - There are at least 31 reStructuredText repos on <a href="https://github.com/search?q=language:reStructuredText">GitHub</a>
 - file extensions for reStructuredText include rst, rest, resttxt and rsttxt
 - There is a <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/restructuredtext">package</a> for syntax highlighting reStructuredText
@@ -117,4 +118,4 @@ treeTable
   Example
   Token 
 
-keyboardNav mariadb.html api-blueprint.html
+keyboardNav mariadb.html self.html

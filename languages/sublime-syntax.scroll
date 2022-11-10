@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/sublime-s
  
 
 kpiTable
- #1542 <span title="TotalRank: 2038 Jobs: 102 Users: 2338 Facts: 1548 Links: 388">on PLDB</span>
+ #1544 <span title="TotalRank: 2042 Jobs: 102 Users: 2341 Facts: 1552 Links: 388">on PLDB</span>
  14 Years Old
  0 <span title="Books about or leveraging Sublime Syntax">Books</span>
  0 <span title="Academic publications about or leveraging Sublime Syntax">Papers</span>
@@ -40,4 +40,4 @@ code
      - match: \b(if|else|for|while)\b
        scope: keyword.control.c
 
-keyboardNav rpl-lang.html sac-programming-language.html
+keyboardNav sac-programming-language.html janus-lang.html

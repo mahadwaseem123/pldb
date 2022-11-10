@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/forth.pld
  
 
 kpiTable
- #117 <span title="TotalRank: 351 Jobs: 102 Users: 265 Facts: 188 Links: 61">on PLDB</span>
+ #116 <span title="TotalRank: 347 Jobs: 102 Users: 265 Facts: 184 Links: 61">on PLDB</span>
  52 Years Old
  3.2k <span title="Crude user estimate from a linear model.">Users</span>
  7 <span title="Books about or leveraging Forth">Books</span>
@@ -25,6 +25,7 @@ kpiTable
 - the <a href="https://en.wikipedia.org/wiki/Forth_(programming_language)">Forth Wikipedia page</a>
 - the <a href="https://www.forth.com/starting-forth/">Forth docs</a>
 - There are at least 1,537 Forth repos on <a href="https://github.com/search?q=language:Forth">GitHub</a>
+- Forth first developed in <a href="../lists/originCommunities.html#National_Radio_Astronomy_Observatory">National Radio Astronomy Observatory</a>
 - file extensions for Forth include fth, 4th, f, for, forth, fr, frt and fs
 - The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using Forth in 2k repos on <a href="https://api.github.com/search/repositories?q=language:Forth">GitHub</a>
 - There are 63 <a href="https://projecteuler.net/language=Forth">Project Euler</a> users using Forth
@@ -176,4 +177,4 @@ pipeTable
  Real-time multi-task simulation in Forth|https://www.semanticscholar.org/paper/2b7027db923cc7f75683733021204e0e5361a2c7|S. Baranov|2016|2|0
  The FORTH Programming Language for Control Systems: Potential Advantages|https://www.semanticscholar.org/paper/ff662aa6d90c57a82096bec9062d649895ec9965|C. McCurdy|1987|1|0
 
-keyboardNav purebasic.html antlr.html
+keyboardNav lfe.html purebasic.html
