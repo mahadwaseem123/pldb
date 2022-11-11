@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/metal.pld
  
 
 kpiTable
- #288 on PLDB
+ #289 on PLDB
  8 Years Old
  2.6k <span title="Crude user estimate from a linear model.">Users</span>
  79 <span title="Metal repos on GitHub.">Repos</span>
@@ -132,4 +132,4 @@ code
      if (locId_new &gt;= 0) forwardProjection[locId_new] = pixel;
  }
 
-keyboardNav d3.html numpy.html
+keyboardNav numpy.html api-blueprint.html

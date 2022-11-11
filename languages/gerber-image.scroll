@@ -11,13 +11,14 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/gerber-im
  
 
 kpiTable
- #523 on PLDB
+ #525 on PLDB
  42 Years Old
  1.6k <span title="Crude user estimate from a linear model.">Users</span>
 
 * The Gerber format is an open ASCII vector format for 2D binary images. It is the de facto standard used by printed circuit board (PCB) industry software to describe the printed circuit board images: copper layers, solder mask, legend, etc.Gerber is used in PCB fabrication data. PCBs are designed on a specialized electronic design automation (EDA) or a computer-aided design (CAD) system. <a href="https://en.wikipedia.org/wiki/Gerber_format">Read more on Wikipedia...</a>
 
 - the <a href="https://en.wikipedia.org/wiki/Gerber_format">Gerber Image Wikipedia page</a>
+- Gerber Image first developed in <a href="../lists/originCommunities.html#Ucamco">Ucamco</a>
 - file extensions for Gerber Image include gbr, cmp, gbl, gbo, gbp, gbs, gko, gml, gpb, gpt, gtl, gto, gtp, gts, ncl and sol
 - GitHub supports <a href="https://github.com/Alhadis/language-pcb" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Gerber Image
 - See also: (1 related languages)<a href="ascii.html">ASCII</a>
@@ -55,4 +56,4 @@ code
  X1785250Y2173980D03*
  M02*
 
-keyboardNav enso.html gosu.html
+keyboardNav enso.html curry.html

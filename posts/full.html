@@ -49,6 +49,100 @@
    <a href="full.html">PLDB: A Programming Language Database</a>
 </h1>
   <div class="scrollGroupPageComponent" style="column-width:35ch;">
+   <div class="scrollGroupPageFileContainerComponent"><h1 class="scrollTitleComponent"><a href="scottFalhmanInterview.html">A Brief Interview with Common Lisp creator Dr. Scott Fahlman</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="scrollKeyboardNav"><a href="hello-world.html">hello-world.html</a> · scottFalhmanInterview.html · <a href="originCountries11-3-2022.html">originCountries11-3-2022.html</a><script>document.addEventListener('keydown', function(event) {
+  if (document.activeElement !== document.body) return
+  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
+  if (event.key === "ArrowLeft")
+    getLinks()[0].click()
+  else if (event.key === "ArrowRight")
+    getLinks()[1].click()
+ });</script></div>
+
+
+
+
+
+
+
+<div class="scrollAuthor">by <a href="https://github.com/hassamalhajaji">Hassam Alhajaji</a></div>
+
+<h4 class="scrollSectionComponent">Introduction</h4>
+
+<p class="scrollParagraphComponent"><span class="scrollDateComponent">November 11, 2022 — </span><a href="https://www.cs.cmu.edu/~sef/">Dr. Scott Fahlman</a> is a Professor Emeritus in the Carnegie Mellon’s School of Computer Science. He is a computer programming language connoisseur and the original neural network jedi master. He was one of the core developers of the <a href="https://pldb.com/languages/common-lisp.html">Common Lisp Language</a> and his current work includes Artificial Intelligence. Dr Fahlman is as notably kind as he is a humble scientist. Befittingly, he is the originator of the internet's first emoticon, sideway smile :-)</p>
+
+<h4 class="scrollSectionComponent">Interview</h4>
+
+<p class="scrollParagraphComponent"><strong>Hassam:</strong> Are there any neat ideas from Lisp that have yet to go mainstream?</p>
+
+<p class="scrollParagraphComponent"><strong>Dr. Fahlman:</strong> It took a long time for Lisp's automatic storage allocation and <a href="https://pldb.com/languages/garbage-collection-feature.html">garbage collection</a> to go mainstream.  This is more than "neat", it eliminates a whole class of bugs that are among the most subtle and difficult to find and fix.  But people resisted this as being too inefficient until <a href="https://pldb.com/languages/java.html">Java</a> came along and made the idea more mainstream.</p>
+
+<p class="scrollParagraphComponent">The other "neat" idea -- still not "mainstream", as far as I know -- is to <a href="https://pldb.com/languages/homoiconic-feature.html">represent programs as the same kind of objects that the system is good at manipulating</a>: linked lisps, in the case of Lisp.  The transformation from text to list-structured representations is trivial (that's why Lisp programs have some many parentheses), and you can run that code directly in an interpreter or compiler it on the fly into fast, efficient machine code.</p>
+
+<p class="scrollParagraphComponent">This makes it possible for Lisp to have a very powerful and flexible <a href="https://pldb.com/languages/macros-feature.html">macro</a> system, in which programs can easily transform expressions from some surface form to a different internal form.  That, in turn, makes Lisp an excellent tool for implementing more specialized languages, with user interfaces that make sense in that domain.  Most of the major packages in Common Lisp started out as macro packages, and then the popular ones made it into the language spec:  the complex version of LOOP, the complex FORMAT statement, even the <a href="https://pldb.com/languages/clos.html">Common Lisp Object System</a>.</p>
+
+<p class="scrollParagraphComponent"><strong>Hassam:</strong> When you were making programming languages what references did you use?</p>
+
+<p class="scrollParagraphComponent"><strong>Dr Fahlman:</strong> I used Maclisp for my grad-school years at the MIT-AI lab (1969-1977), and we had some nice documentation for that.  And also the code for the system itself.  Or I could go down the hall and talk to the people who had built that system.  I briefly used a Symbolics Lisp Machine, and it had good documentation as well.  The Sussman and Abelson book, Structure and Interpretation of Computer Programs, came along later, and was a good intro to the kind of thinking that went into Lisp and the simplified <a href="https://pldb.com/languages/scheme.html">Scheme</a> dialect of Lisp.</p>
+
+<p class="scrollParagraphComponent">I was part of the  core design team for Common Lisp (the so-called "Gang of Five") that designed Common Lisp, drawing from all the existing Lisp dialects, trying to find a combination of features that some of us liked and that we all could live with.  (DARPA had decreed that they were no longer going to fund the development of many Lisp dialects, so we all had to settle on a "common" one to use going forward.)  We had a long design process within the various branches of the Lisp community of the day, and we had access to the code and documents of most of those existing systems. <a href="https://pldb.com/lists/creators.html#Guy_Steele">Guy Steele</a> moderated that discussion for a while, and then I took over as moderator.</p>
+
+<p class="scrollParagraphComponent">The resulting specification was written down by Guy Steele, with help from me and a lot of others, and that defined the language:  Common Lisp, The Language (Second Edition), known as "CLtL".  There was also a formal specification, formulated by the X3J15 committee under the ANSI standards body.</p>
+
+<p class="scrollParagraphComponent">But neither of those documents were meant to be a tutorial or to be very user-friendly.  For people wanting to learn Common Lisp, I recommend "Practical Common Lisp" by Peter Seibel, and also keep the Common Lisp Hyperspec handy for specific questions: <a href="https://www.lispworks.com/documentation/HyperSpec/Front/index.htm">www.lispworks.com/documentation/HyperSpec/Front/index.htm</a>.  There are open-source implementations of <a href="https://pldb.com/languages/cmu-common-lisp.html">CMU Common Lisp</a> and <a href="https://pldb.com/languages/sbcl.html">Steel Bank Common Lisp</a> out on the web.</p>
+
+<p class="scrollParagraphComponent">In designing Common Lisp, it was all politics.  A lot of fairly ugly compromises were required to keep one group or another from walking away.  So, while I am overall proud of the result, and it is still the language I use when I have a choice, it lacks the elegance of a language designed by a single person with a single vision.  We teamed with a group from Apple to design <a href="https://pldb.com/languages/dylan.html">Dylan</a> as a worthy Common Lisp successor, but that was during the time in the 1990's when Jobs was gone and Apple was struggling to survive.  So first they ruined the initially-beautiful design, and then they shut down the project and the Apple lab in Cambridge MA that was working on this.</p>
+
+<p class="scrollParagraphComponent"><strong>Hassam:</strong> What would be your advice to young people today who want to get into the field of designing programming languages?</p>
+
+<p class="scrollParagraphComponent"><strong>Dr Fahlman:</strong> Don't!  Unless you like to do this as a hobby.  What I came to understand, after years of work on Common Lisp and the death of Dylan, the ongoing popularity of the hideous <a href="https://pldb.com/languages/cpp.html">C++</a>, and the rise of Java, is that programming languages don't become mainstream based on their elegance or their deep utility.  For any given project, the best programming language to use is the one everyone else is using for that kind of programming at that time.  It doesn't have to be the language that is best or most beautiful, and it hardly ever is.  As long as the currently-dominant language is adequate to the task without TOO many infuriating shortcomings, just use it.  You'll be able to hire programmers, get support, have the latest libraries, and so on.</p>
+
+<p class="scrollParagraphComponent">So the best languages very rarely take over, if ever.  Some language starts being used because it has the backing of some big company or project, people doing similar things use it as well, positive feedback sets in, and soon it is the language everyone is using.  Java is an example -- not nearly as good as Lisp on many dimensions, but it appeared at the right time for a language with some good properties for creating downloadable Internet apps.  And it had the backing of Sun Microsystems, at a time when Sun was powerful.  So Java became mainstream, while Common Lisp and Dylan faded away.  The programming language formalists at CMU, who prefer languages like <a href="https://pldb.com/languages/ml.html">ML</a>, are constantly disappointed that nobody ever chooses to write programs in them.</p>
+
+<p class="scrollParagraphComponent">So, in the mid-1990s, I decided that I was not longer going to put effort into building programming languages and tools, when the choice of which languages became popular was essentially a lottery.  Since then, my focus has been on AI research, and part of that involves the design of planning systems that (maybe) can eliminate the need for most programming.  You tell them what you want, as you might describe it to a smart grad student, they maybe ask some clarification questions, and then they go do it.  That only works if they know enough about the world and have enough "common sense" to avoid blunders.  I still use Common Lisp for developing my AI implementations, but if there is commercial interest I can translate the code into <a href="https://pldb.com/languages/python.html">Python</a> or whatever, or hire someone to do this.</p>
+
+<figure class="scrollImageComponent"><a href="images/scottFahlman.webp" target="_blank"><img src="images/scottFahlman.webp" width="1440" height="807" loading="lazy"/></a><figcaption><p class="scrollParagraphComponent">Thank you for your time Dr. Fahlman! :-)</p></figcaption></figure>
+<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/posts/scottFalhmanInterview.scroll">View source</a></p></div>
    <div class="scrollGroupPageFileContainerComponent"><h1 class="scrollTitleComponent"><a href="originCountries11-3-2022.html">Where are the most programming languages created?</a></h1>
 
 
@@ -90,7 +184,7 @@
 
 
 
-<div class="scrollKeyboardNav"><a href="hello-world.html">hello-world.html</a> · originCountries11-3-2022.html · <a href="originCountries.html">originCountries.html</a><script>document.addEventListener('keydown', function(event) {
+<div class="scrollKeyboardNav"><a href="scottFalhmanInterview.html">scottFalhmanInterview.html</a> · originCountries11-3-2022.html · <a href="number-of-programming-languages.html">number-of-programming-languages.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return
   const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
   if (event.key === "ArrowLeft")
@@ -118,70 +212,11 @@
 <p class="scrollParagraphComponent">You can export the data using this Ohayo script:</p>
 
 <div class="scrollQuoteComponent">Analyze this data yourself in <a href="https://ohayo.computer?filename=originCountries11-3-2022.html.ohayo&data=html.h1%20Which%20countries%20produce%20the%20most%20programming%20languages%3F%0Aweb.get%20https%3A%2F%2Fpldb.com%2Fpldb.csv%0A%20hidden%0A%20filter.where%20country%20%3E%20%0A%20%20show.rowCount%0A%20%20group.by%20country%0A%20%20%20hidden%0A%20%20%20vega.bar">Ohayo</a></div>
-<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/posts/originCountries11-3-2022.scroll">View source</a></p></div>
-   <div class="scrollGroupPageFileContainerComponent"><h1 class="scrollTitleComponent"><a href="originCountries.html">Where are the most programming languages created?</a></h1>
 
+<h4 class="scrollSectionComponent">Previous posts in this series</h4>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="scrollKeyboardNav"><a href="originCountries11-3-2022.html">originCountries11-3-2022.html</a> · originCountries.html · <a href="number-of-programming-languages.html">number-of-programming-languages.html</a><script>document.addEventListener('keydown', function(event) {
-  if (document.activeElement !== document.body) return
-  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
-  if (event.key === "ArrowLeft")
-    getLinks()[0].click()
-  else if (event.key === "ArrowRight")
-    getLinks()[1].click()
- });</script></div>
-
-
-
-
-
-
-
-<div class="scrollAuthor">by <a href="https://github.com/breck7">Breck Yunits</a></div>
-
-<p class="scrollParagraphComponent"><span class="scrollDateComponent">September 3, 2022 — </span></p>
-
-<figure class="scrollImageComponent"><a href="images/originCountries.svg" target="_blank"><img src="images/originCountries.svg" width="850" height="600" loading="lazy"/></a><figcaption><p class="scrollParagraphComponent">The above SVG is also available as a png.</p></figcaption></figure>
-
-<p class="scrollParagraphComponent">The <a href="explorers/originCountries.explorer">code</a> for the visualization above was written in the <a href="../languages/explorer.html">Explorer language</a>.</p><p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/posts/originCountries.scroll">View source</a></p></div>
+<br><ul><li><a href="originCountries.html">September 3, 2022</a></li>
+<li><a href="which-countries-produce-the-most-programming-languages.html">October 31, 2018</a></li></ul><p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/posts/originCountries11-3-2022.scroll">View source</a></p></div>
    <div class="scrollGroupPageFileContainerComponent"><h1 class="scrollTitleComponent"><a href="number-of-programming-languages.html">What is the growth in programming languages over time?</a></h1>
 
 
@@ -223,7 +258,7 @@
 
 
 
-<div class="scrollKeyboardNav"><a href="originCountries.html">originCountries.html</a> · number-of-programming-languages.html · <a href="languages-of-the-year-1972-2022.html">languages-of-the-year-1972-2022.html</a><script>document.addEventListener('keydown', function(event) {
+<div class="scrollKeyboardNav"><a href="originCountries11-3-2022.html">originCountries11-3-2022.html</a> · number-of-programming-languages.html · <a href="languages-of-the-year-1972-2022.html">languages-of-the-year-1972-2022.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return
   const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
   if (event.key === "ArrowLeft")
@@ -2514,7 +2549,7 @@ year will see a lot of growth in number of posts!</p>
 
 
 
-<div class="scrollKeyboardNav"><a href="hello-world-year-2.html">hello-world-year-2.html</a> · when-did-github-become-the-place-to-create-new-programming-languages.html · <a href="which-countries-produce-the-most-programming-languages.html">which-countries-produce-the-most-programming-languages.html</a><script>document.addEventListener('keydown', function(event) {
+<div class="scrollKeyboardNav"><a href="hello-world-year-2.html">hello-world-year-2.html</a> · when-did-github-become-the-place-to-create-new-programming-languages.html · <a href="what-letter-should-your-language-start-with.html">what-letter-should-your-language-start-with.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return
   const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
   if (event.key === "ArrowLeft")
@@ -2909,147 +2944,6 @@ languages to the database, as always.</p>
 
 <div class="scrollQuoteComponent">Analyze this data yourself in <a href="https://ohayo.computer?filename=when-did-github-become-the-place-to-create-new-programming-languages.html.ohayo&data=html.h1%20When%20did%20GitHub%20become%20the%20place%20to%20host%20new%20programming%20language%20projects%3F%0Aweb.get%20https%3A%2F%2Fpldb.com%2Fpldb.csv%0A%20filter.where%20appeared%20%3E%201950%0A%20%20columns.setType%20githubRepo%20boolean%0A%20%20%20columns.setType%20appeared%20year%0A%20%20%20%20rows.sortBy%20appeared%0A%20%20%20%20%20group.by%20appeared%20githubRepo%0A%20%20%20%20%20%20vega.bar%0A%20%20%20%20%20%20%20colorColumn%20githubRepo%0A%20%20%20%20%20%20%20yColumn%20count">Ohayo</a></div>
 <p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/posts/when-did-github-become-the-place-to-create-new-programming-languages.scroll">View source</a></p></div>
-   <div class="scrollGroupPageFileContainerComponent"><h1 class="scrollTitleComponent"><a href="which-countries-produce-the-most-programming-languages.html">Which countries produce the most programming languages?</a></h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="scrollKeyboardNav"><a href="when-did-github-become-the-place-to-create-new-programming-languages.html">when-did-github-become-the-place-to-create-new-programming-languages.html</a> · which-countries-produce-the-most-programming-languages.html · <a href="what-letter-should-your-language-start-with.html">what-letter-should-your-language-start-with.html</a><script>document.addEventListener('keydown', function(event) {
-  if (document.activeElement !== document.body) return
-  const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
-  if (event.key === "ArrowLeft")
-    getLinks()[0].click()
-  else if (event.key === "ArrowRight")
-    getLinks()[1].click()
- });</script></div>
-
-
-
-
-<div class="scrollAuthor">by <a href="https://github.com/breck7">Breck Yunits</a></div>
-
-<p class="scrollParagraphComponent"><span class="scrollDateComponent">October 31, 2018 — </span>Each programming language was created in a place (or perhaps, in a set of distributed places) and I am attempting to collect that data.</p>
-
-<p class="scrollParagraphComponent">Currently I have the country of birth for about 260 of the over 1,000 languages I track.</p>
-
-<p class="scrollParagraphComponent">In my data so far, the US has birthed more languages than all other countries combined.</p>
-
-<p class="scrollParagraphComponent">After the U.S. comes the UK, Canada, France, and China, in that order.</p>
-
-<p class="scrollParagraphComponent">There could be bias in my dataset, of course, as I haven't yet added country for most languages. Things will clarify as the database continues to mature.</p>
-
-<figure class="scrollImageComponent"><a href="images/countries.png" target="_blank"><img src="images/countries.png" width="787" height="446" loading="lazy"/></a></figure>
-
-
-
-<p class="scrollParagraphComponent">Data used for this chart:</p>
-
-<table class="scrollTableComponent"><thead><tr><th>country</th>
-
-<th>count</th>
-</tr></thead>
-<tbody><tr><td>AU</td>
-<td>2</td>
-</tr>
-<tr><td>BE</td>
-<td>1</td>
-</tr>
-<tr><td>BR</td>
-<td>1</td>
-</tr>
-<tr><td>CA</td>
-<td>12</td>
-</tr>
-<tr><td>CH</td>
-<td>9</td>
-</tr>
-<tr><td>DE</td>
-<td>6</td>
-</tr>
-<tr><td>DK</td>
-<td>1</td>
-</tr>
-<tr><td>FR</td>
-<td>11</td>
-</tr>
-<tr><td>GB</td>
-<td>23</td>
-</tr>
-<tr><td>IS</td>
-<td>1</td>
-</tr>
-<tr><td>IT</td>
-<td>2</td>
-</tr>
-<tr><td>JP</td>
-<td>4</td>
-</tr>
-<tr><td>KR</td>
-<td>1</td>
-</tr>
-<tr><td>NG</td>
-<td>1</td>
-</tr>
-<tr><td>NL</td>
-<td>4</td>
-</tr>
-<tr><td>NO</td>
-<td>4</td>
-</tr>
-<tr><td>PL</td>
-<td>1</td>
-</tr>
-<tr><td>PT</td>
-<td>1</td>
-</tr>
-<tr><td>RU</td>
-<td>4</td>
-</tr>
-<tr><td>SE</td>
-<td>4</td>
-</tr>
-<tr><td>US</td>
-<td>167</td>
-</tr></tbody></table>
-
-<div class="scrollQuoteComponent">Analyze this data yourself in <a href="https://ohayo.computer?filename=which-countries-produce-the-most-programming-languages.html.ohayo&data=html.h1%20Which%20countries%20produce%20the%20most%20programming%20languages%3F%0Aweb.get%20https%3A%2F%2Fpldb.com%2Fpldb.csv%0A%20hidden%0A%20filter.where%20country%20%3E%20%0A%20%20group.by%20country%0A%20%20%20hidden%0A%20%20%20vega.bar">Ohayo</a></div>
-<p class="scrollFileViewSourceUrlComponent"><a href="https://github.com/breck7/pldb/blob/main/site/posts/which-countries-produce-the-most-programming-languages.scroll">View source</a></p></div>
    <div class="scrollGroupPageFileContainerComponent"><h1 class="scrollTitleComponent"><a href="what-letter-should-your-language-start-with.html">What letters do programming languages start with?</a></h1>
 
 
@@ -3091,7 +2985,7 @@ languages to the database, as always.</p>
 
 
 
-<div class="scrollKeyboardNav"><a href="which-countries-produce-the-most-programming-languages.html">which-countries-produce-the-most-programming-languages.html</a> · what-letter-should-your-language-start-with.html · <a href="what-is-the-growth-in-programming-languages-over-time.html">what-is-the-growth-in-programming-languages-over-time.html</a><script>document.addEventListener('keydown', function(event) {
+<div class="scrollKeyboardNav"><a href="when-did-github-become-the-place-to-create-new-programming-languages.html">when-did-github-become-the-place-to-create-new-programming-languages.html</a> · what-letter-should-your-language-start-with.html · <a href="what-is-the-growth-in-programming-languages-over-time.html">what-is-the-growth-in-programming-languages-over-time.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return
   const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
   if (event.key === "ArrowLeft")
@@ -4534,7 +4428,7 @@ above.</p>
 
 
 
-<div class="scrollKeyboardNav"><a href="how-many-programming-languages-are-there-in-the-world.html">how-many-programming-languages-are-there-in-the-world.html</a> · hello-world.html · <a href="originCountries11-3-2022.html">originCountries11-3-2022.html</a><script>document.addEventListener('keydown', function(event) {
+<div class="scrollKeyboardNav"><a href="how-many-programming-languages-are-there-in-the-world.html">how-many-programming-languages-are-there-in-the-world.html</a> · hello-world.html · <a href="scottFalhmanInterview.html">scottFalhmanInterview.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return
   const getLinks = () => document.getElementsByClassName("scrollKeyboardNav")[0].getElementsByTagName("a")
   if (event.key === "ArrowLeft")
@@ -4570,8 +4464,8 @@ pattern not on this site, <a href="https://github.com/breck7/pldb/issues/new">op
 </div>
   <div class="pldbFooter">
    <a href="../index.html" class="logoFont">PLDB</a>
-   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit f6b0b10809122916f99608d71008b73fddb77a64" href="https://github.com/breck7/pldb/commit/f6b0b10809122916f99608d71008b73fddb77a64">v2022</a> · </span>
-   <a href="../pages/about.html">Day 74</a>
+   <span>- Build the next great programming language · <a title="This page was built in 2022 from commit b85de005ec5e86ace953d9c09a613b36afd6d355" href="https://github.com/breck7/pldb/commit/b85de005ec5e86ace953d9c09a613b36afd6d355">v2022</a> · </span>
+   <a href="../pages/about.html">Day 75</a>
    <span>·</span>
    <a href="../docs/csv.html">Docs</a>
    <span>·</span>

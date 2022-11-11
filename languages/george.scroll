@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/george.pl
  
 
 kpiTable
- #1640 <span title="TotalRank: 2132 Jobs: 102 Users: 1749 Facts: 1365 Links: 665">on PLDB</span>
+ #1549 <span title="TotalRank: 2045 Jobs: 102 Users: 1750 Facts: 1278 Links: 665">on PLDB</span>
  65 Years Old
  55 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging GEORGE">Books</span>
@@ -20,6 +20,7 @@ kpiTable
 * GEORGE is a programming language invented by Charles Leonard Hamblin in 1957.It was designed around a push-down pop-up stack for arithmetic operations, and employed reverse Polish notation. The language included loops, subroutines, conditionals, vectors, and matrices. Algebraic expressions were written in reverse Polish notation; thus,                         a         +         b                 {\displaystyle a+b}    was written a b +, and similarly for the other arithmetic operations of subtraction, multiplication, and division. <a href="https://en.wikipedia.org/wiki/GEORGE_(programming_language)">Read more on Wikipedia...</a>
 
 - the <a href="https://en.wikipedia.org/wiki/GEORGE_(programming_language)">GEORGE Wikipedia page</a>
+- GEORGE first developed in <a href="../lists/originCommunities.html#University_of_New_South_Wales">University of New South Wales</a>
 - Explore GEORGE snippets on <a href="http://www.rosettacode.org/wiki/Category:GEORGE">Rosetta Code</a>
 - GEORGE is listed on <a href="https://hopl.info/showlanguage.prx?exp=20">HOPL</a>
 - See also: (1 related languages)<a href="reverse-polish-notation.html">Reverse Polish notation</a>
@@ -37,4 +38,4 @@ code
  ]
  1, 10 P1 (a)
 
-keyboardNav id.html preferred-executable-format.html
+keyboardNav janus-lang.html coordinate-format.html

@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/slony.pld
  
 
 kpiTable
- #2106 on PLDB
+ #2108 on PLDB
  124 <span title="Crude user estimate from a linear model.">Users</span>
 
 * Slony-I is an asynchronous master-slave replication system for the PostgreSQL DBMS, providing support for cascading and failover. Asynchronous means that when a database transaction has been committed to the master server, it is not yet guaranteed to be available in slaves. Cascading means that replicas can be created (and updated) via other replicas, i.e. <a href="https://en.wikipedia.org/wiki/Slony-I">Read more on Wikipedia...</a>

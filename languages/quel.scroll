@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/quel.pldb
  
 
 kpiTable
- #1235 <span title="TotalRank: 1747 Jobs: 102 Users: 1159 Facts: 1326 Links: 486">on PLDB</span>
+ #1236 <span title="TotalRank: 1748 Jobs: 102 Users: 1160 Facts: 1329 Links: 486">on PLDB</span>
  46 Years Old
  185 <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging QUEL">Books</span>
@@ -38,4 +38,4 @@ exampleCodeHeader Example from <a href='https://en.wikipedia.org/wiki/QUEL_query
 code
  retrieve (a=count(y.i by y.d where y.str = &quot;ii*&quot; or y.str = &quot;foo&quot;),b=max(count(y.i by y.d)))
 
-keyboardNav genero.html algebraic-modeling-language.html
+keyboardNav nwscript.html algebraic-modeling-language.html

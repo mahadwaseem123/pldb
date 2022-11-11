@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/hackett.p
  
 
 kpiTable
- #837 <span title="TotalRank: 1385 Jobs: 102 Users: 462 Facts: 821 Links: 953">on PLDB</span>
+ #840 <span title="TotalRank: 1388 Jobs: 102 Users: 463 Facts: 823 Links: 953">on PLDB</span>
  5 Years Old
  1.2k <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging Hackett">Books</span>
@@ -47,4 +47,4 @@ code
    [show (λ* [[(Just x)] {&quot;(Just &quot; ++ (show x) ++ &quot;)&quot;}]
              [[Nothing ] &quot;Nothing&quot;])])
 
-keyboardNav 1620sps.html scss.html
+keyboardNav souper.html compiler-compiler.html

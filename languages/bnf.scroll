@@ -12,7 +12,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/bnf.pldb
  
 
 kpiTable
- #597 <span title="TotalRank: 1155 Jobs: 102 Users: 309 Facts: 744 Links: 953">on PLDB</span>
+ #598 <span title="TotalRank: 1156 Jobs: 102 Users: 310 Facts: 744 Links: 953">on PLDB</span>
  66 Years Old
  2.5k <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging BNF">Books</span>
@@ -54,4 +54,4 @@ code
   &lt;rule-name&gt;      ::= &lt;letter&gt; | &lt;rule-name&gt; &lt;rule-char&gt;
   &lt;rule-char&gt;      ::= &lt;letter&gt; | &lt;digit&gt; | &quot;-&quot;
 
-keyboardNav pharo.html alice.html
+keyboardNav pharo.html clarion.html

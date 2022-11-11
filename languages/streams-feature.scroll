@@ -19,16 +19,16 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/streams-f
 html
  <br>
 
-* Languages *with* Streams include <a href="elixir.html">Elixir</a>, <a href="nodejs.html">Node.js</a>
-
-exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
-
-code
- https://hexdocs.pm/elixir/Stream.html
+* Languages *with* Streams include <a href="nodejs.html">Node.js</a>, <a href="elixir.html">Elixir</a>
 
 exampleCodeHeader Example from <a href="nodejs.html">Node.js</a>:
 
 code
  const stream = require(&#39;stream&#39;);
+
+exampleCodeHeader Example from <a href="elixir.html">Elixir</a>:
+
+code
+ https://hexdocs.pm/elixir/Stream.html
 
 keyboardNav sets-feature.html structs-feature.html

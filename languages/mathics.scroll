@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/database/things/mathics.p
  
 
 kpiTable
- #804 <span title="TotalRank: 1351 Jobs: 102 Users: 296 Facts: 1192 Links: 953">on PLDB</span>
+ #805 <span title="TotalRank: 1352 Jobs: 102 Users: 297 Facts: 1192 Links: 953">on PLDB</span>
  10 Years Old
  2.7k <span title="Crude user estimate from a linear model.">Users</span>
  0 <span title="Books about or leveraging mathics">Books</span>
@@ -35,4 +35,4 @@ exampleCodeHeader Example from the web:
 code
  StringJoin[Riffle[Map[ToString, Table[Fibonacci[i], {i,16}]], &quot;, &quot;]] &lt;&gt; &quot;...&quot;
 
-keyboardNav vigil.html hyperscript.html
+keyboardNav vigil.html gcc-machine-description.html
